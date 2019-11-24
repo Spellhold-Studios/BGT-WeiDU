@@ -1,0 +1,998 @@
+@800000 = ~Encontrar el libro perdido de Phlydia.
+
+~
+@800001 = ~Conseguir el pergamino de identificación de Gotafuego Pelodelfo.
+
+~
+@800002 = ~Encontrar un antídoto para Dreppin.
+
+~
+@800003 = ~Limpiar el almacén infestado de ratas.
+
+~
+@800004 = ~Recuperar la espada de Hull en los barracones.
+
+~
+@800005 = ~Entregar un puñado de virotes a Fuller.
+
+~
+@800006 = ~Encontrar el anillo de danza flamígera de Joia.
+
+~
+@800007 = ~Encontrar el cinturón de perforación de Unshey.
+
+~
+@800008 = ~Arañas, botas y vino.
+
+~
+@800009 = ~Una familia de zombis.
+
+~
+@800010 = ~Encontrar la famosa capa de Gurke.
+
+~
+@800011 = ~Una deuda con un viejo amigo.
+
+~
+@800012 = ~Las botas de Zhurlong.
+
+~
+@800013 = ~Una estampida de semiogros.
+
+~
+@800014 = ~Un ankheg afortunado.
+
+~
+@800015 = ~De bobo a bardo, o de bobo a bobo.
+
+~
+@800016 = ~En busca de noticias del marido de Mirianne. 
+
+~
+@800017 = ~Recuperar la espada de Perdue.
+
+~
+@800018 = ~El hijo de Entar Escudo de Plata.
+
+~
+@800019 = ~En busca de cabelleras de bandidos.
+
+~
+@800020 = ~La maldición del capitán Brage.
+
+~
+@800021 = ~Prism, el ladrón de esmeraldas.
+
+~
+@800022 = ~Rescatar a Dynaheir de la fortaleza gnoll.
+
+~
+@800023 = ~Magos entrometidos.
+
+~
+@800024 = ~Investigar las minas de Nashkel.
+
+~
+@800025 = ~Encontrar a Joseph en las minas.
+
+~
+@800026 = ~Devolver la daga de Kylee.
+
+~
+@800027 = ~Encontrar a Nathan, el hijo del granjero Brun.
+
+~
+@800028 = ~Controlar la población de ankhegs.
+
+~
+@800029 = ~La sacerdotisa de Úmberli.
+
+~
+@800030 = ~Catástrofe ankheg.
+
+~
+@800031 = ~Cazando a los druidas.
+
+~
+@800032 = ~Encontrar a Chelak.
+
+~
+@800033 = ~El "secuestro" de Skie.
+
+~
+@800034 = ~Investigar a los miembros de los Siete Soles.
+
+~
+@800035 = ~Investigar las misteriosas desapariciones de ciudadanos.
+
+~
+@800036 = ~Investigar al Trono de Hierro.
+
+~
+@800037 = ~Encontrar el pergamino de sabiduría.
+
+~
+@800038 = ~Rescatar al gato de Drienne.
+
+~
+@800039 = ~Proteger el árbol de la dríada de los Picos Nublados.
+
+~
+@800040 = ~Perro maldito.
+
+~
+@800041 = ~Desertor del Puño Llameante.
+
+~
+@800042 = ~Robar el manto de Algernon.
+
+~
+@800043 = ~Cosas de gemelas.
+
+~
+@800044 = ~Las pertenencias de Balduran.
+
+~
+@800045 = ~Historia del Arroyo del Unicornio.
+
+~
+@800046 = ~Ghorak el enfermo.
+
+~
+@800047 = ~Por la belleza.
+
+~
+@800048 = ~Intriga con un gato.
+
+~
+@800049 = ~Los actos malvados se castigan.
+
+~
+@800050 = ~La maldición de Yago.
+
+~
+@800051 = ~Matar a Sarevok.
+
+~
+@800052 = ~El nuevo Duque.
+
+~
+@800053 = ~El asesinato de Scar.
+
+~
+@800054 = ~Volver a investigar al Trono de Hierro.
+
+~
+@800055 = ~Investigar al sanador del Duque Eltan, Rashad.
+
+~
+@800056 = ~Fin del juego.
+
+~
+@800057 = ~Investigar el cuartel del Puño Llameante.
+
+~
+@800058 = ~Precio a mi cabeza.
+
+~
+@800059 = ~La guerra inminente.
+
+~
+@800060 = ~Encontrar un antídoto para el veneno.
+
+~
+@800061 = ~¡Cienos!
+
+~
+@800062 = ~Rescatar al hijo de Tremain.
+
+~
+@800063 = ~Euric el fugitivo.
+
+~
+@800064 = ~Deudas de sangre.
+
+~
+@800065 = ~Deudas de sangre: Ordulinian.
+
+~
+@800066 = ~Deudas de sangre: Nemphre.
+
+~
+@800067 = ~Deudas de sangre: Arkion.
+
+~
+@800068 = ~Robando por los alrededores.
+
+~
+@800069 = ~Un trabajo para Alatos.
+
+~
+@800070 = ~Matar a Cyrdemac.
+
+~
+@800071 = ~Robar un telescopio.
+
+~
+@800072 = ~Investigar el edificio del Consorcio Mercantil.
+
+~
+@800073 = ~Amor de piel de ángel.
+
+~
+@800074 = ~Los guanteletes de Noralee.
+
+~
+@800075 = ~La intrusión de las sirinas.
+
+~
+@800076 = ~Basilisco solitario.
+
+~
+@800077 = ~Encontrar una gema de titanita.
+
+~
+@800078 = ~Revelaciones místicas.
+
+~
+@800079 = ~Tesoro escondido.
+
+~
+@800080 = ~Algunas chucherías.
+
+~
+@800081 = ~Worgs salvajes y campesinos.
+
+~
+@800082 = ~La escasez de hierro.
+
+~
+@800083 = ~El OSO.
+
+~
+@800084 = ~¡Bandidos!
+
+~
+@800085 = ~Un pollo parlante.
+
+~
+@800086 = ~¡Emboscada! ¡Y cogidos por sorpresa!
+
+~
+@800087 = ~Farfullar con algunos farfulleros.
+
+~
+@800088 = ~Inundar las minas del Bosque de las Capas.
+
+~
+@800089 = ~El problema de un ogro.
+
+~
+@800090 = ~Un guerrero petrificado.
+
+~
+@800091 = ~Investigar las ruinas de Ulcaster.
+
+~
+@800092 = ~Infestación de zombis.
+
+~
+@800093 = ~Un caballero fantasma perdido.
+
+~
+@800094 = ~¿Asalto al ganado desde las minas de Nashkel?
+
+~
+@800095 = ~Se buscan pieles de lobo.
+
+~
+@800096 = ~Excavación arqueológica.
+
+~
+@800097 = ~Sabotear la excavación arqueológica.
+
+~
+@800098 = ~Investigar las ruinas de Vinoardiente.
+
+~
+@800099 = ~Caza de dracos.
+
+~
+@800100 = ~El rescate de Skie.
+
+~
+@800101 = ~Recuperar la daga de Hurgan.
+
+~
+@800102 = ~Encontrar el hijo de Therella, Dalton, en la Torre de Durlag.
+
+~
+@800103 = ~Investigar la Torre de Durlag.
+
+~
+@800104 = ~Investigar la Torre de Durlag: acertijo de la avaricia.
+
+~
+@800105 = ~Investigar la Torre de Durlag: acertijo del miedo.
+
+~
+@800106 = ~Investigar la Torre de Durlag: acertijo del amor.
+
+~
+@800107 = ~Investigar la Torre de Durlag: acertijos.
+
+~
+@800108 = ~Investigar la Torre de Durlag: acertijo del orgullo.
+
+~
+@800109 = ~Mendas y la expedición de Balduran.
+
+~
+@800110 = ~Conseguir las cartas náuticas.
+
+~
+@800111 = ~¡Naufragio en una isla!
+
+~
+@800112 = ~Librar la isla de las "bestias".
+
+~
+@800113 = ~Fuga monstruosa.
+
+~
+@800114 = ~Encontrar el libro de conjuros de Dradil.
+
+~
+@800115 = ~Encontrar al hermano de Evalt.
+
+~
+@800116 = ~Encontrar la muñeca de Ardite.
+
+~
+@800117 = ~Vengar a la esposa de Lahl.
+
+~
+@800118 = ~Rescatar al hijo de Marali.
+
+~
+@800119 = ~Algunos recados para Delainy.
+
+~
+@800120 = ~Recuperar el símbolo del pueblo: una capa.
+
+~
+@800121 = ~Coger unas flores para Delainy.
+
+~
+@800122 = ~Algunos recados para Durlyle.
+
+~
+@800123 = ~Coger unas flores para Durlyle.
+
+~
+@800124 = ~Dessthieftannien... lo que sea...
+
+~
+@800125 = ~Festival de Nashkel.
+
+~
+@800126 = ~Recompensas y botines en Nashkel.
+
+~
+@800127 = ~Problemas en Nashkel.
+
+~
+@800128 = ~Cosas extrañas al oeste de Nashkel.
+
+~
+@800129 = ~¿Los problemas acontecen al sur?
+
+~
+@800130 = ~El Gran Salón de las Maravillas.
+
+~
+@800131 = ~¡Un telescopio!
+
+~
+@800132 = ~Seguridad del Salón de las Maravillas.
+
+~
+@800133 = ~Horario de apertura del Salón de las Maravillas.
+
+~
+@800134 = ~Seguridad reforzada en el Salón de las Maravillas.
+
+~
+@800135 = ~Seguridad anulada en el Salón de las Maravillas.
+
+~
+@800136 = ~¡Criptas secretas debajo de Candelero!
+
+~
+@800137 = ~Encuentro con el hermano de Aldeth.
+
+~
+@800138 = ~¿Cuánto dinero tiene Entar?
+
+~
+@800139 = ~Razones para sospechar de los grupos mercantiles de Puerta de Baldur.
+
+~
+@800140 = ~Métodos malignos.
+
+~
+@800141 = ~¡Largo de aquí, Arpistas!
+
+~
+@800142 = ~¡Khalid y Jaheira son Arpistas!
+
+~
+@800143 = ~Granjero ansioso me cuenta una historia.
+
+~
+@800144 = ~Granjero inocente me cuenta una historia.
+
+~
+@800145 = ~Mantener la granja de un padre no es una decisión muy sabia.
+
+~
+@800146 = ~El Puño Llameante persigue a una drow.
+
+~
+@800147 = ~Viejos granjeros se quejan de las gallinas.
+
+~
+@800148 = ~Los vecinos sospechan de mí.
+
+~
+@800149 = ~En resumidas cuentas...
+
+~
+@800150 = ~¿Doppelgangers?
+
+~
+@800151 = ~Un problema perplejo de un ladrón perplejo.
+
+~
+@800152 = ~Otra historia aburrida de un bardo.
+
+~
+@800153 = ~Mis encuentros con un bardo.
+
+~
+@800154 = ~Fama por toda la Costa de la Espada.
+
+~
+@800155 = ~Gran insecto cerca de Beregost.
+
+~
+@800156 = ~Vecinos inseguros por todo Beregost.
+
+~
+@800157 = ~Los objetos del padre.
+
+~
+@800158 = ~Una mujer convertida en piedra.
+
+~
+@800159 = ~Los Druidas de las Sombras.
+
+~
+@800160 = ~Garrick el bardo.
+
+~
+@800161 = ~Debo dirigirme a Nashkel.
+
+~
+@800162 = ~¿Una secuela?
+
+~
+@800163 = ~Un afortunado encuentro con Drizzt Do'Urden.
+
+~
+@800164 = ~¡Asesinos!
+
+~
+@800165 = ~Encuentro con un mago bastante sospechoso.
+
+~
+@800166 = ~Encontrar a Jaheira y a Khalid en tiempos de necesidad.
+
+~
+@800167 = ~¡Esta Imoen!
+
+~
+@800168 = ~Compasión para Marl.
+
+~
+@800169 = ~Otro asesino.
+
+~
+@800170 = ~Trato en el carnaval de Nashkel.
+
+~
+@800171 = ~Los asesinos están por todas partes.
+
+~
+@800172 = ~El error de Oublek.
+
+~
+@800173 = ~El error de Oublek se vuelve en su contra.
+
+~
+@800174 = ~Más ataques de asesinos.
+
+~
+@800175 = ~Un rumor de Volo.
+
+~
+@800176 = ~¡Volo se ha largado sin pagar su cuenta!
+
+~
+@800177 = ~Una sacerdotisa convertida en piedra.
+
+~
+@800178 = ~¿Por qué Shistal está actuando de forma tan extraña?
+
+~
+@800179 = ~El rescate de Xan en las minas de Nashkel.
+
+~
+@800180 = ~Capítulo segundo: aislamiento.
+
+~
+@800181 = ~Capítulo tercero: problemas en Nashkel.
+
+~
+@800182 = ~Capítulo cuarto: bandidos y la escasez de hierro.
+
+~
+@800183 = ~Capítulo quinto: hacia el Bosque de las Capas.
+
+~
+@800184 = ~Capítulo sexto: hacia Puerta de Baldur.
+
+~
+@800185 = ~Capítulo séptimo: regreso a Candelero.
+
+~
+@800186 = ~Capítulo octavo: fin del juego.
+
+~
+@800187 = ~Un encuentro con Cadderly.
+
+~
+@800188 = ~Objetos en la antigua habitación de Gorion.
+
+~
+@800189 = ~Delthyr el Arpista.
+
+~
+@800190 = ~La historia de Dradil.
+
+~
+@800191 = ~Se ha encontrado el barco de Balduran.
+
+~
+@800192 = ~Aparición reminiscente en la Torre de Durlag.
+
+~
+@800193 = ~Las sospechas de Parda en Candelero.
+
+~
+@800194 = ~¡Los doppelgangers se han infiltrado en Candelero!
+
+~
+@800195 = ~Tiax el chiflado.
+
+~
+@800196 = ~El pequeño Quayle.
+
+~
+@800197 = ~Encuentro con el hermano de Aldeth.
+
+~
+@800198 = ~Allanadores que residen en el Bosque de los Cedros.
+
+~
+@800199 = ~Normas de la biblioteca de Candelero.
+
+~
+@800200 = ~¡Se busca por asesinato!
+
+~
+@800201 = ~La historia de Marl.
+
+~
+@800202 = ~La sentencia.
+
+~
+@800203 = ~Santuario en el Templo de Úmberli.
+
+~
+@800204 = ~Un noble cazador.
+
+~
+@800205 = ~Estado del Gremio de Ladrones.
+
+~
+@800206 = ~Bajosótano.
+
+~
+@800207 = ~Escuela de magos al este de Beregost.
+
+~
+@800208 = ~Recuperar la capa de Shandalar.
+
+~
+
+
+
+/////////////////////
+//New journal entries
+/////////////////////
+@310033 = ~Una deuda con un viejo amigo.
+
+Gotafuego me ha entregado otro libro a cambio de la historia de la Moneda Fatídica. Dice que es un poco más siniestro que el anterior. Supongo que no lo sabré con seguridad hasta que lo lea. Espero volver a verle algún día. Siempre ha sido un buen amigo...~
+@310042 = ~Un ankheg afortunado.
+
+Hoy, por fin, Taerom "Martillo Atronador" ha terminado la armadura de ankheg. Es una pieza de artesanía maravillosa y no puedo esperar a darle un buen uso.~
+@310044 = ~De bobo a bardo, o de bobo a bobo.
+
+Una mujer llamada Silke me contrató para protegerla de unos matones que trabajaban para un hombre llamado Feldepost. Al final resultó ser una maga malvada que pretendía matar a un grupo de mensajeros para obtener su mercancía. Ya no causará más problemas a nadie.~
+@310045 = ~De bobo a bardo, o de bobo a bobo.
+
+He ayudado a Silke a acabar con un grupo de rufianes que intentaron engañarme diciéndome que eran simples mercaderes. Como quería mi recompensa cuanto antes, acabé con ellos antes de que pudieran inventarse nada más.~
+@311054 = ~En busca de cabelleras de bandido.
+
+Vaya, me había montado un buen negocio a base de vender cabelleras de bandidos a la oficial Jessa Vai del Puño Llameante; es una lástima que haya recibido la orden de regresar a Puerta de Baldur para informar de la situación. ¿Trabajará ahora de curtidora o taxidermista?~
+@310057 = ~La maldición del capitán Brage.
+
+El asunto de Brage, el capitán de la guardia de Nashkel, resultó ser una trágica y confusa historia. Para bien o para mal, ya me he encargado de él.~
+@310806 = ~Prism, el ladrón de esmeraldas.
+
+La historia de Prism era realmente muy triste. Es una lástima que no pudiera tener un final feliz. Pero bueno, no me he ido con las manos vacías: he recibido 150 monedas de oro como recompensa por las esmeraldas que robó.~
+@310070 = ~Encontrar a Joseph en las minas.
+
+Encontré el anillo de Joseph en las minas, pero me lo que quedado para asegurarme una recompensa. Parece que mi decisión no le gustó nada a su esposa. Debería saber que nadie regala nada.~
+@310071 = ~Encontrar a Joseph en las minas.
+
+Encontré el anillo de Joseph en las minas y se lo di a su esposa, la cual me lo agradeció muy efusivamente. Espero que le sirva de consuelo y que le permita revivir con nostálgica sonrisa el recuerdo de su marido. Que en paz descanse...~
+@310078 = ~Devolver la daga de Kylee.
+
+Devolví a Kylee la daga que me dio Dink.~
+@310086 = ~Controlar la población de ankhegs.
+
+Gerde me dio 75 monedas de oro por ayudarle a controlar la población de ankhegs de la región. Una cantidad bastante aceptable para el trabajo que me ha costado.~
+@311092 = ~La sacerdotisa de Úmberli.
+
+La pequeña sacerdotisa de Úmberli ya está muerta. Me pregunto si Talos me servirá cada día pescado fresco como agradecimiento...~
+@310101 = ~Catástrofe ankheg.
+
+Quinn se mostró bastante agradecido al recibir la daga de Néstor. Supongo que le servirá para recordarle su valentía. ¡Larga vida a Néstor!~
+@310103 = ~Cazando a los druidas.
+
+Ayudé a los druidas a defender la vida salvaje del Bosque de las Capas acabando con Aldeth Marquestrella. Sospeché que él y su banda habían estado cazando a druidas cambiaformas, y creo que lo correcto era que los protectores del bosque pudieran obtener su venganza.~
+@310104 = ~Cazando a los druidas.
+
+Vengué la muerte de Elban, uno de los amigos de Aldeth, ayudando a este último a eliminar a un piojoso grupo de abraza-árboles. Ahora son libres para cazar cuando lo deseen. Aldeth además mencionó que debería visitarle en la Liga Mercantil, en el suroeste de Puerta de Baldur, cuando tenga tiempo.~
+@310106 = ~Encontrar a Chelak.
+
+A Tíber casi le da un soponcio cuando regresé con el cuerpo de Chelak. Pobrecillo; fue un suicidio enfrentarse él solo a un nido de arañas.~
+@310108 = ~El "secuestro" de Skie.
+
+Ayudé a Eldoth a rescatar a Skie, aunque carecía de la voluntad necesaria que todo aventurero debería poseer, así que nos separamos.~
+@310109 = ~El "secuestro" de Skie.
+
+Ayudé a Eldoth a rescatar a Skie. No hay duda de que estaba ansiosa por ayudarme en mi misión, aunque no tengo muy claro de cómo podrá adaptarse a mi situación. Supongo que debería darle una oportunidad después de todo.~
+@310110 = ~El "secuestro" de Skie.
+
+Llevé a Eldoth al noroeste de Puerta de Baldur donde se encuentra la mansión de Entar, pero su plan no me convenció. Finalmente se fue para realizar la misión de "rescate" en solitario.~
+@310111 = ~El "secuestro" de Skie.
+
+Parece que estaba tardando demasiado tiempo en ayudar a Eldoth a "rescatar" a Skie, así que simplemente se largó después de insultarme. Sin embargo, tengo series dudas sobre quién es el más necio, o el más suicida...~
+@310115 = ~Investigar a los miembros de los Siete Soles.
+
+Acabé con la infestación de doppelgangers que asolaban el complejo de los Siete Soles y recibí una suculenta recompensa por parte de Scar. Creo que quiere que haga algo más por él.~
+@310116 = ~Investigar a los miembros de los Siete Soles.
+
+Informé a Scar de que no había nada relevante en el complejo de los Siete Soles. Sin embargo, parece que está más preocupado por los asuntos del Trono de Hierro.~
+@310117 = ~Investigar a los miembros de los Siete Soles.
+
+Informé a Scar de que un doppelganger se había infiltrado en el complejo de los Siete Soles, pero que no quise investigar más a fondo por precaución. Sin embargo, parece estar más preocupado por los asuntos del Trono de Hierro.~
+@310118 = ~Investigar a los miembros de los Siete Soles.
+
+Informé a Scar de que los doppelgangers eran demasiados poderosos para mí como para acabar con ellos. Pareció entenderlo y dijo que enviaría una unidad del Puño Llameante para terminar el trabajo.~
+@310119 = ~Investigar a los miembros de los Siete Soles.
+
+Informé a Scar de que había acabado con la infestación de doppelgangers y de que su amigo Jhasso acabó finalmente asesinado. No me pagó, pero estaba dispuesto a contratarme de nuevo.~
+@310121 = ~Investigar las misteriosas desapariciones de ciudadanos.
+
+Informé a Scar de que me fue imposible descubrir las causas de las desapariciones. Se enfadó bastante y me amenazó con asignar la tarea a otra persona. Será mejor que no saque a relucir más el tema.~
+@310122 = ~Investigar las misteriosas desapariciones de ciudadanos.
+
+Informé a Scar sobre el ogro mago que se encontraba detrás de las desapariciones. Por desgracia, no pude encontrar un anillo de rubí que pertenecía a la familia Marquestrella.~
+@310123 = ~Investigar las misteriosas desapariciones de ciudadanos.
+
+Informé a Scar sobre el ogro mago que se encontraba detrás de las desapariciones, y le he devuelto un anillo de rubí que pertenecía a la familia Marquestrella.~
+@310124 = ~Investigar las misteriosas desapariciones de ciudadanos.
+
+Informé a Scar sobre el ogro mago que se encontraba detrás de las desapariciones, y de que lo había matado. No volverá a causar más problemas a los ciudadanos.~
+@310143 = ~Encontrar el pergamino de sabiduría.
+
+Encontré el pergamino de sabiduría de Fahrington, aunque finalmente me lo dio. Me pregunto qué tipo de esencia "kármica" contendrá las palabras de este escrito.~
+@310157 = ~Desertor del Puño Llameante.
+
+Entregué a Samuel al soldado del Puño Llameante, que me dio una bolsa con cincuenta tristes monedas de oro. Oh, ¡con eso casi podría comprarme una espada!~
+@310158 = ~Desertor del Puño Llameante.
+
+Resulta que fue Lena quien animó a Samuel a desertar del Puño Llameante. Sin embargo, espero que Gellana pueda hacer algo para que este pobre hombre recupere la salud.~
+@310159 = ~Desertor del Puño Llameante.
+
+Llevé a Samuel ante Gellana como Lena me pidió, pero ya no se podía hacer nada por él. Una verdadera lástima.~
+@310161 = ~Robar el manto de Algernon.
+
+¿Cómo podría decirlo?... "Devolví" el manto de Algernon a Pheirkas y éste me recompensó adecuadamente...~
+@310165 = ~Cosas de gemelas.
+
+Tomé la decisión correcta al confiar en la druida Voltine. Me dio una varita de Polimorfar por acabar con Gervisse.~
+@310166 = ~Cosas de gemelas.
+
+Pensé que era Voltine quien mentía y acabé con ella antes que con Gervisse. Por alguna razón creo que no he resuelto el problema...~
+@310171 = ~Las pertenencias de Balduran.
+
+El mago Degrodel es un maldito bastardo. En vez de pagarme la "enorme" suma que me prometió, ordenó a sus guardias mágicos que me atacaran. Me parece que debería haber puesto el casco a buen recaudo...~
+@310179 = ~Historia del Arroyo del Unicornio.
+
+Encontré un libro sobre la historia del Arroyo del Unicornio para Rinnie.~
+@310181 = ~Ghorak el enfermo.
+
+Parece ser que devolví la calavera de Kereph, un clérigo que murió tiempo ha, a Agnasia. Ghorak debería estar curado de su aflicción, así que quizá debería hacerle una visita.~
+@310185 = ~Por la belleza.
+
+He liberado a la ninfa Abela y permitido que regresase a su hogar. La morada de una criatura tan hermosa no debe encontrarse nunca en una ciudad tan ajetreada.~
+@311183 = ~Por la belleza.
+
+Al final he decidido liberar a la ninfa Abela. Furiaveloz y Ramazith no parecían tener muy buenas intenciones para con ella, así que los he matado a ambos.~
+@310186 = ~Por la belleza.
+
+He entregado la ninfa Abela a Ramazith, tal como me pidió. Creo que he cometido un terrible error, y no sé si podré llegar a corregirlo.~
+@311189 = ~Intriga con un gato.
+
+Ya está, ya he matado a ese asqueroso gato. Supongo que Bheren se lo pensará dos veces antes de pedirme algo de nuevo, porque en ese caso le exigiré un pago REAL por hacerme perder el tiempo.~
+@310190 = ~Intriga con un gato. 
+
+Encontré el anillo de piel de ángel que quería Petrine. Estaba muy agradecida.~ //¿"Intriga con un gato" y hablan de anillos?
+@310191 = ~Intriga con un gato.
+
+Maté al gato... *ejem* La maldita cría está llorando... Menuda pérdida de tiempo...~
+@310474 = ~Intriga con un gato.
+
+Ya está, maté a ese asqueroso gato y Bheren me entregó una capa mágica. ¡Bien!~
+@310199 = ~La maldición de Yago.
+
+Entregué el libro de maldiciones de Yago a Brielbara para que pudiera ayudar a su hija. Estaba muy agradecida.~
+@311199 = ~La maldición de Yago.
+
+No puedo perder el tiempo entregando todos esos libros polvorientos... ¡Ya basta! Brielbara debería cuidar de su hija por sí sola... Oh... está disgustada... y muerta. ¡Qué importa! ¡No pienso volver a realizar ese tipo de recados nunca más!~
+@310225 = ~Encontrar un antídoto para el veneno.
+
+Aunque me haya chantajeado, Marek me ha curado del veneno. Dice que seguirá amenazándome hasta que saque mis narices de los asuntos del Trono de Hierro. Le estaré esperando para la próxima vez; aunque bien es cierto que debería tener más cuidado con los alimentos que pida.~
+@310227 = ~¡Cienos!
+
+¡No volveré a hablar nunca más con borrachos! He recuperado mis cien piezas de oro junto con otras sesenta más por ayudarle a exterminar todos esos limos y cienos. Supongo que si de verdad no le quedaban más que esas pocas monedas, habré contribuido a mantenerlo sobrio durante un tiempo.~
+@310233 = ~Rescatar al hijo de Tremain.
+
+Salvé al hijo de Tremain. Parece que el chaval se fue a fisgonear al Templo de Úmberli, aunque no parece que vaya a tener una vida mucho más apacible debido a su estricto padre. Varci estaba muy agradecido y me dio unos cuantos objetos muy valiosos.~
+@310238 = ~Euric el fugitivo.
+
+Recibí un bonito collar de Nadine por entregarle el amuleto a Euric. Confío en que tenga razón cuando dice que Euric será capaz de cuidarse solo.~
+@311238 = ~Euric el fugitivo.
+
+Entregué un amuleto de buena suerte a Euric. No estaba muy agradecido, supongo que porque todos los niños desean su propia libertad. Tal vez deba decirle a Nadine que todo está arreglado con su hijo...~
+@310244 = ~Deudas de sangre: Ordulinian.
+
+Entregué el amuleto de hematites de Arkion y el anillo de ónice de Nemphre a Odulinian. Supongo que podría quedármelos, pero lo más importante es que esos dos no volverán a causarse problemas el uno al otro.~
+@310245 = ~Deudas de sangre: Arkion.
+
+Encontré un cadáver descompuesto en las alcantarillas tal y como me pidió Arkion. No tengo ni idea de para qué lo querrá, y la verdad es que no me interesa lo más mínimo. Nigromantes...~
+@310246 = ~Deudas de sangre: Nemphre.
+
+Entregué el amuleto de hematites de Arkion a Nemphre, ¡y me ignoró completamente! Aun así, preferiría no enfadarla.~
+@310265 = ~Matar a Cyrdemac.
+
+Encontré a una mujer visiblemente alterada llamada Areana. Me suplicó que matase a un hombre que ha estado divulgando mentiras sobre ella. Su nombre es Cyrdemac y frecuenta la taberna de la Canción Élfica. Puedo encontrar a Areana en los Tres Viejos Barriles, cerca del Palacio Ducal.~
+@310267 = ~Matar a Cyrdemac.
+
+Al final rechacé la petición de Areana de matar a Cyrdemac. Aquí hay gato encerrado y no quiero formar parte de ello.~
+@310268 = ~Matar a Cyrdemac.
+
+Acabé con Cyrdemac y recibí una justa recompensa por parte de Areana. Parecía que quería perderme de vista rápidamente. Confío en que no ponga precio a mi cabeza por esto, aunque aún tengo curiosidad por conocer su pequeño secreto...~
+@310269 = ~Matar a Cyrdemac.
+
+Bien, parece que al final he reemplazado a Cyrdemac en su lucrativa tarea. Ahora todos los ricachones vendrán a mí para que les guarde el secreto del misterioso asesinato. Debería encontrarme con Areana cada dekhana para recoger mi dinero.~ //La frase de los ricachones no tiene mucho sentido.
+@310270 = ~Matar a Cyrdemac.
+
+Parece que Areana ha utilizado un poquito la cabeza y ha contratado a un "amigo" para quitarme de en medio. Buen intento, señora.~
+@310266 = ~Matar a Cyrdemac.
+
+Cuando hechicé a Cyrdemac, me dijo que extorsionaba a una mujer llamada Areana porque que tenía un amante secreto en Bajosótano. Me sugirió que le dijera que él estaba muerto y que continuara chantajeándola para mi beneficio.~
+@310272 = ~Robar un telescopio.
+
+Brevlik estaba bastante confuso por el revuelo suscitado por el robo en el Salón de las Maravillas. Puedo decir que todos hemos salido ganando: él ha obtenido un telescopio y yo una buena recompensa por mi trabajo.~
+@310273 = ~Robar un telescopio.
+
+Brevlik estaba bastante enfadado porque maté a algunos guardias durante mi "visita" en el Salón de las Maravillas. Según él nuestro trato ha quedado anulado.~
+@310279 = ~Investigar el edificio del Consorcio Mercantil.
+
+¡El edificio estaba infestado de doppelgangers! He acabado con todos ellos. Aldeth Marquestrella me suplicó que me ocupara del asunto y ahora estará encantado de recibirme en su casa si alguna vez tengo problemas. Puede que lo necesite.~
+@311278 = ~Investigar el edificio del Consorcio Mercantil.
+
+Le dije a Brandilar que había acabado con todos los doppelgangers que encontré en el edificio del Consorcio Mercantil. Me sugirió que se lo comunicara a Aldeth para recibir una recompensa.~
+@310281 = ~Amor de piel de ángel.
+
+Encontré un anillo de piel de ángel y se lo di a Fergus. Le gustó mi elección y gracias a ello he obtenido una recomendación para Scar, segundo al mando del Puño Llameante.~
+@310287 = ~Los guanteletes de Noralee.
+
+Noralee me ha recompensado adecuadamente por devolverle un par de guanteletes que había perdido en el puerto.~
+@310289 = ~La intrusión de las sirinas.
+
+He limpiado de sirinas la zona de pesca. Me costó bastante, pero al menos Cordyr podrá volver a tener una vida normal.~
+@310291 = ~Basilisco solitario.
+
+Nadarin estaba muy agradecido... ¡y de qué manera! Me ha recompensado espléndidamente por quitar de en medio al basilisco que se escapó.~
+@310293 = ~Encontrar una gema de titanita.
+
+G'Axir agradeció que le encontrara una gema de titanita, pero sus oscuros presagios me preocupan mucho más. Parece ser que hay una "ciudad subterránea" ancestral que yace bajo Puerta de Baldur, y que debo atravesar la oscuridad para encontrar la luz. ¡Suena a una aventura sacada de un libro de fantasía!~
+@310294 = ~Revelaciones místicas.
+
+He conocido a Shaella, una de las sacerdotisas más chifladas con las que me he encontrado. Dice adorar a Leira, la Señora de la Bruma, que según parece no existe. Tengo la extraña sensación de que para poder entablar una conversación con ella, debería decir todo lo contrario de lo que pienso.~
+@310296 = ~Revelaciones místicas.
+
+Después de recibir la bendición de la incomprensión tras tocar el Gran Libro de lo Desconocido, cuya existencia se reduce al éter indefinido, he redescubierto el falso rostro de Elnaedra, la ignorancia de Shaella, sacerdotisa de Leira. Maldita sea, ¿¡por qué tiene todo que rimar!?~
+@310298 = ~Tesoro escondido.
+
+He encontrado el tesoro pirata que Safana estaba buscando, pero aparte de ayudarla con su tarea, no encontré ningún motivo para mantenerla a mi lado. Bueno, parece que encajó bastante bien el golpe.~
+@310299 = ~Tesoro escondido.
+
+Encontré el tesoro pirata que Safana estaba buscando y permití que se quedara a mi lado. Seguro que no me arrepentiré.~
+@310390 = ~El OSO.
+
+Jared debería poder viajar sin problemas tras haber acabado con el oso que le estaba molestando. Era una bestia antinatural.~
+@310805 = ~Un pollo parlante.
+
+He llevado a Melicamp el pollo ante Thalantyr, en Seto Alto. No deseo ver cómo el pobre mago se transforma, y no porque tenga algo en su contra. Más bien la actitud hostil de Thalantyr no me deja otra opción.~
+@310553 = ~Infestación de zombis.
+
+Acabé con los veinte zombis que deambulaban cerca de la granja de Wenric. No sé de dónde salieron, pero no deberían causarle más problemas.~
+@310558 = ~Un caballero fantasma perdido.
+
+Devolví la armadura antigua del caballero muerto a sus amigos. Dijeron algo sobre que era un traidor, y que ahora todos estaban juntos de nuevo, finalmente libres. ¿Descansarán en paz?~
+@310575 = ~Excavación arqueológica.
+
+Me he encontrado con un alegre excavador llamado Charleston Nib, muy al oeste de Nashkel. Él y su equipo han descubierto un asentamiento subterráneo de un antiguo pueblo primitivo y les falta poco para poder entrar en una de sus cámaras interiores. Sin embargo, han estado a merced de los bandidos, que han intentado sabotear la expedición e incluso han recurrido al secuestro. He aceptado quedarme para vigilar y proteger a estos arqueólogos de cualquier ataque. Espero que si finalmente logran entrar, puedan encontrar algo de valor que recompense mis esfuerzos.~
+@310576 = ~Excavación arqueológica.
+
+Me encontré con una excavación, muy al oeste de Nashkel, dirigida por un arqueólogo llamado Charleston Nib. Por supuesto me alejé de él y de sus historias lo más rápido posible; no quería morirme de aburrimiento.~
+@310577 = ~Excavación arqueológica.
+
+La excavación no ha terminado como todos deseaban. Parece que había un ídolo maldito en la cámara interior que ha hecho enloquecer a todos los trabajadores. No tuve más remedio que escapar. No creo que Charleston Nib vuelva a pisar una tumba hasta el día de su muerte. Ésta probablemente se sellará para siempre y se evitará una desgracia similar, o eso espero...~
+@310578 = ~Sabotear la excavación arqueológica.
+
+Gallor, un miembro del grupo de excavación, está bastante descontento con la dirección de Charleston Nib. Quería que robase cualquier tesoro arqueológico que encontrara en la tumba y que acabara con todos los testigos. No pienso participar en el derramamiento de sangre inocente.~
+@310579 = ~Sabotear la excavación arqueológica.
+
+Me han prometido muchas riquezas por acabar con todo el grupo de Charleston Nib y conseguir algunos tesoros arqueológicos del lugar de la excavación. No atacaré a nadie hasta que no hayan abierto una brecha hacia el santuario interior. Gallor me esperará delante de la salida cuando todo haya acabado.~
+@310580 = ~Sabotear la excavación arqueológica.
+
+Las aventuras arqueológicas de Charleston Nib serán transmitidas por las aves como una trágica historia en la que los continuos ataques de los bandidos acabaron con él y todos los miembros de su equipo, cuyos cadáveres jamás fueron encontrados. Más sentimentales son los beneficios que sacaré yo al "escribir" una historia tan emocionante.~
+@310586 = ~Investigar las ruinas de Vinoardiente.
+
+Un mediano de Gullykin llamado Gandolar Pieafortunado me ha pedido que mate a los kóbolds que amenazan las ruinas de Vinoardiente. Debería tener mucho cuidado, pues podría despertar accidentalmente a un montón de extrañas criaturas.~
+@310587 = ~Investigar las ruinas de Vinoardiente.
+
+¡Las noticias parecen difundirse en el poblado mediano más rápido que un pájaro sobrevolándoos! La limpieza del campamento kóbold en las ruinas de Vinoardiente ha dejado un pueblecito feliz y 250 monedas de oro en mi bolsillo.~
+@310589 = ~Caza de dracos.
+
+He acabado de manera extraordinaria no con uno, ¡sino con dos dracos! Estaban en una cueva en el Bosque de las Capas. El alcalde de Beregost en el Templo de Lathander me ha recompensado adecuadamente por mi hazaña.~
+@310595 = ~El rescate de Skie.
+
+Gracias al plan de Eldoth pudimos "rescatar" a Skie de la mansión de Entar Escudo de Plata. Ahora deberemos encontrarnos con un hombre llamado Elkart en la Cuchilla y las Estrellas cada dos días para recoger el dinero del rescate. Parece que el padre de Skie está preocupado por ella, pero lo que yo veo es a una pareja feliz gracias a su independencia, y no importa si su familia lo desaprueba. Además, el dinero siempre ayudará a mi causa.~
+@310596 = ~El rescate de Skie.
+
+Parece que la insistencia de Eldoth por cobrar el dinero del rescate de Skie ha terminado por provocar la ira del Puño Llameante, que nos tendió una emboscada y no tuvimos más remedio que pelear.~
+@310605 = ~Recuperar la daga de Hurgan.
+
+No pude evitar que el culto convocase a la terrible criatura que adoraban, así que no tuve más remedio que destruirla antes de que causara estragos en Barba de Ulgoth y por toda la Costa de la Espada. Debo admitir que me ha costado bastante derrotarla... Cada vez que creía haberla matado, absorbía el alma de uno de sus seguidores y se reencarnaba de nuevo. Cuando pueda debería comunicárselo Hurgan Filodepiedra.~
+@310610 = ~Encontrar al hijo de Therella, Dalton, en la Torre de Durlag.
+
+Encontré al hijo de Therella, pero murió de forma horrible. No hay mucho más que pueda hacer al respecto.~
+@310656 = ~¡Naufragio en una isla!
+
+¡Esa tormenta era mucho peor que cualquier fenómeno natural que haya visto jamás! Lo más extraño es que sólo mi grupo haya sobrevivido, o eso creo. Es innegable que todo esto fue provocado por una magia muy poderosa, aunque no sé quién o qué puede estar detrás de todo esto. Lo único que sé es que he naufragado en una misteriosa isla llena de gente aparentemente amable y que mi dolor de cabeza parece no remitir. Debería preguntarle a alguien dónde está encallado el barco de Balduran, y en última instancia, por el cuaderno de bitácora para Mendas, eso siempre y cuando sea esta isla la que buscaba. Después de eso, sólo los dioses sabrán cómo voy a regresar a Barba de Ulgoth.~
+@310793 = ~Recuperar la capa de Shandalar.
+
+Parece que las misiones que realicé para el Gremio de Ladrones no han pasado desapercibidas. Shandalar, un poderoso mago cuyas tres hijas estaban custodiando varios componentes de una nave voladora, me ha amenazado con castigarme de manera horrible por sus muertes. ¡Me ha teletransportado a una misteriosa y gélida isla situada en mitad de ningún sitio! Me ha dicho que debo recuperar una capa. Supongo que será lo único que me permitirá escapar de este condenado lugar. Más vale que mantenga los ojos bien abiertos.~
+@310809 = ~Recuperar la capa de Shandalar.
+
+¡Un maldito mago de Barba de Ulgoth me ha encomendado una tarea en contra de mi voluntad! Me ha enviado a una solitaria isla helada donde debo encontrar una andrajosa capa. Me ha asegurado que podré regresar en cuanto la consiga gracias a la piedra de guarda que me ha dado. Creo que prepararé algún objeto contundente con el que hundirle la cabeza para cuando lo vuelva a ver.~
+@310810 = ~Recuperar la capa de Shandalar.
+
+He aceptado la aparentemente simple tarea de recuperar una capa para Shandalar, un mago con el que me topé en Barba de Ulgoth. ¡Y digo aparentemente porque me ha enviado a una isla minúscula rodeada por un océano helado! Ese maldito embustero me ha encerrado aquí, aunque me alivia saber que me dio una piedra de guarda que me permitirá escapar. Debo encontrar esa capa rápidamente; ¡hace un frío que pela!~
+@310811 = ~Recuperar la capa de Shandalar.
+
+Me alegra pisar la hierba de nuevo. El conjuro de teletransportación de Shandalar funcionó a la perfección en cuanto recogí su capa y salí al exterior. Aquella prisión helada no es que fuera el lugar más normal al que enviar a alguien para buscar algo. Debería alejarme de magos tan estrafalarios como él.~
+@310812 = ~Recuperar la capa de Shandalar.
+
+¡Ese magucho de tres al cuarto se escapó antes de que pudiera exigirle una buena recompensa por la estúpida tarea que me encomendó! Pues ahora no pienso hacer caso a sus críticas sobre mis modales. Al menos me alegra poder olvidarme de él, de su capa, y de esa horrible prisión helada.~
+@310813 = ~Recuperar la capa de Shandalar.
+
+He recuperado la capa de Shandalar de lo que parecía ser una prisión helada. No tengo las más mínima intención de regresar a ese lugar nunca más. Supongo que al menos he tenido suerte, ya que la piedra de guarda que me dio me trajo de vuelta a Barba de Ulgoth sin muchos percances. No quiero volver a encontrarme con ese mago en un futuro, y menos ahora que pretende castigarme por el asesinato de sus hijas. Me alegra poder olvidarme de él, de su capa, y de esa maldita isla perdida.~
+
+
+/////////////////////////////////////////
+//Entradas en el diario de los capítulos.
+/////////////////////////////////////////
+/*JOURNAL - @16190*/
+@310733 = ~Capítulo segundo: aislamiento
+
+El amanecer es especialmente cruel esta mañana. Cuando os despertáis os dais cuenta de que no sólo no era una horrible pesadilla. Atrapado en una emboscada, veis cómo despedazan a Gorion ante vuestros propios ojos y cómo ni siquiera su poderosa magia es capaz de impedir la matanza. Fue su deseo que huyerais, pero eso no mitiga el sentimiento de impotencia que os invade.
+
+"Entregad a vuestro pupilo", ha dicho el malvado hombre de la armadura. Os perseguía a vos y sólo a vos, ¿pero por qué? Si al menos Gorion os hubiese dado una pista... Pero ahora estáis solo y perdido. Candelero está cerca, pero allí no encontraréis cobijo. Los lectores velan por su tranquilidad con normas de admisión draconianas y sin la influencia de Gorion sus puertas no se os abrirán.~
+~Capítulo segundo: aislamiento
+
+El amanecer es especialmente cruel esta mañana. Cuando os despertáis os dais cuenta de que no sólo no era una horrible pesadilla. Atrapado en una emboscada, veis cómo despedazan a Gorion ante vuestros propios ojos y cómo ni siquiera su poderosa magia es capaz de impedir la matanza. Fue su deseo que huyerais, pero eso no mitiga el sentimiento de impotencia que os invade.
+
+"Entregad a vuestra pupila", ha dicho el malvado hombre de la armadura. Os perseguía a vos y sólo a vos, ¿pero por qué? Si al menos Gorion os hubiese dado una pista... Pero ahora estáis sola y perdida. Candelero está cerca, pero allí no encontraréis cobijo. Los lectores velan por su tranquilidad con normas de admisión draconianas y sin la influencia de Gorion sus puertas no se os abrirán.~
+/*JOURNAL - @15836*/
+@310734 = ~Capítulo tercero: problemas en Nashkel
+
+Al poco de producirse vuestra precipitada huida de Candelero, los problemas a los que se enfrenta la Costa de la Espada parecen vagamente ajenos a vuestros desquiciados nervios. No obstante, Gorion no os habría permitido permanecer indiferente y quizás si indagarais en los asuntos locales podríais obtener nuevas pistas sobre vuestra propia situación. No acabáis de ver la posible relación entre la escasez de hierro o el problema de las minas de Nashkel y vuestra propia persona.~
+/*JOURNAL - @15837*/
+@310735 = ~Capítulo cuarto: bandidos y escasez del hierro
+
+Es cierto que la muerte de Mulahey mitigará los temores de las gentes de Nashkel, pero vos permanecéis inquieto. Aunque el semiorco bien pudiera haber causado los males que acontecen en la mina, la escasez de hierro es demasiado generalizada como para achacar este hecho a su sola persona. Sus cartas confirman vuestras sospechas y aunque no nos dan muchas pistas de dónde se ocultan sus cohortes, debe mantener relaciones con los bandidos que actualmente infestan el Camino de la Costa.~
+~Capítulo cuarto: bandidos y escasez del hierro
+
+Es cierto que la muerte de Mulahey mitigará los temores de las gentes de Nashkel, pero vos permanecéis inquieta. Aunque el semiorco bien pudiera haber causado los males que acontecen en la mina, la escasez de hierro es demasiado generalizada como para achacar este hecho a su sola persona. Sus cartas confirman vuestras sospechas y aunque no nos dan muchas pistas de dónde se ocultan sus cohortes, debe mantener relaciones con los bandidos que actualmente infestan el Camino de la Costa.~
+/*JOURNAL - @15838*/
+@310736 = ~Capítulo quinto: hacia el Bosque de las Capas
+
+Está visto que Mulahey y Tazok no son más que unas simples marionetas; el verdadero artífice de este misterio sin resolver continúa evitándoos. Una cosa es cierta: aunque desconozcáis los motivos, alguien se ha tomado un interés muy personal en procurar vuestra muerte. Vuestra búsqueda de respuestas continúa y el vaticinio del Bosque de las Capas es vuestro próximo objetivo.~
+/*JOURNAL - @15839*/
+@310737 = ~Capítulo sexto: hacia Puerta de Baldur
+
+Habéis asestado un importante golpe a la organización conocida como el Trono de Hierro; una derrota que, como sabéis, no será ignorada. Ahora debéis dirigiros hacia la ciudad de Puerta de Baldur, donde seguro encontraréis lo que se esconde tras la extraña conspiración que infesta a los habitantes de la Costa de la Espada.~
+/*JOURNAL - @15840*/
+@310738 = ~Capítulo séptimo: vuelta a Candelero
+
+Vuestro viaje ha llegado a un círculo completo. El duque Eltan ha pedido que regreséis a Candelero, donde debéis espiar a los jefes del Trono de Hierro. Aunque os moleste el hecho de que tan malvados hombres hagan ahora uso de la Gran Biblioteca y desearais que las circunstancias de vuestra visita fuesen diferentes, seguirá siendo un placer regresar al que una vez fue vuestro hogar.~
+/*JOURNAL - @15841*/
+@310739 = ~Capítulo octavo: fin del juego
+
+La vida continúa siendo el reto. Habéis sido acusado de asesinar a los jefes del Trono de Hierro y el Puño Llameante no dudará en seguir cada uno de vuestros pasos por este motivo. A pesar de todo esto, debéis regresar a la ciudad de Puerta de Baldur, a la mismísima guarida de vuestros acusadores. Debéis buscar y desenmascarar al responsable de vuestra difícil situación: debéis encontrar a Sarevok.~
+~Capítulo siete: Fin del juego
+
+La vida continúa siendo el reto. Habéis sido acusada de asesinar a los jefes del Trono de Hierro, y el Puño Llameante no dudará en seguir cada uno de vuestros pasos por este motivo. A pesar de todo esto, debéis regresar a la ciudad de Puerta de Baldur, a la mismísima guarida de vuestros acusadores. Debéis buscar y desenmascarar al responsable de vuestra difícil situación: debéis encontrar a Sarevok.~
+
+
+//////////////////
+//Rumores de Volo.
+//////////////////
+//VOLO.DLG
+/*JOURNAL - @8534*/
+@310444 = ~Rumor de Volo:
+
+"He reunido muchas historias de este gran reino, aunque a veces dudo de su veracidad por lo extraordinario de sus circunstancias. Uno de esos cuentos es este, que trata la historia de una banda de bravos aventureros que surcaban las sombras de la región, interviniendo en lo que hiciera falta. Estaba disfrutando de las celebraciones en Nashkel, cuando la ciudad se vio sorprendida por una noticia extrañísima. Al parecer las minas, que sufrían desde hacía tiempo muertes inexplicables, habían sido infestadas por una horda de malintencionados kóbolds, dirigidos por un clérigo de Cyric, más bien falto de escrúpulos y de sospechosa higiene. Despachando a los villanos con la brevedad apropiada, los héroes libraron las minas de su presencia, y son la única razón por la que el goteo de hierro está volviendo a la Puerta. Parece que nadie recuerda sus nombres, pero todos coinciden en que eran de gran estatura y que recortaban una estampa impresionante a lo largo de los valles".~
+/*JOURNAL - @8535*/
+@310445 = ~Rumor de Volo:
+
+"He contado historias de lo más extrañas, pero ninguna permanece tan fresca en mi memoria como ésta, también reciente en el tiempo. Parece que los que orquestaron la engorrosa escasez de hierro se abastecían a sí mismos y a sus aliados con mineral excavado en un lugar secreto y, mientras la Costa estaba sumida en la confusión, ellos construían la base de la citada mina. Un grupo de héroes, pues no se los puede llamar de otra manera, sitiaron el campamento e inundaron a los malvados conspiradores con un torrente de agua y justicia, no sin liberar antes a varias docenas de esclavos. Un gran golpe para cualquier plan malévolo que se esté fraguando en nuestra buena tierra".~
+/*JOURNAL - @8536*/
+@310446 = ~Rumor de Volo:
+
+"He contado historias de lo más extrañas, pero ninguna permanece tan fresca en mi memoria como ésta, también reciente en el tiempo. Parece que los que orquestaron la engorrosa escasez de hierro se abastecían a sí mismos y a sus aliados con mineral excavado en un lugar secreto y, mientras la costa estaba sumida en la confusión, ellos construían la base de la citada mina. Un misterioso grupo de extranjeros veteranos de guerra, porque dudaría en calificarlos como héroes, sitiaron el campamento e inundaron a los malvados conspiradores con un torrente de agua y justicia, aunque en la riada perecieron todos los esclavos. Parece que no deseaban estorbarse, aunque imagino que el peso de todas esas muertes debe sobrevenirles cada noche. La cuestión es que es mejor malo conocido que bueno por conocer. Habrá que esperar a ver qué sale de todo esto".~
+/*JOURNAL - @8537*/
+@310447 = ~Rumor de Volo:
+
+"Algunas historias desafían toda lógica si las oye una mente sana, y es una de esas historias la que me dispongo a contaros. Parte de ella es harto conocida por lo célebre de quienes la protagonizaron, aunque muchos pueden asombrarse por la profundidad con que se sembraron las semillas de la destrucción. El adorado Sarevok, hombre entre los hombres, resuelto a gobernar toda la Costa, era en realidad el principal artífice del corte en el suministro de hierro que había desorganizado de tal modo la economía del país, así como también tuvo algo que ver en el envenenamiento del duque Eltan que le llevó directamente al poder. Estábamos a unos segundos del primer paso de ese camino cuando de las sombras surgió el desconocido grupo de mis anteriores historias. Nadie puede asegurar qué pasó a continuación, aunque sí es seguro que Sarevok fue perseguido hasta el mismo fondo de la ciudad subterránea y nunca regresó. Apuesto a que muchos habrían deseado que lo persiguieran hasta el noveno infierno, pues había hecho daño a mucha de la gente del país, directa o indirectamente".~

@@ -1,0 +1,120 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= "Mod %TP2_FILE_NAME% ma"
+@-1001= "ruzne volitelne komponenty.
+K uspore casu s nimi muzete nalozit hromadne, spise nez byt tazan na kazdy zvlast.
+"
+@-1002= "Co s komponenty, ktere JESTE NEJSOU nainstalovany?
+[I] Instalovat, [S] Preskocit je, [A] Zeptat se na kazdy zvlast? "
+@-1003= "Co s komponenty, ktere JSOU nainstalovany?
+[R] Reinstalovat je, [U] Odinstalovat je, [S] Preskocit je, [A] Zeptat se na kazdy zvlast? "
+
+//modified
+@-1004= "Prosime, poslete soubor "
+@-1005= "na"
+
+@-1006= "Instaluj komponent ["
+@-1007= "]?
+[R] Reinstalovat, [N] Beze zmeny nebo [U] Odinstalovat nebo [Q] Konec? "
+@-1008= "]?
+[I] Instalovat, [N] Neinstalovat nebo [Q] Konec? "
+
+@-1009= "Napiste cast nazvu modulu: "
+
+@-1010= "Preinstalovavam ["
+@-1011= "] komponent "
+@-1012= "Preinstalovavam v jazyce"
+
+@-1013= "Odstranuji starou instalaci ["
+@-1014= "] prvne ..."
+@-1015= "USPESNE ODSTRANENO STARE"
+
+@-1016= "Instaluji"
+@-1017= "Chyba pri instalaci ["
+@-1018= "], vracim se do puvodniho stavu"
+@-1019= "USPESNE NAINSTALOVANO     "
+@-1020= "Preskakuji"
+@-1021= "Odstranuji ["
+@-1022= "] (komponent #"
+@-1023= ")"
+@-1024= "USPESNE ODSTRANEN ["
+
+@-1025= "]?
+[R] Reinstalovat, [N] Beze zmeny, [U] Odinstalovat, [Q] Konec nebo vyber moznost:"
+@-1026= "]?
+[N] Ne, [Q] Konec nebo vyber moznost:"
+@-1027= " (prave nainstalovano)"
+
+@-1028= "Chtete zobrazit komponenty z ["
+@-1029= "]?
+[Y] Ano, [N] Ne? "
+
+@-1030= "]?
+vyberte moznost:"
+@-1031= "]?
+[R] Reinstalovat, [N] Beze zmeny, [Q] Konec nebo vyber moznost:"
+@-1032= "NENAINSTALOVAN KVULI CHYBAM"
+@-1033= "INSTALOVAN S VAROVANIMI    "
+@-1034= "Chcete zobrazit readme? [Y] Ano [N] Ne"
+@-1035= "V jazyce"
+  
+@-1036= "Preskakuji SKUPINU ["
+@-1037= "] protoze nesplnuje pozadavky."
+  
+@-1038= "[A] Zeptat se na kazdy zvlast, [S] Preskocit vsechny, nebo zvol preddefinovany vyber:"
+@-1039= "[A] Zeptat se na kazdy zvlast, [R] Reinstaluj soucasnou konfiguraci, [U] Odinstaluj vse, [S] Preskoc vse, nebo zvol preddefinovany vyber:"
+
+
+@100000 = ~Baldur's Gate Trilogy - Core (Jadro)~
+@100001 = ~Odstranuji pred-instalacni soucast...~
+@100002 = ~Zalohuji chitin.key a slozku override...~
+@100003 = ~Upravuji dialog.tlk.  Prosim cekejte...~
+@100004 = ~Registruji GUI...~
+@100005 = ~Upravuji pravidla...~
+@100006 = ~Instaluji skripty...~
+@100007 = ~Instaluji dialogy...~
+@100008 = ~Instaluji obchody...~
+@100009 = ~Instaluji veci...~
+@100010 = ~Instaluji kouzla...~
+@100011 = ~Instaluji oblasti...~
+@100012 = ~Instaluji 2DA...~
+@100013 = ~Instaluji bytosti...~
+@100014 = ~Instaluji ostatni drobnosti...~
+@100015 = ~Instalace selhala - problem pri detekci BG1 adresare.~
+@100016 = ~Aplikuji opravu zkusenosti...~
+
+@100018 = ~PLNA Baldur's Gate and Tales of the Sword Coast Hudba~
+@100019 = ~SMISENA Baldur's Gate/Shadows of Amn/Throne of Bhaal Hudba~
+@100020 = ~Baldur's Gate Trilogy - Hudba~
+@100021 = ~Datadisk Throne of Bhaal je vyzadovan pro instalaci teto modifikace.~
+@100022 = ~Instaluji balik oprav...~
+@100023 = ~PLNA Baldur's Gate/Shadows of Amn/Throne of Bhaal HUDBA (VAROVANI: upravuje BGMain.exe!)~
+
+@100024 = ~Herni graficke uzivatelske rozhrani (GUI)~
+@100025 = ~"Puvodni SoA/ToB"~
+@100026 = ~"Baldur's Gate Trilogy" (Elminster drzici mec)~
+@100027 = ~"Baldur's Gate Trilogy" (Elminster drzici hul)~
+
+@100028 = ~Zadejte kompletni umisteni Vasi Baldur's Gate instalace a pote stisknete Enter.~
+@100029 = ~Neplatna cesta k Baldur's Gate nebo neplatna instalace Baldur's Gate.
+Je bezpecne ukoncit instalaci vypnutim tohoto okna nebo stisknutim Ctrl+C.~
+@100030 = ~Extrahuji bytosti z Baldur's Gate:TotSC...~
+@100031 = ~Extrahuji texty pro preklad z Baldur's Gate:TotSC...~
+@100032 = ~Importuji pred-vytvorene postavy z Baldur's Gate:TotSC...~
+@100033 = ~Importuji hudbu z Baldur's Gate:TotSC...~
+@100034 = ~Importuji zvukove sbirky z Baldur's Gate:TotSC...~
+@100035 = ~Importuji zvuky z Baldur's Gate:TotSC...~
+@100036 = ~Importuji videa z Baldur's Gate:TotSC...~
+@100037 = ~Importuji tilesety z Baldur's Gate:TotSC...~
+@100038 = ~Prevadim tilesety...~
+@100039 = ~Extrahuji nove tilesety...~
+@100040 = ~Komprimuji oblasti...~
+@100041 = ~Komprimuji herni soubory...~
+@100042 = ~Nalezena cesta k Baldur's Gate I %bg1_dir%.
+Je spravna? [Y] Ano nebo [N] Ne~
+@100043 = ~Chcete vsechna nova data prevest do formatu biff? (doporuceno krome instalaci megamodifikaci)
+[Y] Ano nebo [N] Ne~
+@100044 = ~Nalezen OS na bazi Unix. Zapisovani povoleno.%LNL%%LNL%~
+@100045 = ~Nalezena stara verze Windows. Bude mozne jen omezene zapisovani.%WNL%%WNL%~

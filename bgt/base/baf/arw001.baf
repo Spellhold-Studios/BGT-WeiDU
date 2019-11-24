@@ -1,0 +1,34 @@
+IF
+  Global("Door2012Disabled","GLOBAL",1)
+  Global("Infected","GLOBAL",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("DOORW012",TRUE)
+    SetGlobal("Door2012Disabled","GLOBAL",0)
+END
+
+IF
+  Global("Door2012Disabled","GLOBAL",0)
+  Global("Infected","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("DOORW012",FALSE)
+    SetGlobal("Door2012Disabled","GLOBAL",1)
+END
+
+IF
+  OpenState("DOR2012",FALSE)  // DOR2012
+  Global("Infected","GLOBAL",1)
+THEN
+  RESPONSE #100
+    OpenDoor("DOR2012")
+END
+
+IF
+  OpenState("DOR2012",TRUE)  // DOR2012
+  Global("Infected","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CloseDoor("DOR2012")
+END
+

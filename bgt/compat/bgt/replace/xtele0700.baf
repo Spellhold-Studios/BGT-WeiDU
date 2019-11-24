@@ -1,0 +1,29 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,15)
+  Global("ImoenPartyBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    MultiPlayerSync()
+    FadeToColor([1.0],0)
+    TakePartyItem("MISC4E")
+    TakePartyItem("MISC4G")
+    StartCutSceneMode()
+    StartCutScene("cut01")
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,15)
+  Global("ImoenPartyBG1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    MultiPlayerSync()
+    FadeToColor([1.0],0)
+    TakePartyItem("MISC4E")
+    TakePartyItem("MISC4G")
+    StartCutSceneMode()
+    StartCutScene("cut01BGT")
+END

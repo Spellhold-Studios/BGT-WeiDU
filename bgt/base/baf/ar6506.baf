@@ -1,0 +1,8 @@
+IF
+  NumDeadGT("Rat2",4)
+  Global("RatsKilled","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RatsKilled","GLOBAL",5)
+END
+

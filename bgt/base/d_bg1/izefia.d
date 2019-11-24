@@ -1,0 +1,33 @@
+BEGIN ~izefia~
+
+IF WEIGHT #1 ~InParty("Jaheira")~ THEN BEGIN 0
+  SAY @10763
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END
+
+IF WEIGHT #0 ~InParty("Faldorn")~ THEN BEGIN 1
+  SAY @10772
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #2 ~True()~ THEN BEGIN 2
+  SAY @10775
+  IF ~~ THEN REPLY @10783 GOTO 4
+  IF ~~ THEN REPLY @10784 GOTO 5
+  IF ~~ THEN REPLY @10785 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @10786
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @10787
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @10789
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

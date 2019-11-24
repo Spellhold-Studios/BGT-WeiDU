@@ -1,0 +1,699 @@
+IF
+  Class(Player1,FIGHTER_ALL)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#0,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,FIGHTER_ALL)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#1,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,FIGHTER_ALL)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#2,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,FIGHTER_ALL)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#3,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,FIGHTER_ALL)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#4,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,FIGHTER_ALL)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#5,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,FIGHTER_ALL)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#6,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,RANGER_ALL)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#7,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,RANGER_ALL)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#8,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,RANGER_ALL)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#9,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,RANGER_ALL)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#10,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,RANGER_ALL)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#11,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,RANGER_ALL)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#12,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,RANGER_ALL)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#13,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,PALADIN_ALL)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#14,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,PALADIN_ALL)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#15,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,PALADIN_ALL)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#16,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,PALADIN_ALL)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#17,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,PALADIN_ALL)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#18,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,PALADIN_ALL)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#19,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,PALADIN_ALL)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#20,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,CLERIC_ALL)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#21,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,CLERIC_ALL)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#22,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,CLERIC_ALL)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#23,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,CLERIC_ALL)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#24,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,CLERIC_ALL)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#25,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,CLERIC_ALL)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#26,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,CLERIC_ALL)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#27,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,DRUID_ALL)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#28,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,DRUID_ALL)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#29,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,DRUID_ALL)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#30,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,DRUID_ALL)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#31,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,DRUID_ALL)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#32,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,DRUID_ALL)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#33,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,DRUID_ALL)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#34,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MAGE_ALL)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#35,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MAGE_ALL)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#36,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MAGE_ALL)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#37,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MAGE_ALL)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#38,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MAGE_ALL)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#39,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MAGE_ALL)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#40,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MAGE_ALL)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#41,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,THIEF_ALL)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#42,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,THIEF_ALL)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#43,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,THIEF_ALL)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#44,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,THIEF_ALL)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#45,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,THIEF_ALL)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#46,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,THIEF_ALL)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#47,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,THIEF_ALL)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#48,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,BARD_ALL)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#49,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,BARD_ALL)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#50,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,BARD_ALL)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#51,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,BARD_ALL)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#52,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,BARD_ALL)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#53,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,BARD_ALL)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#54,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,BARD_ALL)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#55,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MONK)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#56,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MONK)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#57,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MONK)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#58,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MONK)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#59,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MONK)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#60,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MONK)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#61,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  Class(Player1,MONK)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#62,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  OR(10)
+    Class(Player1,CLERIC_RANGER)
+    Class(Player1,CLERIC_MAGE)
+    Class(Player1,CLERIC_THIEF)
+    Class(Player1,FIGHTER_CLERIC)
+    Class(Player1,FIGHTER_DRUID)
+    Class(Player1,FIGHTER_MAGE)
+    Class(Player1,FIGHTER_MAGE_CLERIC)
+    Class(Player1,FIGHTER_MAGE_THIEF)
+    Class(Player1,FIGHTER_THIEF)
+    Class(Player1,MAGE_THIEF)
+  Race(Player1,HUMAN)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#63,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  OR(10)
+    Class(Player1,CLERIC_RANGER)
+    Class(Player1,CLERIC_MAGE)
+    Class(Player1,CLERIC_THIEF)
+    Class(Player1,FIGHTER_CLERIC)
+    Class(Player1,FIGHTER_DRUID)
+    Class(Player1,FIGHTER_MAGE)
+    Class(Player1,FIGHTER_MAGE_CLERIC)
+    Class(Player1,FIGHTER_MAGE_THIEF)
+    Class(Player1,FIGHTER_THIEF)
+    Class(Player1,MAGE_THIEF)
+  Race(Player1,ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#64,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  OR(10)
+    Class(Player1,CLERIC_RANGER)
+    Class(Player1,CLERIC_MAGE)
+    Class(Player1,CLERIC_THIEF)
+    Class(Player1,FIGHTER_CLERIC)
+    Class(Player1,FIGHTER_DRUID)
+    Class(Player1,FIGHTER_MAGE)
+    Class(Player1,FIGHTER_MAGE_CLERIC)
+    Class(Player1,FIGHTER_MAGE_THIEF)
+    Class(Player1,FIGHTER_THIEF)
+    Class(Player1,MAGE_THIEF)
+  Race(Player1,HALF_ELF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#65,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  OR(10)
+    Class(Player1,CLERIC_RANGER)
+    Class(Player1,CLERIC_MAGE)
+    Class(Player1,CLERIC_THIEF)
+    Class(Player1,FIGHTER_CLERIC)
+    Class(Player1,FIGHTER_DRUID)
+    Class(Player1,FIGHTER_MAGE)
+    Class(Player1,FIGHTER_MAGE_CLERIC)
+    Class(Player1,FIGHTER_MAGE_THIEF)
+    Class(Player1,FIGHTER_THIEF)
+    Class(Player1,MAGE_THIEF)
+  Race(Player1,GNOME)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#66,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  OR(10)
+    Class(Player1,CLERIC_RANGER)
+    Class(Player1,CLERIC_MAGE)
+    Class(Player1,CLERIC_THIEF)
+    Class(Player1,FIGHTER_CLERIC)
+    Class(Player1,FIGHTER_DRUID)
+    Class(Player1,FIGHTER_MAGE)
+    Class(Player1,FIGHTER_MAGE_CLERIC)
+    Class(Player1,FIGHTER_MAGE_THIEF)
+    Class(Player1,FIGHTER_THIEF)
+    Class(Player1,MAGE_THIEF)
+  Race(Player1,HALFLING)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#67,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  OR(10)
+    Class(Player1,CLERIC_RANGER)
+    Class(Player1,CLERIC_MAGE)
+    Class(Player1,CLERIC_THIEF)
+    Class(Player1,FIGHTER_CLERIC)
+    Class(Player1,FIGHTER_DRUID)
+    Class(Player1,FIGHTER_MAGE)
+    Class(Player1,FIGHTER_MAGE_CLERIC)
+    Class(Player1,FIGHTER_MAGE_THIEF)
+    Class(Player1,FIGHTER_THIEF)
+    Class(Player1,MAGE_THIEF)
+  Race(Player1,DWARF)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#68,EXISTANCE5)
+    DestroySelf()
+END
+
+IF
+  OR(10)
+    Class(Player1,CLERIC_RANGER)
+    Class(Player1,CLERIC_MAGE)
+    Class(Player1,CLERIC_THIEF)
+    Class(Player1,FIGHTER_CLERIC)
+    Class(Player1,FIGHTER_DRUID)
+    Class(Player1,FIGHTER_MAGE)
+    Class(Player1,FIGHTER_MAGE_CLERIC)
+    Class(Player1,FIGHTER_MAGE_THIEF)
+    Class(Player1,FIGHTER_THIEF)
+    Class(Player1,MAGE_THIEF)
+  Race(Player1,HALFORC)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,SetPlayerSound(Myself,A6#69,EXISTANCE5)
+    DestroySelf()
+END

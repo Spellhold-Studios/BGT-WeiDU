@@ -1,0 +1,975 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<title>BGT-WeiDU Fixpack</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='line-height:150%'><b><u><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FIXPACK</span></u></b></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-AU style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>This is a list of
+current fixes in BGT-WeiDU that address bugs present in the final version of
+Baldur’s Gate and Tales of the Sword Coast. Much of DudleyFix is implemented.
+See the Dudleyville part of the Fixpack section in bgt/help/devdoc/dev.doc for
+more information.</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ANIMATIONS</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SSIWM:
+     Fixed corrupted palette</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AREAS</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR0300
+     (renamed AR7400): Door 1 to the Counting House set as locked as described
+     by Jacil</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR0511
+     (renamed ARD011): Trap 4 added flag ‘Detectable trap’; Trap 15 corrected
+     to Proximity trigger, was Info trigger; Corrected undroppable Lard Shield
+     (SHLD18) to a droppable one (SHLD15)</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR2000
+     (renamed ARW000): Spawn Point 2 changed location Y value to 170; was 17</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR3300
+     (renamed AR6700): Door 3 (DOOR3304) impeded search map coordinates when
+     open were corrected, fixing Beregost crashes and saved game corruption</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>CREATURES</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AASIM,
+     ALAI, BART6, DESTUS, DIYAB, DRATAN, GARDUS, IRONM2, IRONM3, IRONM4,
+     IRONME, NAAMAN, NORTUA, THALDO, TRIADO, ZHALIM: General script set to
+     LEAVECH7 so that returning to the Iron Throne building upon the return to
+     Baldur’s Gate will not cause inconsistencies</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AASIM,
+     ALAI, ANDRIS, BASILMUT, BEYN, BOR, CARSTO, CUCHOL, CULT3, DEZKIEL, DIYAB,
+     DRAKAR, DRASUS, DROTH, GARAN, GARDUS, GENTHORE, GORF (renamed BGGORF),
+     HALACA, HASEO, KNIGHTSK, KYSUS, LAMALH, MANEIR, MARCEL, MOLKAR, MORVIN,
+     NAAMAN, OGREMA02, PRAT, RAHVIN, REZDAN, SAKUL, SHALDR, SIRINE, TAM,
+     TAZOK2, TELKA, TELLAN, WUDEI, ZEELA, ZHALIM: Allegiance set to neutral, since
+     all these creatures force dialogue with the player and attack directly
+     afterwards or teleport away</span></li>
+ <ul style='margin-top:0cm' type=disc>
+  <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+      style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ANDRIS.DLG:
+      Changed so Beyn and Marcellus will change allegiance to enemy</span></li>
+ </ul>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <ul style='margin-top:0cm' type=disc>
+  <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+      style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR9500:
+      One instance of SIRINE.CRE (the one with SIRINE_A.CRE and SIRINE_B.CRE)
+      changed to SIRINE_B.CRE to facilitate Enemy -&gt; Neutral allegiance</span></li>
+ </ul>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <ul style='margin-top:0cm' type=disc>
+  <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+      style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ISLSIR.DLG:
+      Changed so Sirine will change allegiance to enemy</span></li>
+  <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+      style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>KNIGHTSK.DLG:
+      Changed so Undead Knight will change allegiance to enemy</span></li>
+  <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+      style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SAREVO.DLG:
+      Changed so TAZOK2.CRE will change allegiance to enemy</span></li>
+ </ul>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AMARAN,
+     DEAD2, DEADFUCK, JAMIE, FLAMANG, FLAMPUN, FLAMPUN2, FLAMSCO, FLAMWIZ,
+     KENT, LOTHAN: Corrected various invalid item resource references</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ARGAHI,
+     BANDCAP, BANDCR, BANDIC, BANDIT, BANDIT2, BANDITA, BANDITC, BANDITCY,
+     BILLY, CANTO, DRIBBE, HOBGOBC, JEMBY, KNOTT, NEVILL, RAEMON, TEYNGA,
+     ZEKAR: Bandit scalp pickpocket exploit fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BRAGE:
+     Brage’s Body is no longer stealable</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>CARBOS
+     (renamed BGCARBOS): Gave script name Carbos to allow checks in dialogue
+     with SANADAL.DLG</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>CULT3:
+     Ulgoth’s Beard residents become hostile when cult attacks fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DAESEWLF:
+     Corrected name from ‘Werewolf’ to ‘Wolfwere’</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FARM,
+     FARM2, FARM3, FARM4, FARMBE, FARMER, FARMWE: Corrected name from ‘Lahl’ to
+     ‘Farmer’</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FARMBR,
+     GERDE, JEBADO, SONNER, TELMEN: Removed SHOUT.BCS to prevent spawned
+     BANDIT.CRE from turning Brun, Gerde, Jebadoh, Sonner, and Telmen, hostile</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FLAM:
+     Alora calls a neutral allegiance, inanimate Flaming Fist Enforcer fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>GOLEMF,
+     GOLEMF2: Randomly spawning flesh golems are now correctly immune to
+     backstab</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>GORION:
+     Changed class to mage to make the Gorion’s death cutscene more realistic</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>HOUSEN:
+     Given override script GUARDS.BCS and general script INITINV.BCS</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ISLSIR:
+     The Sirine Queen is now female in gender to give her correct casting
+     sounds</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>JALANT:
+     Jalanta Mistmyr child’s body pickpocket exploit fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>KAISH2:
+     Removed KAISHA.BCS script reference</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>LEAGGU4:
+     Corrected gender of soundset to male</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>OBERAN:
+     Corrected name from ‘Oberan’ to ‘Oberon’</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>RAMAZI:
+     Ramazith pickpocket exploit fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SHANK
+     (renamed BGSHANK): Gave script name Shank to allow checks in dialogue with
+     SANADAL.DLG</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SILKE:
+     Silke no longer attacks enemies for the party, which could affect
+     Garrick’s quest</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SKELETS:
+     Randomly spawning skeletons now have their correct immunities</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>All
+     joinable NPCs:<b> </b>Spell memorisation and base statistics corrected to
+     D&amp;D rules</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>VAYYA:
+     Vay-ya’s gender corrected from male to female</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>WOLFVA:
+     Corrected general, race, and class identifiers for Vampiric Wolf</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ZOMBIE,
+     ZOMBIE_A, ZOMBIEB: Corrected damage and dying sounds that were skeleton
+     sounds</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DIALOGUE</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ALATOS:
+     Corrected typo in Oberan death variable when checking for quest reward</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ALBERT:
+     Albert doesn’t give the reward for Rufie fix, Albert does not teleport
+     away at end of quest fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ALDETH:
+     Aldeth Sashenstar betrayal fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ANGELO:
+     Angelo now properly kills some player, not just Player2, so that Player2
+     already being dead does not result in no death</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BANDCR,
+     BANDCT: Joining the bandits fix, by removing setting of redundant
+     TazokSays variable</span></li>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BASSIL:
+     Footy runs away when Bassilus becomes hostile, instead of Footy becoming
+     hostile</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BELAND:
+     Removed reference to door</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BREVLI:
+     Gold is given only once when charmed</span></li>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>CHARLE:
+     Charleston Nib diggers attack fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DELTAN:
+     Prevented Duke Eltan from re-giving the quest to Investigate the Iron
+     Throne if the player decides to not work for him anymore</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DRADEE,
+     KAISH: Broaching the subject of Dradeel having much to say to Kaishas is
+     only allowed if Dradeel recounted his version of the events of Balduran’s
+     voyage</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DRADEE:
+     Dradeel no longer takes the spellbook from the player unless the quest was
+     originally accepted</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DRADEE:
+     Dradeel says correct dialogue when his quest is rejected</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DREPPI:
+     Take one antidote potion instead of an entire stack of antidote potions</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DYNAHE:
+     800 experience is now given in all scenarios of talking to Dynaheir</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ELKART:
+     Elkart gives ransom money every two days as he says in dialogue, not one;
+     Elkart will not talk about ransom until Eldoth retrieves Skie</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FARMBE:
+     Fixed a wrong journal entry talking about cattle when farmer was talking
+     about something moving close to home, and fixed journal entry talking
+     about something moving close to home when farmer was talking about runaway
+     workers</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FARMBR:
+     Fixed the situation where the player could give 100 gold even if they did
+     not have the correct amount; also changed so that player has option of
+     giving Ruby Ring or 100 gold, as opposed to Ruby Ring + 100 gold or 100
+     gold only, since both result in the same outcome</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=SV style='font-size:
+     10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FENTEN: Fenten
+     ankheg shell exploit fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FLAM10:
+     The guards in the Duchal Palace will now eventually become hostile when
+     they ask the party to leave, and will remember if they have been shown
+     invitations</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FTOBE5:
+     Correctly gives ring when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>GANDOL:
+     Removed possibility of dialogue loop</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>GRETEK:
+     Prevented bartender and commoners becoming hostile when Gorpel Hind’s
+     enemies begin attacking the party</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>HALFG3:
+     The halfling no longer speaks to the player as if they had already met in
+     the first conversation</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>HALFG4:
+     Correctly gives Potion of Invulnerability when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>HALFG6:
+     Correctly gives Sling +1 when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>HENTOL:
+     Correctly gives Dagger +2 and quest when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>IRON13:
+     Fixed the possibility of giving the Iron Throne guard gold even when the
+     party had insufficient funds</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>IRONM2,
+     IRONM3: Gold is correctly given when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ISLSIR:
+     The Sirine Queen now gives Evan’s Body to the last PC that talked to her,
+     not Player1</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ITHTYL:
+     Gold is given a maximum of once when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>JAHEIR,
+     KHALID: Fixed a condition where talking to Jaheira and not accepting her
+     and Khalid into the party allowed a repeat of the exact same dialogue if
+     the player talked to Khalid afterwards, and vice versa</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>JALANT:
+     Jalantha Mistmyr will now recognise when she has given the party the quest
+     to retrieve the Tome of Understanding</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>KIERES:
+     Corrected typo in check for De’Tranion</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>KNIGHT
+     (renamed BGKNIGHT)</span><span lang=EN-AU style='font-size:10.0pt;
+     line-height:150%;font-family:"Verdana","sans-serif"'>: The ghostly knights
+     in Firewine Ruins will always give the player the quest the first time
+     when they are spoken to, then every subsequent time spoken to will check
+     for the Ancient Armor</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MAREK:
+     If Marek is charmed, he actually gives the party the cure and experience</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MARL:
+     Killing Marl after calming him down exploit fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MELICA:
+     After transformation, Melicamp’s soundset will not be that of a chicken
+     anymore</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MELICA,
+     THALAN: Corrected dialogue inconsistency with rumours about Thalantyr</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MELICA,
+     THALAN: Increased checks for Melicamp’s dialogue so that he says the
+     correct things, better variable check for when Melicamp has been
+     transformed back into a human</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MENDA1:
+     Check for correct dialogue when player does not have sea charts but is going
+     to get them</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MENDA4:
+     The shapeshifting of Baresh no longer results in the resulting Loup Garou
+     dropping Sea Charts</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MERCHG:
+     The guards in the Merchant League no longer refer the player to Brandilar
+     about investigating Zorl and Irlentree when the quest is completed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MINEC2:
+     The miner now takes the Key to River Plug so he can flood the mines; the
+     miner sets the proper variable to allow Volo’s rumours to work correctly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MTOB2:
+     Gold is given only once when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>NADIN:
+     Nadine will correctly reward the HOSTILE_* player for finding Euric when
+     the quest is complete; Nadine will not continuously give a NEUTRAL_UPPER
+     player the reward for Euric’s quest</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>NALIN:
+     Nalin now correctly rewards the player and fixes Oublek’s checks upon
+     delivery of Brage’s body to the temple</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>NOBL4:
+     Corrected check for dialogue trigger between nobleman and noblewoman in
+     Candlekeep Inn; corrected a dialogue that never triggered</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>NOBL10:
+     Correctly gives Rainbow Obsidian Necklace when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>NOBL4,
+     NOBL11: Gold is correctly given when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>NOBL8:
+     Gives Flamedance Ring only once when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>NOBW8:
+     Three Old Kegs noblewoman charm exploit fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ORDULI:
+     Ordulinian quest reward fix, and corrected reputation check</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>OUBLEK:
+     Corrected rewards and checks for Oublek bounties</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>PHEIRK:
+     Corrected Pheirkas’ class checks in dialogue</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>RAMAZI:
+     Corrected Ramazith’s wrath on the player</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SAREVO:
+     Sarevok causes the Duchal Palace exits to close just before the nobleman
+     change into doppelgangers, removed reference to Angelo since he is not in
+     the palace</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SCAR:
+     Talking to Scar again after accepting the sewers quest will no longer
+     force the player to drop the quest when it is not completed yet</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SHAELL:
+     Fixed inconsistent dialogue</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SHOPKN:
+     Fix for winter wolf pelt exploit, they are destroyed upon receipt</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SILENC:
+     Guard now correctly spawns when the party does not pay Silence</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SKELETS:
+     Random spawning skeletons now have their correct immunities</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SMITH:
+     Gives Chain Mail only once when charmed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>TAEROM:
+     Taerom now takes one Ankheg shell at a time, and making Ankheg armour is repeatable,
+     shell actually rots, Taerom Fuirium ankheg shell exploit fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>TAKIYAH:
+     Upon recognition of Faldorn, Takiyah leaves</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>TENYA2:
+     After helping Tenya, demanding payment from her will result in her
+     becoming hostile, instead of her giving you the Child’s body (normally,
+     she could give you the Child’s body even when the player had not received
+     Tremain Belde’ar’s quest)</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>THEREL:
+     Corrected typo in death variable check of Dalton</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>TRANZI:
+     Fixed a situation where talking to Tranzig and finishing dialogue without making
+     him Enemy() will cause him to have nothing to say anymore</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>TREMAI:
+     Tremain Belde’ar dialogue crash-to-desktop fix; rejecting Tremain’s quest
+     now properly deactivates the quest</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>VARCI:
+     Added area check for Varci’s dialogue</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>VOLETA:
+     Voleta now says different things when Sarevok is dead</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>WINSKI:
+     Winski now says different things when Sarevok is dead</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>TAZOK
+     (renamed BGTAZOK): Unshuts up Tazok to fix up dialogue for joining the
+     bandits</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>VOLO:
+     Volo now properly delivers the rumour about the death of Sarevok</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>YAGO:
+     If the player spoke to Yago already before accepting Brielbara’s quest,
+     the related dialogue is now made available</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ZHURLO:
+     Zhurlong can no longer be killed after his quest is completed, thereby
+     retrieving the stolen money and the Boots of Stealth, without penalty</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>EFFECTS</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>LYCNHIT3:
+     Silver Dagger – Werebane never gave an extra +3 THAC0 vs. Lycanthropes
+     because the effect probability 1 was 0</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-AU>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ITEMS</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AROW05,
+     AROW12, AROW14: Arrows of Biting damage fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BOOK07,
+     BOOK08: Book of Charisma and Wisdom usability fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BOW07:
+     Corrected proficiency to longbow </span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BRAC06:
+     Gauntlets of Ogre Power usage fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DAGG09,
+     SW1H18: Silver Dagger and Sword of Balduran are now sellable</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ISHLD02:
+     Canderous' tutorial Small Shield +1 now begins identified</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MISC1B:
+     Corrected description icon for the Butter Knife of Balduran</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MISC70:
+     Delorna’s Statue renamed to the correct Ithmeera’s Statue</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SCRL3F:
+     The Diary of Sarevok is now of itemtype Books so that it appears as a book
+     when collected on the cursor</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SCRLAUTO,
+     SCRLJALA: Kobold autograph and Geas Removal Scrolls made non-stackable</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SW1H20,
+     SW1H22, SW1H23: Thief scimitar usability fix</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>JOURNAL</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>GERDE:
+     State 0 journal entry has changed 'fifty yards to the left' to 'fifty
+     yards to the east'</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SCRIPTS</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ACT01,
+     ACT02, ACT03, ACT04, ACT05, ACT06, ACT08, ACT10, ACT11, ACT12: Corrected
+     game engine limitation of a container staying open and triggering guards; only
+     humanoids will trigger guards</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ALORA:
+     Alora stutter bug fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AMNISNA:
+     Nashkel Amnish guards attack party when familiar present fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR0145
+     (renamed AR7245): Shandalar’s daughters now only appear when the player
+     accepts Alatos’ quest to prevent inconsistency issues </span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR0607
+     (renamed </span><span lang=EN-AU style='font-size:10.0pt;line-height:150%;
+     font-family:"Verdana","sans-serif"'>AR7607): The entrance to Duke Eltan’s
+     chambers is now not accessible until Scar takes the party to Duke Eltan </span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR1002
+     (renamed ARU002): If a cultists transforms into Aec’Letec, no longer is
+     experience not gained and the quest not finished</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR1200
+     (renamed AR8100): Kolvar no longer respawns as soon as he escapes the area</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR2626
+     (renamed AR6526), CH6END: Bypasses the sporadically fallible requirement
+     to pass a trigger point in hostile Candlekeep exterior in order to
+     increment the game to the final chapter</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR3700
+     (renamed AR9600)</span><span lang=EN-AU style='font-size:10.0pt;
+     line-height:150%;font-family:"Verdana","sans-serif"'>: Kissiq no longer is
+     present if Thalantyr has attempted to transform Melicamp</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR3700
+     (renamed AR9600): Footy escapes the area when Bassilus is killed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR5000
+     (renamed AR3900): Lamalha and her goons now do not appear unless Mulahey
+     is dead, since she talks about interference with the Iron Throne </span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR5100
+     (renamed </span><span lang=EN-AU style='font-size:10.0pt;line-height:150%;
+     font-family:"Verdana","sans-serif"'>AR4100): Removes innocent killed
+     reputation loss for Charleston Nib if the player kills him as part of
+     Gallor’s quest</span></li>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR5200
+     (renamed AR4200): Ingot no longer appears if Dynaheir is rescued before
+     the player meets him</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR5404
+     (renamed AR4404): Chapter incrementation will still occur if the player
+     retrieves Mulahey’s documents before killing Mulahey outside his den, but
+     does not re-enter his den</span></li>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR5506
+     (renamed </span><span lang=EN-AU style='font-size:10.0pt;line-height:150%;
+     font-family:"Verdana","sans-serif"'>AR6560): Arkanis and Deder will no
+     longer follow the party into the caves leading to Candlekeep exterior</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BANCUT01,
+     BANCUT02, BANDIT2: Raiken and Teven’s bandits now disappear after the
+     player joins the bandits</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BHOSTILE:
+     Bandit camp becomes hostile after the party retrieves Tazok’s letters</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>CH1CUT01,
+     CH1CUT02, CH1CUT04: Smoother Gorion’s death cutscene</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DIGGER:
+     Charleston Nib quest fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DOPKIE:
+     Fixed a bug where Kiel the Le gionkiller could be alive with less than 1
+     HP and is there unkillable</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DRIZZT:
+     Drizzt will not attack gnolls unless spoken to by the player</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>GTWEREWO:
+     Werewolves do not turbo-spawn on Werewolf Island fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>IRON13,
+     IRON14: Removed override script SHOUT.BCS to avoid turning Iron Throne
+     merchants and ambassadors, such as Emissary Tar, hostile</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>KAGAIN:
+     Fixed a problem where Kagain would pester the player with the joining
+     dialogue if the Kagain caravan quest timer expired and he was not in the
+     party </span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>LARYS:
+     Laryssa reacts appropriately to the fate of Brage; becomes hostile if Brage
+     is killed, and disappears if Brage is taken to the temple</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MELICAMP:
+     Melicamp starts dialogue when he sees Thalantyr</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>PHEOARCH,
+     PHEOGURD, PHOENIX: Phoenix Guards now show proper exploding and
+     regeneration behaviour when ‘killed’</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>RUFCUT01:
+     Code redundancy in Rufie and his ‘dog’ teleportation away</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SEMAJ:
+     Semaj no longer casts his spells at the party before Sarevok has spoken</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>THALANTR:
+     Thalantyr’s golems now become hostile when he is attacked</span></li>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>THALANTR:
+     Thalantyr now initiates dialogue after he attempts to transform Melicamp</span></li>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>TRAPDIS:
+     Bone Wardstone Doesn't Disable Trap Machine Fix in Durlag’s Tower</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>RULESET</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ALIGNMNT.2DA:
+     Alignment by class table fix</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SPELLS</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SPWI003,
+     SPWI112: Magic Missile damage fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span><span
+     lang=EN-AU style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SPWI202:
+     Detect Evil description fix, now correctly described as a level 2 spell</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-AU style='font-size:
+10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=EN-AU
+style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>COMBINATION</span></b></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>A
+     large number of files: Most NPCs who EscapeArea() now do not simply
+     disappear into thin air</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SHARTEL2.BCS,
+     SHARTE.DLG: Sharteel Duel fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>GORPEL.DLG:
+     Gorpel Hind’s multiple maulers of the Undermountain fix</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>IRON15.CRE,
+     FABER.DLG: Faber in Cloakwood mines actually summons Iron Fist Guards</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MISC86.ITM,
+     STOVAI.STO: Officer Vai will only buy Bandit Scalps now (referenced by
+     itemtype Unknown68)</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>EDWIN.BCS
+     (renamed BGEDWIN.BCS), MINSC.BCS (renamed BGMINSC.BCS), EDWIN.DLG,
+     MINSC.DLG: added checks to see if Dynaheir has been rescued so the quest
+     is not given anymore</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>EDWIN.BCS
+     (renamed BGEDWIN.BCS), DYNAHEIR.BCS, MINSC.BCS (renamed BGMINSC.BCS),
+     EDWIN.DLG, MINSC.DLG: fixed fight between Dynaheir, Edwin, and Minsc, to a
+     very basic version of a fight</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>THIEFG.BCS
+     (new), THIEFG.CRE, THIEFG.DLG: Thieves at the Thieves’ Guild now remember
+     when the player has said the correct password</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FLAMVAI.BCS
+     (new), FLAMVAI.CRE, VAI.DLG: The Flaming Fist Enforcers that are part of
+     Officer Vai’s entourage will now leave when she leaves</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>JALANT.BCS
+     (new), JALANT.CRE: Fixed an exploit where two Child’s bodies could be
+     obtained</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BELT.BCS,
+     LIIA.BCS, </span><span lang=EN-AU style='font-size:10.0pt;line-height:
+     150%;font-family:"Verdana","sans-serif"'>FLAM10.DLG: The guards in the
+     Duchal Palace will now eventually become hostile when they ask the party
+     to leave, and will remember if they have been shown invitations</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>OOPAH.CRE,
+     GAZIB.DLG: Fixed an issue where talking to Gazib in quick succession can
+     result in the appearances of three Oopahs simultaneously</span><span
+     lang=EN-US style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>&nbsp;</span></li>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>MELICAMP.BCS,
+     MELICA.DLG, THALAN.DLG: Fixed an issue with Thalantyr’s dialogue
+     terminating abruptly when he remembers about Melicamp</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR8900.BCS,
+     AR9000.BCS, BANDIT2.BCS, RAIKEN.DLG, TEVEN.DLG: Neutral allegiance bandits
+     now appear with Raiken and Teven and will respond to Teven’s shouts
+     correctly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR7212.BCS,
+     AR7213.BCS, AR7214.BCS, AR7215.BCS, AR7216.BCS, IRONM4.DLG, IRONME.DLG, </span><span
+     lang=EN-US style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>THALDO.DLG</span><span
+     lang=EN-AU style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>:
+     Corrected checks for when the player actually learns that Rieltar is at
+     Candlekeep</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ARA005.ARE,
+     CATP.BCS (new), CATP.CRE, PETRIN.DLG, BGRING16.ITM (new)</span><span
+     lang=EN-AU style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>:
+     Petrine’s quest now correctly concludes, while any Angel Skin Ring will no
+     longer satisfy Petrine’s quest</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR8213.ARE,
+     NARLEN.DLG, BGMISC45.ITM (new)</span><span lang=EN-AU style='font-size:
+     10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>: Any Rogue
+     Stone will no longer satisfy Narlen’s quest to steal from Gantolandan</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>TERSUS.BCS
+     (new), TERSUS.DLG, BGTERSUS.SPL (new)</span><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>:
+     Tersus correctly gives each live party member a suit of Leather Armor</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>FFHUNT.BCS,
+     FLAMAL.BCS (new), FLAMAL.CRE (new), ALDETH.DLG, FLAMAL.DLG: Aldeth
+     Sashenstar correctly summons the Flaming Fist in the Merchant League upon
+     the return to Baldur’s Gate </span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR1004
+     (renamed ARU004), LOUPGAR2.BCS (new), LOUPGAR.CRE: Lycanthropy is now
+     cured when Mendas dies, even when he is killed outside his house</span></li>
+</ul>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR4400.BCS
+     (renamed AR3300.BCS), XVARTH.BCS, HULRIK.CRE: Hulrik, his cow, and the
+     xvarts tormenting them </span><span lang=EN-AU style='font-size:10.0pt;
+     line-height:150%;font-family:"Verdana","sans-serif"'>are no longer there
+     if Nashkel mine is cleared</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>GNOLL5.BCS,
+     GNOLL5A.BCS, GNOLL5.DLG: Corrected the duel with the Gnoll in the
+     Cloudpeak Mountains just east of the Gnoll Stronghold</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>SAREVO.CRE,
+     SAREVO2.CRE, BGMINHP1.ITM (new): Sarevok in the coronation and at the end
+     cannot be killed by over-powered parties without triggering appropriate
+     script anymore</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>ALVAHE.DLG,
+     TEM4003.STO (new): TEM4802 duplicated and correctly named ‘Temple of
+     Yondalla’, reference to store adjusted in Alvanhendar’s dialogue</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DRUNK.DLG,
+     BGSLEEPP.SPL (new): The equivalent of the non-existent Sleep() action is
+     now used to make the Drunk at the Temple of Lathander sleep</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-US
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR2606.BCS
+     (renamed AR6506.BCS), RAT2.CRE: Fixed problems with Die() not counting
+     kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR4200.BCS
+     (renamed AR3100.BCS), GNOLLDR.BCS, GNOLLD.CRE: Fixed problems with Die()
+     not counting kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR0613.BCS
+     (renamed AR7613.BCS), AR0615.BCS (renamed AR7615.BCS), EMITAR.CRE:
+     Emissary Tar on Level 3 of the Iron Throne building now disappears if the
+     player avoided her and visited Level 5 where Emissary Tar is found killed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BGGHAST.CRE
+     (new; duplicate of GHAST.CRE), SPIN996.SPL (renamed BGIN996.SPL): Ghasts
+     created by Aec’Letec no longer drop loot</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR4501.ARE
+     (renamed AR8501.ARE), CORAN.BCS, X#CORWYV.CRE (new), CORANJ.DLG,
+     KELDDA.DLG: No longer can any wyvern be killed for Coran’s quest, nor can
+     the reward for his quest be obtained from Keldath Ormlyr without Coran in
+     the party</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>DEDER.CRE,
+     BGPOTN14.ITM (copy of POTN14.ITM): Deder’s Oil of Speed is now unique so
+     that it can be removed after the party tutorial combat without affecting
+     other Oils of Speed</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR0400.BCS
+     (renamed AR7500.BCS), ZOMBIEW.CRE: Fixed problems with Die() not counting
+     kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR4400.BCS
+     (renamed AR3300.BCS), XVARTH.BCS, XVARTH.CRE: Fixed problems with Die()
+     not counting kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR4200.BCS
+     (renamed AR3100.BCS), OGREBJOR.CRE: Fixed problems with Die() not counting
+     kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR4400.BCS
+     (renamed AR3300.BCS), OGRES.CRE: Fixed problems with Die() not counting
+     kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>CULT1.CRE,
+     CULT2.CRE, CULT3.CRE, CULTT1.CRE, CULTT2.CRE, CULTT3.CRE, CULTT4.CRE,
+     CULTSHT.DLG: Removed spaces from the death variables to be compatible with
+     AR1000.BCS, AR1003.BCS, and CULTSHT.BCS</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR1100.BCS
+     (renamed AR8000.BCS), DOPPSS.BCS, DOPPSS.CRE: Fixed problems with Die()
+     not counting kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR0128.BCS
+     (renamed AR7228.BCS), DOPZORL.CRE: Fixed problems with Die() not counting
+     kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR2200.BCS
+     (renamed AR7000.BCS), SENIYAD.BCS, DRUID3.BCS: Fixed problems with Die()
+     not counting kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR1400.BCS
+     (renamed AR8300.BCS), ANKHEGG.CRE: Fixed problems with Die() not counting
+     kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR3600.BCS
+     (renamed AR9500.BCS), WORGAR.CRE: Fixed problems with Die() not counting
+     kills properly</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>BGWOWEGR.CRE
+     (new; modified duplicate of WOLFWEGR.CRE), SPWI946.SPL: Fixed bug where
+     players who become wolfweres drop Peladan the baby</span></li>
+ <li class=MsoNormal style='line-height:150%'><span lang=EN-AU
+     style='font-size:10.0pt;line-height:150%;font-family:"Verdana","sans-serif"'>AR0200.BCS
+     (renamed AR7300), ABELA.DLG: Ramazith disappears if the player has already
+     rescued Abela before approaching him</span></li>
+</ul>
+
+</div>
+
+</body>
+
+</html>

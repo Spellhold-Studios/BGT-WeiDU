@@ -1,0 +1,133 @@
+//BELTBRD.D
+@201810 = ~La gente ha sentito di Sarevok.  Stanno diventando curiosi.  I nobili in particolare stanno facendo domande.  Domande pericolose.  Tipo come sei riuscito ad uccidere un figlio di Bhaal.~ ~La gente ha sentito di Sarevok.  Stanno diventando curiosi.  I nobili in particolare stanno facendo domande.  Domande pericolose.  Tipo come sei riuscita ad uccidere un figlio di Bhaal.~
+@201812 = ~I Ladri Tenebrosi hanno fatto trapelare la notizia dell'esistenza del Tempio nei sotterranei del loro complesso.  Penso possa essere stato un tentativo per spezzare le radici che hai con questa città.  Probabilmente si sentono minacciati dalla tua presenza qui.~ //'I know' deleted at start of line
+@201813 = ~Come se i nobili non fossero già un problema, ho una questione più grossa che tu potresti essere in grado di risolvere.~
+@201814 = ~Di cosa si tratta?~
+@201815 = ~Amn progetta ancora di muovere guerra contro di noi.  Ho provato a inviare dei messaggi al Consiglio di Athlatka ma non sembrano rispondere.  Non so se il problema sia con i miei messaggeri o con il Consiglio.~
+@201816 = ~Allora che cosa ha a che fare questo con me?~
+@201817 = ~E tu cosa vuoi che io faccia?~
+@201818 = ~<CHARNAME>!  La vittoria è... tua?  Sarevok è... morto?~
+@201819 = ~Sì, il fatto è compiuto.  Sarevok è caduto sotto la mia lama.~
+@201820 = ~Pensare che l'abbiamo lodato solo poche ore fa... *ahem*~ //everything after *ahem* deleted
+@201821 = ~Ho un nuovo contatto in Athlatka.  Ho bisogno di fargli avere questo documento così che il Consiglio dei Sei lo possa leggere e conoscere la verità riguardo i problemi qui.  Sto proponendo un incontro segreto tra me e il consiglio.  Spero possa provare loro che Sarevok era responsabile delle minacce a loro e che Baldur's Gate non vuole la guerra.~
+@201822 = ~Ti sto dicendo questo perchè ho bisogno di qualcuno che possa completare questo lavoro importante.  Voglio che tu incontri il mio contatto e porti questa lettera a lui.  Se i miei messaggeri non possono giungere là a causa dei banditi o che altro, almeno so che tu sarai in grado di sconfiggerli e continuare con questa missione.~
+@201823 = ~Athlatka?  Nell'Amn?  Ci vorrà del tempo per giungere laggiù.  C'è un modo per velocizzare il mio viaggio?~
+@201824 = ~Sì, e questo porta al mio prossimo punto.  I miei maghi mi hanno scritto un incantesimo per teletrasportarti lì.  Sfortunatamente, non sono mai stato ad Athlatka, e il teletrasporto funziona solo se si conosce la destinazione.~
+@201826 = ~Ho intrapreso numerosi viaggi di caccia appena a nord di Athlatka.  Conosco una zona molto bene e posso teletrasportarti in quel punto.  L'ho riferito al mio contatto ed egli dovrebbe avere delle persone che ti stanno aspettando là.  Essi possono scortarti fino alla città.~ //'Patience please' deleted at start of line
+@201827 = ~Sono confuso.  Se puoi teletrasportare qualcuno per incontrarsi con questo contatto, perchè non mandi solamente un messaggero?  Perchè io?~ ~Sono confusa.  Se puoi teletrasportare qualcuno per incontrarsi con questo contatto, perchè non mandi solamente un messaggero?  Perchè io?~
+@201828 = ~Per due motivi principalmente.  Primo, come ho detto prima, i nobili qui sono spaventati da te.  Andandotene dal paese per qualche giorno mi darai il tempo di calmare le loro paure.  Il secondo motivo è perchè il mio contatto ha sentito parlare di voi.  Sembra che voi siate degli eroi della Costa della Spada.  Il mio contatto pensa che il Consilio sarebbe molto più ben disposto a prendere le mie richieste seriamente se degli eroi come voi sostenessero la nostra causa.  Ho persino avvertito qualcuno dei vostri amici in modo che possano incontrarvi là.  Dovrete ritornare da Amn a piedi, quindi andate e siate sicuri di avere ampie provviste per il lungo viaggio.  Buona fortuna, e fate un viaggio sicuro.~
+//BELTBRD.D - new lines (v1.06)
+@201829 = ~Sei pronto per partire alla volta di Athkatla?~
+@201830 = ~Si, lo sono.~
+@201831 = ~No, mi serve ancora un pò di tempo per prepararmi.~
+@201832 = ~Che cos'è che devo fare?~
+@201833 = ~Buona fortuna, e buon viaggio.~
+@201834 = ~Allora fai in fretta. Non c'è tempo da perdere.~
+
+//SARDEAD.D
+@202200 = ~Cos'... è questo!?~
+@202201 = ~No!  Come... può essere?  COME PUO' ESSERE?~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// KingDiamond's Extra Dialogue
+////////////////////////////////////////////////////////////////////////////////////////
+//TAEROM.D
+@203402 = ~Dunque, è una perdita di tempo!  Spero che marcisca nel tuo zaino, ne apprezzerai l'aroma. Così imparerai!~
+
+//WINSKI.D
+@203403 = ~Così... l'hai ucciso, vero?  Non sapevo chi ne sarebbe uscito vincitore, ma avrei dovuto supporre che saresti stato tu.  Sei stato la spina nel fianco per molto tempo, e la sua vittoria sarebbe stata comunque vuota.~ ~Così... l'hai ucciso, vero?  Non sapevo chi ne sarebbe uscito vincitore, ma avrei dovuto supporre che saresti stata tu.  Sei stata la spina nel fianco per molto tempo, e la sua vittoria sarebbe stata comunque vuota.~
+@203404 = ~Lasciami qui da solo.  Io... Io, non mi è rimasta più forza.  Che quel dannato Pugno venga a prendermi. Non mi importa più.~
+
+//SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
+@203405 = ~Questi uomini sono quelli ricercati per molteplici capi d'accusa di omicidio, UCCIDETELI!~
+
+//VOLETA.D
+@203406 = ~Sei tornato.  Sono piuttosto sorpreso che tu sia sopravvissuto.  Mai nessuno è scampato al labirinto prima d'ora.  Bene, quel bastardo è morto, alla fine.  Se ci sei riuscito e sei ancora vivo, non c'è dubbio che sia morto.~ ~Sei tornata.  Sono piuttosto sorpreso che tu sia sopravvissuta.  Mai nessuno è scampato al labirinto prima d'ora.  Bene, quel bastardo è morto, alla fine.  Se ci sei riuscita e sei ancora viva, non c'è dubbio che sia morto.~
+@203407 = ~Tutto bene per ora.  Gli altri si prenderanno cura di me presto, quindi vattene via di qui. Hai causato abbastanza problemi in un modo o nell'altro.~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// For picking known spells for new Shadows of Amn characters
+////////////////////////////////////////////////////////////////////////////////////////
+//A6GENSPL.D
+@204000   = ~Metti il gioco in PAUSA, scegli un livello di difficoltà PRINCIPIANTE o NORMALE, poi TOGLI LA PAUSA per continuare.~
+@204001   = ~Seleziona ora gli incantesimi conosciuti da <CHARNAME>.~
+@204002   = ~Scegli un incantesimo del mago specialista di Livello 2 per <CHARNAME>.~
+@204003   = ~(Incantesimi del mago di Livello 2)~
+@204004   = ~Sfocatura (Illusione)~
+@204005   = ~Individuazione del Male (Divinazione)~
+@204006   = ~Individuazione dell'Invisibilità (Divinazione)~
+@204007   = ~Orrore (Necromanzia)~
+@204008   = ~Invisibilità (Illusione)~
+@204009   = ~Scassinare (Alterazione)~
+@204010   = ~Individuazione dell'Allineamento (Divinazione)~
+@204011   = ~Fortuna (Incantamento)~
+@204012   = ~Resistenza alla Paura (Scongiurazione)~
+@204013   = ~Freccia Acida di Melf (Attrazione)~
+@204014   = ~Immagini Illusorie (Illusione)~
+@204015   = ~Nube Maleodorante (Apparizione)~
+@204016   = ~Forza (Alterazione)~
+@204017   = ~Ragnatela (Apparizione)~
+@204018   = ~Vampa di Agannazzar (Apparizione)~
+@204019   = ~Tocco del Ghoul (Necromanzia)~
+@204020   = ~Vocalizzazione (Alterazione)~
+@204021   = ~Parola del Potere: Addormentare (Evocazione)~
+@204022   = ~Raggio di Indebolimento (Incantamento)~
+@204023   = ~Scudo del Caos* (Scongiurazione)~
+@204024   = ~Sordità (Illusione)~
+@204025   = ~Polvere Luccicante (Evocazione)~
+@204026   = ~Scegli sei incantesimi del mago di Livello 2 per <CHARNAME>.~
+@204027   = ~Scegli un incantesimo del mago specialista di Livello 3 per <CHARNAME>, o un incantesimo qualsiasi per un Mago Selvaggio.~
+@204028   = ~(Incantesimi del mago di Livello 3)~
+@204029   = ~Chiaroveggenza (Divinazione)~
+@204030   = ~Rimuovi Magie (Scongiurazione)~
+@204031   = ~Freccia Infuocata (Evocazione)~
+@204032   = ~Palla di Fuoco (Apparizione)~
+@204033   = ~Velocità (Alterazione)~
+@204034   = ~Bloccapersone (Incantamento)~
+@204035   = ~Invisibilità nel raggio di 3 metri (Illusione)~
+@204036   = ~Fulmine (Apparizione)~
+@204037   = ~Evocare Mostri I (Evocazione)~
+@204038   = ~Anti-Individuazione (Scongiurazione)~
+@204039   = ~Protezione dai Proiettili Normali (Scongiurazione)~
+@204040   = ~Lentezza (Alterazione)~
+@204041   = ~Trappola del Teschio (Necromanzia)~
+@204042   = ~Tocco del Vampiro (Necromanzia)~
+@204043   = ~Charme Estremo (Incantamento)~
+@204044   = ~Corazza Fantasma (Evocazione)~
+@204045   = ~Defletti Incantesimo Minore (Scongiurazione)~
+@204046   = ~Protezione dal Fuoco (Scongiurazione)~
+@204047   = ~Protezione dal Freddo (Scongiurazione)~
+@204048   = ~Crollo d'Incantesimi (Scongiurazione)~
+@204049   = ~Individuazione delle Illusioni (Divinazione)~
+@204050   = ~Blocca Non Morti (Necromanzia)~
+@204051   = ~Piccole Meteore di Melf (Apparizione)~
+@204052   = ~Dissolvi Magie (Scongiurazione)~
+@204053   = ~Scegli cinque incantesimi del mago di Livello 3 per <CHARNAME>.~
+@204054   = ~Scegli un incantesimo del mago specialista di Livello 4 per <CHARNAME>, o un incantesimo qualsiasi per un Mago Selvaggio.~
+@204055   = ~(Incantesimi del mago di Livello 4)~
+@204056   = ~Confusione (Incantamento)~
+@204057   = ~Scudo di Fuoco (Blu) (Apparizione)~
+@204058   = ~Tempesta di Ghiaccio (Apparizione)~
+@204059   = ~Invisibilità Potenziata (Illusione)~
+@204060   = ~Globo Minore di Invulnerabilità (Scongiurazione)~
+@204061   = ~Evocare Mostri II (Evocazione)~
+@204062   = ~Pelle di Pietra (Alterazione)~
+@204063   = ~Contagio (Necromanzia)~
+@204064   = ~Scaccia Maledizione (Scongiurazione)~
+@204065   = ~Emozione: Disperazione (Incantamento)~
+@204066   = ~Penalità Maggiore (Incantamento)~
+@204067   = ~Sfera Elastica di Otiluke (Alterazione)~
+@204068   = ~Armatura Spirituale (Necromanzia)~
+@204069   = ~Metamorfosi (Alterazione)~
+@204070   = ~Autometamorfosi (Alterazione)~
+@204071   = ~Arma Incantata (Incantamento)~
+@204072   = ~Scudo di Fuoco (Rosso) (Apparizione)~
+@204073   = ~Parola Segreta (Scongiurazione)~
+@204074   = ~Sequenziatore Minore (Apparizione)~
+@204075   = ~Campo di Teletrasporto (Alterazione)~
+@204076   = ~Progenie di Ragno (Evocazione)~
+@204077   = ~Visione Distante (Divinazione)~
+@204078   = ~Occhio dello Stregone (Divinazione/Alterazione)~
+@204079   = ~Scegli cinque incantesimi del mago di Livello 4 per <CHARNAME>.~
+@204080   = ~Selezione degli incantesimi del mago completata.~
+@204081   = ~Ricorda di rimettere la difficoltà al livello desiderato.~

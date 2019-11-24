@@ -1,0 +1,26 @@
+IF
+  Global("SharteelPartyBG1","GLOBAL",1)
+  Global("BP_SharteelBG1Check","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_SharteelBG1Check","GLOBAL",1)
+    SetGlobal("SharTeel","GLOBAL",1)
+    ActionOverride("Sharteel",SetDialogue("SHARTEDD"))
+    ActionOverride("Sharteel",ChangeAIScript("SHARTDD",OVERRIDE))
+    ActionOverride("Sharteel",SetNumTimesTalkedTo(0))
+    AddXPObject("Sharteel",50000)
+    GiveItemCreate("HELM01","Sharteel",1,0,0) // Helmet
+    GiveItemCreate("SHAR20","Sharteel",1,0,0) // Blade Master Leather
+    GiveItemCreate("SW1H06","Sharteel",1,0,0) // Long Sword +2
+    GiveItemCreate("POTN52","Sharteel",3,0,0) // Potion of Extra Healing
+    GiveItemCreate("POTN46","Sharteel",4,0,0) // Potion of Stone Form
+    GiveItemCreate("POTN05","Sharteel",2,0,0) // Potion of Fire Giant Strength
+    SmallWait(10)
+    ActionOverride("Sharteel",FillSlot(SLOT_HELMET))
+    ActionOverride("Sharteel",FillSlot(SLOT_ARMOR))
+    ActionOverride("Sharteel",FillSlot(SLOT_WEAPON))
+    SmallWait(10)
+    GiveItemCreate("SW1H08","Sharteel",1,0,0) // Short Sword +1
+    ActionOverride("Sharteel",EquipMostDamagingMelee())
+END
+

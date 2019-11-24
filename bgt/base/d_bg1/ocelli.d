@@ -1,0 +1,17 @@
+BEGIN ~ocelli~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @18876
+  IF ~~ THEN REPLY @18877 GOTO 1
+  IF ~~ THEN REPLY @18878 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @18879
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @18885
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

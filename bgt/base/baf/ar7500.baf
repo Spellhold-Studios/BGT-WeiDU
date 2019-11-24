@@ -1,0 +1,7 @@
+IF
+  NumDeadGT("ZombieW",19)
+  Global("ZombiesDead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ZombiesDead","GLOBAL",20)
+END

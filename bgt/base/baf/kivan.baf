@@ -1,0 +1,49 @@
+IF
+	Dead("Viconia")
+	Global("Kivanfight","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Kivanfight","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+		JoinParty()	
+END
+
+IF
+	Global("Kivanfight","GLOBAL",2)
+	See("Viconia")
+	!Range("Viconia",5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate("Viconia",15)
+END
+
+IF
+	Global("Kivanfight","GLOBAL",2)
+	See("Viconia")
+	Range("Viconia",5)
+THEN
+	RESPONSE #100	
+		EquipMostDamagingMelee()
+		AttackReevaluate("Viconia",15)
+END
+
+IF
+  GlobalTimerExpired("Kivan","GLOBAL")
+  Global("FindBandits","GLOBAL",0)
+  GlobalLT("Chapter","GLOBAL",5)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  GlobalTimerExpired("Kivan","GLOBAL")
+  Global("FindBandits","GLOBAL",1)
+  GlobalLT("Chapter","GLOBAL",5)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END

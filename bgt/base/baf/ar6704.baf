@@ -1,0 +1,11 @@
+IF
+  Global("Chapter","GLOBAL",4)
+  !Exists("Vai")  // ~Officer Vai~
+  !Dead("Vai")  // ~Officer Vai~
+THEN
+  RESPONSE #100
+    CreateCreature("VAI",[597.1003],0)  // ~Officer Vai~
+    CreateCreature("FLAMVAI",[650.1038],0)  // ~Flaming Fist Mercenary~
+    CreateCreature("FLAMVAI",[545.987],0)  // ~Flaming Fist Mercenary~
+END
+

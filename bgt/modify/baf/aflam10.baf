@@ -1,0 +1,6 @@
+IF
+    Global("ENDOFBG1","GLOBAL",1)
+THEN
+    RESPONSE #100
+        DestroySelf()
+END

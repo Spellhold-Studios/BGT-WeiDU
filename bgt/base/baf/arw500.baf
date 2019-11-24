@@ -1,0 +1,20 @@
+IF
+  Global("Infected","GLOBAL",1)
+  Global("KaishaSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("KAISH2",[4564.2475],0)  // ~Kaishas Gan~
+    ActionOverride("Kaish2",SetNumTimesTalkedTo(1))
+    ActionOverride("Kaish2",Face(12))
+    SetGlobal("KaishaSpawn","GLOBAL",1)
+END
+
+IF
+  Global("EvaltQuest","GLOBAL",1)
+  Global("IslsirSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("ISLSIR",[188.1257],0)  // ~Sirine Queen~
+    SetGlobal("IslsirSpawn","GLOBAL",1)
+END
+

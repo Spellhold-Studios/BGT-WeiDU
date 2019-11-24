@@ -1,0 +1,11 @@
+IF
+    Global("ReadBook1","GLOBAL",1)
+    Global("ReadBook2","GLOBAL",1)
+    Global("ReadBook3","GLOBAL",1)
+    Global("ReadBook4","GLOBAL",1)
+    Global("Honor3","GLOBAL",0)
+THEN
+    RESPONSE #100
+       DisplayStringNoName(Player1,@24092)
+       SetGlobal("Honor3","GLOBAL",1)
+END

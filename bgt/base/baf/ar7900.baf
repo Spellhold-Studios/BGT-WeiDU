@@ -1,0 +1,64 @@
+IF
+  Global("BGTNPC7900","GLOBAL",0)
+  LevelLT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7900","GLOBAL",1)
+    CreateCreature("BGQUAYLE",[483.803],5)  // ~Quayle~
+END
+
+IF
+  Global("BGTNPC7900","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7900","GLOBAL",1)
+    CreateCreature("QUAYLE4",[483.803],5)  // ~Quayle~
+END
+
+IF
+  Global("BGTNPC7900","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7900","GLOBAL",1)
+    CreateCreature("QUAYLE6",[483.803],5)  // ~Quayle~
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ActionOverride("FLAMBRID",DestroySelf())
+    Continue()
+END
+
+IF
+  Global("Chapter","GLOBAL",6)
+  Global("Drawbridge","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Drawbridge","GLOBAL",1)
+    CloseDoor("DoorDraw")
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("SmugglersSpawn","GLOBAL",0)
+  !Exists("Smuggler")  // Smuggler
+THEN
+  RESPONSE #100
+    SetGlobal("SmugglersSpawn","GLOBAL",1)
+    CreateCreature("SMUGGL",[4373.3412],0)  // ~Smuggler~
+END
+
+IF
+  Exists("Smuggler")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Smuggler",DestroySelf())
+END

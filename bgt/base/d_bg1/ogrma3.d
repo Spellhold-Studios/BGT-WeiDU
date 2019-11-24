@@ -1,0 +1,23 @@
+BEGIN ~ogrma3~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @8014
+  IF ~~ THEN REPLY @8018 GOTO 1
+  IF ~~ THEN REPLY @8019 GOTO 2
+  IF ~~ THEN REPLY @8020 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @8015
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @8016
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @8017
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END

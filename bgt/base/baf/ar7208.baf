@@ -1,0 +1,35 @@
+IF
+  Global("ENDOFBG1","GLOBAL",1)
+  !Exists("BELTBRD")
+THEN
+  RESPONSE #100
+    ActionOverride("Belt",EscapeArea())
+    ActionOverride("FlamingFist10",EscapeArea())
+    CreateCreature("BELTBRD",[735.371],7)
+END
+
+IF
+  Global("EnteredPalace","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("PALACE")
+    SetGlobal("EnteredPalace","GLOBAL",1)
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("SarevokBehavior","GLOBAL",0)
+  !Exists("Sarevok")
+  !Dead("Sarevok")
+THEN
+  RESPONSE #100
+    CreateCreature("SAREVO2",[581.344],0)
+    CreateCreature("LIIA",[680.356],0)
+    CreateCreature("BELT",[735.371],0)
+    CreateCreature("NOBLPA1",[702.485],0)
+    CreateCreature("NOBLPA2",[773.466],0)
+    CreateCreature("NOBLPA3",[823.407],0)
+    CreateCreature("NOBLPA4",[867.462],0)
+    CreateCreature("NOBLPA5",[839.518],0)
+    CreateCreature("NOBLPA",[769.571],0)
+END

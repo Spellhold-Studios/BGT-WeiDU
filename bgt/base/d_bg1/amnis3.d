@@ -1,0 +1,22 @@
+BEGIN ~amnis3~
+
+IF WEIGHT #2 ~Global("EmersonPermission","GLOBAL",1)~ THEN BEGIN 0
+  SAY @764
+  IF ~~ THEN DO ~Shout(1)~ EXIT
+END
+
+IF WEIGHT #3 ~Global("EmersonPermission","GLOBAL",0)~ THEN BEGIN 1
+  SAY @3314
+  IF ~~ THEN UNSOLVED_JOURNAL @310309 EXIT
+END
+
+IF WEIGHT #0 ~StateCheck(Myself,STATE_CHARMED)
+GlobalLT("Chapter","GLOBAL",4)~ THEN BEGIN 2
+  SAY @5751
+  IF ~~ THEN UNSOLVED_JOURNAL @310310 EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @8909
+  IF ~~ THEN EXIT
+END

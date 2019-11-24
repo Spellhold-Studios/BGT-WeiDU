@@ -1,0 +1,29 @@
+////////////////////////////////////////////////////////////////////
+// Scripts
+////////////////////////////////////////////////////////////////////
+
+@401100 = ~Musíš získat námoøní mapy, jestli chceš bezpeènì doplout zpátky na pevninu~
+
+@401103 = ~Jak pomíjí vražedné bìsnìní, uvìdomuješ si, že vítìzství je tvé.  Sarevok je mrtev a už nikdy nebude moci obtìžovat tebe nebo Øíše.  Teï, když je válka a její pøíèiny zažehnána, uvìdomuješ si, že by bylo nejlepší ohlásit se ve Vévodském paláci a podat zprávu o tom, co se stalo, proè a jak.~
+@401104 = ~Ach, <CHARNAME>!  Tady jsi.  Belt nám øekl, že se vydáváš na tajnou misi do Athkatly, abys doruèil dùležitou zprávu.  Naše spoleènost snad bude vítána na nebezpeèné misi jako je tato, nebo ne?~
+@401105 = ~Nevìdìli jsme, že ses dostal tak daleko do Amnu.  Zdi velkého mìsta Athkatly jsou na dohled.~
+@401106 = ~Vypadáš hroznì unavený.  Musel to být dlouhý den, bloudit tìmi lesy.  Proè si tu neodpoèineme?  Vypadá to docela bezpeènì, budeme nad tebou držet stráž...~
+@401107 = ~Všechny jsme je zneškodnili, Mae'Vare.  Co teï?~
+@401108 = ~Vezmìte je zpátky do Amnu.  Náš klient èeká.~
+@401109 = ~Když pøeèteš poslední knihu, slyšíš cvaknutí, jakoby se nìco spustilo.  O pár vteøin pozdìji slyšíš huèení a vidíš záø pøicházející z protìjší strany chodby.~
+@401110 = ~Vesnice Ulgothùv Vous leží na bøezích øeky Chionthar, kousek proti proudu od Baldurovy Brány a otevøeného moøe za ní. Tato krajina posetá farmami je obvykle klidným útoèištìm pøed ruchem Meèového pobøeží, pøestože poslední dobou se nedá øíct totéž o samotném Ulgothovì Vousu. Prostá rybáøská vesnice se v posledních dnech stala zdrojem èetných zvìstí. Zvìstí o obnoveném starobylém kultu, nepotvrzených povídaèek o vraždící bytosti, potulující se po nocích, a øeèí o divných událostech v domì Shandalara, mocného, výstøedního mága, který obývá tuto obvykle poklidnou vesnici. Také jsi s jistotou slyšel, že prohlídky proslulé Durlagovy vìže zaèínají právì v Ulgothovì Vousu, a že je to vskutku místo, kde mohou dobrodruhové vyzkoušet svou chrabrost. Snad by tì taková zkouška lépe pøipravila na boj s temnotou, která hrozí znièit Meèové pobøeží a tebe s ním.~
+@401111 = ~Shandalar tì pøenesl daleko na sever, na ostrov ztracený mezi ledovými krami severního oceánu.~
+@401112 = ~Eventualita spuštìna~
+@401113 = ~Tetování Moci spuštìno~
+@401114 = ~Používá Magickou Hùl~
+@401115 = ~Má zbraò je rozbitá!~
+@401117 = ~Porážka Selaada vyléèila tebe a tvou družinu z lykantropie.~
+@401118 = ~Tvùj vìznitel mùže pøijít každou chvíli. Mìl bys jít do ZÁZNAMU POSTAVY a pøejít na NOVOU ÚROVEÒ, než budeš pokraèovat. Hra bude pokraèovat, až bude <CHARNAME> pøipravený.~
+
+//SBT scripts - new biographies
+@50490 = ~Po Sarevokovì smrti a pomstì Tazokovi se KIVAN rozhodl cestovat na jih, aby se nechal najmout jako žoldák a zjistil víc o zvìstech, které tvrdí, že Baldurova Brána øeší nastávající válku s Amnem. Od té doby, když právì nemìl žádný úkol, pracoval na sobì a dovedl svùj lukostøelecký um témìø k dokonalosti.~
+@50491 = ~Když se ho zeptáš na minulost, KAGAIN zdùrazní, že kdo se ptá, by se mìl radši starat o své, jestli má rád svoje zuby. Je zøejmé, že øídí vcelku pochybnou žoldáckou spoleènost, a že je silnì posedlý bohatstvím, ale jakékoli další informace si spokojenì nechává pro sebe.~
+@50492 = ~Když se ho zeptáš na minulost, YESLICK potichu odpoví, že byl kdysi èlenem trpaslièího klanu Orothiar. Po generace využívali železný dùl v Zahaleném lese jako svùj domov, ale témìø pøed stoletím se stala katastrofa. Pøes svùj um v podzemí trpaslíci obèas dìlají chyby. Jeden takový incident je pøišel draho. Zøejmì se prokopali k podzemní øece, což zpùsobilo záplavu, která si vzala životy témìø celého klanu. Yeslick byl jeden z pøeživších a odešel do Sembie zaèít nový život. Tam se seznámil s Rieltarem, èlenem Železného Trùnu a byl jím najat jako osobní kováø. Stali se pøáteli a pozdìji mu Yeslick øekl o své minulosti. To se ukázalo být jeho zkázou, když Rieltar využil tyto informace, aby vytvoøil plán na rozšíøení moci Železného Trùnu na Meèové Pobøeží.  Rieltar ho zradil a pøinutil ho odhalit lokaci dolù. Yeslick byl od té doby uvìznìn, aby o dolech už nikomu neøekl. Teï netouží po nièem jiném, než napravit zlo, které bylo napácháno za použití domova jeho pøedkù.~
+@50493 = ~Když se ho zeptáš na minulost, SHAR-TEEL ti øekne jen velmi málo.  Z té trochy se dá pochopit, že je sirotek. Zdá se také, že si zakládá na silné nelibosti k žoldákùm Ohnivé Pìsti, stejnì jako na pohrdání k mužùm obecnì. Zdá se, že si potøebuje nìco dokázat a její dìtství nejspíš nebylo jako z pohádky.~
+@50494 = ~Když se ho zeptáš na minulost, MONTARON ti otevøenì vyhrožuje ujmou na tìle. Zdá se být docela nebezpeèný a více než ochotný podílet se na bezdùvodném násilí. Zdá se, že mu málo záleží na životì, vèetnì toho jeho. S nechutí pracuje s Xzarem a oèividnì jím opovrhuje. Kdokoliv je zamìstnává, musí být vskutku mocný. Tihle dva by se nejspíš zabili, kdyby nebylo autority, která tomu brání. Montaron by ti o té záležitosti možná øekl, ale máš pocit, že by ses nemusel další ráno probudit.~
+@50495 = ~Když se ho zeptáš na minulost, XZAR má velmi málo srozumitelných vìcí na srdci. Jeho touha urèit pøíèinu železné krize vypadá pøívìtivì, ale jeho pohnutky jsou nejisté. Jeho blábolení se zdá nesouvislé, ale jeho dovednosti jsou oèividnì dostateènì ucelené, aby byl znalý magie. Mumlá nìco o tom, že on a jeho spoleèník Montaron jsou ve službách mocné organizace, ale když se ho zeptáš na detaily, velice ho to rozruší a nìjakou dobu vùbec nemluví. Zøejmì je alespoò èásteènì šílený a instituce, která ho najala, musí být vskutku temná.~

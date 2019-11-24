@@ -1,0 +1,26 @@
+IF
+  Global("Ike","GLOBAL",3)
+  Global("IkeSpawn","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("IKE2",[562.657],0)
+    CreateCreature("TOURIST1",[461.547],0)
+    ActionOverride("Tourist1",Face(12))
+    CreateCreature("TOURIST2",[810.629],0)
+    ActionOverride("Tourist2",Face(0))
+    CreateCreature("TOURIST3",[808.520],0)
+    ActionOverride("Tourist3",Face(8))
+    SetGlobal("IkeSpawn","GLOBAL",2)
+END
+
+IF
+  Global("Ike","GLOBAL",8)
+  Global("DeathSpawn","GLOBAL",0)
+  !Dead("Deathk")
+THEN
+  RESPONSE #100
+    CreateCreature("DEATHK1",[711.410],0)
+    ActionOverride("DeathK",Face(4))
+    SetGlobal("DeathSpawn","GLOBAL",1)
+END
+

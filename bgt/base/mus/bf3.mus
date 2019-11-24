@@ -1,0 +1,31 @@
+BF3
+26
+A1              @TAG ENDA
+A2              @TAG ENDA
+A3              @TAG ENDA
+B1              @TAG ENDB
+B2              @TAG ENDB
+C1              @TAG ENDB
+D1              @TAG ENDC
+D2              @TAG ENDC
+E1              @TAG ENDD
+E2              @TAG ENDC
+F1              @TAG ENDC
+F2              @TAG ENDD
+F3              @TAG ENDC
+G1              @TAG ENDC
+G2              @TAG ENDC
+G3              @TAG ENDE
+H1              @TAG ENDC
+H2              @TAG ENDC
+I1              @TAG ENDE
+I2              @TAG ENDC
+I3              @TAG ENDC
+J1              @TAG ENDE
+J2              @TAG ENDE
+J3              @TAG ENDF
+J4              @TAG ENDG
+J5      BF3 D2      @TAG ENDC
+
+
+

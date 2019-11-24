@@ -1,0 +1,32 @@
+IF
+  !Dead("Mulahey")
+  Global("LamalhaSpawn4","GLOBAL",0)
+THEN
+  RESPONSE #100
+    Deactivate("LAMALH")
+    Deactivate("MANEIRA")
+    Deactivate("TELKA")
+    Deactivate("ZEELA")
+    SetGlobal("LamalhaSpawn4","GLOBAL",1)
+END
+
+//required since putting Activate()s here doesn't seem to work
+IF
+  Dead("Mulahey")
+  Global("LamalhaSpawn3","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("LamalhaSpawn3","GLOBAL",1)
+END
+
+IF
+  Dead("Mulahey")
+  Global("LamalhaSpawn3","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Activate("LAMALH")
+    Activate("MANEIRA")
+    Activate("TELKA")
+    Activate("ZEELA")
+    SetGlobal("LamalhaSpawn3","GLOBAL",2)
+END

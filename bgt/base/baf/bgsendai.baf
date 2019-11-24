@@ -1,0 +1,9 @@
+IF
+  See([PC])
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    SmallWait(2)
+    Dialog([PC])
+END
+

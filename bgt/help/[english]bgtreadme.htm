@@ -1,0 +1,2127 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT-WeiDU</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Baldur's Gate Trilogy - WeiDU (BGT-WeiDU)</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate 2: Throne of Bhaal</strong>
+        <p class="about">
+          Project Lead: Ascension64</p>
+        <p class="about">[with permission from Bardez]</p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=261">Mod Forum</a>
+        </p>
+		<br />
+		<p><a href="%5benglish%5dbgtreadme.htm"><img border=0 src="images/image001.gif"></a>&nbsp;
+		<a href="%5bschinese%5dbgtreadme.htm"><img border=0 src="images/image009.gif"></a>&nbsp;
+		<a href="%5btchinese%5dbgtreadme.htm"><img border=0 src="images/image010.gif"></a>&nbsp;
+		<a href="%5bczech%5dbgtreadme.htm"><img border=0 src="images/image011.gif"></a>&nbsp;
+		<a href="%5bfrench%5dbgtreadme.htm"><img border=0 src="images/image002.gif"></a>&nbsp;
+		<a href="%5bgerman%5dbgtreadme.htm"><img border=0 src="images/image003.gif"></a>&nbsp;
+		<a href="%5bitalian%5dbgtreadme.htm"><img border=0 src="images/image004.gif"></a>&nbsp;
+		<a href="%5bkorean%5dbgtreadme.htm"><img border=0 src="images/image007.gif"></a>&nbsp;
+		<a href="%5bpolish%5dbgtreadme.htm"><img border=0 src="images/image005.gif"></a>&nbsp;
+		<a href="%5brussian%5dbgtreadme.htm"><img border=0 src="images/image006.gif"></a>&nbsp;
+		<a href="%5bcastilian%5dbgtreadme.htm"><img border=0 src="images/image008.gif"></a></p>
+        <hr />
+        <p class="menu">
+          <a href="#intro">Introduction</a> &middot;
+          <a href="#requirements">Requirements</a> &middot;
+          <a href="#installation">Installation and Uninstallation</a> &middot;
+          <a href="#faq">FAQ</a> &middot;
+          <a href="#troubleshooting">Troubleshooting</a> &middot;
+          <a href="#credits">Credits</a> &middot;
+          <a href="#legalese">Legalese</a> &middot;
+          <a href="#version">Version History</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>Introduction</h2>
+          <p>Baldur's Gate Trilogy is a modification originally created by Bardez that aimed to achieve two major goals: to play Baldur's Gate and Tales of the Sword Coast expansion using the much improved Baldur's Gate II engine, and to generate some kind of continuity between the events of Baldur's Gate, Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal. Baldur's Gate Trilogy-WeiDU takes this a step further by converting the modification to WeiDU format, which has improved compatibility with other modifications.</p>
+		  <p>While BGT-WeiDU remains mostly faithful to the original Baldur's Gate and Tales of the Sword Coast, a number of new features have been introduced to satisfy the above goals.</p>
+		  <br />
+		<ul>
+			<li><strong>Baldur's Gate using the Baldur's Gate II engine:</strong> BGT-WeiDU is a modification installed on Baldur's Gate II: Throne of Bhaal. Therefore, the story of Baldur's Gate can be experienced with the updated graphics, better resolution, and interface improvements present in Baldur's Gate II.</li>
+			<li><strong>Bug fixes:</strong> BGT-WeiDU includes an internal fixpack that addresses a significant number of bugs that remained in Baldur's Gate and Tales of the Sword Coast. A technical list of fixes can be found <a href="fixeslist.htm">here</a>.</li>
+			<li><strong>Continuity from Baldur's Gate into Shadows of Amn:</strong> BGT-WeiDU uses a dynamic system to transfer players from the end of Baldur's Gate to Shadows of Amn. A cover story is used, in which the player talks to Belt after Sarevok is defeated, and NPCs are conditionally imported into Shadows of Amn depending on what fate you led them to experience in Baldur's Gate.</li>
+			<li><strong>Expansive compatibility with other modifications:</strong> BGT-WeiDU is compatible with the latest versions of modifications in a mega-modification installation, as well as a large number of other fan-made modifications. This allows the player to expand the world of Baldur's Gate to an enormously rich location to explore. A compatibility list is available <a href="[english]compatibility.htm">here</a>.</li>
+			<li><strong>Organised journal entries:</strong> BGT-WeiDU utilises a full quest journal system and ensures that all Baldur's Gate journal entries are removed prior to the transition to Shadows of Amn. This prevents clogging up of the journal, which normally makes it hard to find important information in the journal.</li>
+			<li><strong>Map Notes:</strong> The advent of map notes makes it useful for the player to pin their own special locations. BGT-WeiDU comes with a number of map notes already inserted to help the player find particular buildings quickly, instead of running around like crazed chickens into every single house in a particular area.</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== R e q u i r e m e n t s ================== -->
+        <a name="requirements" id="requirements"></a>
+        <div class="content">
+          <h2>Requirements</h2>
+          <p>BGT-WeiDU requires the following:</p>
+		  <ul>
+		  	<li>A <strong>custom install (with all checkboxes ticked)</strong> of Baldur's Gate and Tales of the Sword Coast, patched to version 5512</li>
+			<p>OR</p>
+			<li>A <strong>custom install (with all checkboxes ticked)</strong> of Baldur's Gate: The Original Saga</li>
+			<div class="important">
+				<p>The installation must be a "clean" installation; no modifications whatsoever should be installed on it.</p>
+			</div>
+			<div class="important">
+				<p>If you receive a warning about insufficient disk space during installation, and have checked that you actually do have enough disk space, then ignore the warning.</p>
+			</div>
+			<p>AND</p>
+			<li>A <strong>full install</strong> of Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal, patched to version 26498</li>
+			<div class="important">
+				<p>This may have pre-existing modifications installed. See the FAQ section for details.</p>
+			</div>
+			<p>AND</p>
+			<li><strong>At least 3.0 GB of free disk space</strong> for the installation process. Not including the Baldur's Gate and Tales of the Sword Coast installation, the BGT-WeiDU modification occupies 2.5 GB of disk space. For virtual memory purposes, at least 4.0 GB of free disk space is recommended.</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Requirements</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Installation and Uninstallation</h2>
+		  <h3>Installation</h3>
+		  <ol>
+			<div class="important">
+				<p>If you are installing this as part of the mega-modification, install this after all modifications that are part of the mega-modification. See Frequently Asked Questions for more details.</p>
+			</div>
+		  	<li>Extract BGT1##-Install.rar to your <strong>Baldur's Gate II</strong> install directory</li>
+			<div class="important">
+				<p>Ensure that no Baldur's Gate-related CDs, DVDs, or virtual images are mounted in any of your CD-ROM, DVD-ROM, or virtual drives. Failure to do this will likely result in errors during installation.</p>
+			</div>
+			<div class="important">
+				<p>It is recommended that you disable virus scanners, spyware scanners, and other background on-the-fly file scanners during the installation. These programs have been known in some cases to interfere with the installation process.</p>
+			</div>
+			<li>Run Setup-BGT.exe in your Baldur's Gate II install directory and follow the installation prompts</li>
+			<div class="important">
+				<p>The installation checks that the Baldur's Gate I installation directory you typed contains a full custom installation of Baldur's Gate and Tales of the Sword Coast. If the installation needs to be aborted to correct your Baldur's Gate I installation, you can safely close the installation window or press Ctrl+C.</p>
+			</div>
+			<li>Play Baldur's Gate II - click the Baldur's Gate button, then New Game to start Baldur's Gate I</li>
+			<div class="important">
+				<p>You may uninstall Baldur's Gate and Tales of the Sword Coast if desired. If you think you may want to-reinstall BGT-WeiDU at a later date, leave Baldur's Gate I installed.</p>
+			</div>
+			<li>After installation, you may want to activate Baldur's Gate and Tales of the Sword Coast music and/or install a custom graphical user interface. Refer to the <a href="%5benglish%5dpostinstall.htm#Music">Post-installation Notes</a> for more details</li>
+		</ol>
+		  <h3>Uninstallation and Reinstallation</h3>
+		<ol>
+			<li>Run Setup-BGT.exe in your Baldur's Gate II install directory and follow the installation prompts</li>
+			<li>When prompted after uninstallation, restore the backup of dialog.tlk, found in the &lt;BGII install directory&gt;\bgt\dialog.bak directory</li>
+		</ol>
+		<hr />
+		
+		<h3>Auto-installation (for expert users)</h3>
+		<ol>
+			<li>Extract BGT1##-Install.rar to your Baldur's Gate II install directory</li>
+			<div class="important">
+				<p>Ensure that no Baldur's Gate-related CDs, DVDs, or virtual images are mounted in any of your CD-ROM, DVD-ROM, or virtual drives. Failure to do this will likely result in errors during installation.</p>
+			</div>
+			<div class="important">
+				<p>It is recommended that you disable virus scanners, spyware scanners, and other background on-the-fly file scanners during the installation. These programs have been known in some cases to interfere with the installation process.</p>
+			</div>
+			<li>Go to the command line, navigate to your Baldur's Gate II installation directory, and execute Setup-BGT.exe using the construction below. Alternatively, place the construction in a batch file or the Run... dialog in the Start menu.</li>
+			<div class="important">
+				<p>Setup-BGT.exe --force-install 0 --skip-at-view --language <em>X</em> --args-list <em>[flags]</em> <em>[path]</em></p>
+			</div>
+			<p>Parameters:</p>
+			<div class="important">
+				<table border=1>
+					<tr>
+						<td><em>X</em></td>
+						<td>
+							<p>0 - English<br />1 - International English<br />2 - Castilian/Spanish<br />3 - French<br />4 - German<br />5 - Italian<br />6 - Korean<br />7 - Polish<br />8 - Russian<br />9 - Simplified Chinese<br />10 - Traditional Chinese<br />11 - Czech</p>
+						</td>
+					</tr>
+					<tr>
+						<td><em>[flags]</em></td>
+						<td>
+                                                        <p>b or B - suppress prompt for biffing option and biff all new resources (takes precedence over 'o' flag)</p>
+                                                        <p>o or O - suppress prompt for biffing option and biff select resources (recommended for mega-modification installations)</p>
+							<p>s or S - suppress display of Post-installation Notes at the end of the installation</p>
+							<p>p or P - pre-define the full path to the Baldur's Gate and Tales of the Sword Coast directory, ignoring the path from the registry; if the path is invalid, setup will prompt for a valid path</p>
+						</td>
+					</tr>
+					<tr>
+						<td><em>[path]</em></td>
+						<td>the full path, in quotes, to your Baldur's Gate and Tales of the Sword Coast installation directory, used in conjunction with p or P in <em>[flags]</em></td>
+					</tr>
+				</table>
+			</div>
+			<p>Example:</p>
+			<div class="important">
+				<p>Setup-BGT.exe --force-install 0 --skip-at-view --language 0 --args-list sp "C:\Program Files\Black Isle\Baldur's Gate"</p>
+		  </div>
+			<p>This construction installs BGT-WeiDU with the English language, suppresses display of the post-installation notes at the end of the installation, and pre-defines the Baldur's Gate and Tales of the Sword Coast directory as C:\Program Files\Black Isle\Baldur's Gate.</p>
+			<div class="important">
+				<p>The installation checks that the Baldur's Gate I installation directory you specified contains a full custom installation of Baldur's Gate and Tales of the Sword Coast. If the directory you specified is invalid or contains an incorrect installation of Baldur's Gate and Tales of the Sword Coast, installation will prompt for the correct directory.</p>
+			</div>
+			<div class="important">
+				<p>If the installation needs to be aborted to correct your Baldur's Gate I installation, you can safely close the installation window or press Ctrl+C.</p>
+			</div>
+		</ol>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Installation and Uninstallation</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== F A Q ================== -->
+        <a name="faq" id="faq"></a>
+        <div class="content">
+          <h2>Frequently Asked Questions</h2>
+		  <p><strong>General</strong></p>
+		  <ul>
+			<li><a href="#FAQ1">How does Baldur's Gate Trilogy fit in with other modifications for Baldur's Gate II out there?</a></li>
+			<li><a href="#FAQ2">If Bardez made Baldur's Gate Trilogy, why should there be Baldur's Gate Trilogy-WeiDU (BGT-WeiDU)?</a></li>
+			<li><a href="#FAQ3">You said BGT-WeiDU is mostly faithful to the original. What are the major differences between this modification and the original Baldur's Gate and Tales of the Sword Coast?</a></li>
+		  </ul>
+		  <p><strong>Installation</strong></p>
+		  <ul>
+			<li><a href="#FAQ4">How does BGT-WeiDU incorporate Baldur's Gate and Tales of the Sword Coast into my Baldur's Gate II game?</a></li>
+		  	<li><a href="#FAQ5">I want to install BGT-WeiDU. Should I have clean copies of Baldur's Gate, Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal installed?</a></li>
+			<li><a href="#FAQ6">How long does the installation process for BGT-WeiDU take?</a></li>
+		  </ul>
+		  <p><strong>Playing the Modification</strong></p>
+		  <ul>
+			<li><a href="#FAQ7">I have BGT-WeiDU installed now. How do I start Baldur's Gate from Candlekeep?</a></li>
+			<li><a href="#FAQ8">Can I still play Shadows of Amn and/or Throne of Bhaal with BGT-WeiDU installed?</a></li>
+			<li><a href="#FAQ9">How does continuity in BGT-WeiDU work?</a></li>
+			<li><a href="#FAQ10">Baldur's Gate and Tales of the Sword Coast had its fair share of bugs. In this conversion, do these bugs still exist?</a></li>
+		</ul>
+		<p><strong>Uninstallation</strong></p>
+		<ul>
+			<li><a href="#FAQ11">Do I have to restore dialog.tlk after I uninstall BGT-WeiDU?</a></li>
+			<li><a href="#FAQ12">Why should I manually restore dialog.tlk after I uninstall BGT-WeiDU?</a></li>
+		</ul>
+		<p><strong>Compatibility and Other Modifications</strong></p>
+		<ul>
+			<li><a href="#FAQ13">Can I play BGT-WeiDU with other modifications?</a></li>
+			<li><a href="#FAQ14">How do I install the mega-modification with BGT-WeiDU?</a></li>
+			<li><a href="#FAQ15">How do I install other modifications with BGT-WeiDU?</a></li>
+		</ul>
+		<p><strong>Miscellaneous</strong></p>
+		<ul>
+			<li><a href="#FAQ16">I would like to translate this modification. How do I do it?</a></li>
+			<li><a href="#FAQ17">I have other questions.</a></li>
+		</ul>
+		<hr />
+		  <a name="FAQ1" id="FAQ1"></a>
+		  <p><strong>How does Baldur's Gate Trilogy fit in with other modifications for Baldur's Gate II out there?</strong></p>
+		  <p>Bardez's Baldur's Gate Trilogy, BGT_MK3_112, became incorporated with the mega-modification known as The Big Picture, which combines a number of large modifications for Baldur's Gate II (The Darkest Day, Shadows over Soubar, and Tortured Souls) together in order to allow the gamer to play through all the major modifications at the same time. Subsequently, the conversion of the TeamBG mod Dark Side of the Sword Coast for use with this platform as well as the creation of modifications made specifically for Baldur's Gate Trilogy, such as Northern Tales of the Sword Coast and Secret of Bonehill, made the so-called BP-BGT a humungus conglomeration of modifications that richly expanded the Baldur's Gate universe.</p>
+		  <p>Today, BP-BGT is an obsolete term, and the mega-modification refers to a installation of modifications containing at least two of Baldur's Gate Trilogy-WeiDU (BGT-WeiDU), The Darkest Day (TDD), Shadows Over Soubar (SoS), Tortured Souls (TS - BP version), Check the Bodies (CtB), Region of Terror (RoT), Never Ending Journey (NeJ), and The Big Picture (BP).</p>
+		  <br />
+		<a name="FAQ2" id="FAQ2"></a>
+		<p><strong>If Bardez made Baldur's Gate Trilogy, why should there be Baldur's Gate Trilogy-WeiDU (BGT-WeiDU)?</strong></p>
+		<p>Stitching together a large number of modifications that affect all aspects of Baldur's Gate II and are made by different authors generates many compatibility problems between modifications. This arises because often the same files are patched and overwritten, meaning that one change replaces another and the original change disappears forever. Also, large modifications usually come with a load of bugs that can be difficult to locate file-wise and fix.</p>
+		<p>You might also expect that large modifications, especially one such as Baldur's Gate Trilogy, which adds most of the material from Baldur's Gate and Tales of the Sword Coast to Baldur's Gate II, require large installation packages, and therefore downloading large files could be tedious and slow for some gamers with aging internet connections. BGT-WeiDU aims to address these problems by converting the installation process into the Weimer Dialogue Utilities (WeiDU) platform, a powerful tool that can solve compatibility issues and allow bugs to be fixed quickly and efficiently. BGT-WeiDU also draws most resources from the original installation of Baldur's Gate and Tales of the Sword Coast to greatly reduce the size of the download.</p>
+		<br />
+		<a name="FAQ3" id="FAQ3"></a>
+		<p><strong>You said BGT-WeiDU is mostly faithful to the original. What are the major differences between this modification and the original Baldur's Gate and Tales of the Sword Coast?</strong></p>
+		<p>There are a number of new features introduced by BGT-WeiDU, many of them utilise the advantages of the Baldur's Gate II engine and the compatibility features of WeiDU. New features are described in the Introduction section.</p>
+		<p>Additionally, many bugs inherent in Baldur's Gate and Tales of the Sword Coast were fixed. A list of fixes currently incorporated into BGT-WeiDU can be found <a href="fixeslist.htm">here</a>. </p>
+		<br />
+		<a name="FAQ4" id="FAQ4"></a>
+		<p><strong>How does BGT-WeiDU incorporate Baldur's Gate and Tales of the Sword Coast into my Baldur's Gate II game?</strong></p>
+		<p>BGT-WeiDU converts Baldur's Gate and Tales of the Sword Coast resources and installs them to your Baldur's Gate II directory. Holistically, the conversion is mostly faithful to the original. Technically, the installation imports by duplication most of the core resources of the modification directly from your existing Baldur's Gate and Tales of the Sword Coast. Therefore, your original Baldur's Gate and Tales of the Sword Coast is unaffected. You may choose to uninstall Baldur's Gate and Tales of the Sword Coast after installation of BGT-WeiDU to free up some disk space.</p>
+		<br />
+		<a name="FAQ5" id="FAQ5"></a>
+		<p><strong>I want to install BGT-WeiDU. Should I have clean copies of Baldur's Gate, Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal installed?</strong></p>
+		<p>It is critical that you have a clean copy of Baldur's Gate and Tales of the Sword Coast installed that contains no modifications whatsoever (including Baldurdash fixes). Failure to do this will generate numerous unpredictable problems in your BGT-WeiDU installation.</p>
+		<p>For Shadows of Amn and Throne of Bhaal, you may have modifications pre-installed. See <a href="#FAQ15">below</a> for more details on using other modifications with BGT-WeiDU.</p>
+		<br />
+		<a name="FAQ6" id="FAQ6"></a>
+		<p><strong>How long does the installation process for BGT-WeiDU take?</strong></p>
+		<p>Installation time will depend on the abilities of your system, but as a rough estimate installation may take anywhere from 20 minutes to 1 hour. You will receive prompts informing you of what is occurring during installation. You will also be prompted at the end of the installation process.</p>
+		<br />
+		<a name="FAQ7" id="FAQ7"></a>
+		<p><strong>I have BGT-WeiDU installed now. How do I start Baldur's Gate from Candlekeep?</strong></p>
+		<p>When you start Baldur's Gate II, you will arrive at the main menu where you would normally choose to play Shadows of Amn or Throne of Bhaal. Notice that the Shadows of Amn button has been replaced by a Baldur's Gate button. Click on this button, and then click Single Player, then New Game. This will take you to the character generation screen, where you will create a level 1 character or import an existing character. Your character will then start in Candlekeep.</p>
+		<br />
+		<a name="FAQ8" id="FAQ8"></a>
+		<p><strong>Can I still play Shadows of Amn and/or Throne of Bhaal with BGT-WeiDU installed?</strong></p>
+		<p>Certainly.</p>
+		<p>For Shadows of Amn, click on the Baldur's Gate button in the main menu, and then Single Player. You will notice that the Tutorial button has been replaced by a button labelled ‘New BG2 Game'. Click on this button, and click on the New BG2 Game button on the dialog box to go to the character generation screen, where you will create a character that will have the appropriate amount of experience for Baldur's Gate II, or import an existing character. When finished, you will start in Irenicus' Dungeon.</p>
+		<p>The method to start a Throne of Bhaal game has not changed.</p>
+		<br />
+		<a name="FAQ9" id="FAQ9"></a>
+		<p><strong>How does continuity in BGT-WeiDU work?</strong></p>
+		<p>If you start a game in Candlekeep, you play through the original Baldur's Gate until you defeat Sarevok. The Tales of the Sword Coast areas are accessible whenever you like by travelling north of Wyrm's Crossing, when that area becomes available. Defeating Sarevok will not end the game, but will allow you to play on. Talk to Belt at the Duchal Palace, and he will give you a new assignment. This will start a cutscene where you are ambushed by the Shadow Thieves and are taken to Irenicus' Dungeon.</p>
+		<p>Additionally, joinable non-player characters that appear in both Baldur's Gate and Shadows of Amn conditionally keep their attributes upon transition to Shadows of Amn depending on the fate that you left them in Baldur's Gate. Edwin, Imoen, Jaheira, Minsc, and Viconia will keep their attributes and appearance from Baldur's Gate if they are alive and are in your party when you talk to Belt after the defeat of Sarevok. Otherwise, they will present themselves in Shadows of Amn as if BGT-WeiDU was not installed.</p>
+		<br />
+		<a name="FAQ10" id="FAQ10"></a>
+		<p><strong>Baldur's Gate and Tales of the Sword Coast had its fair share of bugs. In this conversion, do these bugs still exist?</strong></p>
+		<p>BGT-WeiDU attempts to address the most significant bugs that existed in the final versions of Baldur's Gate and Tales of the Sword Coast. A list of fixes currently incorporated into BGT-WeiDU can be found <a href="fixeslist.htm">here</a>.</p>
+		<br />
+		<a name="FAQ11" id="FAQ11"></a>
+		<p><strong>Do I have to restore dialog.tlk after I uninstall BGT-WeiDU?</strong></p>
+		<p>No, you do not have to. However, if you do not, it could be problematic if you start installing other modifications and using saved games in different combinations. The safest way to uninstall BGT-WeiDU to avoid such problems is to restore dialog.tlk.</p>
+		<br />
+		<a name="FAQ12" id="FAQ12"></a>
+		<p><strong>Why should I manually restore dialog.tlk after I uninstall BGT-WeiDU?</strong></p>
+		<p>BGT-WeiDU alters a large number of references inside your Baldur's Gate II dialog.tlk file, the file that contains almost all the text in the game. A limitation of WeiDU and the way that the BGT-WeiDU installation is designed is that it generates the modified dialog.tlk file when the installation/uninstallation process finishes. This does not allow the running of a batch file that will automatically restore your dialog.tlk. Therefore, the only way that it can be restored is by copying that backup to its original location manually.</p>
+		<br />
+		<a name="FAQ13" id="FAQ13"></a>
+		<p><strong>Can I play BGT-WeiDU with other modifications?</strong></p>
+		<p>Yes. BGT-WeiDU does not just retain, but improves compatibility with the mega-modification. For other modifications, no one can guarantee that every modification is compatible with another. BGT-WeiDU compatibility is no exception. However, possible compatibility issues between BGT-WeiDU and other modifications are actively analysed. A BGT-WeiDU compatibility list is available <a href="[english]compatibility.htm">here</a>. The most up-to-date compatibility list can be found <a href="http://www.shsforums.net/index.php?showtopic=19539">online</a>.</p>
+		<br />
+		<a name="FAQ14" id="FAQ14"></a>
+		<p><strong>How do I install the mega-modification with BGT-WeiDU?</strong></p>
+		<p>Mega-modification installation order is in a state of flux. Therefore, this readme will not tell you in what order to install such modifications. However, there is a forum dedicated to mega-modification installations, which you can access <a href="http://www.shsforums.net/index.php?showforum=193">here</a>.</p>
+		<br />
+		<a name="FAQ15" id="FAQ15"></a>
+		<p><strong>How do I install other modifications with BGT-WeiDU?</strong></p>
+		<p>As a general rule, install Baldur's Gate 2 Fixpack first, if you plan to use it, then install the mega-modification, BGT-WeiDU, and then all other modifications on top. Specifics in installation order are in a state of flux, so more detailed advice cannot be given.</p>
+		<p>If you want to play BGT-WeiDU without the mega-modification but with other modifications, install Baldur's Gate 2 Fixpack first, followed by BGT-WeiDU, and then all other modifications on top.</p>
+		<p>Be mindful of compatibility issues. Current compatibility between BGT-WeiDU and other modifications are listed here. Possible compatibility between sets of other modifications should be queried to their respective authors.</p>
+		<br />
+		<a name="FAQ16" id="FAQ16"></a>
+		<p><strong>I would like to translate this modification. How do I do it?</strong></p>
+		<p>To translate BGT-WeiDU into a different language, follow the steps listed below:</p>
+		<ul>
+			<li>Go to your BGT-WeiDU installation directory, and switch to the <strong>bgt\language directory</strong></li>
+			<li>Create a copy of the <strong>English</strong> directory and rename it to the language you wish to translate to</li>
+			<div class="important">
+				<p>english -> castiliano</p>
+			</div>
+			<li>In your renamed directory, translate all files present as follows:</li>
+			<ul>
+				<br />
+				<li>.tra files - For every line starting with @<number> =, translate all text in between the two ~ or " symbols</li>
+				<div class="important">
+					<p>@1001 = ~English~ -> @1001 = ~Castiliano~</p>
+					<p>@-1001 = "English" -> @-1001 = "Castiliano"</p>
+				</div>
+				<li>.txt files - translate uninstal.txt</li>
+			</ul>
+			<li>Switch to the <strong>bgt\help</strong> directory</li>
+			<li>Make a copy of [english]bgtreadme.htm and [english]postinstall.htm and rename the portion that refers to the language</li>
+			<div class="important">
+				<p>[english]bgtreadme.html -> [castilian]bgtreadme.html</p>
+				<p>[english]postinstall.html -> [castilian]postinstall.html</p>
+			</div>
+			<li>Translate sections 1, 2, 3, 4, 5, and 9 of bgtreadme.htm only, and all of postinstall.htm</li>
+			<li>Switch to the <strong>bgt\worldmap\english</strong> directory, make a copy of worldmap.tra and translate as above for .tra files.</li>
+			<div class="important">
+				<p>Treat ### as a space, but make sure you leave ### present. If you need to include spaces, replace them with ###.</p>
+				<p>@1001 = ~English###English~ -> @1001 = ~Castiliano###Castiliano~</p>
+				<p>@-1001 = "English###English" -> @-1001 = "Castiliano###Castiliano"</p>
+			</div>
+			<li>Package your renamed directory, readme file, postinstall.htm and worldmap.tra</li>
+			<li>Either post the file on the <a href="http://www.shsforums.net/index.php?showforum=261">mod forum</a>, or send a private message (PM) to Ascension64 at the Spellhold Studios forums, who will give you an e-mail address to send the package to</li>
+			<li>Expect the language to be included for the next release</li>
+		</ul>
+		<a name="FAQ17" id="FAQ17"></a>
+		<p><strong>I have other questions.</strong></p>
+		<p>Come to the <a href="http://www.shsforums.net">Spellhold Studios forums</a>, register for free as a member, and post your questions online.</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; FAQ</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== T r o u b l e s h o o t i n g ================== -->
+        <a name="troubleshooting" id="troubleshooting"></a>
+		<div class="content">
+          <h2>Troubleshooting</h2>
+          <h3>Fatal Installation Errors</h3>
+		  <p><strong>I have a custom install of Baldur's Gate and Tales of the Sword Coast patched to version 5512, or Baldur's Gate: The Original Saga, but the installation does not accept the directory that I type in.</strong></p>
+		  <p>The most likely scenario is that your installation discs for Baldur's Gate and Tales of the Sword Coast or Baldur's Gate: The Original Saga are scratched, and the installation did not copy over all the files.</p>
+		  <ul>
+		  	<li>Check that all of these files are present in the \data directory of your Baldur's Gate I installation directory. If any are missing, try and manually copy the file into the correct directory from the original disc.</li>
+			<br />
+			<ul>
+				<li>AREA000A.bif</li>
+				<li>AREA000B.bif</li>
+				<li>AREA000C.bif</li>
+				<li>AREA000D.bif</li>
+				<li>AREA000E.bif</li>
+				<li>AREA000F.bif</li>
+				<li>AREA000G.bif</li>
+				<li>AREA000H.bif</li>
+				<li>AREA010A.bif</li>
+				<li>AREA010B.bif</li>
+				<li>AREA020A.bif</li>
+				<li>AREA020B.bif</li>
+				<li>AREA030A.bif</li>
+				<li>AREA030B.bif</li>
+				<li>AREA040X.bif</li>
+				<li>AREA050D.bif</li>
+				<li>AREA060A.bif</li>
+				<li>AREA070A.bif</li>
+				<li>AREA080A.bif</li>
+				<li>AREA080B.bif</li>
+				<li>AREA090X.bif</li>
+				<li>AREA0100.bif</li>
+				<li>AREA110A.bif</li>
+				<li>AREA110B.bif</li>
+				<li>AREA110C.bif</li>
+				<li>AREA120A.bif</li>
+				<li>AREA120B.bif</li>
+				<li>AREA130A.bif</li>
+				<li>AREA140A.bif</li>
+				<li>AREA140B.bif</li>
+				<li>AREA160X.bif</li>
+				<li>AREA180A.bif</li>
+				<li>AREA180B.bif</li>
+				<li>AREA180C.bif</li>
+				<li>AREA180D.bif</li>
+				<li>AREA180E.bif</li>
+				<li>AREA190X.bif</li>
+				<li>AREA0200.bif</li>
+				<li>AREA210X.bif</li>
+				<li>AREA220X.bif</li>
+				<li>AREA230A.bif</li>
+				<li>AREA230B.bif</li>
+				<li>AREA260A.bif</li>
+				<li>AREA260B.bif</li>
+				<li>AREA260C.bif</li>
+				<li>AREA0300.bif</li>
+				<li>AREA320X.bif</li>
+				<li>AREA330A.bif</li>
+				<li>AREA330B.bif</li>
+				<li>AREA330C.bif</li>
+				<li>AREA330D.bif</li>
+				<li>AREA340X.bif</li>
+				<li>AREA360X.bif</li>
+				<li>AREA380X.bif</li>
+				<li>AREA390X.bif</li>
+				<li>AREA0400.bif</li>
+				<li>AREA400X.bif</li>
+				<li>AREA410X.bif</li>
+				<li>AREA420X.bif</li>
+				<li>AREA440X.bif</li>
+				<li>AREA450X.bif</li>
+				<li>AREA470X.bif</li>
+				<li>AREA480X.bif</li>
+				<li>AREA490X.bif</li>
+				<li>AREA500X.bif</li>
+				<li>AREA510X.bif</li>
+				<li>AREA520X.bif</li>
+				<li>AREA540A.bif</li>
+				<li>AREA540B.bif</li>
+				<li>AREA540C.bif</li>
+				<li>AREA540D.bif</li>
+				<li>AREA550X.bif</li>
+				<li>AREA0600.bif</li>
+				<li>AREA0700.bif</li>
+				<li>AREA0800.bif</li>
+				<li>AREA0900.bif</li>
+				<li>AREA1100.bif</li>
+				<li>AREA1200.bif</li>
+				<li>AREA1300.bif</li>
+				<li>AREA1400.bif</li>
+				<li>AREA1600.bif</li>
+				<li>AREA1700.bif</li>
+				<li>AREA1800.bif</li>
+				<li>AREA1900.bif</li>
+				<li>AREA2100.bif</li>
+				<li>AREA2200.bif</li>
+				<li>AREA2300.bif</li>
+				<li>AREA2400.bif</li>
+				<li>AREA2600.bif</li>
+				<li>AREA2700.bif</li>
+				<li>AREA2800.bif</li>
+				<li>AREA2900.bif</li>
+				<li>AREA3000.bif</li>
+				<li>AREA3100.bif</li>
+				<li>AREA3200.bif</li>
+				<li>AREA3300.bif</li>
+				<li>AREA3400.bif</li>
+				<li>AREA3500.bif</li>
+				<li>AREA3600.bif</li>
+				<li>AREA3700.bif</li>
+				<li>AREA3800.bif</li>
+				<li>AREA3900.bif</li>
+				<li>AREA4000.bif</li>
+				<li>AREA4100.bif</li>
+				<li>AREA4200.bif</li>
+				<li>AREA4300.bif</li>
+				<li>AREA4400.bif</li>
+				<li>AREA4500.bif</li>
+				<li>AREA4600.bif</li>
+				<li>AREA4700.bif</li>
+				<li>AREA4800.bif</li>
+				<li>AREA4900.bif</li>
+				<li>AREA5000.bif</li>
+				<li>AREA5100.bif</li>
+				<li>AREA5200.bif</li>
+				<li>AREA5300.bif</li>
+				<li>AREA5400.bif</li>
+				<li>AREA5500.bif</li>
+				<li>Areas.bif</li>
+				<li>ARMisc.bif</li>
+				<li>CHAAnim.bif</li>
+				<li>CHASound.bif</li>
+				<li>CREAnim.bif</li>
+				<li>Creature.bif</li>
+				<li>CRESound.bif</li>
+				<li>Default.bif</li>
+				<li>Dialog.bif</li>
+				<li>Effects.bif</li>
+				<li>Gui.bif</li>
+				<li>Items.bif</li>
+				<li>MPCREANM.bif</li>
+				<li>MPGUI.bif</li>
+				<li>MPSounds.bif</li>
+				<li>NPCSound.bif</li>
+				<li>OBJAnim.bif</li>
+				<li>RndEncnt.bif</li>
+				<li>scripts.bif</li>
+				<li>SFXSound.bif</li>
+				<li>Spells.bif</li>
+				<li>AREA050A.bif</li>
+				<li>AREA050B.bif</li>
+				<li>AREA050C.bif</li>
+				<li>AREA100A.bif</li>
+				<li>AREA150A.bif</li>
+				<li>AREA200A.bif</li>
+				<li>AREA200B.bif</li>
+				<li>AREA0500.bif</li>
+				<li>AREA1000.bif</li>
+				<li>AREA1500.bif</li>
+				<li>AREA2000.bif</li>
+				<li>ExArMaps.bif</li>
+				<li>ExPAreas.bif</li>
+			</ul>
+		</ul>
+		<br />
+
+		  <p><strong>WeiDU tried to delete files that did not exist and asked me whether to install the modification again.</strong></p>
+		  <p>You may not have a clean installation of Baldur's Gate and Tales of the Sword Coast and/or Baldur's Gate: Throne of Bhaal.</p>
+		  <ul>
+			<li>When the installation prompts for install again, quit the installation</li>
+			<li>Restore dialog.tlk as described in the Installation and Uninstallation section of this file</li>
+			<li>You have just reverted the installation process. Do not try to install again immediately.</li>
+			<li>Try reinstalling Baldur's Gate and Tales of the Sword Coast and/or Baldur's Gate: Throne of Bhaal without any modifications and re-install BGT-WeiDU.</li>
+			<li>If you have other modifications installed, try uninstalling those and re-install BGT-WeiDU.</li>
+			<li>If you still experience problems, post the files SETUP-BGT.DEBUG and bgt\bash.debug (if it exists), located in your Baldur's Gate II installation directory, in the <a href="http://www.shsforums.net/index.php?showforum=261">mod forum</a></li>
+		</ul>
+		<br />
+		<p><strong>Windows gave me an exception error detailing _WeiDU.exe or tis2bg2.exe</strong></p>
+		<p><strong>The DOS prompt returned the error "WeiDU: ZLIB: Warning! Problem decompressing block." in some cases.</strong></p>
+		<p>These are known issues that occur if you did not follow Step 2 of the Installation section.</p>
+		<ul>
+			<li>Allow the installation finish. This is critical. Uninstall BGT-WeiDU as described in the Uninstallation and Re-installation section.</li>
+			<li>Restore dialog.tlk.</li>
+			<li>Follow the installation procedures correctly.</li>
+		</ul>
+		<br />
+		<h3>Minor Installation Errors</h3>
+		<p><strong>During the installation, I constantly get errors saying ‘There is no disk in your drive'.</strong></p>
+		<p>This occurs if you did not follow Step 2 of the installation procedures.</p>
+		<ul>
+			<li>If you have not installed yet, or as you read this the installation is halted directly after you were asked to enter your Baldur's Gate and Tales of the Sword Coast directory with the disk check, abort the installation immediately.</li>
+			<li>As you read this, if the installation is halted any time after you were asked to enter your Baldur's Gate and Tales of the Sword Coast directory, press 'Cancel' to every single prompt that occurs, and allow the installation to finish. When the installation is finished, uninstall BGT-WeiDU and restore dialog.tlk.</li>
+			<li>Follow the installation procedures correctly without omitting Step 2.</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Troubleshooting</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+          <h2>Credits</h2>
+          <h3>Core</h3>
+          <p><strong>Ascension64 (project leader):</strong> bug-testing, coding, distribution</p>
+          <p><strong>King Diamond:</strong> bug-testing, coding</p>
+          <p><strong>Waywocket:</strong> menu screens</p>
+          <p><strong>Yacomo:</strong> menu screens</p>
+          <h3>Translations</h3>
+          <p><strong>Castilian/Spanish (<a href="http://www.clandlan.net">http://www.clandlan.net</a>):</strong> Ghildrean, Immortality, Lisandro, Memnoch, Saemon</p>
+          <p><strong>Czech:</strong> Lyrick, PostTrauma</p>
+          <p><strong>French:</strong> Anomaly</p>
+          <p><strong>German:</strong> Hurricane, OldVeteran, RubberDuck, weigo</p>
+          <p><strong>Italian:</strong> al17, Gemini82, melkor_morgoth75, Salk</p>
+          <p><strong>Korean:</strong> Inesius, web2air, Shi woo, Whiteraven</p>
+          <p><strong>Polish:</strong> dragonian, Joneleth, Promilus, Valfar (aka Evendur), yarpen</p>
+          <p><strong>Russian:</strong> Badgert, iopden, King Diamond, Kulyok, Vlad</p>
+          <p><strong>Simplified/Traditional Chinese (<a href="http://trow.cn/forum/">http://trow.cn/forum/</a>):</strong> Delmarey, fc666, good0593, Kinkairy, moon_cloud, 猫猫伸懒腰</p>
+		  <hr />
+		  <h3>Kudos</h3>
+		  <br />
+		  <ul>
+		  	<li>Many thanks to Bioware and Black Isle Studios for creating such a great RPG</li>
+			<li>Many thanks to Andyr and the Tutu team for providing a template for the sorting of journal entries</li>
+			<li>Many thanks to Bardez who created the original Baldur's Gate Trilogy and for permission to convert this mod to WeiDU</li>
+			<li>Many thanks to CamDawg and the TuTu Tweak Pack team for providing a template for the revised map notes</li>
+			<li>Many thanks to Corvias for the creativity in making the Baldur's Gate Trilogy icon</li>
+			<li>Many thanks to Douglas Boling for the STRINGS command file</li>
+                        <li>Many thanks to Elve for work on the full Baldur's Gate/Shadows of Amn/Throne of Bhaal music</li>
+			<li>Many thanks to Horred the Plague, hlidskialf, Seanas, Sir BillyBob, and all the testers who have worked to make the game as smooth as possible</li>
+			<li>Many thanks to Riklaunim of the Polish BG community for allowing the inclusion of his Polish BG1 font utility</li>
+                        <li>Many thanks to Taimon for his songlist hack and finding a solution to duplicate characters in GAM files</li>
+                        <li>Many thanks to Turambar for his work in overhauling the installation to compatible with Linux systems</li>
+			<li>Many thanks to weimer for creating the WeiDU utility for excellent modification installation</li>
+			<li>Many thanks to Yacomo for the MOSUnpack utility and the World Map modification</li>
+			<li>Many thanks to you and all the other players that who have contributed to the completeness and the enjoyment in developing this modification</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Credits</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== L e g a l e s e ================== -->
+        <a name="legalese" id="legalese"></a>
+        <div class="content">
+          <h2>Legalese</h2>
+		  <p>BALDUR'S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: © 1999 BioWare Corp. All Rights Reserved. Baldur's Gate and Baldur's Gate Tales of the Sword Coast are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc., and are used by Interplay under license. The BioWare Infinity Engine is a trademark of BioWare Corp.</p>
+		  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Throne of Bhaal, and Shadows of Amn are trademarks owned by Wizards of the Coast, Inc. and are used by Interplay under license. All Rights Reserved. The BioWare Infinity Engine is a trademark of BioWare Corp. All Rights Reserved.</p>
+		  <p><strong>USE THIS MODIFICATION AT YOUR OWN RISK. This modification is not developed, supported, or endorsed by BioWare Corp., Interplay, or Black Isle. All images and contents of this mod are © BioWare Corp., Interplay, Black Isle or Wizards of the Coast, Inc.</strong></p>
+		  <p>This is a community modification, created as a hobby for free. You can distribute among your peers as much as you like. However, please display good faith and credit the authors of the modification if you intend to modify the BGT-WeiDU package in any way or use any part of this modification as a template to create part/all of a modification/fixpack/tweak that you intend to release to the community.</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Legalese</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== V e r s i o n   H i s t o r y ================== -->
+        <a name="version" id="version"></a>
+        <div class="content">
+          <h2>Version history</h2>
+		  <p><a href="#" onclick="toggle('1.20');toggle('1.19');toggle('1.18');toggle('1.17');toggle('1.16');toggle('1.15');toggle('1.14');toggle('1.13');toggle('1.12');toggle('1.11');toggle('1.10');toggle('1.09');toggle('1.08u');toggle('1.08');toggle('1.07');toggle('1.06Updated'); toggle('1.06'); toggle('1.05b'); toggle('1.05a'); toggle('1.04'); toggle('1.03'); toggle('1.02f'); toggle('1.02'); toggle('1.01'); toggle('1.00'); toggle('0.99ZETAUpdated'); toggle('0.99ZETA'); toggle('0.99BETA4'); toggle('0.99BETA2'); toggle('0.99BETA'); toggle('0.94BETA'); toggle('0.9BETA'); toggle('0.8'); return false;">Expand/Collapse All</a></p>
+        <h6><a href="#" onclick="toggle('1.20'); return false;">Version 1.20 (20 Feb 19)</a></h6>
+	      <div id="1.20" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		    <li>Fixed bug where a typo in the 1.19 music fixes could prevent installation of the music pack (thanks to Salk and Lunareon)</li>
+		  </ul>
+		  <p>Incorporated the following fixes  from the Big World Fixpack</p>
+		  <ul>
+<li>Typo fixes (thanks to Salk)</li>
+<li>Fixed systematic bug where NPCs leaving the party would often use the wrong dialogue or just not leave, especially when they were leaving due to reputation/alignment conflicts (thanks to Lunareon)</li>
+		    <li>Cloak of the Nymph could be sold for 40x its value due to a charge issue (thanks to Lunareon)</li>
+		    <li>Fixed bug with Candlekeep missing its patrolling guards (thanks to Skellytz)</li>
+		    <li>BGT was following Fixpack's lead in removing Zone of Sweet Air from Jaheira and Holy Smite from Viconia sue to class/alignment conflicts. However, Fixpack has since confirmed with the devs that these are intentional, and as such BGT now leaves them in place (as does Fixpack)</li>
+		  </ul>
+              </div> 
+	      <h6><a href="#" onclick="toggle('1.19'); return false;">Version 1.19 (5 Feb 19)</a></h6>
+	      <div id="1.19" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		    <li>Resolved a minor compatibility issue with BG2 Fixpack</li>
+		  </ul>
+		  <p>Incorporated the following fixes  from the Big World Fixpack</p>
+		  <ul>
+		    <li>Fixed locked chest in Duchal Palace that couldn't be opened </li>
+		    <li>Cleaned up junk references in the rest spawn block of the Cloakwood Mines</li>
+		    <li>One of the piles in the werewolf caverns was using a bag container icon</li>
+		    <li>Added a delay for the playing of the BG sunrise/sunset movies to avoid repeats</li>
+		    <li>Imoen not gets her soundset fully moved over in BG2</li>
+		    <li>Ender Sai should now move to the door and leave more effectively</li>
+		    <li>The Sirine Queen will now leave after handing over Evalt's body</li>
+		    <li>BG area music is now assigned dynamically</li>
+		    <li>Compatibility fixes for TDD</li>
+		    <li>Fixed dialogue bug with Therella</li>
+		    <li>The BG-BG2 transition now sets variables before the movie to be a little more robust</li>
+		    <li>Due to a typo, BGT was not pulling over Polish soundsets</li>
+		  </ul>
+              </div>
+        <h6><a href="#" onclick="toggle('1.18'); return false;">Version 1.18 (28 Apr 13)</a></h6>
+	      <div id="1.18" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		    <li>Fixed BP-BGT Worldmap labels for Ice Island and Werewolf Island in simplified and traditional Chinese translations</li>
+		    <li>Really corrected the previous change about tutorial strings, inventory pause, and TobEx</li>
+		  </ul>
+              </div>              
+        <h6><a href="#" onclick="toggle('1.17'); return false;">Version 1.17 (10 Apr 13)</a></h6>
+	      <div id="1.17" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		    <li>Corrected the previous change about tutorial strings, inventory pause, and TobEx</li>
+		    <li>Fixed a failed installation on GemRB systems</li>
+		    <li>Fixed bad typo day in this change log</li>
+		  </ul>
+              </div>
+        <h6><a href="#" onclick="toggle('1.16'); return false;">Version 1.16 (22 Mar 13)</a></h6>
+	      <div id="1.16" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		    <li>Corrected Russian translation so that prompts are shown properly in GUI and music setup</li>
+		    <li>Correction to comments in bgt/base/baf/aram00.baf</li>
+		    <li>The game executable is no longer patched if TobEx is detected when selecting the "Full Baldur's Gate/Shadows of Amn/Throne of Bhaal Music" option of the "Baldur's Gate Trilogy - Music" optional install</li>
+		    <li>Tutorial strings about whether entering the inventory screen pauses the game are no longer changed if the "Disable Force Inventory Pause" TobEx tweak is detected to be enabled</li>
+		    <li>Updated German translation</li>
+		  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+		    <li>Dire Charm traps encountered in the Baldur's Gate and Tales of the Sword Coast part of the game last for 120 seconds as per vanilla Baldur's Gate behaviour (was 48 seconds)</li>
+		    <li>Edwin now correctly receives a dagger if he is imported into Shadows of Amn</li>
+		    <li>Edwin's Amulet gives one bonus wizard spell per level instead of two in the Baldur's Gate and Tales of the Sword Coast part of the game (note: specific text for trying to remove his amulet will not show correctly until after the transition to Shadows of Amn)</li>
+		    <li>Fixed a compatibility issue with Refinements where starting a BG2 game with a true class Mage would prevent spell selection from working</li>
+		    <li>Fixed day-night and night-day movies not playing (Mac users only get the Shadows of Amn movies)</li>
+		    <li>Fixed game hang/crash in multiplayer due to invalid day-night and night-day movies</li>
+		    <li>Fixed QUEEN_CHANGE (SPWI942.SPL) so that Pawns in the chess game change to the correct Queen</li>
+		    <li>Kirinhale no longer gains magic resistance and regenerates hit points when she becomes Ethereal</li>
+		    <li>Kirinhale no longer gives male player characters a save vs. spells penalty when the target is inflicted with dire charm</li>
+		    <li>Magic missile traps encountered in the Baldur's Gate and Tales of the Sword Coast part of the game do 2D3 damage as per vanilla Baldur's Gate behaviour (was 1D4)</li>
+		    <li>Silver Dagger - Werebane now correctly gives the extra +3 THAC0 bonus vs. lycanthropes</li>
+		  </ul>
+              </div>
+          <h6><a href="#" onclick="toggle('1.15'); return false;">Version 1.15 (11 Jun 12)</a></h6>
+	      <div id="1.15" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		    <li>Added experience patch compatibility for GemRB and Mac platforms</li>
+		    <li>Check for pre-existing modification with GUI Switcher changed to GUI_Mods/GUI_Mods.2DA</li>
+		    <li>Corrected Castilian translation which did not install in version 1.14</li>
+		    <li>Corrected importation of Ike and Montaron's soundset for Castilian language</li>
+		    <li>Corrected importation of introduction sounds and Ike's soundset for French and German languages</li>
+		    <li>Updated French and German translations</li>
+		    <li>Updated Russian translation to use English prompts due to inconsistent code pages between Russian version of Windows XP and Windows 7</li>
+		    <li>Updated installation for all platforms (Mac, Linux, Win32)</li>
+		  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+		    <li>Fixed a compatibility issue with BG2Fixpack where Invisible Stalkers did not give experience</li>
+		    <li>Fixed a number of script bugs (such as Drizzt not fighting gnolls) caused by using [^!]* in wildcard REPLACE_TEXTUALLY</li>
+		    <li>Fixed a number of typos in the English translation</li>
+		    <li>Fixed inventory icon for Algernon's Cloak a la BG2 Fixpack</li>
+		    <li>Fixed proficiency type in description of Two Handed Sword +3: World's Edge</li>
+                  </ul>
+              </div>
+        <h6><a href="#" onclick="toggle('1.14'); return false;">Version 1.14 (28 Jan 12)</a></h6>
+	      <div id="1.14" class="vlisthide">
+                  <p>Installation changes</p>
+                  <ul>
+                    <li>Fixed a bug with incorrect tileset conversion for the Wyvern Cave</li>
+                    <li>Installation no longer tries to copy soundsets from Baldur's Gate I if they do not exist</li>
+                    <li>Updated Castilian translation</li>
+                  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+		    <li>Fixed a bug where kicking Garrick out of the party the second time or later triggers the wrong dialogue</li>
+                  </ul>
+                  </div>
+        <h6><a href="#" onclick="toggle('1.13'); return false;">Version 1.13 (22 Jan 12)</a></h6>
+                  <div id="1.13" class="vlisthide">
+                  <p>Installation changes</p>
+                  <ul>
+                    <li>Added Czech translation</li>
+                    <li>Added installation compatibility on Linux systems</li>
+                    <li>Developer's documentation is now in .doc format</li>
+                    <li>Fixed compatibility issue where installation would fail if Never Ending Journey was installed but the Continuous and Custom Kit Imoen component was not</li>
+                    <li>Fixed compatibility issue where installation would fail if Never Ending Journey was installed but the Priest of Sylvanus (Druid) Kit and Improved Character Jaheria component was not</li>
+                    <li>Modified patching of The Vampire's Revenge to prevent a possible installation failure (thanks to Turambar)</li>
+                    <li>Overhauled installation process to rely much less on shell scripts</li>
+                    <li>Overhauled patching of items used in Baldur's Gate I but existing in a Baldur's Gate II installation (thanks to Hurricane)</li>
+                    <li>The ":" character is now allowed in the auto-installation when specifying the Baldur's Gate I path</li>
+                    <li>The default male and female soundsets are now imported from Baldur's Gate: Tales of the Sword Coast</li>
+                    <li>The "full" option for music installation now replaces the Shadows of Amn theme with the Baldur's Gate theme like the other components</li>
+                    <li>Updated French translation</li>
+                    <li>Updated German translation</li>
+                    <li>Updated Russian translation - removed a number of Russian-specific files due to official Russian Baldur's Gate I release</li>
+                    <li>Updated to BiggDU version 231</li>
+                  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+		    <li>Brage's body is no longer stealable from Brage</li>
+		    <li>Corrected compatibility issues with Vampiric Wolf</li>
+		    <li>Corrected description of Spider's Bane to state the proficiency is Two Handed Sword (English only)</li>
+		    <li>Corrected item type of Sarevok's Diary to Books as was intended</li>
+		    <li>Corrected some colours on certain characters (e.g. Voices in the prologue, Watchers)</li>
+		    <li>Corrected weight of Female Body (BGMISC79)</li>
+                    <li>Fixed a bug fix with party not gaining experience after killing Aec'Letec and the cultists</li>
+                    <li>Fixed a bug when using the Worldmap mod where travel times between the areas north of Nashkel Carnival and Gullykin were inconsistent</li>
+                    <li>Fixed a bug where an unsolved Bandits! journal entry was not removed</li>
+                    <li>Fixed a bug where party did not get teleported in Durlag's Tower in one area after defeating all the elementals</li>
+                    <li>Fixed a bug where Quayle at his lowest levels had one less memorisable Wizard level 1 spell</li>
+                    <li>Fixed a bug where Ramazith would give the player the quest to fetch Abela from Ragefast even though Abela has teleported away</li>
+                    <li>Fixed a bug where the journal entries in Melicamp's quest might not be removed upon quest completion</li>
+                    <li>Fixed a bug where two female Merchant League Guards had male greetings</li>
+                    <li>Fixed a crash that would occur when trying to transition to Shadows of Amn with dead party members</li>
+                    <li>Fixed a typo in Berrun's dialogue (English only)</li>
+                    <li>Fixed an incorrect journal entry obtained when talking to Jeb</li>
+                    <li>Fixed Emerson's journal entry added after being removed</li>
+                    <li>Fixed incorrect dialogue in the tutorial stating that the game unpauses when accessing the inventory screen (English only)</li>
+		  </ul>
+		  <p>Gameplay changes</p>
+		  <ul>
+		    <li>Added end of Tales of the Sword Coast text screen</li>
+		    <li>Added spell selection dialogue to new characters created for Shadows of Amn (no support for spells added by modifications)</li>
+		    <li>Added subtitles for the Baldur's Gate introduction movie</li>
+		    <li>Removed fixpack change to Half-Orc Find Traps skill bonus</li>
+		  </ul>
+		  </div>
+        <h6><a href="#" onclick="toggle('1.12'); return false;">Version 1.12 (13 Jun 11)</a></h6>
+	      <div id="1.12" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+            <li>Fixed an install issue with GUI installation if Baldur's Gate Trilogy-WeiDU was installed on top of another modification using the GUI system</li>
+            <li>Modified patching of Imoen and Jaheira kits to support > 256 kits (Never Ending Journey compatibility only)</li>
+          </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+            <li>Corrected incorrect patching of LOREBON.2DA and SKILLRNG.2DA</li>
+            <li>Fixed a bug where Viconia's Magic Resistance remained fixed at 65 if she is imported into Shadows of Amn</li>
+		  </ul>
+		  </div>
+        <h6><a href="#" onclick="toggle('1.11'); return false;">Version 1.11 (2 Jan 11)</a></h6>
+	      <div id="1.11" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+            <li>Partial fix for losing languages in GUI installation if BGT is installed after other modifications using the GUI system</li>
+            <li>Updated to BiggDU version 226</li>
+          </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+            <li>Corrected incorrect patching of LOREBON.2DA and SKILLRNG.2DA</li>
+            <li>Fixed icons for Sword of Balduran</li>
+            <li>Fixed tavern music having a delay</li>
+		  </ul>
+		  </div>
+         <h6><a href="#" onclick="toggle('1.10'); return false;">Version 1.10 (28 Aug 10)</a></h6>
+	      <div id="1.10" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+            <li>Updated to BiggDU version 219</li>
+          </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+            <li>Corrected incorrect proficiency type in descriptions of Kiel's Morningstar, Soultaker Dagger, The Vampire's Revenge and Spider's Bane (English and International English languages only)</li>
+            <li>Fixed a bug where the journal entry titled 'Anxious farmer tells a tale' was plaaced in the quest section of the journal</li>
+            <li>Fixed a bug where Dreppin could take an entire stack of antidote potions instead of one</li>
+            <li>Fixed a bug where Obe would not take Deder's Oil of Speed when leaving the combat tutorial</li>
+            <li>Fixed ability icon for Two Handed Sword +3</li>
+            <li>Fixed some grammatical and spelling typos in English language installation</li>
+		  </ul>
+		  </div>
+          <h6><a href="#" onclick="toggle('1.09'); return false;">Version 1.09 (8 May 10)</a></h6>
+	      <div id="1.09" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+            <li>Installation now detects Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7</li>
+            <li>Installation now accepts directories like "D:\Modding\Baldur's Gate (x86) !@#$% 2" (note: ^ in the path name does not work; not for Windows 95, Windows 98, Windows ME, Windows NT)</li>
+            <li>Updated to BiggDU version 217</li>
+          </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+            <li>Fixed random crashing and sporadic saved game corruption when entering/exiting Beregost</li>
+		  </ul>
+		  </div>
+          <h6><a href="#" onclick="toggle('1.08u'); return false;">Version 1.08 Updates (13 Oct 09; 19 Oct 09; 31 Oct 09; 26 Nov 09; 19 Dec 09; 31 Dec 09; 01 Feb 10; 13 Feb 10; 16 Mar 10)</a></h6>
+	      <div id="1.08u" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+            <li>Added translations for GUI setup</li>
+            <li>Fixed compatibility issue with patching full random treasure tables</li>
+            <li>More robust patching of Erik and Jondalar's non-damaging staves</li>
+            <li>Updated developer documentation to include more detailed information about the implementation of Dudleyville fixes</li>
+            <li>Updated German, Korean, Russian, Simplified Chinese, and Traditional Chinese translations</li>
+		  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+            <li>Fixed a bug with the fix for Scar not always detecting that the Seven Suns was cleared of dopplegangers</li>
+            <li>Fixed a bug where Angelo would try to kill Player2 even though Player2 is dead</li>
+            <li>Fixed a bug where Kiel the Legionkiller can be alive with less than 1 HP and was therefore unkillable</li>
+            <li>Fixed a bug with death variables for Firebead Elvenhair</li>
+            <li>Fixed a bug where infinite quarterstaves could be obtained by dropping the staves and reloading the game in prologue</li>
+            <li>Fixed a bug where player characters who change into Wolfweres drop Peladan, the baby</li>
+            <li>Fixed a bug where subtitles for the Shadows of Amn introduction movie would not be displayed</li>
+            <li>Fixed a bug where the Horn of Kazgaroth was imported with zero charges</li>
+            <li>Fixed a bug where the player could access Baldur's Gate prematurely by entering then exiting the zombie farm or Ulgoth's Beard</li>
+            <li>Fixed a bug with the dudleyville fix for return travel from the Isle of Balduran that guaranteed the party turned into wolfweres</li>
+            <li>Fixed a fix that was supposed to correct invalid item resources for DEAD2, DEADFUCK, and JAMIE creatures</li>
+            <li>Fixed a stutter bug for Coran in the specific scenario that: (i) the player has killed the specific wyverns for the quest, (ii) Coran's timer runs out, and (iii) the player has not yet killed any standard non-specific wyverns yet</li>
+		  	<li>Fixed bugs with death variables for Avarice, Fear, and Pride</li>
+            <li>Fixed issues with transition to Shadows of Amn</li>
+            <li>Fixed typo in area script for AR6512</li>
+            <li>Fixed typo in Be'land's dialogue script</li>
+            <li>Fixed typo for Rielev in Imoen's dialogue</li>
+            <li>Fixed typo for secret door for escaping Werewolf Island</li>
+            <li>Fixed typos that caused Shop of Silence, a Tavern, and Temple of Helm stores to crash the game</li>
+            <li>Fixed winter wolf pelt exploit</li>
+		  </ul>
+		  <p>Gameplay changes</p>
+		  <ul>
+            <li>Added gnoll as racial enemy</li>
+		  	<li>Extended dudleyville fix so travel to and from Balduran Isle rests the party</li>
+		  </ul>
+		  </div>
+		  <h6><a href="#" onclick="toggle('1.08'); return false;">Version 1.08 (10 Oct 09)</a></h6>
+	      <div id="1.08" class="vlisthide">
+		  <p>New features</p>
+          <ul>
+            <li>Added option for full Baldur's Gate and Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal music in BGTMusic (requires patching of BGMain.exe)</li>
+          </ul>
+		  <p>Installation changes</p>
+		  <ul>
+		  	<li>Fixed a typo where area script fixes were installed when BG2Fixpack was also installed, rather than when BG2Fixpack isn't installed</li>
+			<li>Updated to BiggDU v211</li>
+		  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+		  	<li>Fixed a bug in Candlekeep where the player could get unlimited quarterstaves</li>
+            <li>Fixed a bug where a journal entry for rescuing Skie was not removed when the quest was successfully completed</li>
+			<li>Fixed a bug where Aldeth and Brandilar may not detect that all the dopplegangers in the Merchant League were killed</li>
+			<li>Fixed a bug where Aldeth may not detect that all the druids have been killed</li>
+            <li>Fixed a bug where Ardrouine may not detect that all the worgs have been killed</li>
+			<li>Fixed a bug where Gerde may not detect that an ankheg has been killed</li>
+            <li>Fixed a bug where journal entries for the chicken quest did not get removed upon successful completion of the quest</li>
+			<li>Fixed a bug where Lamalha and her cronies did not activate/deactivate properly depending on whether Mulahey has been killed or not</li>
+			<li>Fixed a bug where Ludrug's gnolls sometimes wouldn't turn hostile if Ludrug was killed during the duel</li>
+            <li>Fixed a bug where Scar may not detect that the Seven Suns was cleared of dopplegangers</li>
+            <li>Fixed a bug where talking to Brandilar after receiving the reward from Aldeth results in getting an unsolved journal entry that is not removed at the end of the quest</li>
+			<li>Fixed a bug where the player cannot exit the Duchal Palace after defeating Sarevok but before transitioning to Shadows of Amn</li>
+			<li>Fixed a bug where Yeslick had proficiencies in crossbows but could not use them (changed to sling)</li>
+            <li>Fixed an incorrect transition in Xzar's opening dialogue</li>
+            <li>Fixed looping script blocks in the area outside Candlekeep</li>
+            <li>Fixed the situation where the player could give 100 gold to Farmer Brun even if they did not have the correct amount; also changed so that player has option of giving Ruby Ring only or 100 gold only, as opposed to Ruby Ring + 100 gold or 100 gold only, since both result in the same outcome</li>
+            <li>Incorporated most of Dudleyville fixes into internal fixpack</li>
+            <li>Really (really) fixed issues where the wrong version of Jaheira and Viconia could return from Harper business and vampire cure</li>
+		  </ul>
+          <p>Gameplay changes</p>
+          <ul>
+          	<li>Moved one random treasure line to correct its distribution (N/A when Check the Bodies installed prior to BGT)</li>
+          </ul>
+		  </div>
+		  <h6><a href="#" onclick="toggle('1.07'); return false;">Version 1.07 (25 Jan 09)</a></h6>
+	      <div id="1.07" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		    <li>Added InParty() requirement to weapon shattering script to allow compatibility for BGTTweaks "Enemy items shatter" component</li>
+		  	<li>Corrected importation of sound sets in the German installation</li>
+		  	<li>Corrected installations with Baldur's Gate installations ending with an isolated number</li>
+			<li>German installation now imports all Safana, Gnome, GnomF, and Wench sounds from Baldur's Gate I</li>
+			<li>Re-coded patching of items that shatter to prevent issues occurring if the items had been previously patched (such as Item Revision mod)</li>
+			<li>Updated Castilian translation of the world map strings used by the World map modification </li>
+		  	<li>Updated Simplified and Traditional Chinese translations</li>
+			<li>Updated to BiggDU version 209</li>
+		  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+		  	<li>Added error checking for hit point and constitution adjustments for new characters</li>
+			<li>Corrected problems with the world map, fixing a crash on entering Small Teeth Pass and possibly Nashkel Carnival from Durlag's Tower</li>
+		  	<li>Corrected hit point, known spell, memorised spell, portrait, proficiency, script, starting equipment, and THAC0 errors in joinable NPCs</li>
+		  	<li>Corrected the starting hit points for the Barbarian class</li>
+			<li>Fixed a bug that allowed Jaheira to cast Strength of One as a level 1 spell</li>
+			<li>Fixed a bug where a medium shield could be 'smuggled' out of the tutorial fight and a player would lose Oils of Speed that might not have been in the tutorial fight</li>
+			<li>Fixed a bug where any wyvern could be killed for Coran's quest</li>
+			<li>Fixed a bug where Durlag's Tower was not accessible from adjacent areas on the world map</li>
+			<li>Fixed a bug where Erik and Jondalar could use their staves to hurt and/or kill an unarmed player in the tutorial</li>
+			<li>Fixed a bug where Kolvar would respawn again and again as soon as he escaped the area</li>
+		  	<li>Fixed a bug where new characters with 19 constitution did not receive the correct hit point bonus</li>
+		  	<li>Fixed a bug where starting a new Shadows of Amn game resulted in a hung cutscene in Irenicus' dungeon in some situations</li>
+			<li>Fixed a bug where the gibberlings, hobgoblins, kobolds, skeletons, taslois, and xvarts in Obe's training combat could hurt unarmed players with their melee weapons </li>
+			<li>Fixed a bug where the journal entry to investigate Nashkel Mines is not given if Berrun Ghastkill is spoken to without Jaheira, Khalid, Montaron, and Xzar</li>
+			<li>Fixed a bug where the reward for Coran's quest could be collected without Coran in the party</li>
+			<li>Fixed a bug where the warehouse with dogs at the Nashkel Mines exterior map had the wrong mini-map</li>
+			<li>Fixed death variables for the cultists in Ulgoth's Beard</li>
+			<li>Fixed kill counter not incrementing problems with Bjornin's ogres, Hulrik's xvarts, Sarhedra's ogres, and Wenric's zombies</li>
+			<li>Made corrections to some travel times and encounters with the world map</li>
+		  	<li>Possible fix for a possible crash-to-desktop entering Beregost with BGT Tweaks installed</li>
+			<li>Removed an Arkion tweak that is actually a component of BGT Tweak</li>
+			<li>Removed some BG1 area scripts improperly used by BG2 areas, fixing issues such as the Cloakwood movie playing at Small Teeth Pass</li>
+			<li>The correct movies are now shown for the day-night and night-day transition when in Baldur's Gate</li>
+			<li>The player now gets 800 experience for finding Dynaheir regardless of the outcome of her dialogue</li>
+			<li>Yet another (more intrusive this time) attempt at fixing the problems with the wrong version of Jaheira and Viconia showing up after leaving with the Harpers or being resurrected with Bodhi's black heart</li>
+		  	<li>Zhurlong can no longer be killed after completing his quest without penalty</li>
+		  </ul>
+		  <p>Gameplay changes</p>
+		  <ul>
+		    <li>Adjusted experience bonus table (XPBONUS.2DA) to a fraction of the stock Throne of Bhaal table (DISARM_TRAP/25, PICK_LOCK/50, LEARN_SPELL/100)</li>
+		    <li>Modified the training fight to end in the same way as Baldur's Gate and Tales of the Sword Coast (no more cutscene)</li>
+		    <li>Gorion's text now appears over his head during the cutscene of his death</li>
+			<li>Reverted changes to access of Ulgoth's Beard and the zombie farm</li>
+		    <li>The Boots of Speed obtained from Drizzt now functions identically to a standard Baldur's Gate II Boots of Speed</li>
+		  </ul>
+		  </div>
+		  <h6><a href="#" onclick="toggle('1.06Updated'); return false;">Version 1.06 Updated (5 Aug 08)</a></h6>
+	      <div id="1.06Updated" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		  	<li>Corrected display of readme during installation when using the International English language</li>
+		  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+		  	<li>Corrected a problem with a hung cutscene in the transition if Imoen, Jaheira, and/or Minsc were imported into Shadows of Amn</li>
+		  </ul>
+		  </div>
+		  <h6><a href="#" onclick="toggle('1.06'); return false;">Version 1.06 (1 Aug 08)</a></h6>
+	      <div id="1.06" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		  	<li>Added compatibility data for BG1NPC Project installation</li>
+			<li>All joinable NPC soundset strings are now appended to dialog.tlk instead of some of them using existing dialog.tlk references</li>
+			<li>Corrected installation problems with the Traditional Chinese translation</li>
+			<li>Fixed a bug in the Italian installation where the text was missing indicating a failure with detecting the BG1 directory</li>
+			<li>Installation prompts for viewing readme</li>
+			<li>Modified auto-installation - readme prompt needs to be suppressed with --skip-at-view</li>
+			<li>Naming convention changes (BG1->BGT): TANARI.BCS -> BGTANARI.BCS, SPIN996.SPL -> BGIN996.SPL (TANARI_DEATH_GAZE), SPWI925.SPL -> BGWI925.SPL (KAISHAS_CHANGE; was formerly SPKI925.SPL), SPWI947.SPL -> BGWI947.SPL (GREATER_WOLFWERE_CHANGE)</li>
+			<li>Overhauled post-installation notes and readme presentation (English only at this stage)</li>
+			<li>Prefixed in-lined files to prevent corruption of the installation</li>
+			<li>Updated Castilian, Simplified Chinese, and Traditional Chinese translations</li>
+			<li>Updated to BiggDU v208</li>
+			<li>Version number now deferred to the VERSION command instead of in translation files</li>
+		  </ul>
+		  <p>Bug fixes</p>
+		  <ul>
+		  	<li>Corrected enchantment level for Short Bow +1</li>
+			<li>Corrected inconsistency between travel time and encounters between Ulgoth's Beard and Wyrm's Crossing</li>
+		  	<li>Corrected the music problems with Gorion's death cutscene</li>
+		  	<li>Corrected the proficiencies for Short Bow +1, Long Bow of Marksmanship, and Eagle Bow</li>
+			<li>Corrected the removal of journal entries for the quest of rescue/kill Dynaheir in two cases</li>
+			<li>Dradeel no longer takes the spellbook from the player unless the quest was originally accepted</li>
+			<li>Emissary Tar on Level 3 of the Iron Throne building now disappears if the player avoided her and visited Level 5 where Emissary Tar is found killed</li>
+			<li>Fixed a bug where a large number of area ambients did not play</li>
+			<li>Fixed a bug in some installations where joinable NPC soundsets were incorrect</li>
+		  	<li>Fixed a bug in the French installation that did not contain the sounds for the Tales of the Sword Coast text screens</li>
+			<li>Fixed a bug where one of Cythandria's ogres did not disappear upon the player showing her mercy</li>
+			<li>Fixed a bug where the Castilian prologue textscreen text was missing</li>
+			<li>Fixed a bug where Tiax's Summon Ghast summoned a skeleton rather than a ghast</li>
+			<li>Fixed a bug where the final journal entry for the retrieval of Hurgan's dagger still mentioned the messenger from Ulgoth's Beard</li>
+			<li>Fixed a stutter bug with Kagain in relation to his quest</li>
+			<li>Fixed an error that broke the transition from Baldur's Gate and Tales of the Sword Coast to Shadows of Amn</li>
+			<li>Fixed an inconsistency between the dialogues of Dradeel and Kaishas regarding Dradeel's story on Balduran's voyage</li>
+			<li>Fixed an inconsistency in Branwen's joining/leaving dialogue due to the petrification check</li>
+			<li>For characters with no experience, summoning a familiar, exporting the character, and re-importing the character, no longer permanently grants hit points (characters with greater than zero experience are unaffected)</li>
+			<li>Ghasts formed by Aec'Letec no longer drop loot</li>
+			<li>Hopefully really fixed problems with moving the wrong version of Edwin, Imoen, Jaheira, Minsc, and Viconia using MoveGlobal(), MoveGlobalObject(), and MoveGlobalObjectOffScreen() if they were alive and not in the party during transition to Shadows of Amn, due to duplicate entries in BALDUR.GAM</li>
+			<li>Jaheira no longer utters an INITIAL_MEETING sound after she is imported into Shadows of Amn</li>
+			<li>Lady Beth no longer has a leftover Baldur's Gate script that changes her dialogue</li>
+			<li>Re-coded the setting of starting hit pionts and application of the constitution bonus/penalty</li>
+			<li>The guards in the Merchant League no longer refer the player to Brandilar about investigating Zorl and Irlentree when the quest is completed</li>
+		  </ul>
+		  <p>Gameplay changes</p>
+		  <ul>
+		    <li>Aec'Letec now correctly turns targets into Ghasts</li>
+		    <li>Belt now asks the player if they are ready to transition to Amn</li>
+			<li>Edwin now appears if Dynaheir was rescued but she died and is no longer in the party</li>
+			<li>Karoug now correctly morphs into WOLFWEGR instead of WOLFGR01 as per Baldur's Gate and Tales of the Sword Coast behaviour</li>
+			<li>New characters and characters imported directly into Shadows of Amn with no experience are now forced to level up before the game continues</li>
+			<li>The zombie farm is now only accessible from the Baldur's Gate side of Wyrm's Crossing</li>
+			<li>Ulgoth's Beard is now placed in the lore-correct position on the world map - it can only be accessed on the left exit of Wyrm's Crossing</li>
+ 		  </ul>
+		  </div>
+		  <h6><a href="#" onclick="toggle('1.05b'); return false;">Version 1.05b (27 Dec 07)</a></h6>
+		  <div id="1.05b" class="vlisthide">
+		  <p>Installation changes</p>
+		  <ul>
+		  	<li>Added Traditional Chinese translation</li>
+			<li>CHANT0*.WAV are imported from the Baldur's Gate I installation to cater for some editions of Baldur's Gate II lacking them</li>
+			<li>Corrected importation of soundsets from Castilian and French Baldur's Gate I installations</li>
+			<li>Corrected partial corruption of some items (these did not have any effects in-game)</li>
+			<li>Removal of headers from extracted text of Baldur's Gate and Tales of the Sword Coast now works properly</li>
+			<li>Updated to BiggDU v203 (BIFFed files no longer become lower-case in NearInfinity)</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Corrected bad facing when entering the cave in the Gnoll Stronghold area</li>
+			<li>Corrected charmed behaviour of multiple NPCs</li>
+			<li>Corrected Long Bow of Marksmanship proficiency to Long Bow</li>
+			<li>Corrected Plate Mail +3 minimum strength to 11</li>
+			<li>Corrected a few typos in the English text</li>
+			<li>Corrected proficiency description for Eagle Bow, Long Bow of Marksmanship, Mace +2, Sword of Balduran, and Werebane</li>
+			<li>Corrected Sword of Balduran weapon proficiency to Bastard Sword</li>
+			<li>Fixed a bug where Greagan's Harp was usable by the Monk class</li>
+			<li>Fixed a bug where Xan's Moonblade was undroppable and had incorrect usability data</li>
+			<li>Fixed a bug where a letter from Sarevok to Rashad (SCRL2R.ITM) had no description</li>
+			<li>Kill counters for Reevor's rats and Drizzt gnolls should now work correctly, even after mass area-of-effect killing</li>
+			<li>Provided that the protagonist has maximum hit points greater than 3, the protagonist will no longer die from Irenicus' experiments upon transition into Shadows of Amn</li>
+		</ul> 
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Chapter incrementation will still occur if the player retrieves Mulahey's documents before killing Mulahey outside his den, but does not re-enter his den</li>
+			<li>Normal Katanas and Wazikashis will now shatter (if the weapons are introduced by another mod)</li>
+			<li>Removed armor and shield shattering</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('1.05a'); return false;">Version 1.05a (7 Nov 07)</a></h6>
+	    <div id="1.05a" class="vlisthide">
+		<p>Installation changes in revision</p>
+		<ul>
+			<li>Fixed a critical error in the GUI installation that prevented installation of BGT-WeiDU on fresh installations of Baldur's Gate II</li>
+			<li>Removed the Baldur's Gate and Tales of the Sword Coast Simplified Chinese translation upon request; this translation is now drawn from the installation directory specified</li>
+		</ul>
+		<p>Installation changes</p>
+		<ul>
+			<li>Added an auto-installation option that suppresses display of Post-installation Notes and/or acquires a user pre-defined Baldur's Gates and Tales of the Sword Coast installation path, if valid</li>
+			<li>Added Simplified Chinese translation</li>
+			<li>All Baldur's Gate Trilogy areas are now assigned scripts</li>
+			<li>Castilian/Spanish translation revised</li>
+			<li>Code optimisations</li>
+			<li>Corrected a major issue that prevented French installation using the French version of Baldur's Gate and Tales of the Sword Coast</li>
+			<li>Installation now checks that the Baldur's Gate and Tales of the Sword Coast directory entered into the prompt contains a full Custom Install of Baldur's Gate and Tales of the Sword Coast</li>
+			<li>Installation will no longer fail when the PATH variable for the operating system has not been set properly</li>
+			<li>Reviewed the installation process for items</li>
+			<li>Removed redundant detection code for joinable NPCs being alive</li>
+			<li>Removed some redundant items</li>
+			<li>ResRef changes (ITM): BrokWeap -> BGMISC56, MISC79 -> BGMISC79, RINGA0 -> BGRING08, SCRL1V -> BGSCRL1V, WAND12 -> BGWAND12, BLUN36 -> BLUN11</li>
+			<li>Reversed BG1 Unfinished Business compatibility; BG1 Unfinished Business will work around BGT-WeiDU</li>
+			<li>Segregated DOS text from batch script to simplify translation and script management</li>
+			<li>Separated music installation from GUI installation; the user now has the option of installing full Baldur's Gate and Tales of the Sword Coast music, or the hybrid Baldur's Gate/Shadows of Amn/Throne of Bhaal music used in older versions of BGT-WeiDU</li>
+			<li>Slight adjustment to main menu modification-dependent display string</li>
+			<li>Sound sets from Baldur's Gate and Tales of the Sword Coast are now imported</li>
+			<li>Updated to BiggDU 201; as a result, the final DOS step of the installation completes before WeiDU exits</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Canderous' tutorial Small Shield +1 now begins identified</li>
+			<li>Corrected a few cases where monsters would incorrectly drop a Large Shield</li>
+			<li>Corrected a few places where journal entries involving the rescue of Dynaheir would not be removed</li>
+			<li>Corrected item descriptions for Wolfsbane Charm</li>
+			<li>Corrected item incompatibilities with Dimension Door scroll and tutorial Wand of Magic Missiles with Shadows of Amn items Stoneskin and Wand of Wonder, respectively</li>
+			<li>Corrected party facing when entering Joia's home at the Friendly Arm Inn (AR6806) and Mulahey's den (AR4405)</li>
+			<li>Corrected usability flags for Two-Handed Sword +3: 'The World's Edge'</li>
+			<li>Fixed a bug where a Beregost farmer's randomised dialogue sometimes had a non-corresponding journal entry</li>
+			<li>Fixed a bug where new characters having a constitution less than 6 had an incorrect amount of hit points</li>
+			<li>Fixed a bug where the game would not increment to the final chapter during Baldur's Gate and Tales of the Sword Coast due to crossing a trigger point too quickly when escaping from the hostile Candlekeep exterior area</li>
+			<li>Fixed a bug where the protagonist's biography is the Shadows of Amn version, a 'fourth-wall breaker' during Baldur's Gate and Tales of the Sword Coast (this is at the expense of the ability to revert a custom biography to the original version)</li>
+			<li>Fixed a bug where The Vampire's Revenge did not cause Berserk on hit</li>
+			<li>Fixed a bug where the wrong male commoners were placed in a Nashkel home (AR3708) and a Nashkel Carnival interior (AR3802)</li>
+			<li>Fixed a bug where Wyrm's Crossing could be 'crossed' incorrectly by going to the zombie and farm and travelling back to Wyrm's Crossing</li>
+			<li>Fixed a dialogue by the nobleman in Candlekeep Inn that never triggered and corrected the dialogue trigger</li>
+			<li>Fixed a dialogue inconsistency such that Firebead Elvenhair in Beregost speaks only to the protagonist</li>
+			<li>Imoen's starting wand now begins identified</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>An upgraded version of Koveras' Ring of Protection is no longer imported into Shadows of Amn</li>
+			<li>For each player, beginning a new Baldur's Gate and Tales of the Sword Coast game no longer creates a quarterstaff if the player already has one</li>
+			<li>Greatly reduced the amount of experience gained from picking locks, disarming traps, and scribing scrolls</li>
+			<li>Reflected Image scroll removed for Mirror Image in High Hedge to match the Baldur's Gate and Tales of the Sword Coast version of this store</li>
+			<li>Removed Katanas, Ninja-Tos, and Wazikashis from The Friendly Arm, Candlekeep Inn, and Feldepost Inn to match Baldur's Gate and Tales of the Sword Coast versions of these stores</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('1.04'); return false;">Version 1.04 (26 Feb 07)</a></h6>
+		<div id="1.04" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>Added Castilian/Spanish translation</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Attempted fix: forces MakeGlobal() on Edwin, Imoen, Jaheira, Minsc, and Viconia if they joined the party during Baldur's Gate and Tales of the Sword Coast, but were not imported into Shadows of Amn; this may fix problems with using MoveGlobal(), MoveGlobalObject(), and MoveGlobalObjectOffScreen() moving the wrong version of each NPC due to duplicate entries in BALDUR.GAM</li>
+			<li>Attempted fix: sporadic issue where Lamalha and her cronies (AR3900) would sometimes not activate properly (switched the two script blocks around)</li>
+			<li>Corrected the inventory graphic for Two Handed Sword +3: 'The World's Edge'</li>
+			<li>Corrected two sounds applied incorrectly to two Minsc soundset StrRefs in the Korean version of Baldur's Gate</li>
+			<li>Demonknight (DEATHK), Drizzt (DRIZZT), Ghost (DAITEL), Mirror Fiend (GOODDEAT), and Sarevok (SAREVO) now properly have undroppable helms</li>
+			<li>Fixed a bug where causing the Drunk at Temple of Lathander to sleep would prevent the game from being saved without going to a different area in the world map</li>
+			<li>Kivan now correctly has the Ranger bonus of two stars to the Two Weapon Style proficiency</li>
+		</ul>
+		<p>Compatibility bug fixes</p>
+		<ul>
+			<li>BG2 Fixpack: Jaheira at level 6 no longer will have Zone of Sweet Air, and Cure Disease is added (corresponding to Core Fixes component)</li>
+			<li>BG2 Fixpack: Viconia at levels 4 and 6 no longer will have Holy Smite, and Flame Blade is added (corresponding to Core Fixes component)</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Added Armor of Faith (SPPR111) to Jaheira at levels 1, 2, and 4 (corresponding to Baldur's Gate 2 spellbook)</li>
+			<li>Added Doom (SPPR113) to Jaheira at levels 1, 2, 4, and 6 (corresponding to Baldur's Gate 2 spellbook)</li>
+			<li>Added Protection from Fire (SPPR306) to Viconia at level 6 (corresponding to Baldur's Gate 2 spellbook)</li>
+			<li>Added Strength of One (SPPR312) to Jaheira at level 6 (corresponding to Baldur's Gate 2 spellbook)</li>
+			<li>Kivan at level 4 and level 6 no longer receive extra stars in Longbow proficiency; they have been transferred to Two Handed Weapon proficiency (mirrors Tutu)</li>
+			<li>Removed Flame Blade (SPPR206) from Viconia at levels 4 and 6 (erroneous inclusion)</li>
+			<li>Removed Summon Insects (SPPR319) from Viconia at level 6 (erroneous inclusion)</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('1.03'); return false;">Version 1.03 (4 Feb 07)</a></h6>
+		<div id="1.03" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>Added compatibility support for future versions of the BG2 Fixpack, maintaining backwards compatibility</li>
+			<li>Altered position of the Ice Island on the BP-BGT Worldmap to support future versions of the Worldmap</li>
+			<li>Fixed a problem where the installation would still ask for a CD during the stage just after entry of the installation directory</li>
+			<li>Minor updates to the Korean translation</li>
+			<li>Updated information on 'Tackling SONGLIST.2DA incompatibility' in the compatibility information</li>
+			<li>Updated to BiggDU v198</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Corrected the behaviour of adding the Harper's Call spell to Jaheira as soon as her Druid class becomes level 9 during Shadows of Amn</li>
+			<li>Corrected the level in the description for the Level 1 priest spell Detect Evil</li>
+			<li>Fixed a bug in Shadows of Amn where Jaheira would consistently start the banter where she has nightmares of Khalid</li>
+			<li>Fixed a bug where snares could not be set by a party member that was lower than level 6 in their thief class</li>
+			<li>Fixed a bug where two guards will attack the party for no reason in Athkatla's Bridge District if the Red Wizards are killed during Baldur's Gate</li>
+			<li>Fixed a bug with Sir Branet Al-Thon appearing in the Sorcerous Sundries instead of William Garst</li>
+			<li>Fixed a bug with the German installation causing a crash-to-desktop when the player leaves the Werewolf island</li>
+			<li>Fixed a rare bug where Viconia could not be freed from the stake at the Government District</li>
+		</ul>
+		<p>Compatibility bug fixes</p>
+		<ul>
+			<li>BG2 Fixpack: Changed installation of BG2 Fixpack detection to the file cdbehbla.pro to fix continued compatibility problems</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Corrected a few facing directions when entering certain areas</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('1.02f'); return false;">Version 1.02f (17 Dec 06)</a></h6>
+		<div id="1.02f" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>Added a Baldur's Gate Trilogy icon (courtesy of Corvias)</li>
+			<li>Added language support for BP-BGT Worldmap</li>
+			<li>Completed compatibility support for BG1 Unfinished Business should a BGT-WeiDU version be available</li>
+			<li>Compressing override files now takes into account files that were missed and no longer generates file not found messages</li>
+			<li>DOS installation steps are now logged in Setup-BGTDOS.DEBUG, available when BGT-WeiDU is installed, except on Win9x/ME systems</li>
+			<li>Editing baldur.ini of Baldur's Gate, in order to suppress Windows asking for a disc, is now performed automatically</li>
+			<li>Fixed a problem where installation failure at the stage of detecting the Baldur's Gate and Tales of the Sword Coast directory would result in an empty override folder</li>
+			<li>Revised Baldur's Gate directory detection code for Windows 2000/XP and newer, allowing detection of variously named Baldur's Gate directories as C:\Program Files (x86)\Black Isle\Baldur's Gate</li>
+			<li>Installation requirement of removing all Baldur's Gate-related CDs/DVDs/virtual images from drives is now re-instated in order to suppress tileset corruptions during extraction</li>
+			<li>Polish characters now display correctly in DOS</li>
+			<li>Updated tileset conversion utility to version 1.1, suppressing warning message during conversion</li>
+			<li>Updated to BiggDU v197</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Fixed a bug with a crash-to-desktop when trading with Alvanhendar</li>
+			<li>Fixed a bug with Sanadal Gwist's dialogue checking for the death of Shank and Carbos</li>
+			<li>Kivan at level 4 and 6 no longer has Called Shot as an innate ability</li>
+		</ul>
+		<p>Compatibility bug fixes</p>
+		<ul>
+			<li>BP-BGT Worldmap: Fixed a major bug with crash-to-desktops moving from the area South of Beregost to High Hedge brought about by incorrect exit names</li>
+			<li>BP-BGT Worldmap: Fixed problems with all areas becoming visible even when inappropriate</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Players can now only have a maximum of one dream per rest</li>
+			<li>Modified the starting Candlekeep script (AR0015.BCS) slightly to make the welcome text appear after, instead of before, the gaining of -1 experience points</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('1.02'); return false;">Version 1.02 (10 Nov 06)</a></h6>
+		<div id="1.02" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>Added compatibility support for BG1 Unfinished Business should a BGT-WeiDU version be available</li>
+			<li>Added compatibility support for BG2 Fixpack</li>
+			<li>Moved area installation just before script installation to prevent typo warnings using BiggDU v196</li>
+			<li>The ITM files of weapons that shatter are now dynamically patched rather than replaced by new copies</li>
+			<li>Translations of Compatibility.htm are no longer updated nor supported, as it was immensely difficult to maintain</li>
+			<li>Updated installer to BiggDU v196</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Adjusted thieving skill points of joinable NPCs to match Baldur's Gate II progression</li>
+			<li>Cleric-Ranger multi-class, Monk class, and Sorceror classes now begin with correct gold</li>
+			<li>Corrected bad string references in the soundsets of Jahiera and Minsc</li>
+			<li>Corrected bad string references that would occur if the player rested in the exterior of Candlekeep</li>
+			<li>Fixed a bug where a cat or dust mephit familiar would be imported infinite times into Shadows of Amn</li>
+			<li>Fixed a bug where Alvanhendar's and Nalin's stores are the same but one is affiliated with the Temple of Helm while the other is affiliated with the Temple of Yondalla</li>
+			<li>Fixed a bug where completing Baldur's Gate and Tales of the Sword Coast would result in problems with Cernd's quest in Shadows of Amn</li>
+			<li>Fixed a bug where killing Aec'Letec would not result in the gaining of experience and the completion of the quest if one of the cultists transformed into Aec'Letec</li>
+			<li>Fixed a bug where multiple NPCs in Beregost were named Lahl</li>
+			<li>Fixed a bug where Plate Mail +3: The Practical Defense could stack with other magical items giving AC bonus</li>
+			<li>Fixed a bug where two Helms of Balduran and two Protectors of the Second +2 could be found in Irenicus' dungeon</li>
+			<li>Fixed a number of typos generating minor bugs</li>
+			<li>Fixed an exploit where items could be imported into Shadows of Amn by having the lawful neutral familiar Ferret pickpocket the protagonist</li>
+			<li>Hostile NPCs no longer follow the player between areas during the Candlekeep tutorial (AR0015, AR6502, AR6503, AR6505, AR6506, AR6507, AR6516, AR6518, AR6543)</li>
+			<li>The wizard level 2 spell Detect Evil now has correct level in the description</li>
+		</ul>
+		<p>Compatibility bug fixes</p>
+		<ul>
+			<li>BP-BGT Worldmap: Fixed major bugs with crash-to-desktops moving from certain areas to Ulcaster Ruins brought about by incorrect exit names</li>
+			<li>BP-BGT Worldmap: Implemented Worldmap link update dated 16 October 2006</li>
+			<li>BP-BGT Worldmap: Moved location of Ulgoth's Beard from the island west of Baldur's Gate (660,220) to north of River Chionthar as described in-game at (1375,240)</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('1.01'); return false;">Version 1.01 (2 Jul 06)</a></h6>
+		<div id="1.01" class="vlisthide">
+		<p>New features</p>
+		<ul>
+			<li>Added Italian translation</li>
+			<li>Added Korean translation</li>
+		</ul>
+		<p>Installation changes</p>
+		<ul>
+			<li>Added support for Worldmap v6</li>
+			<li>Added version number in component name to assist troubleshooting</li>
+			<li>Changed file check for Tortured Souls due to installation errors occurring if Tortured Souls is uninstalled on an install</li>
+			<li>Corrected non-text-wrapped lines in the French Post-installation notes</li>
+			<li>Corrected some compatibility issues with GUI Switcher v2.0</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Corrected Alora's proficiencies</li>
+			<li>Corrected proficiency setting on Two-Handed Sword +3: Harbinger</li>
+			<li>Corrected the duel with the Gnoll in the Cloudpeak Mountains just east of the Gnoll Stronghold</li>
+			<li>Fixed a bug in the German version where German-specific files would not be installed</li>
+			<li>Fixed a bug in the German version where readers, tutors, and watchers produced had empty sound set files</li>
+			<li>Fixed a bug in the Polish version where DOS prompts contained incorrect characters</li>
+			<li>Fixed a bug in the Russian version where the first two paragraphs of the Chapter One/Prologue text screen were missing</li>
+			<li>Fixed a bug where an Iron Throne guard could be bribed even though the party had insufficient funds</li>
+			<li>Fixed a bug where Ajantis originally starts with a bastard sword but had closest proficiency in long swords</li>
+			<li>Fixed a bug where Duke Eltan could give the quest to investigate the Iron Throne again if the player decides to not work for him anymore</li>
+			<li>Fixed a bug where Dynaheir level 2 still had the old ‘missile proficiency' set</li>
+			<li>Fixed a bug where Hulrik would still mention trouble in the Nashkel mines even after they have been cleared by the player</li>
+			<li>Fixed a bug where Ingot would still mention Dynaheir as a prisoner even if Dynaheir has already been rescued</li>
+			<li>Fixed a bug where Jaheira would not receive the Harper's Call innate ability if she is imported into Shadows of Amn</li>
+			<li>Fixed a bug where music in Nashkel was not imported correctly</li>
+			<li>Fixed a bug where occasionally the stairs to Duke Eltan's quarters would not re-activate</li>
+			<li>Fixed a bug where one sirine in the shipwreck area was neutral</li>
+			<li>Fixed a bug where randomly spawned flesh golems were not immune to backstab</li>
+			<li>Fixed a bug where randomly spawned skeletons did not have the correct immunities</li>
+			<li>Fixed a bug where Safana would lose Charm Animal when leveling up</li>
+			<li>Fixed a bug where Silke would attack enemy creatures of the player, which could affect Garrick's quest</li>
+			<li>Fixed a bug where Silver Dagger and Sword of Balduran were unsellable</li>
+			<li>Fixed a bug where some zombies had skeleton damage and dying sounds</li>
+			<li>Fixed a bug where the Helm of Balduran would not be imported correctly</li>
+			<li>Fixed a bug where two copies of the Halruua skyship components could appear</li>
+			<li>Fixed a bug where Winski Perorate had the incorrect Ring of Wizardry</li>
+			<li>Fixed a bug where Xzar level 1 had three memorisable level 1 spells instead of two</li>
+			<li>Fixed a bug where Yago would say the incorrect lines when he is supposed to beg for mercy</li>
+			<li>Fixed a bug with the Fenten ankheg shell exploit fix</li>
+			<li>Fixed a bug with some incorrect sounds for Jaheira and Minsc</li>
+			<li>Fixed a dialogue inconsistency issue with Thalantyr</li>
+			<li>Fixed a major bug where the death of Edwin in Baldur's Gate and Tales of the Sword Coast would break the Shadow Thieves quests in Shadows of Amn</li>
+			<li>Fixed a major bug where the death of Sarevok broke the game because triggers were not triggered</li>
+			<li>Fixed a major bug where the transition to Irenicus' dungeon would lockup in the cutscene if Jaheira is alive and in the party but Khalid is dead</li>
+			<li>Fixed an inconsistency issue with the search region of Wyrm's Crossing, where some versions of Baldur's Gate and Tales of the Sword Coast had a fixed search region file in the override directory</li>
+			<li>Fixed major bugs with missing CRE files</li>
+		</ul>
+		<p>Compatibility bug fixes</p>
+		<ul>
+			<li>Dark Side of the Sword Coast/Northern Tales of the Sword Coast/Secret of Bonehill: fixed critical bugs involving crash-to-desktops during area loading due to missing creature files</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>No movie is played after clicking on the Shadows of Amn button in the main menu</li>
+			<li>Officer Vai now checks for any remaining bandit scalps on the party before leaving</li>
+			<li>Removed Entangle from Viconia level 1</li>
+			<li>Removed Remove Fear from Jaheira</li>
+			<li>Semaj no longer casts his spells at the party before Sarevok has spoken</li>
+			<li>Tazok will attack the party only after Sarevok has spoken</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('1.00'); return false;">Version 1.00 (16 Mar 06)</a></h6>
+		<div id="1.00" class="vlisthide">
+		<p>New features</p>
+		<ul>
+			<li>Added French translation</li>
+			<li>Added Polish translation</li>
+			<li>Added Russian translation</li>
+		</ul>
+		<p>Installation changes</p>
+		<ul>
+			<li>Added post-installation notes</li>
+			<li>BGMain.exe is now dynamically patched</li>
+			<li>Corrected sound mis-patching of StrRef #11618</li>
+			<li>Incorporated the pre-setup installation into the core installation</li>
+			<li>Installation will only compress its own files from the override</li>
+			<li>Moved the fix ‘Coran notifies the player to take the Wyvern Head to the Temple of La thander in Beregost' to the BGT Tweak pack</li>
+			<li>Overhauled the method in which journal entries were being installed, thus massively simplifying the translation process</li>
+			<li>Removed a script block that should be part of the ‘Angelo notices Shar-teel component' of the BGT Tweak pack</li>
+			<li>Revised map notes</li>
+			<li>Updated compatibility with Never Ending Journey: Continuous and Custom Imoen Kit component</li>
+			<li>Updated compatibility with Never Ending Journey: Priest of Sylvanus (Druid) Kit and Improved Character Jaheira component</li>
+			<li>Updated compatibility with Never Ending Journey: Boo - Minsc‘s Familiar component</li>
+			<li>Updated developer's documentation to v1.0</li>
+			<li>Updated GUI Switcher to v2.0 (now includes SONGLIST.2DA switching support that installs with the GUI)</li>
+			<li>Updated to WeiDU (BiggDU) v190</li>
+		</ul>
+		<p>Compatibility bug fixes</p>
+		<ul>
+			<li>Never Ending Journey Part 2: Fixed a bug where the Baldur's Gate and Tales of the Sword Coast version of Jaheira would appear at the Harper's hold in Athkatla if she was dropped during Baldur's Gate and Tales of the Sword Coast</li>
+			<li>Never Ending Journey Part 2: Fixed a bug where Xan would start the incorrect dialogue upon his rescue from Mulahey</li>
+			<li>The Darkest Day-WeiDU: Fixed a bug where Harpers would appear and attack Xzar during Baldur's Gate and Tales of the Sword Coast</li>
+			<li>The Darkest Day-WeiDU: Fixed a bug where Kagain and Yeslick would immediately attack each other during Baldur's Gate and Tales of the Sword Coast if they happen to both be in the party together</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Cleared death variables that could interfere with Shadows of Amn and/or Throne of Bhaal</li>
+			<li>Corrected a few inconsistent travel times in the world map</li>
+			<li>Corrected a situation where returning Prism's emeralds to Oublek gave an incorrect amount of experience, removed only one of the two emeralds, and did not create or erase journal entries</li>
+			<li>Corrected a trap incorrectly set as an info trigger (ARD011.ARE)</li>
+			<li>Corrected checks for when the player actually learns that Rieltar is at Candlekeep</li>
+			<li>Corrected identified item description for Joseph's Greenstone Ring</li>
+			<li>Corrected song references for one of the levels in the Blade and Stars inn (AR7207.ARE)</li>
+			<li>Corrected initial HPs for a number of classes</li>
+			<li>Corrected string references with ‘Oberan' to ‘Oberon'</li>
+			<li>Corrected the THAC0 of Jaheira when she is picked up as a level 1 Fighter/Druid</li>
+			<li>Corrected Alvanhendar's store name to ‘Temple of Yondalla'</li>
+			<li>Daese's wolfwere is now correctly named ‘Wolfwere', not ‘Werewolf'</li>
+			<li>‘Delorna's Statue' is now correctly named ‘Ithmeera's Statue'</li>
+			<li>Drizzt's items are no longer placed in Irenicus' dungeon upon importation, otherwise a duplicate copy will appear when the player encounters Drizzt in Shadows of Amn</li>
+			<li>Fixed a badly placed spawn point on the werewolf island (ARW000.ARE)</li>
+			<li>Fixed a bug where a Flaming Fist Enforcer at the Duchal Palace occasionally may ask the player twice about possessing an invitation</li>
+			<li>Fixed a bug where a journal entry would reference Ramazith even when the player has not met him while speaking to Abela and/or Ragefast</li>
+			<li>Fixed a bug where a shattered shield counted as an off-hand weapon, thereby giving dual-wielding penalties</li>
+			<li>Fixed a bug where Baresh's would shapeshift to a Loup Garou with Sea Charts</li>
+			<li>Fixed a bug where casting Stone to Flesh on a petrified joinable NPC then talking to them would result in inappropriate dialogue</li>
+			<li>Fixed a bug where dialogue errors would occur when asking familiars for advice during Baldur's Gate and Tales of the Sword Coast</li>
+			<li>Fixed a bug where Dynaheir at level 1 had four memorisable first level spells instead of two</li>
+			<li>Fixed a bug where Edwin had Tiax's biography</li>
+			<li>Fixed a bug where Elkart could mention the ransom before Eldoth has rescued Skie</li>
+			<li>Fixed a bug where familiars would not get imported into Shadows of Amn</li>
+			<li>Fixed a bug where Iron Throne guards in the Iron Throne building would cause Iron Throne merchants and ambassadors, such as Emissary Tar and Nortuary, to go hostile</li>
+			<li>Fixed a bug where Footy would also become hostile if Bassilus attacks the player</li>
+			<li>Fixed a bug where Footy would still tell the player he is watching Bassilus even when he has been killed</li>
+			<li>Fixed a bug where Jaheira as a Fighter (5)/Druid (6) had the priest-only spells Chant, Sanctuary, and Spiritual Hammer, and did not have Detect Evil</li>
+			<li>Fixed a bug where Jalantha Mistmyr would continue to ask about the Book of Wisdom even though she has already received it</li>
+			<li>Fixed a bug where journal entries for ‘An ankheg fortune.' would, on an occasion, not be properly removed</li>
+			<li>Fixed a bug where Kagain would continuously pester the party with joining dialogue if the Kagain caravan quest timer were to run out and he was not in the party</li>
+			<li>Fixed a bug where Karoug would not initiate dialogue with the player</li>
+			<li>Fixed a bug where lycanthropy would only be cured if Mendas is killed inside his own house but not anywhere else</li>
+			<li>Fixed a bug where manually starting dialogue with Dynaheir would cause her (and Minsc if present) to leave the party</li>
+			<li>Fixed a bug where many characters and creatures in the Iron Throne building, when the player first investigates the Iron Throne, could still be there when the player returns to Baldur's Gate to investigate the Iron Throne for the second time</li>
+			<li>Fixed a bug where Melicamp would retain the chicken soundest even after he has been transformed</li>
+			<li>Fixed a bug where Minsc would not retain Boo if he is imported into Shadows of Amn from Baldur's Gate and Tales of the Sword Coast</li>
+			<li>Fixed a bug where Nadine could give the reward for finding Euric multiple times</li>
+			<li>Fixed a bug where Phoenix Guards would not show their proper behaviour when they die</li>
+			<li>Fixed a bug where reading all the books in Durlag's Tower would result in an odd text being displayed</li>
+			<li>Fixed a bug where some Merchant League Guards would have an old woman's greeting</li>
+			<li>Fixed a bug where spawned bandits could turn Brun, Gerde, Jebadoh, Sonner, and Telmen, hostile</li>
+			<li>Fixed a bug where Sunin possesses the incorrect Ring of Wizardry</li>
+			<li>Fixed a bug where telling Oublek that you are Greywolf would create an incorrect journal entry</li>
+			<li>Fixed a bug where the areas north of the Friendly Arm Inn could not be visited until the Bandit Camp was infiltrated</li>
+			<li>Fixed a bug where the Dukes in the Duchal Palace attack the nobles and Flaming Fist Enforcers when the player has no invitations to show</li>
+			<li>Fixed a bug where the king in the chess game wielded an incorrect Two-Handed Sword +3</li>
+			<li>Fixed a bug where the kobold's autograph and the Geas Removal Scroll could be stackable</li>
+			<li>Fixed a bug where the player could go and meet Duke Eltan before Scar leads the party to him</li>
+			<li>Fixed a bug where the relevant dialogue is not available for Brielbara's quest if the player spoke to Yago before accepting that quest</li>
+			<li>Fixed a bug where the Sirine Queen would have male casting sounds</li>
+			<li>Fixed a bug where three instances of Oopah could be created simultaneously if Gazib is spoken to in quick succession</li>
+			<li>Fixed a bug where Tranzig would have nothing further to say if the player was able to finish dialogue with him without resulting in hostility</li>
+			<li>Fixed a bug where Tremain's quest would not properly terminate if the player rejected it</li>
+			<li>Fixed a bug where Tersus would give the party six leather armors regardless of how many live characters are in the party</li>
+			<li>Fixed a bug where Vai's Flaming Fist officers would not necessarily leave when Vai leaves</li>
+			<li>Fixed a bug where Viconia had parts of her Shadows of Amn sound set in her Baldur's Gate and Tales of the Sword Coast sound set</li>
+			<li>Fixed a bug where Viconia would attempt to continue attacking her Flaming Fist stalker even when he is dead, resulting in stuttering</li>
+			<li>Fixed a bug where Volo did not give any rumour about the Cloakwood mines</li>
+			<li>Fixed a bug with Aldeth Sashenstar summoning the Flaming Fist</li>
+			<li>Fixed a bug with Coran's leaving party dialogue</li>
+			<li>Fixed a bug with infinite looping of Denkod spawning and disappearing after Sarevok's death</li>
+			<li>Fixed a bug with misleading journal entry title ‘Find Petrine's cat.'</li>
+			<li>Fixed a bug with Minsc's leaving party dialogue affecting Dynaheir's join party dialogue</li>
+			<li>Fixed a bug with non-humanoids triggering guards</li>
+			<li>Fixed a bug with the Eagle Bow having a description and abilities lacking the +2 damage bonus</li>
+			<li>Fixed a bug with the Long Bow of Marksmanship having a description and abilities lacking the +2 damage bonus, and corrected proficiency to longbow</li>
+			<li>Fixed a continuing bug with Fenten's ankheg shell exploit</li>
+			<li>Fixed a few journal entry problems with the quest involving Dynaheir, Edwin, and Minsc</li>
+			<li>Fixed a fire animation problem in an Ulgoth's Beard residence (ARU002.ARE references to FLML.BAM)</li>
+			<li>Fixed a major bug where Davaeorn did not have the Key to River Plug</li>
+			<li>Fixed a major bug where dopplegangers at Sarevok's coronation would try to leave the area but disappear, breaking the game</li>
+			<li>Fixed a major bug where no items would be imported from Baldur's Gate and Tales of the Sword Coast to Shadows of Amn</li>
+			<li>Fixed a major bug where resting for the first time in a Throne of Bhaal game would result in the player seeing all the Baldur's Gate and Tales of the Sword Coast dreams and receiving all the associated Bhaal powers</li>
+			<li>Fixed a major bug with containers triggering guards even though they are apparently closed and the player is distant from the container</li>
+			<li>Fixed an error with Kivan's dialogue (KIVAN.DLG)</li>
+			<li>Fixed an incorrect creature in spawn data</li>
+			<li>Fixed an undetectable trap in Durlag's Tower</li>
+			<li>Fixed ongoing problems with Melicamp and Thalantyr's dialogues</li>
+			<li>Fixed the typo ‘Athlakta' in much of the transition Belt's dialogue</li>
+			<li>Further corrected the known spells of joinable NPC clerics and druids</li>
+			<li>Improved stability of transition joinable NPCs to Shadows of Amn</li>
+			<li>Removed stray AREA_* string references from Eldoth, Garrick, and Shar-teel to prevent them saying awkward things</li>
+			<li>Removed Outdoor, Day/Night, and Weather flags from games tents in Baldur's Gate (AR7724.ARE, AR7725.ARE)</li>
+			<li>Removed white lines at the bottom of AR7200N.MOS and AR8000N.MOS</li>
+			<li>Sarevok can no longer be killed in the coronation</li>
+			<li>Sarevok's diary is now a book rather than a scroll when it is picked up by the cursor</li>
+			<li>The party will no longer take such a large reputation decrease if they kill Charleston Nib as part of Gallor's quest</li>
+			<li>Travelling east of Nashkel proper will not give access to Nashkel mines</li>
+			<li>Volo now correctly gives the rumour regarding Sarevok's death</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Added journal entries for Shandalar's quest</li>
+			<li>Alora will no longer transition with the player to Shadows of Amn</li>
+			<li>Any Onyx Ring and any Bloodstone Amulet will no longer satisfy Nemphre's and Ordulinian's quests</li>
+			<li>Any Rogue Stone will no longer satisfy Narlen's quest to steal from Gantolandan</li>
+			<li>Areas from Baldur's Gate and Tales of the Sword Coast will no longer be removed from the world map upon transition to Shadows of Amn</li>
+			<li>Areas north of the Friendly Arm Inn are now accessible at the very beginning of the game</li>
+			<li>Attribute updates now apply correctly for Edwin and Jaheira upon importation into Shadows of Amn</li>
+			<li>Bandits with Raiken and Teven now begin as neutral allegiance</li>
+			<li>Coran's Arrows +1, Faldorn's Bullets +1, and Tiax's Bullets +1 now begin identified</li>
+			<li>Drasus, Genthore, Kysus, and Rezdan now begin as neutral allegiance before attacking the player</li>
+			<li>Droth now begins as neutral allegiance before attacking the player</li>
+			<li>Gorion's death cutscene is now more realistic</li>
+			<li>Items can now be solved at the Jovial Juggler</li>
+			<li>Journal entries for ‘Endgame.', ‘Price on my head.', ‘Scar's assassination.', ‘The impending war.', ‘The iron shortage.', and ‘The new Duke.' no longer appear in the quest section</li>
+			<li>Lamalha and her goons now only appear after Mulahey is killed, since she talks of the player interfering with the Iron Throne></li>
+			<li>Laryssa now reacts appropriately to Brage's fate</li>
+			<li>New characters now start with 0 XP</li>
+			<li>Nobles no longer give journal entries about the crisis in Baldur's Gate when Sarevok is killed</li>
+			<li>Quayle's flail/morning star proficiency and related items changed to quarterstaff since his strength does not allow him to use the former</li>
+			<li>Petrine's quest now correctly concludes, while any Angel Skin Ring will no longer satisfy Petrine's quest</li>
+			<li>Poison no longer causes armor and shields to shatter</li>
+			<li>Raiken and Teven's bandits now disappear after the player joins the bandits</li>
+			<li>Removed ‘Evil deeds go punished.' journal entries from the quest journal sections</li>
+			<li>Removed experience checks for Imoen, Jaheira, and Minsc at the start of Shadows of Amn</li>
+			<li>Removed experience gain for Edwin and Viconia if they are imported into Shadows of Amn from Baldur's Gate and Tales of the Sword Coast</li>
+			<li>Removed Garrick's portraits from Forthe</li>
+			<li>Restored direct world map links between Nashkel proper (AR3700) and Nashkel mines (AR4400)</li>
+			<li>Shandalar's daughters will now only appear when Alatos' quest is accepted to prevent inconsistency issues with the quest</li>
+			<li>Sil's sirines now begin with neutral allegiance</li>
+			<li>Talking to Scar again after accepting the sewers quest will no longer force the player to drop the quest when it is not completed yet</li>
+			<li>The Bone Wardstone is now removed from the player's inventory after insertion into the machine</li>
+			<li>The cultist that steals Hurgan's dagger now beings as neutral allegiance before teleporting away</li>
+			<li>The ghostly knights in Firewine Ruins will now always give the player the quest when first spoken to, then will check for the quest item every subsequent time spoken to</li>
+			<li>The Ogre Mage and the Undead Knight in the Firewine Ruins now begin as neutral allegiance before attacking the player</li>
+			<li>The Sirine Queen now gives Evan's Body to the last PC that talked to her, not Player1</li>
+			<li>Tiax's flail/morning star proficiency changed to club since his strength does not allow him to use the former</li>
+			<li>Various other journal entry changes not already listed</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('0.99ZETAUpdated'); return false;">Version 0.99 ZETA Updated (27 Dec 05)</a></h6>
+		<div id="0.99ZETAUpdated" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>Modified description under the originally 'Shadows of Amn' button</li>
+			<li>Updated compatibility with Never Ending Journey: Continuous and Custom Imoen Kit component</li>
+			<li>Very small English readme update</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Accounted for further instances in the Imoen death variable</li>
+			<li>Corrected overlooked dialogue structures of a number of joinable NPC J files</li>
+			<li>Removed duplicate dialogues that should be in the compatibility section</li>
+			<li>Fixed a bug where Algernon's cloak had no effect</li>
+			<li>Fixed a bug where the death of Tranzig may not result in the revealing of the Bandit's Camp area</li>
+			<li>Fixed a bug where the journal entry relating to wolf pelts would be produced every time the appropriate shopkeeper is spoken to (SHOPKN.DLG)</li>
+			<li>Fixed a bug where tutorial kobolds would give experience</li>
+			<li>Fixed a bug where tutorial skeletons would drop shields that could be collected</li>
+			<li>Fixed a bug with Semaj's script</li>
+			<li>Fixed again a bug where the map note for the Nashkel windmill contained either no or an incorrect string reference</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>All Baldur's Gate and Tales of the Sword Coast bears now always become hostile as was the case in the original</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('0.99ZETA'); return false;">Version 0.99 ZETA (13 Dec 05)</a></h6>
+		<div id="0.99ZETA" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>A number of code optimisations</li>
+			<li>Added importation of pre-made characters from Baldur's Gate and Tales of the Sword Coast</li>
+			<li>Complete overhaul of the dialogue installation system; now only text is imported from Baldur's Gate and Tales of the Sword Coast</li>
+			<li>Corrected some errors in and updated readme</li>
+			<li>Dynamic menu screen system incorporated</li>
+			<li>For English language only, Baldurdash Game Text Update 1.1 is used to provide dialogue text</li>
+			<li>Implemented compatibility for TDD-WeiDU version 1.04 and above (note: earlier versions of TDD-WeiDU are rendered incompatible with this update)</li>
+			<li>Modified patching of random treasure tables to detect existing patching of RNDTREAS.2DA (currently no compatibility for RNDMAGIC.2DA and RNDSCRL.2DA)</li>
+			<li>Renamed the Letter to Mirianne (SCRL3I becomes BGSCRL3I) and the Key to River Plug (MISC83 becomes BGMISC83) to allow compatibility with BG2 Baldurdash</li>
+			<li>Sub-areas are no longer designated as master areas</li>
+			<li>Updated compatibility with Check the Bodies 1.6 and above (note: earlier versions of CtB are rendered incompatible with this update)</li>
+			<li>Updated compatibility with Never Ending Journey Part 1 v2.1 and above</li>
+			<li>Updated compatibility with Tortured Souls v6.0 and above</li>
+			<li>World map size has been reduced and no longer caters for The Darkest Day and Shadows Over Soubar because of redundancy (Revised BP-BGT Worldmap therefore must be used)</li>
+			<li>XP reduction removed from tweaks (use Ding0 Experience Fixer)</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Accounted for all remaining stray journal entries</li>
+			<li>Corrected all area links</li>
+			<li>Fixed a bug where Arkanis and Deder could follow the party into the cave leading to the Candlekeep exterior, then become hostile when Prat's group begins attacking</li>
+			<li>Fixed a bug where Denkod of the Thieves' Guild did not disappear after killing Sarevok</li>
+			<li>Fixed a bug where Dynaheir would say some strange things when commenting on the forest, dungeon, or the evening due to badly assigned soundset strings</li>
+			<li>Fixed a bug where Edwin and Minsc would still give the player the quest to rescue Dynaheir even when she has already been rescued</li>
+			<li>Fixed a bug where Edwin, Imoen, Jaheira, and Minsc's soundsets sometimes would not be updated upon importation into Shadows of Amn</li>
+			<li>Fixed a bug where Emissary Tar would be named ‘Body of Emissary Tar'</li>
+			<li>Fixed a bug where entering the Nashkel Carnival before visiting Nashkel could lead to the wrong chapter textscreen</li>
+			<li>Fixed a bug where finding the cloak for Delainy would not remove the related journal entries</li>
+			<li>Fixed a bug where Gorf the ogre started hostile</li>
+			<li>Fixed a bug where Gorpel Hind's enemies, Gretek and party, would cause the bartender and commoners to go hostile</li>
+			<li>Fixed a bug where having a familiar in the Candlekeep Tutorial could allow the player to kill Erik and Jondalar, and could cause errors with the Gorion's death cutscene</li>
+			<li>Fixed a bug where Ike and the tourists would not appear in Durlag's tower and thus break the quest unless the player has the correct wardstone or ‘finishes' Tales of the Sword Coast by talking to the Messenger of Ulgoth's Beard before entering the tower</li>
+			<li>Fixed a bug where journal entries for Areana's quest would not be removed if it eventuates to fighting Tor Lobo</li>
+			<li>Fixed a bug where journal entries for Landrin's quest would not be removed</li>
+			<li>Fixed a bug where Kissiq would still be there to talk about Melicamp even after Thalantyr had attempted to transform him back into a humanoid</li>
+			<li>Fixed a bug where leaving combat training with hostiles present will cause them to follow you outside</li>
+			<li>Fixed a bug where Marek would give an incorrect journal entry</li>
+			<li>Fixed a bug where Melicamp would have incorrect dialogue if the player spoke to him directly after Thalantyr transformed him back into a humanoid</li>
+			<li>Fixed a bug where Minsc's banter dialogue had incorrect sounds assigned to them</li>
+			<li>Fixed a bug where Minsc does not have two stars in two weapon fighting proficiency although he is of ranger class</li>
+			<li>Fixed a bug where Nadine would not give a PC of reaction greater than NEUTRAL_UPPER for finding runaway Euric</li>
+			<li>Fixed a bug where NPCs encountered during Shandalar's quest started with an ENEMY allegiance</li>
+			<li>Fixed a bug where Officer Vai's enforcers would remain when she left the Jovial Juggler</li>
+			<li>Fixed a bug where Officer Vai would buy other miscellaneous items that are not bandit scalps</li>
+			<li>Fixed a bug where Ramazith would tell Abela the Nymph to stand in the corner and then no dialogue would follow, breaking the quest</li>
+			<li>Fixed a bug where Silence's guard would not correctly spawn when the player refuses to pay her</li>
+			<li>Fixed a bug where Tenya would mention a Child's body even when the player had not discovered Varci and Tremain Belde'ar's quest yet</li>
+			<li>Fixed a bug where the Flaming Fist Enforcers in the Duchal Palace did not check for invitations, each of them would check, and can still go hostile after invitations are shown</li>
+			<li>Fixed a bug where the player could get a journal entry to clear out Firewine Ruins before Gandolar Luckyfoot even asks for it to be cleared</li>
+			<li>Fixed a bug where the thieves from the Thieves' Guild that ask the party for the password follow the party around after the correct password is given</li>
+			<li>Fixed a bug where Torlo's house in AR3100 is said to be abandoned</li>
+			<li>Fixed a bug where two Child's bodies could be obtained from the Temple of Umberlee</li>
+			<li>Fixed a bug where Xan could have incorrect spell memorisation slots for level 1 spells</li>
+			<li>Fixed a bug with the quest to retrieve the Tome of Understanding for Jalantha Mistmyr</li>
+			<li>Fixed an occassional bug where AR4300 and AR4600 would show corrupted container polygons</li>
+			<li>Fixed a dialogue error with Xan</li>
+			<li>Fixed a dialogue error with Jaheira and Khalid that allowed the same dialogue chain to repeat itself</li>
+			<li>Fixed a dialogue loop bug with Gandolar Luckyfoot</li>
+			<li>Fixed a major bug where ‘rich' creatures would not correctly drop random treasure</li>
+			<li>Fixed a major bug where the animation STATIC_PEASANT_WOMAN_MATTE had a corrupted palette</li>
+			<li>Fixed a typo in the popup message when the player wants to start from Shadows of Amn</li>
+			<li>Fixed an incorrect gender assignment to Vay-ya</li>
+			<li>Fixed major issues with the fight between Dynaheir, Edwin, and Minsc</li>
+			<li>May have fixed a bug where Garrick and Imoen did not appear in their respective areas</li>
+			<li>Reduced the frequency, if not removed totally, a bug with crash-to-desktops in Beregost</li>
+			<li>Various other bugfixes</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Branwen, Eldoth, Skie, and Xan, will now disappear upon the transition to Shadows of Amn</li>
+			<li>Joinable NPCs no longer make excuses and leave the party just before the transition to Shadows of Amn begins; rather, they just ‘disappear' during the cutscene</li>
+			<li>The player can now access Ulgoth's Beard and related areas without having to defeat Sarevok; transition modified for consistency</li>
+			<li>World map geography altered to more closely reflect the Sword Coast depicted in Baldur's Gate and Tales of the Sword Coast</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('0.99BETA4'); return false;">Version 0.99 BETA 4 (14 Sep 05)</a></h6>
+		<div id="0.99BETA4" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>Check for GTIMES.IDS patching added</li>
+			<li>German translation added (courtesy of weigo)</li>
+			<li>Major code optimisations</li>
+			<li>Updated FAQ section of readme and developer's documentation</li>
+			<li>WeiDU version 185</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Fixed a bug where Amnish guards would attack the party in Nashkel if they saw a familiar</li>
+			<li>Fixed a bug where a number of area links caused the party to enter from the north no matter what direction they came from the previous area</li>
+			<li>Fixed a bug where choosing to kill Alora will result in her calling Flaming Fist Enforcers of neutral disposition who do not do anything</li>
+			<li>Fixed a bug where Coran would continuously pester the party if the player had a wyvern head but had not met Coran yet</li>
+			<li>Fixed a bug where Durlag's Goblet was incorrectly named Blood of Quallo</li>
+			<li>Fixed a bug where Imoen would not comment on certain things in Irenicus' dungeon</li>
+			<li>Fixed a bug where incorrect messages could appear in the status box when the party is awakened from rest in some areas</li>
+			<li>Fixed a bug where some of Mazzy's dialogue would be overwritten by NPC sounds</li>
+			<li>Fixed a bug where Taerom Thunderhammer's ankheg armour smithing dialogue was broken - removed ankheg shell rotting component</li>
+			<li>Fixed a bug where the player was required to accept Ike's quest before being able to transition to Shadows of Amn via the Messenger of Ulgoth's Beard</li>
+			<li>Fixed a bug where the Tome of Leadership and Influence (BOOK07.ITM) and the Tome of Understanding (BOOK08.ITM) would not be placable in the quick item slot to be used</li>
+			<li>Fixed a critical bug where Shadow Thieves in Amn could all begin hostile if the player caused the Baldur's Gate Thieves Guild to become hostile</li>
+			<li>Fixed a critical bug where a crash-to-desktop would occur when moving from North-West Cloakwood (AR8500) to West Cloakwood (AR8400)</li>
+			<li>Fixed an exploit where tutorial combat items could be taken out of training by exporting the protagonist and re-importing him/her into a new game</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Many NPCs that attack the player after dialogue now begin as neutral allegiance</li>
+			<li>Iron shortage shattering chance reduced to 0.5% as experimentally determined from Baldur's Gate: Tales of the Sword Coast (armour and shields still shatter)</li>
+		</ul>
+		<p>Miscellaneous changes</p>
+		<ul>
+			<li>Added area script reference in AR3499 to simplify Dark Side of the Sword Coast installation compatibility</li>
+			<li>Added transition to Shadows of Amn support for Northern Side of the Sword Coast joinable NPC Will</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('0.99BETA2'); return false;">Version 0.99 BETA 2 (1 Jul 05) and BETA 3 (17 Jul 05)</a></h6>
+		<div id="0.99BETA2" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>Corrected the patch of ELDOTH.BCS that was previously not working for some weird reason</li>
+			<li>Corrected link to readme file at the end of the WeiDU installation</li>
+			<li>Fixed a critical bug that prevented installation on Windows 9x, ME, and NT systems</li>
+			<li>Fixed a critical bug that prevented proper removal of temporary files on Windows 9x, ME, and NT systems</li>
+			<li>Fixed a critical bug that prevented WeiDU installation because the extraction program did not create an empty Backup folder</li>
+			<li>Removed the requirement of adding 'Force Dialog Pause=1' to baldur.ini</li>
+			<li>Several code optimisations</li>
+			<li>Updated developer's documentation</li>
+			<li>Updated Installation and FAQ section of readme</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Added missing Dungeon movie</li>
+			<li>Fixed a bug that broke the quest in which the party is hired by Garrick to help Silke</li>
+			<li>Fixed a bug where the general store in Baldur's Gate South-East (AR8202.ARE) would not spawn a shopkeeper</li>
+			<li>Fixed a bug where a chest in a Cloakwood Mines area shack would spawn Flaming Fist Enforcers when opened</li>
+			<li>Fixed a bug where a journal entry would not be correctly removed upon transition to Shadows of Amn</li>
+			<li>Fixed a bug where Bentha and Zordral would not spawn correctly in one of the carnival tents</li>
+			<li>Fixed a bug where Drizzt could kill all the gnolls even when the player has not met him yet</li>
+			<li>Fixed a bug where gibberlings would not spawn in the tutorial combat training</li>
+			<li>Fixed a bug where Imoen could appear twice in Spellhold</li>
+			<li>Fixed a bug where Kivan may join the party and start his bandits quest even when the player refuses</li>
+			<li>Fixed a bug where Nimbul could appear in a random encounter area</li>
+			<li>Fixed a bug where talking to Minsc with a high reaction would result in an UNKNOWN STRINGS WANTED text</li>
+			<li>Fixed a bug where talking to Brandilar could give incorrect journal entries</li>
+			<li>Fixed a bug where Tamah could mysteriously become hostile when petrified</li>
+			<li>Fixed a bug where the Ring of Wizardry did not appear in the secret rock in the Friendly Arm Inn (AR6800.ARE)</li>
+			<li>Fixed a bug with Delthyr's dialogue</li>
+			<li>Fixed a critical bug where travelling back to Candlekeep after receiving the quest from Duke Eltan would not result in the incrementation of chapters</li>
+			<li>Fixed an exploit with selling ankheg shells</li>
+			<li>Some minor bug fixes</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Altered credits</li>
+			<li>Corrected a number of world map icon descriptions</li>
+			<li>Imoen now is transferred to Spellhold if she was in the party during the transition from Baldur's Gate to Shadows of Amn</li>
+			<li>Iron shortage shattering chance increased to 5% and uses a local variable based system</li>
+			<li>Kivan now stays in the party up to thirty days if the player has not found Tazok's letters</li>
+			<li>Thieves from the Thieves' Guild will now only ask the player once for the password and will remember if the password was correct</li>
+			<li>Shields now shatter when a player is hit</li>
+			<li>Weapons now have a chance to shatter only when the player hits something</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('0.99BETA'); return false;">Version 0.99 BETA (28 Jun 05)</a></h6>
+		<div id="0.99BETA" class="vlisthide">
+		<p>New installation features</p>
+		<ul>
+			<li>Full compatibility with BP-BGT-WeiDU modifications and Check the Bodies</li>
+			<li>More informative readme file</li>
+			<li>OPTIONAL: new menu screens</li>
+			<li>OPTIONAL: experience gain reduction for picking locks, disarming traps, and learning spells</li>
+			<li>OPTIONAL: a more ‘intelligent' EscapeArea() where NPCs will walk always off the screen instead of disappearing upon collision</li>
+			<li>Quick compatibility for foreign language translations</li>
+			<li>Smart journal entry system</li>
+		</ul>
+		<p>Bug fixes</p>
+		<ul>
+			<li>Angelo now correctly interacts with Shar-Teel during death sentencing after being captured by the Flaming Fist</li>
+			<li>Charleston Nib's diggers now correctly attack the party when the player announces hostile intentions</li>
+			<li>Corrected a number of inventory icons</li>
+			<li>Corrected a number of NPC portraits in the Record screen that would show the top left hand corner of the portrait only</li>
+			<li>Corrected Candlekeep map note</li>
+			<li>Corrected certain Throne of Bhaal music references</li>
+			<li>Corrected fights between non-player joinable characters</li>
+			<li>Corrected statistics for a large number of NPCs</li>
+			<li>Fixed a bug where the player would not get infected by Marek's poison or Kaishas' lycanthropy</li>
+			<li>Fixed a bug where joining the bandits via Raiken or Teven would result in Tazok having nothing to say</li>
+			<li>Fixed a bug where Minsc's dialogue breaks at the beginning of Chateau Irenicus because Imoen is unable to interject</li>
+			<li>Fixed a bug with transparent doors</li>
+			<li>Fixed a bug with some traps not working</li>
+			<li>Fixed a bug where too many werewolves were to spawn on the island</li>
+			<li>Fixed a bug where most weapons will never disintegrate in combat</li>
+			<li>Fixed a bug where certain loading screens would show Baldur's Gate loading screen pictures</li>
+			<li>Fixed a bug where killing Sarevok can result in a hung cutscene because dialogue did not start correctly</li>
+			<li>Fixed a bug where a random encounter area would trigger the Gnoll Stronghold movie</li>
+			<li>Fixed a bug where a number of scrolls could be placed in the quick-item slot</li>
+			<li>Fixed a bug where the Priest of Ilmater did not appear when Husam asks the player to kill Slythe and Krystin</li>
+			<li>Fixed a critical Alora stutter bug</li>
+			<li>Fixed a critical bug where areas containing basilisks will fail to load, generating a crash, due to missing basilisk animations</li>
+			<li>Fixed a critical bug where Sarevok had an incorrect override script assignment, which would prevent finishing Baldur's Gate</li>
+			<li>Fixed a critical bug where defeating Sarevok would not trigger the completion of Baldur's Gate</li>
+			<li>Removed non-existant creature references from a number of areas, and corrected spawns in others</li>
+			<li>White lines at the bottom of AR3709 have been fixed</li>
+			<li>Various minor bug fixes</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>Added the option of transitioning from Baldur's Gate to Shadows of Amn without fully completing all of the Tales of the Sword Coast quests</li>
+			<li>Bardez's original credits added</li>
+			<li>Eldoth now reminds the player when the correct amount of time has elapsed to collect Skie's ransom money</li>
+			<li>Baldur's Gate and Tales of the Sword Coast journals are now removed before the player transitions to Shadows of Amn</li>
+			<li>Guards now arrive when Faber of the Cloakwood mines calls out</li>
+			<li>Installation now uses WeiDU 184 and relies on its own executable (_weidu.exe) instead to avoid incompatibility with old WeiDU versions</li>
+			<li>Made the end of Baldur's Gate to Tales of the Sword Coast transition less confusing</li>
+			<li>Modified the cover story for the transition a little (thanks to Sir BillyBob)</li>
+			<li>Overhaul of Baldur's Gate music, with much music incorporated, area music references corrected, and Shadows of Amn title music changed</li>
+			<li>Random treasure drops in Baldur's Gate are now balanced</li>
+			<li>Sarevok does not drop Sarevok's Helm anymore (the end movie shows the disintegration of the helm)</li>
+			<li>Semaj and Sarevok now have correct inventory items</li>
+			<li>Switched the New Game and Baldur's Gate I (renamed to New BG2 Game) buttons by request</li>
+			<li>Tales of the Sword Coast can now be ‘completed' with all the quests actually being completed</li>
+			<li>The entire bandit camp now becomes hostile when the player retrieves the letters from Tazok's tent</li>
+			<li>The fight with Sarevok is now harder</li>
+			<li>World map icons now utilise that from Yacomo's World Map mod</li>
+			<li>Various minor changes</li>
+		</ul>
+		<p>Installation changes</p>
+		<ul>
+			<li>A number of code optimisations added</li>
+			<li>Added further patching of Imoen to Imoen2 script name</li>
+			<li>Added handling of Baldur's Gate creatures in its override folder during creature extraction</li>
+			<li>Added NPCAlive global variable checks for modding purposes</li>
+			<li>Completed removal of all redundant files</li>
+			<li>Corrected a number of scripts that were incorrectly patched</li>
+			<li>Corrected a number of StrRefs that were incorrectly patched</li>
+			<li>Corrected patching of a number of creatures</li>
+			<li>Most MOS files are now decompressed using MOSUnpack utility</li>
+			<li>Most dialogue is now imported from Baldur's Gate</li>
+			<li>Patched some more string references</li>
+			<li>Renamed several Baldur's Gate creatures to avoid conflict with Shadows of Amn</li>
+			<li>SONGLIST.2DA and MUSCLIS(T).IDS is now overwritten to accommodate music overhaul</li>
+			<li>Trimmed and optimised more NPC dialogs</li>
+			<li>Various minor tweaks</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('0.94BETA'); return false;">Version 0.94 BETA (25 Mar 05)</a></h6>
+		<div id="0.94BETA" class="vlisthide">
+		<p>Installation changes</p>
+		<ul>
+			<li>Added sound/text patching of a number of dialog.tlk strings not previously included</li>
+			<li>Cleaned up some redundant files and associated patches</li>
+			<li>Completely overhauled the creature installation system</li>
+			<li>Corrected internal label not found warnings in the installation process</li>
+			<li>Fixed a bug where including terminal backslashes would prevent extraction of CRE files from Baldur's Gate</li>
+			<li>Fixed a bug where pre-setup backing up of Never Ending Journey files returned an error and terminated</li>
+			<li>Fixed a bug where premature termination of installation due to an error would result in an empty override folder</li>
+			<li>Fixed a creature compatibility issue with Shadows of Amn</li>
+			<li>Music now installs correctly</li>
+			<li>Trimmed and optimised a number of NPC dialogs</li>
+			<li>Various cosmetic changes and removal of some redundant entries to the appending of 2DA files</li>
+		</ul>
+		<p>Gameplay changes</p>
+		<ul>
+			<li>All Baldur's Gate areas now have correct information, rest spawn, and map note StrRefs</li>
+			<li>All Baldur's Gate NPCs now have biographies</li>
+			<li>Baldur's Gate movies can now be played from the Movies menu</li>
+			<li>Chapter and dream text screens now have text and sound</li>
+			<li>Corrected Kagain's quest to search for the son of Entar Silvershield</li>
+			<li>Corrected playlist looping of several music files</li>
+			<li>Corrected various entries for a number of NPC creature files</li>
+			<li>Fixed bug where Dynaheir would always spawn at level 1</li>
+			<li>Fixed bug where Edwin would spawn at level 1 when the player would be level 2 or 3</li>
+			<li>Fixed bug where the player could leave tutorial combat training with the training party as well as the items received</li>
+			<li>Fixed bug where the rats in the Baldur's Gate Tutorial would cause damage and kill the player</li>
+			<li>Included a missing area file</li>
+			<li>Removed a reference to a missing ambient in Beregost</li>
+			<li>Smoothened out the cutscene of Gorion's death</li>
+			<li>Xzar now correctly whines about going to Nashkel when a certain period of time has passed after accepting him into the party</li>
+		</ul>
+		<p>Miscellaneous changes</p>
+		<ul>
+			<li>Added MORALEAI.IDS to remove the constant DLTCEP error when loading the game</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('0.9BETA'); return false;">Version 0.9 BETA (12 Mar 05)</a></h6>
+		<div id="0.9BETA" class="vlisthide">
+		<ul>
+			<li>Added compatibility with The Darkest Day, Shadows over Soubar, Tortured Souls, and Never Ending Journey 1 and 2</li>
+			<li>Baldur's Gate and Tales of the Sword Coast can now be installed anywhere</li>
+			<li>Fixed various major and minor bugs</li>
+			<li>Music and tilesets are now imported from your Baldur's Gate and Tales of the Sword Coast installation</li>
+		</ul>
+		</div>
+		<h6><a href="#" onclick="toggle('0.8'); return false;">Version 0.8 (13 Feb 05)</a></h6>
+		<ul id="0.8" class="vlisthide">
+			<li>First public release</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Version History</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    <!--
+      function toggle(id) {
+        element = document.getElementById(id);
+        if ( element.style.display == 'none' ) {
+          element.style.display = '';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = 'none'; // IE hack
+          }
+        } else {
+          element.style.display = 'none';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = ''; // IE hack
+          }
+        }
+      }
+
+      elements = document.getElementsByTagName('*');
+      for ( var i = 0; i < elements.length; i++ ) {
+        if ( elements[i].className == 'vlisthide' ) {
+          elements[i].style.display = 'none';
+        }
+      }
+    //-->
+    </script>
+	
+</body>
+</html>

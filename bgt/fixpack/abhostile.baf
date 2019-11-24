@@ -1,0 +1,8 @@
+IF
+  GlobalGT("Chapter","GLOBAL",4)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+    Continue()
+END

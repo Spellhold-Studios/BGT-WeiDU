@@ -1,0 +1,13 @@
+IF
+  TimeOfDay(DAY)
+THEN
+  RESPONSE #100
+    Activate(Myself)
+END
+
+IF
+  TimeOfDay(DAY)
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END

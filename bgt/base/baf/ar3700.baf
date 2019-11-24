@@ -1,0 +1,66 @@
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",2)
+THEN
+  RESPONSE #100
+    StartMovie("NASHKELL")
+    SmallWait(1)
+    SetGlobal("Chapter","GLOBAL",1)
+    IncrementChapter("Chptxt-2")
+    SetGlobal("Chapter","GLOBAL",3)
+    AddJournalEntry(@310734,INFO)
+    Continue()
+END
+
+IF
+  Global("BGTNPC3700","GLOBAL",0)
+  Level(Player1,1)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC3700","GLOBAL",1)
+    CreateCreature("MINSC",[3385.1957],10)  // ~Minsc~
+    CreateCreature("EDWIN",[2872.2958],12)  // ~Edwin~
+END
+
+IF
+  Global("BGTNPC3700","GLOBAL",0)
+  OR(2)
+    Level(Player1,2)
+    Level(Player1,3)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC3700","GLOBAL",1)
+    CreateCreature("MINSC2",[3385.1957],10)  // ~Minsc~
+    CreateCreature("EDWIN2",[2872.2958],12)  // ~Edwin~
+END
+
+IF
+  Global("BGTNPC3700","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC3700","GLOBAL",1)
+    CreateCreature("MINSC4",[3385.1957],10)  // ~Minsc~
+    CreateCreature("EDWIN4",[2872.2958],12)  // ~Edwin~
+END
+
+IF
+  Global("BGTNPC3700","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC3700","GLOBAL",1)
+    CreateCreature("MINSC6",[3385.1957],10)  // ~Minsc~
+    CreateCreature("EDWIN6",[2872.2958],12)  // ~Edwin~
+END
+
+IF
+  Global("NibulSpawn","GLOBAL",0)
+  Global("Chapter","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("NibulSpawn","GLOBAL",1)
+    CreateCreature("NIMBUL",[1249.693],0)  // ~Nimbul~
+END

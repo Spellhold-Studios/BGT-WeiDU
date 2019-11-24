@@ -1,0 +1,9 @@
+IF
+  OR(2)
+    Global("GnollFightOver","GLOBAL",1)
+    Dead("Gnoll5")
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END

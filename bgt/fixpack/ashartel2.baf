@@ -1,0 +1,8 @@
+IF
+  Killed(StrongestOfMale)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SetGlobal("BeatSharteel","GLOBAL",1)
+    Dialogue([PC])
+END

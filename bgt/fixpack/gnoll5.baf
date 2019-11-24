@@ -1,0 +1,66 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    SetGlobal("GnollFightOver","GLOBAL",1)
+END
+
+IF
+  See([PC])
+  NumTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet([PC])
+END
+
+IF
+  HPLT(Myself,10)
+  Global("GnollFightOver","GLOBAL",0)
+  Global("GnollFightStarted","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SmallWait(1)
+    ActionOverride(StrongestOf,SmallWait(1))
+    Dialogue([PC])
+END
+
+IF
+  HPLT(StrongestOf,10)
+  Global("GnollFightOver","GLOBAL",0)
+  Global("GnollFightStarted","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SmallWait(1)
+    ActionOverride(StrongestOf,SmallWait(1))
+    Dialogue([PC])
+END
+
+IF
+  AttackedBy(StrongestOf,DEFAULT)
+  Global("GnollFightOver","GLOBAL",0)
+  Global("GnollFightStarted","GLOBAL",1)
+THEN
+  RESPONSE #100
+    AttackReevaluate(StrongestOf,30)
+END
+
+IF
+  AttackedBy([PC],DEFAULT)
+  Global("GnollFightOver","GLOBAL",0)
+  Global("GnollFightStarted","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("GnollFightOver","GLOBAL",1)
+    Enemy()
+END
+
+IF
+  HPGT(Myself,9)
+  HPGT(StrongestOf,9)
+  Global("GnollFightOver","GLOBAL",0)
+  Global("GnollFightStarted","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride(StrongestOf,AttackReevaluate("Gnoll5",30))
+    AttackReevaluate(StrongestOf,30)
+END

@@ -1,0 +1,57 @@
+IF
+  AreaCheck("AR4100")
+  Global("Edwinfight","GLOBAL",2)
+  !Dead("Edwin")
+  !Detect("Edwin")
+  Global("BGTFight","LOCALS",0)
+THEN
+  RESPONSE #100
+    FadeToColor([1.0],0)
+    Wait(1)
+    MoveViewPoint([2541.1453],INSTANT)
+    ActionOverride("Edwin",JumpToPoint([2541.1453]))
+    ChangeAIScript("",GENERAL)
+    FadeFromColor([25.0],0)
+    SetGlobal("BGTFight","LOCALS",1)
+END
+
+IF
+  AreaCheck("AR4100")
+  Global("Edwinfight","GLOBAL",2)
+  !Dead("Edwin")
+  Detect("Edwin")
+  Global("BGTFight","LOCALS",0)
+THEN
+  RESPONSE #100
+    ChangeAIScript("",GENERAL)
+    SetGlobal("BGTFight","LOCALS",1)
+END
+
+IF
+  Global("Edwinfight","GLOBAL",2)
+  !Dead("Edwin")
+  OR(2)
+    AreaCheck("AR3700")
+    Detect("Edwin")
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate("Edwin",15)
+END
+
+
+IF
+  Global("EdwinFight","GLOBAL",2)
+  Dead("Edwin")
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinFight","GLOBAL",0)
+    DialogInterrupt(TRUE)
+    ActionOverride(Player1,MakeUnselectable(1))
+    ActionOverride(Player2,MakeUnselectable(1))
+    ActionOverride(Player3,MakeUnselectable(1))
+    ActionOverride(Player4,MakeUnselectable(1))
+    ActionOverride(Player5,MakeUnselectable(1))
+    ActionOverride(Player6,MakeUnselectable(1))
+    Dialogue(Player1)
+END

@@ -1,0 +1,12 @@
+IF
+  Global("HelpVarci","GLOBAL",1)
+  Global("SpawnVarci","GLOBAL",0)
+  !Exists("Varci")  // ~Varci Roaringhorn~
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnVarci","GLOBAL",1)
+    CreateCreature("VARCI",[448.375],0)  // ~Varci Roaringhorn~
+    ActionOverride("Varci",SetNumTimesTalkedTo(1))
+    CreateCreature("TREMAI",[413.334],0)  // ~Tremain Belde'ar~
+END
+

@@ -1,0 +1,33 @@
+IF
+  PartyHasItem("MISC48") // Idol
+  Global("doomsayer","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("doomsayer","GLOBAL",1)
+    CreateCreature("DOOMSA",[2661.1574],0) // Doomsayer
+END
+
+IF
+  OR(2)
+    Global("CharlestonMoved","GLOBAL",0)
+    Global("HelpGallor","GLOBAL",2)
+THEN
+  RESPONSE #100
+    TriggerActivation("DoorA101a",FALSE)
+END
+
+IF
+  Global("CharlestonMoved","GLOBAL",1)
+  Global("HelpGallor","GLOBAL",1)
+  Global("HelpCharleston","GLOBAL",0)
+  Global("EnterTomb","GLOBAL",0)
+THEN
+  RESPONSE #100
+    Wait(3)
+    TriggerActivation("DoorA101a",TRUE)
+    ActionOverride("Charleston",Shout(1))
+    Wait(1)
+    ActionOverride("Charleston",DestroySelf())
+    SetGlobal("EnterTomb","GLOBAL",1)
+END
+

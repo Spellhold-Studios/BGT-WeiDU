@@ -1,0 +1,29 @@
+IF
+  Global("CharlestonMoved","GLOBAL",1)
+  Global("HelpGallor","GLOBAL",1)
+  Global("HelpCharleston","GLOBAL",0)
+  Global("EnterTomb","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("CHARLE",[1058.554],0) // Charleston Nib
+    CreateCreature("DIGGER",[1098.501],0) // Digger
+    CreateCreature("DIGGER",[1224.522],0) // Digger
+    CreateCreature("DIGGER",[1314.542],0) // Digger
+    CreateCreature("DIGGER",[1272.630],0) // Digger
+    CreateCreature("DIGGER",[1149.646],0) // Digger
+    CreateCreature("DIGGER",[1283.540],0) // Digger
+    ChangeClass("Charleston",NO_CLASS)
+    ActionOverride("Charleston",SetNumTimesTalkedTo(1))
+    SetGlobal("EnterTomb","GLOBAL",2)
+END
+
+IF
+  Global("HelpGallor","GLOBAL",1)
+  Global("DiggersPossessed","GLOBAL",1)
+  Global("ChangeClassCharleston","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ChangeClass("Charleston",NO_CLASS)
+    SetGlobal("ChangeClassCharleston","GLOBAL",1)
+END
+

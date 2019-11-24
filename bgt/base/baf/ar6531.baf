@@ -1,0 +1,16 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    Wait(10)
+    CreateCreature("ULRAUN",[373.428],0)  // ~Ulraunt~
+    ActionOverride("Ulraunt",MoveToPoint([407.268]))
+    ActionOverride("Ulraunt",Dialog([PC]))
+    Wait(20)
+    CreateCreature("TETHTO2",[373.428],0)  // ~I'm glad you still have some of the sense Gorion taught you.  Please, follow me.  I'm sure everything wil be sorted out quickly.~
+    ActionOverride("Tethtoril2",MoveToPoint([407.268]))
+    EndCutSceneMode()
+    ActionOverride("Tethtoril2",Dialog([PC]))
+END
+

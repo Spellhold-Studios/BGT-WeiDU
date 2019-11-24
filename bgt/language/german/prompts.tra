@@ -1,0 +1,121 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= "Der %TP2_FILE_NAME% Mod hat"
+@-1001= "einzelne, auswaehlbare Komponenten.
+Um Zeit zu sparen, koennt Ihr eine Wahl fuer alle Komponenten treffen,
+statt zu jeder Komponente einzeln gefragt zu werden.
+"
+@-1002= "Was soll mit allen Komponenten geschehen, die NOCH NICHT installiert sind?
+[I]: Installieren, [S]: Ueberspringen, [A]: Einzeln abfragen. "
+@-1003= "Was soll mit allen Komponenten geschehen, die BEREITS installiert sind?
+[R]: Neu installieren, [U]: Deinstallieren, [S]: Ueberspringen, [A]: Einzeln abfragen. "
+
+//modified
+@-1004= "BITTE postet die Datei "
+@-1005= "bei"
+
+@-1006= "Komponente ["
+@-1007= "] installieren?
+[R]: Neu installieren, [N]: Nichts aendern, [U]: Deinstallieren, [Q]: Beenden. "
+@-1008= "] installieren?
+[I]: Installieren, [N]: Nicht installieren, [Q]: Beenden. "
+
+@-1009= "Gebt den Teil eines Modulnamens ein: "
+
+@-1010= "Neuinstallation von ["
+@-1011= "], Komponente "
+@-1012= "Neuinstallation mit folgender Sprache:"
+
+@-1013= "Zuerst wird die alte Installation von ["
+@-1014= "] entfernt ..."
+@-1015= "ALTE INSTALLATION ERFOLGREICH ENTFERNT:"
+
+@-1016= "Installiere"
+@-1017= "FEHLER beim Installieren von ["
+@-1018= "], Ausgangszustand wird wiederhergestellt"
+@-1019= "ERFOLGREICH INSTALLIERT:     "
+@-1020= "Ueberspringe"
+@-1021= "Entferne ["
+@-1022= "] (Komponente #"
+@-1023= ")"
+@-1024= "ERFOLGREICH ENTFERNT: ["
+
+@-1025= "] installieren?
+[R]: Neu installieren, [N]: Nichts aendern, [U]: Deinstallieren, [Q]: Beenden. Oder waehlt eins aus:"
+@-1026= "] installieren?
+[N]: Nein, [Q]: Beenden. Oder waehlt eins aus:"
+@-1027= " (momentan installiert)"
+
+@-1028= "Wollt Ihr Euch die Komponenten von ["
+@-1029= "] anzeigen lassen?
+[Y]: Ja, [N]: Nein. "
+
+@-1030= "]?
+Bitte waehlt eins aus:"
+@-1031= "]?
+[R]: Neu installieren, [N]: Nichts aendern, [Q]: Beenden. Oder waehlt eins aus:"
+@-1032= "NICHT INSTALLIERT AUFGRUND VON FEHLERN:"
+@-1033= "MIT WARNUNGEN INSTALLIERT:    "
+@-1034= "Wollt Ihr Euch die Readme anzeigen lassen? [Y]: Ja, [N]: Nein."
+@-1035= "Benutze folgende Sprache:"
+  
+@-1036= "Die GRUPPE ["
+@-1037= "] wird uebersprungen, da ihre Voraussetzungen nicht erfuellt sind."
+  
+@-1038= "[A]: Jede Komponente einzeln abfragen, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
+@-1039= "[A]: Jede Komponente einzeln abfragen, [R]: Die aktuelle Konfiguration neu installieren, [U]: Alle deinstallieren, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
+
+
+@100000 = ~Baldur's Gate Trilogie - Hauptteil~ 
+@100001 = ~Deinstalliere pre-setup Komponente...~
+@100002 = ~Sichere chitin.key und Override-Verzeichnis...~
+@100003 = ~Patche dialog.tlk. Bitte warten...~
+@100004 = ~Registrierung der GUI...~
+@100005 = ~Patche Regelsatz...~
+@100006 = ~Installiere Skripte...~
+@100007 = ~Installiere Dialoge...~
+@100008 = ~Installiere Geschaefte...~
+@100009 = ~Installiere Gegenstaende...~
+@100010 = ~Installiere Zauber...~
+@100011 = ~Installiere Gebiete...~
+@100012 = ~Installiere 2DA...~
+@100013 = ~Installiere Kreaturen...~
+@100014 = ~Installiere Verschiedenes...~
+@100015 = ~Installation fehlgeschlagen - das BG1 Verzeichnis konnte nicht gefunden werden.~
+@100016 = ~Fuehre den Erfahrungspunkte-Patch aus...~
+
+@100018 = ~Vollstaendige Baldur's Gate und die Legenden der Schwertkueste Musik~
+@100019 = ~Gemischte Baldur's Gate/Schatten von Amn/Thron des Bhaal Musik~
+@100020 = ~Baldur's Gate Trilogie - Musik~
+@100021 = ~Fuer die Installation wird Thron des Bhaal benoetigt.~
+@100022 = ~Installiere Fehlerbehebungen...~
+@100023 = ~Gesamte Baldurs Gate/Schatten von Amn/Thron des Bhaal Musik (WARNUNG: BGMain.exe wird gepatched)~
+
+@100024 = ~Graphische Spielbenutzeroberflaeche (GUI)~
+@100025 = ~"Original SvA/TdB"~
+@100026 = ~"Baldur's Gate Trilogie" (Elminster fuehrt ein Schwert)~
+@100027 = ~"Baldur's Gate Trilogie" (Elminster fuehrt einen Stab)~
+
+@100028 = ~Gebt den ganzen Verzeichnispfad von Baldur's Gate ein dann drueckt Enter.~
+@100029 = ~Ungueltiges Baldur's Gate Verzeichnis oder falsche Baldur's Gate Installation.
+Die Installation kann beendet werden, indem dieses Fenster geschlossen oder STRG+C gedrueckt wird.~
+@100030 = ~Extrahiere Kreaturen aus Baldur's Gate: DLdS...~
+@100031 = ~Extrahiere Texte fuer Uebersetzung aus Baldur's Gate: DLdS...~
+@100032 = ~Importiere vorgefertigte Charaktere aus Baldur's Gate: DLdS...~
+@100033 = ~Importiere Musik aus Baldur's Gate: DLdS...~
+@100034 = ~Importiere Soundsets aus Baldur's Gate: DLdS...~
+@100035 = ~Importiere Sounds aus Baldur's Gate: DLdS...~
+@100036 = ~Importiere Filme aus Baldur's Gate: DLdS...~
+@100037 = ~Importiere Tilesets aus Baldur's Gate: DLdS...~
+@100038 = ~Konvertiere Tilesets...~
+@100039 = ~Extrahiere neue Tilesets...~
+@100040 = ~Komprimiere Gebiete...~
+@100041 = ~Komprimiere Spieldateien...~
+@100042 = ~Verzeichnis von Baldur's Gate I erkannt als %bg1_dir%.
+Ist das so richtig? [Y]: Ja, [N]: Nein.~
+@100043 = ~Wollt Ihr alle neuen Ressourcen biffen lassen? (empfohlen, ausser bei Megamod-Installationen)
+[Y]: Ja, [N]: Nein.~
+@100044 = ~Unix-artiges Betriebssystem erkannt. Protokollierung eingeschaltet.%LNL%%LNL%~
+@100045 = ~Eine alte Windows-Version wurde erkannt. Eingeschraenkte Protokollierung ist verfuegbar.%WNL%%WNL%~

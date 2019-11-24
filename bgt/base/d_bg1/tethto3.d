@@ -1,0 +1,6 @@
+BEGIN ~tethto3~
+
+IF ~~ THEN BEGIN 0
+  SAY @20544
+  IF ~~ THEN EXTERN ~ELMINS4~ 1
+END

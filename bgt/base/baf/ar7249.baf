@@ -1,0 +1,17 @@
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  !Exists("PIlmater")  // PIlmater
+  !Dead("PIlmater")  // PIlmater
+THEN
+  RESPONSE #100
+    CreateCreature("PRIILMU",[191.234],0)  // ~Priest of Ilmater~
+END
+
+IF
+  Exists("PIlmater")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("PIlmater",DestroySelf())
+END

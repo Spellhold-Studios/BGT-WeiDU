@@ -1,0 +1,100 @@
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",4)
+  Global("ChloeSpawn","GLOBAL",0)
+  !Exists("Chloe")
+  !Dead("Chloe")
+THEN
+  RESPONSE #100
+    SetGlobal("ChloeSpawn","GLOBAL",1)
+    CreateCreature("CHLOE",[4127.2881],0)
+    Continue()
+END
+
+IF
+  Global("BGTNPC6700","GLOBAL",0)
+  Level(Player1,1)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6700","GLOBAL",1)
+    CreateCreature("Garric",[2504.2270],5)
+END
+
+IF
+  Global("BGTNPC6700","GLOBAL",0)
+  OR(2)
+    Level(Player1,2)
+    Level(Player1,3)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6700","GLOBAL",1)
+    CreateCreature("GARRIC2",[2504.2270],5)
+END
+
+IF
+  Global("BGTNPC6700","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6700","GLOBAL",1)
+    CreateCreature("GARRIC4",[2504.2270],5)
+END
+
+IF
+  Global("BGTNPC6700","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6700","GLOBAL",1)
+    CreateCreature("GARRIC6",[2504.2270],5)
+END
+
+IF
+  Global("Chapter","GLOBAL",4)
+  Global("ElminsterSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ElminsterSpawn","GLOBAL",1)
+    CreateCreature("ELMIN2",[4710.3091],0)
+    Continue()
+END
+
+IF
+  Global("EnteredBeregost","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("BEREGOST")
+    SetGlobal("EnteredBeregost","GLOBAL",1)
+    Continue()
+END
+
+IF
+  GlobalGT("CHAPTER","GLOBAL",4)
+  Exists("Chloe")
+THEN
+  RESPONSE #100
+    ActionOverride("Chloe",DestroySelf())
+    Continue()
+END
+
+IF
+  Global("TalkedToMerchant","GLOBAL",1)
+  Global("SilkeQuest","AR6700",0)
+THEN
+  RESPONSE #100
+  AddJournalEntry(@310044,QUEST_DONE)
+  EraseJournalEntry(@310043)
+  SetGlobal("SilkeQuest","AR6700",1)
+END
+
+IF
+  Global("SilkePay","GLOBAL",1)
+  Global("SilkeQuest","AR6700",0)
+THEN
+  RESPONSE #100
+  AddJournalEntry(@310045,QUEST_DONE)
+  EraseJournalEntry(@310043)
+  SetGlobal("SilkeQuest","AR6700",1)
+END

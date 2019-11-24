@@ -1,0 +1,12 @@
+BEGIN ~samuel~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @5153
+  IF ~~ THEN REPLY @6375 GOTO 1
+  IF ~~ THEN REPLY @6376 GOTO 1
+END
+
+IF ~True()~ THEN BEGIN 1
+  SAY @6377
+  IF ~~ THEN EXIT
+END

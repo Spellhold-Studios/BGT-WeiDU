@@ -1,0 +1,16 @@
+IF
+  NumTimesTalkedTo(0)
+  DifficultyGT(EASY)
+  Global("A6GenSplDiffChange","LOCALS",0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  NumTimesTalkedTo(0)
+  DifficultyLT(NORMAL)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END

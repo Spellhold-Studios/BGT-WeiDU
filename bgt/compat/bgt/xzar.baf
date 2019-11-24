@@ -1,0 +1,216 @@
+IF
+	Global("Xzarfight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DialogueInterrupt(FALSE)
+		ActionOverride("Khalid",DialogueInterrupt(FALSE))
+		ActionOverride("Khalid",LeaveParty())
+		ActionOverride("Jaheira",DialogueInterrupt(FALSE))
+		ActionOverride("Jaheira",LeaveParty())
+		ActionOverride("Montaron",DialogueInterrupt(FALSE))
+		ActionOverride("Montaron",LeaveParty())
+		LeaveParty()
+		SetGlobal("Xzarfight","GLOBAL",2)
+END
+
+IF
+	Dead("Khalid")
+	Dead("Jaheira")
+	Global("Xzarfight","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Xzarfight","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+		JoinParty()
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+  HaveSpell(WIZARD_MIRROR_IMAGE)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+  HaveSpell(WIZARD_ARMOR)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_ARMOR)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+  RESPONSE #100
+    Spell("Jaheira",WIZARD_MAGIC_MISSILE)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+  HaveSpell(WIZARD_LARLOCH_MINOR_DRAIN)
+THEN
+  RESPONSE #100
+    Spell("Jaheira",WIZARD_LARLOCH_MINOR_DRAIN)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+  HaveSpell(WIZARD_LIGHTNING_BOLT)
+THEN
+  RESPONSE #100
+    Spell("Jaheira",WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+THEN
+  RESPONSE #100
+    Spell("Jaheira",WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+  HaveSpell(WIZARD_FLAME_ARROW)
+THEN
+  RESPONSE #100
+    Spell("Jaheira",WIZARD_FLAME_ARROW)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Jaheira",15)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+  HaveSpell(WIZARD_MIRROR_IMAGE)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+  HaveSpell(WIZARD_ARMOR)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_ARMOR)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+  RESPONSE #100
+    Spell("Khalid",WIZARD_MAGIC_MISSILE)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+  HaveSpell(WIZARD_LARLOCH_MINOR_DRAIN)
+THEN
+  RESPONSE #100
+    Spell("Khalid",WIZARD_LARLOCH_MINOR_DRAIN)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+  HaveSpell(WIZARD_LIGHTNING_BOLT)
+THEN
+  RESPONSE #100
+    Spell("Khalid",WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+THEN
+  RESPONSE #100
+    Spell("Khalid",WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+  HaveSpell(WIZARD_FLAME_ARROW)
+THEN
+  RESPONSE #100
+    Spell("Khalid",WIZARD_FLAME_ARROW)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Khalid",15)
+END
+
+IF
+  GlobalTimerExpired("Xzar","GLOBAL")
+  Global("VisitNashkell","GLOBAL",1)
+  Global("Chapter","GLOBAL",2)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+
+IF
+  GlobalTimerExpired("Xzar","GLOBAL")
+  Global("VisitNashkell","GLOBAL",2)
+  Global("Chapter","GLOBAL",2)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+
+IF
+  GlobalTimerExpired("Xzar","GLOBAL")
+  Global("VisitNashkell","GLOBAL",3)
+  Global("Chapter","GLOBAL",2)
+  See("Montaron")  // Montaron
+  !Dead("Montaron")  // Montaron
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+

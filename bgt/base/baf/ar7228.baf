@@ -1,0 +1,29 @@
+IF
+  NumDeadGT("DopZorl",5)
+  Global("AldethDopple","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("AldethDopple","GLOBAL",6)
+END
+
+IF
+  Global("AldethMove","GLOBAL",2)
+  GlobalLT("Chapter","GLOBAL",7)
+  !Exists("Aldeth")
+  !Dead("Aldeth")
+THEN
+  RESPONSE #100
+    CreateCreature("ALDETH",[217.491],0)
+    ActionOverride("Aldeth",SetNumTimesTalkedTo(1))
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",6)
+  Global("DukeThanks","GLOBAL",1)
+  Exists("Aldeth")
+  !Dead("Aldeth")
+THEN
+  RESPONSE #100
+    ActionOverride("Aldeth",DestroySelf())
+END
+

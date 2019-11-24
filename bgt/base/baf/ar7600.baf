@@ -1,0 +1,52 @@
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("HecitosSpawn","GLOBAL",0)
+  !Exists("HECITO")  // ~Hecito~
+THEN
+  RESPONSE #100
+    CreateCreature("HECITO",[2038.402],0)  // ~Hecito~
+    SetGlobal("HecitosSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("HECITO")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("HECITO",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Capture600","GLOBAL",0)
+  Global("DukeThanks","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Capture600","GLOBAL",1)
+    CreateCreature("FFHUNT",[1710.1284],0)  // ~Flaming Fist Enforcer~
+    CreateCreature("FFHUNT",[1710.1284],0)  // ~Flaming Fist Enforcer~
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("SirlotSpawn","GLOBAL",0)
+  !Exists("Lothtyran")  // Lothtyran
+  !Dead("Lothtyran")  // Lothtyran
+THEN
+  RESPONSE #100
+    SetGlobal("SirlotSpawn","GLOBAL",1)
+    CreateCreature("SIRLOT",[1950.324],0)
+END
+
+IF
+  Exists("Lothtyran")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Lothtyran",DestroySelf())
+END

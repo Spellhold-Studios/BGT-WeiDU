@@ -1,0 +1,120 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Mensajes de instalaci¢n
+////////////////////////////////////////////////////////////////////
+
+@-1000= "El mod %TP2_FILE_NAME% tiene"
+@-1001= "distintos componentes opcionales.
+Para ahorrar tiempo, puedes decidir que hacer con ellos desde un primer momento
+en vez de tener que elegirlos por separado.
+"
+@-1002= "®QuÇ deber°a hacer con todos los componentes AÈN NO instalados
+[I]nstalarlos, [S]altarlos, [A] preguntar por cada uno? "
+@-1003= "®QuÇ se debe hacer con todos los componentes que YA ESTµN instalados.
+[R]einstalarlos, [U] Desinstalarlos, [S]altarlos, [A] Preguntar por cada uno? "
+
+@-1004= "POR FAVOR escribe los contenidos del archivo "
+@-1005= "en"
+
+@-1006= "Instalar Componente ["
+@-1007= "]?
+[R]einstalar, [N]o cambiar o  [U] Desinstalar [Q] Salir? "
+@-1008= "]?
+[I]nstalar, o [N]o Instalar o [Q] Salir? "
+
+@-1009= "Insertar parte del nombre del modulo: "
+
+@-1010= "Reinstalando ["
+@-1011= "] componente "
+@-1012= "Reinstalando usando idioma "
+
+@-1013= "Eliminando instalaci¢n anterior de  ["
+@-1014= "] primero..."
+@-1015= "INSTALACI‡N ANTERIOR ELIMINADA CON êXITO"
+
+@-1016= "Instalando"
+@-1017= "ERROR al Instalar ["
+@-1018= "],  volviendo al estado anterior"
+@-1019= "INSTALADO SATISFACTORIAMENTE     "
+@-1020= "Saltando"
+@-1021= "Eliminando ["
+@-1022= "] (componente #"
+@-1023= ")"
+@-1024= "ELIMINADO CON êXITO["
+
+@-1025= "]?
+[R]einstalar, [N]o Cambiar, [U] Desinstalar, [Q] Salir o elija uno:"
+@-1026= "]?
+[N]o, [Q] Salir o elija uno:"
+@-1027= " (Ya instalado)"
+
+@-1028= "®Quiere ver los componentes de ["
+@-1029= "]?
+[Y] S°, [N]o? "
+
+@-1030= "]?
+elija uno:"
+@-1031= "]?
+[R]einstalar, [N]o Cambiar, [Q] Salir o elija uno:"
+@-1032= "NO INSTALADO DEBIDO A ERRORES"
+@-1033= "INSTALADO CON ALGUNOS FALLOS    "
+@-1034= "®Quiere leer el archivo lÇame? [Y] S° [N]o"
+@-1035= "Usando el idioma "
+  
+@-1036= "Saltando GRUPO ["
+@-1037= "] porque falla sus requerimientos."
+  
+@-1038= "[A] Preguntar por cada componente, [S]altarlos todos, o elegir una seleccion pre-definida:"
+@-1039= "[A] Preguntar por cada componente, [R]einstalar la configuracion actual, [U] Desinstalarlos todos, [S]altarlos todos, o elegir una seleccion pre-definida:"
+
+
+@100000 = ~Baldur's Gate Trilogy - N£cleo~
+@100001 = ~Desinstalando componente pre-setup...~
+@100002 = ~Realizando copia de seguridad de chitin.key y directorio override...~
+@100003 = ~Parcheando dialog.tlk. Por favor, espera...~
+@100004 = ~Registrando GUI...~
+@100005 = ~Parcheando reglas...~
+@100006 = ~Instalando scripts...~
+@100007 = ~Instalando di†logos...~
+@100008 = ~Instalando tiendas...~
+@100009 = ~Instalando objetos...~
+@100010 = ~Instalando hechizos...~
+@100011 = ~Instalando †reas...~
+@100012 = ~Instalando 2DA...~
+@100013 = ~Instalando criaturas...~
+@100014 = ~Instalando miscel†nea...~
+@100015 = ~Fallo en la instalaci¢n. Problema al detectar el directorio de BG1.~
+@100016 = ~Implementando parche de experiencia...~
+
+@100018 = ~M£sica de Baldur's Gate y Tales of the Sword Coast completa~
+@100019 = ~M£sica Baldur's Gate/Shadows of Amn/Throne of Bhaal h°brida~
+@100020 = ~M£sica Baldur's Gate Trilogy~
+@100021 = ~Este mod requiere Throne of Bhaal.~
+@100022 = ~Instalando fixpack...~
+@100023 = ~M£sica completa de Baldur's Gate/Shadows of Amn/Throne of Bhaal  (CUIDADO: parchea BGMain.exe)~
+
+@100024 = ~Inferfaz gr†fica del juego para el usuario (GUI)~
+@100025 = ~"SoA/ToB Original"~
+@100026 = ~"Baldur's Gate Trilogy" (Elminster portando una espada)~
+@100027 = ~"Baldur's Gate Trilogy" (Elminster portando un bast¢n)~
+
+@100028 = ~Inserta el directorio donde tienes instalado Baldur's Gate y presiona Intro.~
+@100029 = ~carpeta de Baldur's Gate inv†lida, o instalaci¢n de Baldur's Gate incorrecta.
+Es seguro abortar esta instalaci¢n cerrando esta ventana o presionando Ctrl+C.~
+@100030 = ~Extrayendo las criaturas de Baldur's Gate: TotSC...~
+@100031 = ~Extrayendo los textos de la traducci¢n de Baldur's Gate: TotSC...~
+@100032 = ~Importando personajes desde Baldur's Gate: TotSC...~
+@100033 = ~Importando m£sica desde Baldur's Gate: TotSC...~
+@100034 = ~Importando soundsets desde Baldur's Gate: TotSC...~
+@100035 = ~Importando sonidos desde Baldur's Gate: TotSC...~
+@100036 = ~Importando pel°culas desde Baldur's Gate: TotSC...~
+@100037 = ~Importando tilesets desde Baldur's Gate: TotSC...~
+@100038 = ~Convirtiendo tilesets...~
+@100039 = ~Extrayendo nuevos tilesets...~
+@100040 = ~Comprimiendo †reas...~
+@100041 = ~Comprimiendo archivos del juego...~
+@100042 = ~La carpeta de Baldur's Gate I ha sido detectado en %bg1_dir%.
+Es correcto? [Y] S° o [N]o~
+@100043 = ~®Quiere comprimir todos los nuevos recursos? (recomendado, excepto para instalaciones de mega-modificaciones )
+[Y]S° o [N]o~
+@100044 = ~Sistema Unix-like detectado. Acesso permitido.%LNL%%LNL%~
+@100045 = ~Una versi¢n antigua de Windows ha sido detectada. Acceso limitado ser† permitido.%WNL%%WNL%~

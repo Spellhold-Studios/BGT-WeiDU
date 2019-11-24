@@ -1,0 +1,79 @@
+//IF
+//  OnCreation()
+//THEN
+//  RESPONSE #100
+//    Explore()
+//    Continue()
+//END
+
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("AlanSpawn","GLOBAL",0)
+  !Exists("Alan")
+THEN
+  RESPONSE #100
+    CreateCreature("ALANBL",[567.1404],0)
+    SetGlobal("AlanSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("Alan")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Alan",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Capture1300","GLOBAL",0)
+  Global("DukeThanks","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Capture1300","GLOBAL",1)
+    CreateCreature("FFHUNT",[1616.1547],0)
+    CreateCreature("FFHUNT",[1616.1547],0)
+END
+
+IF
+  Global("NarlenMove","GLOBAL",4)
+  !Exists("Narlen")
+  !Dead("Narlen")
+THEN
+  RESPONSE #100
+    CreateCreature("NARLEN",[361.857],0)
+    ActionOverride("Narlen",SetNumTimesTalkedTo(1))
+END
+
+IF
+  TimeGT(20)
+  Exists("Narlen")
+THEN
+  RESPONSE #100
+    Activate("Narlen")
+    Wait(30)
+END
+
+IF
+  TimeLT(4)
+  Exists("Narlen")
+THEN
+  RESPONSE #100
+    Activate("Narlen")
+    Wait(30)
+END
+
+IF
+  TimeGT(4)
+  TimeLT(20)
+  Exists("Narlen")
+THEN
+  RESPONSE #100
+    Deactivate("Narlen")
+    Wait(30)
+END
+

@@ -1,0 +1,430 @@
+////////////////////////////////////////////////////////////////////
+//Items
+////////////////////////////////////////////////////////////////////
+@200000 = ~Pos¹¿ek Ithmeery~
+
+//@23967 - change Blunt Weapons to Mace
+@200001 = ~Wekiera +2: Krotana Rozbijacz G³ów
+
+Nawet dzikie hordy maj¹ swoich bohaterów i nawet jeœli w cywilizowanym towarzystwie mówi siê o nich jako o ³otrach, to jednak ich czyny bywaj¹ niekiedy imponuj¹ce. Krotan by³ wyj¹tkowo inteligentnym orkiem, wed³ug orczej miary oczywiœcie, który w Roku Zaginionej Damy, 1241 KD, dowodzi³ ci¹gle zmieniaj¹cym rozmiary legionem ogrów, orków, hobgoblinów i tym podobnych bestii. W tym w³aœnie roku grupa orczych bandytów przypuszczalnie porwa³a i zabi³a tethyriañsk¹ szlachciankê. Odpowiedzi¹ w³adz Tethyru by³a straszliwa rzeŸ orków na ca³ym po³udniu, zorganizowana dla uczczenia pamiêci tej kobiety. Krotan zorganizowa³ obronê, dziêki której jego lud, jakkolwiek wygnany, nie zosta³ wybity do ostatniego. Sam Krotan pad³ pod koniec tego konfliktu, a jego g³owa zosta³a osadzona na palu przy cmentarzu, na którym pochowano m³od¹ szlachciankê. Ciekawostk¹ jest, ¿e orki nazywaj¹ ten okres "Rokiem Przeci¹gniêcia Struny".
+
+PARAMETRY:
+
+Obra¿enia: 1k6 +3
+Trak0: +2
+Typ obra¿eñ: obuchowe
+Waga: 7
+OpóŸnienie: 5
+Rodzaj bieg³oœci: Wekiera
+Typ broni: jednorêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+
+//@7350 - change Bow Weapons to Long Bow
+@200002 = ~D³ugi £uk Celnoœci: Zabójczy Strza³
+
+Po latach rywalizacji ksi¹¿êta Spandeliyon i Delthuntle zdecydowali siê zorganizowaæ ma³y turniej i rozs¹dziæ, który z nich jest lepszym ³ucznikiem. Obaj chwalili siê potêg¹ swych magicznych ³uków, ale to nie wystarcza³o Edwallowi Dest, ksiêciu Spandeliyon. Zorganizowa³ kradzie¿ broni przeciwnika i w dniu turnieju nie móg³ nie puszyæ siê ze swej przewagi. Ksi¹¿ê Delthuntle - znany jako Rajmond - poprosi³ Edwalla, by pokaza³ co potrafi strzelaj¹c do stracha na wróble. Dest napi¹³ d³ugi ³uk i wypuœci³ strza³ê z wielk¹ determinacj¹, nie zastanawiaj¹c siê nad tym, ¿e strach na wróble niezwykle go przypomina. Grot rozci¹³ na dwie po³ówki g³owê wielkiej lalki voodoo i w tej samej chwili g³owa Edwalla równie¿ siê rozpêk³a.
+
+PARAMETRY:
+
+Obra¿enia: +3
+Trak0: +2
+Waga: 2
+OpóŸnienie: 5
+Rodzaj bieg³oœci: D³ugi ³uk
+Typ broni: dwurêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+
+//@7351 = change Bow Weapons to Short Bow
+@200003 = ~£uk Or³ów
+Krótki ³uk Or³ów: 'Obroñca Driad'
+Driady z lasu Gulthmere, pragn¹c obroniæ sw¹ spo³ecznoœæ przed wdzieraj¹cymi siê na ich tereny orkami wycinaj¹cymi drzewa, podarowa³y ten wspania³y ³uk herosowi Hannable'owi Bia³emu. Drwale oœmielili siê œci¹æ wielki d¹b, przy okazji niemal zabijaj¹c mieszkaj¹c¹ w nim driadê; po tym czynie rozgorza³o straszliwe starcie. Z pomoc¹ ¿yj¹cych w lesie zwierz¹t Hannable zabi³ wszystkich bandytów zanim zdo³ali oni wyrz¹dziæ wiêcej szkód. Orki musia³y porzuciæ swój plan, obawiaj¹c siê gniewu lasu i chroni¹cego go herosa. Nie trzeba chyba wspominaæ o tym, ¿e po tym wszystkim Hannable ¿y³ d³ugo i szczêœliwie... nie, BARDZO szczêœliwie!
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +2
+Waga: 2
+OpóŸnienie: 4
+Rodzaj bieg³oœci: Krótki ³uk
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+
+//@20885 - change Small Sword to Dagger
+@200004 = ~Srebrny Sztylet: Zguba Likantropów
+
+Ten sztylet +1 daje premiê +4, gdy jest u¿yty przeciwko likantropom. Wyku³a go elfia ³owczyni Dynala Z³otorêka, która chcia³a wybawiæ swoj¹ ojczyznê od szakalo³aków. Zosta³a zabita przez plemiê orków w Szarych Szczytach, gdy tropi³a przywódcê szakalo³aków.
+
+PARAMETRY:
+
+Obra¿enia: 1k4+1 (+4 przeciw likantropom)
+Trak0: +1 (+4 przeciw likantropom)
+Typ obra¿eñ: k³ute
+Waga: 1
+OpóŸnienie: 2
+Rodzaj bieg³oœci: Sztylet
+Typ broni: jednorêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+
+//@20882 - change Long Sword to Bastard Sword
+@200005 = ~Miecz Baldurana. 
+
+Ten bogato zdobiony, ale s³abo wywa¿ony miecz znaleziono na wraku statku Baldurana. Z³ota broñ nie jest zbyt u¿yteczna w zwyk³ej walce, ale legendy twierdz¹, ¿e tylko orê¿ wykuty ze z³ota mo¿e zraniæ tak straszliwe istoty, jak Loup Garou.
+
+PARAMETRY:
+
+Obra¿enia: 2k4, +4 przeciw likantropom
+Trak0: +4 przeciw likantropom
+Typ obra¿eñ: sieczne
+Waga: 12
+OpóŸnienie: 7
+Rodzaj bieg³oœci: Miecz pó³torarêczny
+Typ broni: jednorêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+
+//@23965 - change Large Sword to Two Handed Sword
+@200006 = ~Miecz oburêczny +3 "Skraj œwiata"
+Jest to legendarna broñ o heroicznym wymiarze, szczególnie wœród plemion barbarzyñców z pó³nocy. Kolejni herosi u¿ywali jej przeciw niezliczonym zastêpom wrogów, a krew przez ni¹ przelana mog³aby wype³niæ niewielkie morze. Historia nie daje dowodów, i¿ taka broñ mog³aby zostaæ w normalny sposób wykuta i tak ka¿dy kolejny jej w³aœciciel wi¹za³ jej pochodzenie z mitem, w który wierzy³. Jedna z najbardziej podnios³ych z tych opowieœci mówi o wielkim wodzu, który po¿eglowa³ ku ska³om, maj¹cym stanowiæ granicê œwiata. Tam siêgn¹³ w pustkê i jego wola ukszta³towa³a ten miecz z nicoœci. Jakakolwiek jest prawda, to ostrze we w³aœciwych rêkach jest naprawdê straszliwym orê¿em.
+
+STATYSTYKI:
+
+Obra¿enia: 1k10+3
+Trak0: +3
+Typ obra¿eñ: sieczne
+Waga: 9
+OpóŸnienie: 7
+Rodzaj bieg³oœci: miecze oburêczne
+Typ: 2 rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+
+////////////////////////////////////////////////////////////////////
+// Spells
+////////////////////////////////////////////////////////////////////
+
+@400000 = ~Zyskano specjaln¹ zdolnoœæ: Pomniejsze dr¹¿enie Larlocha~
+@400001 = ~Zyskano specjaln¹ zdolnoœæ: Groza~
+@400002 = ~Zyskano specjaln¹ zdolnoœæ: Wampiryczny dotyk~
+@400003 = ~Zyskano specjaln¹ zdolnoœæ: Leczenie lekkich ran~
+@400004 = ~Zyskano specjaln¹ zdolnoœæ: Spowolnienie trucizny~
+@400005 = ~Zyskano specjaln¹ zdolnoœæ: Przywo³anie boskiej mocy~
+
+////////////////////////////////////////////////////////////////////
+// Creatures
+////////////////////////////////////////////////////////////////////
+@500000 = ~Farmer~
+@500001 = ~Myœliwy~
+
+@500040 = ~Hej wy. Psst... têdy.~ [BIMOEN16]
+
+@550000 = ~Œwi¹tynia Yondalli~
+
+////////////////////////////////////////////////////////////////////
+// Areas
+////////////////////////////////////////////////////////////////////
+
+@600005 = ~Widzisz nadmiern¹ iloœæ b³ota otaczaj¹c¹ ten obiekt, s³yszysz dŸwiêki, które mo¿na porównac do tych jakie s³ysza³eœ gdy podziemne wody siê po³aczy³y. Mo¿e ta zapora to jakiœ rodzaj tamy??~
+
+@600010 = ~Przednia Brama~
+@600011 = ~Biblioteka Candlekeep~
+@600012 = ~Szpital~
+@600013 = ~Piwnice~
+@600014 = ~Karawana~
+@600015 = ~Dwór~
+@600016 = ~Dom~
+@600017 = ~Zatopiony dom~
+@600018 = ~Wejœcie do kopalni~
+@600019 = ~RzeŸba~
+@600020 = ~Opuszczony dom~
+@600021 = ~Na dó³, na ni¿szy poziom~
+@600022 = ~W górê, na wy¿szy poziom~
+@600023 = ~Wioska Gullykin~
+@600024 = ~Wejœcie do Ruin Firewine~
+@600025 = ~Wrak statku~
+@600026 = ~Opusczona Latarnia~
+@600027 = ~Magazyn~
+@600028 = ~Dom na farmie~
+@600029 = ~Du¿y namiot~
+@600030 = ~Gniazdo paj¹ków~
+@600031 = ~Dom na drzewie~
+@600032 = ~Rzeczna tama~
+@600033 = ~Winda~
+@600034 = ~Porzucona wie¿a~
+@600035 = ~Wejœcie do Wie¿y Durlaga~
+@600036 = ~Wyjœcie z kopalni~
+@600037 = ~Œwi¹tynia Bhaala~
+@600038 = ~Ruiny Ulcaster~
+@600039 = ~Posiad³oœæ Oberona~
+
+////////////////////////////////////////////////////////////////////
+// 2DA Files
+////////////////////////////////////////////////////////////////////
+
+@700000 = ~Rozdzia³ Pierwszy/Prolog:~
+@700005 = ~Rozdzia³ Drugi:~
+@700009 = ~Rozdzia³ Trzeci:~
+@700011 = ~Rozdzia³ Czwarty:~
+@700013 = ~Rozdzia³ Pi¹ty:~
+@700015 = ~Rozdzia³ Szósty:~
+@700017 = ~Rozdzia³ Siódmy:~
+@700019 = ~Rozdzia³ Ósmy:~
+
+@700020 = ~"Ten, który walczy z potworami winien uwa¿aæ by samemu nie staæ siê jednym z nich... kiedy spogl¹dasz w otch³añ, otch³añ patrzy w Ciebie..." -Friedrich Nietzsche~
+@700021 = ~Nie, nie mo¿esz!~
+@700022 = ~Tylko ja zostanê, a ty pójdziesz jako pierwszy.~
+@700023 = ~S¹ inni! Mogê ci ich wskazaæ, proszê, proszê!~
+@700024 = ~Baldur's Gate~
+
+//BGT Credits
+@700037 = ~Baldur's Gate Trilogy Podziêkowania~
+@700038 = ~Mo¿liwoœci w¹tków
+-Bardez
+Zmiany 2DA
+-Bardez
+Konwersja Obszarów
+-Bardez
+Stworzenia
+-Bardez
+Importowanie Dialogów
+-Bardez
+Przerobienie Przedmiotów
+-Bardez
+Skrypty
+-Bardez
+Konwersja Muzyki (Zmiana Nazwy)
+-Bardez
+Poprawki b³êdów lokacji
+-Bardez
+Pomys³
+-Bardez
+Wiêcej skryptów
+-Bardez
+Oryginalnoœæ
+-Nikt
+Upload
+-Bardez
+-chris
+-Saitoh/Kangaxx
+-NotMrT
+-Daxiz's FTP
+Raportoanie b³êdów
+-chaz58
+-D|Rek
+-icelus
+-gandalf
+-Captain Carrot
+-empath3
+Ludzie którzy dra¿nili Bardeza
+-<cenzura>
+-<cenzura>
+Narzedzia wykorzystanie do stworzenia tego moda
+- (Przebijcie DLTCEP!!)
+Number of Times Bardez Gave Up on This MOD
+-2 .... 3
+WeiDU Conversion
+-Ascension64
+-KingDiamond
+Re-development
+-Ascension64
+-KingDiamond
+Menu Screens
+-Waywocket
+-Yacomo
+And now for the fun Stuff
+QUOTES (a la Ultima)
+"I don't think level two characters need level six spells"
+-Bardez, upon first playtest
+"Fuck"
+-Bardez, on many occasions
+"I am so smart, I am so smart, I am so smart"
+-Bardez, upon fixing the Candlekeep flag problem
+"Finally Visual Basic becomes usefu -- no, wait."
+-Bardez, upon creation of TileEdit (first BGT tool)
+"I really wish that bears had a voice for the yogi stuff"
+-Bardez, upon seeing the unused soundset for bears
+"Some spells have changed since BG1.  Heh."
+-Bardez, upon quickload
+"I Fucking Hate Overlays"
+-Bardez, upon converting areas with overlays
+"Y'know, I'd really like to use those MVE's that were wasted in BG"
+-Bardez, noticing the two unused MVEs in Baldur's Gate
+"Bhaal-for-damned overlays"
+-Bardez, frustrated by overlays yet again
+"Just looking at the map makes me realize why the TeamBG community origionally opposed this"
+-Bardez, acknowledging his lack of artistic talent
+"What should I tackle next?"
+-Bardez, 
+"Y'know, modding is so much easier when you have no life."
+-Bardez, late at night (or early in the morning) on Friday on campus
+"I just wanna leave it all dumped in the override folder."
+-Bardez, until noticing that BGT was severely lagging (singleplayer) with all files in the override directory
+"If this is a trilogy shouldn't you include Dark Side of the Sword Coast?"
+-Some random forum user, making a suggestion
+"FUCK DSOTSC!!"
+-Bardez's reaction to the previous
+"Gnolls bother me."
+-Bardez, tired of hacking, whacking, and slashing Gnolls
+"So does Noober."
+-Bardez, upon reaching Nashkel
+"I really should fix that bug...."
+-Bardez, still ignoring a blatant problem
+"When the hell did you figure out that you were a Bhaalspawn, anyways?"
+-Bardez, incorporating Chapter 4
+"I didn't know Elminster spawned there!"
+-Bardez, looing at the Friendly Arm Inn script
+"With 150 gigabytes, I can retrace every step I took with this bitch!"
+-Bardez, having three installs of BG2/BGT
+"Excuse me, now it's "half a terabyte." My bad."
+-Bardez, upon building his new PC
+"I respect DSotSC, I even beat it once, am I summarily apologize for any offense I gave it."
+-Bardez, thinking over his previous comment, and its possilbe offense to the TeamBG community
+"I'm fuckin' tired."
+-Bardez, at 4:00 AM
+"I wish Jolt Cola was still around."
+-Bardez, at 5:00 AM
+"OMG! No Overlays!!"
+-Bardez, converting an area he just opend in IETME, after many, many overlay inclusive areas
+"I JUST WASTED A FUCKING HOUR ON THAT OVERLAY?!?!? AND IT'S FUCKED UP!!?!?!?!?! FFUUUUUUUCCCKK!!!!!!"
+-Bardez, victim of an IETME bug
+"So much damned clicking -- I feel like I'm playing Diablo II."
+-Bardez, converting one of the larger BG1 overlayed areas
+"I'm done... no wait.  I have to check both games.  Entirely. Fuck."
+-Bardez, upon importing all TBG files
+"All this work for nothin' I must wonder where my sanity goes at times..."
+-Bardez, realizing he spent way too much time on this MOD
+"I'm going to have nightmares about overlays."
+-Bardez, frustrated with the abundance of water overlays
+"FUCK TeamBG!! --- Just kidding."
+-Bardez, being random
+"I FORGOT ABOUT THE OVERRIDE FOLDER?? FUCK!"
+-Bardez, noticing that he did not import the BG1 files in the override directory
+"Almost there....."
+-Bardez, almost done with initial conversion
+"Make the bad thing go away."
+-Bardez, encountering a 'bad thing'
+"And then I manually went through every item, dialog, and script to alter them..."
+-Bardez, after replacing BG1 ResRefs with BGT ones
+"I'm a one-man modder with a keyboard and caffiene.  Watch out, now!"
+-Bardez, at 6:00 AM
+"Man, don't I feel shi**y to say that it's on hold due to classes.  I will start up work again (hopefully) in about three weeks..."
+-Bardez, second attempt at abandoning BGT
+"AAAAAHHHHHHHHHH!!!!!!!!!!!!!!!!!!"
+-hlidskialf, in response
+"When BG started to chew up 100 megabytes of memory, I decided it was time for WinBIFF."
+-Bardez, upon noticing that BGT was severely lagging (singlplayer) with all files in the override directory
+"I definitely want to see and/or know more about the tools you needed to make."
+-KenTeamBG, upon announcing BGT
+"The Umber Hulk is screaming like a human female.  That's probably a bad thing."
+-Bardez, noticing the off soundset of Umber Hulks
+"Well, now that I'm into the bug fixing stage, it should all be much easier now."
+-Bardez, making a very erroneous statement
+"Overlays. I FORGOT how to deal with them intentionally. Yet STILL they haunt me!"
+-Bardez, noticing some bad overlay conversions
+"IETME displays thing incorrectly. I MUST learn this FACT."
+-Bardez, frusterated with IETME
+"Hmmm. no tool can do that.  Time to make a new one. Be back in a few days."
+-Bardez, creating WEDitor
+"There's Chat!"
+-Bardez, noticing some actually used his Chatroom to 'chat'
+"I am your father's brother's nephew's cousin's former roommate."
+-Bardez, quoting Spaceballs
+"I will just delete the thing and be done with it too."
+-<censored>, upset that I would not fix things for him, bluffing his deletion of BGT
+"Size will kill this project faster than anything, in terms of distribution."
+-KenTeamBG, showing much wisdom (even though Bardez still rox0rz)
+"BGT!"
+-Many people, looking to download the Baldur's Gate Trilogy
+"That is one change that SUCKS period!"
+-<censored>, upset with one of Bardez's changes to Baldur's Gate
+"It is an idiot change."
+-See above
+"Your opinion. and it doesn't affect me."
+-Bardez, in reply
+"Sure it does, you are the idiot who made it."
+-<censored>, in reply
+"Maybe you shouldn't have deleted the install files until after you made sure your install was succesful :P"
+-chris, criticising a player after they chose to delete the MOD after they (unsuccessfully) installed the MOD
+"U get some real retards in here lol"
+-chris, after seeing numerous stupid people enter #BGT asking numerous stupid questions
+"I found out last night that Christina Aguilera wanted to do me."
+"Then my fucking alarm went off."
+-chris, in #BGT chat
+"Bardez, u here?"
+-Far, far too many people
+"How do I...?"
+-Again, far, far too many people
+"HOW THE FUCK DO I GET ON A QUOTES PAGE BUGGERY?"
+-NotMrT, wanting to get a quote in the Quotes section
+"Would anyone else have the desire to play this MOD/port??"
+-Bardez, announcing BGT
+"Hey chris, what happens if I forget to install VB6 before I run the BGT installation?"
+-Jens, having trouble with installation
+"PC blows up and you get a wierd rash around your anal cavity?"
+-chris, trying to respond
+Baldur's Gate Trilogy was brought to you by Bardez, as a distraction from his "Oh I got dumped, oh boo-the-fuck-hoo" whining.
+Summarily, special thanks go to Joanna Lynn Nelson for dumping Bardez
+Other Special Thanks (not related to relationships or dumping)
+-Bardez
+-KenTeamBG
+-hlidskialf
+-Horred
+-TheoTeamBG
+-Jon Olav Hauglid
+-Gandalf
+-BioWare
+-HardenCoonor for the Worldmap (You rock, dude!)
+-Richard Garriot AKA Lord British. You brought me into RPGs.~
+
+////////////////////////////////////////////////////////////////////
+//dialog.tlk
+////////////////////////////////////////////////////////////////////
+@900000 = ~Wiesz niewiele o tym w jaki sposób dosta³eœ siê pod opiekê Goriona, ale w ci¹gu wielu lat, podczas których dzieli³ siê z tob¹ sk¹pymi informacjami o matce oraz ze s³ów, które wykrzykiwa³ podczas snu, wynika³o, ¿e by³a pó³-orczyc¹ i jego wieloletni¹ przyjació³k¹. Jako ¿e jej nie pamiêtasz ani nikt nie powiedzia³ ci jak odesz³a, przypuszczasz, ¿e umar³a podczas porodu. Byæ mo¿e ból spowodowany jej odejœciem sprawi³, ¿e Gorion, aby go uleczyæ, zabra³ ciê do Candlekeep i wychowywa³ jak swoje dziecko. O swoim ojcu nie wiesz nic.~
+/*NOBW8.DLG - #8435; change last sentence to, 'I shall be here promptly every two days.'*/
+@900001 = ~Co takiego?! Nie jesteœcie lepsi ni¿... Pewnie powinnam ujrzeæ to w waszych oczach, kiedy spotkaliœmy siê po raz pierwszy. Teraz ju¿ wiem, ¿e lepszy jest znany diabe³. Bardzo dobrze, zdaje siê, ¿e nie mam wielkiego wyboru. Bêdê tutaj co dwa dni.~
+/*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
+@900002 = ~Dobrze wiêc. Jestem Delthyr i reprezentujê tych spod znaku harfy. Szukam was ju¿ od wielu tygodni, ale dopiero niedawno odkry³em, ¿e opuœciliœcie miasto. Od waszego wyjazdu wiele siê zmieni³o - jeœli chcecie, opowiem wam wszystko co bêdzie wam potrzebne. Czy wys³uchacie mnie?~
+
+@900037 = ~Wprowadzenie Wrota Baldura~
+@900038 = ~Wprowadzenie Cienie Amn~
+@900039 = ~Cienie Amn~
+@900040 = ~Wciœnij 'Cienie Amn' aby omin¹æ Baldur's Gate I i rozpocz¹æ now¹ przygodê w Baldur's Gate II:Cienie Amn.
+
+Jeœli chcesz zagraæ w Baldur's Gate I wciœnij Anuluj, a nastêpnie Nowa Gra.~
+@900042 = ~Baldur's Gate~
+
+//Shadows of Amn description button text
+
+@900043 = ~"Tortured Souls"~
+@900044 = ~"The Darkest Day"~
+@900045 = ~"Shadows Over Soubar"~
+@900046 = ~"Neverending Journey"~
+@900047 = ~"Region of Terror"~
+@900048 = ~"Big Picture"~
+@900049 = ~"Check The Bodies"~
+@900050 = ~Graj~
+@900051 = ~Cienie Amn<TM>~
+@900052 = ~ Baldur's Gate<TM> i Opowieœci z Wybrze¿a Mieczy<TM> lub graj ~
+@900053 = ~ z nowymi dodatkami:~
+
+//End Shadows of Amn description button text
+
+////////////////////////////////////////////////////////////////////
+//EndOfFile
+////////////////////////////////////////////////////////////////////

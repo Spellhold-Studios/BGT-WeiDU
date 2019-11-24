@@ -1,0 +1,42 @@
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("GregorSpawn","GLOBAL",0)
+  !Exists("GREGOR")
+THEN
+  RESPONSE #100
+    CreateCreature("GREGOR",[619.350],0)
+    SetGlobal("GregorSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("TralitSpawn","GLOBAL",0)
+  !Exists("TRALITHAN")
+THEN
+  RESPONSE #100
+    CreateCreature("TRALIT",[774.948],0)
+    SetGlobal("TralitSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("GREGOR")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("GREGOR",DestroySelf())
+END
+
+IF
+  Exists("TRALITHAN")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("TRALITHAN",DestroySelf())
+END
+

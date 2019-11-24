@@ -1,0 +1,838 @@
+///////////////////////////////////////////////////
+//        Add new spawn groups to the game       //
+///////////////////////////////////////////////////
+
+SILENT //hides hundreds of "Appending to files column-wise"
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG000  80 SKELET_A  SKELET_B  *  *  *  *  *  *~ UNLESS ~RDBG000~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG000A  80 SKELET_A  SKELET_B  SKELET_B  SKELET_B  *  *  *  *~ UNLESS ~RDBG000A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG000B  80 SKELET_A  SKELET_B  SKELET_A  SKELET_A  SKELET_A  *  *  *~ UNLESS ~RDBG000B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG000C  80 SKELET_A  SKELET_B  SKELET_A  SKELET_A  SKELET_B  SKELET_B  *  *~ UNLESS ~RDBG000C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG001  80 DOGWI  DOGWA  GNOLL_A  GNOLL_A  GNOLL_B  *  *  *~ UNLESS ~RDBG001~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG001A  80 DOGWI  DOGWA  GNOLL  BEARCA  GNOLL_B  GNOLL_A  *  *~ UNLESS ~RDBG001A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG001B  80 DOGWI  DOGWI  GNOLL  DOGWI  *  *  *  *~ UNLESS ~RDBG001B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG001C  80 GNOLL_A  GNOLL_A  GNOLL  GNOLL_B  *  *  *  *~ UNLESS ~RDBG001C~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG001D  80 DOGWI  DOGWA  GNOLL  BEARCA  *  *  *  *~ UNLESS ~RDBG001D~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG001E  80 DOGWI  DOGWA  DOGWA  DOGWA  GNOLL_B  *  *  *~ UNLESS ~RDBG001E~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG001F  80 BEARCA  DOGWA  GNOLL  GNOLL_B  *  *  *  *~ UNLESS ~RDBG001F~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG002  80 GNOLL  BGWOLF  GNOLL_A  GNOLL_B  GNOLL_D  *  *  *~ UNLESS ~RDBG002~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG002A  80 GNOLL_D  BGWOLF  GNOLL_B  GNOLL_B  *  *  *  *~ UNLESS ~RDBG002A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG002B  80 GNOLL  GNOLL_D  GNOLL_A  GNOLL_B  GNOLL_D  *  *  *~ UNLESS ~RDBG002B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG002C  80 BGWOLF  BGWOLF  GNOLL_A  *  *  *  *  *~ UNLESS ~RDBG002C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG003  80 GNOLL  BEARBR  BEARCA  GNOLL_B  *  *  *  *~ UNLESS ~RDBG003~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG003A  80 GNOLL_B  GNOLL_B  GNOLL  GNOLL_B  *  *  *  *~ UNLESS ~RDBG003A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG003B  80 GNOLL  GNOLL_B  *  *  *  *  *  *~ UNLESS ~RDBG003B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG003C  80 BEARBR  BEARCA  *  *  *  *  *  *~ UNLESS ~RDBG003C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG004  80 GHOUL  GHAST  *  *  *  *  *  *~ UNLESS ~RDBG004~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG005  80 GNOLL  BEARBL  BEARCA  FLIND  FLIND  SKELET_A  *  *~ UNLESS ~RDBG005~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG005A  80 GNOLL  GNOLL  SKELET_A  GNOLL  FLIND  SKELET_A  *  *~ UNLESS ~RDBG005A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG005B  80 GNOLL  GNOLL  GNOLL  FLIND  *  *  *  *~ UNLESS ~RDBG005B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG005C  80 GNOLL  BEARBL  BEARCA  FLIND  FLIND  *  *  *~ UNLESS ~RDBG005C~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG005D  80 BEARCA  BEARBL  FLIND  FLIND  *  *  *  *~ UNLESS ~RDBG005D~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG005E  80 GNOLL  SKELET_A  SKELET_A  FLIND  SKELET_A  SKELET_A  *  *~ UNLESS ~RDBG005E~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG006  80 GNOLL  GNOLL  OGREGR  OGRE  OGREBERZ  *  *  *~ UNLESS ~RDBG006~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG006A  80 GNOLL  GNOLL  GNOLL  GNOLL  OGREGR  *  *  *~ UNLESS ~RDBG006A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG006B  80 OGREBERZ  GNOLL  OGREGR  *  *  *  *  *~ UNLESS ~RDBG006B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG006C  80 GNOLL  GNOLL  OGREGR  OGRE  *  *  *  *~ UNLESS ~RDBG006C~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG006D  80 OGREBERZ  GNOLL  GNOLL  *  *  *  *  *~ UNLESS ~RDBG006D~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG007  80 GNOLL  OGREGR  OGRE  OGREBERZ  *  *  *  *~ UNLESS ~RDBG007~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG007A  80 GNOLL  OGREGR  GNOLL  GNOLL  *  *  *  *~ UNLESS ~RDBG007A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG007B  80 OGREBERZ  OGRE  *  *  *  *  *  *~ UNLESS ~RDBG007B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG008  80 DOGWI  DOGWA  *  *  *  *  *  *~ UNLESS ~RDBG008~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG008A  80 DOGWI  DOGWA  DOGWI  *  *  *  *  *~ UNLESS ~RDBG008A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG008B  80 DOGWI  DOGWA  DOGWI  DOGWI  *  *  *  *~ UNLESS ~RDBG008B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG008C  80 DOGWI  DOGWA  DOGWI  DOGWA  *  *  *  *~ UNLESS ~RDBG008C~
+
+//**********************************************************
+//[AR3200.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG009  80 KOBOLD_D  HOBGOB_C  *  *  *  *  *  *~ UNLESS ~RDBG009~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG009A  80 KOBOLD_D  HOBGOB_C  KOBOLD_D  *  *  *  *  *~ UNLESS ~RDBG009A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG010  80 HOBGOB_D  KOBOLD_E  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG010~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG010A  80 KOBOLD_E  KOBOLD_E  HOBELITE  KOBOLD_E  *  *  *  *~ UNLESS ~RDBG010A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG010B  80 HOBGOB_D  HOBGOB_D  HOBGOB_D  *  *  *  *  *~ UNLESS ~RDBG010B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG011  80 KOBOLD_D  KOBOLA_C  BANDIT  *  *  *  *  *~ UNLESS ~RDBG011~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG011A  80 BANDIT  KOBOLA_C  BANDIT  *  *  *  *  *~ UNLESS ~RDBG011A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG011B  80 KOBOLD_D  KOBOLD_D  KOBOLD_D  KOBOLA_C  *  *  *  *~ UNLESS ~RDBG011B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG012  80 BANDIT  BANDIT  KOBOLD  WOLFVA  *  *  *  *~ UNLESS ~RDBG012~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG012A  80 BANDIT  BANDIT  KOBOLD  *  *  *  *  *~ UNLESS ~RDBG012A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG012B  80 WOLFVA  BANDIT  KOBOLD  *  *  *  *  *~ UNLESS ~RDBG012B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG012C  80 BANDIT  KOBOLD  KOBOLD  KOBOLD  *  *  *  *~ UNLESS ~RDBG012C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG013  80 HOBGOB_A  GHOUL  *  *  *  *  *  *~ UNLESS ~RDBG013~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG013A  80 HOBGOB_A  HOBGOB_A  HOBGOB_A  *  *  *  *  *~ UNLESS ~RDBG013A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG014  80 KOBOLA_D  GIBBER  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG014~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG014A  80 KOBOLA_D  GIBBER  GIBBER  GIBBER  *  *  *  *~ UNLESS ~RDBG014A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG014B  80 HOBELITE  HOBELITE  *  *  *  *  *  *~ UNLESS ~RDBG014B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG015  80 BANDIT  GIBBER  *  *  *  *  *  *~ UNLESS ~RDBG015~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG015A  80 BANDIT  GIBBER  GIBBER  *  *  *  *  *~ UNLESS ~RDBG015A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG015B  80 GIBBER  GIBBER  GIBBER  GIBBER  *  *  *  *~ UNLESS ~RDBG015B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG016  80 HOBGOA_D  GIBBER  WOLFVA  *  *  *  *  *~ UNLESS ~RDBG016~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG016A  80 HOBGOA_D  GIBBER  GIBBER  GIBBER  *  *  *  *~ UNLESS ~RDBG016A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG016B  80 WOLFVA  GIBBER  *  *  *  *  *  *~ UNLESS ~RDBG016B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG016C  80 HOBGOA_D  WOLFVA  *  *  *  *  *  *~ UNLESS ~RDBG016C~
+
+//**********************************************************
+//[AR3300.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG017  80 KOBOLD_C  OGREGR  OGRE  *  *  *  *  *~ UNLESS ~RDBG017~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG017A  80 KOBOLD_C  OGREGR  KOBOLD_C  KOBOLD_C  *  *  *  *~ UNLESS ~RDBG017A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG017B  80 OGRE  OGREGR  *  *  *  *  *  *~ UNLESS ~RDBG017B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG018  80 KOBOLA_C  KOBOLD_D  OGREGR  KOBCOMM  *  *  *  *~ UNLESS ~RDBG018~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG018A  80 KOBOLA_C  KOBOLD_D  KOBOLA_C  KOBOLA_C  KOBOLD_D  *  *  *~ UNLESS ~RDBG018A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG018B  80 OGREGR  KOBOLD_D  KOBOLD_D  *  *  *  *  *~ UNLESS ~RDBG018B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG018C  80 KOBCOMM  KOBCOMM  *  *  *  *  *  *~ UNLESS ~RDBG018C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG019  80 BGWOLF  OGRE  OGREBERZ  *  *  *  *  *~ UNLESS ~RDBG019~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG019A  80 BGWOLF  OGRE  *  *  *  *  *  *~ UNLESS ~RDBG019A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG019B  80 OGREBERZ  BGWOLF  *  *  *  *  *  *~ UNLESS ~RDBG019B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG020  80 BGWOLF  WOLFDI  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG020~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG020A  80 BGWOLF  WOLFDI  *  *  *  *  *  *~ UNLESS ~RDBG020A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG020B  80 BGWOLF  WOLFDI  BGWOLF  *  *  *  *  *~ UNLESS ~RDBG020B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG021  80 XVART_B  BGWOLF  *  *  *  *  *  *~ UNLESS ~RDBG021~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG021A  80 XVART_B  XVART_B  XVART_B  XVART_B  *  *  *  *~ UNLESS ~RDBG021A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG022  80 XVART  KOBOLD_D  OGREGR  OGRE  OGREBERZ  *  *  *~ UNLESS ~RDBG022~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG022A  80 XVART  OGRE  OGREGR  *  *  *  *  *~ UNLESS ~RDBG022A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG022B  80 XVART  KOBOLD_D  KOBOLD_D  OGRE  KOBOLD_D  *  *  *~ UNLESS ~RDBG022B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG022C  80 XVART  KOBOLD_D  XVART  XVART  OGREBERZ  XVART  *  *~ UNLESS ~RDBG022C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG023  80 KOBOLA_D  OGREGR  OGRE  OGREMA  *  *  *  *~ UNLESS ~RDBG023~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG023A  80 KOBOLA_D  OGREGR  OGREGR  *  *  *  *  *~ UNLESS ~RDBG023A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG023B  80 KOBOLA_D  OGREGR  OGRE  *  *  *  *  *~ UNLESS ~RDBG023B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG023C  80 KOBOLA_D  KOBOLA_D  KOBOLA_D  OGREMA  *  *  *  *~ UNLESS ~RDBG023C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG024  80 BGWOLF  WOLFDR  OGREGR  OGREBERZ  *  *  *  *~ UNLESS ~RDBG024~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG024A  80 WOLFDR  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG024A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG024B  80 BGWOLF  OGREBERZ  OGREGR  *  *  *  *  *~ UNLESS ~RDBG024B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG025  80 BEARBL  BEARBR  BEARCA  *  *  *  *  *~ UNLESS ~RDBG025~
+
+//**********************************************************
+//[AR3400.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG026  80 ZOMBIE_A  ZOMBIE_C  SKELET_A  SKELET_C  *  *  *  *~ UNLESS ~RDBG026~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG027  80 SKELET_C  SKELET_B  ZOMBIE_D  *  *  *  *  *~ UNLESS ~RDBG027~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG028  80 ZOMBIE_B  ZOMBIE_A  SKELET_B  SKELET_C  *  *  *  *~ UNLESS ~RDBG028~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG029  80 DOGWI  DOGWA  KOBOLA_C  *  *  *  *  *~ UNLESS ~RDBG029~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG030  80 KOBOLA_E  KOBOLA_C  KOBOLD_D  *  *  *  *  *~ UNLESS ~RDBG030~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG031  80 KOBOLD_C  KOBOLA_C  KOBOLA_E  KOBCOMM  *  *  *  *~ UNLESS ~RDBG031~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG032  80 KOBOLA_B  *  *  *  *  *  *  *~ UNLESS ~RDBG032~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG033  80 SKELET_C  SKELET_B  ZOMBIE_E  ZOMBIE_A  *  *  *  *~ UNLESS ~RDBG033~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG034  80 ZOMBIE_D  ZOMBIE_A  SKELET_C  SKELET_B  SKELET_A  *  *  *~ UNLESS ~RDBG034~
+
+//**********************************************************
+//[AR3401.are]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG035  80 KOBCOMM  *  *  *  *  *  *  *~ UNLESS ~RDBG035~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG035A  80 KOBCOMM  KOBCOMM  *  *  *  *  *  *~ UNLESS ~RDBG035A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG035B  80 KOBCOMM  KOBCOMM  KOBCOMM  *  *  *  *  *~ UNLESS ~RDBG035B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG035C  80 KOBCOMM  KOBCOMM  KOBCOMM  KOBCOMM  *  *  *  *~ UNLESS ~RDBG035C~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG035D  80 KOBCOMM  KOBCOMM  KOBCOMM  KOBCOMM  KOBCOMM  *  *  *~ UNLESS ~RDBG035D~
+
+//**********************************************************
+//[AR3498.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG036  80 XVART_A  *  *  *  *  *  *  *~ UNLESS ~RDBG036~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG036A  80 XVART_A  XVART_A  *  *  *  *  *  *~ UNLESS ~RDBG036A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG036B  80 XVART_A  XVART_A  XVART_A  XVART_A  *  *  *  *~ UNLESS ~RDBG036B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG037  80 XVART_B  *  *  *  *  *  *  *~ UNLESS ~RDBG037~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG037A  80 XVART_B  XVART_B  XVART_B  *  *  *  *  *~ UNLESS ~RDBG037A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG037B  80 XVART_B  XVART_B  XVART_B  XVART_B  *  *  *  *~ UNLESS ~RDBG037B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG038  80 XVART_C  *  *  *  *  *  *  *~ UNLESS ~RDBG038~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG038A  80 XVART_C  XVART_C  *  *  *  *  *  *~ UNLESS ~RDBG038A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG038B  80 XVART_C  XVART_C  XVART_C  XVART_C  *  *  *  *~ UNLESS ~RDBG038B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG039  80 XVART  BGWOLF  BGWOLF  WOLFDI  *  *  *  *~ UNLESS ~RDBG039~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG039A  80 WOLFDI  BGWOLF  XVART  XVART  *  *  *  *~ UNLESS ~RDBG039A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG039B  80 XVART  WOLFDI  *  *  *  *  *  *~ UNLESS ~RDBG039B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG040  80 BGWOLF  *  *  *  *  *  *  *~ UNLESS ~RDBG040~
+
+//**********************************************************
+//[AR3499.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG041  80 GIBBER  OGREGR  OGRE  OGREBERZ  *  *  *  *~ UNLESS ~RDBG041~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG041A  80 GIBBER  OGREGR  GIBBER  OGREGR  *  *  *  *~ UNLESS ~RDBG041A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG041B  80 OGREBERZ  GIBBER  OGRE  *  *  *  *  *~ UNLESS ~RDBG041B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG041C  80 GIBBER  OGREGR  OGRE  GIBBER  *  *  *  *~ UNLESS ~RDBG041C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG042  80 DOGWI  DOGWA  GIBBER  OGRE  OGREBERZ  *  *  *~ UNLESS ~RDBG042~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG042A  80 GIBBER  DOGWA  GIBBER  OGRE  *  *  *  *~ UNLESS ~RDBG042A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG042B  80 DOGWI  OGRE  GIBBER  DOGWA  DOGWA  *  *  *~ UNLESS ~RDBG042B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG042C  80 OGREBERZ  DOGWA  DOGWI  DOGWA  *  *  *  *~ UNLESS ~RDBG042C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG043  80 HOBGOB_C  OGREGR  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG043~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG043A  80 HOBGOB_C  HOBELITE  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG043A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG043B  80 HOBGOB_C  HOBELITE  HOBELITE  HOBGOB_C  *  *  *  *~ UNLESS ~RDBG043B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG044  80 GIBBER  DOGWI  HOBGOB_D  HOBELITE  *  *  *  *~ UNLESS ~RDBG044~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG044A  80 DOGWI  DOGWI  HOBGOB_D  HOBELITE  *  *  *  *~ UNLESS ~RDBG044A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG044B  80 GIBBER  HOBELITE  HOBGOB_D  *  *  *  *  *~ UNLESS ~RDBG044B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG045  80 DOGWA  GIBBER  OGREGR  OGREBERZ  *  *  *  *~ UNLESS ~RDBG045~
+
+//**********************************************************
+//[AR3800.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG046  80 KOBOLD_D  KOBOLD_B  KOBOLD_A  *  *  *  *  *~ UNLESS ~RDBG046~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG047  80 KOBOLD_C  KOBOLD_E  OGREBERZ  *  *  *  *  *~ UNLESS ~RDBG047~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG048  80 KOBOLD_E  KOBOLD_B  KOBOLA_C  *  *  *  *  *~ UNLESS ~RDBG048~
+
+//**********************************************************
+//[AR3900.are]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG049  80 GNOLL  DOGWA  DOGWI  ANKHEG  *  *  *  *~ UNLESS ~RDBG049~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG049A  80 GNOLL  DOGWA  DOGWI  GNOLL  DOGWA  *  *  *~ UNLESS ~RDBG049A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG049B  80 ANKHEG  DOGWA  DOGWI  *  *  *  *  *~ UNLESS ~RDBG049B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG050  80 DOGWI  DOGWA  KOBOLD_E  *  *  *  *  *~ UNLESS ~RDBG050~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG051  80 GNOLL  DOGWI  GIBBER  OGREGR  *  *  *  *~ UNLESS ~RDBG051~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG052  80 GNOLL  DOGWI  DOGWA  FLIND  *  *  *  *~ UNLESS ~RDBG052~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG053  80 DOGWI  KOBOLD  ANKHEG  *  *  *  *  *~ UNLESS ~RDBG053~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG053A  80 DOGWI  KOBOLD  KOBOLD  KOBOLD  KOBOLD  *  *  *~ UNLESS ~RDBG053A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG053B  80 DOGWI  KOBOLD  DOGWI  DOGWI  *  *  *  *~ UNLESS ~RDBG053B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG054  80 SKELET_A  SKELET_B  SKELET_C  *  *  *  *  *~ UNLESS ~RDBG054~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG055  80 GNOLL  OGREGR  OGREBERZ  *  *  *  *  *~ UNLESS ~RDBG055~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG056  80 SKELET_C  SKELET_B  SKELET_A  *  *  *  *  *~ UNLESS ~RDBG056~
+
+//**********************************************************
+//[AR4100.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG057  80 XVART_A  XVART_B  *  *  *  *  *  *~ UNLESS ~RDBG057~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG057A  80 XVART_A  XVART_B  XVART_B  *  *  *  *  *~ UNLESS ~RDBG057A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG057B  80 XVART_A  XVART_B  XVART_A  XVART_A  *  *  *  *~ UNLESS ~RDBG057B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG058  80 XVART_C  XVART_A  GNOLL  *  *  *  *  *~ UNLESS ~RDBG058~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG058A  80 XVART_C  GNOLL  GNOLL  *  *  *  *  *~ UNLESS ~RDBG058A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG058B  80 XVART_C  XVART_A  GNOLL  XVART_C  XVART_C  *  *  *~ UNLESS ~RDBG058B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG059  80 XVART  GNOLL  *  *  *  *  *  *~ UNLESS ~RDBG059~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG059A  80 XVART  GNOLL  GNOLL  *  *  *  *  *~ UNLESS ~RDBG059A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG059B  80 XVART  XVART  XVART  XVART  *  *  *  *~ UNLESS ~RDBG059B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG060  80 GNOLL  XVART  GNOLL_D  *  *  *  *  *~ UNLESS ~RDBG060~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG060A  80 GNOLL  XVART  GNOLL_D  GNOLL_D  *  *  *  *~ UNLESS ~RDBG060A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG060B  80 GNOLL  GNOLL  GNOLL_D  GNOLL  XVART  *  *  *~ UNLESS ~RDBG060B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG061  80 GNOLL  GNOLL_A  *  *  *  *  *  *~ UNLESS ~RDBG061~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG061A  80 GNOLL  GNOLL_A  GNOLL  *  *  *  *  *~ UNLESS ~RDBG061A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG061B  80 GNOLL_A  GNOLL_A  GNOLL_A  GNOLL_A  *  *  *  *~ UNLESS ~RDBG061B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG062  80 GNOLL  XVART_C  GNOLL_D  *  *  *  *  *~ UNLESS ~RDBG062~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG062A  80 GNOLL  XVART_C  GNOLL_D  GNOLL  XVART_C  *  *  *~ UNLESS ~RDBG062A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG062B  80 GNOLL  XVART_C  GNOLL_D  GNOLL_D  XVART_C  *  *  *~ UNLESS ~RDBG062B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG063  80 GNOLL  GNOLL_D  GNOLL_A  *  *  *  *  *~ UNLESS ~RDBG063~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG063A  80 GNOLL  GNOLL_D  GNOLL_A  GNOLL_D  GNOLL_A  *  *  *~ UNLESS ~RDBG063A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG064  80 XVART_A  XVART_B  GNOLL  GNOLL_A  *  *  *  *~ UNLESS ~RDBG064~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG065  80 XVART  *  *  *  *  *  *  *~ UNLESS ~RDBG065~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG065A  80 XVART  XVART  *  *  *  *  *  *~ UNLESS ~RDBG065A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG065B  80 XVART  XVART  XVART  XVART  *  *  *  *~ UNLESS ~RDBG065B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG066  80 GNOLL_E  GNOLL_E  *  *  *  *  *  *~ UNLESS ~RDBG066~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG066A  80 GNOLL_E  GNOLL_E  GNOLL_E  GNOLL_E  *  *  *  *~ UNLESS ~RDBG066A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG066B  80 GNOLL_E  GNOLL_E  GNOLL_E  GNOLL_E  *  *  *  *~ UNLESS ~RDBG066B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG066C  80 GNOLL_E  GNOLL_E  GNOLL_E  GNOLL_E  GNOLL_E  *  *  *~ UNLESS ~RDBG066C~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG066D  80 GNOLL_E  GNOLL_E  GNOLL_E  GNOLL_E  GNOLL_E  GNOLL_E  *  *~ UNLESS ~RDBG066D~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG067  80 GNOLL  GNOLL_A  GNOLL_D  *  *  *  *  *~ UNLESS ~RDBG067~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG067A  80 GNOLL  GNOLL_A  GNOLL_D  GNOLL  *  *  *  *~ UNLESS ~RDBG067A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG067B  80 GNOLL  GNOLL_A  GNOLL_D  GNOLL_E  *  *  *  *~ UNLESS ~RDBG067B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG068  80 GNOLL_A  GNOLL_E  *  *  *  *  *  *~ UNLESS ~RDBG068~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG068A  80 GNOLL_A  GNOLL_A  GNOLL_E  *  *  *  *  *~ UNLESS ~RDBG068A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG068B  80 GNOLL_A  GNOLL_A  GNOLL_A  *  *  *  *  *~ UNLESS ~RDBG068B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG068C  80 GNOLL_A  GNOLL_A  GNOLL_A  GNOLL_A  GNOLL_A  *  *  *~ UNLESS ~RDBG068C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG069  80 GNOLL  *  *  *  *  *  *  *~ UNLESS ~RDBG069~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG069A  80 GNOLL  GNOLL  *  *  *  *  *  *~ UNLESS ~RDBG069A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG069B  80 GNOLL  GNOLL  GNOLL  GNOLL  *  *  *  *~ UNLESS ~RDBG069B~
+
+//**********************************************************
+//[AR4200.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG070  80 XVART_B  GNOLL  WOLFWI  *  *  *  *  *~ UNLESS ~RDBG070~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG070A  80 XVART_B  GNOLL  XVART_B  XVART_B  *  *  *  *~ UNLESS ~RDBG070A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG070B  80 WOLFWI  GNOLL  *  *  *  *  *  *~ UNLESS ~RDBG070B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG070C  80 XVART_B  GNOLL  GNOLL  XVART_B  GNOLL  GNOLL  *  *~ UNLESS ~RDBG070C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG071  80 GNOLL  WOLFDR  WOLFWI  BEARBR  *  *  *  *~ UNLESS ~RDBG071~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG071A  80 WOLFWI  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG071A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG071B  80 GNOLL  GNOLL  GNOLL  GNOLL  *  *  *  *~ UNLESS ~RDBG071B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG071C  80 GNOLL  WOLFDR  GNOLL  *  *  *  *  *~ UNLESS ~RDBG071C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG072  80 XVART  XVART_C  BEARCA  *  *  *  *  *~ UNLESS ~RDBG072~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG072A  80 XVART  XVART_C  XVART_C  XVART_C  *  *  *  *~ UNLESS ~RDBG072A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG072B  80 XVART  XVART_C  XVART_C  XVART  XVART  *  *  *~ UNLESS ~RDBG072B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG073  80 BGWOLF  BEARCA  *  *  *  *  *  *~ UNLESS ~RDBG073~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG074  80 GNOLL  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG074~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG075  80 XVART  GNOLL  WOLFWI  *  *  *  *  *~ UNLESS ~RDBG075~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG076  80 BGWOLF  WOLFWI  WOLFWI  *  *  *  *  *~ UNLESS ~RDBG076~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG077  80 GNOLL  BEARCA  *  *  *  *  *  *~ UNLESS ~RDBG077~
+
+//**********************************************************
+//[AR4300.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG078  80 XVART  XVART_B  SKELET_A  WOLFWI  *  *  *  *~ UNLESS ~RDBG078~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG079  80 KOBOLA_C  XVART_A  WOLFWI  *  *  *  *  *~ UNLESS ~RDBG079~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG080  80 SKELET_B  BEARCA  *  *  *  *  *  *~ UNLESS ~RDBG080~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG080A  80 SKELET_B  SKELET_B  SKELET_B  SKELET_B  *  *  *  *~ UNLESS ~RDBG080A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG081  80 KOBOLA_E  XVART  *  *  *  *  *  *~ UNLESS ~RDBG081~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG081A  80 KOBOLA_E  XVART  KOBOLA_E  KOBOLA_E  *  *  *  *~ UNLESS ~RDBG081A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG081B  80 KOBOLA_E  XVART  XVART  KOBOLA_E  XVART  *  *  *~ UNLESS ~RDBG081B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG082  80 XVART  WOLFWI  *  *  *  *  *  *~ UNLESS ~RDBG082~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG082A  80 XVART  XVART  XVART  XVART  XVART  *  *  *~ UNLESS ~RDBG082A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG082B  80 XVART  WOLFWI  WOLFWI  XVART  *  *  *  *~ UNLESS ~RDBG082B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG083  80 XVART  SKELET_C  *  *  *  *  *  *~ UNLESS ~RDBG083~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG083A  80 XVART  SKELET_C  SKELET_C  SKELET_C  *  *  *  *~ UNLESS ~RDBG083A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG083B  80 XVART  SKELET_C  SKELET_C  XVART  XVART  XVART  *  *~ UNLESS ~RDBG083B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG084  80 KOBOLA_D  BEARCA  *  *  *  *  *  *~ UNLESS ~RDBG084~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG084A  80 KOBOLA_D  BEARCA  KOBOLA_D  *  *  *  *  *~ UNLESS ~RDBG084A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG084B  80 KOBOLA_D  KOBOLA_D  KOBOLA_D  KOBOLA_D  KOBOLA_D  KOBOLA_D  *  *~ UNLESS ~RDBG084B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG085  80 XVART_C  XVART_B  SKELET_C  KOBCOMM  SKELET_B  SKELET_C  *  *~ UNLESS ~RDBG085~
+
+//**********************************************************
+//[AR4400.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG086  80 KOBOLD_C  BGWOLF  *  *  *  *  *  *~ UNLESS ~RDBG086~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG087  80 KOBOLD  XVART  WOLFWI  *  *  *  *  *~ UNLESS ~RDBG087~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG088  80 KOBOLA_D  GIBBER  WOLFWI  *  *  *  *  *~ UNLESS ~RDBG088~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG089  80 KOBOLD_C  BEARCA  *  *  *  *  *  *~ UNLESS ~RDBG089~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG090  80 BGWOLF  WOLFWI  *  *  *  *  *  *~ UNLESS ~RDBG090~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG091  80 BGWOLF  KOBOLD_E  BEARCA  *  *  *  *  *~ UNLESS ~RDBG091~
+
+//**********************************************************
+//[AR4600.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG092  80 GIBBER  *  *  *  *  *  *  *~ UNLESS ~RDBG092~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG092A  80 GIBBER  GIBBER  GIBBER  GIBBER  *  *  *  *~ UNLESS ~RDBG092A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG092B  80 GIBBER  GIBBER  GIBBER  GIBBER  GIBBER  *  *  *~ UNLESS ~RDBG092B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG092C 80 GIBBER  GIBBER  GIBBER  GIBBER  GIBBER  GIBBER  GIBBER  GIBBER ~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG093  80 GIBBER  BEARCA  *  *  *  *  *  *~ UNLESS ~RDBG093~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG094  80 WOLFDI  WOLFWI  WOLFWI  *  *  *  *  *~ UNLESS ~RDBG094~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG094A  80 WOLFDI  WOLFWI  *  *  *  *  *  *~ UNLESS ~RDBG094A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG094B  80 WOLFDI  WOLFDI  WOLFDI  *  *  *  *  *~ UNLESS ~RDBG094B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG095  80 DOGWI  DOGWA  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG095~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG095A  80 DOGWI  DOGWA  DOGWI  DOGWI  DOGWA  *  *  *~ UNLESS ~RDBG095A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG095B  80 WOLFDR  DOGWA  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG095B~
+
+//**********************************************************
+//[AR6519.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG096  80 SKELET_C  *  *  *  *  *  *  *~ UNLESS ~RDBG096~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG096A  80 SKELET_C  SKELET_C  SKELET_C  *  *  *  *  *~ UNLESS ~RDBG096A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG096B  80 SKELET_C  SKELET_C  SKELET_C  SKELET_C  *  *  *  *~ UNLESS ~RDBG096B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG096C  80 SKELET_C  SKELET_C  SKELET_C  SKELET_C  SKELET_C  SKELET_C  *  *~ UNLESS ~RDBG096C~
+
+//**********************************************************
+//[AR6600.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG097  80 GIBBER2  *  *  *  *  *  *  *~ UNLESS ~RDBG097~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG097A  80 GIBBER2  GIBBER2  *  *  *  *  *  *~ UNLESS ~RDBG097A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG098  80 GIBBER2  BGWOLF  *  *  *  *  *  *~ UNLESS ~RDBG098~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG098A  80 GIBBER2  GIBBER2  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG098A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG099  80 WOLFDI  *  *  *  *  *  *  *~ UNLESS ~RDBG099~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG099A  80 BGWOLF  WOLFDI  *  *  *  *  *  *~ UNLESS ~RDBG099A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG100  80 BEARBL  *  *  *  *  *  *  *~ UNLESS ~RDBG100~
+
+//**********************************************************
+//[AR6900.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG101  80 GIBBER2  BGWOLF  *  *  *  *  *  *~ UNLESS ~RDBG101~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG102  80 GIBBER2  XVART  *  *  *  *  *  *~ UNLESS ~RDBG102~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG103  80 BGWOLF  XVART  WOLFDI  *  *  *  *  *~ UNLESS ~RDBG103~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG104  80 BGWOLF  XVART  GIBBER  *  *  *  *  *~ UNLESS ~RDBG104~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG105  80 XVART  BGWOLF  XVART  WOLFDR  *  *  *  *~ UNLESS ~RDBG105~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG106  80 KOBOLDA  GIBBER  *  *  *  *  *  *~ UNLESS ~RDBG106~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG107  80 GIBBER2  XVART_A  *  *  *  *  *  *~ UNLESS ~RDBG107~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG108  80 XVART  GIBBER  GIBBER2  *  *  *  *  *~ UNLESS ~RDBG108~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG109  80 BGWOLF  BGWOLF  WOLFDI  *  *  *  *  *~ UNLESS ~RDBG109~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG110  80 GIBBER  BANDIT  *  *  *  *  *  *~ UNLESS ~RDBG110~
+
+//**********************************************************
+//[AR7000.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG111  80 TASLOI  BGWOLF  SPIDHU  *  *  *  *  *~ UNLESS ~RDBG111~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG111A  80 TASLOI  BGWOLF  TASLOI  TASLOI  TASLOI  *  *  *~ UNLESS ~RDBG111A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG111B  80 SPIDHU  TASLOI  TASLOI  *  *  *  *  *~ UNLESS ~RDBG111B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG112  80 SPIDHU  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG112~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG112A  80 WOLFDR  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG112A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG113  80 BEARBR  BEARBL  WORG  WOLFDR  *  *  *  *~ UNLESS ~RDBG113~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG113A  80 WORG  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG113A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG113B  80 WORG  WORG  *  *  *  *  *  *~ UNLESS ~RDBG113B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG114  80 TASLOI  WORG  SPIDHU  *  *  *  *  *~ UNLESS ~RDBG114~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG114A  80 SPIDHU  SPIDHU  *  *  *  *  *  *~ UNLESS ~RDBG114A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG114B  80 SPIDHU  WORG  *  *  *  *  *  *~ UNLESS ~RDBG114B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG115  80 OGREGR  SPIDHU  TASLOI  *  *  *  *  *~ UNLESS ~RDBG115~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG115A  80 OGREGR  TASLOI  TASLOI  TASLOI  *  *  *  *~ UNLESS ~RDBG115A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG115B  80 OGREGR  OGREGR  TASLOI  TASLOI  *  *  *  *~ UNLESS ~RDBG115B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG116  80 BEARBL  BEARCA  BGWOLF  WORG  *  *  *  *~ UNLESS ~RDBG116~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG116A  80 BGWOLF  WORG  *  *  *  *  *  *~ UNLESS ~RDBG116A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG117  80 TASLOI  BGWOLF  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG117~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG118  80 TASLOI  SPIDHU  *  *  *  *  *  *~ UNLESS ~RDBG118~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG119  80 WOLFDR  TASLOI  SPIDHU  *  *  *  *  *~ UNLESS ~RDBG119~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG120  80 BGWOLF  XVART  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG120~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG120A  80 BGWOLF  XVART  BGWOLF  XVART  *  *  *  *~ UNLESS ~RDBG120A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG120B  80 BGWOLF  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG120B~
+
+//**********************************************************
+//[AR7100.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG121  80 SKELETS  *  *  *  *  *  *  *~ UNLESS ~RDBG121~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG121A  80 SKELETS  SKELETS  SKELETS  *  *  *  *  *~ UNLESS ~RDBG121A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG121B  80 SKELETS  SKELETS  SKELETS  SKELETS  *  *  *  *~ UNLESS ~RDBG121B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG121C  80 SKELETS  SKELETS  SKELETS  SKELETS  SKELETS  SKELETS  *  *~ UNLESS ~RDBG121C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG122  80 SKELETS  BGWOLF  *  *  *  *  *  *~ UNLESS ~RDBG122~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG122A  80 SKELETS  BGWOLF  SKELETS  SKELETS  *  *  *  *~ UNLESS ~RDBG122A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG123  80 BEARBR  SKELETS  BEARCA  *  *  *  *  *~ UNLESS ~RDBG123~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG123A  80 BEARBR  SKELETS  SKELETS  SKELETS  *  *  *  *~ UNLESS ~RDBG123A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG124  80 GNOLL  SKELETS  BEARBL  GNOLL_A  GNOLL_D  GNOLL_E  *  *~ UNLESS ~RDBG124~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG125  80 BEARBL  DOGWI  GNOLL  FLIND  *  *  *  *~ UNLESS ~RDBG125~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG125A  80 FLIND  DOGWI  GNOLL  FLIND  DOGWI  *  *  *~ UNLESS ~RDBG125A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG126  80 SKELETS  GHOUL  DOGWI  *  *  *  *  *~ UNLESS ~RDBG126~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG127  80 GNOLL  GHOUL  GHAST  *  *  *  *  *~ UNLESS ~RDBG127~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG128  80 SPIDHU  SPIDGI  *  *  *  *  *  *~ UNLESS ~RDBG128~
+
+//**********************************************************
+//[AR7223.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG129  80 SKELET_A  SKELET_B  SKELET_C  ZOMBIE_C  *  *  *  *~ UNLESS ~RDBG129~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG130  80 ZOMBIE_D  ZOMBIE_A  ZOMBIE_B  SKELET_B  *  *  *  *~ UNLESS ~RDBG130~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG131  80 SKELET_C  GHOUL  ZOMBIE_C  *  *  *  *  *~ UNLESS ~RDBG131~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG131A  80 SKELET_C  ZOMBIE_C  ZOMBIE_C  ZOMBIE_C  *  *  *  *~ UNLESS ~RDBG131A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG131B  80 SKELET_C  GHOUL  ZOMBIE_C  SKELET_C  SKELET_C  *  *  *~ UNLESS ~RDBG131B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG132  80 GHAST  *  *  *  *  *  *  *~ UNLESS ~RDBG132~
+
+//**********************************************************
+//[AR7324.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG133  80 SPIDPH  *  *  *  *  *  *  *~ UNLESS ~RDBG133~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG134  80 SPIDPH  SPIDPH  *  *  *  *  *  *~ UNLESS ~RDBG134~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG134A  80 SPIDPH  SPIDPH  SPIDPH  *  *  *  *  *~ UNLESS ~RDBG134A~
+
+//**********************************************************
+//[AR7325.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG135  80 JELLGR  JELLMU  JELLOC  *  *  *  *  *~ UNLESS ~RDBG135~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG136  80 JELLYGR  JELLYMU  *  *  *  *  *  *~ UNLESS ~RDBG136~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG137  80 JELLYGR  JELLOC  JELLYMU  *  *  *  *  *~ UNLESS ~RDBG137~
+
+//**********************************************************
+//[AR7326.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG138  80 CARRIO  *  *  *  *  *  *  *~ UNLESS ~RDBG138~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG138A  80 CARRIO  CARRIO  *  *  *  *  *  *~ UNLESS ~RDBG138A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG138B  80 CARRIO  CARRIO  CARRIO  *  *  *  *  *~ UNLESS ~RDBG138B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG138C  80 CARRIO  CARRIO  CARRIO  CARRIO  *  *  *  *~ UNLESS ~RDBG138C~
+
+//**********************************************************
+//[AR8300.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG139  80 BANDIT  *  *  *  *  *  *  *~ UNLESS ~RDBG139~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG139A  80 BANDIT  BANDIT  *  *  *  *  *  *~ UNLESS ~RDBG139A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG139B  80 BANDIT  BANDIT  BANDIT  *  *  *  *  *~ UNLESS ~RDBG139B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG139C  80 BANDIT  BANDIT  BANDIT  BANDIT  *  *  *  *~ UNLESS ~RDBG139C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG140  80 BANDIT  HOBGOB  ANKHEG  *  *  *  *  *~ UNLESS ~RDBG140~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG141  80 ANKHEG  *  *  *  *  *  *  *~ UNLESS ~RDBG141~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG141A  80 ANKHEG  ANKHEG  *  *  *  *  *  *~ UNLESS ~RDBG141A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG141B  80 ANKHEG  ANKHEG  ANKHEG  *  *  *  *  *~ UNLESS ~RDBG141B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG141C  80 ANKHEG  ANKHEG  ANKHEG  ANKHEG  *  *  *  *~ UNLESS ~RDBG141C~
+
+//**********************************************************
+//[AR8400.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG142  80 BEARBR  BEARCA  WOLFVA  *  *  *  *  *~ UNLESS ~RDBG142~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG143  80 TASLOI  BEARCA  *  *  *  *  *  *~ UNLESS ~RDBG143~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG143A  80 TASLOI  BEARCA  BEARCA  TASLOI  *  *  *  *~ UNLESS ~RDBG143A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG143B  80 TASLOI  TASLOI  TASLOI  TASLOI  TASLOI  TASLOI  *  *~ UNLESS ~RDBG143B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG144  80 TASLOI  BGWOLF  WORG  WOLFDR  *  *  *  *~ UNLESS ~RDBG144~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG145  80 SPIDHU  TASLOI  BGWOLF  *  *  *  *  *~ UNLESS ~RDBG145~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG146  80 BEARBL  DOGWI  BGWOLF  *  *  *  *  *~ UNLESS ~RDBG146~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG146A  80 DOGWI  DOGWI  BGWOLF  BGWOLF  BGWOLF  *  *  *~ UNLESS ~RDBG146A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG147  80 BEARCA  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG147~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG147A  80 BEARCA  WOLFDR  BGWOLF  BGWOLF  *  *  *  *~ UNLESS ~RDBG147A~
+
+//**********************************************************
+//[AR8500.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG148  80 IRONGU  BEARCA  BGWOLF  *  *  *  *  *~ UNLESS ~RDBG148~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG148A  80 IRONGU  BGWOLF  BGWOLF  BGWOLF  BGWOLF  *  *  *~ UNLESS ~RDBG148A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG148B  80 IRONGU  IRONGU  BGWOLF  IRONGU  *  *  *  *~ UNLESS ~RDBG148B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG149  80 SPIDHU  SPIDPH  SPIDSW  SPIDGI  SPIDWR  *  *  *~ UNLESS ~RDBG149~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG149A  80 SPIDHU  SPIDPH  *  *  *  *  *  *~ UNLESS ~RDBG149A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG149B  80 SPIDSW  SPIDPH  SPIDWR  *  *  *  *  *~ UNLESS ~RDBG149B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG149C  80 SPIDGI  SPIDPH  *  *  *  *  *  *~ UNLESS ~RDBG149C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG150  80 IRONGU  TASLOI  BEARCA  *  *  *  *  *~ UNLESS ~RDBG150~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG150A  80 IRONGU  TASLOI  TASLOI  IRONGU  *  *  *  *~ UNLESS ~RDBG150A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG150B  80 IRONGU  IRONGU  IRONGU  IRONGU  *  *  *  *~ UNLESS ~RDBG150B~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG150C  80 IRONGU  TASLOI  TASLOI  TASLOI  TASLOI  TASLOI  *  *~ UNLESS ~RDBG150C~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG151  80 TASLOI  BGWOLF  WORG  *  *  *  *  *~ UNLESS ~RDBG151~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG151A  80 TASLOI  TASLOI  WORG  TASLOI  *  *  *  *~ UNLESS ~RDBG151A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG152  80 IRONGU  SPIDHU  SPIDGI  TASLOI  *  *  *  *~ UNLESS ~RDBG152~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG152A  80 IRONGU  TASLOI  SPIDGI  TASLOI  TASLOI  TASLOI  *  *~ UNLESS ~RDBG152A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG152B  80 IRONGU  SPIDHU  IRONGU  IRONGU  *  *  *  *~ UNLESS ~RDBG152B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG153  80 IRONGU  BEARBL  BEARCA  SPIDGI  *  *  *  *~ UNLESS ~RDBG153~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG153A  80 IRONGU  IRONGU  IRONGU  SPIDGI  *  *  *  *~ UNLESS ~RDBG153A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG153B  80 IRONGU  SPIDGI  BEARCA  SPIDGI  *  *  *  *~ UNLESS ~RDBG153B~
+
+//**********************************************************
+//[AR8600.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG154  80 BGWOLF  IRONGU  IRONELIT  *  *  *  *  *~ UNLESS ~RDBG154~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG154A  80 IRONGU  IRONGU  IRONELIT  IRONELIT  *  *  *  *~ UNLESS ~RDBG154A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG154B  80 BGWOLF  IRONGU  IRONELIT  IRONELIT  IRONGU  *  *  *~ UNLESS ~RDBG154B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG155  80 BGWOLF  IRONELIT  *  *  *  *  *  *~ UNLESS ~RDBG155~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG156  80 TASLOI  *  *  *  *  *  *  *~ UNLESS ~RDBG156~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG157  80 IRONGU  TASLOI  IRONELIT  *  *  *  *  *~ UNLESS ~RDBG157~
+
+//**********************************************************
+//[AR8602.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG158  80 HOBELITE  *  *  *  *  *  *  *~ UNLESS ~RDBG158~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG158A  80 HOBELITE  HOBELITE  *  *  *  *  *  *~ UNLESS ~RDBG158A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG158B  80 HOBELITE  HOBELITE  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG158B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG159  80 HOBGOB_D  HOBGOB_C  HOBGOA_E  *  *  *  *  *~ UNLESS ~RDBG159~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG160  80 HOBGOA_C  HOBGOA_D  *  *  *  *  *  *~ UNLESS ~RDBG160~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG161  80 HOBGOA_E  HOBGOA_A  *  *  *  *  *  *~ UNLESS ~RDBG161~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG161A  80 HOBGOA_E  HOBGOA_A  HOBGOA_E  HOBGOA_A  *  *  *  *~ UNLESS ~RDBG161A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG162  80 HOBGOB_E  HOBGOB_C  *  *  *  *  *  *~ UNLESS ~RDBG162~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG163  80 HOBGOA_A  *  *  *  *  *  *  *~ UNLESS ~RDBG163~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG163A  80 HOBGOA_A  HOBGOA_A  HOBGOA_A  *  *  *  *  *~ UNLESS ~RDBG163A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG163B  80 HOBGOA_A  HOBGOA_A  HOBGOA_A  HOBGOA_A  *  *  *  *~ UNLESS ~RDBG163B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG164  80 HOBGOB_D  HOBGOB_A  *  *  *  *  *  *~ UNLESS ~RDBG164~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG165  80 HOBGOB_C  *  *  *  *  *  *  *~ UNLESS ~RDBG165~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG165A  80 HOBGOB_C  HOBGOB_C  HOBGOB_C  *  *  *  *  *~ UNLESS ~RDBG165A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG165B  80 HOBGOB_C  HOBGOB_C  HOBGOB_C  HOBGOB_C  *  *  *  *~ UNLESS ~RDBG165B~
+
+//**********************************************************
+//[AR8700.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG166  80 BEARBL  BEARBR  DOGWI  *  *  *  *  *~ UNLESS ~RDBG166~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG167  80 HOBGOA_B  HOBGOB_C  *  *  *  *  *  *~ UNLESS ~RDBG167~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG168  80 SKELET_B  SKELET_C  ZOMBIE_C  *  *  *  *  *~ UNLESS ~RDBG168~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG169  80 ZOMBIE_B  SKELET03  *  *  *  *  *  *~ UNLESS ~RDBG169~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG169A  80 ZOMBIE_B  SKELET03  ZOMBIE_B  SKELET03  *  *  *  *~ UNLESS ~RDBG169A~
+
+//**********************************************************
+//[AR8800.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG170  80 SPIDHU  *  *  *  *  *  *  *~ UNLESS ~RDBG170~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG171  80 SPIDGI  ETTERC  *  *  *  *  *  *~ UNLESS ~RDBG171~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG171A  80 SPIDGI  ETTERC  ETTERC  *  *  *  *  *~ UNLESS ~RDBG171A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG172  80 ETTERC  SPIDHU  SPIDGI  *  *  *  *  *~ UNLESS ~RDBG172~
+
+//**********************************************************
+//[AR8900.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG173  80 BANDIT  BANDIT  DOGWI  IRONELIT  *  *  *  *~ UNLESS ~RDBG173~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG174  80 BANDIT  SPIDHU  SPIDGI  IRONELIT  *  *  *  *~ UNLESS ~RDBG174~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG175  80 DOGWI  DOGWA  SPIDHU  *  *  *  *  *~ UNLESS ~RDBG175~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG176  80 BANDIT  BEARBL  BEARBR  IRONELIT  *  *  *  *~ UNLESS ~RDBG176~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG177  80 BEARBL  BEARBR  SPIDWR  *  *  *  *  *~ UNLESS ~RDBG177~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG178  80 GIBBER  BANDIT  DOGWI  IRONELIT  *  *  *  *~ UNLESS ~RDBG178~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG179  80 GIBBER  HOBGOB  BEARCA  IRONELIT  *  *  *  *~ UNLESS ~RDBG179~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG180  80 DOGWI  BEARBL  BEARBR  IRONELIT  *  *  *  *~ UNLESS ~RDBG180~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG181  80 BEARBR  IRONELIT  *  *  *  *  *  *~ UNLESS ~RDBG181~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG182  80 GIBBER  IRONELIT  *  *  *  *  *  *~ UNLESS ~RDBG182~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG183  80 GIBBER  HOBELITE  IRONELIT  *  *  *  *  *~ UNLESS ~RDBG183~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG184  80 FLIND  IRONELIT  *  *  *  *  *  *~ UNLESS ~RDBG184~
+
+//**********************************************************
+//[AR9000.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG185  80 BEARBL  BGWOLF  DOGWI  IRONELIT  *  *  *  *~ UNLESS ~RDBG185~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG186  80 DOGWI  BANDIT  BEARBR  IRONELIT  *  *  *  *~ UNLESS ~RDBG186~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG187  80 BEARBL  BEARBR  *  *  *  *  *  *~ UNLESS ~RDBG187~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG188  80 GIBBER  WOLFDI  WORG  *  *  *  *  *~ UNLESS ~RDBG188~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG189  80 DOGWI  DOGWA  BGWOLF  WOLFDR  *  *  *  *~ UNLESS ~RDBG189~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG190  80 GIBBER  BGWOLF  WOLFDR  IRONELIT  *  *  *  *~ UNLESS ~RDBG190~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG191  80 BANDIT  IRONELIT  *  *  *  *  *  *~ UNLESS ~RDBG191~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG191A  80 BANDIT  IRONELIT  BANDIT  IRONELIT  *  *  *  *~ UNLESS ~RDBG191A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG191B  80 BANDIT  IRONELIT  BANDIT  BANDIT  BANDIT  *  *  *~ UNLESS ~RDBG191B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG192  80 GIBBER  WORG  *  *  *  *  *  *~ UNLESS ~RDBG192~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG193  80 GIBBER  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG193~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG194  80 BANDIT  WOLFDR  WOLFDI  IRONELIT  *  *  *  *~ UNLESS ~RDBG194~
+
+//**********************************************************
+//[AR9100.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG195  80 ETTERC  SPIDGI  *  *  *  *  *  *~ UNLESS ~RDBG195~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG195A  80 ETTERC  SPIDGI  SPIDGI  *  *  *  *  *~ UNLESS ~RDBG195A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG195B  80 ETTERC  SPIDGI  ETTERC  *  *  *  *  *~ UNLESS ~RDBG195B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG196  80 TASLOI  ETTERC  *  *  *  *  *  *~ UNLESS ~RDBG196~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG196A  80 TASLOI  ETTERC  TASLOI  TASLOI  *  *  *  *~ UNLESS ~RDBG196A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG196B  80 TASLOI  ETTERC  ETTERC  TASLOI  TASLOI  *  *  *~ UNLESS ~RDBG196B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG197  80 ETTERC  *  *  *  *  *  *  *~ UNLESS ~RDBG197~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG197A  80 ETTERC  ETTERC  *  *  *  *  *  *~ UNLESS ~RDBG197A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG197B  80 ETTERC  ETTERC  ETTERC  *  *  *  *  *~ UNLESS ~RDBG197B~
+
+//**********************************************************
+//[AR9200.are]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG198  80 BGWOLF  OGREGR  OGREBERZ  *  *  *  *  *~ UNLESS ~RDBG198~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG199  80 BGWOLF  WOLFDI  WOLFDR  GHOUL  *  *  *  *~ UNLESS ~RDBG199~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG200  80 OGREGR  OGRE  BGWOLF  *  *  *  *  *~ UNLESS ~RDBG200~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG201  80 BGWOLF  OGREGR  WOLFDI  WOLFDR  *  *  *  *~ UNLESS ~RDBG201~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG202  80 WOLFDI  GHOUL  *  *  *  *  *  *~ UNLESS ~RDBG202~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG203  80 KOBOLA_D  BGWOLF  CARRIO  *  *  *  *  *~ UNLESS ~RDBG203~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG204  80 BGWOLF  CARRIO  *  *  *  *  *  *~ UNLESS ~RDBG204~
+
+//**********************************************************
+//[AR9300.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG205  80 DOGWI  DOGWA  BGWOLF  HOBGOA_B  *  *  *  *~ UNLESS ~RDBG205~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG206  80 HOBGOB_B  HOBGOA_E  DOGWI  WOLFDR  *  *  *  *~ UNLESS ~RDBG206~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG207  80 BGWOLF  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG207~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG208  80 HOBGOB_E  HOBGOB_A  DOGWI  DOGWA  *  *  *  *~ UNLESS ~RDBG208~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG209  80 DOGWI  DOGWA  BEARBL  *  *  *  *  *~ UNLESS ~RDBG209~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG209A  80 DOGWI  DOGWA  DOGWI  *  *  *  *  *~ UNLESS ~RDBG209A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG209B  80 DOGWI  DOGWA  DOGWA  DOGWA  DOGWA  *  *  *~ UNLESS ~RDBG209B~
+
+//**********************************************************
+//[AR9400.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG210  80 TASLOI  GNOLL_B  GNOLL_A  GNOLL_D  *  *  *  *~ UNLESS ~RDBG210~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG211  80 GIBBER  GNOLL_D  *  *  *  *  *  *~ UNLESS ~RDBG211~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG212  80 TASLOI  BEARBL  GNOLL  GNOLL_D  GNOLL_E  *  *  *~ UNLESS ~RDBG212~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG213  80 GNOLL  BEARCA  FLIND  *  *  *  *  *~ UNLESS ~RDBG213~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG214  80 TASLOI  TASLOI  GNOLL  FLIND  GNOLL_D  *  *  *~ UNLESS ~RDBG214~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG215  80 BEARBL  GNOLL  GNOLL_B  GNOLL_A  GNOLL_E  *  *  *~ UNLESS ~RDBG215~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG216  80 TASLOI  GNOLL  GNOLL_A  GNOLL_D  *  *  *  *~ UNLESS ~RDBG216~
+
+//**********************************************************
+//[AR9500.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG217  80 TASLOI  WORG  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG217~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG218  80 HOBGOB_D  *  *  *  *  *  *  *~ UNLESS ~RDBG218~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG218A  80 HOBGOB_D  HOBGOB_D  HOBGOB_D  HOBGOB_D  *  *  *  *~ UNLESS ~RDBG218A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG218B  80 HOBGOB_D  HOBGOB_D  HOBGOB_D  *  *  *  *  *~ UNLESS ~RDBG218B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG219  80 TASLOI  WORG  BGWOLF  WOLFDR  *  *  *  *~ UNLESS ~RDBG219~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG220  80 WORG  WOLFDI  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG220~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG221  80 HOBGOA_C  HOBGOA_E  *  *  *  *  *  *~ UNLESS ~RDBG221~
+
+//**********************************************************
+//[AR9600.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG222  80 SKELET_A  ZOMBIE  BEARBL  SKELET_C  *  *  *  *~ UNLESS ~RDBG222~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG223  80 BGWOLF  ZOMBIE_D  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG223~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG224  80 SKELET_A  SKELET_C  SKELET_B  *  *  *  *  *~ UNLESS ~RDBG224~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG225  80 HOBGOA_D  HOBGOA_E  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG225~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG226  80 GIBBER  SKELET_B  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG226~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG227  80 BGWOLF  WORG  BEARCA  *  *  *  *  *~ UNLESS ~RDBG227~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG228  80 BANDIT  HOBGOB_C  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG228~
+
+//**********************************************************
+//[AR9700.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG229  80 GIBBER  HOBGOB  GHOUL  HOBELITE  *  *  *  *~ UNLESS ~RDBG229~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG230  80 GIBBER  HOBGOA_B  GHAST  *  *  *  *  *~ UNLESS ~RDBG230~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG231  80 HOBGOA_D  GHOUL  GHAST  *  *  *  *  *~ UNLESS ~RDBG231~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG232  80 HOBGOB_E  GHOUL  GHAST  HOBELITE  *  *  *  *~ UNLESS ~RDBG232~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG233  80 GIBBER  HOBGOB_C  *  *  *  *  *  *~ UNLESS ~RDBG233~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG234  80 HOBGOB_B  *  *  *  *  *  *  *~ UNLESS ~RDBG234~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG234A  80 HOBGOB_B  HOBGOB_B  HOBGOB_C  HOBGOB_C  *  *  *  *~ UNLESS ~RDBG234A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG234B  80 HOBGOB_B  HOBGOB_B  HOBGOB_C  *  *  *  *  *~ UNLESS ~RDBG234B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG235  80 GIBBER  GHOUL  *  *  *  *  *  *~ UNLESS ~RDBG235~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG236  80 GIBBER  HOBGOB_E  HOBELITE  *  *  *  *  *~ UNLESS ~RDBG236~
+
+//**********************************************************
+//[AR9799.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG237  80 KOBOLA_D  *  *  *  *  *  *  *~ UNLESS ~RDBG237~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG237A  80 KOBOLA_D  KOBOLA_D  *  *  *  *  *  *~ UNLESS ~RDBG237A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG237B  80 KOBOLA_D  KOBOLA_D  KOBOLA_D  KOBOLA_D  *  *  *  *~ UNLESS ~RDBG237B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG238  80 ZOMBIE_C  SKELET_A  *  *  *  *  *  *~ UNLESS ~RDBG238~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG239  80 ZOMBIE_D  SKELET_A  *  *  *  *  *  *~ UNLESS ~RDBG239~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG239A  80 ZOMBIE_D  SKELET_A  SKELET_A  SKELET_A  *  *  *  *~ UNLESS ~RDBG239A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG240  80 KOBOLA_A  KOBOLD  *  *  *  *  *  *~ UNLESS ~RDBG240~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG240A  80 KOBOLA_A  KOBOLD  KOBOLA_A  KOBOLD  *  *  *  *~ UNLESS ~RDBG240A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG241  80 KOBOLA_E  KOBOLD_C  KOBCOMM  *  *  *  *  *~ UNLESS ~RDBG241~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG242  80 KOBOLA_D  KOBOLD_E  *  *  *  *  *  *~ UNLESS ~RDBG242~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG242A  80 KOBOLA_D  KOBOLD_E  KOBOLA_D  KOBOLD_E  *  *  *  *~ UNLESS ~RDBG242A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG243  80 ZOMBIE_D  SKELET_C  SKELET_B  *  *  *  *  *~ UNLESS ~RDBG243~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG244  80 ZOMBIE_A  SKELET_B  *  *  *  *  *  *~ UNLESS ~RDBG244~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG245  80 HOBGOA_D  HOBGOB_E  *  *  *  *  *  *~ UNLESS ~RDBG245~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG246  80 HOBGOB_D  HOBGOB_A  HOBGOA_E  HOBELITE  *  *  *  *~ UNLESS ~RDBG246~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG247  80 SKELET_B  HOBELITE  SKELET_A  *  *  *  *  *~ UNLESS ~RDBG247~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG248  80 KOBOLA_D  KOBOLD  HOBGOB_E  HOBELITE  KOBCOMM  *  *  *~ UNLESS ~RDBG248~
+
+//**********************************************************
+//[AR9801.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG249  80 WOLFDI  *  *  *  *  *  *  *~ UNLESS ~RDBG249~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG249A  80 WOLFDI  WOLFDI  *  *  *  *  *  *~ UNLESS ~RDBG249A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG249B  80 WOLFDI  WOLFDI  WOLFDI  *  *  *  *  *~ UNLESS ~RDBG249B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG250  80 WOLFDR  *  *  *  *  *  *  *~ UNLESS ~RDBG250~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG250A  80 WOLFDR  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG250A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG250B  80 WOLFDR  WOLFDR  WOLFDR  *  *  *  *  *~ UNLESS ~RDBG250B~
+
+//**********************************************************
+//[AR9900.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG251  80 XVART_B  ANKHEG  KOBOLD  SKELET_C  *  *  *  *~ UNLESS ~RDBG251~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG251A  80 XVART_B  XVART_B  KOBOLD  SKELET_C  XVART_B  SKELET_C  *  *~ UNLESS ~RDBG251A~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG252  80 KOBOLA_B  WORG  *  *  *  *  *  *~ UNLESS ~RDBG252~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG252A  80 KOBOLA_B  WORG  KOBOLA_B  *  *  *  *  *~ UNLESS ~RDBG252A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG252B  80 KOBOLA_B  WORG  KOBOLA_B  KOBOLA_B  KOBOLA_B  *  *  *~ UNLESS ~RDBG252B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG253  80 KOBOLD_E  GHOUL  GHAST  *  *  *  *  *~ UNLESS ~RDBG253~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG254  80 KOBOLD_D  BGWOLF  WORG  KOBCOMM  *  *  *  *~ UNLESS ~RDBG254~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG255  80 KOBOLD_D  KOBOLDA  BGWOLF  *  *  *  *  *~ UNLESS ~RDBG255~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG256  80 WOLFDI  WOLFDR  *  *  *  *  *  *~ UNLESS ~RDBG256~
+
+//**********************************************************
+//[ARA100.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG257  80 TASLOI  DOGWI  DOGWA  BEARCA  *  *  *  *~ UNLESS ~RDBG257~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG258  80 BGWOLF  BEARCA  TASLOI  GHOUL  *  *  *  *~ UNLESS ~RDBG258~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG259  80 TASLOI  DOGWA  BEARCA  *  *  *  *  *~ UNLESS ~RDBG259~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG260  80 DOGWI  DOGWA  BGWOLF  *  *  *  *  *~ UNLESS ~RDBG260~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG261  80 TASLOI  SPIDHU  BEARBR  *  *  *  *  *~ UNLESS ~RDBG261~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG262  80 BEARBL  BEARBR  TASLOI  GHOUL  *  *  *  *~ UNLESS ~RDBG262~
+
+//**********************************************************
+//[ARD000.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG263  80 DOPPLE  GNOLL  *  *  *  *  *  *~ UNLESS ~RDBG263~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG263A  80 GNOLL  GNOLL  GNOLL  GNOLL  *  *  *  *~ UNLESS ~RDBG263A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG263B  80 DOPPLE  GNOLL  DOPPLE  GNOLL  *  *  *  *~ UNLESS ~RDBG263B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG264  80 DOPPLE  *  *  *  *  *  *  *~ UNLESS ~RDBG264~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG264A  80 DOPPLE  DOPPLE  *  *  *  *  *  *~ UNLESS ~RDBG264A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG264B  80 DOPPLE  DOPPLE  DOPPLE  *  *  *  *  *~ UNLESS ~RDBG264B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG265  80 DOPPLE  DOPPGR  *  *  *  *  *  *~ UNLESS ~RDBG265~
+
+//**********************************************************
+//[ARD011.are]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG266  80 SPIDPH  SPIDWR  *  *  *  *  *  *~ UNLESS ~RDBG266~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG267  80 GHAST  GHOUL  SPIDPH  *  *  *  *  *~ UNLESS ~RDBG267~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG268  80 OGREBERZ  GOLEMF2  *  *  *  *  *  *~ UNLESS ~RDBG268~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG269  80 BATTHO  *  *  *  *  *  *  *~ UNLESS ~RDBG269~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG270  80 SPIDPH  ZOMBIE  *  *  *  *  *  *~ UNLESS ~RDBG270~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG270A  80 SPIDPH  ZOMBIE  ZOMBIE  *  *  *  *  *~ UNLESS ~RDBG270A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG270B  80 SPIDPH  ZOMBIE  ZOMBIE  ZOMBIE  ZOMBIE  *  *  *~ UNLESS ~RDBG270B~
+
+//**********************************************************
+//[ARD014.are]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG271  80 GHOULLOR  *  *  *  *  *  *  *~ UNLESS ~RDBG271~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG271A  80 GHOULLOR  GHOULLOR  *  *  *  *  *  *~ UNLESS ~RDBG271A~
+
+//**********************************************************
+//[ARW000.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG272  80 BEARBR  BEARBR  *  *  *  *  *  *~ UNLESS ~RDBG272~
+
+//**********************************************************
+//[ARW012.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG273  80 WEREWO  WEREWO  *  *  *  *  *  *~ UNLESS ~RDBG273~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG273A  80 WEREWO  WEREWO  WEREWO  *  *  *  *  *~ UNLESS ~RDBG273A~
+
+//**********************************************************
+//[ARW500.ARE]
+//**********************************************************
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG274  80 BGWOLF  BEARCA  WOLFWEGL  *  *  *  *  *~ UNLESS ~RDBG274~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG275  80 WOLFWE  WOLFDI  *  *  *  *  *  *~ UNLESS ~RDBG275~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG275A  80 WOLFWE  WOLFDI  WOLFWE  *  *  *  *  *~ UNLESS ~RDBG275A~
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG275B  80 WOLFWE  WOLFDI  WOLFDI  *  *  *  *  *~ UNLESS ~RDBG275B~
+
+APPEND_COL_OUTER - ~inlined/spawngrp.2da~ ~$ $ RDBG276  80 WORG  WOLFWE  BEARBL  *  *  *  *  *~ UNLESS ~RDBG276~
+
+VERBOSE

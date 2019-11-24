@@ -1,0 +1,17 @@
+BEGIN ~gyllia~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @19515
+  IF ~~ THEN REPLY @19516 GOTO 1
+  IF ~~ THEN REPLY @19517 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @19518
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @19519
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

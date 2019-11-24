@@ -1,0 +1,9 @@
+IF
+  Global("HelpLandrin","GLOBAL",4)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@310021)
+    EraseJournalEntry(@310022)
+    EraseJournalEntry(@310023)
+    SetGlobal("HelpLandrin","GLOBAL",5)
+END

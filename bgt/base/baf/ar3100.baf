@@ -1,0 +1,17 @@
+IF
+  NumDeadGT("GnollD",11)
+  Global("DrizztGnolls","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DrizztGnolls","GLOBAL",12)
+END
+
+IF
+  NumDeadGT("OgreBjor",3)
+  Global("OgresKilled","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("OgresKilled","GLOBAL",4)
+END
+
+

@@ -1,0 +1,13 @@
+IF
+  Exists("ARKANIS")
+THEN
+  RESPONSE #100
+    ActionOverride("ARKANIS",DestroySelf())
+END
+
+IF
+  Exists("DEDER")
+THEN
+  RESPONSE #100
+    ActionOverride("DEDER",DestroySelf())
+END

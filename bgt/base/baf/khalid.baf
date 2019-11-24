@@ -1,0 +1,49 @@
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Montaron")  // Montaron
+  !Dead("Montaron")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Montaron",15)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Xzar")  // ~Xzar~
+  !Dead("Xzar")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Xzar",15)
+END
+
+IF
+  Dead("Xzar")  // ~Xzar~
+  Dead("Montaron")  // montaron
+  Global("Xzarfight","GLOBAL",2)
+THEN
+  RESPONSE #100
+	SetGlobal("Xzarfight","GLOBAL",0)
+	DialogueInterrupt(TRUE)
+	JoinParty()
+END
+
+IF
+  GlobalTimerExpired("Khalid","GLOBAL")
+  Global("OffToNashkell","GLOBAL",0)
+  Global("Chapter","GLOBAL",2)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+
+IF
+  GlobalTimerExpired("Khalid","GLOBAL")
+  Global("OffToNashkell","GLOBAL",1)
+  Global("Chapter","GLOBAL",2)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+

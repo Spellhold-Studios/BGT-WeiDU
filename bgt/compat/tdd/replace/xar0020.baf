@@ -1,0 +1,23 @@
+IF
+  Global("KagainPartyBG1","GLOBAL",1)
+  Global("BP_KagainBG1Check","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_KagainBG1Check","GLOBAL",1)
+    SetGlobal("Kagain","GLOBAL",1)
+    ActionOverride("Kagain",SetDialogue("KAGAINDD"))
+    ActionOverride("Kagain",ChangeAIScript("KAGAINDD",OVERRIDE))
+    ActionOverride("Kagain",SetNumTimesTalkedTo(0))
+    AddXPObject("Kagain",50000)
+    GiveItemCreate("HELM12","Kagain",1,0,0) // Helmet
+    GiveItemCreate("LEAT04","Kagain",1,0,0) // Studded Leather Armor
+    GiveItemCreate("SHLD03","Kagain",1,0,0) // Medium Shield
+    GiveItemCreate("AX1H01","Kagain",1,0,0) // Battle Axe
+    SmallWait(10)
+    ActionOverride("Kagain",FillSlot(SLOT_HELMET))
+    ActionOverride("Kagain",FillSlot(SLOT_ARMOR))
+    ActionOverride("Kagain",FillSlot(SLOT_SHIELD))
+    ActionOverride("Kagain",FillSlot(SLOT_WEAPON))
+    SmallWait(10)
+    ActionOverride("Kagain",EquipMostDamagingMelee())
+END

@@ -1,0 +1,920 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT-WeiDU</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>博德之门三部曲 - WeiDU (BGT-WeiDU)</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate 2: Throne of Bhaal</strong>
+        <p class="about">
+          Project Lead: Ascension64</p>
+        <p class="about">[with permission from Bardez]</p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=261">Mod Forum</a>
+        </p>
+		<br />
+		<p><a href="%5benglish%5dbgtreadme.htm"><img border=0 src="images/image001.gif"></a>&nbsp;
+		<a href="%5bschinese%5dbgtreadme.htm"><img border=0 src="images/image009.gif"></a>&nbsp;
+		<a href="%5btchinese%5dbgtreadme.htm"><img border=0 src="images/image010.gif"></a>&nbsp;
+		<a href="%5bczech%5dbgtreadme.htm"><img border=0 src="images/image011.gif"></a>&nbsp;
+		<a href="%5bfrench%5dbgtreadme.htm"><img border=0 src="images/image002.gif"></a>&nbsp;
+		<a href="%5bgerman%5dbgtreadme.htm"><img border=0 src="images/image003.gif"></a>&nbsp;
+		<a href="%5bitalian%5dbgtreadme.htm"><img border=0 src="images/image004.gif"></a>&nbsp;
+		<a href="%5bkorean%5dbgtreadme.htm"><img border=0 src="images/image007.gif"></a>&nbsp;
+		<a href="%5bpolish%5dbgtreadme.htm"><img border=0 src="images/image005.gif"></a>&nbsp;
+		<a href="%5brussian%5dbgtreadme.htm"><img border=0 src="images/image006.gif"></a>&nbsp;
+		<a href="%5bcastilian%5dbgtreadme.htm"><img border=0 src="images/image008.gif"></a></p>
+        <hr />
+        <p class="menu">
+          <a href="#intro">介绍</a> &middot;
+          <a href="#requirements">需求</a> &middot;
+          <a href="#installation">安装和移除安装</a> &middot;
+          <a href="#faq">常见问题</a> &middot;
+          <a href="#troubleshooting">疑难排解</a> &middot;
+          <a href="#credits">荣誉榜</a> &middot;
+          <a href="#legalese">宣告</a> &middot;
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>介绍</h2>
+          <p>博德之门三部曲最初是由Bardez制作的模组，目的是为了实现两大目标：使用更加强化的博德之门II游戏引擎来进行博德之门与资料片剑湾传奇，并且使博德之门、剑湾传奇、安姆阴影和巴尔王座之间的事件产生连续性。博德之门三部曲-WeiDU更进一步的将这个模组转化为WeiDU格式，使其提高了和其它模组之间的兼容性。</p>
+		  <p>而BGT-WeiDU大致上仍然忠于原始版本的博德之门与剑湾传奇，并且加入了一些新功能来满足上述目标。</p>
+		  <br />
+		<ul>
+			<li><strong>博德之门使用博德之门II的引擎：</strong> BGT-WeiDU是一个安装在博德之门II：巴尔王座的模组。因此，可以使用博德之门II的新图像、更好的解析度以及改善的介面来体验博德之门I的故事。</li>
+			<li><strong>错误修正：</strong>BGT-WeiDU包含一个内建的修正包，修正了博德之门与剑湾传奇中的大量错误。<a href="fixeslist.htm">这里</a>可以找到一个修复清单。</li>
+			<li><strong>从博德之门到安姆阴影之间的连续性：</strong>BGT-WeiDU使用了一个动态系统来将玩家在博德之门结尾时传送到安姆阴影。并且在玩家告诉贝尔特已经打败了沙洛佛克之后使用了一个过场的理由，而NPC们将会有条件的汇入到安姆阴影，这取决于你带领他们在博德之门中所经历的命运。</li>
+			<li><strong>与其它模组的兼容性全面提升：</strong>BGT-WeiDU兼容于大量模组安装时的最新版本模组，以及其他许多由爱好者制作的模组。这可以让玩家扩展博德之门的世界，到更多的地点探险。<a href="[english]compatibility.htm">这里</a>有一份兼容性列表。</li>
+			<li><strong>系统日志项目：</strong>BGT-WeiDU利用了完整的任务日志系统，并确保博德之门所有的日志项目在传送到安姆阴影之前删除。这可以防止日志爆满，否则这样通常会很难找到日志中的重要信息。</li>
+			<li><strong>地图注记：</strong>地图注记的出现有助于玩家了解目前的位置。BGT-WeiDU附带一些已经内建的地图注记，以帮助玩家能迅速找到特定的建筑物，而不是每到一个特定的地区就像疯狂的小鸡一样四处进出每一间房子。</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 介绍</span> &#8226;<a href="#top">回到首页</a>
+          </address>
+        </div>
+
+        <!-- ================== R e q u i r e m e n t s ================== -->
+        <a name="requirements" id="requirements"></a>
+        <div class="content">
+          <h2>需求</h2>
+          <p>BGT-WeiDU需要下列：</p>
+		  <ul>
+		  	<li>博德之门和剑湾传奇的<strong>自定义安装(所有框打上钩)</strong>，再安装5512补丁</li>
+			<p>或</p>
+			<li>博德之门：最初的英雄传奇的<strong>自定义安装(所有框打上钩)</strong> </li>
+			<div class="important">
+				<p>此安装必须是“纯净的”安装，不应该安装任何模组。</p>
+			</div>
+			<div class="important">
+				<p>如果你在安装过程中收到没有足够硬碟空间的警告，并且确认过你其实拥有足够的硬碟空间，那么可以忽略这个警告。</p>
+			</div>
+			<p>以及</p>
+			<li><strong>完全安装</strong>博德之门II：安姆阴影(SoA)和博德之门II：巴尔王座(ToB)，再安装26498补丁</li>
+			<div class="important">
+				<p>这个步骤可能有必须预先安装的模组。请参阅常见问题解答了解详情。</p>
+			</div>
+			<p>及</p>
+			<li>安装过程至少<strong>需要3GB以上的可用硬碟空间</strong>。不包含已独立安装的博德之门和剑湾传奇，BGT-WeiDU需要使用2.5GB的空闲硬碟空间。为了使用虚拟记忆体，建议至少需要4GB以上的可用硬碟空间。</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 需求</span> &#8226;<a href="#top">回到首页</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>安装和移除安装</h2>
+		  <h3>安装</h3>
+		  <ol>
+			<div class="important">
+				<p>如果你安装的BGT-WeiDU只是mega模组的一部分，在属于mega模组的所有模组之后安装这个模组。请参阅常见问题解答了解更多详情。</p>
+			</div>
+		  	<li>解压缩BGT1##-Install.rar到你的<strong>博德之门II</strong>安装目录</li>
+			<div class="important">
+				<p>确保你的光碟机中没有博德之门相关的CD、DVD或是虚拟镜像，或是虚拟光碟。如果做不到这一点可能会导致安装过程中发生错误。</p>
+			</div>
+			<div class="important">
+				<p>我们建议你在安装过程中关闭防毒软体，间谍软体扫瞄以及其他背景中运行的文件扫描。这些程式已知会在某些情况下干预安装过程。</p>
+			</div>
+			<li>运行在博德之门安装目录下的Setup-BGT.exe，并且依照安装提示。</li>
+			<div class="important">
+				<p>安装程式会检查你输入的BG1安装目录是否包含完全安装的博德之门与剑湾传奇。如果安装程式必须中止，并使你所安装的BG1达到安装要求，你可以放心的关闭安装视窗或是输入Ctrl + C三次。</p>
+			</div>
+			<li>运行博德之门II - 点击博德之门按钮，然后按新游戏将开始博德之门I</li>
+			<div class="important">
+				<p>你可以移除博德之门I和剑湾传奇。如果你以后有需要想重新安装BGT-WeiDU，就需要保留博德之门I和剑湾传奇。</p>
+			</div>
+			<li>安装后，你可能会想要启动博德之门与剑湾传奇的配乐，以及安装自订的图形使用介面。请参考安装后设置<a href="%5bschinese%5dpostinstall.htm#Music">Post-installation文件</a>的详细说明。</li>
+		</ol>
+		<hr />
+
+		<h3>反安装和重新安装</h3>
+		<ol>
+			<li>运行在博德之门安装目录下的Setup-BGT.exe，并且依照安装提示。</li>
+			<li>卸载提示信息出现后，备份的dialog.tlk可在\bgt\dialog.bak目录下找到</li>
+		</ol>
+		<hr />
+
+		<h3>自动安装(专业用户)</h3>
+		<ol>
+			<li>将BGT1##-Install.rar解压缩到博德之门II的安装目录下</li>
+			<div class="important">
+				<p>确保你的光碟机中没有博德之门相关的CD、DVD或是虚拟镜像，或是虚拟光碟。如果做不到这一点可能会导致安装过程中发生错误。</p>
+			</div>
+			<div class="important">
+				<p>我们建议你在安装过程中关闭防毒软体，间谍软体扫瞄以及其他背景中运行的文件扫描。这些程式已知会在某些情况下干预安装过程。</p>
+			</div>
+			<li>前往命令行，定位到你的博德之门II安装目录，并且以下列的格式来执行Setup-BGT.exe。或者将这个格式放到批次档或执行……开始选单中的对话。</li>
+			<div class="important">
+				<p>Setup-BGT.exe --force-install 0 --skip-at-view --language <em>X</em> --args-list <em>[flags]</em> <em>[path]</em></p>
+			</div>
+			<p>Parameters:</p>
+			<div class="important">
+				<table border=1>
+					<tr>
+						<td><em>X</em></td>
+						<td>
+							<p>0 - English(英语)<br />1 - International English(国际英语)<br />2 - Castilian/Spanish(西班牙语)<br />3 - French(法语)<br />4 - German(德语)<br />5 - Italian(义大利语)<br />6 - Korean(韩语)<br />7 - Polish(波兰语)<br />8 - Russian(俄语)<br />9 - Simplified Chinese(简体中文)<br />10 - Traditional Chinese(繁体中文)<br />11 - Czech</p>
+						</td>
+					</tr>
+					<tr>
+						<td><em>[flags]</em></td>
+						<td>
+                                   <p>b或B - 隐藏biffing选项和biff所有新资源的提示（优先度高于'o'标识）</p>
+                                   <p>o或O - 隐藏biffing选项和biff所选的资源的提示（安装mega-modification类mod时推荐）</p>
+							<p>s或S - 禁止在结束安装后显示安装后设置说明</p>
+							<p>p或P - 预设的博德之门与剑湾传奇目录完整路径；如果路径是无效的，安装程序将会提示有效的路径。</p>
+						</td>
+					</tr>
+					<tr>
+						<td><em>[path]</em></td>
+						<td>引号中的博德之门与剑湾传奇目录完整路径，与<em>[flags]</em>中的p或P一起使用</td>
+					</tr>
+				</table>
+			</div>
+			<p>例如：</p>
+			<div class="important">
+				<p>Setup-BGT.exe --force-install 0 --skip-at-view --language 0 --args-list sp "C:\Program Files\Black Isle\Baldur's Gate"</p>
+		  </div>
+			<p>这种设定以英语来安装BGT-WeiDU，禁止在结束安装后显示安装后设置说明，并且将博德之门与剑湾传奇安装目录预设为C:\Program Files\Black Isle\Baldur's Gate。</p>
+			<div class="important">
+				<p>安装程式会检查你输入的博德之门I安装目录是否包含完全安装的博德之门与剑湾传奇。如果你指定的目录无效或是包含不正确安装的博德之门与剑湾传奇，安装程式将会提示你输入正确的目录。</p>
+			</div>
+			<div class="important">
+				<p>如果安装程式必须中止，并使你所安装的博德之门I达到安装要求，你可以放心的关闭安装视窗或是输入Ctrl + C三次。</p>
+			</div>
+		</ol>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 安装与反安装</span> <a href="#top">回到首页</a>
+          </address>
+        </div>
+
+        <!-- ================== F A Q ================== -->
+        <a name="faq" id="faq"></a>
+        <div class="content">
+          <h2>常见问题解答</h2>
+		  <p><strong>一般</strong></p>
+		  <ul>
+			<li><a href="#FAQ1">博德之门三部曲与博德之门II其它模组的相容性如何呢？</a></li>
+			<li><a href="#FAQ2">如果Bardez制作了博德之门三部曲，那为什么还需要博德之门三部曲-WeiDU(BGT-WeiDU)呢？</a></li>
+			<li><a href="#FAQ3">你说BGT-WeiDU大致上仍然忠于原始版本的博德之门与剑湾传奇。那么这个模组与原始版本的博德之门与剑湾传奇之间有哪些主要的改变呢？</a></li>
+		  </ul>
+		  <p><strong>安装</strong></p>
+		  <ul>
+			<li><a href="#FAQ4">BGT-WeiDU是如何将博德之门与剑湾传奇加入到我的博德之门II游戏中？</a></li>
+		  	<li><a href="#FAQ5">我想要安装BGT-WeiDU。我应该纯净备份已安装的博德之门、剑湾传奇、安姆阴影以及巴尔王座吗？</a></li>
+			<li><a href="#FAQ6">BGT-WeiDU的安装过程需要耗费多少时间？</a></li>
+		  </ul>
+		  <p><strong>享受模组</strong></p>
+		  <ul>
+			<li><a href="#FAQ7">我已经安装了BGT-WeiDU。我要如何从烛堡开始博德之门的冒险？</a></li>
+			<li><a href="#FAQ8">在安装了BGT-WeiDU之后，我还能从安姆阴影或是巴尔王座开始游戏吗？</a></li>
+			<li><a href="#FAQ9">BGT-WeiDU中的故事连续性如何运作？</a></li>
+			<li><a href="#FAQ10">博德之门与剑湾传奇本身拥有许多的错误。在这种转换下，这些错误是否仍然存在？</a></li>
+		</ul>
+		<p><strong>反安装</strong></p>
+		<ul>
+			<li><a href="#FAQ11">在反安装BGT-WeiDU后，我是否需要还原dialog.tlk？</a></li>
+			<li><a href="#FAQ12">为什么在反安装BGT-WeiDU之后，我要手动还原dialog.tlk？</a></li>
+		</ul>
+		<p><strong>与其它模组的兼容性</strong></p>
+		<ul>
+			<li><a href="#FAQ13">我能安装其它的模组和BGT-WeiDU来开始游戏吗？</a></li>
+			<li><a href="#FAQ14">我如何与大型模组一起安装BGT-WeiDU？</a></li>
+			<li><a href="#FAQ15">我如何与其它模组一起安装BGT-WeiDU？</a></li>
+		</ul>
+		<p><strong>其它</strong></p>
+		<ul>
+			<li><a href="#FAQ16">我想要翻译这个模组。我应该怎么做呢？</a></li>
+			<li><a href="#FAQ17">我还有其他的问题。</a></li>
+		</ul>
+		<hr />
+		  <a name="FAQ1" id="FAQ1"></a>
+		  <p><strong>博德之门三部曲与博德之门II其它模组的相容性如何呢？</strong></p>
+		  <p>Bardez的博德之门三部曲--BGT_MK3_112，成为了被称为全景(The Big Picture)的mega 模组中的一部份，全景将许多BG2的大型模组结合在一起(最黑暗的一天、梭巴的阴影以及饱受折磨的灵魂)，为了使玩家能同时享受所有的主要模组。随后，使用这个平台的TeamBG 模组黑暗剑湾转换为特别为博德之门三部曲所制作的模组，以及北部剑湾、埋骨丘的秘密等模组也是如此，使得被称为BP-BGT的庞大的模组集合体因而极大的拓展了博德之门的世界。</p>
+		  <p>如今，BP-BGT是一种过时的称呼，而mega 模组是指至少安装了下列模组两个以上：博德之门三部曲-WeiDU(BGT-WeiDU)、最黑暗的一天(TDD)、梭巴的阴影(SOS)、饱受折磨的灵魂(TS-BPversion)、检查身体(CtB)、恐怖地带(RoT)、无尽的旅程(NeJ)以及全景(BP)。</p>
+		  <br />
+		<a name="FAQ2" id="FAQ2"></a>
+		<p><strong>如果Bardez制作了博德之门三部曲，那为什么还需要博德之门三部曲-WeiDU(BGT-WeiDU)呢？</strong></p>
+		<p>凑合在一起的大量模组影响了博德之门II的各个方面，而且由不同作者制作的模组也产生了许多兼容性问题。会出现这种状况是因为同样的文件被修改和覆写，这代表着一种改变取代了另一种，而原本的改变则永远消失了。此外，大型模组通常会带来负载的错误，因而很难找到正确的文件以及修复。</p>
+		<p>你可能也猜想得到像博德之门三部曲这样的大型模组，增加了博德之门与剑湾传奇大部分的素材到博德之门II中，这需要极大容量的安装程式包，有些玩家可能由于老旧的网路连线必须枯燥而缓慢的下载大容量的档案。BGT-WeiDU就是为了解决这些问题，藉由将安装过程转换为Weimer Dialogue Utilities (WeiDU)平台，这个强大的工具可以解决兼容性问题，而且在修复错误时又快又有效率。BGT-WeiDU同时也从原始安装的博德之门与剑湾传奇中提取了许多资源，使需要下载的档案容量缩小许多。</p>
+		<br />
+		<a name="FAQ3" id="FAQ3"></a>
+		<p><strong>你说BGT-WeiDU大致上仍然忠于原始版本的博德之门与剑湾传奇。那么这个模组与原始版本的博德之门与剑湾传奇之间有哪些主要的改变呢？</strong></p>
+		<p>BGT-WeiDU加入了一些新功能，其中有许多功能利用了博德之门II引擎的优势与WeiDU的兼容性特点。在引言的部份有新功能的详细介绍。</p>
+		<p>此外，也修复了许多博德之门与剑湾传奇原有的错误。<a href="fixeslist.htm">这里</a>可以找到一份纳入BGT-WeiDU修复范围的清单。</p>
+		<br />
+		<a name="FAQ4" id="FAQ4"></a>
+		<p><strong>BGT-WeiDU是如何将博德之门与剑湾传奇加入到我的博德之门II游戏中？</strong></p>
+		<p>BGT-WeiDU转换了博德之门与剑湾传奇的资源，并且安装到你的博德之门II目录中。从各个方面看来，这种转换大致上是忠于原作的。从技术方面来看，这个模组的安装程式从你目前已有的博德之门与剑湾传奇中直接汇入了核心资源的副本。因此，你原有的博德之门与剑湾传奇完全不会受到影响。你可以在安装BGT-WeiDU之后选择反安装博德之门与剑湾传奇，以便节省一些硬碟空间。</p>
+		<br />
+		<a name="FAQ5" id="FAQ5"></a>
+		<p><strong>我想要安装BGT-WeiDU。我应该纯净备份已安装的博德之门、剑湾传奇、安姆阴影以及巴尔王座吗？</strong></p>
+		<p>拥有一个安装好的博德之门与剑湾传奇纯净备份是相当重要的，并且不能包含任何模组(包括Baldurdash fixes)。如果无法做到这一点，在安装BGT-WeiDU时将会产生许多不可预料的问题。</p>
+		<p>对于安姆阴影与巴尔王座来说，你可能已经预先安装了模组。详见<a href="#FAQ15">下文</a>关于与BGT-WeiDU一起使用其它模组的详细介绍。</p>
+		<br />
+		<a name="FAQ6" id="FAQ6"></a>
+		<p><strong>BGT-WeiDU的安装过程需要耗费多少时间？</strong></p>
+		<p>安装时间取决于你的电脑系统性能，但大略估计可能需要20分钟到1小时。你将会收到提示通知你在安装过程中发生了什么。你也可以在安装过程结束时收到提示。</p>
+		<br />
+		<a name="FAQ7" id="FAQ7"></a>
+		<p><strong>我已经安装了BGT-WeiDU。我要如何从烛堡开始博德之门的冒险？</strong></p>
+		<p>当你启动博德之门II后，你将会进入选择安姆阴影或是巴尔王座的主选单。请注意，安姆阴影的按钮已经改为博德之门的按钮。点击这个按钮，并且选择单人游戏，然后开始新游戏。这将会让你进入人物创造界面，你将可以创造一个等级1的人物，或是汇入一个现有的人物。你的人物将会在烛堡开始冒险。</p>
+		<br />
+		<a name="FAQ8" id="FAQ8"></a>
+		<p><strong>在安装了BGT-WeiDU之后，我还能从安姆阴影或是巴尔王座开始游戏吗？</strong></p>
+		<p>当然可以。</p>
+		<p>关于安姆阴影，点击主选单的博德之门按钮，然后选择单人游戏。你将会发现教学指南的按钮改为一个"BG2新游戏"的按钮。点击这个按钮，并且选择对话框上的BG2新游戏按钮进入人物创造介面，你可以创造一个拥有BG2序章适当经验值的人物，或是汇入一个现有的人物。当完成时，你将会在艾瑞尼卡斯的地牢开始冒险。</p>
+		<p>开始一个巴尔王座新游戏的方法并没有改变。</p>
+		<br />
+		<a name="FAQ9" id="FAQ9"></a>
+		<p><strong>BGT-WeiDU中的故事连续性如何运作？</strong></p>
+		<p>如果你从烛堡开始一个新游戏，你可以游遍原始的博德之门世界，直到打败沙洛佛克为止。剑湾传奇的区域只要你可以通往巨龙桥口的北方就能开启。打败沙洛佛克不会让游戏结束，可以让游戏继续。向公爵府的贝尔特谈话，他将会给你一个新任务。这时将会出现一个你被影贼袭击的过场动画，并且将你带到艾瑞尼卡斯的地牢。</p>
+		<p>此外，可以出现在博德之门与安姆阴影的可加入的NPC，可以有条件的保留他们的属性传送到安姆阴影，这取决于你在博德之门中离开他们后的命运。艾德温、爱蒙、贾西拉、明斯克以及维康妮亚将可以保留他们在博德之门时的属性和外观，如果他们在打败沙洛佛克后与贝尔特谈话时还在队伍中并且活着的话。否则，他们将会以未安装BGT-WeiDU的安姆阴影原有的状态出现。</p>
+		<br />
+		<a name="FAQ10" id="FAQ10"></a>
+		<p><strong>博德之门与剑湾传奇本身拥有许多的错误。在这种转换下，这些错误是否仍然存在？</strong></p>
+		<p>BGT-WeiDU试着解决存在于博德之门与剑湾传奇最终版本中最严重的错误。<a href="fixeslist.htm">这里</a>可以找到一份纳入BGT-WeiDU修复范围的清单。</p>
+		<br />
+		<a name="FAQ11" id="FAQ11"></a>
+		<p><strong>在反安装BGT-WeiDU后，我是否需要还原dialog.tlk？</strong></p>
+		<p>不，你不需要这么做。然而如果你不这么做，当你开始安装其它模组并且使用不同情况下的游戏存档可能会有问题。反安装 BGT-WeiDU最安全的方式是将dialog.tlk还原以避免这些问题。</p>
+		<br />
+		<a name="FAQ12" id="FAQ12"></a>
+		<p><strong>为什么在反安装BGT-WeiDU之后，我要手动还原dialog.tlk？</strong></p>
+		<p>BGT-WeiDU对你的博德之门II的dialog.tlk档案造成了许多改变，这个档案包含了游戏中所有的文字。由于WeiDU的限制以及BGT-WeiDU安装程式设计时的方式，会在安装或反安装过程结束时产生修改过的dialog.tlk档案。这将无法使批次档运作来自动复原你的 dialog.tlk。因此，唯一的方法是将备份的dialog.tlk档手动还原覆盖原来的档案位置。</p>
+		<br />
+		<a name="FAQ13" id="FAQ13"></a>
+		<p><strong>我能安装其它的模组和BGT-WeiDU来开始游戏吗？</strong></p>
+		<p>是的。BGT-WeiDU不只是保留原有内容，而且还提高了和mega 模组的兼容性。对于其它的模组来说，没有人能保证每个模组都能和其它模组兼容，BGT-WeiDU的兼容性也不例外。然而，BGT-WeiDU与其它模组的兼容性问题正在积极地分析中。<a href="[english]compatibility.htm">这里</a>有一份BGT-WeiDU的兼容性清单。最新版的兼容性清单可以在<a href="http://www.shsforums.net/index.php?showtopic=19539">网路</a>上找到。</p>
+		<br />
+		<a name="FAQ14" id="FAQ14"></a>
+		<p><strong>我如何与Mega 模组一起安装BGT-WeiDU？</strong></p>
+		<p>Mega 模组的安装顺序是有相当多变化的。因此，这个说明文件不会告诉你安装这些模组的顺序。然而有一个论坛致力于Mega 模组安装，你可以在<a href="http://www.shsforums.net/index.php?showforum=193">这里</a>连结论坛网址。</p>
+		<br />
+		<a name="FAQ15" id="FAQ15"></a>
+		<p><strong>我如何与其它模组一起安装BGT-WeiDU？</strong></p>
+		<p>以一般惯例来说，应该先安装BG2 Fixpack，如果你想要使用这个修正包，接着安装Mega 模组、BGT-WeiDU，然后才是其它模组。具体的安装顺序是不断变化的，因此无法给予更详细的建议。</p>
+		<p>如果你想要玩BGT-WeiDU和其它模组，但不包括Mega 模组的话，先安装BG2 Fixpack，其次是BGT-WeiDU，然后才是其它的模组。</p>
+		<p>记得小心兼容性问题。在这里列出目前BGT-WeiDU与其它模组之间的兼容性。其它模组彼此之间的兼容性应该询问各个模组的作者。</p>
+		<br />
+		<a name="FAQ16" id="FAQ16"></a>
+		<p><strong>我想要翻译这个模组。我应该怎么做呢？</strong></p>
+		<p>想要将BGT-WeiDU翻译成不同的语言，请按照下列的步骤：</p>
+		<ul>
+			<li>前往你的BGT-WeiDU安装目录，并且切换到<strong>BGT\Language 目录</strong></li>
+			<li>复制一个<strong>English</strong>目录并且改名为想要翻译的语言。例如：</li>
+			<div class="important">
+				<p>英语(English ) -> 西班牙语(Castiliano)</p>
+			</div>
+			<li>在你改名的目录中，将目前所有的档案依照下列方式翻译：</li>
+			<ul>
+				<br />
+				<li>.tra files - 每一行都以@ = 作为开头，翻译的文本要在两个~或"符号之间</li>
+				<div class="important">
+					<p>@1001 = ~English~ -> @1001 = ~Castiliano~</p>
+					<p>@-1001 = "English" -> @-1001 = "Castiliano"</p>
+				</div>
+				<li>PreSetup、EndSetup、和 Uninstall 目录 – 都是必须翻译的.txt文件</li>
+			</ul>
+			<li>切换到<strong>BGT\Help</strong>目录</li>
+			<li>复制[English]BGTReadme.htm and [English]postinstall.htm，，并且改名为想要翻译的语言</li>
+			<div class="important">
+				<p>[English]BGTReadme.html -> [Castilian]BGTReadme.html</p>
+				<p>[English]postinstall.html -> [Castilian]postinstall.html</p>
+			</div>
+			<li>翻译BGTReadme.htm的1，2，3，4，5，和9等部分，以及所有的postinstall.htm</li>
+			<li>切换到<strong>BGT\Worldmap\English</strong>目录，复制worldmap.tra并且翻译其中内容</li>
+			<div class="important">
+				<p>###视为空格，但要确定你目前留下了###。如果你需要一个空格，将它们改为###。</p>
+				<p>@1001 = ~English###English~ -> @1001 = ~Castiliano###Castiliano~</p>
+				<p>@-1001 = "English###English" -> @-1001 = "Castiliano###Castiliano"</p>
+			</div>
+			<li>将你改名后的目录, readme档案、postinstall.htm和worldmap.tra打包放在同一个资料夹中</li>
+			<li>可以将这个档案发布在<a href="http://www.shsforums.net/index.php?showforum=261">模组论坛</a>，或是发送私人讯息(PM)给 Spellhold Studios forums的Ascension64，他将会给你一个电子信箱来发送翻译好的档案</li>
+			<li>等待下一个版本加入新的语言</li>
+		</ul>
+		<a name="FAQ17" id="FAQ17"></a>
+		<p><strong>我还有其他的问题。</strong></p>
+		<p>进入<a href="http://www.shsforums.net">Spellhold Studios forums</a>，免费注册成为会员，并且在网路上发表你的问题。</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 常见问题</span> &#8226;<a href="#top">回到首页</a>
+          </address>
+        </div>
+
+        <!-- ================== T r o u b l e s h o o t i n g ================== -->
+        <a name="troubleshooting" id="troubleshooting"></a>
+		<div class="content">
+          <h2>疑难排解</h2>
+          <h3>致命安装错误</h3>
+		  <p><strong>我有一个自订安装的博德之门与剑湾传奇并且更新为版本5512，或是博德之门：最初的英雄传奇，但是安装程式不接受我输入的目录。</strong></p>
+		  <p>最有可能的情况是你的博德之门与剑湾传奇或博德之门：最初的英雄传奇安装光碟刮伤了，并没有在安装时复制到所有的档案。</p>
+		  <ul>
+		  	<li>检查目前在你的BG1安装目录\data目录中所有的档案。如果有缺少任何档案，试着将光碟中的档案手动复制到正确的目录中。</li>
+			<br />
+			<ul>
+				<li>AREA000A.bif</li>
+				<li>AREA000B.bif</li>
+				<li>AREA000C.bif</li>
+				<li>AREA000D.bif</li>
+				<li>AREA000E.bif</li>
+				<li>AREA000F.bif</li>
+				<li>AREA000G.bif</li>
+				<li>AREA000H.bif</li>
+				<li>AREA010A.bif</li>
+				<li>AREA010B.bif</li>
+				<li>AREA020A.bif</li>
+				<li>AREA020B.bif</li>
+				<li>AREA030A.bif</li>
+				<li>AREA030B.bif</li>
+				<li>AREA040X.bif</li>
+				<li>AREA050D.bif</li>
+				<li>AREA060A.bif</li>
+				<li>AREA070A.bif</li>
+				<li>AREA080A.bif</li>
+				<li>AREA080B.bif</li>
+				<li>AREA090X.bif</li>
+				<li>AREA0100.bif</li>
+				<li>AREA110A.bif</li>
+				<li>AREA110B.bif</li>
+				<li>AREA110C.bif</li>
+				<li>AREA120A.bif</li>
+				<li>AREA120B.bif</li>
+				<li>AREA130A.bif</li>
+				<li>AREA140A.bif</li>
+				<li>AREA140B.bif</li>
+				<li>AREA160X.bif</li>
+				<li>AREA180A.bif</li>
+				<li>AREA180B.bif</li>
+				<li>AREA180C.bif</li>
+				<li>AREA180D.bif</li>
+				<li>AREA180E.bif</li>
+				<li>AREA190X.bif</li>
+				<li>AREA0200.bif</li>
+				<li>AREA210X.bif</li>
+				<li>AREA220X.bif</li>
+				<li>AREA230A.bif</li>
+				<li>AREA230B.bif</li>
+				<li>AREA260A.bif</li>
+				<li>AREA260B.bif</li>
+				<li>AREA260C.bif</li>
+				<li>AREA0300.bif</li>
+				<li>AREA320X.bif</li>
+				<li>AREA330A.bif</li>
+				<li>AREA330B.bif</li>
+				<li>AREA330C.bif</li>
+				<li>AREA330D.bif</li>
+				<li>AREA340X.bif</li>
+				<li>AREA360X.bif</li>
+				<li>AREA380X.bif</li>
+				<li>AREA390X.bif</li>
+				<li>AREA0400.bif</li>
+				<li>AREA400X.bif</li>
+				<li>AREA410X.bif</li>
+				<li>AREA420X.bif</li>
+				<li>AREA440X.bif</li>
+				<li>AREA450X.bif</li>
+				<li>AREA470X.bif</li>
+				<li>AREA480X.bif</li>
+				<li>AREA490X.bif</li>
+				<li>AREA500X.bif</li>
+				<li>AREA510X.bif</li>
+				<li>AREA520X.bif</li>
+				<li>AREA540A.bif</li>
+				<li>AREA540B.bif</li>
+				<li>AREA540C.bif</li>
+				<li>AREA540D.bif</li>
+				<li>AREA550X.bif</li>
+				<li>AREA0600.bif</li>
+				<li>AREA0700.bif</li>
+				<li>AREA0800.bif</li>
+				<li>AREA0900.bif</li>
+				<li>AREA1100.bif</li>
+				<li>AREA1200.bif</li>
+				<li>AREA1300.bif</li>
+				<li>AREA1400.bif</li>
+				<li>AREA1600.bif</li>
+				<li>AREA1700.bif</li>
+				<li>AREA1800.bif</li>
+				<li>AREA1900.bif</li>
+				<li>AREA2100.bif</li>
+				<li>AREA2200.bif</li>
+				<li>AREA2300.bif</li>
+				<li>AREA2400.bif</li>
+				<li>AREA2600.bif</li>
+				<li>AREA2700.bif</li>
+				<li>AREA2800.bif</li>
+				<li>AREA2900.bif</li>
+				<li>AREA3000.bif</li>
+				<li>AREA3100.bif</li>
+				<li>AREA3200.bif</li>
+				<li>AREA3300.bif</li>
+				<li>AREA3400.bif</li>
+				<li>AREA3500.bif</li>
+				<li>AREA3600.bif</li>
+				<li>AREA3700.bif</li>
+				<li>AREA3800.bif</li>
+				<li>AREA3900.bif</li>
+				<li>AREA4000.bif</li>
+				<li>AREA4100.bif</li>
+				<li>AREA4200.bif</li>
+				<li>AREA4300.bif</li>
+				<li>AREA4400.bif</li>
+				<li>AREA4500.bif</li>
+				<li>AREA4600.bif</li>
+				<li>AREA4700.bif</li>
+				<li>AREA4800.bif</li>
+				<li>AREA4900.bif</li>
+				<li>AREA5000.bif</li>
+				<li>AREA5100.bif</li>
+				<li>AREA5200.bif</li>
+				<li>AREA5300.bif</li>
+				<li>AREA5400.bif</li>
+				<li>AREA5500.bif</li>
+				<li>Areas.bif</li>
+				<li>ARMisc.bif</li>
+				<li>CHAAnim.bif</li>
+				<li>CHASound.bif</li>
+				<li>CREAnim.bif</li>
+				<li>Creature.bif</li>
+				<li>CRESound.bif</li>
+				<li>Default.bif</li>
+				<li>Dialog.bif</li>
+				<li>Effects.bif</li>
+				<li>Gui.bif</li>
+				<li>Items.bif</li>
+				<li>MPCREANM.bif</li>
+				<li>MPGUI.bif</li>
+				<li>MPSounds.bif</li>
+				<li>NPCSound.bif</li>
+				<li>OBJAnim.bif</li>
+				<li>RndEncnt.bif</li>
+				<li>scripts.bif</li>
+				<li>SFXSound.bif</li>
+				<li>Spells.bif</li>
+				<li>AREA050A.bif</li>
+				<li>AREA050B.bif</li>
+				<li>AREA050C.bif</li>
+				<li>AREA100A.bif</li>
+				<li>AREA150A.bif</li>
+				<li>AREA200A.bif</li>
+				<li>AREA200B.bif</li>
+				<li>AREA0500.bif</li>
+				<li>AREA1000.bif</li>
+				<li>AREA1500.bif</li>
+				<li>AREA2000.bif</li>
+				<li>ExArMaps.bif</li>
+				<li>ExPAreas.bif</li>
+			</ul>
+		</ul>
+		<br />
+
+		  <p><strong>WeiDU试图删除的档案不存在，并且询问是否重新安装模组。</strong></p>
+		  <p>你可能没有纯净安装的博德之门与剑湾传奇或是博德之门：巴尔王座。</p>
+		  <ul>
+			<li>当安装程式提示重新安装时，退出安装程式</li>
+			<li>依照这个文件的"安装与反安装"部分所述，将dialog.tlk还原</li>
+			<li>你刚刚将安装过程重置。不要马上尝试重新安装。</li>
+			<li>尝试重新安装没有任何模组的博德之门与剑湾传奇或博德之门：巴尔王座，并且重新安装BGT-WeiDU。</li>
+			<li>如果你有安装其它的模组，试着反安装这些模组，并且重新安装BGT-WeiDU。</li>
+			<li>如果你仍然碰到问题，将位于你的BG2安装目录中的SETUP-BGT.DEBUG和SETUP-BGTDOS.DEBUG(如果存在的话)档案发表到<a href="http://www.shsforums.net/index.php?showforum=261">模组论坛</a>。</li>
+		</ul>
+		<br />
+		<p><strong>视窗给我一个关于_WeiDU.exe或tis2bg2.exe的异常错误讯息</strong></p>
+		<p><strong>DOS在某些情况下重复提示的错误 "WeiDU: ZLIB: Warning! Problem decompressing block."</strong></p>
+		<p>如果你没有按照安装部分的第二步骤将会发生这些已知的问题。</p>
+		<ul>
+			<li>等待安装结束。这是相当重要的。依照"反安装与重新安装"部分所述来反安装BGT-WeiDU。</li>
+			<li>还原dialog.tlk。</li>
+			<li>正确的按照安装步骤指示。</li>
+		</ul>
+		<br />
+		<h3>小型安装错误</h3>
+		<p><strong>在安装过程中，我不断收到"你的光碟机中没有光碟"的错误。</strong></p>
+		<p>如果你没有按照安装步骤的步骤2就会发生这种情况。</p>
+		<ul>
+			<li>如果你尚未安装，或是你在要求输入你的博德之门与剑湾传奇目录时检查光碟后发觉这个安装程式直接停止了，立刻中止安装程式。</li>
+			<li>当你看到这里，如果你在要求输入博德之门与剑湾传奇目录后安装程式都会停止，按下"取消"直到所有提示出现，并且使安装程式结束。当安装程式结束后，反安装BGT-WeiDU并且将dialog.tlk还原。</li>
+			<li>正确地按照安装程式的步骤，并且没有省略步骤2。</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 疑难排解</span> &#8226;<a href="#top">回到首页</a>
+          </address>
+        </div>
+		
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+          <h2>荣誉榜</h2>
+          <h3>Core</h3>
+          <p><strong>Ascension64 (project leader):</strong> bug-testing, coding, distribution</p>
+          <p><strong>King Diamond:</strong> bug-testing, coding</p>
+          <p><strong>Waywocket:</strong> menu screens</p>
+          <p><strong>Yacomo:</strong> menu screens</p>
+		  <h3>Translations</h3>
+          <p><strong>Castilian/Spanish (<a href="http://www.clandlan.net">http://www.clandlan.net</a>):</strong> Ghildrean, Immortality, Lisandro, Memnoch, Saemon</p>
+          <p><strong>Czech:</strong> Lyrick, PostTrauma</p>
+          <p><strong>French:</strong> Anomaly</p>
+          <p><strong>German:</strong> OldVeteran, RubberDuck, weigo</p>
+          <p><strong>Italian:</strong> al17, Gemini82, melkor_morgoth75, Salk</p>
+          <p><strong>Korean:</strong> Inesius, web2air, Shi woo, Whiteraven</p>
+          <p><strong>Polish:</strong> dragonian, Joneleth, Promilus, Valfar (aka Evendur), yarpen</p>
+          <p><strong>Russian:</strong> Badgert, iopden, King Diamond, Kulyok, Vlad</p>
+          <p><strong>Simplified/Traditional Chinese (<a href="http://trow.cn/forum/">http://trow.cn/forum/</a>):</strong> Delmarey, fc666, good0593, Kinkairy, moon_cloud, 猫猫伸懒腰, distance20</p>
+		  <hr />
+		  <h3>Kudos</h3>
+		  <br />
+		  <ul>
+		  	<li>Many thanks to Bioware and Black Isle Studios for creating such a great RPG</li>
+			<li>Many thanks to Andyr and the Tutu team for providing a template for the sorting of journal entries</li>
+			<li>Many thanks to Bardez who created the original Baldur's Gate Trilogy and for permission to convert this mod to WeiDU</li>
+			<li>Many thanks to CamDawg and the TuTu Tweak Pack team for providing a template for the revised map notes</li>
+			<li>Many thanks to Corvias for the creativity in making the Baldur Gate Trilogy icon</li>
+			<li>Many thanks to Douglas Boling for the STRINGS command file</li>
+                        <li>Many thanks to Elve for work on the full Baldur's Gate/Shadows of Amn/Throne of Bhaal music</li>
+			<li>Many thanks to Horred the Plague, hlidskialf, Seanas, Sir BillyBob, and all the testers who have worked to make the game as smooth as possible</li>
+			<li>Many thanks to Riklaunim of the Polish BG community for allowing the inclusion of his Polish BG1 font utility</li>
+                        <li>Many thanks to Taimon for his songlist hack and finding a solution to duplicate characters in GAM files</li>
+                        <li>Many thanks to Turambar for his work in overhauling the installation to compatible with Linux systems</li>
+			<li>Many thanks to weimer for creating the WeiDU utility for excellent modification installation</li>
+			<li>Many thanks to Yacomo for the MOSUnpack utility and the World Map modification</li>
+			<li>Many thanks to you and all the other players that who have contributed to the completeness and the enjoyment in developing this modification</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 荣誉榜</span> &#8226;<a href="#top">回到首页</a>
+          </address>
+        </div>
+		
+        <!-- ================== L e g a l e s e ================== -->
+        <a name="legalese" id="legalese"></a>
+        <div class="content">
+          <h2>宣告</h2>
+		  <p>BALDUR'S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: © 1999 BioWare Corp. All Rights Reserved. Baldur's Gate and Baldur's Gate Tales of the Sword Coast are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc., and are used by Interplay under license. The BioWare Infinity Engine is a trademark of BioWare Corp.</p>
+		  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR'S GATE II: THRONE OF BHAAL: © 2000, 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Throne of Bhaal, and Shadows of Amn are trademarks owned by Wizards of the Coast, Inc. and are used by Interplay under license. All Rights Reserved. The BioWare Infinity Engine is a trademark of BioWare Corp. All Rights Reserved.</p>
+		  <p><strong>USE THIS MODIFICATION AT YOUR OWN RISK. This modification is not developed, supported, or endorsed by BioWare Corp., Interplay, or Black Isle. All images and contents of this mod are © BioWare Corp., Interplay, Black Isle or Wizards of the Coast, Inc.</strong></p>
+		  <p>This is a community modification, created as a hobby for free. You can distribute among your peers as much as you like. However, please display good faith and credit the authors of the modification if you intend to modify the BGT-WeiDU package in any way or use any part of this modification as a template to create part/all of a modification/fixpack/tweak that you intend to release to the community.</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 宣告</span> &#8226;<a href="#top">回到首页</a>
+          </address>
+        </div>
+		
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    <!--
+      function toggle(id) {
+        element = document.getElementById(id);
+        if ( element.style.display == 'none' ) {
+          element.style.display = '';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = 'none'; // IE hack
+          }
+        } else {
+          element.style.display = 'none';
+          if ( document.all ) {
+            document.getElementById('vhistoryaddress').style.display = ''; // IE hack
+          }
+        }
+      }
+
+      elements = document.getElementsByTagName('*');
+      for ( var i = 0; i < elements.length; i++ ) {
+        if ( elements[i].className == 'vlisthide' ) {
+          elements[i].style.display = 'none';
+        }
+      }
+    //-->
+    </script>
+	
+</body>
+</html>

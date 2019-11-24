@@ -1,0 +1,17 @@
+BEGIN ~lantan~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @19256
+  IF ~~ THEN REPLY @19257 GOTO 1
+  IF ~~ THEN REPLY @19258 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @19259
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @19260
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

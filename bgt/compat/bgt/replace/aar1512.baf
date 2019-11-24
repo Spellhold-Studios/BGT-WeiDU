@@ -1,0 +1,28 @@
+IF
+  Global("ImoenPartyBG1","GLOBAL",0)
+  Global("ImoenSpawned","GLOBAL",0)
+  LevelLT(Player1,13)
+THEN
+  RESPONSE #100
+    CreateCreature("IMOEN211",[1857.1520],5)
+    SetGlobal("ImoenSpawned","GLOBAL",1)
+END
+
+IF
+  Global("ImoenPartyBG1","GLOBAL",0)
+  Global("ImoenSpawned","GLOBAL",0)
+  LevelGT(Player1,12)
+THEN
+  RESPONSE #100
+    CreateCreature("IMOEN213",[1857.1520],5)
+    SetGlobal("ImoenSpawned","GLOBAL",1)
+END
+
+IF
+  Global("ImoenPartyBG1","GLOBAL",1)
+  Global("ImoenSpawned","GLOBAL",0)
+THEN
+  RESPONSE #100
+    AddXPObject("Imoen2",305000)
+    SetGlobal("ImoenSpawned","GLOBAL",1)
+END

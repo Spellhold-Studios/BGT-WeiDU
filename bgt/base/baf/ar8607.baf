@@ -1,0 +1,9 @@
+IF
+  Global("FLOODED","GLOBAL",2)
+THEN
+  RESPONSE #100
+    TriggerActivation("Door8601",FALSE)
+    CreateCreature("SLAVTELL",[326.238],0)
+    SetGlobal("FLOODED","GLOBAL",3)
+END
+

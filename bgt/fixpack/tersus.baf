@@ -1,0 +1,12 @@
+IF
+  Global("TersusGiveLeather","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("BGTERSUS",Player1)
+    ReallyForceSpellRES("BGTERSUS",Player2)
+    ReallyForceSpellRES("BGTERSUS",Player3)
+    ReallyForceSpellRES("BGTERSUS",Player4)
+    ReallyForceSpellRES("BGTERSUS",Player5)
+    ReallyForceSpellRES("BGTERSUS",Player6)
+    SetGlobal("TersusGiveLeather","GLOBAL",2)
+END

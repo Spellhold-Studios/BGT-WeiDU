@@ -1,0 +1,40 @@
+IF
+  Global("BGTNPC6753","GLOBAL",0)
+  Level(Player1,1)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6753","GLOBAL",1)
+    CreateCreature("KAGAIN",[315.276],7)  // ~Kagain~
+END
+
+IF
+  Global("BGTNPC6753","GLOBAL",0)
+  OR(2)
+    Level(Player1,2)
+    Level(Player1,3)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6753","GLOBAL",1)
+    CreateCreature("KAGAIN2",[315.276],7)  // ~Kagain~
+END
+
+IF
+  Global("BGTNPC6753","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6753","GLOBAL",1)
+    CreateCreature("KAGAIN4",[315.276],7)  // ~Kagain~
+END
+
+IF
+  Global("BGTNPC6753","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6753","GLOBAL",1)
+    CreateCreature("KAGAIN6",[315.276],7)  // ~Kagain~
+END
+

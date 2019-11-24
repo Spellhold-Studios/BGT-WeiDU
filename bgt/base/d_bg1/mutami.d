@@ -1,0 +1,14 @@
+BEGIN ~mutami~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @18314
+  IF ~~ THEN REPLY @18315 GOTO 1
+  IF ~~ THEN REPLY @18317 GOTO 1
+  IF ~~ THEN REPLY @18318 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @18319
+  IF ~~ THEN DO ~ActionOverride("BASILMUT",Enemy())
+Enemy()~ EXIT
+END

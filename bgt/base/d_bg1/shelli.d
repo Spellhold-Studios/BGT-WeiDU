@@ -1,0 +1,23 @@
+BEGIN ~shelli~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @18059
+  IF ~~ THEN REPLY @18060 GOTO 1
+  IF ~~ THEN REPLY @18061 GOTO 2
+  IF ~~ THEN REPLY @18062 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @18063
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @18064
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @18065
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

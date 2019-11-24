@@ -1,0 +1,16 @@
+IF
+  Heard("Entar",1)  // ~Entar Silvershield~
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  See("HouseGuard3")  // HouseGuard3
+  Allegiance(LastSeenBy(Myself),ENEMY)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+

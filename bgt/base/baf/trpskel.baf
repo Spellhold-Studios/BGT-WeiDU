@@ -1,0 +1,15 @@
+IF
+	Entered([ANYONE])
+THEN
+	RESPONSE #100
+		ForceSpell(LastTrigger,TRAP_STINKING_CLOUD)
+		CreateVisualEffect("SPFINGER",[931.1803])
+		CreateCreature("BGSKELWA",[931.1803],0) // Skeleton Warrior
+		CreateVisualEffect("SPFINGER",[1034.1764])
+		CreateCreature("BGSKEL02",[1034.1764],0) // Skeleton Warrior
+		CreateVisualEffect("SPFINGER",[1158.1882])
+		CreateCreature("BGSKEL03",[1158.1882],0) // Skeleton Warrior
+		Wait(60)
+END
+
+

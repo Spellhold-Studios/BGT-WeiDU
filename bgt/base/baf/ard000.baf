@@ -1,0 +1,19 @@
+IF
+  OnCreation()
+  Global("ike","GLOBAL",1)
+  Global("IkeSpawn","GLOBAL",0)
+  !Exists("ike")
+THEN
+  RESPONSE #100
+    CreateCreature("ike2",[1943.3097],0)
+    SetGlobal("IkeSpawn","GLOBAL",1)
+END
+
+IF
+  Global("EnteredDurlag","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("DURLAG")
+    SetGlobal("EnteredDurlag","GLOBAL",1)
+END
+

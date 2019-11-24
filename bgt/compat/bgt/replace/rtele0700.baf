@@ -1,0 +1,13 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,25)
+THEN
+  RESPONSE #100
+    SaveGame(0)
+    MultiPlayerSync()
+    FadeToColor([1.0],0)
+    TakePartyItem("MISC4E")
+    TakePartyItem("MISC4G")
+    StartCutSceneMode()
+    StartCutScene("cut01")
+END

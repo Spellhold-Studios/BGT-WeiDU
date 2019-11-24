@@ -1,0 +1,32 @@
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("IvanneSpawn","GLOBAL",0)
+  !Exists("IVANNE")
+THEN
+  RESPONSE #100
+    CreateCreature("IVANNE",[1035.835],0)
+    SetGlobal("IvanneSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("tranion","GLOBAL",1)
+  Global("TranionSpawn","GLOBAL",0)
+  !Exists("Detranion")
+THEN
+  RESPONSE #100
+    CreateCreature("DETRAN",[1065.835],0)
+    SetGlobal("TranionSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("IVANNE")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("IVANNE",DestroySelf())
+END

@@ -1,0 +1,17 @@
+BEGIN ~tartus~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @18889
+  IF ~~ THEN REPLY @18893 GOTO 1
+  IF ~~ THEN REPLY @19050 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @19051
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @19052
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

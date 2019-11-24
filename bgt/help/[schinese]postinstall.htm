@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT-WeiDU</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>博德之门三部曲 - WeiDU (BGT-WeiDU)</h1>
+        <strong>安装后设置注意事项</strong>
+		<br />
+		<p><a href="%5benglish%5dpostinstall.htm"><img border=0 src="images/image001.gif"></a>&nbsp;
+		<a href="%5bschinese%5dpostinstall.htm"><img border=0 src="images/image009.gif"></a>&nbsp;
+		<a href="%5btchinese%5dpostinstall.htm"><img border=0 src="images/image010.gif"></a>&nbsp;
+		<a href="%5bczech%5dpostinstall.htm"><img border=0 src="images/image011.gif"></a>&nbsp;
+		<a href="%5bfrench%5dpostinstall.htm"><img border=0 src="images/image002.gif"></a>&nbsp;
+		<a href="%5bgerman%5dpostinstall.htm"><img border=0 src="images/image003.gif"></a>&nbsp;
+		<a href="%5bitalian%5dpostinstall.htm"><img border=0 src="images/image004.gif"></a>&nbsp;
+		<a href="%5bkorean%5dpostinstall.htm"><img border=0 src="images/image007.gif"></a>&nbsp;
+		<a href="%5bpolish%5dpostinstall.htm"><img border=0 src="images/image005.gif"></a>&nbsp;
+		<a href="%5brussian%5dpostinstall.htm"><img border=0 src="images/image006.gif"></a>&nbsp;
+		<a href="%5bcastilian%5dpostinstall.htm"><img border=0 src="images/image008.gif"></a></p>
+        <hr />
+        <p class="menu">
+          <a href="#knownissues">已知问题</a> &middot;
+          <a href="#extras">附加功能</a>
+        </p>
+		<hr />
+		<p><i>感谢您对BGT-WeiDU的支持！我们希望你会喜欢这个模组。这些安装后的说明是为了让你了解游戏中还未修复的问题。此外，为了享受更全面和综合体验的博德之门与剑湾传奇，建议您在安装时添加一些模组。尽情享受吧！</i></p>
+		<p><i>BGT-WeiDU开发团队</i></p>
+		<hr />
+		<p><strong>请注意！BGT-WeiDU version 1.12 以及之前版本的存档文件都不兼容这次的更新。你必须重新开始新游戏。</strong></p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== K n o w n   I s s u e s ================== -->
+        <a name="knownissues" id="knownissues"></a>
+        <div class="content">
+          <h2>已知问题</h2>
+          <p>有一些存在于BGT-WeiDU的已知小错误，但是很难修正。这些问题详列如下：</p>
+		  <br />
+		<ul>
+			<li><strong>掘地虫任务(偶尔发生)：</strong>费坦有时会给予玩家帮助洁蒂杀死掘地虫的任务，即使这个任务已经完成了。你可以在和费坦谈话之前利用控制台输入CLUAConsole:SetGlobal("HelpGerde","GLOBAL",2)来修正这个问题。</li>
+			<li><strong>诅咒狂暴巨剑+3的永久狂暴：</strong>在攻击蜘蛛巢穴中的珊蒂儿时(AR8801)使用诅咒狂暴巨剑(SW2H03)将会导致人物陷入永久狂化的状态。但并不清楚是什么原因所造成的。为了避免这种情况，不要在蜘蛛巢穴中使用诅咒狂暴巨剑，或是确保狂暴的人物不会以珊蒂儿为目标，或是确保你拥有施展移除诅咒的能力。</li>
+			<li><strong>复原传记无法产生作用：</strong>为了正确的显示博德之门与剑湾传奇的传记，并且防止破坏<a href="http://en.wikipedia.org/wiki/Fourth_wall">第四道墙</a>，传记介面的恢复按钮将无法产生原来的作用。它的功能将改为清除传记。</li>
+			<li><strong>在创建人物时的传记设置：</strong>在你创建的人物进入烛堡之前避免编写传记。博德之门与剑湾传奇的传记设定为会在烛堡区域中读取，如果你在创建人物时编写了自定义的传记，自定义的传记将会被覆盖。</li>
+			<li><strong>高篱堡的骷髅：</strong>在高篱堡遭遇的骷髅无法正确的使用他们的投掷匕首。这似乎没有方法可以修正。</li>
+			<li><strong>在贝尔苟斯特当机回到桌面：</strong>在进出贝尔苟斯特时可能会发生意外当机和游戏存档损坏的情况。为了尽量减少发生这种情况，保持多个游戏存档，不要只依靠自动存档，并且避免在贝尔苟斯特内存档。或者对损坏的游戏存档使用<a href="http://forums.spellholdstudios.net/index.php?showtopic=24121">贝尔苟斯特当机修正程式</a>(Beregost Crash Fixer utility)。</li>
+			<li><strong>被魅惑的生物没有音效：</strong>像是熊、野狼、骷髅和食尸鬼克拉斯等生物，在被魅惑之后都无法发出音效。</li>
+			<li><strong>梦境叙述：</strong>某些语言的梦境叙述可能会漏失第一段或者最后一段的梦境文字。这是原始博德之门与剑湾传奇的一个问题。</li>
+			<li><strong>肉躯魔像音效：</strong>由于游戏引擎的错误，肉驱魔像的说话声很奇怪的像是魔兽人的声音。</li>
+			<li><strong>图形故障：</strong>在AR8500(3857,2853)的位置有一个绿色像素。这个错误不会修正，因为太过微不足道。</li>
+			<li><strong>明斯克的宿敌：</strong>明斯克的宿敌是豺狼人。由于脚本的限制，明斯克的宿敌将不会在直接汇入安姆阴影时更新为吸血鬼。</li>
+			<li><strong>莎儿-蒂尔的战斗：</strong>在与莎儿蒂尔的决斗结束时，可能会导致强壮的男性角色在战斗结束后继续攻击她，这有可能会导致莎儿蒂尔转为具有敌意(如果玩家无法使她加入)或是可能杀死她(如果她已加入队伍)。在决斗时将队伍AI关闭可以防止这种情况发生。</li>
+			<li><strong>开始一个新游戏：</strong>如果你开始一个新的BG2游戏，在创造人物的画面选择取消，然后开始一个新的BG1游戏，你将会开始一个新的BG2游戏。这似乎是一个游戏引擎的限制。如果发生这种情况，只需要重新启动游戏，并且开始一个新的BG1游戏。</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 已知问题</span> &#8226;<a href="#top">回到页首</a>
+          </address>
+        </div>
+
+        <!-- ================== E x t r a   F e a t u r e s ================== -->
+        <a name="extras" id="extras"></a>
+        <div class="content">
+          <h2>附加功能</h2>
+		  <a name="Music"><h3>博德之门与剑湾传奇配乐</h3></a>
+          <p>在BGT-WeiDU安装期间时安装的配乐并没有启动。</p>
+		  <p>为了启动博德之门与剑湾传奇的配乐，执行BGT-Weidu安装目录中的Setup-BGTMusic.exe。可以选择三个可使用的选项：</p>
+		  <ul>
+		    <li><strong>完整的博德之门与剑湾传奇配乐：</strong>可以启动所有原始的博德之门与剑湾传奇配乐。如果你在进行安姆阴影或是巴尔王座时安装了这个组件，那么听到的配乐将会是不正确的。为了得到最好的效果，当你决定要进行安姆阴影或是巴尔王座的游戏时反安装这个组件，以便使安姆阴影和巴尔王座预设的配乐还原。</li>
+		    <li><strong>混合的博德之门/安姆阴影/巴尔王座配乐：</strong>保留所有的安姆阴影、巴尔王座配乐，但是只会启动部分的博德之门与剑湾传奇配乐。并且尽量确保每个区域都可以拥有适当的配乐。</li>
+            <li><strong>完整的博德之门/安姆阴影/巴尔王座配乐(警告：这将会修改BGMain.exe)：</strong>利用Taimon所制作的破解程式可以使所有博德之门1与2的配乐皆可使用。这个破解程式提高了SONGLIST.2DA的游戏支援行数。使用时自行承担风险。</li>
+		    <li><strong>不安装任何组件：</strong>无法在游戏过程中听到相对应的博德之门与剑湾传奇配乐。在进行博德之门与剑湾传奇的游戏过程期间听到的配乐将会是不恰当的。</li>
+		  </ul>
+		  <p>如果你想和BGT-WeiDU一起安装其他的模组，建议你安装这个配乐组件的顺序尽量接近整个安装过程的结尾。这将可以使你反安装这个模组时不会有太多麻烦，并且可以防止可能发生的兼容性问题。</p>
+		  <br />
+		  <h3>自订选单画面</h3>
+		  <p>自订选单画面是在安装BGT-WeiDU后所提供的。切换到你的BGT安装目录，并且执行 Setup-GUI.exe。选择你想使用的选单画面类型。</p>
+		  <p>如果你想在BGT-WeiDU之外安装其他的模组，建议你安装这个模组的顺序尽量接近整个安装过程的结尾。这将可以使你反安装这个模组时不会有太多麻烦。</p>
+		  <br />
+		  <h3>特别为BGT-WeiDU制作的模组</h3>
+		  <p>位于<a href="http://www.shsforums.net/index.php?showtopic=23549">http://www.shsforums.net/index.php?showtopic=23549</a>的模组清单是特别为BGT-WeiDU制作的。在使用这些模组前，请注意这些附加的模组之间的兼容性问题。</p>
+		  <br />
+		  <h3>与其他模组一起使用BGT-WeiDU</h3>
+		  <p>关于BGT-WeiDU和其他模组的兼容性资讯可以在<a href="%5benglish%5dcompatibility.htm">这里</a>找到。在 <a href="http://www.shsforums.net/index.php?showtopic=19539">http://www.shsforums.net/index.php?showtopic=19539</a>可以找到一份更加符合最新兼容性的清单。请注意，这些清单只是显示BGT-WeiDU与其他模组之间的兼容性，而不是除了BGT-WeiDU之外其他模组之间彼此的兼容性。</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; 附加功能</span> &#8226;<a href="#top">回到页首</a>
+          </address>
+        </div>
+
+      </div>
+    </div>
+</body>
+</html>

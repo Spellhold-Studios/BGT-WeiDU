@@ -1,0 +1,11 @@
+IF
+  Global("DelthyrMove","GLOBAL",1)
+  Global("ENDOFBG1","GLOBAL",0)
+  !Exists("Delthyr")  // Delthyr
+  !Dead("Delthyr")  // Delthyr
+THEN
+  RESPONSE #100
+    CreateCreature("DELTHY",[0.0],0)  // ~Delthyr~
+    ActionOverride("Delthyr",SetNumTimesTalkedTo(1))
+END
+

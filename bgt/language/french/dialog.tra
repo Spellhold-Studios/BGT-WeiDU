@@ -1,0 +1,133 @@
+//BELTBRD.D
+@201810 = ~Les gens ont entendu parler de Sarevok. Ils montrent une grande curiosité. Les nobles en particulier posent des questions. Des questions délicates, comme par exemple : comment avez-vous pu tuer un enfant de Bhaal ?~
+@201812 = ~Les Voleurs de l'Ombre ont fait connaître l'existence du temple accessible depuis leur complexe. Je pense qu'ils sont en train de tenter de vous inciter à quitter la ville. Ils se sentent probablement menacés par votre présence ici.~
+@201813 = ~Et comme si cela ne suffisait pas, j'ai un problème plus grave à résoudre et vous pourrez peut-être m'aider.~
+@201814 = ~De quoi s'agit-il ?~
+@201815 = ~Amn veut toujours nous faire la guerre. J'ai tenté d'envoyer des messages au Conseil des Six à Athkatla mais ils ne semblent pas répondre. Je ne sais pas si le problème vient de mes messagers ou du Conseil.~
+@201816 = ~Et en quoi ceci a à voir avec moi ?~
+@201817 = ~Et que voulez-vous de moi ?~
+@201818 = ~<CHARNAME> ! La victoire est-elle... vôtre ? Sarevok est-il... mort ?~
+@201819 = ~Oui, c'est fait. Sarevok mange les pissenlits par la racine.~
+@201820 = ~Quand je pense que nous le louions il y a seulement quelques heures... *soupir*~
+@201821 = ~J'ai un nouveau contact à Athkatla. J'ai besoin qu'il obtienne ce document afin que le Conseil des Six le lise et sache la vérité à propos des problèmes ici. Je leur propose un rendez-vous secret entre moi et eux. J'espère que je pourrai leur prouver que Sarevok était responsable des menaces formulées contre eux et que la Porte de Baldur ne veut pas la guerre.~
+@201822 = ~Je vous raconte ceci parce que j'ai besoin de quelqu'un de fiable pour le faire. Je veux que vous rencontriez mon contact et que vous lui remettiez cette lettre. Si mes messagers n'ont pu arriver à destination à cause des bandits, au moins je sais que vous, vous serez capable de les vaincre et d'accomplir votre mission.~
+@201823 = ~Athkatla ? En Amn ? Cela va prendre beaucoup de temps pour aller là-bas. N'y a-t-il pas un moyen d'accélérer le voyage ?~
+@201824 = ~Si, et ceci m'amène au point suivant. J'ai demandé à mes mages d'écrire un sort afin de vous téléporter là-bas. Malheureusement, je n'ai jamais été à Athkatla, et la téléportation ne fonctionne uniquement que si vous connaissez la destination.~
+@201826 = ~J'ai déjà fait des voyages juste au nord d'Athkatla. Je connais très bien une de ces zones et je peux vous téléporter à cet endroit. J'ai informé mon contact de ceci et il devrait y avoir des personnes qui vous attendront là-bas. Ils pourront vous escorter jusqu'à la ville.~
+@201827 = ~Je ne comprends pas. Si vous pouvez téléporter quelqu'un directement pour rencontrer votre contact, pourquoi ne pas envoyer seulement un messager ? Pourquoi moi ?~
+@201828 = ~Pour deux raisons en fait. Premièrement, comme je vous ai dit avant, les nobles vous craignent. Le fait que vous quittiez la ville pendant quelques jours me donnera le temps de calmer leurs peurs. Et deuxièmement, mon contact a entendu parler de vous. Il semble que vous soyiez les héros de la Côte des Epées. Mon contact pense que le Conseil sera plus apte à prendre ma requête au sérieux si des héros comme vous supportent notre cause. J'ai même informé certains de vos amis afin qu'ils puissent vous rencontrer là-bas. Vous devrez revenir d'Amn à pied, donc allez-y en vous assurant que vous avez le nécessaire pour ce long voyage. Bonne chance !~
+//BELTBRD.D - new lines (v1.06)
+@201829 = ~Êtes-vous prêt à faire le voyage pour Athkatla ?~ ~Êtes-vous prête à faire le voyage pour Athkatla ?~
+@201830 = ~Oui, je suis prêt.~ ~Oui, je suis prête.~
+@201831 = ~Non, j'ai encore besoin de temps pour me préparer.~
+@201832 = ~Que dois-je faire déjà ?~
+@201833 = ~Bonne chance, et bon voyage.~
+@201834 = ~Alors préparez-vous rapidement. Il n'y a pas un instant à perdre !~
+
+//SARDEAD.D
+@202200 = ~Que... Qu'est-ce que c'est ?~
+@202201 = ~NON ! Comment.. est-ce possible ? COMMENT EST-CE POSSIBLE ?~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// KingDiamond's Extra Dialogue
+////////////////////////////////////////////////////////////////////////////////////////
+//TAEROM.D
+@203402 = ~Tsss, quelle perte de temps ! J'espère que ça pourrira dans votre sac à dos, vous adorerez l'arôme. Cela vous apprendra !~
+
+//WINSKI.D
+@203403 = ~Alors... vous l'avez tué, n'est-ce pas ? Je ne savais pas qui avait remporté la victoire, mais j'aurais dû assumer que c'était vous. Vous étiez l'épine dans son pied depuis toujours, et sa victoire aurait été vaine de toute façon.~
+@203404 = ~Laissez-moi ici. Je... je n'ai plus d'énergie. Laissez donc ce satané Poing venir me chercher. Je m'en fiche maintenant.~
+
+//SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
+@203405 = ~Ces personnes sont celles recherchées pour plusieurs meurtres... TUEZ-LES !~
+
+//VOLETA.D
+@203406 = ~Vous êtes de retour. Je suis plutôt surprise que vous ayez survécu. Personne n'avait réussi à traverser le labyrinthe auparavant. Bon, ce bâtard est mort, au moins. Si vous avez traversé ce labyrinthe et en êtes revenus, cela ne fait pas de doutes qu'il est parti dans l'au-delà.~
+@203407 = ~Cela va aller pour le moment. Les autres vont venir me chercher bientôt, alors partez. Vous avez causé suffisamment d'ennuis d'une manière ou d'une autre.~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// For picking known spells for new Shadows of Amn characters
+////////////////////////////////////////////////////////////////////////////////////////
+//A6GENSPL.D
+@204000   = ~Mettez le jeu en pause, réglez le niveau de difficulté en facile (1) ou normal (2), puis enlevez la pause pour continuer.~
+@204001   = ~Vous devez désormais choisir les sorts de mage connus pour <CHARNAME>.~
+@204002   = ~Choisissez un sort de mage spécialiste de niveau 2 pour <CHARNAME>.~
+@204003   = ~(Sorts de mage de niveau 2)~
+@204004   = ~Flou (Illusion/Fantasme)~
+@204005   = ~Détection du mal (Divination)~
+@204006   = ~Détection de l'invisibilité (Divination)~
+@204007   = ~Horreur (Nécromancie)~
+@204008   = ~Invisibilité (Illusion/Fantasme)~
+@204009   = ~Déblocage (Altération)~
+@204010   = ~Connaissance des alignements (Divination)~
+@204011   = ~Chance (Enchantement/Charme)~
+@204012   = ~Résistance à la terreur (Abjuration)~
+@204013   = ~Flèche acide de Melf (Conjuration/Convocation)~
+@204014   = ~Image miroir (Illusion/Fantasme)~
+@204015   = ~Nuage puant (Evocation)~
+@204016   = ~Force (Altération)~
+@204017   = ~Toile d'araignée (Evocation)~
+@204018   = ~Incinérateur d'Agannazar (Evocation)~
+@204019   = ~Toucher de la goule (Nécromancie)~
+@204020   = ~Vocaliser (Altération)~
+@204021   = ~Mot de Pouvoir, Sommeil (Conjuration/Convocation)~
+@204022   = ~Rayon débilitant (Enchantement/Charme)~
+@204023   = ~Bouclier du Chaos* (Abjuration)~
+@204024   = ~Surdité (Illusion/Fantasme)~
+@204025   = ~Poussière scintillante (Conjuration/Convocation)~
+@204026   = ~Choisissez six sorts de niveau 2 de mage pour <CHARNAME>.~
+@204027   = ~Choisissez un sort de mage spécialiste de niveau 3 pour <CHARNAME>, ou n'importe quel sort pour un Entropiste.~
+@204028   = ~(Sorts de mage de niveau 3)~
+@204029   = ~Clairvoyance (Divination)~
+@204030   = ~Délivrance de la magie (Abjuration)~
+@204031   = ~Flèche enflammée (Conjuration/Convocation)~
+@204032   = ~Boule de feu (Evocation)~
+@204033   = ~Hâte (Altération)~
+@204034   = ~Immobilisation des personnes (Enchantement/Charme)~
+@204035   = ~Invisibilité sur 3 mètres (Illusion/Fantasme)~
+@204036   = ~Eclair (Evocation)~
+@204037   = ~Convocation de monstres I (Conjuration/Convocation)~
+@204038   = ~Non-détection (Abjuration)~
+@204039   = ~Protection contre les projectiles non-magiques (Abjuration)~
+@204040   = ~Lenteur (Altération)~
+@204041   = ~Piège à crânes (Nécromancie)~
+@204042   = ~Toucher vampirique (Nécromancie)~
+@204043   = ~Charme néfaste (Enchantement/Charme)~
+@204044   = ~Armure fantomatique (Conjuration/Convocation)~
+@204045   = ~Déviation de sorts mineure (Abjuration)~
+@204046   = ~Protection contre le feu (Abjuration)~
+@204047   = ~Protection contre le froid (Abjuration)~
+@204048   = ~Annulation des protections (Abjuration)~
+@204049   = ~Détection des illusions (Divination)~
+@204050   = ~Immobilisation des morts-vivants (Nécromancie)~
+@204051   = ~Minuscules météores de Melf (Evocation)~
+@204052   = ~Dissipation de la magie (Abjuration)~
+@204053   = ~Choisissez cinq sorts de niveau 3 de mage pour <CHARNAME>.~
+@204054   = ~Choisissez un sort de mage spécialiste de niveau 4 pour <CHARNAME>, ou n'importe quel sort pour un Entropiste.~
+@204055   = ~(Sorts de mage de niveau 4)~
+@204056   = ~Confusion (Enchantement/Charme)~
+@204057   = ~Bouclier de feu (bleu) (Evocation)~
+@204058   = ~Tempête glaciale (Evocation)~
+@204059   = ~Invisibilité majeure (Illusion/Fantasme)~
+@204060   = ~Globe mineur d'invulnérabilité (Abjuration)~
+@204061   = ~Convocation de monstres II (Conjuration/Convocation)~
+@204062   = ~Peau de pierre (Altération)~
+@204063   = ~Contagion (Nécromancie)~
+@204064   = ~Délivrance de la malédiction (Abjuration)~
+@204065   = ~Emotion (Enchantement/Charme)~
+@204066   = ~Grande malédiction (Enchantement/Charme)~
+@204067   = ~Sphère résistante d'Otiluke (Altération)~
+@204068   = ~Armure spirituelle (Nécromancie)~
+@204069   = ~Métamorphose d'autrui (Altération)~
+@204070   = ~Métamorphose (Altération)~
+@204071   = ~Arme enchantée (Enchantement/Charme)~
+@204072   = ~Bouclier de feu (rouge) (Evocation)~
+@204073   = ~Mot secret (Abjuration)~
+@204074   = ~Séquenceur mineur (Evocation)~
+@204075   = ~Champ de téléportation (Altération)~
+@204076   = ~Progéniture d'Araignée (Conjuration/Convocation)~
+@204077   = ~Vision lointaine (Divination)~
+@204078   = ~Oeil de magicien (Divination/Altération)~
+@204079   = ~Choisissez cinq sorts de niveau 4 de mage pour <CHARNAME>.~
+@204080   = ~Sélection des sorts de mage terminée.~
+@204081   = ~N'oubliez pas de régler à nouveau le niveau de difficulté vers son réglage d'origine.~

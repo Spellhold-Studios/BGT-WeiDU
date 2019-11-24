@@ -1,0 +1,6 @@
+IF
+  Global("FoundChicken","GLOBAL",1)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet([PC])
+END

@@ -1,0 +1,150 @@
+IF
+  OnCreation()
+  Global("laola","GLOBAL",1)
+  Global("LaolaSpawn","GLOBAL",0)
+  GlobalLT("Chapter","GLOBAL",8)
+  !Exists("LAOLA")
+THEN
+  RESPONSE #100
+    CreateCreature("LAOLA",[3656.1458],0)
+    SetGlobal("LaolaSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("KaellaSpawn","GLOBAL",0)
+  !Exists("KAELLA")
+THEN
+  RESPONSE #100
+    CreateCreature("KAELLA",[2546.925],0)
+    SetGlobal("KaellaSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("KAELLA")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("KAELLA",DestroySelf())
+END
+
+IF
+  Global("BGTNPC8000","GLOBAL",0)
+  LevelLT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8000","GLOBAL",1)
+    CreateCreature("TIAX",[1445.1615],12)
+END
+
+IF
+  Global("BGTNPC8000","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8000","GLOBAL",1)
+    CreateCreature("TIAX4",[1445.1615],12)
+END
+
+IF
+  Global("BGTNPC8000","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8000","GLOBAL",1)
+    CreateCreature("TIAX6",[1445.1615],12)
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Capture1100","GLOBAL",0)
+  Global("DukeThanks","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Capture1100","GLOBAL",1)
+    CreateCreature("FFHUNT",[2049.1289],0)
+    CreateCreature("FFHUNT",[2049.1289],0)
+END
+
+IF
+  Global("ScarMission","GLOBAL",8)
+  !Exists("Scar")
+  !Dead("Scar")
+THEN
+  RESPONSE #100
+    CreateCreature("SCAR",[1568.1439],0)  // ~Scar~
+    ActionOverride("Scar",SetNumTimesTalkedTo(1))
+END
+
+IF
+  Global("ScarMission","GLOBAL",5)
+  !Exists("Scar")
+  !Dead("Scar")
+THEN
+  RESPONSE #100
+    CreateCreature("SCAR",[1568.1439],0)
+    ActionOverride("Scar",SetNumTimesTalkedTo(1))
+END
+
+IF
+  Global("TamokoMove","GLOBAL",1)
+  Global("ENDOFBG1","GLOBAL",0)
+  !Exists("Tamoko")
+  !Dead("Tamoko")
+THEN
+  RESPONSE #100
+    CreateCreature("TAMOKO",[1590.1439],0)
+END
+
+IF
+  Exists("TAMOKO")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("TAMOKO",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",6)
+  Global("AldethMove","GLOBAL",1)
+  !Exists("Aldeth")
+  !Dead("Aldeth")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnDabron","GLOBAL",1)
+    CreateCreature("ALDETH",[3507.2477],0)
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",6)
+  Global("AldethMove","GLOBAL",1)
+  Exists("Aldeth")
+  !Dead("Aldeth")
+THEN
+  RESPONSE #100
+    ActionOverride("ALDETH",DestroySelf())
+END
+
+IF
+  NumDeadGT("DoppSS",4)
+  Global("KilledDopple","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("KilledDopple","GLOBAL",5)
+END
+
+IF
+  NumDeadGT("DoppSS",3)
+  Dead("SSDopple")
+  Global("KilledDopple","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("KilledDopple","GLOBAL",5)
+END

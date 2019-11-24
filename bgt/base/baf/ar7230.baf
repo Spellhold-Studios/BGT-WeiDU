@@ -1,0 +1,49 @@
+IF
+  Global("BGTNPC7230","GLOBAL",0)
+  LevelLT(Player1,6)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7230","GLOBAL",1)
+    CreateCreature("ALORA",[759.764],5) // Alora
+END
+
+IF
+  Global("BGTNPC7230","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7230","GLOBAL",1)
+    CreateCreature("ALORA6",[759.764],5) // Alora
+END
+
+IF
+  TimeGT(19)
+  Exists("Alora")
+  !InPartyAllowDead("Alora")
+THEN
+  RESPONSE #100
+    Activate("Alora")
+    Wait(30)
+END
+
+IF
+  TimeLT(5)
+  Exists("Alora")
+  !InPartyAllowDead("Alora")
+THEN
+  RESPONSE #100
+    Activate("Alora")
+    Wait(30)
+END
+
+IF
+  TimeGT(4)
+  TimeLT(20)
+  Exists("Alora")
+  !InPartyAllowDead("Alora")
+THEN
+  RESPONSE #100
+    Deactivate("Alora")
+    Wait(30)
+END
+

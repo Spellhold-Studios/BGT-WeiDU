@@ -1,0 +1,971 @@
+@800000 = ~Phlydias verlorenes Buch
+
+~
+@800001 = ~Tethtorils Identifizierungsformel
+
+~
+@800002 = ~Ein Gegengift für Nessa
+
+~
+@800003 = ~Der Kampf gegen die Ratten
+
+~
+@800004 = ~Hull und sein Langschwert
+
+~
+@800005 = ~Neue Armbrustbolzen für Fuller
+
+~
+@800006 = ~Joias Flammentanzring
+
+~
+@800007 = ~Unsheys Gürtel der Durchdringung
+
+~
+@800008 = ~Spinnen, Stiefel und Wein
+
+~
+@800009 = ~Der verrückte Bassilus
+
+~
+@800010 = ~Gurkes berühmter Umhang
+
+~
+@800011 = ~Ein Buch für einen alten Freund
+
+~
+@800012 = ~Zhurlongs Stiefel
+
+~
+@800013 = ~Ein Ansturm von Halbogern
+
+~
+@800014 = ~Der wertvolle Ankheg-Panzer
+
+~
+@800015 = ~Im Auftrag einer Künstlerin
+
+~
+@800016 = ~Miriannes verschollener Ehemann
+
+~
+@800017 = ~Perdue und sein Kurzschwert
+
+~
+@800018 = ~Der Sohn von Entar Silberschild
+
+~
+@800019 = ~Auf der Suche nach Räuberskalps
+
+~
+@800020 = ~Der Fluch des Hauptmanns
+
+~
+@800021 = ~Prism, der Edelsteindieb
+
+~
+@800022 = ~Dynaheirs Rettung aus der Gnollfeste
+
+~
+@800023 = ~Der Streit der Magier
+
+~
+@800024 = ~Die Untersuchung der Nashkell-Mine
+
+~
+@800025 = ~Die Suche nach Joseph in der Mine
+
+~
+@800026 = ~Kylees Dolch
+
+~
+@800027 = ~Bauer Bruns vermisster Sohn
+
+~
+@800028 = ~Die Ankheg-Population
+
+~
+@800029 = ~Die Fischer und die Priesterin
+
+~
+@800030 = ~Die Ankheg-Katastrophe
+
+~
+@800031 = ~Die Jäger im Mantelwald
+
+~
+@800032 = ~Auf der Suche nach Chelak
+
+~
+@800033 = ~Die "Entführung" von Skie
+
+~
+@800034 = ~Die Untersuchung der Sieben Sonnen
+
+~
+@800035 = ~Das Rätsel um verschwundene Bürger
+
+~
+@800036 = ~Die Untersuchung des Eisenthrons
+
+~
+@800037 = ~Die Schriftrolle der Weisheit
+
+~
+@800038 = ~Driennes Katze
+
+~
+@800039 = ~Der Baum der Dryade
+
+~
+@800040 = ~Der verschwundene Hund
+
+~
+@800041 = ~Der Deserteur der Flammenden Faust
+
+~
+@800042 = ~Algernons Umhang
+
+~
+@800043 = ~Zwillingsangelegenheiten
+
+~
+@800044 = ~Baldurans Ausrüstung
+
+~
+@800045 = ~Die Geschichte des Einhornlaufs
+
+~
+@800046 = ~Ghorak, der Erkrankte
+
+~
+@800047 = ~Die gefangene Nymphe
+
+~
+@800048 = ~Katzenjammer
+
+~
+@800049 = ~Böse Taten werden bestraft
+
+~
+@800050 = ~Yagos Fluch
+
+~
+@800051 = ~Sarevok muss sterben
+
+~
+@800052 = ~Der neue Herzog
+
+~
+@800053 = ~Scars Ermordung
+
+~
+@800054 = ~Erneute Untersuchung des Eisenthrons
+
+~
+@800055 = ~Rashad, der Heiler
+
+~
+@800056 = ~Endspiel
+
+~
+@800057 = ~Konfrontation mit der Flammenden Faust
+
+~
+@800058 = ~Kopfgeld
+
+~
+@800059 = ~Der drohende Krieg
+
+~
+@800060 = ~Vergiftet!
+
+~
+@800061 = ~Schleimig!
+
+~
+@800062 = ~Die Rettung von Tremains Sohn
+
+~
+@800063 = ~Euric, der Ausreißer
+
+~
+@800064 = ~Der Streit der Nekromanten
+
+~
+@800065 = ~Der Streit der Nekromanten
+
+~
+@800066 = ~Der Streit der Nekromanten
+
+~
+@800067 = ~Der Streit der Nekromanten
+
+~
+@800068 = ~Diebische Aufträge
+
+~
+@800069 = ~Alatos' Auftrag
+
+~
+@800070 = ~Areana und Cyrdemac
+
+~
+@800071 = ~Das Teleskop
+
+~
+@800072 = ~Die Untersuchung der Händlerliga
+
+~
+@800073 = ~Engelshaut und Liebe
+
+~
+@800074 = ~Noralees Panzerhandschuhe
+
+~
+@800075 = ~Lästige Sirenen
+
+~
+@800076 = ~Der entlaufene Basilisk
+
+~
+@800077 = ~Auf der Suche nach einem Titanit
+
+~
+@800078 = ~Verworrene Enthüllungen
+
+~
+@800079 = ~Safana und der Schatz
+
+~
+@800080 = ~Das Schiff am Ufer
+
+~
+@800081 = ~Wilde Worgs
+
+~
+@800082 = ~Der Eisenmangel
+
+~
+@800083 = ~Der Bär
+
+~
+@800084 = ~Räuber!
+
+~
+@800085 = ~Ein sprechendes Huhn
+
+~
+@800086 = ~Der Überfall der Wolfsmenschen
+
+~
+@800087 = ~Kampf der Kreischlinge
+
+~
+@800088 = ~Die Mine im Mantelwald
+
+~
+@800089 = ~Ein Oger-Problem
+
+~
+@800090 = ~Eine versteinerte Kämpferin
+
+~
+@800091 = ~Die Ruinen von Ulcaster
+
+~
+@800092 = ~Die Zombie-Plage
+
+~
+@800093 = ~Ein Geist wird vermisst...
+
+~
+@800094 = ~Der Angriff auf das Bauernvieh
+
+~
+@800095 = ~Auf der Jagd nach Winterwölfen
+
+~
+@800096 = ~Die Ausgrabung
+
+~
+@800097 = ~Unterwanderung der Ausgrabung
+
+~
+@800098 = ~Die Ruinen der Feuerwein-Brücke
+
+~
+@800099 = ~Auf Lindwurmjagd
+
+~
+@800100 = ~Skies Lösegeld
+
+~
+@800101 = ~Die Suche nach Hurgans Dolch
+
+~
+@800102 = ~Die Suche nach Therellas Sohn
+
+~
+@800103 = ~Durlags Turm
+
+~
+@800104 = ~Durlags Turm: Rätsel - Habsucht
+
+~
+@800105 = ~Durlags Turm: Rätsel - Furcht
+
+~
+@800106 = ~Durlags Turm: Rätsel - Liebe
+
+~
+@800107 = ~Durlags Turm: Die Rätsel
+
+~
+@800108 = ~Durlags Turm: Rätsel - Stolz
+
+~
+@800109 = ~Mendas und Baldurans Entdeckungsreise
+
+~
+@800110 = ~Die Seekarten
+
+~
+@800111 = ~Gestrandet auf einer Insel!
+
+~
+@800112 = ~Der Kampf gegen die Bestien
+
+~
+@800113 = ~Eine Rotte von Monstern
+
+~
+@800114 = ~Dradeels Zauberbuch
+
+~
+@800115 = ~Evalts verschwundener Bruder
+
+~
+@800116 = ~Farthings Puppe
+
+~
+@800117 = ~Lahls Rache
+
+~
+@800118 = ~Das entführte Kind
+
+~
+@800119 = ~Delainys Bitte
+
+~
+@800120 = ~Der heilige Umhang
+
+~
+@800121 = ~Blumen für Delainy
+
+~
+@800122 = ~Durlyles Bitte
+
+~
+@800123 = ~Blumen für Durlyle
+
+~
+@800124 = ~Delstieftannien, oder so...
+
+~
+@800125 = ~Der Jahrmarkt von Nashkell
+
+~
+@800126 = ~Oublek, der Kopfgeldeintreiber
+
+~
+@800127 = ~Ärger in Nashkell
+
+~
+@800128 = ~Seltsames westlich von Nashkell
+
+~
+@800129 = ~Ärger im Süden?
+
+~
+@800130 = ~Hohes Haus der Wunder
+
+~
+@800131 = ~Das Teleskop
+
+~
+@800132 = ~Die Sicherheit der Halle der Wunder
+
+~
+@800133 = ~Öffnungszeiten der Halle der Wunder
+
+~
+@800134 = ~Die Sicherheit der Halle der Wunder
+
+~
+@800135 = ~Die Sicherheit der Halle der Wunder
+
+~
+@800136 = ~Geheime Krypten unter der Kerzenburg
+
+~
+@800137 = ~Aldeths Bruder
+
+~
+@800138 = ~Der reichste Mann in Baldurs Tor
+
+~
+@800139 = ~Verdächtige Händler in Baldurs Tor
+
+~
+@800140 = ~Der Weg des Bösen
+
+~
+@800141 = ~Nervende Harfner!
+
+~
+@800142 = ~Khalid und Jaheira sind Harfner!
+
+~
+@800143 = ~Ein besorgter Bauer
+
+~
+@800144 = ~Der Unfall der Fischer
+
+~
+@800145 = ~Die Geschichte eines Bauern
+
+~
+@800146 = ~Die Flammende Faust jagt eine Drow
+
+~
+@800147 = ~Alte Bauern lamentieren über Hühner
+
+~
+@800148 = ~Gerüchteküche
+
+~
+@800149 = ~Ein besorgter Händler
+
+~
+@800150 = ~Doppelgänger?
+
+~
+@800151 = ~Der größte Diebstahl aller Zeiten?
+
+~
+@800152 = ~Die Geschichte des Barden
+
+~
+@800153 = ~Das Lied des Barden
+
+~
+@800154 = ~Mein Ruf an der Schwertküste
+
+~
+@800155 = ~Große Insekten nahe Beregost
+
+~
+@800156 = ~Die Flammende Faust in Beregost
+
+~
+@800157 = ~Vaters Gegenstände
+
+~
+@800158 = ~Eine versteinerte Priesterin
+
+~
+@800159 = ~Die Schattendruiden
+
+~
+@800160 = ~Garrick, der Barde
+
+~
+@800161 = ~Ich muss nach Nashkell
+
+~
+@800162 = ~Eine Fortsetzung?
+
+~
+@800163 = ~Die Begegnung mit Drizzt Do'Urden
+
+~
+@800164 = ~Meuchelmörder!
+
+~
+@800165 = ~Der Mann mit dem spitzen Hut
+
+~
+@800166 = ~Khalid und Jaheira
+
+~
+@800167 = ~Gute alte Imoen!
+
+~
+@800168 = ~Mitleid für Marl
+
+~
+@800169 = ~Wieder ein Meuchelmörder!
+
+~
+@800170 = ~Ein gutes Geschäft!
+
+~
+@800171 = ~Meuchelmörder im Überfluss!
+
+~
+@800172 = ~Oubleks Irrtum
+
+~
+@800173 = ~Oubleks Irrtum
+
+~
+@800174 = ~Weitere Meuchelmörderangriffe!
+
+~
+@800175 = ~Ein Gerücht von Volo
+
+~
+@800176 = ~Volos Rechnung!
+
+~
+@800177 = ~Eine versteinerte Priesterin
+
+~
+@800178 = ~Warum benimmt sich Shistal merkwürdig?
+
+~
+@800179 = ~Die Befreiung Xans
+
+~
+@800180 = ~Kapitel 2: Isolation
+
+~
+@800181 = ~Kapitel 3: Ärger in Nashkell
+
+~
+@800182 = ~Kapitel 4: Die Räuber und der Eisenmangel
+
+~
+@800183 = ~Kapitel 5: Auf zum Mantelwald
+
+~
+@800184 = ~Kapitel 6: Baldurs Tor
+
+~
+@800185 = ~Kapitel 7: Rückkehr nach Hause
+
+~
+@800186 = ~Kapitel 8: Die Entscheidung
+
+~
+@800187 = ~Das Treffen mit Cadderly
+
+~
+@800188 = ~Vaters Gegenstände
+
+~
+@800189 = ~Delthyr, der Harfner
+
+~
+@800190 = ~Dradeels Geschichte
+
+~
+@800191 = ~Die Entdeckung von Baldurans Schiff
+
+~
+@800192 = ~Eine Erscheinung in Durlags Turm
+
+~
+@800193 = ~Pardas Verdächtigungen
+
+~
+@800194 = ~Doppelgänger in Kerzenburg!
+
+~
+@800195 = ~Der verrückte Tiax
+
+~
+@800196 = ~Kleiner Quayle
+
+~
+@800197 = ~Aldeths Bruder
+
+~
+@800198 = ~Besetzer im Scharfzahnwald
+
+~
+@800199 = ~Die Regeln der Bibliothek von Kerzenburg
+
+~
+@800200 = ~Wegen Mordes gesucht!
+
+~
+@800201 = ~Marls Geschichte
+
+~
+@800202 = ~Die Verurteilung
+
+~
+@800203 = ~Zuflucht im Tempel von Umberlee
+
+~
+@800204 = ~Ein edler Jäger
+
+~
+@800205 = ~Die Probleme der Diebesgilde
+
+~
+@800206 = ~Der Unterkeller
+
+~
+@800207 = ~Die Zauberschule östlich von Beregost
+
+~
+@800208 = ~Shandalars Umhang
+
+~
+
+/////////////////////
+//New journal entries
+/////////////////////
+@310033 = ~Ein Buch für einen alten Freund
+
+Firebead Elfenhaar gab mir im Austausch für "Die Geschichte der Schicksalsmünze" ein anderes Buch. Er sagte, es sei düsterer als das, was ich ihm gab. Ob mir das Buch gefällt, werde ich erst dann herausfinden, wenn ich es lese. Ich hoffe, ich werde ihn eines Tages wiedersehen. Er war immer nett zu mir...~
+@310042 = ~Der wertvolle Ankheg-Panzer
+
+Heute beendete Taerom "Donnerhammer" die Ankhegrüstung. Es ist eine ausgezeichnete Handarbeit und wartet förmlich darauf, benutzt zu werden.~
+@310044 = ~Im Auftrag einer Künstlerin
+
+Wir wurden von einer Frau namens Silke angeheuert, um sie vor ein paar Schurken zu beschützen, die ein Mann namens Feldepost angeheuert haben soll. Es stellte sich heraus, dass Silke eine böse Hexe war, die eine Gruppe von Boten wegen ihren Waren töten wollte. Sie wird keinen weiteren Ärger verursachen.~
+@310045 = ~Im Auftrag einer Künstlerin
+
+Ich half Silke, eine Gruppe von Raufbolden zu töten, die mir weismachen wollten, dass sie Händler seien. Ich fiel nicht auf diese Täuschung herein und brachte sie schnell um die Ecke.~
+@311054 = ~Auf der Suche nach Räuberskalps
+
+Wir waren mit der Offizierin Jessa Vai von der Flammenden Faust gut im Geschäft mit dem Verkauf von Räuberskalps. Sie wurde zurück nach Baldurs Tor berufen, um Bericht über den Kampf gegen die Räuber zu erstatten. Ich frage mich, was sie mit all den Skalps machen wird. Wird sie eine Gerberei oder ein Gewerbe als Präparator eröffnen?~
+@310057 = ~Der Fluch des Hauptmanns
+
+Die Sache mit dem Hauptmann der Garde in Nashkell war sicher eine tragische und verwirrende Geschichte. Wie auch immer, Brage wurde jedenfalls erledigt.~
+@310806 = ~Prism, der Edelsteindieb
+
+Prisms Geschichte war wirklich traurig. Schade, dass sie nicht besser ausgegangen ist. Naja, immerhin hat es meine Kasse aufgebessert; 150 Goldmünzen Belohnung für die Smaragde, die er gestohlen hatte.~
+@310070 = ~Die Suche nach Joseph in der Mine
+
+Ich fand Josephs Ring in der Mine, behielt ihn aber als Bezahlung. Die Frau war zwar nicht erfreut, aber es gibt keine Leistung ohne eine Gegenleistung.~
+@310071 = ~Die Suche nach Joseph in der Mine
+
+Ich fand Josephs Ring in der Mine und gab ihn seiner Frau zurück. Ihr ausgiebiges Dankeschön ist immer noch in meinen Gedanken. Ich kann nur hoffen, dass sie mit dem Ring als Erinnerung an ihren Gatten Ruhe finden wird. Möge er in Frieden ruhen...~
+@310078 = ~Kylees Dolch
+
+Ich brachte den Dolch, den mir Dink für Kylee gab, seinem Besitzer zurück.~
+@310086 = ~Die Ankheg-Population
+
+Gerde gab mir 75 Goldmünzen für meine Hilfe zur Regelung der Ankheg-Population in dieser Region. Gute Bezahlung für wenig Arbeit.~
+@311092 = ~Die Fischer und die Priesterin
+
+Die kleine Priesterin von Umberlee ist nun tot. Mich würde es nicht wundern, zukünftig göttliche Hilfe von Talos zu bekommen... und auch frischen Fisch zu jedem Essen...~
+@310101 = ~Die Ankheg-Katastrophe
+
+Quinn war sehr erfreut, Nestors Dolch zu sehen. Ich glaube, er wird ihm als Erinnerung an den Mut Nestors dienen.~
+@310103 = ~Die Jäger im Mantelwald
+
+Um den Mantelwald zu schützen, stellte ich mich auf die Seite der Druiden und tötete Aldeth Sashenstar. Ich bin davon überzeugt, dass Aldeth und seine Jagdfreunde Druiden, die in Tiergestalt wandelten, gejagt haben. Somit war es das Recht der Druiden, Rache zu nehmen.~
+@310104 = ~Die Jäger im Mantelwald
+
+Ich rächte den Tod von Elban, einen von Aldeths Freunden, indem ich Aldeth half, eine Bande von Wilden zu beseitigen. Sie können nun unbeschwert jagen. Aldeth erwähnte noch, dass ich ihn in der Händlerliga im Südwesten von Baldurs Tor besuchen solle.~
+@310106 = ~Auf der Suche nach Chelak
+
+Tiber war sehr verbittert über den Tod seines Bruders. Armer Chelak, es war selbstmörderisch von ihm, ein Spinnennest zu überfallen. Was Tiber betrifft, gibt es nicht viel, was ich tun kann, außer mit ihm zu fühlen.~
+@310108 = ~Die "Entführung" von Skie
+
+Ich half Eldoth, Skie zu retten, aber sie schien mir zu gebrechlich, um mich in den Abenteuern zu unterstützen. Deshalb ließ ich sie ziehen.~
+@310109 = ~Die "Entführung" von Skie
+
+Ich half Eldoth, Skie zu retten. Sie war sicherlich ganz erpicht darauf, unserer Gruppe beizutreten, aber ich bin mir nicht ganz sicher, ob sie mit den Situationen zurechtkommt, denen ich ausgesetzt bin. Ich denke, ich gebe ihr eine Chance.~
+@310110 = ~Die "Entführung" von Skie
+
+Ich brachte Eldoth in den nordwestlichen Teil von Baldurs Tor, in dem das Anwesen liegt. Aber ich bin mir nicht mehr sicher, ob der Plan so funktioniert. Eldoth hat deswegen die Gruppe verlassen, um seine "Rettungsmission" alleine durchzuführen.~
+@310111 = ~Die "Entführung" von Skie
+
+Es sieht wohl so aus, dass es für Eldoth zu lange gedauert hat, um Skie zu retten. Er verließ deswegen einfach die Gruppe und nannte mich einen Dummkopf. Wie auch immer, ich sehe es anders, wer hier der Dummkopf ist oder ein Selbstmörder.~
+@310115 = ~Die Untersuchung der Sieben Sonnen
+
+Ich beseitigte die Doppelgänger im Anwesen der Sieben Sonnen und erhielt eine ansehnliche Belohnung von Scar. Es scheint so, als wolle er noch etwas von uns.~
+@310116 = ~Die Untersuchung der Sieben Sonnen
+
+Ich berichtete Scar, dass wir nichts Besonderes im Anwesen der Sieben Sonnen fanden. Er scheint mehr mit dem Eisenthron beschäftigt zu sein.~
+@310117 = ~Die Untersuchung der Sieben Sonnen
+
+Ich berichtete Scar von den Doppelgängern, die die Gemeinschaft der Sieben Sonnen infiltriert haben. Die Untersuchung werde ich aber nicht fortsetzen. Scar scheint mehr mit dem Eisenthron beschäftigt zu sein.~
+@310118 = ~Die Untersuchung der Sieben Sonnen
+
+Ich sagte Scar, dass wir den Doppelgängern nicht ganz gewachsen seien. Er schien es zu verstehen und wird eine Gruppe der Flammenden Faust senden, um das Problem zu lösen.~
+@310119 = ~Die Untersuchung der Sieben Sonnen
+
+Ich berichtete Scar, dass wir die Doppelgänger beseitigt haben, aber die Mission ein Misserfolg war, da Jhasso getötet wurde. Scar bezahlt uns nicht, aber er ist bereit, uns für weitere Aufträge zu engagieren.~
+@310121 = ~Das Rätsel um verschwundene Bürger
+
+Ich berichtete Scar, dass ich über das Verschwinden der Bürger keine Hinweise fand. Er war ziemlich verärgert und wird jemand anderes mit der Aufgabe betrauen. Ich denke, ich belasse es dabei.~
+@310122 = ~Das Rätsel um verschwundene Bürger
+
+Ich berichtete Scar, dass ein Oger Magus für das Verschwinden der Bürger verantwortlich war. Bedauerlicherweise habe ich keinen Rubinring gefunden, der der Familie Sashenstar gehört.~
+@310123 = ~Das Rätsel um verschwundene Bürger
+
+Ich berichtete Scar, dass ein Oger Magus für das Verschwinden der Bürger verantwortlich war. Außerdem gab ich ihm einen Rubinring zurück, der der Familie Sashenstar gehört.~
+@310124 = ~Das Rätsel um verschwundene Bürger
+
+Ich berichtete Scar, dass ein Oger Magus für das Verschwinden der Bürger verantwortlich war. Ich erschlug die Kreatur, so dass sie die Bürger nicht länger belästigen wird.~
+@310143 = ~Die Schriftrolle der Weisheit
+
+Ich fand die Schriftrolle der Weisheit, aber Fahrington bot mir an, sie zu behalten. Ich frage mich, welche "karmische Essenz" in den Worten der Schriftrolle wirklich enthalten ist.~
+@310157 = ~Der Deserteur der Flammenden Faust
+
+Für die Auslieferung des flüchtigen Samuel bekam ich lächerliche 50 Goldstücke als Belohnung. Verdammt, soll ich mir damit ein Schwert kaufen...~
+@310158 = ~Der Deserteur der Flammenden Faust
+
+Es stellte sich heraus, dass Lena Samuel dazu brachte, von der Flammenden Faust zu desertieren. Wie dem auch sei, ich hoffe, dass Gellana den armen Mann wieder auf die Beine bringt.~
+@310159 = ~Der Deserteur der Flammenden Faust
+
+Wie ich es Lena versprochen hatte, brachte ich Samuel zu Gellana, aber Samuel konnte nicht mehr geholfen werden. Was für eine Verschwendung von Leben.~
+@310161 = ~Algernons Umhang
+
+Wie soll ich es ausdrücken? Ich brachte Pheirkas Algernons Umhang "zurück" und wurde umgehend bezahlt...~
+@310165 = ~Zwillingsangelegenheiten
+
+Nun, ich erlebte Voltine von ihrer guten Seite. Sie gab mir einen Verwandlungsstab dafür, dass ich das mit Gervisse in Ordnung brachte.~
+@310166 = ~Zwillingsangelegenheiten
+
+Ich entschied, dass es Voltine war, der verschlagen aussah und sich für Gervisse verkaufte. Aus irgendeinem Grund denke ich, dass es das Problem nicht gelöst hat...~
+@310171 = ~Baldurans Ausrüstung
+
+Der Magier Degrodel ist ein Widerling. Trotz Bezahlung einer königlichen Summe hetzte er uns seine magischen Wachen auf den Hals. Ich hätte den Helm behalten sollen.~
+@310179 = ~Die Geschichte des Einhornlaufs
+
+Ich fand das Buch "Die Geschichte des Einhornlaufs" und brachte es Rinnie, die sich darüber gefreut hat.~
+@310181 = ~Ghorak, der Erkrankte
+
+Ich kehrte mit dem Schädel eines schon seit langem toten Priesters namens Kereph von Agnasia zurück. Ghorak sollte damit von seinen Beschwerden geheilt sein, so dass es mir möglich sein wird, ihm irgendwann einen freundlichen Besuch abzustatten.~
+@310185 = ~Die gefangene Nymphe
+
+Ich habe die Nymphe Abela in die Freiheit entlassen. Solch ein zartes Geschöpf der Natur ist nichts für derartige Städte und ihre verrückten Einwohner.~
+@311183 = ~Die gefangene Nymphe
+
+Ich habe mich dazu entschlossen, die Nymphe Abela in die Freiheit zu entlassen. Ragefast und Ramazith schienen beide arglistige Gedanken zu haben, deshalb habe ich beide getötet.~
+@310186 = ~Die gefangene Nymphe
+
+Ich brachte die Nymphe Abela wie vereinbart zu Ramazith. Es war eine sehr schwerwiegende Entscheidung, und ich bin mir nicht sicher, ob ich es jemals wieder gutmachen kann.~
+@311189 = ~Katzenjammer
+
+Es ist erledigt. Ich tötete die widerliche Katze. Ich vermute, Bheren wird das nächste Mal zweimal darüber nachdenken, bevor er mich um eine Sache bittet, denn dann werde ich WIRKLICH eine Bezahlung für einen Gefallen dieser Art verlangen.~
+@310190 = ~Katzenjammer
+
+Ich fand den Engelshautring, den Petrine wollte. Sie freute sich sehr darüber.~
+@310191 = ~Katzenjammer
+
+Ich tötete Petrines Katze... aus Versehen...~
+@310474 = ~Katzenjammer
+
+Es ist erledigt. Ich tötete die widerliche Katze und Bheren hat dafür einen magischen Umhang springen lassen. Juchhu!~
+@310199 = ~Yagos Fluch
+
+Ich holte Yagos Buch der Flüche für Brielbara, damit sie ihrer Tochter helfen kann. Sie war äußerst dankbar.~
+@311199 = ~Yagos Fluch
+
+Ich habe keine Zeit mehr, um all diese staubigen Bücher zu besorgen... Es ist genug! Brielbara sollte sich selbst um ihre Tochter kümmern... Autsch... Sie ist aufgebracht... und tot. Wie auch immer... ich bin nicht länger der Laufbursche.~
+@310225 = ~Vergiftet!
+
+Wir fanden Marek und konnten ihn dazu bringen, uns von dem Gift zu heilen. Die Bedrohung der beiden Meuchelmörder beruhte auf dem Umgang meinerseits mit dem Eisenthron. Das nächste Mal werde ich auf sie vorbereitet sein und ich werde auch jedes meiner Getränke überprüfen.~
+@310227 = ~Schleimig!
+
+Kein Gerede mit Betrunkenen mehr! Ich bekam meine 100 Goldmünzen zurück und erhielt 60 Extramünzen für die Beseitigung der Schleime und Schlicke. Wenn das sein gesamtes Geld war, denke ich, wird er bald ausnüchtern.~
+@310233 = ~Die Rettung von Tremains Sohn
+
+Ich brachte das Kind zurück zu Tremain. Es sieht so aus, als ob der ungezogene Junge im Tempel von Umberlee betteln war, aber er scheint auch kein besseres Leben mit seinem strengen Vater zu führen. Varci war sehr dankbar und gab mir einen schönen Gegenstand.~
+@310238 = ~Euric, der Ausreißer
+
+Ich bekam eine feine Halskette von Nadine geschenkt, da ich ihrem Sohn Euric den Talisman brachte. Ich vertraue ihrer Aussage, dass Euric schon auf sich selbst aufpassen kann.~
+@311238 = ~Euric, der Ausreißer
+
+Ich brachte Euric den Talisman seiner Mutter. Er war nicht wirklich dankbar - jedes Kind will seine eigene Freiheit. Vielleicht sollte ich Nadine erzählen, dass mit ihrem Sohn alles in Ordnung ist...~
+@310244 = ~Der Streit der Nekromanten
+
+Ich fand Arkions Blutsteinamulett sowie Nemphres Onyxring und brachte sie zu Ordulinian. Hoffentlich lassen Arkion und Nemphre nun endlich von ihrem kleinlichen Streit ab.~
+@310245 = ~Der Streit der Nekromanten
+
+Ich brachte Arkion einen Leichnam aus der Kanalisation. Ich habe weder eine Ahnung, was er damit vorhat, noch will ich wissen, wem der Körper überhaupt gehörte. Nekromanten...~
+@310246 = ~Der Streit der Nekromanten
+
+Ich besorgte Nemphre das Blutsteinamulett von Arkion. Sie schob mich beiseite, als ob ich ein Niemand wäre! Egal, ich will sie lieber nicht reizen.~
+@310265 = ~Areana und Cyrdemac
+
+Eine geistesabwesende Frau namens Areana hat mich angefleht, einen Mann zu töten, der über sie Lügen verbreitet. Sein Name ist Cyrdemac und er sucht öfter die Taverne "Elfgesang" auf. Areana wohnt zurzeit im Gasthaus "Zu den drei alten Fässern" in der Nähe des Herzogspalasts.~
+@310266 = ~Areana und Cyrdemac
+
+Als ich Cyrdemac bezauberte, erzählte er mir, dass er eine Frau namens Areana erpresst, die einen Liebhaber im Unterkeller hatte. Er schlug vor, dass ich ihr erzählen soll, dass er tot sei und ich mit der Erpressung fortfahre.~
+@310267 = ~Areana und Cyrdemac
+
+Ich lehnte Areanas unheilvolle Bitte, Cyrdemac zu töten, ab. Irgendwas ist faul an der ganzen Sache und ich will nicht Teil dieses Spielchens sein.~
+@310268 = ~Areana und Cyrdemac
+
+Ich fertigte Cyrdemac ab und erhielt eine Belohnung von Areana. Es sah so aus, als wolle sie das Geschäft erledigt haben und ich vertraue ihr, dass sie keine Belohnung auf mich ansetzt, obwohl ich sehr daran interessiert bin, ihr kleines Geheimnis zu lüften.~
+@310269 = ~Areana und Cyrdemac
+
+Es sieht so aus, als hätte ich Cyrdemacs Platz selbst eingenommen - zu meinem eigenen kleinen Vorteil. Die Reichtümer kommen jetzt zu mir, damit dieser kleine Mord ein Geheimnis bleibt. Alle zehn Tage muss ich zu Areana zurückkommen, um mein Geld abzuholen.~
+@310270 = ~Areana und Cyrdemac
+
+Areana hat in letzter Zeit dazugelernt und einen "Freund" angeheuert, um mich umzulegen. Netter Versuch, Lady.~
+@310272 = ~Das Teleskop
+
+Brevlik war sehr nachdenklich über das Bekanntwerden des Diebstahls in der Halle der Wunder. Ich kann nur sagen, dass wir beide einen Gewinn gemacht haben - er das Teleskop und ich die Belohnung für meine Taten.~
+@310273 = ~Das Teleskop
+
+Brevlik war sehr verärgert, da ich während des Erkundens der Halle der Wunder Wachen tötete. Die Vereinbarung sei damit nichtig, sagte er.~
+@310279 = ~Die Untersuchung der Händlerliga
+
+Die Händlerliga war von Doppelgängern unterwandert. Wir haben alle beseitigt. Aldeth Sashenstar lobte uns für diese Arbeit und heißt uns in seinem Anwesen willkommen, sollten wir jemals in Gefahr sein.~
+@311278 = ~Die Untersuchung der Händlerliga
+
+Wir erzählten Brandilar, dass wir jeden Doppelgänger, den wir während des Auskundschaftens der Händlerliga fanden, getötet haben. Er schickte uns zu Aldeth, bei dem wir unsere Belohnung abholen können.~
+@310281 = ~Engelshaut und Liebe
+
+Ich fand einen Engelshautring für Fergus. Er würdigte meine Wahl und gab mir eine Empfehlung für Scar, dem stellvertretenden Kommandanten der Flammenden Faust.~
+@310287 = ~Noralees Panzerhandschuhe
+
+Ich fand die Panzerhandschuhe von Noralee, auch wenn es etwas länger gedauert hat. Wie auch immer, ich erhielt meinen Beitrag für die Arbeit.~
+@310289 = ~Lästige Sirenen
+
+Ich habe die Fischgründe von den störenden Sirenen befreit. Es war zwar schwierig, aber letztendlich kann Cordyr in sein normales Leben zurückkehren.~
+@310291 = ~Der entlaufene Basilisk
+
+Nadarin war sehr dankbar... und auch reich! Wir wurden sehr ansehnlich für das Beseitigen des entlaufenen Basilisken belohnt.~
+@310293 = ~Auf der Suche nach einem Titanit
+
+G'axir war mir dankbar, dass ich ihm einen Titanit brachte, aber seine dunklen Vorahnungen bereiten mir mehr Sorgen. Offenbar gibt es eine antike "Unterstadt", welche unterhalb von Baldurs Tor liegt und ich muss durch die Dunkelheit gehen, um das Licht zu finden. Klingt irgendwie verrückt.~
+@310294 = ~Verworrene Enthüllungen
+
+Ich lernte Shaella kennen, eine der verwirrendsten Priesterinnen, die ich jemals traf. Sie ist eine Anhängerin Leiras, der Herrin der Nebel, die offenbar nicht existiert. Irgendwie bekomme ich das Gefühl für ihre Art der Konversation. Ich muss immer genau das Gegenteil von dem sagen, was ich denke.~
+@310296 = ~Verworrene Enthüllungen
+
+Dank des Nebels der Unwissenheit und durch die Berührung des Buches der Unwissenden, welches nur im Geiste existiert, entdeckte ich das falsche Gesicht von Elnaedra, der Ignorantin von Shaella, Priesterin von Leira. Zur Hölle nochmal, warum sollte sich das reimen?~
+@310298 = ~Safana und der Schatz
+
+Wir fanden den Piratenschatz, den Safana suchte, doch darüber hinaus fand ich keinen Grund, sie in meiner Gruppe zu behalten. Sie nahm es mit Fassung auf.~
+@310299 = ~Safana und der Schatz
+
+Wir fanden den Piratenschatz, den Safana suchte und nahmen sie in unsere Gruppe auf. Ich bin mir sicher, sie wird uns gut ergänzen.~
+@310390 = ~Der Bär
+
+Jared sollte wieder sicher weiterreisen können, nachdem ich diesen Bären beseitigt habe. Es war ein sehr ungewöhnlicher Bär.~
+@310805 = ~Ein sprechendes Huhn
+
+Ich brachte das Huhn namens Melicamp zu Thalantyr in die Hohe Hecke. Ich möchte aber nicht dabei zusehen, wie der junge Zauberer verwandelt wird. Nicht, weil es mich nicht interessieren würde, sondern viel mehr wegen dem beleidigenden Benehmen Thalantyrs.~
+@310553 = ~Die Zombie-Plage
+
+Wir erschlugen zwanzig Zombies in der Gegend um Wenrics Bauernhof. Ich weiß nicht, woher sie kamen, aber sie sollten ihn nicht länger belästigen.~
+@310558 = ~Ein Geist wird vermisst...
+
+Ich brachte die alte Rüstung des untoten Ritters seinen Freunden. Sie nannten ihn einen Verräter und verschwanden. Jetzt, wo sie wieder vereinigt sind, sind sie endgültig frei. Ruhet in Frieden...~
+@310575 = ~Die Ausgrabung
+
+Ich traf einen begeisterten Archäologen namens Charleston Nib westlich von Nashkell. Er und seine Ausgräber haben die unterirdische Siedlung eines uralten Naturvolkes gefunden. Sie sind nahe dran, die innere Kammer zu betreten. Wie auch immer, sie haben das Glück, nicht von Grabräubern betroffen zu sein, allerdings gab es schon einige Sabotageversuche. Ich habe zugestimmt, die Leute vor solchen Attacken zu schützen. Ich hoffe, dass dabei etwas Einzigartiges für mich herausspringt, wenn der Durchbruch geschafft ist.~
+@310576 = ~Die Ausgrabung
+
+Ich fand westlich von Nashkell einen Ausgrabungsort, der von einem gewissen Charleston Nib untersucht wird. Ich bin jedoch an so einer langweiligen Geschichte nicht interessiert.~
+@310577 = ~Die Ausgrabung
+
+Es scheint, dass die Ausgrabung eine tragische Wendung genommen hat. Scheinbar hat ein verfluchtes Götterbild die Ausgräber in der inneren Kammer wahnsinnig werden lassen und mir blieb nichts anderes übrig, als mich selbst zu verteidigen. Charleston Nibs Tage sind wahrscheinlich wegen dieser prekären Lage vorbei. Die Gruft sollte am besten für immer versiegelt bleiben...~
+@310578 = ~Unterwanderung der Ausgrabung
+
+Gallor, einer der Ausgräber von Charleston Nib, war über dessen wohltätige Bestrebung unglücklich und wollte, dass ich jegliche magischen Schätze, die gefunden werden, stehle und an Gallor übergebe. Bei so einem unsinnigen Plan werde ich nicht mitmachen.~
+@310579 = ~Unterwanderung der Ausgrabung
+
+Ich habe zugesagt, die Besitztümer von Charleston Nib und die gesammelten magischen Schätze der Ausgrabung an mich zu bringen. Ich werde die Ausgräber nicht eher angreifen, bis sie zum inneren Heiligtum durchgebrochen sind. Gallor wartet außerhalb des Ausgrabungsortes, bis ich fertig bin.~
+@310580 = ~Unterwanderung der Ausgrabung
+
+Charleston Nibs archäologisches Abenteuer soll von Vögeln besungen werden. Es ist eine tragische Geschichte, bei dem das Team von unbarmherzigen Räubern tot zurückgelassen wurde, so dass sie niemals gefunden werden. Rührseliger ist eher der Profit, den ich für solch eine ausgezeichnete Geschichte bekomme.~
+@310586 = ~Die Ruinen der Feuerwein-Brücke
+
+Gandolar Glücksfuß, der Bürgermeister von Gullykin, bat uns, die Feuerwein-Ruinen von den Kobolden zu befreien. Ich sollte vorsichtig sein, da ich nicht weiß, was für mysteriöse Dinge dort sonst noch verborgen sein könnten.~
+@310587 = ~Die Ruinen der Feuerwein-Brücke
+
+Neuigkeiten scheinen sich schneller auszubreiten, als Vögel fliegen können! Das Beseitigen der Kobolde in den Feuerwein-Ruinen hat ein Dorf voller glücklicher Einwohner und 250 Goldstücke in meinem Beutel hinterlassen.~
+@310589 = ~Auf Lindwurmjagd
+
+Wir haben ein bemerkenswertes Pärchen von Lindwürmern - samt Nachwuchs - in den Höhlen des Mantelwaldes erschlagen. Der Bürgermeister von Beregost im Tempel des Lathander belohnte uns großzügig für unseren Mut.~
+@310595 = ~Skies Lösegeld
+
+Nach erfolgreichem Ausführen von Eldoths Plan, Skie aus dem Anwesen von Entar Silberschild zu "retten", treffen Eldoth, Skie und ich einen Mann namens Elkart alle zwei Tage im Gasthaus "Zur funkelnden Klinge", um das Lösegeld abzuholen. Es scheint, dass Skies Vater verängstigt ist, aber ich sehe ein glückliches Paar wieder vereint. Es macht also nichts, wie sehr ihre Familie es missbilligt. Dennoch hilft uns das Geld in unserer Angelegenheit.~
+@310596 = ~Skies Lösegeld
+
+Es scheint, dass Eldoth weiterhin mit einer Beharrlichkeit Lösegeld von Entar Silberschild sammelt. Wir werden von der Flammenden Faust bedrängt und können nichts anderes tun, als uns den Weg aus dieser Falle freizukämpfen.~
+@310605 = ~Die Suche nach Hurgans Dolch
+
+Ich kam zu spät und konnte die Kultanhänger nicht davon abhalten, einen Dämon zu beschwören. Deshalb gab es keine andere Option, als sie zu töten, um Ulgoths Bart und die Umgebung zu retten. Der Kampf gegen den Dämon war hart, denn jedes Mal, wenn er besiegt schien, nahm er sich eine Seele seiner Anhänger und frischte damit seine Lebenskraft auf. Ich sollte dies Hurgan erzählen.~
+@310610 = ~Die Suche nach Therellas Sohn
+
+Ich fand Therellas Sohn, aber er starb auf grausame Weise. Es gab eigentlich nichts, was ich dagegen machen konnte.~
+@310656 = ~Gestrandet auf einer Insel!
+
+Dieser Sturm war der schlimmste, den ich je erlebt habe! Seltsamerweise ist meine Gruppe die einzige, die überlebt hat. Es muss irgendeine Magie sein, aber ich weiß nicht, was dahinter steckt. Das Einzige, was ich weiß, ist, dass wir auf einer mysteriösen Insel gestrandet sind und dass meine Kopfschmerzen so langsam abklingen. Ich sollte herausfinden, wo sich das Wrack von Baldurans Schiff befindet und schließlich noch nach dem Logbuch für Mendas suchen, wenn dies überhaupt die richtige Insel ist. Wie ich nach Ulgoths Bart zurückkomme, wissen am Ende nur die Götter...~
+@310793 = ~Shandalars Umhang
+
+Es hat den Anschein, dass meine Zusammenarbeit mit der Diebesgilde nicht unbemerkt blieb: Shandalar lauerte mir auf, um den Tod seiner drei Töchter zu rächen. Er teleportierte mich auf eine mysteriöse Insel mitten im Ozean! Er erwähnte auch einen Umhang, den ich für ihn finden soll. Nach seinen Worten ist der Umhang der Schlüssel zum Verlassen dieses verfluchten Ortes. Ich muss danach Ausschau halten.~
+@310809 = ~Shandalars Umhang
+
+Mir wurde gegen meinen Willen eine Aufgabe von einem unhöflichen Magier im Zentrum von Ulgoths Bart aufgezwungen. Der Schwachkopf schickte mich auf eine karge und eisige Insel, um seinen zerlumpten Umhang zu finden. Er wird es noch bereuen, mir einen Schlüsselstein für die Rückkehr gegeben zu haben, da ich mich dann dazu verleitet sehe, ihm den Kopf des Streitkolbens in den Mund zu stopfen.~
+@310810 = ~Shandalars Umhang
+
+Ich habe einem einfachen Auftrag zugestimmt. Ich soll für einen Magier namens Shandalar, den ich in Ulgoths Bart getroffen habe, einen Umhang wiederfinden. Scheinbar einfach, aber doch leicht verwirrend. Ich befinde mich nun auf einem eigenartig abgesonderten Riff mitten im eisigen Ozean! Der Gauner hält mich hier sozusagen gefangen, aber ich bin mir sicher, dass er von einer möglichen Rückkehr sprach und ich den Schlüsselstein dafür besitze. Ich sollte den Umhang schnell finden - es wird ziemlich kalt hier.~
+@310811 = ~Shandalars Umhang
+
+Ich bin glücklich, dass Shandalars Beschwörung zur Rückkehr funktionierte und dass er seinen Umhang zurück hat. Das eisige Gefängnis, zu dem ich gebracht wurde, war kein Ort für einen kleinen Botengang. In Zukunft sollte ich etwas vorsichtiger mit Magiern und ihren "einfachen Aufgaben" sein.~
+@310812 = ~Shandalars Umhang
+
+Dieser niederträchtige Magier verschwand, bevor ich meine Belohnung für dieses nutzlose Abenteuer, auf das er mich schickte, bekam. Das Letzte, was ich machen werde, ist seine Kritik für mein Verhalten ernst zu nehmen. Ungeachtet dessen bin ich froh, ihn, den Umhang und das eisige Gefängnis nicht mehr sehen zu müssen.~
+@310813 = ~Shandalars Umhang
+
+Ich brachte Shandalars Umhang von dem eisigen Gefängnis wieder zurück. Ich will nie wieder dahin zurück, da es mir immer noch kalt den Rücken hinunter läuft. Ich sollte mich trotzdem glücklich schätzen, da er mir einen Schlüsselstein gab, um nach Ulgoths Bart zurückzukehren. Ich werde ihn in Zukunft nicht weiter behelligen, da er immer noch den Tod seiner Töchter rächen könnte. Ich bin froh, zurück zu sein und ihn, den Umhang sowie das eisige Gefängnis nicht mehr sehen zu müssen.~
+
+/////////////////////////
+//Kapiteleinträge
+/////////////////////////
+@310733 = ~Kapitel 2: Isolation
+
+Beim Erwachen wird Euch bewusst, dass alles nicht nur ein schrecklicher Traum gewesen ist. Ihr seid in einen Hinterhalt geraten und musstet zusehen, wie Gorion vor Euren Augen ermordet wurde. Nicht einmal seine mächtige Magie konnte den Angriff aufhalten. Ihr seid zwar auf seinen Wunsch hin geflohen, aber das ändert nichts an dem Gefühl der Hilflosigkeit, das Ihr jetzt empfindet.
+
+"Übergebt uns Euer Mündel", hatte der bewaffnete Dämon gesagt. Er hatte es auf Euch und nur auf Euch allein abgesehen. Aber warum? Wenn Euch Gorion doch nur irgendeinen Hinweis gegeben hätte, doch nun seid Ihr ganz allein auf Euch gestellt. Kerzenburg ist zwar in der Nähe, aber man wird Euch dort nicht einlassen. Die Gelehrten schützen ihre Ruhe mit äußerst strengen Einlassvorschriften und ohne Gorion habt Ihr keine Chance, eingelassen zu werden.~
+@310734 = ~Kapitel 3: Ärger in Nashkell
+
+Nachdem Eure eilige Flucht aus Kerzenburg erst so kurz hinter Euch liegt, scheinen die Unruhen an der Schwertküste für Eure bereits angeschlagenen Nerven eine Zusatzbelastung zu sein. Gorion würde es aber nicht schätzen, wenn Ihr untätig herumsitzt. Die Untersuchung örtlicher Angelegenheiten wird vielleicht etwas Licht in Eure eigene prekäre Lage bringen. Was der Eisenmangel oder der Aufruhr in den Minen von Nashkell mit Euch zu tun haben könnte, ist Euch allerdings ein Rätsel.~
+@310735 = ~Kapitel 4: Die Räuber und der Eisenmangel
+
+Der Tod von Mulahey wird die Ängste der erschreckten Bevölkerung von Nashkell bestimmt mildern, doch ihr fühlt Euch immer noch nicht wohl. Der Halbork ist zwar vielleicht wirklich für die Probleme in der Mine verantwortlich, doch der Eisenmangel ist zu weit verbreitet, um allein seine Schuld zu sein. Seine Briefe bestätigen Euren Verdacht und obwohl sie kaum Hinweise auf das Versteck seiner Verbündeten enthalten, darf mit Sicherheit eine Verbindung zu den Räubern angenommen werden, die zurzeit die Küstenstraße unsicher machen.~
+@310736 = ~Kapitel 5: Auf zum Mantelwald
+
+Mulahey und Tazok haben sich als bloße Marionetten erwiesen. Der wahre Drahtzieher dieses langsam Gestalt annehmenden Geheimnisses ist Euch immer noch unbekannt. Eines ist jedoch gewiss: Jemand hegt den ganz persönlichen Wunsch, Euch tot zu sehen, doch Ihr wisst nicht, warum. Eure Suche nach Antworten geht weiter und der Unheil verkündende Mantelwald ist Euer nächstes Ziel.~
+@310737 = ~Kapitel 6: Baldurs Tor
+
+Ihr habt der Organisation, die als Eisenthron bekannt ist, großen Schaden zugefügt; eine Niederlage, die mit Sicherheit nicht ungerächt bleiben wird. Nun müsst Ihr in die große Stadt namens Baldurs Tor reisen. Dort werdet Ihr bestimmt erfahren, was wirklich hinter den seltsamen Ereignissen, die die Bewohner der Schwertküste quälen, steckt.~
+@310738 = ~Kapitel 7: Rückkehr nach Hause
+
+Ihr seid wieder am Ausgangspunkt Eurer Reise angelangt. Herzog Eltan hat Euch gebeten, nach Kerzenburg zurück zu reisen, um dort die Anführer des Eisenthrons zu bespitzeln. Ihr seid zwar beunruhigt, dass sich die große Bibliothek nun in den Händen so böser Männer befindet und Ihr würdet gerne einen anderen Grund für Euren Besuch haben, doch Ihr freut Euch trotzdem, in Euer ehemaliges Zuhause zurückzukehren.~
+@310739 = ~Kapitel 8: Die Entscheidung
+
+Euer Leben ist immer noch eine ziemliche Herausforderung. Ihr seid des Mordes an den Anführern des Eisenthrons angeklagt und deshalb werdet Ihr bestimmt unerbittlich von der Flammenden Faust verfolgt werden. Trotzdem müsst Ihr jedoch in die Stadt Baldurs Tor zurückkehren, genau dorthin, wo sich Eure Ankläger aufhalten. Ihr müsst den Verantwortlichen für Eure schwierige Situation finden und ihn bloßstellen: Ihr müsst Sarevok finden.~
+
+//////////////////////
+//Volos Gerüchte
+//////////////////////
+@310444 = ~Ein Gerücht von Volo
+
+"Viele Geschichten aus allen Winkeln des Reiches habe ich gesammelt, obgleich ich nicht immer weiß, ob ich ihnen Glauben schenken soll oder nicht - manche von ihnen klingen so unfassbar. Eine solche Geschichte ist die, in der sich eine Gruppe tapferer Abenteurer durch die Schatten des Landes schlug und dort, wo es Not tat, die erforderlichen Änderungen herbeiführte. Ich war gerade dabei, die Feierlichkeiten in Nashkell zu genießen, als plötzlich eine äußerst seltsame Nachricht die Runde machte. Die Mine, die lange Zeit von unerklärlichen Todesfällen heimgesucht wurde, war von einer Horde schlecht erzogener Kobolde besetzt worden. Ihr Anführer soll ein recht skrupelloser und ziemlich unhygienischer Cyric-Priester gewesen sein. Die Helden machten mit dem Schurken kurzen Prozess und befreiten die Mine. Dies ist der einzige Grund dafür, dass Baldurs Tor nun wieder langsam aber stetig mit Eisen versorgt wird. Niemand schien sich an ihre Namen zu erinnern, aber es herrscht Einigkeit, dass sie groß von Statur waren und ihr Auftreten in den Ebenen einen tiefen Eindruck hinterlassen hat."~
+@310445 = ~Ein Gerücht von Volo
+
+"Ich habe zwar schon seltsamere Geschichten erzählt, aber keine ist mir so frisch in Erinnerung geblieben wie diese. Sie hat sich ja auch erst vor kurzem zugetragen! Es scheint, als hätten die Verantwortlichen für den immer problematischer werdenden Eisenmangel sich selbst und ihre Verbündeten mit Erz aus einem geheimen Ort versorgt und sich in der erwähnten Mine eine Machtbasis aufgebaut, während die Küste fast im Chaos versank. Eine Gruppe von Helden, nur so kann man sie wohl bezeichnen, belagerte deren Festung und ließ schließlich die bösen Verschwörer in einer Welle aus Wasser und Gerechtigkeit hinwegspülen, ohne jedoch zu versäumen, zuvor die Freilassung einiger Dutzend versklavter Arbeiter sicherzustellen. Dies war, da bin ich ganz sicher, ein schwerer Schlag für die teuflischen Ränkeschmiede, die sich gegen unser geliebtes Land verschworen haben, wer auch immer sie sein mögen!"~
+@310446 = ~Ein Gerücht von Volo
+
+"Ich habe zwar schon seltsamere Geschichten erzählt, aber keine ist mir so frisch in Erinnerung geblieben wie diese. Sie hat sich ja auch erst vor kurzem zugetragen! Es scheint, als hätten die Verantwortlichen für den immer problematischer werdenden Eisenmangel sich selbst und ihre Verbündeten mit Erz aus einem geheimen Ort versorgt und sich in der erwähnten Mine eine Machtbasis aufgebaut, während die Küste fast im Chaos versank. Eine mysteriöse Gruppe von kampferprobten Fremden - sie Helden zu nennen widerstrebt mir - belagerte deren Festung und ließ schließlich die bösen Verschwörer in einer Welle aus Wasser und Gerechtigkeit hinwegspülen, wobei aber auch alle in den Minen arbeitenden Sklaven ums Leben kamen. Sie dachten vielleicht, dies wäre die einfachere Lösung, aber ich kann mir vorstellen, dass der Verlust tonnenschwer auf ihren Seelen lastet. Es stellt sich die Frage, ob der Teufel, den man kennt, besser ist als der, den man nicht kennt. Wir werden abwarten und sehen, was daraus nun wird."~
+@310447 = ~Ein Gerücht von Volo
+
+"Einige Geschichten sind für den gesunden Verstand weder mit Logik noch mit Erklärungen zu fassen und genau so eine Geschichte ist die folgende. Der größte Teil davon ist aufgrund der Prominenz der Mitwirkenden bereits allgemein bekannt und dennoch werden es viele wahrlich schockierend finden, wie tief die Saat der Zerstörung gesät war. Der geliebte Sarevok, ein Mann unter Männern, zukünftiger Herrscher der Küste, war der eigentliche Urheber des Eisenmangels, der die Wirtschaft des Landes so behinderte. Er war auch an der Vergiftung von Herzog Eltan beteiligt, die unmittelbar zu seiner Machtübernahme führte. Wir waren nur Sekunden entfernt vom ersten Schritt auf diesem unseligen Weg, als die unbekannten Helden, von denen ich bereits berichtete, erneut aus dem Schatten traten. Niemand kann genau sagen, was als Nächstes passierte, obgleich es sicher scheint, dass Sarevok bis an die tiefsten Plätze der Unterstadt verfolgt wurde, von wo er nicht mehr zurückkehrte. Ich schätze, viele hätten es gern gesehen, wenn er bis zur Neunten Ebene gejagt worden wäre, wo er doch so vielen im Land sowohl direkt als auch indirekt Schaden zugefügt hat."~

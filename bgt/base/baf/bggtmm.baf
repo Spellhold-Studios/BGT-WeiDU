@@ -1,0 +1,7 @@
+IF
+  Entered([ANYONE])
+THEN
+  RESPONSE #100
+    DisplayString(LastTrigger,14381) // Trap Sprung
+    ForceSpellRES("BGWI003",LastTrigger)
+END

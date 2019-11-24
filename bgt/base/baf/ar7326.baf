@@ -1,0 +1,8 @@
+IF
+  Global("EnteredSewer","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("SEWER")
+    SetGlobal("EnteredSewer","GLOBAL",1)
+END
+

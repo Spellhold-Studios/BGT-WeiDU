@@ -1,0 +1,571 @@
+////////////////////////
+//Language compatibility
+////////////////////////
+
+//MISC9P.ITM helm description for StrRef #8918 (in the German version this is actually Sarevok's diary), including properties as per MK's BG2 Textpatch
+@300029 = ~Dieser Helm ist tiefschwarz, jedoch wurde seine Oberfläche so perfekt poliert, dass ihr Glanz den Edelsteinen, die den Rand des Helmes zieren, nahekommt. Ein schwarzer Schleier verdeckt das Gesicht des Trägers, so dass niemand erkennen kann, mit wem er es zu tun hat.
+
+EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Gewicht: 3
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Magiern
+- Mönchen~
+
+////////////////////////////////////////////////////////////////////
+//Items
+////////////////////////////////////////////////////////////////////
+@200000 = ~Ithmeeras Statue~
+
+//@23967 - change Blunt Weapons to Mace; German: also correct the mistranslation in the original BG1 text
+@200001 = ~Krotans Schädelmalmer
+
+Selbst die Horden haben ihre Helden, und während sie in zivilisierter Gesellschaft verachtet werden, sind ihre Taten doch in einigen Fällen äußerst eindrucksvoll. Krotan war ein überaus intelligenter Ork - soweit man so etwas von Orks behaupten kann - der im Jahr der Verlorenen Dame, 1241 TZ, eine sich ständig ändernde Legion von Ogern, Orks, Hobgoblins und ähnlichen Bestien kommandierte. In diesem Jahr entführte eine Gruppe von Orkbanditen angeblich eine Edelfrau aus Tethyr und tötete sie. Die Antwort der Herrschenden darauf war ein in Erinnerung an das Schicksal der Frau geführter Völkermord an den Orks im gesamten Süden. Krotan organisierte die Verteidigung und erreichte damit, dass sein Volk nicht ganz und gar vom Erdboden verschwand, sondern "nur" vertrieben wurde. Krotan selbst fiel gegen Ende des Konflikts, und sein Kopf wurde vor dem Friedhof ausgestellt, auf dem die junge Dame begraben war. Am Rande bemerkt: Die Orks nannten diese Zeit das "Jahr des Zu-weit-Gehens".
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht)
+ETW0-Bonus: -2
+Gewicht: 7
+Initiativefaktor: 5
+Mindeststärke: 10
+Fertigkeit: Streitkolben
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+
+//@7350 - change Bow Weapons to Long Bow
+@200002 = ~Langbogen der Treffsicherheit: Der Todesschuss
+
+Nach Jahren der Rivalität beschlossen die Herzöge von Spandeliyon und Delthuntle, einen privaten Wettkampf auszutragen, bei dem der bessere Bogenschütze ermittelt werden sollte. Beide prahlten mit den Kräften ihrer magischen Bögen, aber das war Edwall Dest, dem Herzog von Spandeliyon, nicht genug. Er ließ den Bogen seines Gegners stehlen und freute sich am Tag des Wettkampfes hämisch über seinen so errungenen Vorteil. Der Herzog von Delthuntle, der nur Raymond genannt wurde, verlangte, dass Edwall seine Fähigkeiten an einer Vogelscheuche unter Beweis stellte, die er aufgestellt hatte. Edwall Dest zog seinen Langbogen und schoss den Pfeil entschlossen ab, wobei ihm auffiel, welch unheimliche Ähnlichkeit die Puppe mit ihm selbst hatte. Das Geschoss spaltete den Kopf der großen Voodoopuppe entzwei, und der Kopf von Edwall tat es ihm nach.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +2 (Geschoss)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 5
+Mindeststärke: 6
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+//@7351 = change Bow Weapons to Short Bow
+@200003 = ~Adlerbogen: Beschützer der Dryaden
+
+Um ihre Gemeinschaft vor einem beängstigenden Holzfällerlager der Orks zu schützen, erhielt der Held Hannable der Weiße von den Dryaden aus dem Gulthmerwald diesen prächtigen Bogen. Als die Holzfäller versuchten, eine hohe Eiche zu fällen, wodurch die damit verbundene Dryade fast getötet worden wäre, kam es zu einer tödlichen Auseinandersetzung. Mit Hilfe kampfstarker Waldtiere tötete Hannable ganze Horden von Orks, um weiteren Schaden am Wald zu verhindern. Die Orks waren gezwungen, ihre Pläne aufzugeben, wenn sie sich nicht dem fortwährenden Zorn von Hannable und dem Wald aussetzen wollten. Es versteht sich von selbst, dass der Held, der den dankbaren Dryaden zur Hilfe geeilt war, fortan ein glückliches, ja sogar SEHR glückliches Leben führte!
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +2 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 2
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Kurzbogen
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+//@20885 - change Small Sword to Dagger
+@200004 = ~Silberdolch: Fluch des Werwolfs
+
+Dieser Dolch richtet bei Lykanthropen zusätzlichen Schaden an. Dynala Goldhand, eine Waldläuferin der Elfen, die ihr Heimatland aus dem Würgegriff von Werschakalen befreien wollte, schmiedete ihn aus reinem Silber. Sie wurde von einem Orkstamm in den Graugipfelbergen getötet, als sie gerade den Anführer der Werschakale verfolgte.
+
+EIGENSCHAFTEN:
+
+Schaden:
+ 1W4 +1 (Stich)
+ 1W4 +4 (gg. Lykanthropen)
+ETW0-Bonus: -1, -4 (gg. Lykanthropen)
+Gewicht: 1
+Initiativefaktor: 2
+Mindeststärke: 3
+Fertigkeit: Dolch
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Klerikern~
+
+//@20882 - change Long Sword to Bastard Sword
+@200005 = ~Die aufwändig verzierte, aber schlecht ausbalancierte Waffe wurde in Baldurans Schiffswrack gefunden. Goldwaffen sind zwar nicht gerade für ihren Nutzen im Kampf bekannt, aber den Legenden nach können aus Gold geschmiedete Waffen solch furchtbaren Geschöpfen wie Werwölfen Schaden zufügen.
+
+EIGENSCHAFTEN:
+
+Schaden:
+ 2W4 (Klinge)
+ 2W4 +4 (gg. Lykanthropen)
+ETW0-Bonus: -4 (gg. Lykanthropen)
+Gewicht: 12
+Initiativefaktor: 7
+Mindeststärke: 12
+Fertigkeit: Bastardschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+//@23965 - change Large Sword to Two Handed Sword; German: also correct the mistranslation in the original BG1 text
+@200006 = ~Der Rand der Welt
+
+Dies ist eine legendäre Waffe von heroischem Ausmaß, vor allem für die Barbarenstämme weit im Norden. Meister auf Meister hat diese Klinge gegen zahllose Feinde geschwungen, und das Blut, das mit diesem Schwert vergossen wurde, könnte ein kleines Meer füllen. Will man der Geschichte Glauben schenken, dann kann eine solche Klinge nicht geschmiedet worden sein, und jeder Besitzer scheint ihren Ursprung dem Mythos zuzuweisen, an den er gerade glaubt. Die grandioseste Entstehungsgeschichte ist wohl die eines großen Häuptlings, der zu den Kliffen segelte, die angeblich die Welt begrenzen. Dort griff er ins Leere, und seine Willenskraft formte die Klinge aus dem Nichts. Was auch immer die Wahrheit sein mag: Gelangt das Schwert in die richtigen Hände, ist es eine furchterregende Waffe.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 9
+Initiativefaktor: 7
+Mindeststärke: 13
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+
+////////////////////////////////////////////////////////////////////
+// Spells
+////////////////////////////////////////////////////////////////////
+//German: using canonical spell names consistent with MK's BG2 Textpatch
+@400000 = ~Besondere Fähigkeit erhalten: Entzug von Lebenskraft~
+@400001 = ~Besondere Fähigkeit erhalten: Schrecken~
+@400002 = ~Besondere Fähigkeit erhalten: Vampirgriff~
+@400003 = ~Besondere Fähigkeit erhalten: Leichte Wunden heilen~
+@400004 = ~Besondere Fähigkeit erhalten: Gift verlangsamen~
+@400005 = ~Besondere Fähigkeit erhalten: Heilige Macht entlehnen~
+
+////////////////////////////////////////////////////////////////////
+// Creatures and Stores
+////////////////////////////////////////////////////////////////////
+@500000 = ~Bauer~
+@500001 = ~Jäger~
+
+//German: no plain translation - the text must match the corresponding sound verbatim
+@500040 = ~Hey, psst... hier lang!~ [BIMOEN16]
+
+@550000 = ~Tempel von Yondalla~
+
+////////////////////////////////////////////////////////////////////
+// Areas
+////////////////////////////////////////////////////////////////////
+@600005 = ~Um dieses Objekt befindet sich eine überaus reichliche Menge Schlamm und Ihr hört Geräusche, welche Ihr nur als das beschreiben könnt, was man hört, wenn man sich unter Wasser befindet. Vielleicht ist diese Vorrichtung eine Art Damm?~
+
+@600010 = ~Haupttor~
+@600011 = ~Bibliothek von Kerzenburg~
+@600012 = ~Krankenstube~
+@600013 = ~Keller~
+@600014 = ~Karawane~
+@600015 = ~Herrenhaus~
+@600016 = ~Haus~
+@600017 = ~Versunkenes Haus~
+@600018 = ~Mineneingang~
+@600019 = ~Skulptur~
+@600020 = ~Verlassenes Haus~
+@600021 = ~Runter zur nächsten Ebene~
+@600022 = ~Rauf zur nächsten Ebene~
+@600023 = ~Dorf Gullykin~
+@600024 = ~Eingang zu den Feuerwein-Ruinen~
+@600025 = ~Schiffswrack~
+@600026 = ~Verlassener Leuchtturm~
+@600027 = ~Grube~
+@600028 = ~Bauernhof~
+@600029 = ~Großes Zelt~
+@600030 = ~Spinnennest~
+@600031 = ~Baumhaus~
+@600032 = ~Flussstöpsel~
+@600033 = ~Minenaufzug~
+@600034 = ~Verlassener Turm~
+@600035 = ~Eingang zu Durlags Turm~
+@600036 = ~Minenausgang~
+@600037 = ~Tempel des Bhaal~
+@600038 = ~Ruinen von Ulcaster~
+@600039 = ~Oberons Anwesen~
+
+////////////////////////////////////////////////////////////////////
+// 2DA Files
+////////////////////////////////////////////////////////////////////
+@700000 = ~Erstes Kapitel/Prolog:~
+@700005 = ~Zweites Kapitel:~
+@700009 = ~Drittes Kapitel:~
+@700011 = ~Viertes Kapitel:~
+@700013 = ~Fünftes Kapitel:~
+@700015 = ~Sechstes Kapitel:~
+@700017 = ~Siebtes Kapitel:~
+@700019 = ~Achtes Kapitel:~
+
+//German: Nietzsche's quote is missing in the German version of the intro movie - using Nietzsche's original German words for @700020 instead
+@700020 = ~"Wer mit Ungeheuern kämpft, mag zusehn, dass er nicht dabei zum Ungeheuer wird. Und wenn du lange in einen Abgrund blickst, blickt der Abgrund auch in dich hinein." -Friedrich Nietzsche~
+@700021 = ~Nein... nicht!~
+@700022 = ~Ich werde der Letzte sein, und du wirst als Erster sterben.~
+@700023 = ~Da sind noch andere. Ich kann sie Euch zeigen. Bitte! Bitte!~
+@700024 = ~Baldur's Gate~
+
+//BGT Credits
+@700037 = ~Baldur's Gate Trilogy Credits~
+@700038 = ~Abwandlungen der Handlung
+- Bardez
+
+Änderungen der 2DAs
+- Bardez
+
+Konvertierung der Gebiete
+- Bardez
+
+Kreaturen
+- Bardez
+
+Importieren der Dialoge
+- Bardez
+
+Konvertierung der Gegenstände
+- Bardez
+
+Scripting
+- Bardez
+
+Konvertierung (Umbenennung) der Musik
+- Bardez
+
+Korrektur beschädigter Gebiete
+- Bardez
+
+Idee
+- Bardez
+
+Weiteres Scripting
+- Bardez
+
+Originalität
+- Niemand
+
+Upload
+- Bardez
+- chris
+- Saitoh/Kangaxx
+- NotMrT
+- Daxiz' FTP
+
+Fehlerberichte
+- chaz58
+- D|Rek
+- icelus
+- gandalf
+- Captain Carrot
+- empath3
+
+Leute, die Bardez wirklich aufgeregt und ihn stocksauer gemacht haben
+- <zensiert>
+- <zensiert>
+
+Anzahl der SPEZIELL für diesen MOD erstellten Tools
+- 7 (Schlag -das- DLTCEP!!)
+
+Anzahl, wie oft Bardez diesen MOD aufgegeben hat
+- 2 .... 3
+
+WeiDU-Konvertierung
+- Ascension64
+- KingDiamond
+
+Erneute Entwicklung
+- Ascension64
+- KingDiamond
+
+Menübildschirme
+- Waywocket
+- Yacomo
+
+Deutsche Übersetzung
+- Weigo
+- Harry Doyle
+- MK
+- Jastey
+- Sol
+
+Korrektur der deutschen Übersetzung
+- Leomar
+- Hurricane
+
+
+
+Und nun zu den lustigen Sachen
+
+ZITATE (à la Ultima)
+
+"Ich denke nicht, dass Charaktere der 2. Stufe Zauber der 6. Stufe brauchen."
+- Bardez, beim ersten Spieltest
+
+"Verdammt"
+- Bardez, bei vielen Anlässen
+
+"Ich bin so klug, ich bin so klug, ich bin so klug."
+- Bardez, beim Beheben des Flag-Problems in Kerzenburg
+
+"Endlich ist Visual Basic mal nützli -- nein, warte."
+- Bardez, beim Erstellen von TileEdit (erstes BGT-Tool)
+
+"Ich wünschte echt, dass Bären eine Stimme für das Yogi-Zeug hätten."
+- Bardez, als er das unbenutzte Soundset für Bären sieht
+
+"Einige Zauber haben sich seit BG1 geändert. Heh."
+- Bardez, beim Schnellladen
+
+"Verdammt, ich hasse Overlays."
+- Bardez, beim Konvertieren von Gebieten mit Overlays
+
+"Weißt du, ich würde echt gerne diese MVEs verwenden, die in BG nicht genutzt wurden."
+- Bardez, bemerkt die zwei unbenutzen MVEs in Baldur's Gate
+
+"Bhaalverfluchte Overlays"
+- Bardez, schon wieder von Overlays frustriert
+
+"Schon beim bloßen Anschauen der Karte wird mir klar, warum die TeamBG-Community ursprünglich dagegen war."
+- Bardez, gibt seinen Mangel an künstlerischem Talent zu
+
+"Was sollte ich als nächstes angehen?"
+- Bardez
+
+"Weißt du, Modding is so viel einfacher, wenn du kein Leben hast."
+- Bardez, spät in der Nacht (oder früh am Morgen) am Freitag auf dem Campus
+
+"Ich will das alles einfach im Override-Ordner liegen lassen."
+- Bardez, bis er bemerkt, dass BGT bei allen Dateien im Override-Verzeichnis schwer mitkommt (Einzelspieler)
+
+"Wenn das eine Trilogie ist, solltest du dann nicht auch Dark Side of the Sword Coast mit einbeziehen?"
+- Ein zufälliger Forum-User, macht einen Vorschlag
+
+"ZUR HÖLLE MIT DSOTSC!!"
+- Bardez' Reaktion auf das Vorherige
+
+"Gnolle nerven mich."
+- Bardez, müde vom Zerhacken, Verprügeln und Aufschlitzen der Gnolle
+
+"So macht Noober."
+- Bardez, beim Erreichen von Nashkell
+
+"Ich sollte wirklich diesen Fehler beheben..."
+- Bardez, ignoriert weiterhin ein offensichtliches Problem
+
+"Wann zur Hölle hast du eigentlich herausgefunden, dass du eine Bhaalbrut bist?"
+- Bardez, integriert Kapitel 4
+
+"Ich wusste nicht, dass Elminster dort auftaucht!"
+- Bardez, betrachtet das Skript des Freundlichen Arms
+
+"Mit 150 Gigabyte kann ich jeden Schritt zurückverfolgen, den ich mit diesem Scheißding gemacht habe!"
+- Bardez, hat drei Installationen von BG2/BGT
+
+"Verzeihung, jetzt ist es "ein halbes Terabyte". War mein Fehler."
+- Bardez, beim Aufbauen seines neuen PCs
+
+"Ich respektiere DSotSC. Ich habe es sogar einmal durchgespielt. Ich entschuldige mich für jede Beleidigung, die ich dazu abgegeben habe."
+- Bardez, denkt über seine vorherige Aussage und deren mögliche Beleidigung für die TeamBG-Community nach
+
+"Ich bin verdammt müde."
+- Bardez, um 4:00 Uhr
+
+"Ich wünschte, es wäre noch Jolt Cola da."
+- Bardez, um 5:00 Uhr
+
+"OMG! Mal keine Overlays!!"
+- Bardez, als er gerade IETME zum Konvertieren eines Gebietes öffnet, nach vielen, vielen Gebieten mit Overlays
+
+"MIT DIESEM OVERLAY HAB ICH GERADE EINE VERDAMMTE STUNDE VERGEUDET?!?!? UND ES IST TOTAL IM ARSCH!!?!?!?!?! VEERDAAAAAAAMMMTT!!!!!!"
+- Bardez, Opfer eines IETME-Fehlers
+
+"So verflucht viel zu klicken -- Ich fühle mich, als würde ich Diablo II spielen."
+- Bardez, konvertiert eines der größeren BG1-Gebiete mit Overlays
+
+"Ich bin fertig... nein warte. Ich muss beide Spiele überprüfen. Vollständig. Verdammt."
+- Bardez, beim Importieren aller BGT-Dateien
+
+"Diese ganze Arbeit umsonst. Ich wundere mich, wo manchmal mein Verstand geblieben ist..."
+- Bardez, als ihm klar wird, dass er viel zu viel Zeit in diesen MOD gesteckt hat
+
+"Ich bekomme langsam Albträume von Overlays."
+- Bardez, frustriert von der Fülle an Wasser-Overlays
+
+"ZUR HÖLLE MIT TeamBG!! --- Nur Spaß."
+- Bardez, willkürlich
+
+"ICH HAB DEN OVERRIDE-ORDNER VERGESSEN?? VERDAMMT!"
+- Bardez, als er bemerkt, dass er nicht die BG1-Dateien im Override-Verzeichnis importiert hat
+
+"Fast geschafft..."
+- Bardez, fast fertig mit der ursprünglichen Konvertierung
+
+"Mach, dass die schlechte Sache weggeht."
+- Bardez, begegnet einer "schlechten Sache"
+
+"Und dann bin ich jeden Gegenstand, Dialog und Skript einzeln durchgegangen, um sie abzuändern..."
+- Bardez, nach dem Ersetzen von BG1-ResRefs mit denen von BGT
+
+"Ich bin ein Ein-Mann-Modder mit einer Tastatur und Koffein. Pass auf!"
+- Bardez, um 6:00 Uhr
+
+"Mann, ich fühle mich echt beschi**en zu sagen, dass es wegen der Klassen erst mal auf Eis liegt. Ich werde die Arbeit in rund drei Wochen wieder aufnehmen (hoffentlich)..."
+- Bardez, zweiter Versuch, BGT aufzugeben
+
+"AAAAAHHHHHHHHHH!!!!!!!!!!!!!!!!!!"
+- hlidskialf, als Antwort
+
+"Als BG anfing, 100 Megabyte Speicher zu fressen, entschied ich, dass es Zeit für WinBIFF war."
+- Bardez, als er bemerkt, dass BGT bei allen Dateien im Override-Verzeichnis schwer mitkommt (Einzelspieler)
+
+"Ich möchte auf jeden Fall mehr über die Tools, die du erstellen musstest, sehen und/oder wissen."
+- KenTeamBG, bei der Ankündigung von BGT
+
+"Der Erdkoloss schreit wie eine menschliche Frau. Das ist wahrscheinlich nicht gut."
+- Bardez, bemerkt den falschen Sound der Erdkolosse
+
+"Gut, da ich nun in der Phase der Fehlerbehebung bin, sollte jetzt alles viel einfacher sein."
+- Bardez, macht eine sehr irrtümliche Aussage
+
+"Overlays. Ich VERGASS absichtlich, wie ich mit ihnen umzugehen habe. Und trotzdem verfolgen sie mich WEITERHIN!"
+- Bardez, bemerkt einige schlechte Overlay-Konvertierungen
+
+"IETME zeigt Sachen fehlerhaft an. Diesen FAKT MUSS ich lernen."
+- Bardez, von IETME frustriert
+
+"Hmmm, kein Tool kann das. Zeit, ein neues zu machen. Bin in ein paar Tagen zurück."
+- Bardez, erstellt WEDitor
+
+"Dort wird gechattet!"
+- Bardez, als er bemerkt, dass einige seinen Chatroom tatsächlich zum "Chatten" verwenden
+
+"Ich bin deines Vaters, seines Bruders, seines Neffen, seines Cousins ehemaliger Zimmergenosse."
+- Bardez, zitiert Spaceballs
+
+"Ich werde das Ganze einfach löschen und damit ist es dann erledigt."
+- <zensiert>, verärgert darüber, dass ich nicht Sachen für ihn fixe; täuscht vor, sein BGT zu löschen
+
+"Die Größe wird dieses Projekt von der Verbreitung her schneller zunichtemachen als sonst irgendwas."
+- KenTeamBG, zeigt viel Weisheit (auch wenn Bardez weiterhin rox0rt)
+
+"BGT!"
+- Viele Leute, wollen Baldur's Gate Trilogy herunterladen
+
+"Das ist eine Änderung, die einfach nur SCHEISSE IST!"
+- <zensiert>, verärgert über eine von Bardez' Änderungen an Baldur's Gate
+
+"Es ist eine schwachsinnige Änderung."
+- Siehe oben
+
+"Deine Meinung, und sie kümmert mich nicht."
+- Bardez, als Antwort
+
+"Sicher tut sie das. Du bist der Idiot, der es gemacht hat."
+- <zensiert>, als Antwort
+
+"Vielleicht hättest du die Installationsdateien nicht löschen sollen, solange du nicht sichergestellt hattest, dass deine Installation erfolgreich war. :P"
+- chris, kritisiert einen Spieler, der sich entschied, den MOD zu löschen, nachdem er den MOD (erfolglos) installiert hatte
+
+"Du kriegst hier ein paar echte Idioten rein, lol."
+- chris, nachdem er zahlreiche dumme Leute gesehen hat, die #BGT betreten und zahlreiche dumme Fragen gestellt haben
+
+"Ich habe letzte Nacht herausgefunden, dass Christina Aguilera es mit mir tun wollte."
+"Dann klingelte mein verdammter Wecker."
+- chris, im #BGT-Chat
+
+"Bardez, bist du hier?"
+- Viel zu viele Leute
+
+"Wie kann ich...?"
+- Wieder viel zu viele Leute
+
+"WIE VERDAMMT NOCH MAL KOMME ICH AUF EINE SCHEISS ZITATE-SEITE?"
+- NotMrT, will ein Zitat im Zitate-Bereich bekommen
+
+"Hätte sonst irgendjemand das Verlangen danach, diese MOD/Portierung zu spielen??"
+- Bardez, kündigt BGT an
+
+"Hey chris, was passiert, wenn ich vor dem Start der BGT-Installation vergesse, VB6 zu installieren?"
+- Jens, hat Probleme mit der Installation
+
+"PC explodiert und du bekommst einen seltsamen Hautausschlag um deinen Anus?"
+- chris, versucht zu antworten
+
+
+
+
+Baldur's Gate Trilogy wurde Euch präsentiert von Bardez, als Ablenkung von seinem "Oh ich wurde verlassen, oh Boo-the-fuck-hoo" Gejammer.
+
+Kurz gesagt: Besonderer Dank geht an Joanna Lynn Nelson für das Verlassen von Bardez.
+
+Andere besondere Danksagungen (nicht im Zusammenhang mit Beziehungen oder Verlassenwerden)
+- Bardez
+- KenTeamBG
+- hlidskialf
+- Horred
+- TheoTeamBG
+- Jon Olav Hauglid
+- Gandalf
+- BioWare
+- HardenCoonor für die Weltkarte (Du rockst, Junge!)
+- Richard Garriot alias Lord British. Du brachtest mich zu den RPGs.~
+
+////////////////////////////////////////////////////////////////////
+//dialog.tlk
+////////////////////////////////////////////////////////////////////
+
+/*#15890 - change "dwarf from Mithral Hall" to "half-orc"*/
+@900000 = ~Ihr wisst kaum etwas über die Umstände, unter denen Ihr Gorions Mündel geworden seid, doch im Laufe der Jahre habt Ihr aus seinen vagen Anspielungen und den Worten, die er manchmal unter Tränen im Schlaf murmelt, ein wenig über die Geschichte Eurer Mutter erfahren. Sie war ein Halbork, mit der er viele Jahre lang befreundet war. Da Ihr Euch nicht an sie erinnern könnt und auch keine Andenken an sie besitzt, glaubt Ihr inzwischen, dass sie bei Eurer Geburt gestorben ist. Vielleicht wurde Gorion durch den Schmerz dieser Trennung dazu veranlasst, sich in den engen Hallen von Kerzenburg einzuschließen und Euch als sein eigenes Kind aufzuziehen. Über Euren Vater habt Ihr nie etwas erfahren.~
+
+/*NOBW8.DLG - #8435; change last sentence to, 'I shall be here promptly every two days.'*/
+@900001 = ~Wie bitte?! Ihr seid ja genauso schlimm... Ich hätte es Euch ansehen müssen, als wir uns zum ersten Mal trafen! Es ist halt doch besser, mit dem Teufel vorliebzunehmen, den man schon kennt, als sich mit einem neuen einzulassen! Da kann ich Euch wohl nicht von abhalten. Ich werde alle zwei Tage hier sein.~
+
+/*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
+@900002 = ~Also gut. Ich bin Delthyr, und ich vertrete die Harfner. Ich bin seit vielen Wochen auf der Suche nach Euch. Erst kürzlich fand ich heraus, dass Ihr die Stadt vor einiger Zeit verlassen habt. Seit Eurer Abreise haben sich tiefgreifende Veränderungen vollzogen. Ich kann Euch alles berichten, was Ihr wissen müsst. Wollt Ihr mich nun ausreden lassen?~
+
+@900037 = ~Baldur's Gate Einleitung~
+@900038 = ~Schatten von Amn Einleitung~
+@900039 = ~Neues BG2 Spiel~
+@900040 = ~Wählt "Neues BG2 Spiel", um Baldur's Gate I zu überspringen und mit Baldur's Gate II: Schatten von Amn zu starten.
+
+Wenn Ihr Baldur's Gate I spielen wollt, klickt auf "Abbrechen" und wählt dann "Neues Spiel".~
+
+@900042 = ~Baldur's Gate~
+
+//Shadows of Amn description button text
+@900043 = ~"Tortured Souls"~
+@900044 = ~"The Darkest Day"~
+@900045 = ~"Shadows Over Soubar"~
+@900046 = ~"Neverending Journey"~
+@900047 = ~"Region of Terror"~
+@900048 = ~"Big Picture"~
+@900049 = ~"Check the Bodies"~
+@900050 = ~Spiele~
+@900051 = ~Schatten von Amn<TM>~
+@900052 = ~ Baldur's Gate<TM> und die Legenden der Schwertküste<TM> oder spiele ~
+@900053 = ~ mit den neuen Erweiterungen:~
+//End Shadows of Amn description button text
+
+////////////////////////////////////////////////////////////////////
+//EndOfFile
+////////////////////////////////////////////////////////////////////

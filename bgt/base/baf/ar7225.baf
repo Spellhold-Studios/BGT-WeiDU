@@ -1,0 +1,145 @@
+IF
+  Global("EnteredTempleBhaal","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("BHAAL")
+    SetGlobal("EnteredTempleBhaal","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Global("SarevokBehavior","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SarevokBehavior","GLOBAL",2)
+    CreateCreature("Sarevo",[581.437],0)
+    Continue()
+END
+
+IF
+  Global("SarevokBoutToDie","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,Kill("Sarevok"))
+    SetGlobal("SarevokBoutToDie","GLOBAL",3)
+    Continue()
+END
+
+IF
+   Global("SarevokBoutToDie","GLOBAL",3)
+   Global("ENDOFBG1","GLOBAL",0)
+THEN
+   RESPONSE #100
+    AddexperienceParty(15000)
+    SetGlobal("ENDOFBG1","GLOBAL",1)
+    TriggerActivation("Door7223",TRUE)
+    Wait(1)
+    StartMovie("ENDMOVIE")
+    ActionOverride("Sarevok",DestroySelf())
+    ActionOverride("Galdor",DestroySelf())
+    ActionOverride("Semaj",DestroySelf())
+    ActionOverride("Tazok",DestroySelf())
+    Wait(1)
+    DisplayStringNoName(Player1,@401103)
+    EraseJournalEntry(@310200) //Kill Sarevok.
+    EraseJournalEntry(@310202)
+    EraseJournalEntry(@310207)
+    EraseJournalEntry(@310209)
+    EraseJournalEntry(@310210)
+    EraseJournalEntry(@310339)
+    EraseJournalEntry(@310549)
+    EraseJournalEntry(@310599)
+
+    EraseJournalEntry(@310201) //The new Duke.
+    EraseJournalEntry(@310333)
+    EraseJournalEntry(@310342)
+    EraseJournalEntry(@310478)
+    EraseJournalEntry(@310480)
+    EraseJournalEntry(@310481)
+    EraseJournalEntry(@310482)
+    EraseJournalEntry(@310483)
+    EraseJournalEntry(@310484)
+    EraseJournalEntry(@310485)
+    EraseJournalEntry(@310493)
+    EraseJournalEntry(@310507)
+    EraseJournalEntry(@310510)
+    EraseJournalEntry(@310593)
+    EraseJournalEntry(@310598)
+    EraseJournalEntry(@310798)
+
+    EraseJournalEntry(@310203) //Scar's assassination.
+    EraseJournalEntry(@310216)
+    EraseJournalEntry(@310218)
+    EraseJournalEntry(@310219)
+    EraseJournalEntry(@310343)
+    EraseJournalEntry(@310387)
+    EraseJournalEntry(@310388)
+    EraseJournalEntry(@310392)
+    EraseJournalEntry(@310533)
+
+    EraseJournalEntry(@310204) //Re-investigate the Iron Throne.
+    EraseJournalEntry(@310300)
+    EraseJournalEntry(@310372)
+    EraseJournalEntry(@310379)
+    EraseJournalEntry(@310395)
+    EraseJournalEntry(@310396)
+    EraseJournalEntry(@310473)
+    EraseJournalEntry(@310487)
+    EraseJournalEntry(@310488)
+    EraseJournalEntry(@310494)
+    EraseJournalEntry(@310495)
+    EraseJournalEntry(@310531)
+    EraseJournalEntry(@310555)
+      
+    EraseJournalEntry(@310205) //Investigate Duke Eltan's healer, Rashad.
+    EraseJournalEntry(@310206)
+    EraseJournalEntry(@310217)
+    EraseJournalEntry(@310220)
+    EraseJournalEntry(@310347)
+    EraseJournalEntry(@310398)
+    EraseJournalEntry(@310469)
+    EraseJournalEntry(@310538)
+    EraseJournalEntry(@310539)
+
+    EraseJournalEntry(@310208) //Endgame.
+    EraseJournalEntry(@310211) 
+    EraseJournalEntry(@310391)
+    EraseJournalEntry(@310471)
+    EraseJournalEntry(@310472)
+    EraseJournalEntry(@310496)
+    EraseJournalEntry(@310528)
+
+    EraseJournalEntry(@310212) //Investigate the Flaming Fist headquarters.
+    EraseJournalEntry(@310214)
+    EraseJournalEntry(@310215)
+    EraseJournalEntry(@310301)
+    EraseJournalEntry(@310365)
+    EraseJournalEntry(@310366)
+    EraseJournalEntry(@310367)
+    EraseJournalEntry(@310393)
+    EraseJournalEntry(@310394)
+    EraseJournalEntry(@310521)
+    EraseJournalEntry(@310530)
+    EraseJournalEntry(@310597)
+
+    EraseJournalEntry(@310348) //Price on my head.
+    EraseJournalEntry(@310364)
+    EraseJournalEntry(@310373)
+    EraseJournalEntry(@310509)
+    EraseJournalEntry(@310527)
+    EraseJournalEntry(@310529)
+
+    EraseJournalEntry(@310370) //The impending war.
+    EraseJournalEntry(@310374)
+    EraseJournalEntry(@310378)
+    EraseJournalEntry(@310470)
+    EraseJournalEntry(@310479)
+    EraseJournalEntry(@310486)
+    EraseJournalEntry(@310492)
+    EraseJournalEntry(@310497)
+    EraseJournalEntry(@310498)
+    EraseJournalEntry(@310499)
+    EraseJournalEntry(@310504)
+    EraseJournalEntry(@310569)
+    EraseJournalEntry(@310592)
+END

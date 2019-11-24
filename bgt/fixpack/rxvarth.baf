@@ -1,0 +1,6 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    IncrementGlobal("XvartsDead","GLOBAL",1)
+END

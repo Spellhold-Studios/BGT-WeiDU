@@ -1,0 +1,7 @@
+IF
+  Heard("Amnish3",1)  // Amnish3
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+

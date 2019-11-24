@@ -1,0 +1,15 @@
+IF
+  Global("BrageRiddle","GLOBAL",2)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+
+IF
+  Dead("brage")
+  Allegiance(Myself,[NEUTRAL])
+THEN
+  RESPONSE #100
+    Enemy()
+    SetNumTimesTalkedTo(1)
+END

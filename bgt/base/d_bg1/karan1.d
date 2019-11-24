@@ -1,0 +1,22 @@
+BEGIN ~karan1~
+
+IF WEIGHT #1 ~True()~ THEN BEGIN 0
+  SAY @9714
+  IF ~~ THEN REPLY @9715 GOTO 1
+  IF ~~ THEN REPLY @9716 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @9717
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9718
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF WEIGHT #0 ~NumInPartyGT(1)~ THEN BEGIN 3
+  SAY @20643
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

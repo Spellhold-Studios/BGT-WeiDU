@@ -1,0 +1,25 @@
+IF
+	Dead("Eldoth") // Eldoth
+	Global("Eldothfight","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Eldothfight","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+		JoinParty()
+END
+
+IF
+	Global("Eldothfight","GLOBAL",2)
+	See("Eldoth")
+THEN
+	RESPONSE #100
+		AttackReevaluate("Eldoth",15)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,ALLY)
+THEN
+	RESPONSE #100
+		Enemy()
+END

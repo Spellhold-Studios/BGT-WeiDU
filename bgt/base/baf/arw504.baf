@@ -1,0 +1,9 @@
+IF
+  Exists("GreaterWolf")
+  Global("GivePeladan","ARW504",0)
+  !HasItem("Misc96","GreaterWolf") // Peladan
+THEN
+  RESPONSE #100
+    SetGlobal("GivePeladan","ARW504",1)
+    GiveItemCreate("Misc96","GreaterWolf",1,0,0) // Peladan
+END

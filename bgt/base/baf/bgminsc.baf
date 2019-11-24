@@ -1,0 +1,80 @@
+IF
+  InParty(Myself)
+  Global("A6MinscWasInParty","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("A6MinscWasInParty","GLOBAL",1)
+END
+
+IF
+  AreaCheck("AR4100")
+  Global("Edwinfight","GLOBAL",2)
+  !Dead("Edwin")
+  !Detect("Edwin")
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate("Edwin",15)
+END
+
+IF
+  Global("Edwinfight","GLOBAL",2)
+  !Dead("Edwin")
+  Detect("Edwin")
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate("Edwin",15)
+END
+
+IF
+  Global("Edwinfight","GLOBAL",2)
+  Dead("Edwin")
+  Dead("Dynaheir")
+THEN
+  RESPONSE #100
+    SetGlobal("Edwinfight","GLOBAL",0)
+    ActionOverride(Player1,MakeUnselectable(1))
+    ActionOverride(Player2,MakeUnselectable(1))
+    ActionOverride(Player3,MakeUnselectable(1))
+    ActionOverride(Player4,MakeUnselectable(1))
+    ActionOverride(Player5,MakeUnselectable(1))
+    ActionOverride(Player6,MakeUnselectable(1))
+    Dialogue(Player1)
+END
+
+IF
+  GlobalTimerExpired("Minsc","GLOBAL")
+  Global("HelpMinsc","GLOBAL",0)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  GlobalTimerExpired("Minsc","GLOBAL")
+  Global("HelpMinsc","GLOBAL",1)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("HelpMinsc","GLOBAL",2)
+  NumTimesTalkedTo(0)
+  !InParty("Dynaheir")
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  Global("HelpMinsc","GLOBAL",2)
+  NumTimesTalkedTo(0)
+  InPartyAllowDead("Dynaheir")
+THEN
+  RESPONSE #100
+    Activate(Myself)
+END

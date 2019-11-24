@@ -1,0 +1,2213 @@
+IF
+    OnCreation()
+    Global("NewBG1","AR0015",0)
+THEN
+    RESPONSE #100
+        DayNight(NOON)
+        StartMovie("BGINTRO")
+        SmallWait(1)
+        SetGlobal("Chapter","GLOBAL",-1)
+        IncrementChapter("Chptxt-0")
+        ReallyForceSpell(Player1,LOSE_ALL)
+        SetGlobal("Chapter","GLOBAL",1)
+        SetGlobal("NewBG1","AR0015",2)
+        TakeItemListParty("BG1START")
+        TriggerActivation("DOOR6543",FALSE)
+        Explore()
+        Continue()
+END
+
+IF
+    OnCreation()
+    !HasItem("Staf01",Player1)
+    Global("CheckedHPPlayer1","AR0015",0)
+    Global("QuarterstaffPlayer1","AR0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("QuarterstaffPlayer1","AR0015",1)
+        ActionOverride(Player1,CreateItem("Staf01",0,0,0)) // Quarterstaff
+        Continue()
+END
+
+IF
+    OnCreation()
+    !HasItem("Staf01",Player2)
+    Global("CheckedHPPlayer2","AR0015",0)
+    Global("QuarterstaffPlayer2","AR0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("QuarterstaffPlayer2","AR0015",1)
+        ActionOverride(Player2,CreateItem("Staf01",0,0,0)) // Quarterstaff
+        Continue()
+END
+
+IF
+    OnCreation()
+    !HasItem("Staf01",Player3)
+    Global("CheckedHPPlayer3","AR0015",0)
+    Global("QuarterstaffPlayer3","AR0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("QuarterstaffPlayer3","AR0015",1)
+        ActionOverride(Player3,CreateItem("Staf01",0,0,0)) // Quarterstaff
+        Continue()
+END
+
+IF
+    OnCreation()
+    !HasItem("Staf01",Player4)
+    Global("CheckedHPPlayer4","AR0015",0)
+    Global("QuarterstaffPlayer4","AR0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("QuarterstaffPlayer4","AR0015",1)
+        ActionOverride(Player4,CreateItem("Staf01",0,0,0)) // Quarterstaff
+        Continue()
+END
+
+IF
+    OnCreation()
+    !HasItem("Staf01",Player5)
+    Global("CheckedHPPlayer5","AR0015",0)
+    Global("QuarterstaffPlayer5","AR0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("QuarterstaffPlayer5","AR0015",1)
+        ActionOverride(Player5,CreateItem("Staf01",0,0,0)) // Quarterstaff
+        Continue()
+END
+
+IF
+    OnCreation()
+    !HasItem("Staf01",Player6)
+    Global("CheckedHPPlayer6","AR0015",0)
+    Global("QuarterstaffPlayer6","AR0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("QuarterstaffPlayer6","AR0015",1)
+        ActionOverride(Player6,CreateItem("Staf01",0,0,0)) // Quarterstaff
+        Continue()
+END
+
+IF
+    OnCreation()
+THEN
+    RESPONSE #100
+        SetGlobalTimer("Tethtoril","GLOBAL",60)
+        MoveViewObject(Player1,INSTANT)
+        Continue()
+END
+
+IF
+    Global("PardaSpawn","GLOBAL",0)
+    Global("Carbos","GLOBAL",1)
+    !Exists("PARDA1")
+    !Dead("PARDA1")
+THEN
+    RESPONSE #100
+        CreateCreature("PARDA1",[3141.576],0)
+        SetGlobal("PardaSpawn","GLOBAL",1)
+        Continue()
+END
+
+IF
+    Global("KaranSpawn","GLOBAL",0)
+    Global("Shank","GLOBAL",1)
+    !Exists("KARAN1")
+    !Dead("KARAN1")
+THEN
+    RESPONSE #100
+        CreateCreature("KARAN1",[1455.2894],0)
+        SetGlobal("KaranSpawn","GLOBAL",1)
+        Continue()
+END
+
+IF
+    Global("TrainingDay","GLOBAL",2)
+THEN
+    RESPONSE #100
+        SetGlobal("TrainingDay","GLOBAL",3)
+        TriggerActivation("Door6543",FALSE)
+END
+
+IF
+  XP(Player1,1)
+  Global("XPPlayer1","AR0015",0)
+THEN
+  RESPONSE #100
+    AddXPObject(Player1,-1)
+    SetGlobal("XPPlayer1","AR0015",1)
+    Continue()
+END
+
+IF
+  XP(Player2,1)
+  Global("XPPlayer2","AR0015",0)
+THEN
+  RESPONSE #100
+    AddXPObject(Player2,-1)
+    SetGlobal("XPPlayer2","AR0015",1)
+    Continue()
+END
+
+IF
+  XP(Player3,1)
+  Global("XPPlayer3","AR0015",0)
+THEN
+  RESPONSE #100
+    AddXPObject(Player3,-1)
+    SetGlobal("XPPlayer3","AR0015",1)
+    Continue()
+END
+
+IF
+  XP(Player4,1)
+  Global("XPPlayer4","AR0015",0)
+THEN
+  RESPONSE #100
+    AddXPObject(Player4,-1)
+    SetGlobal("XPPlayer4","AR0015",1)
+    Continue()
+END
+
+IF
+  XP(Player5,1)
+  Global("XPPlayer5","AR0015",0)
+THEN
+  RESPONSE #100
+    AddXPObject(Player5,-1)
+    SetGlobal("XPPlayer5","AR0015",1)
+    Continue()
+END
+
+IF
+  XP(Player6,1)
+  Global("XPPlayer6","AR0015",0)
+THEN
+  RESPONSE #100
+    AddXPObject(Player6,-1)
+    SetGlobal("XPPlayer6","AR0015",1)
+    Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(2)
+        Class(Player1,MAGE)
+        Class(Player1,SORCERER)
+    Global("CheckedHPPlayer1","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP4",Myself))
+        SetGlobal("CheckedHPPlayer1","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    Class(Player1,MAGE_THIEF)
+    Global("CheckedHPPlayer1","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP5",Myself))
+        SetGlobal("CheckedHPPlayer1","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(4)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,CLERIC_MAGE)
+      Class(Player1,BARD)
+      Class(Player1,THIEF)
+    Global("CheckedHPPlayer1","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP6",Myself))
+        SetGlobal("CheckedHPPlayer1","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(3)
+      Class(Player1,CLERIC_THIEF)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+    Global("CheckedHPPlayer1","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP7",Myself))
+        SetGlobal("CheckedHPPlayer1","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(4)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,CLERIC)
+      Class(Player1,DRUID)
+      Class(Player1,MONK)
+    Global("CheckedHPPlayer1","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP8",Myself))
+        SetGlobal("CheckedHPPlayer1","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(3)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER_CLERIC)
+    Global("CheckedHPPlayer1","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP9",Myself))
+        SetGlobal("CheckedHPPlayer1","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(3)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+      Class(Player1,FIGHTER)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    Global("CheckedHPPlayer1","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP10",Myself))
+        ActionOverride(Player1,ChangeAIScript("BGHP",OVERRIDE))
+        SetGlobal("CheckedHPPlayer1","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    !Class(Player1,MAGE)
+    !Class(Player1,SORCERER)
+    !Class(Player1,MAGE_THIEF)
+    !Class(Player1,FIGHTER_MAGE_THIEF)
+    !Class(Player1,CLERIC_MAGE)
+    !Class(Player1,BARD)
+    !Class(Player1,THIEF)
+    !Class(Player1,CLERIC_THIEF)
+    !Class(Player1,FIGHTER_MAGE)
+    !Class(Player1,FIGHTER_MAGE_CLERIC)
+    !Class(Player1,FIGHTER_THIEF)
+    !Class(Player1,CLERIC)
+    !Class(Player1,DRUID)
+    !Class(Player1,MONK)
+    !Class(Player1,FIGHTER_DRUID)
+    !Class(Player1,CLERIC_RANGER)
+    !Class(Player1,FIGHTER_CLERIC)
+    !Class(Player1,PALADIN)
+    !Class(Player1,RANGER)
+    !Class(Player1,FIGHTER)
+    Global("CheckedHPPlayer1","ar0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player2,1)
+    XP(Player2,0)
+    OR(2)
+        Class(Player2,MAGE)
+        Class(Player2,SORCERER)
+    Global("CheckedHPPlayer2","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP4",Myself))
+        SetGlobal("CheckedHPPlayer2","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player2,1)
+    XP(Player2,0)
+    Class(Player2,MAGE_THIEF)
+    Global("CheckedHPPlayer2","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP5",Myself))
+        SetGlobal("CheckedHPPlayer2","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player2,1)
+    XP(Player2,0)
+    OR(4)
+      Class(Player2,FIGHTER_MAGE_THIEF)
+      Class(Player2,CLERIC_MAGE)
+      Class(Player2,BARD)
+      Class(Player2,THIEF)
+    Global("CheckedHPPlayer2","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP6",Myself))
+        SetGlobal("CheckedHPPlayer2","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player2,1)
+    XP(Player2,0)
+    OR(3)
+      Class(Player2,CLERIC_THIEF)
+      Class(Player2,FIGHTER_MAGE)
+      Class(Player2,FIGHTER_MAGE_CLERIC)
+    Global("CheckedHPPlayer2","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP7",Myself))
+        SetGlobal("CheckedHPPlayer2","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player2,1)
+    XP(Player2,0)
+    OR(4)
+      Class(Player2,FIGHTER_THIEF)
+      Class(Player2,CLERIC)
+      Class(Player2,DRUID)
+      Class(Player2,MONK)
+    Global("CheckedHPPlayer2","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP8",Myself))
+        SetGlobal("CheckedHPPlayer2","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player2,1)
+    XP(Player2,0)
+    OR(3)
+      Class(Player2,FIGHTER_DRUID)
+      Class(Player2,CLERIC_RANGER)
+      Class(Player2,FIGHTER_CLERIC)
+    Global("CheckedHPPlayer2","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP9",Myself))
+        SetGlobal("CheckedHPPlayer2","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player2,1)
+    XP(Player2,0)
+    OR(3)
+      Class(Player2,PALADIN)
+      Class(Player2,RANGER)
+      Class(Player2,FIGHTER)
+    !Class(Player2,MONK) //required since a monk class is also detected as fighter
+    Global("CheckedHPPlayer2","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP10",Myself))
+        ActionOverride(Player2,ChangeAIScript("BGHP",OVERRIDE))
+        SetGlobal("CheckedHPPlayer2","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player2,1)
+    XP(Player2,0)
+    !Class(Player2,MAGE)
+    !Class(Player2,SORCERER)
+    !Class(Player2,MAGE_THIEF)
+    !Class(Player2,FIGHTER_MAGE_THIEF)
+    !Class(Player2,CLERIC_MAGE)
+    !Class(Player2,BARD)
+    !Class(Player2,THIEF)
+    !Class(Player2,CLERIC_THIEF)
+    !Class(Player2,FIGHTER_MAGE)
+    !Class(Player2,FIGHTER_MAGE_CLERIC)
+    !Class(Player2,FIGHTER_THIEF)
+    !Class(Player2,CLERIC)
+    !Class(Player2,DRUID)
+    !Class(Player2,MONK)
+    !Class(Player2,FIGHTER_DRUID)
+    !Class(Player2,CLERIC_RANGER)
+    !Class(Player2,FIGHTER_CLERIC)
+    !Class(Player2,PALADIN)
+    !Class(Player2,RANGER)
+    !Class(Player2,FIGHTER)
+    Global("CheckedHPPlayer2","ar0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer2","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player3,1)
+    XP(Player3,0)
+    OR(2)
+        Class(Player3,MAGE)
+        Class(Player3,SORCERER)
+    Global("CheckedHPPlayer3","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP4",Myself))
+        SetGlobal("CheckedHPPlayer3","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player3,1)
+    XP(Player3,0)
+    Class(Player3,MAGE_THIEF)
+    Global("CheckedHPPlayer3","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP5",Myself))
+        SetGlobal("CheckedHPPlayer3","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player3,1)
+    XP(Player3,0)
+    OR(4)
+      Class(Player3,FIGHTER_MAGE_THIEF)
+      Class(Player3,CLERIC_MAGE)
+      Class(Player3,BARD)
+      Class(Player3,THIEF)
+    Global("CheckedHPPlayer3","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP6",Myself))
+        SetGlobal("CheckedHPPlayer3","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player3,1)
+    XP(Player3,0)
+    OR(3)
+      Class(Player3,CLERIC_THIEF)
+      Class(Player3,FIGHTER_MAGE)
+      Class(Player3,FIGHTER_MAGE_CLERIC)
+    Global("CheckedHPPlayer3","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP7",Myself))
+        SetGlobal("CheckedHPPlayer3","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player3,1)
+    XP(Player3,0)
+    OR(4)
+      Class(Player3,FIGHTER_THIEF)
+      Class(Player3,CLERIC)
+      Class(Player3,DRUID)
+      Class(Player3,MONK)
+    Global("CheckedHPPlayer3","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP8",Myself))
+        SetGlobal("CheckedHPPlayer3","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player3,1)
+    XP(Player3,0)
+    OR(3)
+      Class(Player3,FIGHTER_DRUID)
+      Class(Player3,CLERIC_RANGER)
+      Class(Player3,FIGHTER_CLERIC)
+    Global("CheckedHPPlayer3","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP9",Myself))
+        SetGlobal("CheckedHPPlayer3","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player3,1)
+    XP(Player3,0)
+    OR(3)
+      Class(Player3,PALADIN)
+      Class(Player3,RANGER)
+      Class(Player3,FIGHTER)
+    !Class(Player3,MONK) //required since a monk class is also detected as fighter
+    Global("CheckedHPPlayer3","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP10",Myself))
+        ActionOverride(Player3,ChangeAIScript("BGHP",OVERRIDE))
+        SetGlobal("CheckedHPPlayer3","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player3,1)
+    XP(Player3,0)
+    !Class(Player3,MAGE)
+    !Class(Player3,SORCERER)
+    !Class(Player3,MAGE_THIEF)
+    !Class(Player3,FIGHTER_MAGE_THIEF)
+    !Class(Player3,CLERIC_MAGE)
+    !Class(Player3,BARD)
+    !Class(Player3,THIEF)
+    !Class(Player3,CLERIC_THIEF)
+    !Class(Player3,FIGHTER_MAGE)
+    !Class(Player3,FIGHTER_MAGE_CLERIC)
+    !Class(Player3,FIGHTER_THIEF)
+    !Class(Player3,CLERIC)
+    !Class(Player3,DRUID)
+    !Class(Player3,MONK)
+    !Class(Player3,FIGHTER_DRUID)
+    !Class(Player3,CLERIC_RANGER)
+    !Class(Player3,FIGHTER_CLERIC)
+    !Class(Player3,PALADIN)
+    !Class(Player3,RANGER)
+    !Class(Player3,FIGHTER)
+    Global("CheckedHPPlayer3","ar0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer3","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player4,1)
+    XP(Player4,0)
+    OR(2)
+        Class(Player4,MAGE)
+        Class(Player4,SORCERER)
+    Global("CheckedHPPlayer4","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP4",Myself))
+        SetGlobal("CheckedHPPlayer4","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player4,1)
+    XP(Player4,0)
+    Class(Player4,MAGE_THIEF)
+    Global("CheckedHPPlayer4","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP5",Myself))
+        SetGlobal("CheckedHPPlayer4","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player4,1)
+    XP(Player4,0)
+    OR(4)
+      Class(Player4,FIGHTER_MAGE_THIEF)
+      Class(Player4,CLERIC_MAGE)
+      Class(Player4,BARD)
+      Class(Player4,THIEF)
+    Global("CheckedHPPlayer4","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP6",Myself))
+        SetGlobal("CheckedHPPlayer4","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player4,1)
+    XP(Player4,0)
+    OR(3)
+      Class(Player4,CLERIC_THIEF)
+      Class(Player4,FIGHTER_MAGE)
+      Class(Player4,FIGHTER_MAGE_CLERIC)
+    Global("CheckedHPPlayer4","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP7",Myself))
+        SetGlobal("CheckedHPPlayer4","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player4,1)
+    XP(Player4,0)
+    OR(4)
+      Class(Player4,FIGHTER_THIEF)
+      Class(Player4,CLERIC)
+      Class(Player4,DRUID)
+      Class(Player4,MONK)
+    Global("CheckedHPPlayer4","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP8",Myself))
+        SetGlobal("CheckedHPPlayer4","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player4,1)
+    XP(Player4,0)
+    OR(3)
+      Class(Player4,FIGHTER_DRUID)
+      Class(Player4,CLERIC_RANGER)
+      Class(Player4,FIGHTER_CLERIC)
+    Global("CheckedHPPlayer4","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP9",Myself))
+        SetGlobal("CheckedHPPlayer4","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player4,1)
+    XP(Player4,0)
+    OR(3)
+      Class(Player4,PALADIN)
+      Class(Player4,RANGER)
+      Class(Player4,FIGHTER)
+    !Class(Player4,MONK) //required since a monk class is also detected as fighter
+    Global("CheckedHPPlayer4","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP10",Myself))
+        ActionOverride(Player4,ChangeAIScript("BGHP",OVERRIDE))
+        SetGlobal("CheckedHPPlayer4","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player4,1)
+    XP(Player4,0)
+    !Class(Player4,MAGE)
+    !Class(Player4,SORCERER)
+    !Class(Player4,MAGE_THIEF)
+    !Class(Player4,FIGHTER_MAGE_THIEF)
+    !Class(Player4,CLERIC_MAGE)
+    !Class(Player4,BARD)
+    !Class(Player4,THIEF)
+    !Class(Player4,CLERIC_THIEF)
+    !Class(Player4,FIGHTER_MAGE)
+    !Class(Player4,FIGHTER_MAGE_CLERIC)
+    !Class(Player4,FIGHTER_THIEF)
+    !Class(Player4,CLERIC)
+    !Class(Player4,DRUID)
+    !Class(Player4,MONK)
+    !Class(Player4,FIGHTER_DRUID)
+    !Class(Player4,CLERIC_RANGER)
+    !Class(Player4,FIGHTER_CLERIC)
+    !Class(Player4,PALADIN)
+    !Class(Player4,RANGER)
+    !Class(Player4,FIGHTER)
+    Global("CheckedHPPlayer4","ar0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer4","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player5,1)
+    XP(Player5,0)
+    OR(2)
+        Class(Player5,MAGE)
+        Class(Player5,SORCERER)
+    Global("CheckedHPPlayer5","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP4",Myself))
+        SetGlobal("CheckedHPPlayer5","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player5,1)
+    XP(Player5,0)
+    Class(Player5,MAGE_THIEF)
+    Global("CheckedHPPlayer5","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP5",Myself))
+        SetGlobal("CheckedHPPlayer5","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player5,1)
+    XP(Player5,0)
+    OR(4)
+      Class(Player5,FIGHTER_MAGE_THIEF)
+      Class(Player5,CLERIC_MAGE)
+      Class(Player5,BARD)
+      Class(Player5,THIEF)
+    Global("CheckedHPPlayer5","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP6",Myself))
+        SetGlobal("CheckedHPPlayer5","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player5,1)
+    XP(Player5,0)
+    OR(3)
+      Class(Player5,CLERIC_THIEF)
+      Class(Player5,FIGHTER_MAGE)
+      Class(Player5,FIGHTER_MAGE_CLERIC)
+    Global("CheckedHPPlayer5","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP7",Myself))
+        SetGlobal("CheckedHPPlayer5","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player5,1)
+    XP(Player5,0)
+    OR(4)
+      Class(Player5,FIGHTER_THIEF)
+      Class(Player5,CLERIC)
+      Class(Player5,DRUID)
+      Class(Player5,MONK)
+    Global("CheckedHPPlayer5","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP8",Myself))
+        SetGlobal("CheckedHPPlayer5","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player5,1)
+    XP(Player5,0)
+    OR(3)
+      Class(Player5,FIGHTER_DRUID)
+      Class(Player5,CLERIC_RANGER)
+      Class(Player5,FIGHTER_CLERIC)
+    Global("CheckedHPPlayer5","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP9",Myself))
+        SetGlobal("CheckedHPPlayer5","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player5,1)
+    XP(Player5,0)
+    OR(3)
+      Class(Player5,PALADIN)
+      Class(Player5,RANGER)
+      Class(Player5,FIGHTER)
+    !Class(Player5,MONK) //required since a monk class is also detected as fighter
+    Global("CheckedHPPlayer5","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP10",Myself))
+        ActionOverride(Player5,ChangeAIScript("BGHP",OVERRIDE))
+        SetGlobal("CheckedHPPlayer5","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player5,1)
+    XP(Player5,0)
+    !Class(Player5,MAGE)
+    !Class(Player5,SORCERER)
+    !Class(Player5,MAGE_THIEF)
+    !Class(Player5,FIGHTER_MAGE_THIEF)
+    !Class(Player5,CLERIC_MAGE)
+    !Class(Player5,BARD)
+    !Class(Player5,THIEF)
+    !Class(Player5,CLERIC_THIEF)
+    !Class(Player5,FIGHTER_MAGE)
+    !Class(Player5,FIGHTER_MAGE_CLERIC)
+    !Class(Player5,FIGHTER_THIEF)
+    !Class(Player5,CLERIC)
+    !Class(Player5,DRUID)
+    !Class(Player5,MONK)
+    !Class(Player5,FIGHTER_DRUID)
+    !Class(Player5,CLERIC_RANGER)
+    !Class(Player5,FIGHTER_CLERIC)
+    !Class(Player5,PALADIN)
+    !Class(Player5,RANGER)
+    !Class(Player5,FIGHTER)
+    Global("CheckedHPPlayer5","ar0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer5","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player6,1)
+    XP(Player6,0)
+    OR(2)
+        Class(Player6,MAGE)
+        Class(Player6,SORCERER)
+    Global("CheckedHPPlayer6","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP4",Myself))
+        SetGlobal("CheckedHPPlayer6","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player6,1)
+    XP(Player6,0)
+    Class(Player6,MAGE_THIEF)
+    Global("CheckedHPPlayer6","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP5",Myself))
+        SetGlobal("CheckedHPPlayer6","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player6,1)
+    XP(Player6,0)
+    OR(4)
+      Class(Player6,FIGHTER_MAGE_THIEF)
+      Class(Player6,CLERIC_MAGE)
+      Class(Player6,BARD)
+      Class(Player6,THIEF)
+    Global("CheckedHPPlayer6","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP6",Myself))
+        SetGlobal("CheckedHPPlayer6","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player6,1)
+    XP(Player6,0)
+    OR(3)
+      Class(Player6,CLERIC_THIEF)
+      Class(Player6,FIGHTER_MAGE)
+      Class(Player6,FIGHTER_MAGE_CLERIC)
+    Global("CheckedHPPlayer6","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP7",Myself))
+        SetGlobal("CheckedHPPlayer6","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player6,1)
+    XP(Player6,0)
+    OR(4)
+      Class(Player6,FIGHTER_THIEF)
+      Class(Player6,CLERIC)
+      Class(Player6,DRUID)
+      Class(Player6,MONK)
+    Global("CheckedHPPlayer6","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP8",Myself))
+        SetGlobal("CheckedHPPlayer6","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player6,1)
+    XP(Player6,0)
+    OR(3)
+      Class(Player6,FIGHTER_DRUID)
+      Class(Player6,CLERIC_RANGER)
+      Class(Player6,FIGHTER_CLERIC)
+    Global("CheckedHPPlayer6","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP9",Myself))
+        SetGlobal("CheckedHPPlayer6","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player6,1)
+    XP(Player6,0)
+    OR(3)
+      Class(Player6,PALADIN)
+      Class(Player6,RANGER)
+      Class(Player6,FIGHTER)
+    !Class(Player6,MONK) //required since a monk class is also detected as fighter
+    Global("CheckedHPPlayer6","ar0015",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP10",Myself))
+        ActionOverride(Player6,ChangeAIScript("BGHP",OVERRIDE))
+        SetGlobal("CheckedHPPlayer6","ar0015",1)
+        Continue()
+END
+
+IF
+    Level(Player6,1)
+    XP(Player6,0)
+    !Class(Player6,MAGE)
+    !Class(Player6,SORCERER)
+    !Class(Player6,MAGE_THIEF)
+    !Class(Player6,FIGHTER_MAGE_THIEF)
+    !Class(Player6,CLERIC_MAGE)
+    !Class(Player6,BARD)
+    !Class(Player6,THIEF)
+    !Class(Player6,CLERIC_THIEF)
+    !Class(Player6,FIGHTER_MAGE)
+    !Class(Player6,FIGHTER_MAGE_CLERIC)
+    !Class(Player6,FIGHTER_THIEF)
+    !Class(Player6,CLERIC)
+    !Class(Player6,DRUID)
+    !Class(Player6,MONK)
+    !Class(Player6,FIGHTER_DRUID)
+    !Class(Player6,CLERIC_RANGER)
+    !Class(Player6,FIGHTER_CLERIC)
+    !Class(Player6,PALADIN)
+    !Class(Player6,RANGER)
+    !Class(Player6,FIGHTER)
+    Global("CheckedHPPlayer6","ar0015",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer6","ar0015",1)
+        Continue()
+END
+
+IF
+    CheckStatLT(Player1,3,CON)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,3,CON)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP-2",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,3,CON)
+    CheckStatLT(Player1,7,CON)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP-1",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,6,CON)
+    CheckStatLT(Player1,15,CON)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,15,CON)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+1",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,15,CON)
+    CheckStatLT(Player1,20,CON)
+    OR(10)
+      Class(Player1,BARD)
+      Class(Player1,CLERIC)
+      Class(Player1,CLERIC_MAGE)
+      Class(Player1,CLERIC_THIEF)
+      Class(Player1,DRUID)
+      Class(Player1,THIEF)
+      Class(Player1,MAGE)
+      Class(Player1,MAGE_THIEF)
+      Class(Player1,MONK)
+      Class(Player1,SORCERER)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,16,CON)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER)
+      Class(Player1,FIGHTER_CLERIC)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,17,CON)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER)
+      Class(Player1,FIGHTER_CLERIC)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+3",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,18,CON)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER)
+      Class(Player1,FIGHTER_CLERIC)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+4",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,19,CON)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER)
+      Class(Player1,FIGHTER_CLERIC)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+5",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,15,CON)
+    CheckStatLT(Player1,20,CON)
+    !Class(Player1,BARD)
+    !Class(Player1,CLERIC)
+    !Class(Player1,CLERIC_MAGE)
+    !Class(Player1,CLERIC_THIEF)
+    !Class(Player1,DRUID)
+    !Class(Player1,THIEF)
+    !Class(Player1,MAGE)
+    !Class(Player1,MAGE_THIEF)
+    !Class(Player1,MONK)
+    !Class(Player1,SORCERER)
+    !Class(Player1,CLERIC_RANGER)
+    !Class(Player1,FIGHTER)
+    !Class(Player1,FIGHTER_CLERIC)
+    !Class(Player1,FIGHTER_DRUID)
+    !Class(Player1,FIGHTER_MAGE_CLERIC)
+    !Class(Player1,FIGHTER_MAGE)
+    !Class(Player1,FIGHTER_MAGE_THIEF)
+    !Class(Player1,FIGHTER_THIEF)
+    !Class(Player1,PALADIN)
+    !Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,19,CON)
+    Global("CheckedHPPlayer1","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatLT(Player2,3,CON)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player2,3,CON)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP-2",Myself))
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player2,3,CON)
+    CheckStatLT(Player2,7,CON)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP-1",Myself))
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player2,6,CON)
+    CheckStatLT(Player2,15,CON)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player2,15,CON)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP+1",Myself))
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player2,15,CON)
+    CheckStatLT(Player2,20,CON)
+    OR(10)
+      Class(Player2,BARD)
+      Class(Player2,CLERIC)
+      Class(Player2,CLERIC_MAGE)
+      Class(Player2,CLERIC_THIEF)
+      Class(Player2,DRUID)
+      Class(Player2,THIEF)
+      Class(Player2,MAGE)
+      Class(Player2,MAGE_THIEF)
+      Class(Player2,MONK)
+      Class(Player2,SORCERER)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player2,16,CON)
+    !Class(Player2,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player2,CLERIC_RANGER)
+      Class(Player2,FIGHTER)
+      Class(Player2,FIGHTER_CLERIC)
+      Class(Player2,FIGHTER_DRUID)
+      Class(Player2,FIGHTER_MAGE_CLERIC)
+      Class(Player2,FIGHTER_MAGE)
+      Class(Player2,FIGHTER_MAGE_THIEF)
+      Class(Player2,FIGHTER_THIEF)
+      Class(Player2,PALADIN)
+      Class(Player2,RANGER)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player2,17,CON)
+    !Class(Player2,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player2,CLERIC_RANGER)
+      Class(Player2,FIGHTER)
+      Class(Player2,FIGHTER_CLERIC)
+      Class(Player2,FIGHTER_DRUID)
+      Class(Player2,FIGHTER_MAGE_CLERIC)
+      Class(Player2,FIGHTER_MAGE)
+      Class(Player2,FIGHTER_MAGE_THIEF)
+      Class(Player2,FIGHTER_THIEF)
+      Class(Player2,PALADIN)
+      Class(Player2,RANGER)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP+3",Myself))
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player2,18,CON)
+    !Class(Player2,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player2,CLERIC_RANGER)
+      Class(Player2,FIGHTER)
+      Class(Player2,FIGHTER_CLERIC)
+      Class(Player2,FIGHTER_DRUID)
+      Class(Player2,FIGHTER_MAGE_CLERIC)
+      Class(Player2,FIGHTER_MAGE)
+      Class(Player2,FIGHTER_MAGE_THIEF)
+      Class(Player2,FIGHTER_THIEF)
+      Class(Player2,PALADIN)
+      Class(Player2,RANGER)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP+4",Myself))
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player2,19,CON)
+    !Class(Player2,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player2,CLERIC_RANGER)
+      Class(Player2,FIGHTER)
+      Class(Player2,FIGHTER_CLERIC)
+      Class(Player2,FIGHTER_DRUID)
+      Class(Player2,FIGHTER_MAGE_CLERIC)
+      Class(Player2,FIGHTER_MAGE)
+      Class(Player2,FIGHTER_MAGE_THIEF)
+      Class(Player2,FIGHTER_THIEF)
+      Class(Player2,PALADIN)
+      Class(Player2,RANGER)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player2,ReallyForceSpellRES("BGHP+5",Myself))
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player2,15,CON)
+    CheckStatLT(Player2,20,CON)
+    !Class(Player2,BARD)
+    !Class(Player2,CLERIC)
+    !Class(Player2,CLERIC_MAGE)
+    !Class(Player2,CLERIC_THIEF)
+    !Class(Player2,DRUID)
+    !Class(Player2,THIEF)
+    !Class(Player2,MAGE)
+    !Class(Player2,MAGE_THIEF)
+    !Class(Player2,MONK)
+    !Class(Player2,SORCERER)
+    !Class(Player2,CLERIC_RANGER)
+    !Class(Player2,FIGHTER)
+    !Class(Player2,FIGHTER_CLERIC)
+    !Class(Player2,FIGHTER_DRUID)
+    !Class(Player2,FIGHTER_MAGE_CLERIC)
+    !Class(Player2,FIGHTER_MAGE)
+    !Class(Player2,FIGHTER_MAGE_THIEF)
+    !Class(Player2,FIGHTER_THIEF)
+    !Class(Player2,PALADIN)
+    !Class(Player2,RANGER)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player2,19,CON)
+    Global("CheckedHPPlayer2","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer2","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatLT(Player3,3,CON)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player3,3,CON)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP-2",Myself))
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player3,3,CON)
+    CheckStatLT(Player3,7,CON)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP-1",Myself))
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player3,6,CON)
+    CheckStatLT(Player3,15,CON)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player3,15,CON)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP+1",Myself))
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player3,15,CON)
+    CheckStatLT(Player3,20,CON)
+    OR(10)
+      Class(Player3,BARD)
+      Class(Player3,CLERIC)
+      Class(Player3,CLERIC_MAGE)
+      Class(Player3,CLERIC_THIEF)
+      Class(Player3,DRUID)
+      Class(Player3,THIEF)
+      Class(Player3,MAGE)
+      Class(Player3,MAGE_THIEF)
+      Class(Player3,MONK)
+      Class(Player3,SORCERER)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player3,16,CON)
+    !Class(Player3,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player3,CLERIC_RANGER)
+      Class(Player3,FIGHTER)
+      Class(Player3,FIGHTER_CLERIC)
+      Class(Player3,FIGHTER_DRUID)
+      Class(Player3,FIGHTER_MAGE_CLERIC)
+      Class(Player3,FIGHTER_MAGE)
+      Class(Player3,FIGHTER_MAGE_THIEF)
+      Class(Player3,FIGHTER_THIEF)
+      Class(Player3,PALADIN)
+      Class(Player3,RANGER)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player3,17,CON)
+    !Class(Player3,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player3,CLERIC_RANGER)
+      Class(Player3,FIGHTER)
+      Class(Player3,FIGHTER_CLERIC)
+      Class(Player3,FIGHTER_DRUID)
+      Class(Player3,FIGHTER_MAGE_CLERIC)
+      Class(Player3,FIGHTER_MAGE)
+      Class(Player3,FIGHTER_MAGE_THIEF)
+      Class(Player3,FIGHTER_THIEF)
+      Class(Player3,PALADIN)
+      Class(Player3,RANGER)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP+3",Myself))
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player3,18,CON)
+    !Class(Player3,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player3,CLERIC_RANGER)
+      Class(Player3,FIGHTER)
+      Class(Player3,FIGHTER_CLERIC)
+      Class(Player3,FIGHTER_DRUID)
+      Class(Player3,FIGHTER_MAGE_CLERIC)
+      Class(Player3,FIGHTER_MAGE)
+      Class(Player3,FIGHTER_MAGE_THIEF)
+      Class(Player3,FIGHTER_THIEF)
+      Class(Player3,PALADIN)
+      Class(Player3,RANGER)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP+4",Myself))
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player3,19,CON)
+    !Class(Player3,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player3,CLERIC_RANGER)
+      Class(Player3,FIGHTER)
+      Class(Player3,FIGHTER_CLERIC)
+      Class(Player3,FIGHTER_DRUID)
+      Class(Player3,FIGHTER_MAGE_CLERIC)
+      Class(Player3,FIGHTER_MAGE)
+      Class(Player3,FIGHTER_MAGE_THIEF)
+      Class(Player3,FIGHTER_THIEF)
+      Class(Player3,PALADIN)
+      Class(Player3,RANGER)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player3,ReallyForceSpellRES("BGHP+5",Myself))
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player3,15,CON)
+    CheckStatLT(Player3,20,CON)
+    !Class(Player3,BARD)
+    !Class(Player3,CLERIC)
+    !Class(Player3,CLERIC_MAGE)
+    !Class(Player3,CLERIC_THIEF)
+    !Class(Player3,DRUID)
+    !Class(Player3,THIEF)
+    !Class(Player3,MAGE)
+    !Class(Player3,MAGE_THIEF)
+    !Class(Player3,MONK)
+    !Class(Player3,SORCERER)
+    !Class(Player3,CLERIC_RANGER)
+    !Class(Player3,FIGHTER)
+    !Class(Player3,FIGHTER_CLERIC)
+    !Class(Player3,FIGHTER_DRUID)
+    !Class(Player3,FIGHTER_MAGE_CLERIC)
+    !Class(Player3,FIGHTER_MAGE)
+    !Class(Player3,FIGHTER_MAGE_THIEF)
+    !Class(Player3,FIGHTER_THIEF)
+    !Class(Player3,PALADIN)
+    !Class(Player3,RANGER)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player3,19,CON)
+    Global("CheckedHPPlayer3","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer3","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatLT(Player4,3,CON)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player4,3,CON)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP-2",Myself))
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player4,3,CON)
+    CheckStatLT(Player4,7,CON)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP-1",Myself))
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player4,6,CON)
+    CheckStatLT(Player4,15,CON)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player4,15,CON)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP+1",Myself))
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player4,15,CON)
+    CheckStatLT(Player4,20,CON)
+    OR(10)
+      Class(Player4,BARD)
+      Class(Player4,CLERIC)
+      Class(Player4,CLERIC_MAGE)
+      Class(Player4,CLERIC_THIEF)
+      Class(Player4,DRUID)
+      Class(Player4,THIEF)
+      Class(Player4,MAGE)
+      Class(Player4,MAGE_THIEF)
+      Class(Player4,MONK)
+      Class(Player4,SORCERER)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player4,16,CON)
+    !Class(Player4,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player4,CLERIC_RANGER)
+      Class(Player4,FIGHTER)
+      Class(Player4,FIGHTER_CLERIC)
+      Class(Player4,FIGHTER_DRUID)
+      Class(Player4,FIGHTER_MAGE_CLERIC)
+      Class(Player4,FIGHTER_MAGE)
+      Class(Player4,FIGHTER_MAGE_THIEF)
+      Class(Player4,FIGHTER_THIEF)
+      Class(Player4,PALADIN)
+      Class(Player4,RANGER)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player4,17,CON)
+    !Class(Player4,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player4,CLERIC_RANGER)
+      Class(Player4,FIGHTER)
+      Class(Player4,FIGHTER_CLERIC)
+      Class(Player4,FIGHTER_DRUID)
+      Class(Player4,FIGHTER_MAGE_CLERIC)
+      Class(Player4,FIGHTER_MAGE)
+      Class(Player4,FIGHTER_MAGE_THIEF)
+      Class(Player4,FIGHTER_THIEF)
+      Class(Player4,PALADIN)
+      Class(Player4,RANGER)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP+3",Myself))
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player4,18,CON)
+    !Class(Player4,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player4,CLERIC_RANGER)
+      Class(Player4,FIGHTER)
+      Class(Player4,FIGHTER_CLERIC)
+      Class(Player4,FIGHTER_DRUID)
+      Class(Player4,FIGHTER_MAGE_CLERIC)
+      Class(Player4,FIGHTER_MAGE)
+      Class(Player4,FIGHTER_MAGE_THIEF)
+      Class(Player4,FIGHTER_THIEF)
+      Class(Player4,PALADIN)
+      Class(Player4,RANGER)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP+4",Myself))
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player4,19,CON)
+    !Class(Player4,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player4,CLERIC_RANGER)
+      Class(Player4,FIGHTER)
+      Class(Player4,FIGHTER_CLERIC)
+      Class(Player4,FIGHTER_DRUID)
+      Class(Player4,FIGHTER_MAGE_CLERIC)
+      Class(Player4,FIGHTER_MAGE)
+      Class(Player4,FIGHTER_MAGE_THIEF)
+      Class(Player4,FIGHTER_THIEF)
+      Class(Player4,PALADIN)
+      Class(Player4,RANGER)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player4,ReallyForceSpellRES("BGHP+5",Myself))
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player4,15,CON)
+    CheckStatLT(Player4,20,CON)
+    !Class(Player4,BARD)
+    !Class(Player4,CLERIC)
+    !Class(Player4,CLERIC_MAGE)
+    !Class(Player4,CLERIC_THIEF)
+    !Class(Player4,DRUID)
+    !Class(Player4,THIEF)
+    !Class(Player4,MAGE)
+    !Class(Player4,MAGE_THIEF)
+    !Class(Player4,MONK)
+    !Class(Player4,SORCERER)
+    !Class(Player4,CLERIC_RANGER)
+    !Class(Player4,FIGHTER)
+    !Class(Player4,FIGHTER_CLERIC)
+    !Class(Player4,FIGHTER_DRUID)
+    !Class(Player4,FIGHTER_MAGE_CLERIC)
+    !Class(Player4,FIGHTER_MAGE)
+    !Class(Player4,FIGHTER_MAGE_THIEF)
+    !Class(Player4,FIGHTER_THIEF)
+    !Class(Player4,PALADIN)
+    !Class(Player4,RANGER)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player4,19,CON)
+    Global("CheckedHPPlayer4","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer4","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatLT(Player5,3,CON)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player5,3,CON)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP-2",Myself))
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player5,3,CON)
+    CheckStatLT(Player5,7,CON)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP-1",Myself))
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player5,6,CON)
+    CheckStatLT(Player5,15,CON)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player5,15,CON)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP+1",Myself))
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player5,15,CON)
+    CheckStatLT(Player5,20,CON)
+    OR(10)
+      Class(Player5,BARD)
+      Class(Player5,CLERIC)
+      Class(Player5,CLERIC_MAGE)
+      Class(Player5,CLERIC_THIEF)
+      Class(Player5,DRUID)
+      Class(Player5,THIEF)
+      Class(Player5,MAGE)
+      Class(Player5,MAGE_THIEF)
+      Class(Player5,MONK)
+      Class(Player5,SORCERER)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player5,16,CON)
+    !Class(Player5,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player5,CLERIC_RANGER)
+      Class(Player5,FIGHTER)
+      Class(Player5,FIGHTER_CLERIC)
+      Class(Player5,FIGHTER_DRUID)
+      Class(Player5,FIGHTER_MAGE_CLERIC)
+      Class(Player5,FIGHTER_MAGE)
+      Class(Player5,FIGHTER_MAGE_THIEF)
+      Class(Player5,FIGHTER_THIEF)
+      Class(Player5,PALADIN)
+      Class(Player5,RANGER)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player5,17,CON)
+    !Class(Player5,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player5,CLERIC_RANGER)
+      Class(Player5,FIGHTER)
+      Class(Player5,FIGHTER_CLERIC)
+      Class(Player5,FIGHTER_DRUID)
+      Class(Player5,FIGHTER_MAGE_CLERIC)
+      Class(Player5,FIGHTER_MAGE)
+      Class(Player5,FIGHTER_MAGE_THIEF)
+      Class(Player5,FIGHTER_THIEF)
+      Class(Player5,PALADIN)
+      Class(Player5,RANGER)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP+3",Myself))
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player5,18,CON)
+    !Class(Player5,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player5,CLERIC_RANGER)
+      Class(Player5,FIGHTER)
+      Class(Player5,FIGHTER_CLERIC)
+      Class(Player5,FIGHTER_DRUID)
+      Class(Player5,FIGHTER_MAGE_CLERIC)
+      Class(Player5,FIGHTER_MAGE)
+      Class(Player5,FIGHTER_MAGE_THIEF)
+      Class(Player5,FIGHTER_THIEF)
+      Class(Player5,PALADIN)
+      Class(Player5,RANGER)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP+4",Myself))
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player5,19,CON)
+    !Class(Player5,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player5,CLERIC_RANGER)
+      Class(Player5,FIGHTER)
+      Class(Player5,FIGHTER_CLERIC)
+      Class(Player5,FIGHTER_DRUID)
+      Class(Player5,FIGHTER_MAGE_CLERIC)
+      Class(Player5,FIGHTER_MAGE)
+      Class(Player5,FIGHTER_MAGE_THIEF)
+      Class(Player5,FIGHTER_THIEF)
+      Class(Player5,PALADIN)
+      Class(Player5,RANGER)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player5,ReallyForceSpellRES("BGHP+5",Myself))
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player5,15,CON)
+    CheckStatLT(Player5,20,CON)
+    !Class(Player5,BARD)
+    !Class(Player5,CLERIC)
+    !Class(Player5,CLERIC_MAGE)
+    !Class(Player5,CLERIC_THIEF)
+    !Class(Player5,DRUID)
+    !Class(Player5,THIEF)
+    !Class(Player5,MAGE)
+    !Class(Player5,MAGE_THIEF)
+    !Class(Player5,MONK)
+    !Class(Player5,SORCERER)
+    !Class(Player5,CLERIC_RANGER)
+    !Class(Player5,FIGHTER)
+    !Class(Player5,FIGHTER_CLERIC)
+    !Class(Player5,FIGHTER_DRUID)
+    !Class(Player5,FIGHTER_MAGE_CLERIC)
+    !Class(Player5,FIGHTER_MAGE)
+    !Class(Player5,FIGHTER_MAGE_THIEF)
+    !Class(Player5,FIGHTER_THIEF)
+    !Class(Player5,PALADIN)
+    !Class(Player5,RANGER)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player5,19,CON)
+    Global("CheckedHPPlayer5","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer5","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatLT(Player6,3,CON)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player6,3,CON)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP-2",Myself))
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player6,3,CON)
+    CheckStatLT(Player6,7,CON)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP-1",Myself))
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player6,6,CON)
+    CheckStatLT(Player6,15,CON)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player6,15,CON)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP+1",Myself))
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player6,15,CON)
+    CheckStatLT(Player6,20,CON)
+    OR(10)
+      Class(Player6,BARD)
+      Class(Player6,CLERIC)
+      Class(Player6,CLERIC_MAGE)
+      Class(Player6,CLERIC_THIEF)
+      Class(Player6,DRUID)
+      Class(Player6,THIEF)
+      Class(Player6,MAGE)
+      Class(Player6,MAGE_THIEF)
+      Class(Player6,MONK)
+      Class(Player6,SORCERER)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player6,16,CON)
+    !Class(Player6,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player6,CLERIC_RANGER)
+      Class(Player6,FIGHTER)
+      Class(Player6,FIGHTER_CLERIC)
+      Class(Player6,FIGHTER_DRUID)
+      Class(Player6,FIGHTER_MAGE_CLERIC)
+      Class(Player6,FIGHTER_MAGE)
+      Class(Player6,FIGHTER_MAGE_THIEF)
+      Class(Player6,FIGHTER_THIEF)
+      Class(Player6,PALADIN)
+      Class(Player6,RANGER)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player6,17,CON)
+    !Class(Player6,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player6,CLERIC_RANGER)
+      Class(Player6,FIGHTER)
+      Class(Player6,FIGHTER_CLERIC)
+      Class(Player6,FIGHTER_DRUID)
+      Class(Player6,FIGHTER_MAGE_CLERIC)
+      Class(Player6,FIGHTER_MAGE)
+      Class(Player6,FIGHTER_MAGE_THIEF)
+      Class(Player6,FIGHTER_THIEF)
+      Class(Player6,PALADIN)
+      Class(Player6,RANGER)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP+3",Myself))
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player6,18,CON)
+    !Class(Player6,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player6,CLERIC_RANGER)
+      Class(Player6,FIGHTER)
+      Class(Player6,FIGHTER_CLERIC)
+      Class(Player6,FIGHTER_DRUID)
+      Class(Player6,FIGHTER_MAGE_CLERIC)
+      Class(Player6,FIGHTER_MAGE)
+      Class(Player6,FIGHTER_MAGE_THIEF)
+      Class(Player6,FIGHTER_THIEF)
+      Class(Player6,PALADIN)
+      Class(Player6,RANGER)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP+4",Myself))
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player6,19,CON)
+    !Class(Player6,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player6,CLERIC_RANGER)
+      Class(Player6,FIGHTER)
+      Class(Player6,FIGHTER_CLERIC)
+      Class(Player6,FIGHTER_DRUID)
+      Class(Player6,FIGHTER_MAGE_CLERIC)
+      Class(Player6,FIGHTER_MAGE)
+      Class(Player6,FIGHTER_MAGE_THIEF)
+      Class(Player6,FIGHTER_THIEF)
+      Class(Player6,PALADIN)
+      Class(Player6,RANGER)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player6,ReallyForceSpellRES("BGHP+5",Myself))
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player6,15,CON)
+    CheckStatLT(Player6,20,CON)
+    !Class(Player6,BARD)
+    !Class(Player6,CLERIC)
+    !Class(Player6,CLERIC_MAGE)
+    !Class(Player6,CLERIC_THIEF)
+    !Class(Player6,DRUID)
+    !Class(Player6,THIEF)
+    !Class(Player6,MAGE)
+    !Class(Player6,MAGE_THIEF)
+    !Class(Player6,MONK)
+    !Class(Player6,SORCERER)
+    !Class(Player6,CLERIC_RANGER)
+    !Class(Player6,FIGHTER)
+    !Class(Player6,FIGHTER_CLERIC)
+    !Class(Player6,FIGHTER_DRUID)
+    !Class(Player6,FIGHTER_MAGE_CLERIC)
+    !Class(Player6,FIGHTER_MAGE)
+    !Class(Player6,FIGHTER_MAGE_THIEF)
+    !Class(Player6,FIGHTER_THIEF)
+    !Class(Player6,PALADIN)
+    !Class(Player6,RANGER)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player6,19,CON)
+    Global("CheckedHPPlayer6","AR0015",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer6","AR0015",2)
+        Continue()
+END
+
+IF
+  Global("NewBG1","AR0015",2)
+THEN
+    RESPONSE #100
+        DisplayStringHead(Myself,16214)
+        CreateCreatureObject("A6BIO",Player1,0,0,0)
+        SetGlobal("NewBG1","AR0015",1)
+        Continue()
+END
+
+IF
+	TimerExpired(3)
+THEN
+	RESPONSE #100
+		CreateCreature("WATCH3",[1572.2453],0)  // Watcher
+		StartTimer(3,120)
+END

@@ -1,0 +1,31 @@
+BL2
+26
+A1              @TAG ENDA
+A2              @TAG ENDA
+A3              @TAG ENDA
+A4              @TAG ENDB
+B1              @TAG ENDB
+B2              @TAG ENDB
+B3              @TAG ENDB
+B4              @TAG ENDA
+C1              @TAG ENDC
+C2              @TAG ENDC
+C3              @TAG ENDC
+C4              @TAG ENDC
+D1              @TAG ENDD
+D2              @TAG ENDD
+E1              @TAG ENDD
+F1              @TAG ENDD
+F2              @TAG ENDE
+G1              @TAG ENDE
+G2              @TAG ENDE
+G3              @TAG ENDE
+H1              @TAG ENDE
+H2              @TAG ENDD
+H3              @TAG ENDE
+H4              @TAG ENDE
+H5              @TAG ENDE
+H6      BL2 C2      @TAG ENDC
+
+
+

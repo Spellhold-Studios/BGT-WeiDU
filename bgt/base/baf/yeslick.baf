@@ -1,0 +1,88 @@
+IF
+	Dead("Kagain")
+	Global("Yeslickfight","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Yeslickfight","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+		JoinParty()
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",1)
+	HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+	HPPercentLT(Myself,50)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",1)
+	See("Kagain")
+	HaveSpell(CLERIC_HOLD_PERSON)
+	!StateCheck("Kagain",STATE_SLEEPING)
+	!StateCheck("Kagain",STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell("Kagain",CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",1)
+	See("Kagain")
+	HaveSpell(CLERIC_COMMAND)
+	!StateCheck("Kagain",STATE_SLEEPING)
+	!StateCheck("Kagain",STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell("Kagain",CLERIC_COMMAND)
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",1)
+	See("Kagain")
+	HaveSpell(CLERIC_MAGIC_STONE)
+THEN
+	RESPONSE #100
+		Spell("Kagain",CLERIC_MAGIC_STONE)
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",1)
+	See("Kagain")
+	HaveSpell(CLERIC_CALL_LIGHTNING)
+THEN
+	RESPONSE #100
+		Spell("Kagain",CLERIC_CALL_LIGHTNING)
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",2)
+	See("Kagain")
+	!Range("Kagain",5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate("Kagain",15)
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",2)
+	See("Kagain")
+	Range("Kagain",5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate("Kagain",15)
+END
+
+IF
+	GlobalTimerExpired("Yeslick","GLOBAL")
+	Global("FLOODED","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+
+

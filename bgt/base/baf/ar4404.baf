@@ -1,0 +1,11 @@
+IF
+  PartyHasItem("SCRL2V")
+  Global("CHAPTER","GLOBAL",3)
+  Dead("Mulahey")
+THEN
+  RESPONSE #100
+    SetGlobal("Chapter","GLOBAL",2)
+    IncrementChapter("Chptxt-3")
+    SetGlobal("Chapter","GLOBAL",4)
+    AddJournalEntry(@310735,INFO)
+END

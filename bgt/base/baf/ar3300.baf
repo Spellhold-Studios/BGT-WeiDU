@@ -1,0 +1,31 @@
+IF
+  Dead("Mulahey")
+  Exists("HulriksCow")
+THEN
+  RESPONSE #100
+    ActionOverride("HulriksCow",DestroySelf())
+END
+
+IF
+  Dead("Mulahey")
+  Exists("Hulrik")
+THEN
+  RESPONSE #100
+    ActionOverride("Hulrik",DestroySelf())
+END
+
+IF
+  NumDeadGT("XvartH",7)
+  Global("XvartsDead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("XvartsDead","GLOBAL",8)
+END
+
+IF
+  NumDeadGT("OgreS",1)
+  Global("OgresDead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("OgresDead","GLOBAL",2)
+END

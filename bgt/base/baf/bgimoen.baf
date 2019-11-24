@@ -1,0 +1,16 @@
+IF
+  InParty(Myself)
+  Global("A6ImoenWasInParty","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("A6ImoenWasInParty","GLOBAL",1)
+END
+
+IF
+  Global("TalkedToGorion","GLOBAL",0)
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    Dialog([PC])
+END
+

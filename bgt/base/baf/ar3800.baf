@@ -1,0 +1,32 @@
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",2)
+THEN
+  RESPONSE #100
+    StartMovie("NASHKELL")
+    SmallWait(1)
+    SetGlobal("Chapter","GLOBAL",1)
+    IncrementChapter("Chptxt-2")
+    SetGlobal("Chapter","GLOBAL",3)
+    AddJournalEntry(@310734,INFO)
+    Continue()
+END
+
+IF
+  Global("BGTNPC3800","GLOBAL",0)
+  LevelLT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC3800","GLOBAL",1)
+    CreateCreature("BRANWE",[3251.2884],3)  // ~Branwen~
+END
+
+IF
+  Global("BGTNPC3800","GLOBAL",0)
+  LevelGT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC3800","GLOBAL",1)
+    CreateCreature("BRANWE5",[3251.2884],3)  // ~Branwen~
+END
+

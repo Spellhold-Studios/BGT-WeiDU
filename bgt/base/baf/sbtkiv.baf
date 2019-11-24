@@ -1,0 +1,9 @@
+IF
+  AreaCheck("AR1100")
+  Global("BP_KivanBG1Check","GLOBAL",1)
+THEN
+  RESPONSE #100
+      SetPlayerSound(Myself,@50490,EXISTANCE5)
+	ChangeAIScript("",CLASS)
+END
+

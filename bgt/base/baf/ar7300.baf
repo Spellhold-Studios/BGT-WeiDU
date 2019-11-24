@@ -1,0 +1,60 @@
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",8)
+  Global("BillSpawn","GLOBAL",0)
+  !Exists("BILL")
+THEN
+  RESPONSE #100
+    CreateCreature("BILL",[1962.2834],0)
+    SetGlobal("BillSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",8)
+  Global("SorrelSpawn","GLOBAL",0)
+  !Exists("SORREL")
+THEN
+  RESPONSE #100
+    CreateCreature("SORREL",[4098.1843],0)
+    SetGlobal("SorrelSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("Sorrel")
+  Global("ENDOFBG1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("Sorrel",DestroySelf())
+END
+
+//IF
+//  Exists("Bill")
+//  Global("ENDOFBG1","GLOBAL",1)
+//THEN
+//  RESPONSE #100
+//    ActionOverride("Bill",DestroySelf())
+//END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Capture200","GLOBAL",0)
+  Global("DukeThanks","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Capture200","GLOBAL",1)
+    CreateCreature("FFHUNT",[2189.1318],0)
+    CreateCreature("FFHUNT",[2189.1318],0)
+END
+
+IF
+  Exists("Ramazith")
+  Global("HelpRamazith","GLOBAL",0)
+  Global("AbelaTeleport","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("Ramazith",DestroySelf())
+END

@@ -1,0 +1,6 @@
+BEGIN ~cutgor~
+
+IF ~~ THEN BEGIN 0
+  SAY @13821
+  IF ~~ THEN EXTERN ~CUTSAR~ 1
+END

@@ -1,0 +1,128 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= ~Il mod %TP2_FILE_NAME% contiene~
+@-1001= ~diversi componenti opzionali.
+Per risparmiare tempo, puoi scegliere cosa fare per l'insieme dei componenti
+piuttosto che decidere per ognuno singolarmente.
+~
+@-1002= ~Che cosa vuoi fare con i componenti NON ANCORA installati?
+[I] Installarli, [S] Saltarli, [A] Trattarli singolarmente? ~
+@-1003= ~Che cosa vuoi fare con i componenti GIA' installati?
+[R] Reinstallarli, [U] Rimuoverli, [S] Saltarli, [A] Trattarli singolarmente? ~
+
+//modified
+@-1004= ~Si prega di caricare il file ~
+@-1005= ~sul forum:~
+
+@-1006= ~Vuoi installare il componente [~
+@-1007= ~]?
+[R] Reinstallare, [N] Nessun cambiamento, [U] Rimuovere o [Q] Uscire? ~
+@-1008= ~]?
+[I] Installare, [N] Non installare o [Q] Uscire? ~
+
+@-1009= ~Inserire il nome di una parte del modulo: ~
+
+@-1010= ~Sto reinstallando il componente [~
+@-1011= ~]~
+@-1012= ~Sto reinstallando in Lingua~
+
+@-1013= ~Elimino la precedente installazione di [~
+@-1014= ~] per prima cosa...~
+@-1015= ~INSTALLAZIONE PRECEDENTE ELIMINATA CON SUCCESSO~
+
+@-1016= ~Sto installando~
+@-1017= ~ERRORE nell'installazione di [~
+@-1018= ~], ritorno allo stato precedente~
+@-1019= ~INSTALLAZIONE RIUSCITA~
+@-1020= ~Salto~
+@-1021= ~Rimuovo [~
+@-1022= ~] (componente #~
+@-1023= ~)~
+@-1024= ~RIMOZIONE RIUSCITA [~
+
+@-1025= ~]?
+[R] Reinstallare, [N] Nessun cambiamento, [U] Rimuovere, [Q] Uscire o scegliere tra:~
+@-1026= ~]?
+[N] No, [Q] Uscire o scegliere tra:~
+@-1027= ~ (attualmente installato)~
+
+@-1028= ~Vuoi vedere i componenti di [~
+@-1029= ~]?
+[Y] Si, [N] No? ~
+
+@-1030= ~]?
+Scegli tra:~
+@-1031= ~]?
+[R] Reinstallare, [N] Nessun cambiamento, [Q] Uscire o scegliere tra:~
+@-1032= ~INSTALLAZIONE NON EFFETTUATA A CAUSA DI ERRORI~
+@-1033= ~INSTALLAZIONE COMPLETATA CON AVVERTIMENTI~
+@-1034= ~vuoi vedere il file leggimi? [Y] Si, [N] No~
+@-1035= ~in Lingua~
+  
+@-1036= ~Sto saltando il GRUPPO [~
+@-1037= ~] perche' non conforme ai requisiti.~
+  
+@-1038= ~[A] Trattare singolarmente i componenti, [S] Saltare tutto, o scegliere una alternativa predefinita:~
+@-1039= ~[A] Trattare singolarmente i componenti, [R] Reinstallare la configurazione corrente, [U] Rimuovere tutto, [S] Saltare tutto, o scegliere una alternativa predefinita:~
+
+//da tobex.tra
+@-10000 = ~Installazione di TobEx in corso...~
+@-10001 = ~TobEx EXE patch: gia' applicata, salto...~
+@-10002 = ~TobEx EXE patch: i bytes di destinazione non corrispondono, annullo l'installazione...~
+@-10003 = ~Aggiornamento di TobEx in corso...~
+@-10004 = ~TobEx e' gia' aggiornato alla versione piu recente.~
+
+//BGT real strings
+@100000 = ~Baldur's Gate Trilogy - Principale~
+@100001 = ~Disinstallazione componente pre-setup...~
+@100002 = ~Salvataggio chitin.key e cartella override...~
+@100003 = ~Patch al dialog.tlk in corso...~
+@100004 = ~Registrazione GUI...~
+@100005 = ~Correzione delle regole di gioco...~
+@100006 = ~Installazione scripts...~
+@100007 = ~Installazione dialoghi...~
+@100008 = ~Installazione negozi...~
+@100009 = ~Installazione oggetti...~
+@100010 = ~Installazione incantesimi...~
+@100011 = ~Installazione aree...~
+@100012 = ~Installazione 2DA...~
+@100013 = ~Installazione creature...~
+@100014 = ~Installazione varie...~
+@100015 = ~Installazione fallita - problemi nell'individuazione della directory di BG1.~
+@100016 = ~Implementazione della patch per i punti esperienza...~
+
+@100018 = ~Musica Completa di Baldur's Gate e Tales of the Sword Coast~
+@100019 = ~Musica Ibrida Baldur's Gate/Shadows of Amn/Throne of Bhaal~
+@100020 = ~Baldur's Gate Trilogy - Musica~
+@100021 = ~Si richiede la presenza di Throne of Bhaal per installare questa modifica.~
+@100022 = ~Installazione fixpack...~
+@100023 = ~Musica completa Baldur's Gate/Shadows of Amn/Throne of Bhaal (ATTENZIONE: modifica BGMain.exe)~
+
+@100024 = ~Interfaccia grafica di gioco (GUI)~
+@100025 = ~"Interfaccia originale SoA/ToB"~
+@100026 = ~"Baldur's Gate Trilogy" (Elminster che brandisce una spada)~
+@100027 = ~"Baldur's Gate Trilogy" (Elminster che brandisce un bastone)~
+
+@100028 = ~Inserisci il percorso completo della tua installazione di Baldur's Gate, quindi premi Invio.~
+@100029 = ~Directory di Baldur's Gate non valida o installazione di Baldur's Gate non corretta.
+Si puo' interrompere questa installazione chiudendo la finestra o premendo Ctrl+C.~
+@100030 = ~Estrazione creature da Baldur's Gate:TotSC...~
+@100031 = ~Estrazione dei testi da Baldur's Gate:TotSC...~
+@100032 = ~Importazione dei personaggi pregenerati da Baldur's Gate:TotSC...~
+@100033 = ~Importazione della musica da Baldur's Gate:TotSC...~
+@100034 = ~Importazione dei pacchetti vocali da Baldur's Gate:TotSC...~
+@100035 = ~Importazione dei suoni da Baldur's Gate:TotSC...~
+@100036 = ~Importazione dei filmati da Baldur's Gate:TotSC...~
+@100037 = ~Importazione dei tilesets da Baldur's Gate:TotSC...~
+@100038 = ~Conversione dei tilesets in corso. Potrebbe richiedere parecchio tempo...~
+@100039 = ~Estrazione nuovi tilesets...~
+@100040 = ~Accorpamento delle aree...~
+@100041 = ~Accorpamento dei file di gioco...~
+@100042 = ~Individuata la directory di Baldur's Gate I in %bg1_dir%.
+E' corretta? [Y] Si', [N] No~
+@100043 = ~Vuoi accorpare tutte le nuove risorse? (consigliato, eccetto per installazioni di mega-modificazione)
+[Y] Si', [N] No~
+@100044 = ~SO di tipo Unix individuato. Logging abilitato.%LNL%%LNL%~
+@100045 = ~Una vecchia versione di Windows Š stata indivudata. Sar… disponibile un logging limitato.%WNL%%WNL%~

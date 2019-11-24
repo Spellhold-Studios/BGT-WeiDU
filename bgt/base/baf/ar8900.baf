@@ -1,0 +1,45 @@
+IF
+  Global("BGTNPC8900","GLOBAL",0)
+  LevelLT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8900","GLOBAL",1)
+    CreateCreature("VICONI",[449.737],7)  // ~Viconia~
+END
+
+IF
+  Global("BGTNPC8900","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8900","GLOBAL",1)
+    CreateCreature("VICONI4",[449.737],7)  // ~Viconia~
+END
+
+IF
+  Global("BGTNPC8900","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8900","GLOBAL",1)
+    CreateCreature("VICONI61",[449.737],6)  // ~Viconia~
+END
+
+IF
+  Global("Chapter","GLOBAL",4)
+  Global("RaikenSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RaikenSpawn","GLOBAL",1)
+    CreateCreature("Raiken",[4013.594],0)  // ~Raiken~
+    CreateCreature("BANDIT2",[4134.556],0)  // ~Bandit~
+    CreateCreature("BANDIT2",[4268.628],0)  // ~Bandit~
+    CreateCreature("BANDIT2",[4112.652],0)  // ~Bandit~
+    CreateCreature("BANDIT2",[4194.663],0)  // ~Bandit~
+    CreateCreature("BANDIT2",[4176.511],0)  // ~Bandit~
+    CreateCreature("BANDIT2",[4227.541],0)  // ~Bandit~
+    CreateCreature("BANDIT2",[4072.572],0)  // ~Bandit~
+END
+

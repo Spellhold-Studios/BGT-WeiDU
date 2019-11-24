@@ -1,0 +1,10 @@
+IF
+  OnCreation()
+  Global("NewGame","AR0602",0)
+THEN
+  RESPONSE #100
+    HideGUI()
+    FadeToColor([1.0],0)
+    SetGlobal("NewGame","AR0602",1)
+    Continue()
+END

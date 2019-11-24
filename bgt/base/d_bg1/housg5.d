@@ -1,0 +1,16 @@
+BEGIN ~housg5~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @7586
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @7587
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9258
+  IF ~~ THEN EXIT
+END

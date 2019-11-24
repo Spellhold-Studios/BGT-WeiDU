@@ -1,0 +1,535 @@
+////////////////////////////////////////////////////////////////////
+//Items -- most provided by bg1.tra
+////////////////////////////////////////////////////////////////////
+@200000 = ~Статуя Измиры~
+
+//@23967 - change Blunt Weapons to Mace
+@200001 = ~Булава +2: "Череполом Кротана"
+Даже у орд были свои герои, и хотя в цивилизованном обществе их зачастую демонизируют, деяния их от этого не становятся менее впечатляющими. Кротан был исключительно умным орком - настолько, насколько это вообще возможно среди представителей этой расы. Он командовал объединенным легионом огров, орков, хобгоблинов и прочих тварей в Год Пропавшей Госпожи, 1241ЛД. Говорят, что именно в этом году банда орков-разбойников похитила и убила тетирскую дворянку. Ответом властей был практически полный геноцид орков в южных пределах. Кротан организовал оборону, чтобы спасти свой народ от тотального истребления. Ему это удалось, хоть оркам и пришлось в итоге изрядно потесниться со своих прежних территорий. Сам Кротан погиб уже почти под конец конфликта, а его голова была насажена на кол и выставлена на обозрение на том самом кладбище, где была похоронена убитая разбойниками молодая леди. Сами орки в своей истории назвали это время "Год, когда все зашло слишком далеко".
+
+ПАРАМЕТРЫ:
+
+THAC0:  +2 бонус
+Урон:  1D6 +3
+Тип урона:  дробящий
+Вес:  7
+Фактор скорости:  5
+Умение:  Булава
+Тип:  1-ручное
+Не могут использовать: 
+  Друид
+  Маг 
+  Чародей
+  Вор
+  Монах
+  Повелитель зверей~
+
+//@7350 - change Bow Weapons to Long Bow
+@200002 = ~Длинный лук снайпера: "Попал!"
+Раззадоренные годами соперничества, герцоги Спанделийона и Дельтантла решили устроить между собой соревнование, которое определило бы среди них лучшего лучника. Оба похвалялись силой своих магических луков, но Эдваллу Десту, спанделийонскому герцогу, этого было мало. По его приказу лук конкурента был украден, и в день соревнования Эдвалл не мог сдержать своего злорадства. Дельтантлский герцог, известный лишь по имени - Реймонд - потребовал от Эдвалла демонстрации своих способностей на установленном им чучеле. Эдвалл Дест натянул лук и решительно выпустил стрелу, не переставая думать, как зловеще эта мишень напоминает его самого. Стрела разделила голову большой куклы вуду надвое, и в этот миг с головой Эдвалла произошло то же самое. 
+
+ПАРАМЕТРЫ:
+
+THAC0:  +3 бонус
+Урон:  +2 бонус
+Вес:  2
+Фактор скорости:  5
+Умение:  Длинный лук
+Тип:  2-ручное
+Требования:  Сила 6
+Не могут использовать:
+  Друид
+  Клерик
+  Маг
+  Чародей
+  Вор
+  Монах
+  Кенсай
+  Рыцарь~
+
+//@7351 = change Bow Weapons to Short Bow
+@200003  = ~Короткий орлиный лук: "Защитник дриад"
+Чтобы защитить себя от орков-лесорубов, дриады леса Галтмер подарили этот великолепный лук герою Ханнаблю Белому. Смертельное противостояние началась, когда лесорубы осмелились покуситься на огромный дуб и чуть было не убили дриаду, связанную с этим деревом. С помощью могучих лесных зверей Ханнабль вырезал орков целыми отрядами так быстро, что они не успевали причинить лесу никакого вреда. Убоявшись гнева воина, на стороне которого был весь лес, нелюди оставили свои посягательства. Разумеется, герой, который помог благодарным дриадам, с тех пор жил счастливо... нет, ОЧЕНЬ счастливо!
+
+ПАРАМЕТРЫ:
+
+THAC0:  +2 бонус
+Урон:  +2 бонус
+Вес:  2
+Фактор скорости:  4
+Умение:  Короткий лук
+Тип:  2-ручное
+Требования: Сила 6
+Не могут использовать:
+  Друид
+  Клерик
+  Маг
+  Чародей
+  Монах
+  Кенсай
+  Рыцарь~
+
+//@20885 - change Small Sword to Dagger
+@200004 = ~Серебряный кинжал - Погибель оборотней 
+Этот кинжал +1 действует как оружие +4 против ликантропов. Его выковала Динала Златорукая, мечтавшая избавить свою родину от наводнивших ее оборотней-шакалов. Она была убита племенем орков в Серых вершинах, когда выслеживала вожака оборотней.
+
+ПАРАМЕТРЫ:
+
+THAC0:  +1 бонус, +4 против ликантропов
+Урон:  1D4 +1, +4 против ликантропов
+Тид урона:  колющий
+Вес:  1
+Фактор скорости:  2
+Умение:  Кинжал
+Тип:  1-ручное
+Не может использовать:
+  Клерик
+  Повелитель зверей~
+
+//@20882 - change Long Sword to Bastard Sword
+@200005 = ~Этот богато украшенный, но плохо сбалансированный меч нашли среди обломков разбитого корабля Балдурана. От сделанного из золота оружия мало толку в бою, но предания говорят, что лишь золотым клинком можно поразить таких ужасных созданий, как Луп Гару.
+
+ПАРАМЕТРЫ:
+
+THAC0:  +4 против ликантропов
+Урон:  2D4, +4 против ликантропов
+Тип урона:  рубящий
+Вес:  12
+Фактор скорости:  7
+Умение:  Полуторный меч
+Тип:  1-ручное
+Не могут использовать:
+  Друид
+  Клерик
+  Маг
+  Чародей
+  Вор
+  Монах
+  Повелитель зверей~
+
+
+//@23965 - change Large Sword to Two Handed Sword
+@200006 = ~Двуручный Меч +3: "Край Мира"
+Это - легендарное оружие впечатляющего размера, особенно среди далеко-северных племен варваров. Лучшие воины племен сражались этим клинком против бесчисленных врагов, и крови, пролитой им, хватило бы чтобы заполнить небольшое море. История умалчивает о том, как был создан клинок, и каждый новый владелец, похоже, связывает происхождение меча с мифом, в который он верит. Самый грандиозный из этих рассказов - история великого вождя, который приплыл к утесам, предположительно, являющимися краем мира. Там он достиг пустоты, и его воля сформировала клинок из ничего. Как бы там ни было на самом деле, в правых руках этот меч - внушающая страх сила.
+
+ПАРАМЕТРЫ:
+
+THAC0:  +3 бонус
+Урон:  1D10 + 3
+Тип урона:  рубящий
+Вес:  9
+Фактор скорости:  7
+Оружейный навык:  Двуручный меч
+Тип:  2-ручное
+Не могут использовать:
+  Друид
+  Клерик
+  Маг
+  Вор~
+
+////////////////////////////////////////////////////////////////////
+// Spells
+////////////////////////////////////////////////////////////////////
+@400000 = ~Получена особая способность: Малое истощение Ларлоха~
+@400001 = ~Получена особая способность: Ужас~
+@400002 = ~Получена особая способность: Прикосновение вампира~
+@400003 = ~Получена особая способность: Исцеление легких ран~
+@400004 = ~Получена особая способность: Замедлить яд~
+@400005 = ~Получена особая способность: Призыв святой мощи~
+
+////////////////////////////////////////////////////////////////////
+// Creatures and Stores
+////////////////////////////////////////////////////////////////////
+@500000 = ~Фермер~
+@500001 = ~Охотник~
+
+@500040 = ~Эй ты. Тссс... сюда.~ [BIMOEN16]
+
+@550000 = ~Храм Йондаллы~
+
+////////////////////////////////////////////////////////////////////
+// Areas
+////////////////////////////////////////////////////////////////////
+@600005 = ~Этот объект окружает огромное количество грязи, и вы слышите звуки, которые можно описать только как "издаваемые под водой". Возможно это хитроумное устройство, что-то вроде дамбы?~
+
+@600010 = ~Главные врата~
+@600011 = ~Библиотека Кэндлкипа~
+@600012 = ~Лазарет~
+@600013 = ~Подвалы~
+@600014 = ~Караван~
+@600015 = ~Поместье~
+@600016 = ~Дом~
+@600017 = ~Затопленный дом~
+@600018 = ~Вход в шахты~
+@600019 = ~Скульптура~
+@600020 = ~Заброшенный дом~
+@600021 = ~На следующий уровень вниз~
+@600022 = ~На следующий уровень вверх~
+@600023 = ~Деревня Галликин~
+@600024 = ~Вход в руины Огненного Вина~
+@600025 = ~Кораблекрушение~
+@600026 = ~Заброшенный маяк~
+@600027 = ~Яма~
+@600028 = ~Ферма~
+@600029 = ~Большая палатка~
+@600030 = ~Паучье гнездо~
+@600031 = ~Дом на дереве~
+@600032 = ~Речная пробка~
+@600033 = ~Шахтный лифт~
+@600034 = ~Заброшенная башня~
+@600035 = ~Вход в Башню Дурлага~
+@600036 = ~Выход из шахт~
+@600037 = ~Храм Баала~
+@600038 = ~Руины Улькастера~
+@600039 = ~Усадьба Оберона~
+
+////////////////////////////////////////////////////////////////////
+// 2DA Files
+////////////////////////////////////////////////////////////////////
+@700000 = ~Глава Первая/Пролог:~
+@700005 = ~Глава Вторая:~
+@700009 = ~Глава Третья:~
+@700011 = ~Глава Четвертая:~
+@700013 = ~Глава Пятая:~
+@700015 = ~Глава Шестая:~
+@700017 = ~Глава Седьмая:~
+@700019 = ~Глава Восьмая:~
+
+@700020 = ~"Кто сражается с чудовищами, тому следует остерегаться, чтобы самому при этом не стать чудовищем... И если ты долго смотришь в бездну, то бездна тоже смотрит в тебя..." - Фридрих Ницше~
+@700021 = ~Нет, не надо!~
+@700022 = ~Я буду последним, а ты - первым.~
+@700023 = ~Есть и другие. Я могу показать тебе. Ну, пожалуйста!~
+@700024 = ~Врата Балдура~
+
+//BGT Credits
+@700037 = ~Baldur's Gate Trilogy Credits~
+@700038 = ~Plot Variations
+-Bardez
+
+2DA Alterations
+-Bardez
+
+Area Conversion
+-Bardez
+
+Creatures
+-Bardez
+
+Dialog Importing
+-Bardez
+
+Item Conversion
+-Bardez
+
+Scripting
+-Bardez
+
+Music Conversion (Renaming)
+-Bardez
+
+Area Corruption Fixes
+-Bardez
+
+Idea
+-Bardez
+
+More Scripting
+-Bardez
+
+Originality
+-None
+
+Upload
+-Bardez
+-chris
+-Saitoh/Kangaxx
+-NotMrT
+-Daxiz's FTP
+
+Bug Reports
+-chaz58
+-D|Rek
+-icelus
+-gandalf
+-Captain Carrot
+-empath3
+
+People who really annoyed Bardez, pissing him off badly
+-<censored>
+-<censored>
+
+Number of Tools SPECIFICALLY made for this MOD
+-7 (Beat -that- DLTCEP!!)
+
+Number of Times Bardez Gave Up on This MOD
+-2 .... 3
+
+WeiDU Conversion
+-Ascension64
+-KingDiamond
+
+Re-development
+-Ascension64
+-KingDiamond
+
+Menu Screens
+-Waywocket
+-Yacomo
+
+
+
+And now for the fun Stuff
+
+QUOTES (a la Ultima)
+
+"I don't think level two characters need level six spells"
+-Bardez, upon first playtest
+
+"Fuck"
+-Bardez, on many occasions
+
+"I am so smart, I am so smart, I am so smart"
+-Bardez, upon fixing the Candlekeep flag problem
+
+"Finally Visual Basic becomes usefu -- no, wait."
+-Bardez, upon creation of TileEdit (first BGT tool)
+
+"I really wish that bears had a voice for the yogi stuff"
+-Bardez, upon seeing the unused soundset for bears
+
+"Some spells have changed since BG1.  Heh."
+-Bardez, upon quickload
+
+"I Fucking Hate Overlays"
+-Bardez, upon converting areas with overlays
+
+"Y'know, I'd really like to use those MVE's that were wasted in BG"
+-Bardez, noticing the two unused MVEs in Baldur's Gate
+
+"Bhaal-for-damned overlays"
+-Bardez, frustrated by overlays yet again
+
+"Just looking at the map makes me realize why the TeamBG community origionally opposed this"
+-Bardez, acknowledging his lack of artistic talent
+
+"What should I tackle next?"
+-Bardez, 
+
+"Y'know, modding is so much easier when you have no life."
+-Bardez, late at night (or early in the morning) on Friday on campus
+
+"I just wanna leave it all dumped in the override folder."
+-Bardez, until noticing that BGT was severely lagging (singleplayer) with all files in the override directory
+
+"If this is a trilogy shouldn't you include Dark Side of the Sword Coast?"
+-Some random forum user, making a suggestion
+
+"FUCK DSOTSC!!"
+-Bardez's reaction to the previous
+
+"Gnolls bother me."
+-Bardez, tired of hacking, whacking, and slashing Gnolls
+
+"So does Noober."
+-Bardez, upon reaching Nashkel
+
+"I really should fix that bug...."
+-Bardez, still ignoring a blatant problem
+
+"When the hell did you figure out that you were a Bhaalspawn, anyways?"
+-Bardez, incorporating Chapter 4
+
+"I didn't know Elminster spawned there!"
+-Bardez, looing at the Friendly Arm Inn script
+
+"With 150 gigabytes, I can retrace every step I took with this bitch!"
+-Bardez, having three installs of BG2/BGT
+
+"Excuse me, now it's "half a terabyte." My bad."
+-Bardez, upon building his new PC
+
+"I respect DSotSC, I even beat it once, am I summarily apologize for any offense I gave it."
+-Bardez, thinking over his previous comment, and its possilbe offense to the TeamBG community
+
+"I'm fuckin' tired."
+-Bardez, at 4:00 AM
+
+"I wish Jolt Cola was still around."
+-Bardez, at 5:00 AM
+
+"OMG! No Overlays!!"
+-Bardez, converting an area he just opend in IETME, after many, many overlay inclusive areas
+
+"I JUST WASTED A FUCKING HOUR ON THAT OVERLAY?!?!? AND IT'S FUCKED UP!!?!?!?!?! FFUUUUUUUCCCKK!!!!!!"
+-Bardez, victim of an IETME bug
+
+"So much damned clicking -- I feel like I'm playing Diablo II."
+-Bardez, converting one of the larger BG1 overlayed areas
+
+"I'm done... no wait.  I have to check both games.  Entirely. Fuck."
+-Bardez, upon importing all TBG files
+
+"All this work for nothin' I must wonder where my sanity goes at times..."
+-Bardez, realizing he spent way too much time on this MOD
+
+"I'm going to have nightmares about overlays."
+-Bardez, frustrated with the abundance of water overlays
+
+"FUCK TeamBG!! --- Just kidding."
+-Bardez, being random
+
+"I FORGOT ABOUT THE OVERRIDE FOLDER?? FUCK!"
+-Bardez, noticing that he did not import the BG1 files in the override directory
+
+"Almost there....."
+-Bardez, almost done with initial conversion
+
+"Make the bad thing go away."
+-Bardez, encountering a 'bad thing'
+
+"And then I manually went through every item, dialog, and script to alter them..."
+-Bardez, after replacing BG1 ResRefs with BGT ones
+
+"I'm a one-man modder with a keyboard and caffiene.  Watch out, now!"
+-Bardez, at 6:00 AM
+
+"Man, don't I feel shi**y to say that it's on hold due to classes.  I will start up work again (hopefully) in about three weeks..."
+-Bardez, second attempt at abandoning BGT
+ 
+"AAAAAHHHHHHHHHH!!!!!!!!!!!!!!!!!!"
+-hlidskialf, in response
+
+"When BG started to chew up 100 megabytes of memory, I decided it was time for WinBIFF."
+-Bardez, upon noticing that BGT was severely lagging (singlplayer) with all files in the override directory
+
+"I definitely want to see and/or know more about the tools you needed to make."
+-KenTeamBG, upon announcing BGT
+
+"The Umber Hulk is screaming like a human female.  That's probably a bad thing."
+-Bardez, noticing the off soundset of Umber Hulks
+
+"Well, now that I'm into the bug fixing stage, it should all be much easier now."
+-Bardez, making a very erroneous statement
+
+"Overlays. I FORGOT how to deal with them intentionally. Yet STILL they haunt me!"
+-Bardez, noticing some bad overlay conversions
+
+"IETME displays thing incorrectly. I MUST learn this FACT."
+-Bardez, frusterated with IETME
+
+"Hmmm. no tool can do that.  Time to make a new one. Be back in a few days."
+-Bardez, creating WEDitor
+
+"There's Chat!"
+-Bardez, noticing some actually used his Chatroom to 'chat'
+
+"I am your father's brother's nephew's cousin's former roommate."
+-Bardez, quoting Spaceballs
+
+"I will just delete the thing and be done with it too."
+-<censored>, upset that I would not fix things for him, bluffing his deletion of BGT
+
+"Size will kill this project faster than anything, in terms of distribution."
+-KenTeamBG, showing much wisdom (even though Bardez still rox0rz)
+
+"BGT!"
+-Many people, looking to download the Baldur's Gate Trilogy
+
+"That is one change that SUCKS period!"
+-<censored>, upset with one of Bardez's changes to Baldur's Gate
+
+"It is an idiot change."
+-See above
+
+"Your opinion. and it doesn't affect me."
+-Bardez, in reply
+
+"Sure it does, you are the idiot who made it."
+-<censored>, in reply
+
+"Maybe you shouldn't have deleted the install files until after you made sure your install was succesful :P"
+-chris, criticising a player after they chose to delete the MOD after they (unsuccessfully) installed the MOD
+
+"U get some real retards in here lol"
+-chris, after seeing numerous stupid people enter #BGT asking numerous stupid questions
+
+"I found out last night that Christina Aguilera wanted to do me."
+"Then my fucking alarm went off."
+-chris, in #BGT chat
+
+"Bardez, u here?"
+-Far, far too many people
+
+"How do I...?"
+-Again, far, far too many people
+
+"HOW THE FUCK DO I GET ON A QUOTES PAGE BUGGERY?"
+-NotMrT, wanting to get a quote in the Quotes section
+
+"Would anyone else have the desire to play this MOD/port??"
+-Bardez, announcing BGT
+
+"Hey chris, what happens if I forget to install VB6 before I run the BGT installation?"
+-Jens, having trouble with installation
+
+"PC blows up and you get a wierd rash around your anal cavity?"
+-chris, trying to respond
+
+
+
+
+Baldur's Gate Trilogy was brought to you by Bardez, as a distraction from his "Oh I got dumped, oh boo-the-fuck-hoo" whining.
+
+Summarily, special thanks go to Joanna Lynn Nelson for dumping Bardez
+
+Other Special Thanks (not related to relationships or dumping)
+-Bardez
+-KenTeamBG
+-hlidskialf
+-Horred
+-TheoTeamBG
+-Jon Olav Hauglid
+-Gandalf
+-BioWare
+-HardenCoonor for the Worldmap (You rock, dude!)
+-Richard Garriot AKA Lord British. You brought me into RPGs.~
+
+////////////////////////////////////////////////////////////////////
+//dialog.tlk -- most provided by bg1.tra
+////////////////////////////////////////////////////////////////////
+
+/*#15890 - change "dwarf from Mithral Hall" to "half-orc"*/
+@900000 = ~Вы мало знаете о том, как попали под опеку Горайона, но с течением лет вам удалось собрать кое-какую информацию о своей матери из его неясных упоминаний и слов, которые он иногда произносил, рыдая во сне. Она была дварфом из Мифрильных Залов и его другом в течение многих лет. Поскольку вы ее совсем не помните и у вас не сохранилось никаких вещей, которые напоминали бы о ней, вы уверились, что она умерла при родах. Возможно, эта смерть принесла Горайону такую боль, что он уединился в тесных залах Кэндлкипа и вырастил вас как собственного ребенка. О своем отце вам ничего не удалось узнать.~
+
+/*NOBW8.DLG - #8435; change last sentence to, 'I shall be here promptly every two days.'*/
+@900001 = ~Что?! Да вы не лучше, чем... Полагаю, я должна была заметить это по вашим глазам, когда мы впервые встретились. Похоже, меньшему злу я предпочла большее. Ну что же, вряд ли мне удастся остановить вас. Я буду здесь каждые десять дней.~
+
+/*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
+@900002 = ~Хорошо. Я Делтир, я представляю тех, кто играет на арфе. Я разыскиваю вас уже много недель. Недавно я узнал, что вы некоторое время назад покинули город. С тех пор как вы ушли, многое изменилось, но я могу рассказать обо всем, что вам нужно знать. Вы меня выслушаете?~
+
+@900037 = ~Предисловие к Вратам Балдура~
+@900038 = ~Предисловие к Теням Амна~
+@900039 = ~Новая Игра BG2~
+@900040 = ~Нажмите кнопку Новая Игра BG2 чтобы пропустить Врата Балдура I и начать игру во Врата Балдура II: Тени Амна.
+
+Если хотите играть во Врата Балдура I, нажмите Отмена, затем кнопку Новая Игра.~
+
+@900042 = ~Врата Балдура~
+
+//Shadows of Amn description button text
+@900043 = ~"Tortured Souls"~
+@900044 = ~"The Darkest Day"~
+@900045 = ~"Shadows Over Soubar"~
+@900046 = ~"Neverending Journey"~
+@900047 = ~"Region of Terror"~
+@900048 = ~"Big Picture"~
+@900049 = ~"Check The Bodies"~
+@900050 = ~Играть в~
+@900051 = ~Тени Амна <TM>~
+@900052 = ~ Врата Балдура <TM> и Сказания Побережья Меча <TM> или играть в ~
+@900053 = ~ с новыми дополнениями:~
+//End Shadows of Amn description button text
+
+////////////////////////////////////////////////////////////////////
+//EndOfFile
+////////////////////////////////////////////////////////////////////

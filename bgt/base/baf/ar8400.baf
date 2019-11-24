@@ -1,0 +1,20 @@
+IF
+  Global("BGTNPC8400","GLOBAL",0)
+  LevelLT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8400","GLOBAL",1)
+    CreateCreature("FALDOR",[646.2882],13)  // ~Faldorn~
+    CreateCreature("ELDOTH",[3181.3493],6)  // ~Eldoth~
+END
+
+IF
+  Global("BGTNPC8400","GLOBAL",0)
+  LevelGT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8400","GLOBAL",1)
+    CreateCreature("FALDOR5",[646.2882],13)  // ~Faldorn~
+    CreateCreature("ELDOTH5",[3181.3493],6)  // ~Eldoth~
+END
+

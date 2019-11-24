@@ -1,0 +1,18 @@
+IF
+  Dead("Tranzig")
+  Global("RevealBandits","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("RevealBandits","GLOBAL",1)
+    RevealAreaOnMap("AR8700")
+END
+
+IF
+  Global("TranzigSpawn","GLOBAL",0)
+  Global("Chapter","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("TranzigSpawn","GLOBAL",1)
+    CreateCreature("TRANZI",[200.580],0)
+END
+

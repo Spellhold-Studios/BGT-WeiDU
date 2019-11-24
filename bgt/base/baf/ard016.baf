@@ -1,0 +1,80 @@
+IF
+  Dead("DeathK")
+THEN
+  RESPONSE #100
+    SetGlobal("DurlagFinish","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Global("mirrordone","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("DeathK",ChangeAIScript("KillGood",OVERRIDE))
+    ActionOverride("DeathK",ForceSpellPoint([542.508],WIZARD_DIMENSION_DOOR))
+    ActionOverride("DeathK",JumpToPoint([542.508]))
+    CreateCreature("GOODDEAT",[692.637],0)  // ~Mirror Fiend~
+    Continue()
+END
+
+IF
+  Global("mirrordone","GLOBAL",1)
+  Exists(Player1)
+THEN
+  RESPONSE #100
+    CreateCreature("DUPLICA1",[389.613],0)  // ~Mirror Fiend~
+    Continue()
+END
+
+IF
+  Global("mirrordone","GLOBAL",1)
+  Exists(Player2)
+THEN
+  RESPONSE #100
+    CreateCreature("DUPLICA2",[489.391],0)  // ~Mirror Fiend~
+    Continue()
+END
+
+IF
+  Global("mirrordone","GLOBAL",1)
+  Exists(Player3)
+THEN
+  RESPONSE #100
+    CreateCreature("DUPLICA3",[853.453],0)  // ~Mirror Fiend~
+    Continue()
+END
+
+IF
+  Global("mirrordone","GLOBAL",1)
+  Exists(Player4)
+THEN
+  RESPONSE #100
+    CreateCreature("DUPLICA4",[789.689],0)  // ~Mirror Fiend~
+    Continue()
+END
+
+IF
+  Global("mirrordone","GLOBAL",1)
+  Exists(Player5)
+THEN
+  RESPONSE #100
+    CreateCreature("DUPLICA5",[437.546],0)  // ~Mirror Fiend~
+    Continue()
+END
+
+IF
+  Global("mirrordone","GLOBAL",1)
+  Exists(Player6)
+THEN
+  RESPONSE #100
+    CreateCreature("DUPLICA6",[619.690],0)  // ~Mirror Fiend~
+    Continue()
+END
+
+IF
+  GlobalLT("mirrordone","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("mirrordone","GLOBAL",2)
+END
+

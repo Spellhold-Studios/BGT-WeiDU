@@ -1,0 +1,29 @@
+IF
+	Clicked([ANYONE])
+	PartyHasItem("MISC2L")
+	Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		TriggerActivation("deathtrap1",FALSE)
+		TriggerActivation("deathtrap2",FALSE)
+		TriggerActivation("deathtrap3",FALSE)
+                TakePartyItem("MISC2L")
+		DisplayString(Myself,23496)
+END
+
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("MISC2L")
+	Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,23495)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,23565)
+END

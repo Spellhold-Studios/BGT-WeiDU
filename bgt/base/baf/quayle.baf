@@ -1,0 +1,143 @@
+IF
+        OR(2)
+        	Dead("Tiax")
+        	!See("Tiax")
+	Global("Tiaxfight","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("QuayleIsBack","GLOBAL",1)
+		SetGlobal("Tiaxfight","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+		JoinParty()
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",0)
+        Global("TiaxIsBack","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("TiaxIsBack","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+	HPPercentLT(Myself,50)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(CLERIC_HOLD_PERSON)
+	!StateCheck("Tiax",STATE_SLEEPING)
+	!StateCheck("Tiax",STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell("Tiax",CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(CLERIC_COMMAND)
+	!StateCheck("Tiax",STATE_SLEEPING)
+	!StateCheck("Tiax",STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell("Tiax",CLERIC_COMMAND)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(CLERIC_MAGIC_STONE)
+THEN
+	RESPONSE #100
+		Spell("Tiax",CLERIC_MAGIC_STONE)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(CLERIC_CALL_LIGHTNING)
+THEN
+	RESPONSE #100
+		Spell("Tiax",CLERIC_CALL_LIGHTNING)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(WIZARD_MIRROR_IMAGE)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(WIZARD_ARMOR)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_ARMOR)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+	RESPONSE #100
+		Spell("Tiax",WIZARD_MAGIC_MISSILE)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(WIZARD_LARLOCH_MINOR_DRAIN)
+THEN
+	RESPONSE #100
+		Spell("Tiax",WIZARD_LARLOCH_MINOR_DRAIN)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(WIZARD_LIGHTNING_BOLT)
+THEN
+	RESPONSE #100
+		Spell("Tiax",WIZARD_LIGHTNING_BOLT)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(WIZARD_MELF_ACID_ARROW)
+THEN
+	RESPONSE #100
+		Spell("Tiax",WIZARD_MELF_ACID_ARROW)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+	HaveSpell(WIZARD_FLAME_ARROW)
+THEN
+	RESPONSE #100
+		Spell("Tiax",WIZARD_FLAME_ARROW)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Tiax")
+THEN
+	RESPONSE #100
+		AttackReevaluate("Tiax",15)
+END
+
+

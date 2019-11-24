@@ -1,0 +1,86 @@
+IF
+  Global("TanariXP","GLOBAL",1)
+  Dead("DeathK")
+  Dead("loupgar")
+  CombatCounter(0)
+  Global("FinishedExpansion","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("FinishedExpansion","GLOBAL",1)
+    TextScreen("toscend")
+END
+
+IF
+    GlobalTimerExpired("EndGame","GLOBAL")
+THEN
+    RESPONSE #100
+	Kill(Player1)
+END
+
+IF
+    GlobalTimerExpired("PoisonParty","GLOBAL")
+    GlobalLT("PoisonWarning","GLOBAL",9)
+    Global("PartyCured","GLOBAL",0)
+THEN
+    RESPONSE #100
+	SetGlobalTimer("PoisonParty","GLOBAL",ONE_DAY)
+	IncrementGlobal("PoisonWarning","GLOBAL",1)
+	DisplayString(Myself,11833)
+END
+
+IF
+    GlobalTimerExpired("PoisonParty2","GLOBAL")
+    Global("PartyCured","GLOBAL",0)
+THEN
+    RESPONSE #100
+	Kill(Player6)
+	Kill(Player5)
+	Kill(Player4)
+	Kill(Player3)
+	Kill(Player2)
+	Kill(Player1)
+END
+
+IF
+    CheckStat(Myself,0,DEX)
+    See("Kiel")
+THEN
+    RESPONSE #100
+    	ActionOverride("Kiel",DestroySelf())
+	LeaveParty()
+	SetDialog("KielPC")
+	SetGlobal("KielPC","GLOBAL",1)
+	ChangeAIScript("",DEFAULT)
+END
+
+IF
+    Global("A6PlayerWerewolfChange","GLOBAL",0)
+    Global("Infected","GLOBAL",1)
+    GlobalTimerExpired("PlayerInfected","GLOBAL")
+    !Dead("Mendas3")
+    Exists(Player2)
+THEN
+    RESPONSE #100
+        SetGlobal("A6PlayerWerewolfChange","GLOBAL",1)
+        ActionOverride(Player2,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player3,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player4,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player5,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player6,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+END
+
+IF
+    Global("A6PlayerWerewolfChange","GLOBAL",0)
+    Global("Infected","GLOBAL",1)
+    GlobalTimerExpired("PlayerInfected2","GLOBAL")
+    GlobalLT("IslandTravel","GLOBAL",2)
+    Exists(Player2)
+THEN
+    RESPONSE #100
+        SetGlobal("A6PlayerWerewolfChange","GLOBAL",1)
+        ActionOverride(Player2,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player3,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player4,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player5,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player6,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+END

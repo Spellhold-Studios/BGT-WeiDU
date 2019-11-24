@@ -1,0 +1,7 @@
+IF
+  Global("CheckedSevenSuns","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CheckedSevenSuns","GLOBAL",2)
+END
+

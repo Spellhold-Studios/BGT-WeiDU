@@ -1,0 +1,16 @@
+BEGIN ~flam8~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @7524
+  IF ~~ THEN EXIT
+END
+
+IF ~StateCheck(Myself,STATE_CHARMED)~ THEN BEGIN 1
+  SAY @7525
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9013
+  IF ~~ THEN EXIT
+END

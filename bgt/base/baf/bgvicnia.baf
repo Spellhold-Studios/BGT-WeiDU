@@ -1,0 +1,125 @@
+IF
+  InParty(Myself)
+  Global("A6ViconiaWasInParty","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("A6ViconiaWasInParty","GLOBAL",1)
+END
+
+IF
+  See("FlamingFist2")
+  !Dead("FlamingFist2")
+  Allegiance("FlamingFist2",ENEMY)
+  HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+  HPPercentLT(Myself,50)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+
+
+IF
+  See("FlamingFist2")
+  !Dead("FlamingFist2")
+  Allegiance("FlamingFist2",ENEMY)
+  HaveSpell(CLERIC_COMMAND)
+  !StateCheck("FlamingFist2",STATE_SLEEPING)
+  !StateCheck("FlamingFist2",STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell("FlamingFist2",CLERIC_COMMAND)
+END
+
+IF
+  See("FlamingFist2")
+  !Dead("FlamingFist2")
+  Allegiance("FlamingFist2",ENEMY)
+THEN
+  RESPONSE #100
+    Attack("FlamingFist2")
+END
+
+IF
+  Global("Kivanfight","GLOBAL",1)
+THEN
+  RESPONSE #100
+    DialogueInterrupt(FALSE)
+    ActionOverride("Kivan",DialogueInterrupt(FALSE))
+    ActionOverride("Kivan",LeaveParty())
+    LeaveParty()
+    SetGlobal("Kivanfight","GLOBAL",2)
+END
+
+IF
+  Dead("Kivan")
+  Global("Kivanfight","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("Kivanfight","GLOBAL",0)
+    DialogueInterrupt(TRUE)
+    JoinParty()	
+END
+
+IF
+  Global("Kivanfight","GLOBAL",2)
+  HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+  HPPercentLT(Myself,50)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+    Continue()
+END
+
+IF
+  Global("Kivanfight","GLOBAL",2)
+  See("Kivan")
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !StateCheck("Kivan",STATE_SLEEPING)
+  !StateCheck("Kivan",STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell("Kivan",CLERIC_HOLD_PERSON)
+    Continue()
+END
+
+IF
+  Global("Kivanfight","GLOBAL",2)
+  See("Kivan")
+  HaveSpell(CLERIC_COMMAND)
+  !StateCheck("Kivan",STATE_SLEEPING)
+  !StateCheck("Kivan",STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell("Kivan",CLERIC_COMMAND)
+    Continue()
+END
+
+IF
+  Global("Kivanfight","GLOBAL",2)
+  See("Kivan")
+  HaveSpell(CLERIC_MAGIC_STONE)
+THEN
+  RESPONSE #100
+    Spell("Kivan",CLERIC_MAGIC_STONE)
+    Continue()
+END
+
+IF
+  Global("Kivanfight","GLOBAL",2)
+  See("Kivan")
+  HaveSpell(CLERIC_CALL_LIGHTNING)
+THEN
+  RESPONSE #100
+    Spell("Kivan",CLERIC_CALL_LIGHTNING)
+    Continue()
+END
+
+IF
+  Global("Kivanfight","GLOBAL",2)
+  See("Kivan")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Kivan",15)
+END
+

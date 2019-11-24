@@ -1,0 +1,6 @@
+IF
+  Detect([PC])
+THEN
+  RESPONSE #100
+    StartDialogueNoSet(LastSeenBy(Myself))
+END

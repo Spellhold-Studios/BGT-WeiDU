@@ -1,0 +1,8 @@
+IF
+  Global("BOYBODY","GLOBAL",1)
+  Global("DestroyBoy","LOCALS",0)
+THEN
+  RESPONSE #100
+    DestroyItem("MISC54")
+    SetGlobal("DestroyBoy","LOCALS",1)
+END

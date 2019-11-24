@@ -1,0 +1,9 @@
+2DA V1.0
+DRMTXT-6
+                        0               1
+SWITCH                  DEFAULT         REPUTATION
+DEFAULT                 -1              -1
+GOOD_REPUTATION         -1              19276
+BAD_REPUTATION          -1              19278
+GOOD_POWER              SPIN103         NONE
+BAD_POWER               SPIN106         NONE

@@ -1,0 +1,517 @@
+////////////////////////////////////////////////////////////////////
+//Items
+////////////////////////////////////////////////////////////////////
+@200000 = ~Statua di Ithmeera~
+
+//@23967 - change Blunt Weapons to Mace
+@200001 = ~Mazza +2: 'Frantumateschi di Krotan'
+
+Anche la plebe ha i suoi eroi e questi ultimi, seppure derisi e sminuiti dai più civili, sono spesso autori di gesta ammirevoli. Krotan era un orco eccezionalmente intelligente - almeno rispetto alla media - e comandava una legione di orchi, hobgoblin e altre bestie assortite in continuo mutamento. Ciò avveniva nell'Anno della Perduta Signora, il 1241 CV, proprio quando una banda di orchi fuorilegge rapì e uccise una nobildonna di Tethyr. Le autorità locali si vendicarono ordinando un orrendo genocidio e gli orchi furono sterminati in tutto il sud. Krotan organizzò la resistenza e riuscì ad evitare che il suo popolo fosse sterminato completamente, ma molti dovettero rifugiarsi in terre lontane. Krotan morì invece quando il conflitto era ormai alla fine e la sua testa fu appesa come trofeo sulla lapide della giovane nobildonna uccisa. E interessante notare come gli orchi ricordano quello stesso anno come "L'Anno delle Esagerazioni".
+
+STATISTICHE:
+
+Danno: 1D6 + 3
+THACO: Bonus di +2
+Tipo di danno: Schiacciamento
+Peso: 7
+Fattore-velocità: 5
+Tipo di capacità: Mazza
+Tipo: A una mano
+Non utilizzabile da:
+ Druido
+ Mago
+ Ladro~
+
+//@7350 - change Bow Weapons to Long Bow
+@200002 = ~Arco lungo di precisione: 'Il Tiro del Morto'
+
+Dopo anni di antagonismo, i Duchi di Spandeliyon e Delthuntle decisero di organizzare un torneo privato per decidere chi tra loro due era il miglior arciere. Entrambi si vantavano dei poteri dei loro archi magici, ma per Edwall Dest, Duca di Spandeliyon, serviva qualcos'altro. Organizzò il furto dell'arco del suo avversario cosicché il giorno del torneo non avrebbe dovuto fare altro che godersi la vittoria. Il Duca di Delthuntle, conosciuto semplicemente come Raymond, chiese a Edwall di dimostrargli la propria abilità su un manichino che aveva preparato. Edwall Dest tirò l'arco e lanciò la freccia con sicurezza, senza notare che il bersaglio gli somigliava moltissimo. La freccia spaccò la testa del manichino in due e in quell'istante anche la testa di Edwall fece la stessa fine.
+
+STATISTICHE:
+
+THACO: Bonus di +3
+Danno: +2
+Peso: 2
+Fattore-velocità: 5
+Tipo di capacità: Arco lungo
+Tipo: A due mani
+Non utilizzabile da:
+Druido
+Chierico
+Mago
+Ladro~
+
+//@7351 = change Bow Weapons to Short Bow
+@200003  = ~Arco corto, Arco ad aquila: 'Protettore delle Driadi'
+
+Per proteggere la comunità da un accampamento di orchetti tagliaboschi in attacco, l'eroe Hannable il Bianco ricevette questo meraviglioso arco dalle driadi della Foresta Gulthmere. Un confronto mortale seguì al tentativo dei tagliaboschi di abbattere la grande quercia rischiando di uccidere la driade che vi risiedeva. Con l'aiuto dei forti animali della foresta, Hannable ammazzò intere bande di orchetti prima che il bosco subisse ulteriori danni. Gli orchetti dovettero abbandonare i loro piani per paura della rabbia di Hannable e della foresta. Ovviamente, l'eroe che aiutò le driadi visse per sempre felice... anzi MOLTO felice e contento.
+
+STATISTICHE:
+
+THACO: Bonus di +2
+Danno: +2
+Peso: 2
+Fattore-velocità: 4
+Tipo di capacità: Arco corto
+Tipo: A due mani
+Non utilizzabile da:
+Druido
+Chierico
+Mago~
+
+//@20885 - change Small Sword to Dagger
+@200004 = ~Pugnale d'argento: 'Werebane' 
+
+Quest'arma +1 può essere utilizzata come pugnale +4 contro i licantropi. E stata forgiata da Dynala Mano D'Oro, una ranger elfa che voleva liberare la sua patria dai possibili sciacalli. Venne uccisa da una tribù di orchi sulle Montagne Picchigrigi, mentre era sulle tracce del capo degli sciacalli.
+
+STATISTICHE:
+
+Danno: 1D4 +1 (+4 contro i licantropi)
+THACO: Bonus di +1 (+4 contro i licantropi)
+Tipo di danno: Perforazione 
+Peso: 1
+Fattore-velocità: 2 
+Tipo di capacità: Pugnale 
+Tipo: A una mano 
+Non utilizzabile da:
+Chierico~
+
+//@20882 - change Long Sword to Bastard Sword
+@200005 = ~Quest'arma, ben decorata ma poco equilibrata, è stata rinvenuta all'interno del relitto di Balduran. Le armi d'oro non sono particolarmente utili in battaglia, ma secondo alcune leggende sono le uniche che possono nuocere a creature infami come l'uomo lupo. 
+
+STATISTICHE:
+
+Danno: 2D4  (+4 contro i licantropi)
+THACO: Bonus di +4 contro i licantropi
+Tipo di danno: Taglio
+Peso: 12
+Fattore-velocità: 7
+Tipo di capacità: Spada bastarda
+Tipo: A una mano
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro~
+
+//@23965 - da Spada lunga a Spada a due mani
+@200006 = ~Spada a due mani +3 : "Confine del Mondo"
+Quest'arma è diventata una leggenda, specialmente tra le tribù di barbari dell'estremo nord. La sua lama, maneggiata da valorosi, ha trafitto innumerevoli nemici e ha versato tanto sangue da poterci riempire il mare. Da un lato la storia ne nega perfino l'esistenza, dall'altro si sa che nel tempo i diversi proprietari della spada hanno raccontato leggende diverse circa le origini dell'arma. La storia più spettacolare è quella di un grande comandante che viaggiò in mare fino a raggiungere i confini del mondo e, una volta arrivato, precipitò nel vuoto. Pare che con la sola volontà avesse dato forma alla spada, creandola dal nulla. Qualunque sia la verità, nelle mani giuste questa spada può essere micidiale.
+
+STATISTICHE:
+
+Danno: 1D10 +3
+THACO: bonus +3
+Tipo di danno: Taglio
+Peso: 9
+Fattore-velocità: 7
+Tipo di capacità: Spada a due mani
+Tipo: A due mani
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago
+ Ladro~
+
+////////////////////////////////////////////////////////////////////
+// Spells
+////////////////////////////////////////////////////////////////////
+@400000 = ~Abilità Speciale Acquisita: Risucchio Minore di Larloch~
+@400001 = ~Abilità Speciale Acquisita: Orrore~
+@400002 = ~Abilità Speciale Acquisita: Tocco del Vampiro~
+@400003 = ~Abilità Speciale Acquisita: Cura ferite leggere~
+@400004 = ~Abilità Speciale Acquisita: Rallenta Veleno~
+@400005 = ~Abilità Speciale Acquisita: Rivolgersi alla Santa Potenza~
+
+////////////////////////////////////////////////////////////////////
+// Creatures
+////////////////////////////////////////////////////////////////////
+@500000 = ~Contadino~
+@500001 = ~Cacciatore~
+
+@500040 = ~Tu, laggiù. Psst... da questa parte.~ [BIMOEN16]
+
+@550000 = ~Tempio di Yondalla~
+
+////////////////////////////////////////////////////////////////////
+// Areas -- some provided by bg1.tra
+////////////////////////////////////////////////////////////////////
+@600005 = ~C'è una grande quantità di melma che circonda questo oggetto, e senti dei suoni che puoi solo descrivere simili a quelli che si avvertono quando qualcosa si sommerge sott'acqua.  Forse questo congegno è una sorta di diga?~
+
+@600010 = ~Cancello frontale~
+@600011 = ~Biblioteca di Candlekeep~
+@600012 = ~Infermeria~
+@600013 = ~Cantine~
+@600014 = ~Carovana~
+@600015 = ~Tenuta~
+@600016 = ~Casa~
+@600017 = ~Casa sommersa~
+@600018 = ~Entrata della Miniera~
+@600019 = ~Scultura~
+@600020 = ~Casa abbandonata~
+@600021 = ~Discesa al Livello Successivo~
+@600022 = ~Salita al Livello Successivo~
+@600023 = ~Villaggio Gullykin~
+@600024 = ~Entrata alle Rovine di Firewine~
+@600025 = ~Relitto~
+@600026 = ~Faro abbandonato~
+@600027 = ~Fossa~
+@600028 = ~Fattoria~
+@600029 = ~Tenda grande~
+@600030 = ~Nido di ragni~
+@600031 = ~Capanna sull'albero~
+@600032 = ~Tappo del fiume~
+@600033 = ~Ascensore della Miniera~
+@600034 = ~Torre abbandonata~
+@600035 = ~Entrata alla Torre di Durlag~
+@600036 = ~Uscita dalla Miniera~
+@600037 = ~Tempio di Bhaal~
+@600038 = ~Rovine di Ulcaster~
+@600039 = ~Tenuta Oberon~
+
+////////////////////////////////////////////////////////////////////
+// 2DA Files
+////////////////////////////////////////////////////////////////////
+@700000 = ~Capitolo Uno/Prologo:~
+@700005 = ~Capitolo Due:~
+@700009 = ~Capitolo Tre:~
+@700011 = ~Capitolo Quattro:~
+@700013 = ~Capitolo Cinque:~
+@700015 = ~Capitolo Sei:~
+@700017 = ~Capitolo Sette:~
+@700019 = ~Capitolo Otto:~
+
+@700020 = ~"Chi combatte i mostri deve ben guardarsi dal diventare lui stesso un mostro...Quando scruti a lungo dentro l'abisso, anche l'abisso scruta dentro di te..." -Friedrich Nietzsche~
+@700021 = ~No. No, non puoi...~
+@700022 = ~Sarò l'ultimo! E tu andrai per primo.~
+@700023 = ~Ce ne sono altri. Te lo posso dimostrare. Ti prego!~
+@700024 = ~Baldur's Gate~
+
+//BGT Credits
+@700037 = ~Baldur's Gate Trilogy Credits~
+@700038 = ~Plot Variations
+-Bardez
+
+2DA Alterations
+-Bardez
+
+Area Conversion
+-Bardez
+
+Creatures
+-Bardez
+
+Dialog Importing
+-Bardez
+
+Item Conversion
+-Bardez
+
+Scripting
+-Bardez
+
+Music Conversion (Renaming)
+-Bardez
+
+Area Corruption Fixes
+-Bardez
+
+Idea
+-Bardez
+
+More Scripting
+-Bardez
+
+Originality
+-None
+
+Upload
+-Bardez
+-chris
+-Saitoh/Kangaxx
+-NotMrT
+-Daxiz's FTP
+
+Bug Reports
+-chaz58
+-D|Rek
+-icelus
+-gandalf
+-Captain Carrot
+-empath3
+
+People who really annoyed Bardez, pissing him off badly
+-<censored>
+-<censored>
+
+Number of Tools SPECIFICALLY made for this MOD
+-7 (Beat -that- DLTCEP!!)
+
+Number of Times Bardez Gave Up on This MOD
+-2 .... 3
+
+WeiDU Conversion
+-Ascension64
+-KingDiamond
+
+Re-development
+-Ascension64
+-KingDiamond
+
+Menu Screens
+-Waywocket
+-Yacomo
+
+
+
+And now for the fun Stuff
+
+QUOTES (a la Ultima)
+
+"I don't think level two characters need level six spells"
+-Bardez, upon first playtest
+
+"Fuck"
+-Bardez, on many occasions
+
+"I am so smart, I am so smart, I am so smart"
+-Bardez, upon fixing the Candlekeep flag problem
+
+"Finally Visual Basic becomes usefu -- no, wait."
+-Bardez, upon creation of TileEdit (first BGT tool)
+
+"I really wish that bears had a voice for the yogi stuff"
+-Bardez, upon seeing the unused soundset for bears
+
+"Some spells have changed since BG1.  Heh."
+-Bardez, upon quickload
+
+"I Fucking Hate Overlays"
+-Bardez, upon converting areas with overlays
+
+"Y'know, I'd really like to use those MVE's that were wasted in BG"
+-Bardez, noticing the two unused MVEs in Baldur's Gate
+
+"Bhaal-for-damned overlays"
+-Bardez, frustrated by overlays yet again
+
+"Just looking at the map makes me realize why the TeamBG community origionally opposed this"
+-Bardez, acknowledging his lack of artistic talent
+
+"What should I tackle next?"
+-Bardez, 
+
+"Y'know, modding is so much easier when you have no life."
+-Bardez, late at night (or early in the morning) on Friday on campus
+
+"I just wanna leave it all dumped in the override folder."
+-Bardez, until noticing that BGT was severely lagging (singleplayer) with all files in the override directory
+
+"If this is a trilogy shouldn't you include Dark Side of the Sword Coast?"
+-Some random forum user, making a suggestion
+
+"FUCK DSOTSC!!"
+-Bardez's reaction to the previous
+
+"Gnolls bother me."
+-Bardez, tired of hacking, whacking, and slashing Gnolls
+
+"So does Noober."
+-Bardez, upon reaching Nashkel
+
+"I really should fix that bug...."
+-Bardez, still ignoring a blatant problem
+
+"When the hell did you figure out that you were a Bhaalspawn, anyways?"
+-Bardez, incorporating Chapter 4
+
+"I didn't know Elminster spawned there!"
+-Bardez, looing at the Friendly Arm Inn script
+
+"With 150 gigabytes, I can retrace every step I took with this bitch!"
+-Bardez, having three installs of BG2/BGT
+
+"Excuse me, now it's "half a terabyte." My bad."
+-Bardez, upon building his new PC
+
+"I respect DSotSC, I even beat it once, am I summarily apologize for any offense I gave it."
+-Bardez, thinking over his previous comment, and its possilbe offense to the TeamBG community
+
+"I'm fuckin' tired."
+-Bardez, at 4:00 AM
+
+"I wish Jolt Cola was still around."
+-Bardez, at 5:00 AM
+
+"OMG! No Overlays!!"
+-Bardez, converting an area he just opend in IETME, after many, many overlay inclusive areas
+
+"I JUST WASTED A FUCKING HOUR ON THAT OVERLAY?!?!? AND IT'S FUCKED UP!!?!?!?!?! FFUUUUUUUCCCKK!!!!!!"
+-Bardez, victim of an IETME bug
+
+"So much damned clicking -- I feel like I'm playing Diablo II."
+-Bardez, converting one of the larger BG1 overlayed areas
+
+"I'm done... no wait.  I have to check both games.  Entirely. Fuck."
+-Bardez, upon importing all TBG files
+
+"All this work for nothin' I must wonder where my sanity goes at times..."
+-Bardez, realizing he spent way too much time on this MOD
+
+"I'm going to have nightmares about overlays."
+-Bardez, frustrated with the abundance of water overlays
+
+"FUCK TeamBG!! --- Just kidding."
+-Bardez, being random
+
+"I FORGOT ABOUT THE OVERRIDE FOLDER?? FUCK!"
+-Bardez, noticing that he did not import the BG1 files in the override directory
+
+"Almost there....."
+-Bardez, almost done with initial conversion
+
+"Make the bad thing go away."
+-Bardez, encountering a 'bad thing'
+
+"And then I manually went through every item, dialog, and script to alter them..."
+-Bardez, after replacing BG1 ResRefs with BGT ones
+
+"I'm a one-man modder with a keyboard and caffiene.  Watch out, now!"
+-Bardez, at 6:00 AM
+
+"Man, don't I feel shi**y to say that it's on hold due to classes.  I will start up work again (hopefully) in about three weeks..."
+-Bardez, second attempt at abandoning BGT
+ 
+"AAAAAHHHHHHHHHH!!!!!!!!!!!!!!!!!!"
+-hlidskialf, in response
+
+"When BG started to chew up 100 megabytes of memory, I decided it was time for WinBIFF."
+-Bardez, upon noticing that BGT was severely lagging (singlplayer) with all files in the override directory
+
+"I definitely want to see and/or know more about the tools you needed to make."
+-KenTeamBG, upon announcing BGT
+
+"The Umber Hulk is screaming like a human female.  That's probably a bad thing."
+-Bardez, noticing the off soundset of Umber Hulks
+
+"Well, now that I'm into the bug fixing stage, it should all be much easier now."
+-Bardez, making a very erroneous statement
+
+"Overlays. I FORGOT how to deal with them intentionally. Yet STILL they haunt me!"
+-Bardez, noticing some bad overlay conversions
+
+"IETME displays thing incorrectly. I MUST learn this FACT."
+-Bardez, frusterated with IETME
+
+"Hmmm. no tool can do that.  Time to make a new one. Be back in a few days."
+-Bardez, creating WEDitor
+
+"There's Chat!"
+-Bardez, noticing some actually used his Chatroom to 'chat'
+
+"I am your father's brother's nephew's cousin's former roommate."
+-Bardez, quoting Spaceballs
+
+"I will just delete the thing and be done with it too."
+-<censored>, upset that I would not fix things for him, bluffing his deletion of BGT
+
+"Size will kill this project faster than anything, in terms of distribution."
+-KenTeamBG, showing much wisdom (even though Bardez still rox0rz)
+
+"BGT!"
+-Many people, looking to download the Baldur's Gate Trilogy
+
+"That is one change that SUCKS period!"
+-<censored>, upset with one of Bardez's changes to Baldur's Gate
+
+"It is an idiot change."
+-See above
+
+"Your opinion. and it doesn't affect me."
+-Bardez, in reply
+
+"Sure it does, you are the idiot who made it."
+-<censored>, in reply
+
+"Maybe you shouldn't have deleted the install files until after you made sure your install was succesful :P"
+-chris, criticising a player after they chose to delete the MOD after they (unsuccessfully) installed the MOD
+
+"U get some real retards in here lol"
+-chris, after seeing numerous stupid people enter #BGT asking numerous stupid questions
+
+"I found out last night that Christina Aguilera wanted to do me."
+"Then my fucking alarm went off."
+-chris, in #BGT chat
+
+"Bardez, u here?"
+-Far, far too many people
+
+"How do I...?"
+-Again, far, far too many people
+
+"HOW THE FUCK DO I GET ON A QUOTES PAGE BUGGERY?"
+-NotMrT, wanting to get a quote in the Quotes section
+
+"Would anyone else have the desire to play this MOD/port??"
+-Bardez, announcing BGT
+
+"Hey chris, what happens if I forget to install VB6 before I run the BGT installation?"
+-Jens, having trouble with installation
+
+"PC blows up and you get a wierd rash around your anal cavity?"
+-chris, trying to respond
+
+
+
+
+Baldur's Gate Trilogy was brought to you by Bardez, as a distraction from his "Oh I got dumped, oh boo-the-fuck-hoo" whining.
+
+Summarily, special thanks go to Joanna Lynn Nelson for dumping Bardez
+
+Other Special Thanks (not related to relationships or dumping)
+-Bardez
+-KenTeamBG
+-hlidskialf
+-Horred
+-TheoTeamBG
+-Jon Olav Hauglid
+-Gandalf
+-BioWare
+-HardenCoonor for the Worldmap (You rock, dude!)
+-Richard Garriot AKA Lord British. You brought me into RPGs.~
+
+////////////////////////////////////////////////////////////////////
+//dialog.tlk
+////////////////////////////////////////////////////////////////////
+@900000 = ~Sai poco di come sei arrivato sotto la tutela di Gorion, ma nel corso degli anni hai in qualche modo raccolto notizie sulla storia di tua madre da allusioni varie da parte di tuo padre adottivo e da alcune sue parole piene di lacrime mormorate nel sonno. Era una mezzorca e sua amica da molto tempo. Poiché non ti ricordi di lei e non c'è niente nella fortezza che ti possa aiutare a farlo, sei giunto alla conclusione che essa morì dandoti alla luce. Forse è stato il dolore di tale distacco che ha portato Gorion a rinchiudersi in un convento tra le strette mura di Candlekeep e a crescerti come un figlio. Di tuo padre, non hai saputo nulla.~
+/*NOBW8.DLG - #8435; cambia l'ultima frase con 'Sarò qui puntualmente ogni due giorni.'*/
+@900001 = ~Che cosa?! Non sei meglio di... Suppongo che avrei dovuto vederlo nei tuoi occhi la prima volta che ci siamo incontrati. Pare che la mia situazione fosse migliore con il bastardo di prima. Va bene, non c'è niente che possa fare per fermarti. Sarò qui puntualmente ogni due giorni.~
+/*DELTHY.DLG - #1729; aggiungi una frase extra, 'Hai un minuto per ascoltarmi?'*/
+@900002 = ~Molto bene allora. Mi chiamo Delthyr; io rappresento gli Arpisti. Ti ho cercato per parecchie settimane. Solo di recente ho scoperto che avevi lasciato la città da qualche tempo. Le cose sono cambiate da quando sei partito e io posso dirti tutto quello che ti serve sapere. Hai un minuto per ascoltarmi?~
+
+@900037 = ~Baldur's Gate Introduzione~
+@900038 = ~Shadows of Amn Introduzione~
+@900039 = ~Nuova Partita BG2~
+@900040 = ~Premi il pulsante Nuova Partita BG2 per saltare Baldur's Gate I e iniziare il gioco da Baldur's Gate II: Shadows of Amn.
+
+Se vuoi giocare a Baldur's Gate I, premi il pulsante Cancella, quindi premi il pulsante Nuova Partita.~
+
+@900042 = ~baldur's gate~
+
+//Shadows of Amn description button text
+@900043 = ~"Tortured Souls"~
+@900044 = ~"The Darkest Day"~
+@900045 = ~"Shadows Over Soubar"~
+@900046 = ~"Neverending Journey"~
+@900047 = ~"Region of Terror"~
+@900048 = ~"Big Picture"~
+@900049 = ~"Check The Bodies"~
+@900050 = ~Gioca~
+@900051 = ~Shadows of Amn<TM>~
+@900052 = ~ Baldur's Gate<TM> e the Tales of the Sword Coast<TM> o gioca ~
+@900053 = ~ con le nuove espansioni:~
+//End Shadows of Amn description button text
+
+////////////////////////////////////////////////////////////////////
+//EndOfFile
+////////////////////////////////////////////////////////////////////

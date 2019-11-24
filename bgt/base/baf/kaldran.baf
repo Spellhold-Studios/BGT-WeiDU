@@ -1,0 +1,47 @@
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  See([PC])
+  Global("Kaldran","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Kaldran","GLOBAL",1)
+    EquipRanged()
+    AttackOneRound([PC])
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Range(NearestEnemyOf(Myself),5)
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(NearestEnemyOf(Myself),5)
+THEN
+  RESPONSE #70
+    EquipMostDamagingMelee()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+  RESPONSE #30
+    EquipRanged()
+    AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+THEN
+  RESPONSE #100
+    Attack(LastAttackerOf(Myself))
+END
+

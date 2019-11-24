@@ -1,0 +1,50 @@
+IF
+  Global("BGTNPC6801","GLOBAL",0)
+  LevelLT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6801","GLOBAL",1)
+    CreateCreature("JAHEIR",[311.715],14)
+    CreateCreature("KHALID",[328.656],14)
+END
+
+IF
+  Global("BGTNPC6801","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6801","GLOBAL",1)
+    CreateCreature("JAHEIR4",[311.715],14)
+    CreateCreature("KHALID4",[328.656],14)
+END
+
+IF
+  Global("BGTNPC6801","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6801","GLOBAL",1)
+    CreateCreature("JAHEIR6",[311.715],14)
+    CreateCreature("KHALID6",[328.656],14)
+END
+
+//IF
+//  GlobalGT("Chapter","GLOBAL",3)
+//  Exists("Khalid")
+//  !InParty("Khalid")
+//THEN
+//  RESPONSE #100
+//    ActionOverride("Khalid",EscapeArea())
+//END
+
+//IF
+//  GlobalGT("Chapter","GLOBAL",3)
+//  Exists("Jaheira")  // Jaheira
+//  !InParty("Jaheira")  // Jaheira
+//THEN
+//  RESPONSE #100
+//    ActionOverride("Jaheira",EscapeArea())
+//END
+

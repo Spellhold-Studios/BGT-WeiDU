@@ -1,0 +1,33 @@
+BD4
+27
+A1              @TAG ENDC
+A2              @TAG ENDC
+B1              @TAG ENDB
+B2              @TAG ENDB
+B3              @TAG ENDC
+B4              @TAG ENDB
+C1              @TAG ENDA
+C2              @TAG ENDA
+D1              @TAG ENDA
+D2              @TAG ENDA
+D3              @TAG ENDA
+E1              @TAG ENDA
+E2              @TAG ENDA
+E3              @TAG ENDA
+E4              @TAG ENDA
+F1              @TAG ENDA
+F2              @TAG ENDA
+F3              @TAG ENDA
+G1              @TAG ENDA
+G2              @TAG ENDA
+G3A             @TAG ENDA
+G4A             @TAG ENDA
+H1              @TAG ENDA
+H2              @TAG ENDA
+H3              @TAG ENDA
+I12             @TAG ENDA
+XA1     BD4 B1      @TAG ENDA
+
+
+
+

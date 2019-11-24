@@ -1,0 +1,86 @@
+IF
+  OnCreation()
+  Global("THRONE","GLOBAL",1)
+  Global("CaedmonSpawn","GLOBAL",0)
+  !Exists("CAEDMO")
+THEN
+  RESPONSE #100
+    CreateCreature("CAEDMO",[582.847],0)
+    SetGlobal("CaedmonSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("BrennanSpawn","GLOBAL",0)
+  !Exists("BRENNA")
+THEN
+  RESPONSE #100
+    CreateCreature("BRENNA",[1400.796],0)
+    SetGlobal("BrennanSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("JonavinSpawn","GLOBAL",0)
+  !Exists("JONAVI")
+THEN
+  RESPONSE #100
+    CreateCreature("JONAVI",[2743.1023],0)
+    SetGlobal("JonavinSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("BRENNA")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BRENNA",DestroySelf())
+END
+
+IF
+  Exists("JONAVI")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("JONAVI",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Capture1200","GLOBAL",0)
+  Global("DukeThanks","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Capture1200","GLOBAL",1)
+    CreateCreature("FFHUNT",[1538.1248],0)
+    CreateCreature("FFHUNT",[1538.1248],0)
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("KolvarSpawn","GLOBAL",0)
+  !Exists("Kolvar")
+  !Dead("Kolvar")
+  
+THEN
+  RESPONSE #100
+    CreateCreature("KOLVAR",[1215.625],0)
+    SetGlobal("KolvarSpawn","GLOBAL",1)
+END
+
+IF
+  Exists("KOLVAR")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("KOLVAR",DestroySelf())
+END

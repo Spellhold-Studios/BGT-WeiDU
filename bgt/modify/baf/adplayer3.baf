@@ -1,0 +1,31 @@
+IF
+    Global("A6PlayerWerewolfChange","GLOBAL",0)
+    Global("Infected","GLOBAL",1)
+    GlobalTimerExpired("PlayerInfected","GLOBAL")
+    !Dead("Mendas3")
+    Exists(Player2)
+THEN
+    RESPONSE #100
+        SetGlobal("A6PlayerWerewolfChange","GLOBAL",1)
+        ActionOverride(Player2,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player3,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player4,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player5,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player6,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+END
+
+IF
+    Global("A6PlayerWerewolfChange","GLOBAL",0)
+    Global("Infected","GLOBAL",1)
+    GlobalTimerExpired("PlayerInfected2","GLOBAL")
+    GlobalLT("IslandTravel","GLOBAL",2)
+    Exists(Player2)
+THEN
+    RESPONSE #100
+        SetGlobal("A6PlayerWerewolfChange","GLOBAL",1)
+        ActionOverride(Player2,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player3,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player4,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player5,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+	ActionOverride(Player6,ForceSpell(Myself,PLAYER_WEREWOLF_CHANGE))
+END

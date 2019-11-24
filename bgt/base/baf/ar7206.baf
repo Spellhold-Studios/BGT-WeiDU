@@ -1,0 +1,10 @@
+IF
+  Global("LothanderMove","GLOBAL",2)
+  !Exists("Lothander")  // Lothander
+  !Dead("Lothander")  // Lothander
+THEN
+  RESPONSE #100
+    CreateCreature("LOTHAN",[259.198],0)  // ~Lothander~
+    ActionOverride("Lothander",SetNumTimesTalkedTo(1))
+END
+

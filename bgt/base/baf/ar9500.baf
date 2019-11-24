@@ -1,0 +1,36 @@
+IF
+  NumDeadGT("WorgAr",2)
+  GlobalLT("WorgsDead","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("WorgsDead","GLOBAL",3)
+END
+
+IF
+  Global("BGTNPC9500","GLOBAL",0)
+  LevelLT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC9500","GLOBAL",1)
+    CreateCreature("SAFANA",[3747.2389],5)
+END
+
+IF
+  Global("BGTNPC9500","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC9500","GLOBAL",1)
+    CreateCreature("SAFANA4",[3747.2389],5)
+END
+
+IF
+  Global("BGTNPC9500","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC9500","GLOBAL",1)
+    CreateCreature("SAFANA6",[3747.2389],5)
+END

@@ -1,0 +1,29 @@
+BD5
+25
+A1              @TAG ENDA1
+A2              @TAG ENDA2
+A3              @TAG ENDA2
+B1              @TAG ENDB1
+B2              @TAG ENDB2
+C1              @TAG ENDB2
+C2              @TAG ENDB2
+C3              @TAG ENDB2
+C4              @TAG ENDB2
+D1              @TAG ENDD1
+D2              @TAG ENDA2
+D3              @TAG ENDB2
+D4              @TAG ENDA2
+E1              @TAG ENDE1
+E2              @TAG ENDE1
+E3              @TAG ENDE1
+E4              @TAG ENDE1
+F1              @TAG ENDE1
+F2              @TAG ENDA2
+F3              @TAG ENDA2
+F4              @TAG ENDA2
+G1A             @TAG ENDA2
+G2B             @TAG ENDB2
+G3              @TAG ENDG3
+B2B     C1      @TAG ENDB2
+
+

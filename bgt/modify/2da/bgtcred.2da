@@ -1,0 +1,30 @@
+2DA V1.0
+*BGT
+                        0           1
+SWITCH                  DEFAULT     DEFAULT
+DEFAULT                 999         888
+DWARF                   0           0
+ELF                     0           0
+HALFELF                 0           0
+HALFLING                0           0
+GNOME                   0           0
+HUMAN                   0           0
+HALFORC                 0           0
+MAGE                    0           0
+FIGHTER                 0           0
+CLERIC                  0           0
+THIEF                   0           0
+BARD                    0           0
+PALADIN                 0           0
+FIGHTER_MAGE            0           0
+FIGHTER_CLERIC          0           0
+FIGHTER_THIEF           0           0
+FIGHTER_MAGE_THIEF      0           0
+DRUID                   0           0
+RANGER                  0           0
+MAGE_THIEF              0           0
+CLERIC_MAGE             0           0
+CLERIC_THIEF            0           0
+FIGHTER_DRUID           0           0
+FIGHTER_MAGE_CLERIC     0           0
+CLERIC_RANGER           0           0

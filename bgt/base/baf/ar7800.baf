@@ -1,0 +1,149 @@
+IF
+  Global("EnteredBaldursGate","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("BGENTER")
+    SetGlobal("EnteredBaldursGate","GLOBAL",1)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("HerschSpawn","GLOBAL",0)
+  !Exists("HERSCHEL")
+THEN
+  RESPONSE #100
+    CreateCreature("HERSCH",[2123.170],0)
+    SetGlobal("HerschSpawn","GLOBAL",1)
+END
+
+IF
+  Exists("HERSCHEL")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("HERSCHEL",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Capture800","GLOBAL",0)
+  Global("DukeThanks","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Capture800","GLOBAL",1)
+    CreateCreature("FFHUNT",[2312.1520],0)
+    CreateCreature("FFHUNT",[2312.1520],0)
+END
+
+IF
+  Global("RededgeMove","GLOBAL",1)
+  !Exists("Rededge")
+  !Dead("Rededge")
+THEN
+  RESPONSE #100
+    CreateCreature("REDEDG",[1399.1611],0)
+    ActionOverride("Rededge",Enemy())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("SpawnDelthyr","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnDelthyr","GLOBAL",1)
+    CreateCreature("DELTHY",[1484.1680],0)
+END
+
+IF
+  Exists("Delthyr")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Delthyr",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  GlobalTimerExpired("Delthyr","GLOBAL")
+  Global("TalkedToDelthyr","GLOBAL",1)
+  Global("SpawnDelthyr","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnDelthyr","GLOBAL",2)
+    CreateCreature("DELTHY",[1484.1680],0)
+    ActionOverride("Delthyr",SetNumTimesTalkedTo(1))
+END
+
+IF
+  TimeGT(20)
+  Exists("Rededge")
+THEN
+  RESPONSE #100
+    Activate("Rededge")
+    Wait(30)
+END
+
+IF
+  TimeLT(4)
+  Exists("Rededge")
+THEN
+  RESPONSE #100
+    Activate("Rededge")
+    Wait(30)
+END
+
+IF
+  TimeGT(4)
+  TimeLT(20)
+  Exists("Rededge")
+THEN
+  RESPONSE #100
+    Deactivate("Rededge")
+    Wait(30)
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  !Exists("Husam2")
+  !Dead("Husam2")
+  !Dead("Husam")
+  GlobalGT("HusamMove","GLOBAL",0)
+  GlobalLT("HusamMove","GLOBAL",5)
+THEN
+  RESPONSE #100
+    CreateCreature("Husam2",[3393.1397],0)
+END
+
+IF
+  Exists("Husam2")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Husam2",DestroySelf())
+END
+
+IF
+  Global("TamokoMove","GLOBAL",0)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  !Exists("Tamoko")
+  !Dead("Tamoko")
+THEN
+  RESPONSE #100
+    CreateCreature("TAMOKO",[1122.2074],0)
+END
+
+IF
+  Exists("Tamoko")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Tamoko",DestroySelf())
+END

@@ -1,0 +1,17 @@
+BEGIN ~hick~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @18714
+  IF ~~ THEN REPLY @18716 GOTO 1
+  IF ~~ THEN REPLY @18717 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @18719
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @18720
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

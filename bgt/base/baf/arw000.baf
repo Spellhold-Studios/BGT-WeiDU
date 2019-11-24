@@ -1,0 +1,131 @@
+IF
+  Global("IslandTravel","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TextScreen("ISLON")
+    Wait(8)
+    MultiPlayerSync()
+    EraseJournalEntry(@310640)
+    EraseJournalEntry(@310641)
+    EraseJournalEntry(@310642)
+    EraseJournalEntry(@310643)
+    EraseJournalEntry(@310644)
+    EraseJournalEntry(@310646)
+    EraseJournalEntry(@310647)
+    EraseJournalEntry(@310648)
+    EraseJournalEntry(@310654)
+    EraseJournalEntry(@310655)
+    EraseJournalEntry(@310663)
+    EraseJournalEntry(@310664)
+    AddJournalEntry(@310656,QUEST)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    ActionOverride(Player1,Rest())
+    ActionOverride(Player2,Rest())
+    ActionOverride(Player3,Rest())
+    ActionOverride(Player4,Rest())
+    ActionOverride(Player5,Rest())
+    ActionOverride(Player6,Rest())
+    SetGlobal("IslandTravel","GLOBAL",1)
+END
+
+IF
+  Gender(Player1,MALE)
+  Global("DelainSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("DELAIN",[2531.1244],0)  // ~Delainy~
+    ActionOverride("Delainy",Face(8))
+    SetGlobal("DelainSpawn","GLOBAL",1)
+END
+
+IF
+  Gender(Player1,FEMALE)
+  Global("DelainSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("DURLYL",[2531.1244],0)  // ~Durlyle~
+    ActionOverride("DURLYLE",Face(8))
+    SetGlobal("DelainSpawn","GLOBAL",1)
+END
+
+IF
+  Global("Infected","GLOBAL",1)
+  Global("WillHelpEscape","GLOBAL",1)
+  Gender(Player1,FEMALE)
+  Global("DelainSpawn2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("DURLYL2",[2696.1315],0)  // ~Durlyle~
+    SetGlobal("DelainSpawn2","GLOBAL",1)
+END
+
+IF
+  Global("Infected","GLOBAL",1)
+  Global("WillHelpEscape","GLOBAL",1)
+  Gender(Player1,MALE)
+  Global("DelainSpawn2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("DELAIN2",[2743.1310],0)  // ~Delainy~
+    SetGlobal("DelainSpawn2","GLOBAL",1)
+END
+
+IF
+  Global("Infected","GLOBAL",1)
+  Global("DradeelHelp","GLOBAL",1)
+  Global("DradeelSpawn2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("DRADEE2",[1519.1446],0)  // ~Dradeel~
+    SetGlobal("DradeelSpawn2","GLOBAL",1)
+END
+
+IF
+  Global("Infected","GLOBAL",1)
+  Global("MaraDone","GLOBAL",1)
+  Global("MaraleSpawn2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("MARALE2",[2443.2032],0)  // ~Maralee~
+    SetGlobal("MaraleSpawn2","GLOBAL",1)
+END
+

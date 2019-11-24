@@ -1,0 +1,28 @@
+IF
+  Global("DukeThanks","GLOBAL",1)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+
+IF
+  See([PC])
+  Global("Captured","GLOBAL",0)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    ActionOverride("FFHUNT",Shout(1))
+    ActionOverride("ALDETH",EscapeArea())
+    StartDialogNoSet([PC])
+END
+
+IF
+  Global("Captured","GLOBAL",1)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    ActionOverride("FFHUNT",Shout(1))
+    ActionOverride("ALDETH",EscapeArea())
+    Enemy()
+END
+

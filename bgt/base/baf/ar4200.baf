@@ -1,0 +1,7 @@
+IF
+  Global("HelpMinsc","GLOBAL",2)
+  Exists("INGOT")
+THEN
+  RESPONSE #100
+    ActionOverride("INGOT",DestroySelf())
+END

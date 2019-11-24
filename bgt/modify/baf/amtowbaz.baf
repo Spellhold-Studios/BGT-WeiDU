@@ -1,0 +1,17 @@
+IF
+  GlobalLT("ENDOFBG1","GLOBAL",2)
+  Global("DukeThanks","GLOBAL",1)
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetDialog("mtowbas")
+END
+
+IF
+  GlobalLT("ENDOFBG1","GLOBAL",2)
+  Global("Chapter","GLOBAL",8)
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetDialog("mtowbaz")
+END

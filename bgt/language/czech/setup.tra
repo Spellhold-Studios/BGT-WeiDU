@@ -1,0 +1,338 @@
+////////////////////////////////////////////////////////////////////
+//Items
+////////////////////////////////////////////////////////////////////
+@200000 = ~Ithmeeøina soška~
+
+//@23967 - change Blunt Weapons to Mace
+@200001 = ~Palcát +2 : 'Krotanùv Drtiè Lebek'
+Dokonce i orci mají své hrdiny, a pøestoe jsou v civilizované spoleènosti hanìni, jejich èiny jsou nìkdy vskutku pùsobivé.  Krotan byl vıjimeènì inteligentní ork, kterı vedl vysoce promìnlivou skupinu zlobrù, orkù, skurutù a dalších nejrùznìjších potvor bìhem roku Ztracené Dámy - 1241 DR.  Bylo to tento rok, kdy skupina orèích banditù údajnì unesla a zabila tethyrskou šlechtiènu a odpovìdí úøadù bylo vyvradìní orkù na jihu na její památku.  Krotan zorganizoval obranu, která zajistila, e jeho lidé nebyli úplnì znièeni, pøestoe byli vyhnáni.  Krotan sám padl ke konci bitvy a jeho hlava byla vystavena pøed høbitovem, kde byla mladá šlechtièna pohøbena.  Pro zajímavost, orci tento rok nazıvají "Rok, kdy jsme zašli moc daleko".
+
+VLASTNOSTI:
+
+Zranìní:  1D6 + 3
+THACO:  +2
+Druh zranìní:  drtivé
+Váha: 7
+Rychlost: 5
+Druh dovednosti: Palcát
+Druh:  jednoruèní
+Nemùe uívat:
+ Druid
+ Mág
+ Zlodìj~
+
+//@7350 - change Bow Weapons to Long Bow
+@200002 = ~Dlouhı luk støelectví:  'Smrtonosná støela'
+Vedeni léty soupeøení, vévodové Spandeliyonu a Dethuntlu se rozhodli zorganizovat soukromé utkání, které ukáe, kdo z nich je lepší støelec.  Oba se naparovali silou svıch magickıch lukù, ale Edwallu Destovi, vévodovi Spandeliyonskému, to nestaèilo.  Zaøídil kráde luku svého protivníka a v den utkání si uíval škodolibé radosti ze své vıhody.  Vévoda Delthuntlu, známı pouze jako Raymond, si vyádal ukázku Edwallova umìní na strašákovi, kterého pøinesl.  Edwall Dest natáhl svùj luk a rozhodnì vypustil šíp, ani by se pozastavil nad tím, jak moc se mu cíl podobá.  Støela rozpùlila hlavu voodoo panáka vedví a v tu chvíli udìlala Edwallova hlava zhruba toté.
+
+VLASTNOSTI:
+
+THACO: +3
+Zranìní: +2
+Váha: 2
+Rychlost: 5
+Druh dovednosti: Dlouhı luk
+Druh:  dvouruèní
+Nemùe uívat:
+ Druid
+ Klerik
+ Mág
+ Zlodìj~
+
+//@7351 = change Bow Weapons to Short Bow
+@200003  = ~Orlí luk:  'Ochránce Dryád'
+Aby ochránily svoje spoleèenství pøed dotírajícím orèím døevorubeckım táborem, daly dryády Gulthmerského lesa tento úasnı luk Hannablu Bílému.  Smrtelnı støet pøišel, kdy se døevorubci odváili porazit obrovskı dub a témìø zabili dryádu, která s ním byla spojena.  S pomocí silnıch lesních zvíøat Hannable zabil celé skupiny orkù, ne mohly lesu zpùsobit další škody.  Orci museli opustit své zámìry, jinak by znovu poznali hnìv Hannabla a celého lesa.  Netøeba podotıkat, e hrdina, kterı pomohl vdìènım dryádám il šastnì... ne, VELMI šastnì a do smrti!
+
+VLASTNOSTI:
+
+THAC0:  +2
+Zranìní: +2
+Váha: 2
+Rychlost: 4
+Druh dovednosti: Krátkı luk
+Druh:  dvouruèní
+Nemùe uívat:
+ Druid
+ Klerik
+ Mág~
+
+//@20885 - change Small Sword to Dagger
+@200004 = ~Støíbrná dıka - Vlèí Zhouba:
+Tahle +1 dıka pùsobí jako dıka +4 proti lykantropùm.  Elfí hranièáøka Dynala Zlatoruká ji vykovala, kdy chtìla svùj domov zbavit šakalodlakù.  Kdy stopovala jejich vùdce v Šedıch horách, byla zabita tlupou orkù.
+
+VLASTNOSTI:
+
+Zranìní:  1D4 + 1 (+4 proti lykantropùm)
+THACO:  +1 bonus (+4 proti lykantropùm)
+Druh zranìní:  bodné
+Váha: 1
+Rychlost: 2
+Druh dovednosti: Dıka
+Druh:  jednoruèní
+Nemùe uívat:
+ Klerik~
+
+//@20882 - change Long Sword to Bastard Sword
+@200005 = ~Tento zdobenı ale špatnì vyváenı meè byl nalezen ve vraku Balduranovy lodi.  Zlaté zbranì nejsou zrovna uiteèné v boji, ale legendy praví, e pouze ony mohou ublíit tak strašlivım stvoøením jako jsou vlkodlaci.
+
+VLASTNOSTI:
+
+Zranìní:  2D4 (+4 proti lykantropùm)
+THACO:  +4 proti lykantropùm
+Druh zranìní:  seèné
+Váha: 12
+Rychlost: 7
+Druh dovednosti: Meè bastard
+Druh:  jednoruèní
+Nemùe uívat:
+ Druid
+ Klerik
+ Mág
+ Zlodìj~
+
+//@23965 - change Large Sword to Two Handed Sword
+@200006 = ~Obouruèní meè +3: 'Okraj svìta'
+Toto je legendární zbraò hrdinskıch pøíbìhù, zvláštì mezi barbarskımi kmeny dalekého severu. Hrdina za hrdinou tøímali tento meè proti bezpoètu nepøátel, a krev, kterou prolili, by vydala na menší moøe. Dìjiny nepøipouští, e by taková zbraò mohla bıt vykována, a kadı vlastník si zøejmì její pùvod spojil s mıtem, kterému vìøil. Nejvelkolepìjší z tìchto pøíbìhù vypráví o mocném náèelníkovi, kterı se plavil ke skalám, je ohranièují svìt. Tam se dostal do prázdnoty a jeho mysl stvoøila tento meè z nièeho. A u je pravda jakákoliv, v pravıch rukou tento meè dokáe rozsévat zkázu.
+
+VLASTNOSTI:
+
+Zranìní: 1k10 +3
+THAC0: +3 bonus
+Druh zranìní: seèné
+Váha: 9
+Rychlost: 7
+Druh dovednosti: Obouruèní meè
+Druh: dvouruèní
+Nemùe uívat:
+ Druid
+ Klerik
+ Mág
+ Zlodìj~
+
+////////////////////////////////////////////////////////////////////
+// Spells
+////////////////////////////////////////////////////////////////////
+@400000 = ~Získána zvláštní schopnost: Larlochovo menší vysátí~
+@400001 = ~Získána zvláštní schopnost: Dìs~
+@400002 = ~Získána zvláštní schopnost: Upíøí dotyk~
+@400003 = ~Získána zvláštní schopnost: Vyleè lehká zranìní~
+@400004 = ~Získána zvláštní schopnost: Zpomal jed~
+@400005 = ~Získána zvláštní schopnost: Posílení svatou mocí~
+
+////////////////////////////////////////////////////////////////////
+// Creatures and Stores
+////////////////////////////////////////////////////////////////////
+@500000 = ~Farmáø~
+@500001 = ~Lovec~
+
+@500040 = ~Ty tam. Psst... tudy.~ [BIMOEN16]
+
+@550000 = ~Chrám Yondally~
+
+////////////////////////////////////////////////////////////////////
+// Areas
+////////////////////////////////////////////////////////////////////
+@600005 = ~Okolo tohoto pøedmìtu je pøehnané mnoství bláta a slyšíš zvuky, které se podobají jenom zvukùm, které jsi slyšel pod vodou.  e by byl tenhle vımysl nìjakı druh pøehrady?~
+
+@600010 = ~Hlavní brána~
+@600011 = ~Knihovna~
+@600012 = ~Ošetøovna~
+@600013 = ~Sklepy~
+@600014 = ~Karavana~
+@600015 = ~Velkostatek~
+@600016 = ~Dùm~
+@600017 = ~Zaplavenı dùm~
+@600018 = ~Vchod do dolu~
+@600019 = ~Socha~
+@600020 = ~Opuštìnı dùm~
+@600021 = ~Dolù do dalšího patra~
+@600022 = ~Nahoru do pøedchozího patra~
+@600023 = ~Vesnice Gullykin~
+@600024 = ~Vstup do Ohnivínskıch ruin~
+@600025 = ~Vrak lodi~
+@600026 = ~Opuštìnı maják~
+@600027 = ~Jáma~
+@600028 = ~Farma~
+@600029 = ~Velkı stan~
+@600030 = ~Hnízdo pavoukù~
+@600031 = ~Dùm ve stromì~
+@600032 = ~Øíèní vıpus~
+@600033 = ~Dùlní vıtah~
+@600034 = ~Opuštìná vì~
+@600035 = ~Vstup do Durlagovy vìe~
+@600036 = ~Vıchod z dolu~
+@600037 = ~Chrám Bhaala~
+@600038 = ~Ruiny Ulcasteru~
+@600039 = ~Sídlo Oberona~
+
+////////////////////////////////////////////////////////////////////
+// 2DA Files
+////////////////////////////////////////////////////////////////////
+@700000 = ~Kapitola první/Prolog:~
+@700005 = ~Kapitola druhá:~
+@700009 = ~Kapitola tøetí:~
+@700011 = ~Kapitola ètvrtá:~
+@700013 = ~Kapitola pátá:~
+@700015 = ~Kapitola šestá:~
+@700017 = ~Kapitola sedmá:~
+@700019 = ~Kapitola osmá:~
+
+@700020 = ~"Ten, kdo bojuje s nestvùrami, by se mìl mít na pozoru, aby se sám nestal nestvùrou...kdy dlouho hledíš do pekel, pekla také hledí do tebe..." -Friedrich Nietzsche~
+@700021 = ~Ne, nemùeš!~
+@700022 = ~Já budu poslední a ty budeš první.~
+@700023 = ~Jsou i jiní. Mohu ti je ukázat. Prosím! Prosím!~
+@700024 = ~Baldur's Gate~
+
+//BGT Credits
+@700037 = ~Baldur's Gate Trilogy Credits~
+@700038 = ~Plot Variations
+-Bardez
+
+2DA Alterations
+-Bardez
+
+Area Conversion
+-Bardez
+
+Creatures
+-Bardez
+
+Dialog Importing
+-Bardez
+
+Item Conversion
+-Bardez
+
+Scripting
+-Bardez
+
+Music Conversion (Renaming)
+-Bardez
+
+Area Corruption Fixes
+-Bardez
+
+Idea
+-Bardez
+
+More Scripting
+-Bardez
+
+Originality
+-None
+
+Upload
+-Bardez
+-chris
+-Saitoh/Kangaxx
+-NotMrT
+-Daxiz's FTP
+
+Bug Reports
+-chaz58
+-D|Rek
+-icelus
+-gandalf
+-Captain Carrot
+-empath3
+
+People who really annoyed Bardez, pissing him off badly
+-<censored>
+-<censored>
+
+Number of Tools SPECIFICALLY made for this MOD
+-7 (Beat -that- DLTCEP!!)
+
+Number of Times Bardez Gave Up on This MOD
+-2 .... 3
+
+WeiDU Conversion
+-Ascension64
+-KingDiamond
+
+Re-development
+-Ascension64
+-KingDiamond
+
+Menu Screens
+-Waywocket
+-Yacomo
+
+
+
+Baldur's Gate Trilogy was brought to you by Bardez, as a distraction from his "Oh I got dumped, oh boo-the-fuck-hoo" whining.
+
+Summarily, special thanks go to Joanna Lynn Nelson for dumping Bardez
+
+Other Special Thanks (not related to relationships or dumping)
+-Bardez
+-KenTeamBG
+-hlidskialf
+-Horred
+-TheoTeamBG
+-Jon Olav Hauglid
+-Gandalf
+-BioWare
+-HardenCoonor for the Worldmap (You rock, dude!)
+-Richard Garriot AKA Lord British. You brought me into RPGs.
+
+Èeština do BGI
+Na pøekladu hry do èeštiny se podíleli tito dobrodinci:
+Celé by se to neobešlo bez programátorù Raptora a PeZe. Hodnì nám pomohl i program InfinityExplorer od Dmitry Jemerova.
+Pøekladatelé: Beleger, Corim, Dawe, Ebenezum, Eljarad, Fialky, Garalda, Daniel Hodaè, Jiøí Kafka, Jiøí Havlík, Jan Spáèil, Jason, Kopin, Luboš Grim, Ludìk Šmíd, Marcus de Tycho, Marek Teplík, Machr Machrovic, Martin Schovanec, Michal Pekarik, Milan Tuma, Mira Vanek, Mrash, Ondøej Nìmeèek, Pavel Cenek, Petr Kopp, Petr Matìjka, Protoss Bitchik, Quido, Redman, Vlada Vecerek, Zdenìk Králíèek, Zdenìk Zábranskı a Adam Rambousek.
+Rozsáhlá kontrola textù: Bohdan Dlouhı
+Pomoc s pøepisem diakritiky: Divoška Jája, Ivan Mosko, Jan Suchánek, Ladis, Olouš, Pavel Kelbl, Petr Procházka, Josef Picur, Radek Volak, Visena, Vojtìch Šefler, Vašek Vymetalik
+Jakékoli pøipomínky smìøujte na email: adamovy@cestiny.cz
+Více podrobností se dozvíte na adrese: http://adamovy.cestiny.cz/bg
+
+Èeština do BGT
+Idea
+-Lyrick
+
+Provedení
+-Lyrick
+-PostTrauma
+
+Podìkování
+-Tarreb
+a další~
+
+////////////////////////////////////////////////////////////////////
+//dialog.tlk
+////////////////////////////////////////////////////////////////////
+
+/*#15890 - change "dwarf from Mithral Hall" to "half-orc"*/
+@900000 = ~Víš jen velmi málo o tom, jak ses stal chránìncem Goriona.  Postupem èasu se ti z rùznıch naráek a útrkù slov, které jsi od nìj zaslechl, kdy v noci ze spánku naøíkal, podaøilo poskládat pøíbìh o tvé matce.  Byla pùl-orèicí a jeho pøítelkyní po mnoho let.  Protoe si na ni vùbec nvezpomínáš a nemáš ani ádnou upomínku, která by ti pøipomnìla její existenci, dospìl jsi k závìru, e zemøela pøi tvém porodu.  Snad to bylo zpùsobeno bolestí z této ztráty, která pøivedla Goriona k tomu, aby se zavøel v tìsnıch stìnách kláštera ve Svítící Tvrzi, a tebe pøijal za vlastního.  O svém otci ses nedozvìdìl nic.~
+
+/*NOBW8.DLG - #8435; change last sentence to, 'I shall be here promptly every two days.'*/
+@900001 = ~Coe?! Nejste o nic lepší ne... Asi jsem vám to mìla vidìt na oèích, kdy jsme se poprvé setkali. Zdá se, e jsem na tom byla líp s tím starım ïáblem. Dobrá, mohu s tím udìlat jen málo. Budu tu pøesnì kadé dva dny.~
+
+/*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
+@900002 = ~Dobrá tedy. Jsem Delthyr; zastupuji zde Harfeníky. Hledám vás ji mnoho tıdnù. Teprve nedávno jsem zjsitil, e jste pøed nìjakou dobou opustili mìsto. Vìci se zmìnily, zatímco jste byli pryè. Mohu vám øíct vše, co potøebujete vìdìt. Vyslechnete mì?~
+
+@900037 = ~Baldur's Gate úvod~
+@900038 = ~Shadows of Amn úvod~
+@900039 = ~Nová BG2 hra~
+@900040 = ~Klikni na Nová BG2 hra, abys pøeskoèil Baldur's Gate I a zaèal rovnou od Baldur's Gate II: Shadows of Amn.
+
+Jestli chceš hrát Baldur's Gate I, klikni na Zrušit a potom na Nová hra.~
+
+@900042 = ~baldur's gate~
+
+//Shadows of Amn description button text
+@900043 = ~"Tortured Souls"~
+@900044 = ~"The Darkest Day"~
+@900045 = ~"Shadows Over Soubar"~
+@900046 = ~"Neverending Journey"~
+@900047 = ~"Region of Terror"~
+@900048 = ~"Big Picture"~
+@900049 = ~"Check The Bodies"~
+@900050 = ~Hraj~
+@900051 = ~Shadows of Amn~
+@900052 = ~ Baldur's Gate a Tales of the Sword Coast nebo ~
+@900053 = ~ s novım(i) rozšíøením(i):~
+//End Shadows of Amn description button text
+
+////////////////////////////////////////////////////////////////////
+//EndOfFile
+////////////////////////////////////////////////////////////////////

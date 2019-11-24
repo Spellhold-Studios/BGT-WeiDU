@@ -1,0 +1,46 @@
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("KentSpawn","GLOBAL",0)
+  !Exists("KENT")  // ~Kent~
+THEN
+  RESPONSE #100
+    CreateCreature("KENT",[302.235],0)  // ~Kent~
+    SetGlobal("KentSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("Rashadspawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Rashadspawn","GLOBAL",1)
+    CreateCreature("RASHAD",[568.293],0)  // ~Rashad~
+    ActionOverride("ELTAN",DestroySelf())
+    CreateCreature("DELTAN2",[581.268],0)  // ~Duke Eltan~
+    SmallWait(2)
+    ActionOverride("Eltan2",Face(6))
+    Continue()
+END
+
+IF
+  Exists("KENT")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("KENT",DestroySelf())
+END
+
+IF
+  Exists("Eltan2")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Eltan2",DestroySelf())
+    ActionOverride("RASHAD",DestroySelf())
+    ActionOverride("ELTAN",DestroySelf())
+END

@@ -1,0 +1,12 @@
+IF
+  PartyHasItem("SCRL2Y")
+  Global("Chapter","GLOBAL",4)
+THEN
+  RESPONSE #100
+    RevealAreaOnMap("AR7000")
+    SetGlobal("Chapter","GLOBAL",3)
+    IncrementChapter("CHPTXT-4")
+    SetGlobal("Chapter","GLOBAL",5)
+    AddJournalEntry(@310736,INFO)
+END
+

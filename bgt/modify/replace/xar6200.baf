@@ -1,0 +1,19 @@
+IF
+  Global("StartEndBios","AR6200",1)
+  Global("BGTBio","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTBio","GLOBAL",1)
+    TextScreen("BGTCRED")
+    SmallWait(1)
+    Continue()
+END
+
+IF
+  Global("StartEndBios","AR6200",1)
+THEN
+  RESPONSE #100
+    SetGlobal("StartEndBios","AR6200",2)
+    SetCursorState(FALSE)
+    EndCredits()
+END

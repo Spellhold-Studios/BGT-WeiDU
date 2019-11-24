@@ -1,0 +1,17 @@
+IF
+  Global("EnteredElderCity","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("ELDRCITY")
+    SetGlobal("EnteredElderCity","GLOBAL",1)
+END
+
+IF
+  Global("TamokoMove","GLOBAL",2)
+  !Exists("Tamoko")
+  !Dead("Tamoko")
+THEN
+  RESPONSE #100
+    CreateCreature("TAMOKO",[1775.1619],0)
+END
+

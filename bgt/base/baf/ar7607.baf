@@ -1,0 +1,48 @@
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("BenjySpawn","GLOBAL",0)
+  !Exists("BENJY")
+THEN
+  RESPONSE #100
+    CreateCreature("BENJY",[1454.1019],0)
+    SetGlobal("BenjySpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("BENJY")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BENJY",DestroySelf())
+END
+
+IF
+  Global("ScarMission","GLOBAL",1)
+  !Exists("Scar")
+  !Dead("Scar")
+THEN
+  RESPONSE #100
+    CreateCreature("SCAR",[1515.1050],0)
+    ActionOverride("Scar",SetNumTimesTalkedTo(1))
+END
+
+IF
+  Global("HelpEltan","GLOBAL",0)
+  Global("Door7608Spawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Door7608",FALSE)
+    SetGlobal("Door7608Spawn","GLOBAL",1)
+END
+
+IF
+  !Global("HelpEltan","GLOBAL",0)
+  Global("Door7608Spawn2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Door7608",TRUE)
+    SetGlobal("Door7608Spawn2","GLOBAL",1)
+END

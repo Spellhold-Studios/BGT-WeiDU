@@ -1,0 +1,33 @@
+IF
+//	!IsGabber(Player1)
+//	!IsGabber(Player2)
+//	!IsGabber(Player3)
+//	!IsGabber(Player4)
+//	!IsGabber(Player5)
+//	!IsGabber(Player6)
+	OR(2)
+		Global("LyrosJob","GLOBAL",3)
+		Dead("lyros") // Xzar
+	Exists("Rylock")
+	Global("RylockLeavesHarperDoor","AR0300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("RylockLeavesHarperDoor","AR0300",1)
+		CloseDoor("DOOR0308")
+		Lock("DOOR0308")
+		ActionOverride("Rylock",EscapeArea())
+		Wait(5)
+		CreateVisualEffectObject("spdimndr",Player1)
+		Wait(1)
+		CreateCreatureObjectOffset("xzar13",Player1,[150.0]) // Xzar
+END
+
+IF
+	Global("LyrosSpawn","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("LyrosSpawn","GLOBAL",2)
+		CreateCreature("LYROS",[2372.2475],0) // Xzar
+END
+
+

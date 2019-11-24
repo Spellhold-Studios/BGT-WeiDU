@@ -1,0 +1,26 @@
+BEGIN ~bgcarbos~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @16417
+  IF ~~ THEN REPLY @16418 GOTO 1
+  IF ~~ THEN REPLY @16419 GOTO 2
+  IF ~~ THEN REPLY @16420 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @16421
+  IF ~~ THEN DO ~SetGlobal("Shank","GLOBAL",1)
+Enemy()~ JOURNAL @310318 EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @16422
+  IF ~~ THEN DO ~SetGlobal("Shank","GLOBAL",1)
+Enemy()~ JOURNAL @310318 EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @16423
+  IF ~~ THEN DO ~SetGlobal("Shank","GLOBAL",1)
+Enemy()~ JOURNAL @310318 EXIT
+END

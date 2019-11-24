@@ -1,0 +1,10 @@
+IF
+  StateCheck(Myself,STATE_STONE_DEATH)
+  Global("IWasKickedOut","LOCALS",0)
+  !NumTimesTalkedTo(0)
+  GlobalLT("ENDOFBG1","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("IWasKickedOut","LOCALS",1)
+    Continue()
+END

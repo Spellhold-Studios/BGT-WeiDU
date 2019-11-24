@@ -1,0 +1,59 @@
+
+//BGT New Areas Table
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
+
+AR0015      AR0015   AR0015     11     50       1366    764    @BGT_781001  @BGT_781001  N        //Candlekeep
+AR3100      AR3100   AR3100     2      63       1635    940    @BGT_781002  @BGT_781002  N        //Wilderness Lake
+AR3200      AR3200   AR3200     2      64       1885    905    @BGT_781003  @BGT_781003  N        //Nashkel Pass
+AR3300      AR3300   AR3300     2      65       2100    965    @BGT_781004  @BGT_781004  N        //Firewine Plains
+AR3400      AR3400   AR3400     2      67       2230    1000   @BGT_781005  @BGT_781005  N        //Firewine Bridge
+AR3498      AR3498   AR3498     2      69       1545    1000   @BGT_781006  @BGT_781006  N        //Xvart Village
+AR3499      AR3499   AR3499     2      74       1440    1035   @BGT_781007  @BGT_781007  N        //Ogre's Reach
+AR3700      AR3700   AR3700     3      71       1856    990    @BGT_781008  @BGT_781008  N        //Nashkel
+AR3800      AR3800   AR3800     3      72       1950    990    @BGT_781009  @BGT_781009  N        //Carnival
+AR3900      AR3900   AR3900     2      73       2130    1070   @BGT_781010  @BGT_781010  N        //Southern Wastelands
+AR4100      AR4100   AR4100     2      75       1438    1100   @BGT_781011  @BGT_781011  N        //Gnoll Stronghold
+AR4200      AR4200   AR4200     2      70       1620    1086   @BGT_781012  @BGT_781012  N        //Western Cloudpeaks
+AR4300      AR4300   AR4300     2      76       1745    1135   @BGT_781013  @BGT_781013  N        //The Cloudpeaks
+AR4400      AR4400   AR4400     3      77       1880    1075   @BGT_781014  @BGT_781014  N        //Nashkel Mines
+AR4600      AR4600   AR4600     2      78       2000    1150   @BGT_781015  @BGT_781015  N        //Dragon's Run
+AR6526      AR6526   AR6526     2      50       1366    764    @BGT_781001  @BGT_781001  N        //Candlekeep
+AR6600      AR6600   AR6600     2      52       1600    750    @BGT_781016  @BGT_781016  N        //Gorion's Rest
+AR6700      AR6700   AR6700     3      53       1820    790    @BGT_781017  @BGT_781017  N        //Beregost
+AR6800      AR6800   AR6800     3      46       1800    570    @BGT_781018  @BGT_781018  N        //Friendly Arm Inn
+AR6900      AR6900   AR6900     2      47       1795    692    @BGT_781019  @BGT_781019  N        //Crossroads
+AR7000      AR7000   AR7000     4      45       1562    636    @BGT_781020  @BGT_781020  N        //Cloakwood 1
+AR7100      AR7100   AR7100     2      58       1700    815    @BGT_781021  @BGT_781021  N        //High Hedge
+AR7200      AR7200   AR7200     3      29       934     300    N            N        N            //Baldur's Gate NW
+AR7300      AR7300   AR7300     3      30       1019    287    N            N        N            //Baldur's Gate N
+AR7400      AR7400   AR7400     3      31       1111    297    N            N        N            //Baldur's Gate NE
+AR7500      AR7500   AR7500     2      57       1575    250    @BGT_781022  @BGT_781022  N        //Farms over Chionthar
+AR7600      AR7600   AR7600     3      32       927     347    N            N        N            //Baldur's Gate W
+AR7700      AR7700   AR7700     3      33       1033    348    N            N        N            //Baldur's Gate Center
+AR7800      AR7800   AR7800     3      34       1125    362    N            N        N            //Baldur's Gate E
+AR7900      AR7900   AR7900     3      43       1542    380    @BGT_781023  @BGT_781023  N        //Bridge to Baldur's Gate
+AR8000      AR8000   AR8000     3      35       929     411    N            N        N            //Baldur's Gate SW
+AR8100      AR8100   AR8100     3      36       1026    409    N            N        N            //Baldur's Gate S
+AR8200      AR8200   AR8200     3      37       1092    416    N            N        N            //Baldur's Gate SE
+AR8300      AR8300   AR8300     2      42       1680    490    @BGT_781024  @BGT_781024  N        //South of Wyrm's Crossing
+AR8400      AR8400   AR8400     2      38       1322    624    @BGT_781025  @BGT_781025  N        //Cloakwood 3
+AR8500      AR8500   AR8500     2      40       1358    518    @BGT_781026  @BGT_781026  N        //Cloakwood 4
+AR8600      AR8600   AR8600     2      44       1506    502    @BGT_781027  @BGT_781027  N        //Cloakwood Mines
+AR8700      AR8700   AR8700     4      41       2020    474    @BGT_781028  @BGT_781028  N        //Bandit Camp
+AR8800      AR8800   AR8800     2      39       1412    678    @BGT_781029  @BGT_781029  N        //Cloakwood 2
+AR8900      AR8900   AR8900     2      49       1990    582    @BGT_781030  @BGT_781030  N        //Peldvale
+AR9000      AR9000   AR9000     2      48       2000    672    @BGT_781031  @BGT_781031  N        //Larswood
+AR9100      AR9100   AR9100     2      54       2100    672    @BGT_781032  @BGT_781032  N        //The East Wood
+AR9200      AR9200   AR9200     2      51       1380    835    @BGT_781033  @BGT_781033  N        //North Sword Coast
+AR9300      AR9300   AR9300     2      84       1910    790    @BGT_781034  @BGT_781034  N        //Temple of Lathander
+AR9400      AR9400   AR9400     2      83       2150    750    @BGT_781035  @BGT_781035  N        //Basilisk Monument
+AR9500      AR9500   AR9500     2      62       1400    900    @BGT_781036  @BGT_781036  N        //Sword Coast
+AR9600      AR9600   AR9600     2      56       1550    855    @BGT_781037  @BGT_781037  N        //Zombie Retreat
+AR9700      AR9700   AR9700     2      59       1780    870    @BGT_781038  @BGT_781038  N        //Beregost Wilderness
+AR9799      AR9799   AR9799     2      66       2040    850    @BGT_781039  @BGT_781039  N        //Ulcaster School
+AR9900      AR9900   AR9900     2      61       2210    915    @BGT_781040  @BGT_781040  N        //Gullykin
+ARA100      ARA100   ARA100     2      68       1445    975    @BGT_781041  @BGT_781041  N        //South Sword Coast
+ARD000      ARD000   ARD000     4      79       2330    765    @BGT_781042  @BGT_781042  N        //Durlag's Tower
+ARU000      ARU000   ARU000     2      80       1375    240    @BGT_781043  @BGT_781043  N        //Ulgoth's Beard
+ARU008      ARU008   ARU008     4      51       155     500    @BGT_781044  @BGT_781044  N        //Somewhere far North
+

@@ -1,0 +1,2067 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    FadeToColor([0.0],0)
+    DayNight(MIDNIGHT)
+    EraseJournalEntry(@310001) //all solved journal entries
+    EraseJournalEntry(@310002)
+    EraseJournalEntry(@310004)
+    EraseJournalEntry(@310006)
+    EraseJournalEntry(@310008)
+    EraseJournalEntry(@310010)
+    EraseJournalEntry(@310011)
+    EraseJournalEntry(@310013)
+    EraseJournalEntry(@310014)
+    EraseJournalEntry(@310016)
+    EraseJournalEntry(@310018)
+    EraseJournalEntry(@310019)
+    EraseJournalEntry(@310020)
+    EraseJournalEntry(@310024)
+    EraseJournalEntry(@310025)
+    EraseJournalEntry(@310026)
+    EraseJournalEntry(@310027)
+    EraseJournalEntry(@310030)
+    EraseJournalEntry(@310031)
+    EraseJournalEntry(@310033)
+    EraseJournalEntry(@310035)
+    EraseJournalEntry(@310037)
+    EraseJournalEntry(@310038)
+    EraseJournalEntry(@310042)
+    EraseJournalEntry(@310044)
+    EraseJournalEntry(@310045)
+    EraseJournalEntry(@310048)
+    EraseJournalEntry(@310051)
+    EraseJournalEntry(@310053)
+    EraseJournalEntry(@310056)
+    EraseJournalEntry(@310057)
+    EraseJournalEntry(@310061)
+    EraseJournalEntry(@310064)
+    EraseJournalEntry(@310065)
+    EraseJournalEntry(@310067)
+    EraseJournalEntry(@310071)
+    EraseJournalEntry(@310072)
+    EraseJournalEntry(@310078)
+    EraseJournalEntry(@310081)
+    EraseJournalEntry(@310084)
+    EraseJournalEntry(@310086)
+    EraseJournalEntry(@310088)
+    EraseJournalEntry(@310091)
+    EraseJournalEntry(@310095)
+    EraseJournalEntry(@310096)
+    EraseJournalEntry(@310098)
+    EraseJournalEntry(@310099)
+    EraseJournalEntry(@310101)
+    EraseJournalEntry(@310103)
+    EraseJournalEntry(@310104)
+    EraseJournalEntry(@310106)
+    EraseJournalEntry(@310108)
+    EraseJournalEntry(@310109)
+    EraseJournalEntry(@310110)
+    EraseJournalEntry(@310111)
+    EraseJournalEntry(@310115)
+    EraseJournalEntry(@310116)
+    EraseJournalEntry(@310117)
+    EraseJournalEntry(@310118)
+    EraseJournalEntry(@310119)
+    EraseJournalEntry(@310121)
+    EraseJournalEntry(@310122)
+    EraseJournalEntry(@310123)
+    EraseJournalEntry(@310124)
+    EraseJournalEntry(@310143)
+    EraseJournalEntry(@310145)
+    EraseJournalEntry(@310146)
+    EraseJournalEntry(@310147)
+    EraseJournalEntry(@310149)
+    EraseJournalEntry(@310150)
+    EraseJournalEntry(@310151)
+    EraseJournalEntry(@310153)
+    EraseJournalEntry(@310154)
+    EraseJournalEntry(@310157)
+    EraseJournalEntry(@310158)
+    EraseJournalEntry(@310159)
+    EraseJournalEntry(@310161)
+    EraseJournalEntry(@310165)
+    EraseJournalEntry(@310166)
+    EraseJournalEntry(@310171)
+    EraseJournalEntry(@310179)
+    EraseJournalEntry(@310181)
+    EraseJournalEntry(@310185)
+    EraseJournalEntry(@310190)
+    EraseJournalEntry(@310191)
+    EraseJournalEntry(@310199)
+    EraseJournalEntry(@310225)
+    EraseJournalEntry(@310227)
+    EraseJournalEntry(@310233)
+    EraseJournalEntry(@310238)
+    EraseJournalEntry(@310244)
+    EraseJournalEntry(@310245)
+    EraseJournalEntry(@310246)
+    EraseJournalEntry(@310247)
+    EraseJournalEntry(@310251)
+    EraseJournalEntry(@310252)
+    EraseJournalEntry(@310253)
+    EraseJournalEntry(@310256)
+    EraseJournalEntry(@310257)
+    EraseJournalEntry(@310258)
+    EraseJournalEntry(@310259)
+    EraseJournalEntry(@310260)
+    EraseJournalEntry(@310262)
+    EraseJournalEntry(@310263)
+    EraseJournalEntry(@310264)
+    EraseJournalEntry(@310267)
+    EraseJournalEntry(@310268)
+    EraseJournalEntry(@310270)
+    EraseJournalEntry(@310272)
+    EraseJournalEntry(@310279)
+    EraseJournalEntry(@310281)
+    EraseJournalEntry(@310287)
+    EraseJournalEntry(@310289)
+    EraseJournalEntry(@310291)
+    EraseJournalEntry(@310293)
+    EraseJournalEntry(@310296)
+    EraseJournalEntry(@310298)
+    EraseJournalEntry(@310299)
+    EraseJournalEntry(@310312)
+    EraseJournalEntry(@310314)
+    EraseJournalEntry(@310325)
+    EraseJournalEntry(@310454)
+    EraseJournalEntry(@310455)
+    EraseJournalEntry(@310457)
+    EraseJournalEntry(@310459)
+    EraseJournalEntry(@310462)
+    EraseJournalEntry(@310474)
+    EraseJournalEntry(@310524)
+    EraseJournalEntry(@310526)
+    EraseJournalEntry(@310535)
+    EraseJournalEntry(@310536)
+    EraseJournalEntry(@310537)
+    EraseJournalEntry(@310548)
+    EraseJournalEntry(@310553)
+    EraseJournalEntry(@310554)
+    EraseJournalEntry(@310558)
+    EraseJournalEntry(@310565)
+    EraseJournalEntry(@310566)
+    EraseJournalEntry(@310574)
+    EraseJournalEntry(@310576)
+    EraseJournalEntry(@310577)
+    EraseJournalEntry(@310578)
+    EraseJournalEntry(@310580)
+    EraseJournalEntry(@310587)
+    EraseJournalEntry(@310589)
+    EraseJournalEntry(@310596)
+    EraseJournalEntry(@310605)
+    EraseJournalEntry(@310608)
+    EraseJournalEntry(@310609)
+    EraseJournalEntry(@310610)
+    EraseJournalEntry(@310635)
+    EraseJournalEntry(@310636)
+    EraseJournalEntry(@310637)
+    EraseJournalEntry(@310638)
+    EraseJournalEntry(@310652)
+    EraseJournalEntry(@310653)
+    EraseJournalEntry(@310669)
+    EraseJournalEntry(@310672)
+    EraseJournalEntry(@310673)
+    EraseJournalEntry(@310674)
+    EraseJournalEntry(@310675)
+    EraseJournalEntry(@310677)
+    EraseJournalEntry(@310680)
+    EraseJournalEntry(@310684)
+    EraseJournalEntry(@310686)
+    EraseJournalEntry(@310687)
+    EraseJournalEntry(@310688)
+    EraseJournalEntry(@310690)
+    EraseJournalEntry(@310691)
+    EraseJournalEntry(@310693)
+    EraseJournalEntry(@310696)
+    EraseJournalEntry(@310704)
+    EraseJournalEntry(@310708)
+    EraseJournalEntry(@310709)
+    EraseJournalEntry(@310710)
+    EraseJournalEntry(@310711)
+    EraseJournalEntry(@310712)
+    EraseJournalEntry(@310713)
+    EraseJournalEntry(@310714)
+    EraseJournalEntry(@310717)
+    EraseJournalEntry(@310722)
+    EraseJournalEntry(@310723)
+    EraseJournalEntry(@310724)
+    EraseJournalEntry(@310725)
+    EraseJournalEntry(@310726)
+    EraseJournalEntry(@310727)
+    EraseJournalEntry(@310728)
+    EraseJournalEntry(@310729)
+    EraseJournalEntry(@310730)
+    EraseJournalEntry(@310731)
+    EraseJournalEntry(@310732)
+    EraseJournalEntry(@310805)
+    EraseJournalEntry(@310806)
+    EraseJournalEntry(@310811)
+    EraseJournalEntry(@310812)
+    EraseJournalEntry(@310813)
+    EraseJournalEntry(@320531)
+    EraseJournalEntry(@320539)
+    EraseJournalEntry(@320547)
+    EraseJournalEntry(@311183)
+    EraseJournalEntry(@311189)
+    EraseJournalEntry(@311199)
+    SmallWait(1)
+    EndCutSceneMode()
+    SetCursorState(TRUE)
+    Continue()
+END
+
+IF
+  PartyHasItem("MISC47")  // Golden Pantaloons
+  Global("IHavePants","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHavePants","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("ring25")  // Koveras' Ring of Protection
+  Global("IHaveRing","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveRing","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("helm07")  // Helm of Balduran
+  Global("IHaveBalduran","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveBalduran","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("sw1h13")  // Moonblade
+  Global("IHaveMoonblade","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveMoonblade","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("MISC72")  // The Claw of Kazgaroth
+  Global("IHaveClaw","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveClaw","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("MISC73")  // The Horn of Kazgaroth
+  Global("IHaveHorn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveHorn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("LEAT03")  // Protector of the Second +2
+  Global("IHaveSecond","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveSecond","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("PLAT02")  // Plate Mail +1
+  Global("IHavePlate","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHavePlate","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("LEAT06")  // Missile Attraction +2
+  Global("IHaveMissile","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveMissile","GLOBAL",1)
+    Continue()
+END
+
+IF
+  PartyHasItem("CHAN07")  // Chain Mail +3
+  Global("IHaveChain","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveChain","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Global("BG1DrizztItem","GLOBAL",0)
+  OR(3)
+    PartyHasItem("CHAN06") // Mithril Chain Mail +4
+    PartyHasItem("SW1H15") // Scimitar +3, Frostbrand
+    PartyHasItem("SW1H16") // Scimitar +5, Defender
+THEN
+  RESPONSE #100
+    SetGlobal("BG1DrizztItem","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,DropInventory())
+    ActionOverride(Player2,DropInventory())
+    ActionOverride(Player3,DropInventory())
+    ActionOverride(Player4,DropInventory())
+    ActionOverride(Player5,DropInventory())
+    ActionOverride(Player6,DropInventory())
+    ActionOverride("famfer",DropInventory())
+    MoveViewPoint([960.10],INSTANT)
+    SetGlobal("MeetOldenFriends","GLOBAL",1)
+    Continue()
+END
+
+IF
+  InParty("Imoen2")
+  Global("A6ImoenPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("Imoen2",LeaveParty())
+    ActionOverride("Imoen2",ChangeAIScript("",DEFAULT))
+    SetGlobal("ImoenPartyBG1","GLOBAL",1)
+    ActionOverride("Imoen2",MoveBetweenAreas("AR0602",[3198.2837],6))
+    SetGlobal("A6ImoenPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",2)
+    Continue()
+END
+
+IF
+  InPartyAllowDead("Imoen2")
+  Dead("Imoen2")
+  Global("ImoenPartyBG1","GLOBAL",0)
+  Global("A6ImoenPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("Imoen2",LeaveParty())
+    ActionOverride("Imoen2",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Imoen2",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Imoen2",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Imoen2",JumpToPoint([0.0]))
+    ActionOverride("Imoen2",AddFamiliar())
+    ActionOverride("Imoen2",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6ImoenPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",2)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Imoen2")
+  !Dead("Imoen2")
+  Global("ImoenPartyBG1","GLOBAL",0)
+  Global("A6ImoenPurgeGAM","ARAM00",0)
+  Global("A6ImoenWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",1)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Imoen2",[0.0])
+    ActionOverride("Imoen2",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Imoen2",AddFamiliar())
+    ActionOverride("Imoen2",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6ImoenPurgeGAM","ARAM00",1)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Imoen2")
+  Dead("Imoen2")
+  Global("ImoenPartyBG1","GLOBAL",0)
+  Global("A6ImoenPurgeGAM","ARAM00",0)
+  Global("A6ImoenWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",1)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Imoen2",[0.0])
+    ActionOverride("Imoen2",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Imoen2",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Imoen2",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Imoen2",AddFamiliar())
+    ActionOverride("Imoen2",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6ImoenPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("A6ImoenPurgeGAM","ARAM00",1)
+  Global("MeetOldenFriends","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("A6ImoenPurgeGAM","ARAM00",2)
+    SetGlobal("SPRITE_IS_DEADIMOEN2","GLOBAL",0)
+    SetGlobal("MeetOldenFriends","GLOBAL",2)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Imoen2")
+  Global("ImoenPartyBG1","GLOBAL",0)
+  Global("A6ImoenPurgeGAM","ARAM00",0)
+  Global("A6ImoenWasInParty","GLOBAL",0)
+  Global("MeetOldenFriends","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("A6ImoenPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",2)
+    Continue()
+END
+
+IF
+  InParty("Jaheira")
+  CheckStat("Jaheira",14,DEX)
+  Global("MeetOldenFriends","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BGDEX17","Jaheira")
+    Continue()
+END
+
+IF
+  InParty("Jaheira")
+  Global("A6JaheiraPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ActionOverride("Jaheira",LeaveParty())
+    ActionOverride("Jaheira",ChangeAIScript("",DEFAULT))
+    SetGlobal("JaheiraPartyBG1","GLOBAL",1)
+    ActionOverride("Jaheira",MoveBetweenAreas("AR0602",[3898.2676],6))
+    SetGlobal("A6JaheiraPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",3)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Jaheira")
+    Dead("Jaheira")
+    Global("JaheiraPartyBG1","GLOBAL",0)
+    Global("A6JaheiraPurgeGAM","ARAM00",0)
+    Global("MeetOldenFriends","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ActionOverride("Jaheira",LeaveParty())
+    ActionOverride("Jaheira",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Jaheira",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Jaheira",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Jaheira",JumpToPoint([0.0]))
+    ActionOverride("Jaheira",AddFamiliar())
+    ActionOverride("Jaheira",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6JaheiraPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",3)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Jaheira")
+  !Dead("Jaheira")
+  Global("JaheiraPartyBG1","GLOBAL",0)
+  Global("A6JaheiraPurgeGAM","ARAM00",0)
+  Global("A6JaheiraWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",2)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Jaheira",[0.0])
+    ActionOverride("Jaheira",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Jaheira",AddFamiliar())
+    ActionOverride("Jaheira",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6JaheiraPurgeGAM","ARAM00",1)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Jaheira")
+  Dead("Jaheira")
+  Global("JaheiraPartyBG1","GLOBAL",0)
+  Global("A6JaheiraPurgeGAM","ARAM00",0)
+  Global("A6JaheiraWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",2)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Jaheira",[0.0])
+    ActionOverride("Jaheira",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Jaheira",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Jaheira",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Jaheira",AddFamiliar())
+    ActionOverride("Jaheira",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6JaheiraPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",3)
+    Continue()
+END
+
+IF
+  Global("A6JaheiraPurgeGAM","ARAM00",1)
+  Global("MeetOldenFriends","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("A6JaheiraPurgeGAM","ARAM00",2)
+    SetGlobal("SPRITE_IS_DEADJAHEIRA","GLOBAL",0)
+    SetGlobal("MeetOldenFriends","GLOBAL",3)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Jaheira")
+  Global("JaheiraPartyBG1","GLOBAL",0)
+  Global("A6JaheiraPurgeGAM","ARAM00",0)
+  Global("A6JaheiraWasInParty","GLOBAL",0)
+  Global("MeetOldenFriends","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("A6JaheiraPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",3)
+    Continue()
+END
+
+IF
+  InParty("Minsc")
+  CheckStat("Minsc",15,DEX)
+  Global("MeetOldenFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BGDEX16","Minsc")
+    Continue()
+END
+
+IF
+  InParty("Minsc")
+  CheckStat("Minsc",15,CON)
+  Global("MeetOldenFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BGCON16","Minsc")
+    Continue()
+END
+
+IF
+  InParty("Minsc")
+  Global("A6MinscPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+    ActionOverride("Minsc",LeaveParty())
+    ActionOverride("Minsc",ChangeAIScript("",DEFAULT))
+    SetGlobal("MinscPartyBG1","GLOBAL",1)
+    ActionOverride("Minsc",MoveBetweenAreas("AR0602",[4029.2759],6))
+    SetGlobal("A6MinscPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",4)
+    Continue()
+END
+
+IF
+  InPartyAllowDead("Minsc")
+  Dead("Minsc")
+  Global("MinscPartyBG1","GLOBAL",0)
+  Global("A6MinscPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+    ActionOverride("Minsc",LeaveParty())
+    ActionOverride("Minsc",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Minsc",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Minsc",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Minsc",JumpToPoint([0.0]))
+    ActionOverride("Minsc",AddFamiliar())
+    ActionOverride("Minsc",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6MinscPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",4)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Minsc")
+  !Dead("Minsc")
+  Global("MinscPartyBG1","GLOBAL",0)
+  Global("A6MinscPurgeGAM","ARAM00",0)
+  Global("A6MinscWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Minsc",[0.0])
+    ActionOverride("Minsc",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Minsc",AddFamiliar())
+    ActionOverride("Minsc",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6MinscPurgeGAM","ARAM00",1)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Minsc")
+  Dead("Minsc")
+  Global("MinscPartyBG1","GLOBAL",0)
+  Global("A6MinscPurgeGAM","ARAM00",0)
+  Global("A6MinscWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Minsc",[0.0])
+    ActionOverride("Minsc",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Minsc",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Minsc",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Minsc",AddFamiliar())
+    ActionOverride("Minsc",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6MinscPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",4)
+    Continue()
+END
+
+IF
+  Global("A6MinscPurgeGAM","ARAM00",1)
+  Global("MeetOldenFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("A6MinscPurgeGAM","ARAM00",2)
+    SetGlobal("SPRITE_IS_DEADMINSC","GLOBAL",0)
+    SetGlobal("MeetOldenFriends","GLOBAL",4)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Minsc")
+  Global("MinscPartyBG1","GLOBAL",0)
+  Global("A6MinscPurgeGAM","ARAM00",0)
+  Global("A6MinscWasInParty","GLOBAL",0)
+  Global("MeetOldenFriends","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("A6MinscPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",4)
+    Continue()
+END
+
+IF
+  InParty("Viconia")
+  CheckStat("Viconia",15,WIS)
+  Global("MeetOldenFriends","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BGWIS18","Viconia")
+    Continue()
+END
+
+IF
+  InParty("Viconia")
+  CheckStat("Viconia",50,RESISTMAGIC)
+  Global("MeetOldenFriends","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BGMAG65","Viconia")
+    Continue()
+END
+
+IF
+  InParty("Viconia")
+  Global("A6ViconiaPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ActionOverride("Viconia",LeaveParty())
+    ActionOverride("Viconia",ChangeAIScript("",DEFAULT))
+    SetGlobal("ViconiaPartyBG1","GLOBAL",1)
+    ActionOverride("Viconia",MoveBetweenAreas("AR1000",[1821.1081],11))
+    SetGlobal("A6ViconiaPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",5)
+    Continue()
+END
+
+IF
+  InPartyAllowDead("Viconia")
+  Dead("Viconia")
+  Global("ViconiaPartyBG1","GLOBAL",0)
+  Global("A6ViconiaPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ActionOverride("Viconia",LeaveParty())
+    ActionOverride("Viconia",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Viconia",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Viconia",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Viconia",JumpToPoint([0.0]))
+    ActionOverride("Viconia",AddFamiliar())
+    ActionOverride("Viconia",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6ViconiaPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",5)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Viconia")
+  !Dead("Viconia")
+  Global("ViconiaPartyBG1","GLOBAL",0)
+  Global("A6ViconiaPurgeGAM","ARAM00",0)
+  Global("A6ViconiaWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",4)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Viconia",[0.0])
+    ActionOverride("Viconia",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Viconia",AddFamiliar())
+    ActionOverride("Viconia",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6ViconiaPurgeGAM","ARAM00",1)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Viconia")
+  Dead("Viconia")
+  Global("ViconiaPartyBG1","GLOBAL",0)
+  Global("A6ViconiaPurgeGAM","ARAM00",0)
+  Global("A6ViconiaWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",4)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Viconia",[0.0])
+    ActionOverride("Viconia",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Viconia",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Viconia",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Viconia",AddFamiliar())
+    ActionOverride("Viconia",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6ViconiaPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",5)
+    Continue()
+END
+
+IF
+  Global("A6ViconiaPurgeGAM","ARAM00",1)
+  Global("MeetOldenFriends","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("A6ViconiaPurgeGAM","ARAM00",2)
+    SetGlobal("SPRITE_IS_DEADVICONIA","GLOBAL",0)
+    SetGlobal("MeetOldenFriends","GLOBAL",5)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Viconia")
+  Global("ViconiaPartyBG1","GLOBAL",0)
+  Global("A6ViconiaPurgeGAM","ARAM00",0)
+  Global("A6ViconiaWasInParty","GLOBAL",0)
+  Global("MeetOldenFriends","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("A6ViconiaPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",5)
+    Continue()
+END
+
+IF
+  InParty("Edwin")
+  CheckStat("Edwin",9,STR)
+  Global("MeetOldenFriends","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BGSTR10","Edwin")
+    Continue()
+END
+
+IF
+  InParty("Edwin")
+  CheckStat("Edwin",9,WIS)
+  Global("MeetOldenFriends","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ApplySpellRES("BGWIS10","Edwin")
+    Continue()
+END
+
+IF
+  InParty("Edwin")
+  Global("A6EdwinPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ActionOverride("Edwin",LeaveParty())
+    ActionOverride("Edwin",ChangeAIScript("",DEFAULT))
+    SetGlobal("EdwinPartyBG1","GLOBAL",1)
+    ActionOverride("Edwin",MoveBetweenAreas("AR0304",[852.340],4))
+    SetGlobal("A6EdwinPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",6)
+    Continue()
+END
+
+IF
+  InPartyAllowDead("Edwin")
+  Dead("Edwin")
+  Global("EdwinPartyBG1","GLOBAL",0)
+  Global("A6EdwinPurgeGAM","ARAM00",0)
+  Global("MeetOldenFriends","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ActionOverride("Edwin",LeaveParty())
+    ActionOverride("Edwin",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Edwin",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Edwin",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Edwin",JumpToPoint([0.0]))
+    ActionOverride("Edwin",AddFamiliar())
+    ActionOverride("Edwin",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6EdwinPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",6)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Edwin")
+  !Dead("Edwin")
+  Global("EdwinPartyBG1","GLOBAL",0)
+  Global("A6EdwinPurgeGAM","ARAM00",0)
+  Global("A6EdwinWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",5)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Edwin",[0.0])
+    ActionOverride("Edwin",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Edwin",AddFamiliar())
+    ActionOverride("Edwin",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6EdwinPurgeGAM","ARAM00",1)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Edwin")
+  Dead("Edwin")
+  Global("EdwinPartyBG1","GLOBAL",0)
+  Global("A6EdwinPurgeGAM","ARAM00",0)
+  Global("A6EdwinWasInParty","GLOBAL",1)
+  Global("MeetOldenFriends","GLOBAL",5)
+THEN
+  RESPONSE #100
+    MoveGlobal("ARAM00","Edwin",[0.0])
+    ActionOverride("Edwin",ApplySpellRES("BGLIVE",Myself))
+    ActionOverride("Edwin",SetPlayerSound(Myself,-1,DYING))
+    ActionOverride("Edwin",ApplySpellRES("BGSILENC",Myself))
+    ActionOverride("Edwin",AddFamiliar())
+    ActionOverride("Edwin",ApplySpellRES("BGDEATH",Myself))
+    SetGlobal("A6EdwinPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",6)
+    Continue()
+END
+
+IF
+  Global("A6EdwinPurgeGAM","ARAM00",1)
+  Global("MeetOldenFriends","GLOBAL",5)
+THEN
+  RESPONSE #100
+    SetGlobal("A6EdwinPurgeGAM","ARAM00",2)
+    SetGlobal("SPRITE_IS_DEADEDWIN","GLOBAL",0)
+    SetGlobal("MeetOldenFriends","GLOBAL",6)
+    Continue()
+END
+
+IF
+  !InPartyAllowDead("Edwin")
+  Global("EdwinPartyBG1","GLOBAL",0)
+  Global("A6EdwinPurgeGAM","ARAM00",0)
+  Global("A6EdwinWasInParty","GLOBAL",0)
+  Global("MeetOldenFriends","GLOBAL",5)
+THEN
+  RESPONSE #100
+    SetGlobal("A6EdwinPurgeGAM","ARAM00",2)
+    SetGlobal("MeetOldenFriends","GLOBAL",6)
+    Continue()
+END
+
+IF
+    InParty("Khalid")
+    Global("MeetOldenFriends","GLOBAL",6)
+THEN
+  RESPONSE #100
+    ActionOverride("Khalid",LeaveParty())
+    ActionOverride("Khalid",ChangeAIScript("",DEFAULT))
+    ActionOverride("Khalid",ClearAllActions())
+    ActionOverride("Khalid",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",7)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Khalid")
+    Dead("Khalid")
+    Global("MeetOldenFriends","GLOBAL",6)
+THEN
+  RESPONSE #100
+    ActionOverride("Khalid",LeaveParty())
+    ActionOverride("Khalid",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",7)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Khalid")
+    Global("MeetOldenFriends","GLOBAL",6)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",7)
+    Continue()
+END
+
+IF
+    InParty("Dynaheir")
+    Global("MeetOldenFriends","GLOBAL",7)
+THEN
+  RESPONSE #100
+    ActionOverride("Dynaheir",LeaveParty())
+    ActionOverride("Dynaheir",ChangeAIScript("",DEFAULT))
+    ActionOverride("Dynaheir",ClearAllActions())
+    ActionOverride("Dynaheir",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",8)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Dynaheir")
+    Dead("Dynaheir")
+    Global("MeetOldenFriends","GLOBAL",7)
+THEN
+  RESPONSE #100
+    ActionOverride("Dynaheir",LeaveParty())
+    ActionOverride("Dynaheir",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",8)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Dynaheir")
+    Global("MeetOldenFriends","GLOBAL",7)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",8)
+    Continue()
+END
+
+IF
+    InParty("Quayle")
+    Global("MeetOldenFriends","GLOBAL",8)
+THEN
+  RESPONSE #100
+    ActionOverride("Quayle",LeaveParty())
+    ActionOverride("Quayle",ChangeAIScript("",DEFAULT))
+    ActionOverride("Quayle",ClearAllActions())
+    ActionOverride("Quayle",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",9)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Quayle")
+    Dead("Quayle")
+    Global("MeetOldenFriends","GLOBAL",8)
+THEN
+  RESPONSE #100
+    ActionOverride("Quayle",LeaveParty())
+    ActionOverride("Quayle",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",9)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Quayle")
+    Global("MeetOldenFriends","GLOBAL",8)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",9)
+    Continue()
+END
+
+IF
+    InParty("Xzar")
+    Global("MeetOldenFriends","GLOBAL",9)
+THEN
+  RESPONSE #100
+    ActionOverride("Xzar",LeaveParty())
+    ActionOverride("Xzar",ChangeAIScript("",DEFAULT))
+    ActionOverride("Xzar",ClearAllActions())
+    ActionOverride("Xzar",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",10)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Xzar")
+    Dead("Xzar")
+    Global("MeetOldenFriends","GLOBAL",9)
+THEN
+  RESPONSE #100
+    ActionOverride("Xzar",LeaveParty())
+    ActionOverride("Xzar",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",10)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Xzar")
+    Global("MeetOldenFriends","GLOBAL",9)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",10)
+    Continue()
+END
+
+IF
+    InParty("Montaron")
+    Global("MeetOldenFriends","GLOBAL",10)
+THEN
+  RESPONSE #100
+    ActionOverride("Montaron",LeaveParty())
+    ActionOverride("Montaron",ChangeAIScript("",DEFAULT))
+    ActionOverride("Montaron",ClearAllActions())
+    ActionOverride("Montaron",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",11)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Montaron")
+    Dead("Montaron")
+    Global("MeetOldenFriends","GLOBAL",10)
+THEN
+  RESPONSE #100
+    ActionOverride("Montaron",LeaveParty())
+    ActionOverride("Montaron",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",11)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Montaron")
+    Global("MeetOldenFriends","GLOBAL",10)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",11)
+    Continue()
+END
+
+IF
+    InParty("Coran")
+    Global("MeetOldenFriends","GLOBAL",11)
+THEN
+  RESPONSE #100
+    ActionOverride("Coran",LeaveParty())
+    ActionOverride("Coran",ChangeAIScript("",DEFAULT))
+    ActionOverride("Coran",ClearAllActions())
+    ActionOverride("Coran",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",12)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Coran")
+    Dead("Coran")
+    Global("MeetOldenFriends","GLOBAL",11)
+THEN
+  RESPONSE #100
+    ActionOverride("Coran",LeaveParty())
+    ActionOverride("Coran",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",12)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Coran")
+    Global("MeetOldenFriends","GLOBAL",11)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",12)
+    Continue()
+END
+
+IF
+    InParty("Alora")
+    Global("MeetOldenFriends","GLOBAL",12)
+THEN
+  RESPONSE #100
+    ActionOverride("Alora",LeaveParty())
+    ActionOverride("Alora",ChangeAIScript("",DEFAULT))
+    ActionOverride("Alora",ClearAllActions())
+    ActionOverride("Alora",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",13)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Alora")
+    Dead("Alora")
+    Global("MeetOldenFriends","GLOBAL",12)
+THEN
+  RESPONSE #100
+    ActionOverride("Alora",LeaveParty())
+    ActionOverride("Alora",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",13)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Alora")
+    Global("MeetOldenFriends","GLOBAL",12)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",13)
+    Continue()
+END
+
+IF
+    InParty("Branwen")
+    Global("MeetOldenFriends","GLOBAL",13)
+THEN
+  RESPONSE #100
+    ActionOverride("Branwen",LeaveParty())
+    ActionOverride("Branwen",ChangeAIScript("",DEFAULT))
+    ActionOverride("Branwen",ClearAllActions())
+    ActionOverride("Branwen",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",14)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Branwen")
+    Dead("Branwen")
+    Global("MeetOldenFriends","GLOBAL",13)
+THEN
+  RESPONSE #100
+    ActionOverride("Branwen",LeaveParty())
+    ActionOverride("Branwen",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",14)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Branwen")
+    Global("MeetOldenFriends","GLOBAL",13)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",14)
+    Continue()
+END
+
+IF
+    InParty("Eldoth")
+    Global("MeetOldenFriends","GLOBAL",14)
+THEN
+  RESPONSE #100
+    ActionOverride("Eldoth",LeaveParty())
+    ActionOverride("Eldoth",ChangeAIScript("",DEFAULT))
+    ActionOverride("Eldoth",ClearAllActions())
+    ActionOverride("Eldoth",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",15)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Eldoth")
+    Dead("Eldoth")
+    Global("MeetOldenFriends","GLOBAL",14)
+THEN
+  RESPONSE #100
+    ActionOverride("Eldoth",LeaveParty())
+    ActionOverride("Eldoth",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",15)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Eldoth")
+    Global("MeetOldenFriends","GLOBAL",14)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",15)
+    Continue()
+END
+
+IF
+    InParty("Skie")
+    Global("MeetOldenFriends","GLOBAL",15)
+THEN
+  RESPONSE #100
+    ActionOverride("Skie",LeaveParty())
+    ActionOverride("Skie",ChangeAIScript("",DEFAULT))
+    ActionOverride("Skie",ClearAllActions())
+    ActionOverride("Skie",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",16)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Skie")
+    Dead("Skie")
+    Global("MeetOldenFriends","GLOBAL",15)
+THEN
+  RESPONSE #100
+    ActionOverride("Skie",LeaveParty())
+    ActionOverride("Skie",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",16)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Skie")
+    Global("MeetOldenFriends","GLOBAL",15)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",16)
+    Continue()
+END
+
+IF
+    InParty("Xan")
+    Global("MeetOldenFriends","GLOBAL",16)
+THEN
+  RESPONSE #100
+    ActionOverride("Xan",LeaveParty())
+    ActionOverride("Xan",ChangeAIScript("",DEFAULT))
+    ActionOverride("Xan",ClearAllActions())
+    ActionOverride("Xan",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",17)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Xan")
+    Dead("Xan")
+    Global("MeetOldenFriends","GLOBAL",16)
+THEN
+  RESPONSE #100
+    ActionOverride("Xan",LeaveParty())
+    ActionOverride("Xan",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",17)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Xan")
+    Global("MeetOldenFriends","GLOBAL",16)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",17)
+    Continue()
+END
+
+IF
+    InParty("Safana")
+    Global("MeetOldenFriends","GLOBAL",17)
+THEN
+  RESPONSE #100
+    ActionOverride("Safana",LeaveParty())
+    ActionOverride("Safana",ChangeAIScript("",DEFAULT))
+    ActionOverride("Safana",ClearAllActions())
+    ActionOverride("Safana",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",18)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Safana")
+    Dead("Safana")
+    Global("MeetOldenFriends","GLOBAL",17)
+THEN
+  RESPONSE #100
+    ActionOverride("Safana",LeaveParty())
+    ActionOverride("Safana",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",18)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Safana")
+    Global("MeetOldenFriends","GLOBAL",17)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",18)
+    Continue()
+END
+
+IF
+    InParty("Garrick")
+    Global("MeetOldenFriends","GLOBAL",18)
+THEN
+  RESPONSE #100
+    ActionOverride("Garrick",LeaveParty())
+    ActionOverride("Garrick",ChangeAIScript("",DEFAULT))
+    ActionOverride("Garrick",ClearAllActions())
+    ActionOverride("Garrick",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",19)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Garrick")
+    Dead("Garrick")
+    Global("MeetOldenFriends","GLOBAL",18)
+THEN
+  RESPONSE #100
+    ActionOverride("Garrick",LeaveParty())
+    ActionOverride("Garrick",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",19)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Garrick")
+    Global("MeetOldenFriends","GLOBAL",18)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",19)
+    Continue()
+END
+
+IF
+    InParty("Tiax")
+    Global("MeetOldenFriends","GLOBAL",19)
+THEN
+  RESPONSE #100
+    ActionOverride("Tiax",LeaveParty())
+    ActionOverride("Tiax",ChangeAIScript("",DEFAULT))
+    ActionOverride("Tiax",ClearAllActions())
+    ActionOverride("Tiax",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",20)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Tiax")
+    Dead("Tiax")
+    Global("MeetOldenFriends","GLOBAL",19)
+THEN
+  RESPONSE #100
+    ActionOverride("Tiax",LeaveParty())
+    ActionOverride("Tiax",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",20)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Tiax")
+    Global("MeetOldenFriends","GLOBAL",19)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",20)
+    Continue()
+END
+
+IF
+    InParty("Kivan")
+    Global("MeetOldenFriends","GLOBAL",20)
+THEN
+  RESPONSE #100
+    ActionOverride("Kivan",LeaveParty())
+    ActionOverride("Kivan",ChangeAIScript("",DEFAULT))
+    ActionOverride("Kivan",ClearAllActions())
+    ActionOverride("Kivan",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",21)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Kivan")
+    Dead("Kivan")
+    Global("MeetOldenFriends","GLOBAL",20)
+THEN
+  RESPONSE #100
+    ActionOverride("Kivan",LeaveParty())
+    ActionOverride("Kivan",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",21)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Kivan")
+    Global("MeetOldenFriends","GLOBAL",20)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",21)
+    Continue()
+END
+
+IF
+    InParty("Yeslick")
+    Global("MeetOldenFriends","GLOBAL",21)
+THEN
+  RESPONSE #100
+    ActionOverride("Yeslick",LeaveParty())
+    ActionOverride("Yeslick",ChangeAIScript("",DEFAULT))
+    ActionOverride("Yeslick",ClearAllActions())
+    ActionOverride("Yeslick",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",22)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Yeslick")
+    Dead("Yeslick")
+    Global("MeetOldenFriends","GLOBAL",21)
+THEN
+  RESPONSE #100
+    ActionOverride("Yeslick",LeaveParty())
+    ActionOverride("Yeslick",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",22)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Yeslick")
+    Global("MeetOldenFriends","GLOBAL",21)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",22)
+    Continue()
+END
+
+IF
+    InParty("Kagain")
+    Global("MeetOldenFriends","GLOBAL",22)
+THEN
+  RESPONSE #100
+    ActionOverride("Kagain",LeaveParty())
+    ActionOverride("Kagain",ChangeAIScript("",DEFAULT))
+    ActionOverride("Kagain",ClearAllActions())
+    ActionOverride("Kagain",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",23)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Kagain")
+    Dead("Kagain")
+    Global("MeetOldenFriends","GLOBAL",22)
+THEN
+  RESPONSE #100
+    ActionOverride("Kagain",LeaveParty())
+    ActionOverride("Kagain",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",23)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Kagain")
+    Global("MeetOldenFriends","GLOBAL",22)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",23)
+    Continue()
+END
+
+IF
+    InParty("Sharteel")
+    Global("MeetOldenFriends","GLOBAL",23)
+THEN
+  RESPONSE #100
+    ActionOverride("Sharteel",LeaveParty())
+    ActionOverride("Sharteel",ChangeAIScript("",DEFAULT))
+    ActionOverride("Sharteel",ClearAllActions())
+    ActionOverride("Sharteel",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",24)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Sharteel")
+    Dead("Sharteel")
+    Global("MeetOldenFriends","GLOBAL",23)
+THEN
+  RESPONSE #100
+    ActionOverride("Sharteel",LeaveParty())
+    ActionOverride("Sharteel",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",24)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Sharteel")
+    Global("MeetOldenFriends","GLOBAL",23)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",24)
+    Continue()
+END
+
+IF
+    InParty("Faldorn")
+    Global("MeetOldenFriends","GLOBAL",24)
+THEN
+  RESPONSE #100
+    ActionOverride("Faldorn",LeaveParty())
+    ActionOverride("Faldorn",ChangeAIScript("",DEFAULT))
+    ActionOverride("Faldorn",ClearAllActions())
+    ActionOverride("Faldorn",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",25)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Faldorn")
+    Dead("Faldorn")
+    Global("MeetOldenFriends","GLOBAL",24)
+THEN
+  RESPONSE #100
+    ActionOverride("Faldorn",LeaveParty())
+    ActionOverride("Faldorn",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",25)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Faldorn")
+    Global("MeetOldenFriends","GLOBAL",24)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",25)
+    Continue()
+END
+
+IF
+    InParty("Ajantis")
+    Global("MeetOldenFriends","GLOBAL",25)
+THEN
+  RESPONSE #100
+    ActionOverride("Ajantis",LeaveParty())
+    ActionOverride("Ajantis",ChangeAIScript("",DEFAULT))
+    ActionOverride("Ajantis",ClearAllActions())
+    ActionOverride("Ajantis",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",26)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Ajantis")
+    Dead("Ajantis")
+    Global("MeetOldenFriends","GLOBAL",25)
+THEN
+  RESPONSE #100
+    ActionOverride("Ajantis",LeaveParty())
+    ActionOverride("Ajantis",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",26)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Ajantis")
+    Global("MeetOldenFriends","GLOBAL",25)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",26)
+    Continue()
+END
+
+IF
+    InParty("Conchobhair")
+    Global("MeetOldenFriends","GLOBAL",26)
+THEN
+  RESPONSE #100
+    ActionOverride("Conchobhair",LeaveParty())
+    ActionOverride("Conchobhair",ChangeAIScript("",DEFAULT))
+    ActionOverride("Conchobhair",ClearAllActions())
+    ActionOverride("Conchobhair",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",27)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Conchobhair")
+    Dead("Conchobhair")
+    Global("MeetOldenFriends","GLOBAL",26)
+THEN
+  RESPONSE #100
+    ActionOverride("Conchobhair",LeaveParty())
+    ActionOverride("Conchobhair",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",27)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Conchobhair")
+    Global("MeetOldenFriends","GLOBAL",26)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",27)
+    Continue()
+END
+
+IF
+    InParty("Ferthgil")
+    Global("MeetOldenFriends","GLOBAL",27)
+THEN
+  RESPONSE #100
+    ActionOverride("Ferthgil",LeaveParty())
+    ActionOverride("Ferthgil",ChangeAIScript("",DEFAULT))
+    ActionOverride("Ferthgil",ClearAllActions())
+    ActionOverride("Ferthgil",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",28)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Ferthgil")
+    Dead("Ferthgil")
+    Global("MeetOldenFriends","GLOBAL",27)
+THEN
+  RESPONSE #100
+    ActionOverride("Ferthgil",LeaveParty())
+    ActionOverride("Ferthgil",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",28)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Ferthgil")
+    Global("MeetOldenFriends","GLOBAL",27)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",28)
+    Continue()
+END
+
+IF
+    InParty("Jetlaya")
+    Global("MeetOldenFriends","GLOBAL",28)
+THEN
+  RESPONSE #100
+    ActionOverride("Jetlaya",LeaveParty())
+    ActionOverride("Jetlaya",ChangeAIScript("",DEFAULT))
+    ActionOverride("Jetlaya",ClearAllActions())
+    ActionOverride("Jetlaya",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",29)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Jetlaya")
+    Dead("Jetlaya")
+    Global("MeetOldenFriends","GLOBAL",28)
+THEN
+  RESPONSE #100
+    ActionOverride("Jetlaya",LeaveParty())
+    ActionOverride("Jetlaya",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",29)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Jetlaya")
+    Global("MeetOldenFriends","GLOBAL",28)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",29)
+    Continue()
+END
+
+IF
+    InParty("Keiria")
+    Global("MeetOldenFriends","GLOBAL",29)
+THEN
+  RESPONSE #100
+    ActionOverride("Keiria",LeaveParty())
+    ActionOverride("Keiria",ChangeAIScript("",DEFAULT))
+    ActionOverride("Keiria",ClearAllActions())
+    ActionOverride("Keiria",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",30)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Keiria")
+    Dead("Keiria")
+    Global("MeetOldenFriends","GLOBAL",29)
+THEN
+  RESPONSE #100
+    ActionOverride("Keiria",LeaveParty())
+    ActionOverride("Keiria",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",30)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Keiria")
+    Global("MeetOldenFriends","GLOBAL",29)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",30)
+    Continue()
+END
+
+IF
+    InParty("Skeezer")
+    Global("MeetOldenFriends","GLOBAL",30)
+THEN
+  RESPONSE #100
+    ActionOverride("Skeezer",LeaveParty())
+    ActionOverride("Skeezer",ChangeAIScript("",DEFAULT))
+    ActionOverride("Skeezer",ClearAllActions())
+    ActionOverride("Skeezer",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",31)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Skeezer")
+    Dead("Skeezer")
+    Global("MeetOldenFriends","GLOBAL",30)
+THEN
+  RESPONSE #100
+    ActionOverride("Skeezer",LeaveParty())
+    ActionOverride("Skeezer",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",31)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Skeezer")
+    Global("MeetOldenFriends","GLOBAL",30)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",31)
+    Continue()
+END
+
+IF
+    InParty("DSBub")
+    Global("MeetOldenFriends","GLOBAL",31)
+THEN
+  RESPONSE #100
+    ActionOverride("DSBub",LeaveParty())
+    ActionOverride("DSBub",ChangeAIScript("",DEFAULT))
+    ActionOverride("DSBub",ClearAllActions())
+    ActionOverride("DSBub",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",32)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("DSBub")
+    Dead("DSBub")
+    Global("MeetOldenFriends","GLOBAL",31)
+THEN
+  RESPONSE #100
+    ActionOverride("DSBub",LeaveParty())
+    ActionOverride("DSBub",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",32)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("DSBub")
+    Global("MeetOldenFriends","GLOBAL",31)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",32)
+    Continue()
+END
+
+IF
+    InParty("Will")
+    Global("MeetOldenFriends","GLOBAL",32)
+THEN
+  RESPONSE #100
+    ActionOverride("Will",LeaveParty())
+    ActionOverride("Will",ChangeAIScript("",DEFAULT))
+    ActionOverride("Will",ClearAllActions())
+    ActionOverride("Will",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",33)
+    Continue()
+END
+
+IF
+    InPartyAllowDead("Will")
+    Dead("Will")
+    Global("MeetOldenFriends","GLOBAL",32)
+THEN
+  RESPONSE #100
+    ActionOverride("Will",LeaveParty())
+    ActionOverride("Will",DestroySelf())
+    SetGlobal("MeetOldenFriends","GLOBAL",33)
+    Continue()
+END
+
+IF
+    !InPartyAllowDead("Will")
+    Global("MeetOldenFriends","GLOBAL",32)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",33)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",33)
+  Global("A6StartARAM00","ARAM00",0)
+THEN
+  RESPONSE #100
+    SetGlobal("MeetOldenFriends","GLOBAL",100)
+    SetGlobal("A6StartARAM00","ARAM00",1)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",1)
+  !InParty("Minsc")
+  !InParty("Jaheira")
+  !InParty("Imoen2")
+  !InParty("Khalid")
+  !InParty("Dynaheir")
+  !InParty("Edwin")
+  !InParty("Viconia")
+THEN
+  RESPONSE #100
+    FadeToColor([0.0],0)
+    Explore()
+    MoveViewPoint([618.210],INSTANT)
+    ActionOverride(Player1,JumpToPoint([618.210]))
+    ActionOverride(Player2,JumpToPoint([705.224]))
+    ActionOverride(Player3,JumpToPoint([745.205]))
+    ActionOverride(Player4,JumpToPoint([784.226]))
+    ActionOverride(Player5,JumpToPoint([817.256]))
+    ActionOverride(Player6,JumpToPoint([911.255]))
+    SetGlobal("A6StartARAM00","ARAM00",2)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",2)
+THEN
+  RESPONSE #100
+    CreateCreature("BPIMOEN",[756.267],3)
+    SetGlobal("A6StartARAM00","ARAM00",3)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",3)
+  Dead("Khalid")
+THEN
+  RESPONSE #100
+    SetGlobal("A6StartARAM00","ARAM00",4)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",3)
+  !Dead("Khalid")
+THEN
+  RESPONSE #100
+    CreateCreature("BPKHALID",[862.329],3)
+    ActionOverride("BPKHALID",FaceObject(Player1))
+    SetGlobal("A6StartARAM00","ARAM00",4)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",4)
+  Dead("Jaheira")
+THEN
+  RESPONSE #100
+    SetGlobal("A6StartARAM00","ARAM00",5)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",4)
+  !Dead("Jaheira")
+THEN
+  RESPONSE #100
+    Wait(2)
+    CreateCreature("BPJAHEIR",[847.368],3)
+    ActionOverride("BPJAHEIR",FaceObject(Player1))
+    SetGlobal("A6StartARAM00","ARAM00",5)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",5)
+  Dead("Dynaheir")
+THEN
+  RESPONSE #100
+    SetGlobal("A6StartARAM00","ARAM00",6)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",5)
+  !Dead("Dynaheir")
+THEN
+  RESPONSE #100
+    CreateCreature("BPDYNAHE",[659.278],3)
+    ActionOverride("BPDYNAHE",FaceObject(Player1))
+    SetGlobal("A6StartARAM00","ARAM00",6)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",6)
+  Dead("Minsc")
+THEN
+  RESPONSE #100
+    SetGlobal("A6StartARAM00","ARAM00",7)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",6)
+  !Dead("Minsc")
+THEN
+  RESPONSE #100
+    CreateCreature("BPMINSC",[638.291],3)
+    ActionOverride("BPMINSC",FaceObject(Player1))
+    SetGlobal("A6StartARAM00","ARAM00",7)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",7)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@310047) //all info journal entries
+    EraseJournalEntry(@310192)
+    EraseJournalEntry(@310193)
+    EraseJournalEntry(@310213)
+    EraseJournalEntry(@310328)
+    EraseJournalEntry(@310329)
+    EraseJournalEntry(@310330)
+    EraseJournalEntry(@310375)
+    EraseJournalEntry(@310376)
+    EraseJournalEntry(@310377)
+    EraseJournalEntry(@310449)
+    EraseJournalEntry(@310450)
+    EraseJournalEntry(@310540)
+    EraseJournalEntry(@310733)
+    EraseJournalEntry(@310734)
+    EraseJournalEntry(@310735)
+    EraseJournalEntry(@310736)
+    EraseJournalEntry(@310737)
+    EraseJournalEntry(@310738)
+    EraseJournalEntry(@310739)
+    EraseJournalEntry(@310740)
+    EraseJournalEntry(@310741)
+    EraseJournalEntry(@310742)
+    EraseJournalEntry(@310743)
+    EraseJournalEntry(@310744)
+    EraseJournalEntry(@310745)
+    EraseJournalEntry(@310746)
+    EraseJournalEntry(@310748)
+    EraseJournalEntry(@310749)
+    EraseJournalEntry(@310750)
+    EraseJournalEntry(@310751)
+    EraseJournalEntry(@310752)
+    EraseJournalEntry(@310753)
+    EraseJournalEntry(@310754)
+    EraseJournalEntry(@310755)
+    EraseJournalEntry(@310756)
+    EraseJournalEntry(@310757)
+    EraseJournalEntry(@310758)
+    EraseJournalEntry(@310759)
+    EraseJournalEntry(@310760)
+    EraseJournalEntry(@310761)
+    EraseJournalEntry(@310762)
+    EraseJournalEntry(@310763)
+    EraseJournalEntry(@310764)
+    EraseJournalEntry(@310765)
+    EraseJournalEntry(@310766)
+    EraseJournalEntry(@310767)
+    EraseJournalEntry(@310560)
+    EraseJournalEntry(@310768)
+    EraseJournalEntry(@310769)
+    EraseJournalEntry(@310770)
+    EraseJournalEntry(@310771)
+    EraseJournalEntry(@310772)
+    EraseJournalEntry(@310773)
+    EraseJournalEntry(@310774)
+    EraseJournalEntry(@310775)
+    EraseJournalEntry(@310776)
+    EraseJournalEntry(@310777)
+    EraseJournalEntry(@310778)
+    EraseJournalEntry(@310779)
+    EraseJournalEntry(@310780)
+    EraseJournalEntry(@310781)
+    EraseJournalEntry(@310782)
+    EraseJournalEntry(@310783)
+    EraseJournalEntry(@310784)
+    EraseJournalEntry(@310785)
+    EraseJournalEntry(@310786)
+    EraseJournalEntry(@310787)
+    EraseJournalEntry(@310788)
+    EraseJournalEntry(@310789)
+    EraseJournalEntry(@320522)
+    EraseJournalEntry(@310790)
+    EraseJournalEntry(@310791)
+    EraseJournalEntry(@310792)
+    EraseJournalEntry(@310794)
+    EraseJournalEntry(@310795)
+    EraseJournalEntry(@310796)
+    EraseJournalEntry(@310799)
+    EraseJournalEntry(@310801)
+    EraseJournalEntry(@310802)
+    EraseJournalEntry(@310814)
+    ChangeEnemyAlly("BPIMOEN",GOODCUTOFF)
+    ChangeEnemyAlly("BPJAHEIR",GOODCUTOFF)
+    ChangeEnemyAlly("BPKHALID",GOODCUTOFF)
+    ChangeEnemyAlly("BPDYNAHE",GOODCUTOFF)
+    ChangeEnemyAlly("BPMINSC",GOODCUTOFF)
+    ApplySpellRES("BGSLEEP",Player2)
+    ApplySpellRES("BGSLEEP",Player3)
+    ApplySpellRES("BGSLEEP",Player4)
+    ApplySpellRES("BGSLEEP",Player5)
+    ApplySpellRES("BGSLEEP",Player6)
+    ApplySpellRES("BGSLEEP","BPIMOEN")
+    ApplySpellRES("BGSLEEP","BPJAHEIR")
+    ApplySpellRES("BGSLEEP","BPKHALID")
+    ApplySpellRES("BGSLEEP","BPDYNAHE")
+    ApplySpellRES("BGSLEEP","BPMINSC")
+    ApplySpellRES("BGSLEEP",Player1)
+    SetGlobal("A6StartARAM00","ARAM00",8)
+    Continue()
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",8)
+THEN
+  RESPONSE #100
+    CreateCreature("AMBMAEVR",[515.360],4)
+    CreateCreature("AMBTHIF2",[568.394],2)
+    CreateCreature("AMBSTHF0",[561.205],5)
+    CreateCreature("AMBSTHF0",[720.260],5)
+    CreateCreature("AMBSTHF0",[959.292],10)
+    CreateCreature("AMBSTHF0",[706.352],2)
+    CreateCreature("AMBSTHF0",[588.320],5)
+    CreateCreature("AMBSTHF0",[739.176],5)
+    CreateCreature("AMBSTHF0",[486.266],5)
+    CreateCreature("AMBSTHF0",[634.386],10)
+    CreateCreature("AMBSTHF0",[657.142],2)
+    CreateCreature("AMBSTHF0",[509.401],5)
+    ActionOverride("AMBMAEVR",FaceObject(Player1))
+    ActionOverride("AMBTHIF2",FaceObject(Player1))
+    ActionOverride("AMBSTHF0",FaceObject(Player1))
+    FadeFromColor([40.0],0)
+    SetGlobal("A6StartARAM00","ARAM00",9)
+    Wait(4)
+    ActionOverride("AMBTHIF2",DisplayStringWait("AMBTHIF2",@401107)
+    Wait(7)
+    ActionOverride("AMBMAEVR",DisplayStringWait("AMBMAEVR",@401108)
+    Wait(4)
+END
+
+IF
+  Global("A6StartARAM00","ARAM00",9)
+THEN
+  RESPONSE #100
+    SetGlobal("A6StartARAM00","ARAM00",10)
+    FadeToColor([20.0],0)
+    Wait(1)
+    StartCutScene("AMNSCENE")
+END

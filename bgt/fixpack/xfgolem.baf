@@ -1,0 +1,9 @@
+IF
+  AttackedBy([ANYONE],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobal("Golem","GLOBAL",0)
+    ActionOverride("Thalantyr",Enemy())
+    Enemy()
+END

@@ -1,0 +1,177 @@
+IF
+  GlobalGT("Chapter","GLOBAL",2)
+  Global("BG1Dream","GLOBAL",0)
+  ReputationGT(Player1,9)
+  Global("EndOfBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-2")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("GOODDRM2",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",2)
+  Global("BG1Dream","GLOBAL",0)
+  ReputationLT(Player1,10)
+  Global("EndOfBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-2")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("BADDRM2",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",3)
+  Global("BG1Dream","GLOBAL",1)
+  ReputationGT(Player1,9)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-3")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("GOODDRM2",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",3)
+  Global("BG1Dream","GLOBAL",1)
+  ReputationLT(Player1,10)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-3")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("BADDRM2",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",4)
+  Global("BG1Dream","GLOBAL",2)
+  ReputationGT(Player1,9)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-4")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("GOODDRM4",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",4)
+  Global("BG1Dream","GLOBAL",2)
+  ReputationLT(Player1,10)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-4")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("BADDRM4",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",5)
+  Global("BG1Dream","GLOBAL",3)
+  ReputationGT(Player1,9)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-5")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("GOODDRM4",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",5)
+  Global("BG1Dream","GLOBAL",3)
+  ReputationLT(Player1,10)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-5")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("BADDRM4",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",6)
+  Global("BG1Dream","GLOBAL",4)
+  ReputationGT(Player1,9)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-6")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("GOODDRM6",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",6)
+  Global("BG1Dream","GLOBAL",4)
+  ReputationLT(Player1,10)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-6")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("BADDRM6",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",7)
+  Global("BG1Dream","GLOBAL",5)
+  ReputationGT(Player1,9)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-7")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("GOODDRM6",Player1)
+    RestParty()
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",7)
+  Global("BG1Dream","GLOBAL",5)
+  ReputationLT(Player1,10)
+  Global("EndOfBG1","GLOBAL",0)
+  GlobalTimerExpired("BG1DreamReset","GLOBAL")
+THEN
+  RESPONSE #100
+    TextScreen("DRMTXT-7")
+    IncrementGlobal("BG1Dream","GLOBAL",1)
+    SetGlobalTimer("BG1DreamReset","GLOBAL",1)
+    ApplySpellRES("BADDRM6",Player1)
+    RestParty()
+END

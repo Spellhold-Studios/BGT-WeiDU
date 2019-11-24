@@ -1,0 +1,17 @@
+BEGIN ~iron4~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @3895
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END
+
+IF ~StateCheck(Myself,STATE_CHARMED)
+GlobalLT("Chapter","GLOBAL",6)~ THEN BEGIN 1
+  SAY @6266
+  IF ~~ THEN UNSOLVED_JOURNAL @310429 EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9217
+  IF ~~ THEN EXIT
+END

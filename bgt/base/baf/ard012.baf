@@ -1,0 +1,158 @@
+IF
+  Global("DurlagLevel2","GLOBAL",1)
+  OpenState("DOOR15",FALSE)  // DOOR15
+THEN
+  RESPONSE #100
+    OpenDoor("DOOR15")
+END
+
+IF
+  Global("DOPDUR1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("DOPDUR1","GLOBAL",2)
+    CloseDoor("DOOR01")
+    PlaySound("AMB_D04A")
+END
+
+IF
+  Global("DOPDUR2","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("DOPDUR2","GLOBAL",2)
+    CloseDoor("DOOR02")
+    PlaySound("AMB_D04A")
+END
+
+IF
+  Global("DOPDUR3","GLOBAL",1)
+THEN
+  RESPONSE #100
+    OpenDoor("DOOR08")
+    OpenDoor("DOOR09")
+    PlaySound("AMB_D04A")
+END
+
+IF
+  Global("DOPDUR3","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("DOPDUR3","GLOBAL",3)
+    SetGlobal("KielDoor1","GLOBAL",0)
+    CloseDoor("DOOR03")
+    PlaySound("AMB_D04A")
+END
+
+IF
+  Global("Firedrake1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Firedrake1A",FALSE)
+    Continue()
+END
+
+IF
+  Global("Firedrake2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Firedrake2A",FALSE)
+    Continue()
+END
+
+IF
+  Global("Firedrake3","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Firedrake3A",FALSE)
+    Continue()
+END
+
+IF
+  Global("Firedrake4","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Firedrake4A",FALSE)
+    Continue()
+END
+
+IF
+  Global("Firedrake5","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Firedrake5A",FALSE)
+    Continue()
+END
+
+IF
+  Global("Firedrake6","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Firedrake6A",FALSE)
+    Continue()
+END
+
+IF
+  Global("Firedrake7","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Firedrake7A",FALSE)
+    Continue()
+END
+
+IF
+  PartyHasItem("HELM14")  // ~Kiel's Helmet~
+  Global("KielHelm","GLOBAL",0)
+THEN
+  RESPONSE #100
+    OpenDoor("DOOR03")
+    DisplayString(Myself,23493)  // ~The halls resonate with the sound of grinding stone. A door has opened somewhere nearby.~
+    CreateCreature("DOPDUR3",[1517.1020],0)  // ~Durlag Trollkiller~
+    PlaySound("AMB_D04A")
+    SetGlobal("KielHelm","GLOBAL",1)
+END
+
+IF
+  Global("kieldoor1","GLOBAL",1)
+  Global("kieldoor2","GLOBAL",1)
+  OpenState("DOOR03",FALSE)  // DOOR03
+THEN
+  RESPONSE #100
+    OpenDoor("DOOR03")
+    DisplayString(Myself,23493)  // ~The halls resonate with the sound of grinding stone. A door has opened somewhere nearby.~
+    PlaySound("AMB_D04A")
+END
+
+IF
+  !Contains("MISC2F","Container21")  // Container21
+  OpenState("DOOR18",FALSE)  // DOOR18
+THEN
+  RESPONSE #100
+    OpenDoor("DOOR18")
+    OpenDoor("DOOR19")
+    TriggerActivation("Teleport1",TRUE)
+    TriggerActivation("Teleport2",TRUE)
+END
+
+IF
+  !Contains("MISC2F","Container22")  // Container22
+  OpenState("DOOR18",FALSE)  // DOOR18
+THEN
+  RESPONSE #100
+    OpenDoor("DOOR18")
+    OpenDoor("DOOR19")
+    TriggerActivation("Teleport1",TRUE)
+    TriggerActivation("Teleport2",TRUE)
+END
+
+IF
+  Contains("MISC2F","Container21")  // Container21
+  Contains("MISC2F","Container22")  // Container22
+  OpenState("DOOR18",TRUE)  // DOOR18
+THEN
+  RESPONSE #100
+    CloseDoor("DOOR18")
+    CloseDoor("DOOR19")
+    TriggerActivation("Teleport1",FALSE)
+    TriggerActivation("Teleport2",FALSE)
+END
+

@@ -1,0 +1,16 @@
+BEGIN ~ironho~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @1457
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @6270
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9210
+  IF ~~ THEN EXIT
+END

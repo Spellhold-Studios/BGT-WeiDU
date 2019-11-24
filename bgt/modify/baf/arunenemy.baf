@@ -1,0 +1,27 @@
+IF
+  GlobalLT("ENDOFBG1","GLOBAL",2)
+  See([ENEMY])
+  Gender(Myself,MALE)
+  General(Myself,HUMANOID)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #10
+    PlaySound("BEDWIN43")
+    RunAwayFrom(LastSeenBy(Myself),30)
+  RESPONSE #90
+    RunAwayFrom(LastSeenBy(Myself),30)
+END
+
+IF
+  GlobalLT("ENDOFBG1","GLOBAL",2)
+  See([ENEMY])
+  Gender(Myself,FEMALE)
+  General(Myself,HUMANOID)
+  !Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #10
+    PlaySound("FCHIL05")
+    RunAwayFrom(LastSeenBy(Myself),30)
+  RESPONSE #90
+    RunAwayFrom(LastSeenBy(Myself),30)
+END

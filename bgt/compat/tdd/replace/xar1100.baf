@@ -1,0 +1,26 @@
+IF
+  Global("KivanPartyBG1","GLOBAL",1)
+  Global("BP_KivanBG1Check","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_KivanBG1Check","GLOBAL",1)
+    SetGlobal("Kivan","GLOBAL",1)
+    ActionOverride("Kivan",SetDialogue("KIVANDD"))
+    ActionOverride("Kivan",ChangeAIScript("KIVANDD",OVERRIDE))
+    ActionOverride("Kivan",SetNumTimesTalkedTo(0))
+    AddXPObject("Kivan",75000)
+    GiveItemCreate("LEAT04","Kivan",1,0,0) // Studded Leather Armor
+    GiveItemCreate("BOW03","Kivan",1,0,0) // Long Bow
+    GiveItemCreate("AROW01","Kivan",40,0,0) // Arrows
+    SmallWait(10)
+    ActionOverride("Kivan",FillSlot(SLOT_ARMOR))
+    ActionOverride("Kivan",FillSlot(SLOT_WEAPON))
+    ActionOverride("Kivan",FillSlot(SLOT_AMMO))
+    GiveItemCreate("AROW05","Kivan",40,0,0) // Arrow of Biting
+    SmallWait(10)
+    ActionOverride("Kivan",FillSlot(SLOT_AMMO1))
+    GiveItemCreate("AROW08","Kivan",40,0,0) // Arrow of Fire
+    SmallWait(10)
+    ActionOverride("Kivan",FillSlot(SLOT_AMMO2))
+    ActionOverride("Kivan",EquipRanged())
+END

@@ -1,0 +1,844 @@
+IF
+  OnCreation()
+  Global("NewGame","AR0602",0)
+  Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ENDOFBG1","GLOBAL",2)
+    SetGlobal("NewGame","AR0602",1)
+    SetCursorState(TRUE)
+    FadeToColor([1.0],0)
+    SmallWait(10)
+    StartMovie("SOAINTRO")
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("NewGame","AR0602",0)
+  Global("ENDOFBG1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("NewGame","AR0602",1)
+    SetGlobal("ENDOFBG1","GLOBAL",2)
+    SetCursorState(TRUE)
+    FadeToColor([1.0],0)
+    SmallWait(10)
+    MoveViewPoint([0.0],INSTANT)
+    StartMovie("SOAINTRO")
+    Continue()
+END
+
+IF
+  XP(Player1,0)
+  Global("XPPlayer1","AR0602",0)
+THEN
+  RESPONSE #100
+    SetGlobal("XPPlayer1","AR0602",1)
+    SetGlobal("BGImportIncomplete","AR0602",1)
+    Continue()
+END
+
+IF
+  XP(Player1,1)
+  Global("XPPlayer1","AR0602",0)
+THEN
+  RESPONSE #100
+    AddXPObject(Player1,-1)
+    SetGlobal("XPPlayer1","AR0602",1)
+    SetGlobal("BGImportIncomplete","AR0602",1)
+    Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(2)
+        Class(Player1,MAGE)
+        Class(Player1,SORCERER)
+    Global("CheckedHPPlayer1","AR0602",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP4",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    Class(Player1,MAGE_THIEF)
+    Global("CheckedHPPlayer1","AR0602",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP5",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(4)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,CLERIC_MAGE)
+      Class(Player1,BARD)
+      Class(Player1,THIEF)
+    Global("CheckedHPPlayer1","AR0602",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP6",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(3)
+      Class(Player1,CLERIC_THIEF)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+    Global("CheckedHPPlayer1","AR0602",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP7",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(4)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,CLERIC)
+      Class(Player1,DRUID)
+      Class(Player1,MONK)
+    Global("CheckedHPPlayer1","AR0602",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP8",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(3)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER_CLERIC)
+    Global("CheckedHPPlayer1","AR0602",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP9",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    OR(3)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+      Class(Player1,FIGHTER)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    Global("CheckedHPPlayer1","AR0602",0)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP10",Myself))
+        ActionOverride(Player1,ChangeAIScript("BGHP",OVERRIDE))
+        SetGlobal("CheckedHPPlayer1","AR0602",1)
+        Continue()
+END
+
+IF
+    Level(Player1,1)
+    XP(Player1,0)
+    !Class(Player1,MAGE)
+    !Class(Player1,SORCERER)
+    !Class(Player1,MAGE_THIEF)
+    !Class(Player1,FIGHTER_MAGE_THIEF)
+    !Class(Player1,CLERIC_MAGE)
+    !Class(Player1,BARD)
+    !Class(Player1,THIEF)
+    !Class(Player1,CLERIC_THIEF)
+    !Class(Player1,FIGHTER_MAGE)
+    !Class(Player1,FIGHTER_MAGE_CLERIC)
+    !Class(Player1,FIGHTER_THIEF)
+    !Class(Player1,CLERIC)
+    !Class(Player1,DRUID)
+    !Class(Player1,MONK)
+    !Class(Player1,FIGHTER_DRUID)
+    !Class(Player1,CLERIC_RANGER)
+    !Class(Player1,FIGHTER_CLERIC)
+    !Class(Player1,PALADIN)
+    !Class(Player1,RANGER)
+    !Class(Player1,FIGHTER)
+    Global("CheckedHPPlayer1","AR0602",0)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0602",1)
+        Continue()
+END
+
+IF
+    CheckStatLT(Player1,3,CON)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,3,CON)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP-2",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,3,CON)
+    CheckStatLT(Player1,7,CON)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP-1",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,6,CON)
+    CheckStatLT(Player1,15,CON)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,15,CON)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+1",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,15,CON)
+    CheckStatLT(Player1,20,CON)
+    OR(10)
+      Class(Player1,BARD)
+      Class(Player1,CLERIC)
+      Class(Player1,CLERIC_MAGE)
+      Class(Player1,CLERIC_THIEF)
+      Class(Player1,DRUID)
+      Class(Player1,THIEF)
+      Class(Player1,MAGE)
+      Class(Player1,MAGE_THIEF)
+      Class(Player1,MONK)
+      Class(Player1,SORCERER)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,16,CON)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER)
+      Class(Player1,FIGHTER_CLERIC)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+2",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,17,CON)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER)
+      Class(Player1,FIGHTER_CLERIC)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+3",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,18,CON)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER)
+      Class(Player1,FIGHTER_CLERIC)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+4",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStat(Player1,19,CON)
+    !Class(Player1,MONK) //required since a monk class is also detected as fighter
+    OR(10)
+      Class(Player1,CLERIC_RANGER)
+      Class(Player1,FIGHTER)
+      Class(Player1,FIGHTER_CLERIC)
+      Class(Player1,FIGHTER_DRUID)
+      Class(Player1,FIGHTER_MAGE_CLERIC)
+      Class(Player1,FIGHTER_MAGE)
+      Class(Player1,FIGHTER_MAGE_THIEF)
+      Class(Player1,FIGHTER_THIEF)
+      Class(Player1,PALADIN)
+      Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,ReallyForceSpellRES("BGHP+5",Myself))
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,15,CON)
+    CheckStatLT(Player1,20,CON)
+    !Class(Player1,BARD)
+    !Class(Player1,CLERIC)
+    !Class(Player1,CLERIC_MAGE)
+    !Class(Player1,CLERIC_THIEF)
+    !Class(Player1,DRUID)
+    !Class(Player1,THIEF)
+    !Class(Player1,MAGE)
+    !Class(Player1,MAGE_THIEF)
+    !Class(Player1,MONK)
+    !Class(Player1,SORCERER)
+    !Class(Player1,CLERIC_RANGER)
+    !Class(Player1,FIGHTER)
+    !Class(Player1,FIGHTER_CLERIC)
+    !Class(Player1,FIGHTER_DRUID)
+    !Class(Player1,FIGHTER_MAGE_CLERIC)
+    !Class(Player1,FIGHTER_MAGE)
+    !Class(Player1,FIGHTER_MAGE_THIEF)
+    !Class(Player1,FIGHTER_THIEF)
+    !Class(Player1,PALADIN)
+    !Class(Player1,RANGER)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+    CheckStatGT(Player1,19,CON)
+    Global("CheckedHPPlayer1","AR0602",1)
+THEN
+    RESPONSE #100
+        SetGlobal("CheckedHPPlayer1","AR0602",2)
+        Continue()
+END
+
+IF
+  Global("CheckedHPPlayer1","AR0602",2)
+  XP(Player1,0)
+THEN
+  RESPONSE #100
+    AddXPObject(Player1,89000)
+    ActionOverride(Player1,SetPlayerSound(Myself,15881,EXISTANCE5))
+    Continue()
+END
+
+IF
+  Global("ImoenImport","GLOBAL",0)
+  Global("ImoenPartyBG1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("ImoenImport","GLOBAL",1)
+    ReallyForceSpellRES("BGIMPORT","Imoen2")
+    ActionOverride("Imoen2",ChangeAIScript("Imoen",OVERRIDE))
+    ActionOverride("Imoen2",ChangeAIScript("",GENERAL))
+    ActionOverride("Imoen2",ChangeAIScript("wtasight",DEFAULT))
+    ActionOverride("Imoen2",ChangeAIScript("SBTIMO",RACE))
+    ActionOverride("Imoen2",SetDialog("Imoen10"))
+    ActionOverride("Imoen2",SetNumTimesTalkedTo(0))
+    ActionOverride("Imoen2",CreateItem("Imoenhp1",1,0,0)) // Imoen's Belt
+    ActionOverride("Imoen2",FillSlot(SLOT_BELT))
+    Continue()
+END
+
+IF
+  Global("ImoenImport","GLOBAL",0)
+  Global("ImoenPartyBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ImoenImport","GLOBAL",2)
+    CreateCreature("Imoen10",[3198.2837],6) // Imoen
+    SetGlobal("SPRITE_IS_DEADIMOEN2","GLOBAL",0)
+    ActionOverride("Imoen2",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("JaheiraImport","GLOBAL",0)
+  Global("JaheiraPartyBG1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("JaheiraImport","GLOBAL",1)
+    ReallyForceSpellRES("BGJAPORT","Jaheira")
+    ActionOverride("Jaheira",ChangeAIScript("Jaheira",OVERRIDE))
+    ActionOverride("Jaheira",ChangeAIScript("dplayer",DEFAULT))
+    ActionOverride("Jaheira",ChangeAIScript("SBTJAH",RACE))
+    ActionOverride("Jaheira",SetDialog("Jaheira"))
+    ActionOverride("Jaheira",SetNumTimesTalkedTo(0))
+    Continue()
+END
+
+IF
+  Global("JaheiraImport","GLOBAL",0)
+  Global("JaheiraPartyBG1","GLOBAL",0)
+  Dead("Jaheira")
+THEN
+  RESPONSE #100
+    SetGlobal("JaheiraImport","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("JaheiraImport","GLOBAL",0)
+  Global("JaheiraPartyBG1","GLOBAL",0)
+  !Dead("Jaheira")
+  LevelLT(Player1,8)
+THEN
+  RESPONSE #100
+    SetGlobal("JaheiraImport","GLOBAL",2)
+    CreateCreature("Jaheir7",[3898.2676],6) // Jaheira
+    SetGlobal("SPRITE_IS_DEADJAHEIRA","GLOBAL",0)
+    ActionOverride("Jaheira",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("JaheiraImport","GLOBAL",0)
+  Global("JaheiraPartyBG1","GLOBAL",0)
+  !Dead("Jaheira")
+  LevelGT(Player1,7)
+  LevelLT(Player1,11)
+THEN
+  RESPONSE #100
+    SetGlobal("JaheiraImport","GLOBAL",2)
+    CreateCreature("Jaheir8",[3898.2676],6) // Jaheira
+    SetGlobal("SPRITE_IS_DEADJAHEIRA","GLOBAL",0)
+    ActionOverride("Jaheira",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("JaheiraImport","GLOBAL",0)
+  Global("JaheiraPartyBG1","GLOBAL",0)
+  !Dead("Jaheira")
+  Level(Player1,11)
+THEN
+  RESPONSE #100
+    SetGlobal("JaheiraImport","GLOBAL",2)
+    CreateCreature("Jaheir11",[3898.2676],6) // Jaheira
+    SetGlobal("SPRITE_IS_DEADJAHEIRA","GLOBAL",0)
+    ActionOverride("Jaheira",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("JaheiraImport","GLOBAL",0)
+  Global("JaheiraPartyBG1","GLOBAL",0)
+  !Dead("Jaheira")
+  LevelGT(Player1,11)
+THEN
+  RESPONSE #100
+    SetGlobal("JaheiraImport","GLOBAL",2)
+    CreateCreature("Jaheir12",[3898.2676],6) // Jaheira
+    SetGlobal("SPRITE_IS_DEADJAHEIRA","GLOBAL",0)
+    ActionOverride("Jaheira",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("MinscImport","GLOBAL",0)
+  Global("MinscPartyBG1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("MinscImport","GLOBAL",1)
+    ChangeAlignment("Minsc",CHAOTIC_GOOD)
+    ReallyForceSpellRES("BGMIPORT","Minsc")
+    ActionOverride("Minsc",ChangeAIScript("Minsc",OVERRIDE))
+    ActionOverride("Minsc",ChangeAIScript("minscx",GENERAL))
+    ActionOverride("Minsc",ChangeAIScript("dplayer",DEFAULT))
+    ActionOverride("Minsc",ChangeAIScript("SBTMIN",RACE))
+    ActionOverride("Minsc",SetDialog("Minsca"))
+    ActionOverride("Minsc",SetNumTimesTalkedTo(0))
+    Continue()
+END
+
+IF
+  Global("MinscImport","GLOBAL",0)
+  Global("MinscPartyBG1","GLOBAL",0)
+  Dead("Minsc")
+THEN
+  RESPONSE #100
+    SetGlobal("MinscImport","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("MinscImport","GLOBAL",0)
+  Global("MinscPartyBG1","GLOBAL",0)
+  !Dead("Minsc")
+  LevelLT(Player1,8)
+THEN
+  RESPONSE #100
+    SetGlobal("MinscImport","GLOBAL",2)
+    CreateCreature("Minsc7",[4029.2759],6) // Minsc
+    SetGlobal("SPRITE_IS_DEADMINSC","GLOBAL",0)
+    ActionOverride("Minsc",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("MinscImport","GLOBAL",0)
+  Global("MinscPartyBG1","GLOBAL",0)
+  !Dead("Minsc")
+  Level(Player1,8)
+THEN
+  RESPONSE #100
+    SetGlobal("MinscImport","GLOBAL",2)
+    CreateCreature("Minsc8",[4029.2759],6) // Minsc
+    SetGlobal("SPRITE_IS_DEADMINSC","GLOBAL",0)
+    ActionOverride("Minsc",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("MinscImport","GLOBAL",0)
+  Global("MinscPartyBG1","GLOBAL",0)
+  !Dead("Minsc")
+  Level(Player1,9)
+THEN
+  RESPONSE #100
+    SetGlobal("MinscImport","GLOBAL",2)
+    CreateCreature("Minsc9",[4029.2759],6) // Minsc
+    SetGlobal("SPRITE_IS_DEADMINSC","GLOBAL",0)
+    ActionOverride("Minsc",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("MinscImport","GLOBAL",0)
+  Global("MinscPartyBG1","GLOBAL",0)
+  !Dead("Minsc")
+  OR(2)
+    Level(Player1,10)
+    Level(Player1,11)
+THEN
+  RESPONSE #100
+    SetGlobal("MinscImport","GLOBAL",2)
+    CreateCreature("Minsc10",[4029.2759],6) // Minsc
+    SetGlobal("SPRITE_IS_DEADMINSC","GLOBAL",0)
+    ActionOverride("Minsc",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("MinscImport","GLOBAL",0)
+  Global("MinscPartyBG1","GLOBAL",0)
+  !Dead("Minsc")
+  LevelGT(Player1,11)
+THEN
+  RESPONSE #100
+    SetGlobal("MinscImport","GLOBAL",2)
+    CreateCreature("Minsc12",[4029.2759],6) // Minsc
+    SetGlobal("SPRITE_IS_DEADMINSC","GLOBAL",0)
+    ActionOverride("Minsc",MakeGlobal())
+    Continue()
+END
+
+IF
+  Global("IHavePants","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHavePants","GLOBAL",2)
+    SetGlobal("BG1Pantaloons","GLOBAL",1)
+    ActionOverride("Picture1",CreateItem("MISC47",0,0,0)) // Golden Pantaloons
+    Continue()
+END
+
+IF
+  Global("IHaveRing","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveRing","GLOBAL",2)
+    ActionOverride("Shelf1",CreateItem("ring25",0,0,0)) // Koveras' Ring of Protection
+    Continue()
+END
+
+IF
+  Global("IHaveMoonblade","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveMoonblade","GLOBAL",2)
+    ActionOverride("Picture1",CreateItem("sw1h13",0,0,0)) // Moonblade
+    Continue()
+END
+
+IF
+  Global("IHaveBalduran","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveBalduran","GLOBAL",2)
+    ActionOverride("Shelf1",CreateItem("HELM07",0,0,0)) // Helm of Balduran
+    Continue()
+END
+
+IF
+  Global("IHaveClaw","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveClaw","GLOBAL",2)
+    ActionOverride("Shelf1",CreateItem("MISC72",0,0,0)) // The Claw of Kazgaroth
+    Continue()
+END
+
+IF
+  Global("IHaveHorn","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveHorn","GLOBAL",2)
+    ActionOverride("Shelf1",CreateItem("MISC73",10,0,0)) // The Horn of Kazgaroth
+    Continue()
+END
+
+IF
+  Global("IHaveSecond","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveSecond","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("LEAT03",0,0,0)) // Protector of the Second +2
+    Continue()
+END
+
+IF
+  Global("IHavePlate","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHavePlate","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("PLAT02",0,0,0)) // Plate Mail +1
+    Continue()
+END
+
+IF
+  Global("IHaveMissile","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveMissile","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("LEAT06",0,0,0)) // Missile Attraction +2 
+    Continue()
+END
+
+IF
+  Global("IHaveChain","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("IHaveChain","GLOBAL",2)
+    ActionOverride("Table1",CreateItem("CHAN07",0,0,0)) // Chain Mail +3
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",100)
+  Global("IHaveFamiliar","GLOBAL",0)
+  PartyHasItem("FAMCAT") // Familiar
+THEN
+  RESPONSE #100
+    ActionOverride("Picture 1",TakePartyItem("FAMCAT")) // Familiar
+    SetGlobal("IHaveFamiliar","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",100)
+  Global("IHaveFamiliar","GLOBAL",0)
+  PartyHasItem("FAMDUST") // Familiar
+THEN
+  RESPONSE #100
+    ActionOverride("Picture 1",TakePartyItem("FAMDUST")) // Familiar
+    SetGlobal("IHaveFamiliar","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",100)
+  Global("IHaveFamiliar","GLOBAL",0)
+  PartyHasItem("FAMFAIR") // Familiar
+THEN
+  RESPONSE #100
+    ActionOverride("Picture 1",TakePartyItem("FAMFAIR")) // Familiar
+    SetGlobal("IHaveFamiliar","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",100)
+  Global("IHaveFamiliar","GLOBAL",0)
+  PartyHasItem("FAMFER") // Familiar
+THEN
+  RESPONSE #100
+    ActionOverride("Picture 1",TakePartyItem("FAMFER")) // Familiar
+    SetGlobal("IHaveFamiliar","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",100)
+  Global("IHaveFamiliar","GLOBAL",0)
+  PartyHasItem("FAMIMP") // Familiar
+THEN
+  RESPONSE #100
+    ActionOverride("Picture 1",TakePartyItem("FAMIMP")) // Familiar
+    SetGlobal("IHaveFamiliar","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",100)
+  Global("IHaveFamiliar","GLOBAL",0)
+  PartyHasItem("FAMPSD") // Familiar
+THEN
+  RESPONSE #100
+    ActionOverride("Picture 1",TakePartyItem("FAMPSD")) // Familiar
+    SetGlobal("IHaveFamiliar","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",100)
+  Global("IHaveFamiliar","GLOBAL",0)
+  PartyHasItem("FAMQUAS") // Familiar
+THEN
+  RESPONSE #100
+    ActionOverride("Picture 1",TakePartyItem("FAMQUAS")) // Familiar
+    SetGlobal("IHaveFamiliar","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("MeetOldenFriends","GLOBAL",100)
+  Global("IHaveFamiliar","GLOBAL",0)
+  PartyHasItem("FAMRAB") // Familiar
+THEN
+  RESPONSE #100
+    ActionOverride("Picture 1",TakePartyItem("FAMRAB")) // Familiar
+    SetGlobal("IHaveFamiliar","GLOBAL",2)
+    Continue()
+END
+
+IF
+  Global("BGImportIncomplete","AR0602",1)
+  Global("CheckedHPPlayer1","AR0602",2)
+THEN
+  RESPONSE #100
+    SetGlobal("BGImportIncomplete","AR0602",2)
+    ActionOverride(Player1,MakeUnselectable(2147483647))
+    ActionOverride(Player2,MakeUnselectable(2147483647))
+    ActionOverride(Player3,MakeUnselectable(2147483647))
+    ActionOverride(Player4,MakeUnselectable(2147483647))
+    ActionOverride(Player5,MakeUnselectable(2147483647))
+    ActionOverride(Player6,MakeUnselectable(2147483647))
+    SetCursorState(FALSE)
+    FadeFromColor([30.0],0)
+    DisplayStringHead(Myself,401118)
+    Continue()
+END
+
+IF
+  Global("BGImportIncomplete","AR0602",2)
+  LevelGT(Player1,1)
+  Class(Player1,LONG_BOW)
+  !Class(Player1,SORCERER)
+THEN
+  RESPONSE #100
+    SetGlobal("BGImportIncomplete","AR0602",3)
+    CreateCreatureObject("a6genspl",Player1,0,0,0)
+    Continue()
+END
+
+IF
+  Global("BGImportIncomplete","AR0602",2)
+  LevelGT(Player1,1)
+  OR(2)
+    !Class(Player1,LONG_BOW)
+    Class(Player1,SORCERER)
+THEN
+  RESPONSE #100
+    SetGlobal("BGImportIncomplete","AR0602",4)
+    Continue()
+END
+
+IF
+  Global("BGImportIncomplete","AR0602",4)
+  LevelGT(Player1,1)
+THEN
+  RESPONSE #100
+    SetGlobal("BGImportIncomplete","AR0602",0)
+    ActionOverride(Player1,MakeUnselectable(1))
+    ActionOverride(Player2,MakeUnselectable(1))
+    ActionOverride(Player3,MakeUnselectable(1))
+    ActionOverride(Player4,MakeUnselectable(1))
+    ActionOverride(Player5,MakeUnselectable(1))
+    ActionOverride(Player6,MakeUnselectable(1))
+    SetCursorState(TRUE)
+    FadeToColor([30.0],0)
+    Continue()
+END

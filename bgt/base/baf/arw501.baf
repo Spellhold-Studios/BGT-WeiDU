@@ -1,0 +1,8 @@
+IF
+  Global("EnteredWreck","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("WRECK")
+    SetGlobal("EnteredWreck","GLOBAL",1)
+END
+

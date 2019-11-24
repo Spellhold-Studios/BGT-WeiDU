@@ -1,0 +1,30 @@
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MIRROR_IMAGE)
+THEN
+  RESPONSE #100
+    Spell(Myself,WIZARD_MIRROR_IMAGE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HORROR)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_HORROR)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+  RESPONSE #100
+    Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    Attack(NearestEnemyOf(Myself))
+END

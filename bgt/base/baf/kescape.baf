@@ -1,0 +1,17 @@
+IF
+  Global("Infected","GLOBAL",1)
+  Detect([PC])
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  AttackedBy([ANYONE],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobal("Infected","GLOBAL",1)
+    EscapeArea()
+END
+

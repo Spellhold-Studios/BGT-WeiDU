@@ -1,0 +1,10 @@
+IF
+  Global("RamazithMove","GLOBAL",1)
+  !Exists("Ramazith")  // Ramazith
+  !Dead("Ramazith")  // Ramazith
+THEN
+  RESPONSE #100
+    CreateCreature("RAMAZI",[328.234],0)  // ~Ramazith~
+    ActionOverride("Ramazith",SetNumTimesTalkedTo(1))
+END
+

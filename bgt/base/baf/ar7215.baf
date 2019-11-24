@@ -1,0 +1,10 @@
+IF
+  Global("MarekMove","GLOBAL",1)
+  !Exists("Marek")  // ~Marek~
+  !Dead("Marek")  // ~Marek~
+THEN
+  RESPONSE #100
+    CreateCreature("MAREK",[406.344],0)  // ~Marek~
+    ActionOverride("Marek",SetNumTimesTalkedTo(1))
+END
+

@@ -1,0 +1,4 @@
+----------------------------------------------------------------------
+Desinstallation effectuee.
+Pensez a restaurer manuellement les fichiers dialog.tlk et dialogF.tlk
+----------------------------------------------------------------------

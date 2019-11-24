@@ -1,0 +1,16 @@
+BEGIN ~mcook6~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @8318
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @8319
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9182
+  IF ~~ THEN EXIT
+END

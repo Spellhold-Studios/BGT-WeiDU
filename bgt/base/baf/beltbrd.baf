@@ -1,0 +1,11 @@
+IF
+  AttackedBy([PC],DEFAULT)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    CreateCreature("WINSKI",[693.578],0)
+    ActionOverride("WINSKI",ForceSpell(Player1,SAREVOK_STRIKE))
+    Wait(2)
+    Kill(Player1)
+    SetInterrupt(TRUE)
+END

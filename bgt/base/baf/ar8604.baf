@@ -1,0 +1,18 @@
+IF
+  Global("BGTNPC8604","GLOBAL",0)
+  LevelLT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8604","GLOBAL",1)
+    CreateCreature("YESLIC",[860.1723],6)  // ~Yeslick~
+END
+
+IF
+  Global("BGTNPC8604","GLOBAL",0)
+  LevelGT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8604","GLOBAL",1)
+    CreateCreature("YESLIC5",[860.1723],6)  // ~Yeslick~
+END
+

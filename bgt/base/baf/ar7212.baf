@@ -1,0 +1,36 @@
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  !Exists("Slythe")
+  !Dead("Slythe")
+THEN
+  RESPONSE #100
+    CreateCreature("SLYTHE",[1278.969],0)
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  !Exists("Krystin")
+  !Dead("Krystin")
+THEN
+  RESPONSE #100
+    CreateCreature("KRYSTI",[1349.973],0)
+    ReallyForceSpellRES("BGKRYSTI","Krystin")
+END
+
+IF
+  Exists("SLYTHE")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("SLYTHE",DestroySelf())
+END
+
+IF
+  Exists("Krystin")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Krystin",DestroySelf())
+END

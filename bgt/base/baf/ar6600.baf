@@ -1,0 +1,70 @@
+IF
+  Global("BGTNPC6600","GLOBAL",0)
+  Level(Player1,1)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6600","GLOBAL",1)
+    CreateCreature("BGXZAR",[4581.2694],0)
+    CreateCreature("MONTAR",[4514.2705],0)
+    CreateCreature("IMOEN1",[3140.3681],12)
+END
+
+IF
+  Global("BGTNPC6600","GLOBAL",0)
+  OR(2)
+    Level(Player1,2)
+    Level(Player1,3)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6600","GLOBAL",1)
+    CreateCreature("XZAR2",[4581.2694],0)
+    CreateCreature("MONTAR2",[4514.2705],0)
+    CreateCreature("IMOEN2",[3140.3681],12)
+END
+
+IF
+  Global("BGTNPC6600","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6600","GLOBAL",1)
+    CreateCreature("XZAR4",[4581.2694],0)
+    CreateCreature("MONTAR4",[4514.2705],0)
+    CreateCreature("IMOEN4",[3140.3681],12)
+END
+
+IF
+  Global("BGTNPC6600","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC6600","GLOBAL",1)
+    CreateCreature("XZAR6",[4581.2694],0)
+    CreateCreature("MONTAR6",[4514.2705],0)
+    CreateCreature("IMOEN61",[3140.3681],12)
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",3)
+  Exists("Montaron")
+  !Dead("Montaron")
+  !InParty("Montaron")
+  Global("VisitNashkell","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Montaron",DestroySelf())
+END
+
+IF
+  GlobalGT("Chapter","GLOBAL",3)
+  Exists("Xzar")
+  !Dead("Xzar")
+  !InParty("Xzar")
+  Global("VisitNashkell","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Xzar",DestroySelf())
+END
+

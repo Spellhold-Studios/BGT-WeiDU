@@ -1,0 +1,120 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= "Modyfikacja %TP2_FILE_NAME% posiada"
+@-1001= "kilka opcjonalnych komponentow.
+By oszczedzic czas mozesz wybrac co zrobic ze wszystkimi zamiast byc pytanym o kazdy z osobna.
+"
+@-1002= "Co zrobic z wszystkimi komponentami, ktore NIE SA jeszcze zainstalowane?
+[I]nstall them, [S]kip them, [A]sk about each one? "
+@-1003= "Co zrobic z komponentami, ktore JUZ SA zainstalowane?
+[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
+
+//modified
+@-1004= "Prosze WYSLIJ plik "
+@-1005= "do"
+
+@-1006= "Instalacja komponentu ["
+@-1007= "]?
+[R]e-Instaluj, [N]ie Zmieniaj or [U]sun lub [Q] - wyjdz? "
+@-1008= "]?
+[I]nstaluj, lub [N]ie Instaluj lub [Q] - wyjdz? "
+
+@-1009= "Wprowadz czesc nazwy modulu: "
+
+@-1010= "Re-Instalacja ["
+@-1011= "] komponentu "
+@-1012= "Re-Instalacja uzywajac jezyka "
+
+@-1013= "Usuwanie starej instalacji ["
+@-1014= "] najpierw ..."
+@-1015= "USUNIECIE STAREJ WERSJI ZAKONCZONE SUKCESEM"
+
+@-1016= "Instalacja"
+@-1017= "BLAD Instalacji ["
+@-1018= "], przywracanie do poprzedniego stanu"
+@-1019= "SUKCES INSTALACJI     "
+@-1020= "Pomijanie"
+@-1021= "Usuwanie ["
+@-1022= "] (komponent #"
+@-1023= ")"
+@-1024= "SUKCES USUNIECIA ["
+
+@-1025= "]?
+[R]e-instaluj, [N]ie Zmieniaj, [U]sun, [Q]- wyjdz lub wybierz:"
+@-1026= "]?
+[N]ie, [Q] - wyjdz lub wybierz:"
+@-1027= " (aktualnie zainstalowane)"
+
+@-1028= "Czy chcesz wyswietlic komponenty ["
+@-1029= "]?
+[Y] - tak, [N]ie? "
+
+@-1030= "]?
+wybierz jedno:"
+@-1031= "]?
+[R]e-instaluj, [N]ie Zmieniaj, [Q] - wyjdz lub wybierz:"
+@-1032= "NIE ZAINSTALOWANO ZE WZGLEDU NA BLEDY"
+@-1033= "ZAINSTALOWANO Z OSTRZEZENIAMI    "
+@-1034= "Czy wyswietlic plik readme? [Y]es [N]o"
+@-1035= "Uzycie jezyka"
+  
+@-1036= "Pominiecie GRUPY ["
+@-1037= "] poniewaz nie spelniono wymagan."
+  
+@-1038= "[A] - pytaj o kazdy komponent, [S] - pomin wszystkie lub wybierz z predefiniowanych:"
+@-1039= "[A] - pytaj o kazdy komponent, [R]einstaluj obecna konfiguracje, [U]sun wszystko, [S] - pomin wszystko lub wybierz z predefiniowanych:"
+
+
+@100000 = ~Baldur's Gate Trilogy - Rdzen~
+@100001 = ~Usuwanie komponentow preinstalacyjnych...~
+@100002 = ~Tworzenie kopii bezpieczenstwa chittin.key i katalogu override...~
+@100003 = ~Patchowanie dialog.tlk.  Prosze czekac...~
+@100004 = ~Rejestrowanie GUI...~
+@100005 = ~Patchowanie plikow ustawien...~
+@100006 = ~Instalowanie skryptow...~
+@100007 = ~Instalowanie dialogow...~
+@100008 = ~Instalowanie sklepow...~
+@100009 = ~Instalowanie przedmiotow...~
+@100010 = ~Instalowanie zaklec...~
+@100011 = ~Instalowanie obszarow...~
+@100012 = ~Instalacja plikow 2DA...~
+@100013 = ~Instalowanie 2DA...~
+@100014 = ~Instalowanie drobiazgow...~
+@100015 = ~Instalacja nie powiodla sie - nie mozna wykryc folderu z BG1.~
+@100016 = ~Implementacja doswiadczenia startowego...~
+
+@100018 = ~Pelna muzyka z Wrot Baldura i Opowiesci z Wybrzeza Mieczy~
+@100019 = ~Hybryda muzyki z Wrot Baldura/Cieni Amn/Tronu Bhaala~
+@100020 = ~Baldur's Gate Trylogia - Muzyka~
+@100021 = ~Tron Bhaala jest wymagany do zainstalowania tej modyfikacji.~
+@100022 = ~Instalowanie poprawek...~
+@100023 = ~Pelna muzyka Baldur's Gate/Cienie Amn/Tron Bhaala (OSTRZEZENIE: modyfikuje BGMain.exe)~
+
+@100024 = ~Graficzny Interfejs Uzytkownika (GUI)~
+@100025 = ~"Oryginalny z Cieni Amn/Tronu Bhaala"~
+@100026 = ~"Trylogia Baldur's Gate" (Elminster dzierzacy miecz)~
+@100027 = ~"Trylogia Baldur's Gate" (Elminster dzierzacy kostur)~
+
+@100028 = ~Podaj sciezke dostepu do gry Baldur's Gate i nacisnij ENTER.~
+@100029 = ~Nieprawidlowa sciezka instalacyjna Baldur's Gate badz nieprawidlowy typ instalacji.
+Jest bezpieczne przerwanie instalacji w tym momencie przez zamkniecie okna lub wcisniecie CTRL+C.~
+@100030 = ~Ekstrakcja plikow stworzen z BG:OzWM...~
+@100031 = ~Ekstrakcja tekstow do tlumaczenia z BG:OzWM...~
+@100032 = ~Importowanie stworzonych postaci z Baldur's Gate:OzWM...~
+@100033 = ~Importowanie muzyki z Baldur's Gate:OzwM...~
+@100034 = ~Importowanie dzwiekow postaci z Baldur's Gate:OzwM...~
+@100035 = ~Importowanie dzwiekow z Baldur's Gate:OzWM...~
+@100036 = ~Importowanie filmow z Baldur's Gate:OzWM...~
+@100037 = ~Importowanie tilesetow z BG:OzWM...~
+@100038 = ~Konwertowanie tilesetow...~
+@100039 = ~Ekstrakcja nowych tilesetow...~
+@100040 = ~Kompresowanie obszarow...~
+@100041 = ~Kompresowanie plikow gry...~
+@100042 = ~Wykryto instalacje BG1 w %bg1_dir%.
+czy to jest prawidlowe? [Y] - tak lub [N]ie~
+@100043 = ~Czy chcesz zbiffowa† wszystkie nowe zasoby? (zalecane, z wyjatkiem Mega Modyfikacji)
+[Y] Tak lub [N]ie~
+@100044 = ~Wykryto Uniksopochodny system. Wlaczono log. %LNL%%LNL%~
+@100045 = ~Wykryto stara wersje Windows. Bedzie dostepny ograniczony log.%WNL%%WNL%~

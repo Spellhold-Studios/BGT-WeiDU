@@ -1,0 +1,54 @@
+BEGIN ~nobl4~
+
+IF WEIGHT #2 ~NumTimesTalkedTo(0)
+!Dead("Noblewom")~ THEN BEGIN 0
+  SAY @7762
+  IF ~~ THEN EXTERN ~NOBW4~ 0
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @7763
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @7764
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @7765
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @7766
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @7767
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @7768
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #0 ~StateCheck(Myself,STATE_CHARMED)
+Global("A6Charmed","LOCALS",0)~ THEN BEGIN 7
+  SAY @7780
+  IF ~~ THEN DO ~SetGlobal("A6Charmed","LOCALS",1)
+GiveGoldForce(20)~ EXIT
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @9138
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #3 ~True()~ THEN BEGIN 9
+  SAY @15429
+  IF ~~ THEN EXIT
+END

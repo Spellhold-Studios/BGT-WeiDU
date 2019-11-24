@@ -1,0 +1,122 @@
+////////////////////////////////////////////////////////////////////
+//WeiDU Installation Prompts
+////////////////////////////////////////////////////////////////////
+
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+//modified
+@-1004= "S'IL VOUS PLAIT, postez le fichier "
+@-1005= "sur"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server ou s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, ou [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+
+
+@100000 = ~Baldur's Gate Trilogy - Composant principal~
+@100001 = ~Desinstallation du composant de pre-installation...~
+@100002 = ~Sauvegarde du fichier chitin.key et du dossier override...~
+@100003 = ~Modification du fichier dialog.tlk.  Veuillez patienter...~
+@100004 = ~Enregistrement de l'interface...~
+@100005 = ~Modification du jeu de regles...~
+@100006 = ~Installation des scripts...~
+@100007 = ~Installation des dialogues...~
+@100008 = ~Installation des boutiques...~
+@100009 = ~Installation des objets...~
+@100010 = ~Installation des sorts...~
+@100011 = ~Installation des zones...~
+@100012 = ~Installation des fichiers 2DA...~
+@100013 = ~Installation des creatures...~
+@100014 = ~Installation des composants divers...~
+@100015 = ~Echec de l'installation - Probleme lors de la detection du dossier de BG1.~
+@100016 = ~Installation du patch d'XP...~
+
+@100018 = ~Musique integrale de Baldur's Gate~
+@100019 = ~Musique hybride Baldur's Gate/Shadows of Amn/Throne of Bhaal~
+@100020 = ~Baldur's Gate Trilogy - Musique~
+@100021 = ~Throne of Bhaal est requis pour installer ce mod.~
+@100022 = ~Installation du correctif...~
+@100023 = ~Musique integrale de Baldur's Gate/Shadows of Amn/Throne of Bhaal (ATTENTION: modifie BGMain.exe)~
+
+@100024 = ~Interface Graphique Utilisateur (GUI)~
+@100025 = ~"SoA/ToB d'origine"~
+@100026 = ~"Baldur's Gate Trilogy" (Elminster avec epee)~
+@100027 = ~"Baldur's Gate Trilogy" (Elminster avec baton)~
+
+@100028 = ~Entrez le chemin complet de votre installation de Baldur's Gate puis enfoncez Entree.~
+@100029 = ~Le chemin d'installation de Baldur's Gate est incorrect, ou l'installation de Baldur's Gate n'est pas complete.
+Vous pouvez interrompre l'installation maintenant si vous le desirez en fermant cette fenetre ou en faisant Ctrl + C.~
+@100030 = ~Extraction des creatures depuis Baldur's Gate:TotSC...~
+@100031 = ~Extraction des textes pour la traduction depuis Baldur's Gate:TotSC...~
+@100032 = ~Importation des personnages pre-crees depuis Baldur's Gate:TotSC...~
+@100033 = ~Importation des musiques depuis Baldur's Gate:TotSC...~
+@100034 = ~Importation des voix du joueur depuis Baldur's Gate:TotSC...~
+@100035 = ~Importation des sons depuis Baldur's Gate:TotSC...~
+@100036 = ~Importation des films depuis Baldur's Gate:TotSC...~
+@100037 = ~Importation des textures depuis Baldur's Gate:TotSC...~
+@100038 = ~Conversion des textures...~
+@100039 = ~Extraction des nouvelles textures...~
+@100040 = ~Compression des zones...~
+@100041 = ~Compression des fichiers du jeu...~
+@100042 = ~Baldur's Gate I detecte dans le repertoire %bg1_dir%.
+Est-ce exact ? [Y]Oui ou [N]on~
+@100043 = ~Voulez-vous biffer toutes les nouvelles ressources ? (recommande, sauf dans le cadre d'une mega-installation)
+[Y]Oui ou [N]on~
+@100044 = ~Systeme d'exploitation type Unix detecte. Journal active.%LNL%%LNL%~
+@100045 = ~Une version ancienne de Windows a ete detectee. Un journal restreint sera disponible.%WNL%%WNL%~

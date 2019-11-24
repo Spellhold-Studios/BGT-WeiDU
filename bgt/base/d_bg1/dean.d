@@ -1,0 +1,11 @@
+BEGIN ~dean~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @20719
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @20720
+  IF ~~ THEN EXIT
+END

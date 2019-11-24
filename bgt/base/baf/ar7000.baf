@@ -1,0 +1,27 @@
+IF
+  NumDeadGT("Druid3",2)
+  Dead("Seniyad")
+  Global("KilledDruids","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("KilledDruids","GLOBAL",4)
+END
+
+IF
+  Global("BGTNPC7000","GLOBAL",0)
+  LevelLT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7000","GLOBAL",1)
+    CreateCreature("CORAN",[1523.695],5)  // ~Coran~
+END
+
+IF
+  Global("BGTNPC7000","GLOBAL",0)
+  LevelGT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC7000","GLOBAL",1)
+    CreateCreature("CORAN5",[1523.695],5)  // ~Coran~
+END
+

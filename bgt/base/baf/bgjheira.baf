@@ -1,0 +1,165 @@
+IF
+  InParty(Myself)
+  Global("A6JaheiraWasInParty","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("A6JaheiraWasInParty","GLOBAL",1)
+END
+
+IF
+  Dead("Xzar")
+  Dead("Montaron")
+  Global("Xzarfight","GLOBAL",2)
+THEN
+  RESPONSE #100
+	SetGlobal("Xzarfight","GLOBAL",0)
+	DialogueInterrupt(TRUE)
+	JoinParty()
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")
+  !Dead("Khalid")
+  HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+  HPPercentLT("Khalid",50)
+THEN
+  RESPONSE #100
+    Spell("Khalid",CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+  HPPercentLT(Myself,50)
+THEN
+  RESPONSE #100
+    Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Xzar")
+  !Dead("Xzar")
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !StateCheck("Xzar",STATE_SLEEPING)
+  !StateCheck("Xzar",STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell("Xzar",CLERIC_HOLD_PERSON)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Xzar")
+  !Dead("Xzar")
+  HaveSpell(CLERIC_COMMAND)
+  !StateCheck("Xzar",STATE_SLEEPING)
+  !StateCheck("Xzar",STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell("Xzar",CLERIC_COMMAND)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Xzar")
+  !Dead("Xzar")
+  HaveSpell(CLERIC_MAGIC_STONE)
+THEN
+  RESPONSE #100
+    Spell("Xzar",CLERIC_MAGIC_STONE)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Xzar")
+  !Dead("Xzar")
+  HaveSpell(CLERIC_CALL_LIGHTNING)
+THEN
+  RESPONSE #100
+    Spell("Xzar",CLERIC_CALL_LIGHTNING)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Xzar")
+  !Dead("Xzar")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Xzar",15)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Montaron")
+  !Dead("Montaron")
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !StateCheck("Montaron",STATE_SLEEPING)
+  !StateCheck("Montaron",STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell("Montaron",CLERIC_HOLD_PERSON)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Montaron")
+  !Dead("Montaron")
+  HaveSpell(CLERIC_COMMAND)
+  !StateCheck("Montaron",STATE_SLEEPING)
+  !StateCheck("Montaron",STATE_HELPLESS)
+THEN
+  RESPONSE #100
+    Spell("Montaron",CLERIC_COMMAND)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Montaron")
+  !Dead("Montaron")
+  HaveSpell(CLERIC_MAGIC_STONE)
+THEN
+  RESPONSE #100
+    Spell("Montaron",CLERIC_MAGIC_STONE)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Montaron")
+  !Dead("Montaron")
+  HaveSpell(CLERIC_CALL_LIGHTNING)
+THEN
+  RESPONSE #100
+    Spell("Montaron",CLERIC_CALL_LIGHTNING)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Montaron")
+  !Dead("Montaron")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Montaron",15)
+END
+
+IF
+  GlobalTimerExpired("Jaheira","GLOBAL")
+  Global("GoToNashkell","GLOBAL",0)
+  Global("Chapter","GLOBAL",2)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+IF
+  GlobalTimerExpired("Jaheira","GLOBAL")
+  Global("GoToNashkell","GLOBAL",1)
+  Global("Chapter","GLOBAL",2)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+

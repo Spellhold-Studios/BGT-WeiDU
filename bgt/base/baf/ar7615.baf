@@ -1,0 +1,27 @@
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("CythanSpawn","GLOBAL",0)
+  !Exists("CYTHAN")
+THEN
+  RESPONSE #100
+    CreateCreature("CYTHAN",[881.774],0)
+    SetGlobal("CythanSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("CYTHAN")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("CYTHAN",DestroySelf())
+END
+
+IF
+  Global("BGEnteredIronThroneL5","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BGEnteredIronThroneL5","GLOBAL",1)
+END

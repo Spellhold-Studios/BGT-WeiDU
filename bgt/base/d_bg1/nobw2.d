@@ -1,0 +1,16 @@
+BEGIN ~nobw2~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @3341
+  IF ~~ THEN EXIT
+END
+
+IF ~StateCheck(Myself,STATE_CHARMED)~ THEN BEGIN 1
+  SAY @6324
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9132
+  IF ~~ THEN EXIT
+END

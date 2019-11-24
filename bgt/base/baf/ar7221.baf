@@ -1,0 +1,9 @@
+IF
+  GlobalTimerExpired("Areana","GLOBAL")
+  !Exists("TorLobo")
+  !Dead("TorLobo")
+THEN
+  RESPONSE #100
+    ActionOverride("Areana",DestroySelf())
+    CreateCreature("TORLOB",[349.474],0)  // ~Tor Lobo~
+END

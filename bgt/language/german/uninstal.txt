@@ -1,0 +1,5 @@
+---------------------------------------------------
+            Deinstallation abgeschlossen.  
+Bitte stellt manuell die dialog.tlk und dialogF.tlk
+  wieder her, die Ihr unter BGT\dialog.bak findet.
+---------------------------------------------------

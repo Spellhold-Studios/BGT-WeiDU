@@ -1,0 +1,9 @@
+IF
+  AreaCheck("AR0900")
+  Global("BP_YeslickBG1Check","GLOBAL",1)
+THEN
+  RESPONSE #100
+      SetPlayerSound(Myself,@50492,EXISTANCE5)
+	ChangeAIScript("",RACE)
+END
+

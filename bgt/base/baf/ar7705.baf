@@ -1,0 +1,10 @@
+IF
+  Global("HusamMove","GLOBAL",1)
+  !Exists("Husam")
+  !Dead("Husam")
+THEN
+  RESPONSE #100
+    CreateCreature("HUSAM",[590.790],0)
+    ActionOverride("Husam",SetNumTimesTalkedTo(1))
+END
+

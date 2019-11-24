@@ -1,0 +1,11 @@
+IF
+  OnCreation()
+  Global("AR3806Spawn","AR3806",0)
+THEN
+  RESPONSE #100
+    CreateCreature("ZORDRA",[316.260],0)
+    CreateCreature("BENTHA",[182.212],0)
+    SetGlobal("AR3806Spawn","AR3806",1)
+END
+
+

@@ -1,0 +1,15 @@
+IF
+  GlobalGT("TransformedChicken","GLOBAL",0)
+  Exists("KISSIQ")
+THEN
+  RESPONSE #100
+    ActionOverride("KISSIQ",DestroySelf())
+END
+
+IF
+  Dead("Bassilus")
+  Exists("FOOTY")
+THEN
+  RESPONSE #100
+    ActionOverride("FOOTY",EscapeArea())
+END

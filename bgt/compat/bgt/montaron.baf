@@ -1,0 +1,64 @@
+IF
+	Global("Xzarfight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DialogueInterrupt(FALSE)
+		ActionOverride("Khalid",DialogueInterrupt(FALSE))
+		ActionOverride("Khalid",LeaveParty())
+		ActionOverride("Jaheira",DialogueInterrupt(FALSE))
+		ActionOverride("Jaheira",LeaveParty())
+		ActionOverride("Xzar",DialogueInterrupt(FALSE))
+		ActionOverride("Xzar",LeaveParty())
+		LeaveParty()
+		SetGlobal("Xzarfight","GLOBAL",2)
+END
+
+IF
+	Dead("Khalid")
+	Dead("Jaheira")
+	Global("Xzarfight","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Xzarfight","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+		JoinParty()
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Khalid")  // ~Khalid~
+  !Dead("Khalid")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Khalid",15)
+END
+
+IF
+  Global("Xzarfight","GLOBAL",2)
+  See("Jaheira")  // Jaheira
+  !Dead("Jaheira")
+THEN
+  RESPONSE #100
+    AttackReevaluate("Jaheira",15)
+END
+
+IF
+  GlobalTimerExpired("Montaron","GLOBAL")
+  Global("FindNashkell","GLOBAL",0)
+  Global("Chapter","GLOBAL",2)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+
+IF
+  GlobalTimerExpired("Montaron","GLOBAL")
+  Global("FindNashkell","GLOBAL",1)
+  Global("Chapter","GLOBAL",2)
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+

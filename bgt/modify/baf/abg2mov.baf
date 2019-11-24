@@ -1,0 +1,20 @@
+IF
+  Time(DUSK_END)
+  !GlobalTimerNotExpired("A6Sunset","GLOBAL")
+THEN
+  RESPONSE #100
+    StartMovie("DAYNITE")
+    SetGlobalTimer("A6Sunset","GLOBAL",ONE_HOUR)
+    Wait(120)
+END
+
+IF
+  Time(DAWN_END)
+  !GlobalTimerNotExpired("A6Sunrise","GLOBAL")
+THEN
+  RESPONSE #100
+    StartMovie("NITEDAY")
+    SetGlobalTimer("A6Sunrise","GLOBAL",ONE_HOUR)
+    Wait(120)
+END
+

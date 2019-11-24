@@ -1,0 +1,98 @@
+IF
+  Dead("cultd1")
+  Dead("cultd2")
+  Dead("cultd3")
+  Dead("cultd4")
+  Dead("cultd5")
+  Dead("cultd6")
+  Dead("tanar")
+  Global("TanariXP","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("TanariXP","GLOBAL",1)
+    AddExperienceParty(16000)
+    AddJournalEntry(@310605,QUEST_DONE)
+    EraseJournalEntry(@310600)
+    EraseJournalEntry(@310601)
+    EraseJournalEntry(@310602)
+    EraseJournalEntry(@310603)
+    EraseJournalEntry(@310604)
+    SetGlobal("DaemonCultFinish","GLOBAL",1)
+END
+
+IF
+  Global("Cult1","GLOBAL",1)
+  Global("Cult63Spawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("tracea",[510.453],0)
+    CreateCreature("CULTD1",[598.396],0)
+    CreateCreature("CULTD2",[405.531],0)
+    CreateCreature("CULTD3",[487.657],0)
+    CreateCreature("CULTD4",[693.765],0)
+    CreateCreature("CULTD5",[881.628],0)
+    CreateCreature("CULTD6",[839.515],0)
+    SetGlobal("Cult63Spawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Dead("tanar")
+  !Dead("cultd1")
+THEN
+  RESPONSE #100
+    ForceSpell("cultd1",TANARI_CHANGE)
+    SetGlobal("Sprite_Is_DeadCultd1","GLOBAL",1)
+    SetGlobal("Sprite_Is_DeadTanar","GLOBAL",0)
+END
+
+IF
+  Dead("tanar")
+  !Dead("cultd2")
+THEN
+  RESPONSE #100
+    ForceSpell("cultd2",TANARI_CHANGE)
+    SetGlobal("Sprite_Is_DeadCultd2","GLOBAL",1)
+    SetGlobal("Sprite_Is_DeadTanar","GLOBAL",0)
+END
+
+IF
+  Dead("tanar")
+  !Dead("cultd3")
+THEN
+  RESPONSE #100
+    ForceSpell("cultd3",TANARI_CHANGE)
+    SetGlobal("Sprite_Is_DeadCultd3","GLOBAL",1)
+    SetGlobal("Sprite_Is_DeadTanar","GLOBAL",0)
+END
+
+IF
+  Dead("tanar")
+  !Dead("cultd4")
+THEN
+  RESPONSE #100
+    ForceSpell("cultd4",TANARI_CHANGE)
+    SetGlobal("Sprite_Is_DeadCultd4","GLOBAL",1)
+    SetGlobal("Sprite_Is_DeadTanar","GLOBAL",0)
+END
+
+IF
+  Dead("tanar")
+  !Dead("cultd5")
+THEN
+  RESPONSE #100
+    ForceSpell("cultd5",TANARI_CHANGE)
+    SetGlobal("Sprite_Is_DeadCultd5","GLOBAL",1)
+    SetGlobal("Sprite_Is_DeadTanar","GLOBAL",0)
+END
+
+IF
+  Dead("tanar")
+  !Dead("cultd6")
+THEN
+  RESPONSE #100
+    ForceSpell("cultd6",TANARI_CHANGE)
+    SetGlobal("Sprite_Is_DeadCultd6","GLOBAL",1)
+    SetGlobal("Sprite_Is_DeadTanar","GLOBAL",0)
+END
+

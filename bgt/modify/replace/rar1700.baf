@@ -1,0 +1,7 @@
+IF
+  Global("EnteredWyvern","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("WYVERN")
+    SetGlobal("EnteredWyvern","GLOBAL",1)
+END

@@ -1,0 +1,23 @@
+IF
+  Global("YeslickPartyBG1","GLOBAL",1)
+  Global("BP_YeslickBG1Check","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_YeslickBG1Check","GLOBAL",1)
+    SetGlobal("Yeslick","GLOBAL",1)
+    ActionOverride("Yeslick",SetDialogue("YESLICDD"))
+    ActionOverride("Yeslick",ChangeAIScript("YESLICDD",OVERRIDE))
+    ActionOverride("Yeslick",SetNumTimesTalkedTo(0))
+    AddXPObject("Yeslick",50000)
+    GiveItemCreate("HELM01","Yeslick",1,0,0) // Helmet
+    GiveItemCreate("PLAT01","Yeslick",1,0,0) // Plate Mail Armor
+    GiveItemCreate("HAMM08","Yeslick",1,0,0) // War Hammer +2
+    GiveItemCreate("POTN52","Yeslick",3,0,0) // Potion of Extra Healing
+    GiveItemCreate("POTN04","Yeslick",2,0,0) // Potion of Frost Giant Strength
+    SmallWait(10)
+    ActionOverride("Yeslick",FillSlot(SLOT_HELMET))
+    ActionOverride("Yeslick",FillSlot(SLOT_ARMOR))
+    ActionOverride("Yeslick",FillSlot(SLOT_WEAPON))
+    SmallWait(10)
+    ActionOverride("Yeslick",EquipMostDamagingMelee())
+END

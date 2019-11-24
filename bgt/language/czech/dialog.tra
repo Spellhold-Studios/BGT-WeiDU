@@ -1,0 +1,133 @@
+//BELTBRD.D
+@201810 = ~Lidé slyšeli o Sarevokovi.  Jsou zvìdaví.  Obzvláš šlechtici pokládají otázky.  Nebezpeèné otázky.  Tøeba jak se ti podaøilo zabít zplozence Bhaala.~
+@201812 = ~Stínoví zlodìji prozradili to o chrámu pod jejich základnou.  Myslím, e to mohl bıt pokus, jak tì dostat z mìsta.  Nejspíš se cítí ohroeni tvojí pøítomností.~ //'I know' deleted at start of line
+@201813 = ~Jako by šlechta nebyla dostateènı problém, mám tu nìco horšího, s èím bys mi mohl pomoct.~
+@201814 = ~Co je to?~
+@201815 = ~Amn poøád plánuje vyhlásit nám válku.  Snail jsem se poslat zprávy Radì v Athkatle, ale neodpovídají.  Nevím, jestli je to kvùli kurırùm nebo Radì.~
+@201816 = ~A co to má spoleèného se mnou?~
+@201817 = ~A co chcete, abych udìlal?~
+@201818 = ~<CHARNAME>!  Je vítìzství... tvé?  Je Sarevok... mrtev?~
+@201819 = ~Ano, je to tak.  Sarevok padl za obì mému meèi.~
+@201820 = ~Kdy si pomyslím, e jsme ho ještì pøed chvílí oslavovali... *ehm*~ //everything after *ahem* deleted
+@201821 = ~Mám novı kontakt v Athkatle.  Potøebuju k nìmu dostat tenhle dokument, aby si ho Rada Šesti pøeèetla a dozvìdìla se o pøíèinì našich problémù.  Navrhuji tajné setkání mezi mnou a Radou.  Doufám, e jim dokáu, e Sarevok mùe za ty vıhruky, a e Baldurova Brána nechce válku.~
+@201822 = ~Øíkám ti to, protoe nìkdo musí tento dùleitı úkol splnit.  Chci, aby ses setkal s mım kontaktem a doruèil mu tento dopis.  Kdy se tam moji kurıøi nedokáou dostat kvùli banditùm, aspoò vím, e ty jsi schopen je porazit a splnit tento úkol.~
+@201823 = ~Athkatla?  V Amnu?  Dostat se tam zabere nìjakı èas.  Není zpùsob, jak urychlit moji cestu?~
+@201824 = ~Ano, to mì pøivádí k další vìci.  Nechal jsem své mágy napsat kouzlo, které tì tam pøenese.  Bohuel jsem nikdy nebyl v Athkatle a pøenos funguje pouze, pokud znáš cíl.~
+@201826 = ~Byl jsem na nìkolika honech kousek na sever od Athkatly.  Znám dobøe jedno místo a mùu tì tam pøenést.  Øekl jsem o tom svému kontaktu a mìli by tam na tebe èekat jeho lidé.  Doprovodí tì do mìsta.~ //'Patience please' deleted at start of line
+@201827 = ~Jedna vìc mi není jasná.  Kdy mùete nìkoho pøenést, aby se setkal s tím kontaktem, proè prostì nepošlete kurıra? Proè mì?~
+@201828 = ~Mám proto hned dva dùvody.  Zaprvé, jak u jsem øekl, šlechtici se tì bojí.  Dostat tì na pár dní z mìsta mi dá èas, abych je mohl uklidnit.  Druhı dùvod je, e mùj kontakt o tobì slyšel.  Zdá se, e jsi hrdinou Meèového Pobøeí.  Mùj kontakt si myslí, e Rada bude ochotnìji naslouchat mım poadavkùm, kdy je budou pøednášet hrdinové, jako jste vy.  Dal jsem dokonce vìdìt nìkterım z tvıch pøátel, take se tam s nimi mùeš setkat.  Zpátky se budeš muset dostat pìšky, tak se na tu cestu poøádnì vybav.~ //'Good luck, and safe journeys.' deleted at end of line, '...go and...' deleted from last sentence
+//BELTBRD.D - new lines (v1.06)
+@201829 = ~Jsi pøipraven na cestu do Athkatly?~
+@201830 = ~Ano, jsem pøipraven.~
+@201831 = ~Ne, ještì potøebuju nìjakı èas na pøípravu.~
+@201832 = ~Co to mám vlastnì udìlat?~
+@201833 = ~Hodnì štìstí a bezpeènou cestu.~
+@201834 = ~Pak se pøiprav rychle. Nemáme moc èasu.~
+
+//SARDEAD.D
+@202200 = ~Co... je tohle!?~
+@202201 = ~Ne!  Jak... je to moné?  JAK JE TO MONÉ?~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// KingDiamond's Extra Dialogue
+////////////////////////////////////////////////////////////////////////////////////////
+//TAEROM.D
+@203402 = ~No, èas se krátí! Doufám, e ti shnije v batohu, budeš milovat tu vùni. To tì nauèí!~
+
+//WINSKI.D
+@203403 = ~Tak... zabil jsi ho, viï?  Nevìdìl jsem, kdo vyhraje, ale mìl jsem pøedpokládat, e to budeš ty.  Byl jsi mu trnem v oku celou dobu a jeho vítìzství by stejnì bylo marné.~
+@203404 = ~Jen mì nech tady.  Já... nemám u ádnou sílu.  A si pro mì pøijde ta zatracená Pìst. U je mi to jedno.~
+
+//SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
+@203405 = ~To jsou ti hledaní za mnohonásobnou vradu, ZABTE je!~
+
+//VOLETA.D
+@203406 = ~Jsi zpátky.  Jsem docela pøekvapená, es pøeil.  Nikdy døív se nikdo nedostal z Bludištì.  Aspoò, e ten parchant je mrtvej.  Jestlis to zvládl tam a zpátky, není pochyb, e je pryè.~
+@203407 = ~Zatím budu v poøádku.  Ostatní se o mì u brzo postarají, tak odsud prostì vypadni. Tak èi tak jsi zpùsobil dost potíí.~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// For picking known spells for new Shadows of Amn characters
+////////////////////////////////////////////////////////////////////////////////////////
+//A6GENSPL.D
+@204000   = ~PAUZUJTE hru, nastavte obtínost na NOVÁÈEK nebo NORMÁLNÍ a ODPAUZUJTE pro pokraèování.~
+@204001   = ~Vyberte kouzla mága pro <CHARNAME>.~
+@204002   = ~Vyberte kouzlo 2. úrovnì mága specialisty pro <CHARNAME>.~
+@204003   = ~(Mágova kouzla 2. úrovnì)~
+@204004   = ~Rozmazání (iluze/pøeludy)~
+@204005   = ~Najdi zlo (vìštìní)~
+@204006   = ~Najdi neviditelnost (vìštìní)~
+@204007   = ~Dìs (nekromancie)~
+@204008   = ~Neviditelnost (iluze/pøeludy)~
+@204009   = ~Zaklep (promìny)~
+@204010   = ~Poznej pøesvìdèení (vìštìní)~
+@204011   = ~Štìstí (zaøíkávání/zmámení)~
+@204012   = ~Odolej strachu (ochrana)~
+@204013   = ~Melfùv kyselinovı šíp (vyvolávání)~
+@204014   = ~Zrcadlovı obraz (iluze/pøeludy)~
+@204015   = ~Smrdící mrak (vzıvání)~
+@204016   = ~Síla (promìny)~
+@204017   = ~Pavuèina (vzıvání)~
+@204018   = ~Agannazarùv ár (vzıvání)~
+@204019   = ~Dotyk ghùla (nekromancie)~
+@204020   = ~Hlas (promìny)~
+@204021   = ~Mocné slovo: Spi (vyvolávání)~
+@204022   = ~Paprsek oslabení (zaøíkávání/zmámení)~
+@204023   = ~Chaotickı štít* (ochrana)~
+@204024   = ~Hluchota (iluze/pøeludy)~
+@204025   = ~Tøpytivı prach (vyvolávání)~
+@204026   = ~Vyberte šest mágovıch kouzel 2. úrovnì pro <CHARNAME>.~
+@204027   = ~Vyberte kouzlo 3. úrovnì mága specialisty pro <CHARNAME>, nebo jakékoli kouzlo pro divokého mága.~
+@204028   = ~(Mágova kouzla 3. úrovnì)~
+@204029   = ~Jasnozøivost (vìštìní)~
+@204030   = ~Odstraò magii (ochrana)~
+@204031   = ~Ohnivı šíp (vyvolávání)~
+@204032   = ~Ohnivá koule (vzıvání)~
+@204033   = ~Spìch (promìny)~
+@204034   = ~Dr osobu (zaøíkávání/zmámení)~
+@204035   = ~Neviditelnost, polomìr 3 m (iluze/pøeludy)~
+@204036   = ~Blesk (vzıvání)~
+@204037   = ~Povolávání pøíšer I (vyvolávání)~
+@204038   = ~Nezjistitelnost (ochrana)~
+@204039   = ~Ochrana pøed normálními støelami (ochrana)~
+@204040   = ~Zpomalení (promìny)~
+@204041   = ~Past lebka (nekromancie)~
+@204042   = ~Upíøí dotyk (nekromancie)~
+@204043   = ~Silná náklonnost (zaøíkávání/zmámení)~
+@204044   = ~Pøízraèná zbroj (vyvolávání)~
+@204045   = ~Slabší odraení kouzla (ochrana)~
+@204046   = ~Ochrana pøed ohnìm (ochrana)~
+@204047   = ~Ochrana pøed chladem (ochrana)~
+@204048   = ~Sejmi kouzlo (ochrana)~
+@204049   = ~Odhal pøelud (vìštìní)~
+@204050   = ~Dr nemrtvého (nekromancie)~
+@204051   = ~Melfovy drobné meteory (vzıvání)~
+@204052   = ~Rozptyl magii (ochrana)~
+@204053   = ~Vyberte pìt mágovıch kouzel 3. úrovnì pro <CHARNAME>.~
+@204054   = ~Vyberte kouzlo 4. úrovnì mága specialisty pro <CHARNAME>, nebo jakékoli kouzlo pro divokého mága.~
+@204055   = ~(Mágova kouzla 4. úrovnì)~
+@204056   = ~Zmatek (zaøíkávání/zmámení)~
+@204057   = ~Ohnivı štít (Modrı) (vzıvání)~
+@204058   = ~Ledová bouøe (vzıvání)~
+@204059   = ~Vylepšená neviditelnost (iluze/pøeludy)~
+@204060   = ~Menší koule nezranitelnosti (ochrana)~
+@204061   = ~Povolávání pøíšer II (vyvolávání)~
+@204062   = ~Kamenná kùe (promìny)~
+@204063   = ~Nákaza (nekromancie)~
+@204064   = ~Zruš kletbu (ochrana)~
+@204065   = ~Emoce (zaøíkávání/zmámení)~
+@204066   = ~Nepøíjemnosti (zaøíkávání/zmámení)~
+@204067   = ~Otilukova nezdolná koule (promìny)~
+@204068   = ~Duševní zbroj (nekromancie)~
+@204069   = ~Promìò jiné (promìny)~
+@204070   = ~Promìò sebe (promìny)~
+@204071   = ~Vyèaruj zbraò (zaøíkávání/zmámení)~
+@204072   = ~Ohnivı štít (èervenı) (vzıvání)~
+@204073   = ~Tajné slovo (ochrana)~
+@204074   = ~Slabší poøadaè kouzel (vzıvání)~
+@204075   = ~Teleportaèní pole (promìny)~
+@204076   = ~Pavouèí zárodek (vyvolávání)~
+@204077   = ~Bystrozrakost (vìštìní)~
+@204078   = ~Èarodìjovo oko (vìštìní/promìny)~
+@204079   = ~Vyberte pìt mágovıch kouzel 4. úrovnì pro <CHARNAME>.~
+@204080   = ~Vıbìr mágovıch kouzel hotov.~
+@204081   = ~Nezapomeòte nastavit obtínost zpìt na vaše pùvodní nastavení.~

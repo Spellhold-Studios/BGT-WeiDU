@@ -1,0 +1,892 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT-WeiDU</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Baldur's Gate Trilogy - WeiDU (BGT-WeiDU)</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate 2: Throne of Bhaal</strong>
+        <p class="about">
+          Project Lead: Ascension64</p>
+        <p class="about">[with permission from Bardez]</p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=261">Mod Forum</a>
+        </p>
+		<br />
+		<p><a href="%5benglish%5dbgtreadme.htm"><img border=0 src="images/image001.gif"></a>&nbsp;
+		<a href="%5bschinese%5dbgtreadme.htm"><img border=0 src="images/image009.gif"></a>&nbsp;
+		<a href="%5btchinese%5dbgtreadme.htm"><img border=0 src="images/image010.gif"></a>&nbsp;
+		<a href="%5bczech%5dbgtreadme.htm"><img border=0 src="images/image011.gif"></a>&nbsp;
+		<a href="%5bfrench%5dbgtreadme.htm"><img border=0 src="images/image002.gif"></a>&nbsp;
+		<a href="%5bgerman%5dbgtreadme.htm"><img border=0 src="images/image003.gif"></a>&nbsp;
+		<a href="%5bitalian%5dbgtreadme.htm"><img border=0 src="images/image004.gif"></a>&nbsp;
+		<a href="%5bkorean%5dbgtreadme.htm"><img border=0 src="images/image007.gif"></a>&nbsp;
+		<a href="%5bpolish%5dbgtreadme.htm"><img border=0 src="images/image005.gif"></a>&nbsp;
+		<a href="%5brussian%5dbgtreadme.htm"><img border=0 src="images/image006.gif"></a>&nbsp;
+		<a href="%5bcastilian%5dbgtreadme.htm"><img border=0 src="images/image008.gif"></a></p>
+        <hr />
+        <p class="menu">
+          <a href="#intro">Introduction</a> &middot;
+          <a href="#requirements">Requirements</a> &middot;
+          <a href="#installation">Installation and Uninstallation</a> &middot;
+          <a href="#faq">FAQ</a> &middot;
+          <a href="#troubleshooting">Troubleshooting</a> &middot;
+          <a href="#credits">Credits</a> &middot;
+          <a href="#legalese">Legalese</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>Introduction</h2>
+          <p>Baldur's Gate Trilogy is a modification originally created by Bardez that aimed to achieve two major goals: to play Baldur’s Gate and Tales of the Sword Coast expansion using the much improved Baldur’s Gate II engine, and to generate some kind of continuity between the events of Baldur's Gate, Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal. Baldur's Gate Trilogy-WeiDU takes this a step further by converting the modification to WeiDU format, which has improved compatibility with other modifications.</p>
+		  <p>While BGT-WeiDU remains mostly faithful to the original Baldur's Gate and Tales of the Sword Coast, a number of new features have been introduced to satisfy the above goals.</p>
+		  <br />
+		<ul>
+			<li><strong>Baldur's Gate using the Baldur's Gate II engine:</strong> BGT-WeiDU is a modification installed on Baldur's Gate II: Throne of Bhaal. Therefore, the story of Baldur's Gate can be experienced with the updated graphics, better resolution, and interface improvements present in Baldur's Gate II.</li>
+			<li><strong>Bug fixes:</strong> BGT-WeiDU includes an internal fixpack that addresses a significant number of bugs that remained in Baldur's Gate and Tales of the Sword Coast. A technical list of fixes can be found <a href="fixeslist.htm">here</a>.</li>
+			<li><strong>Continuity from Baldur's Gate into Shadows of Amn:</strong> BGT-WeiDU uses a dynamic system to transfer players from the end of Baldur's Gate to Shadows of Amn. A cover story is used, in which the player talks to Belt after Sarevok is defeated, and NPCs are conditionally imported into Shadows of Amn depending on what fate you led them to experience in Baldur’s Gate.</li>
+			<li><strong>Expansive compatibility with other modifications:</strong> BGT-WeiDU is compatible with the latest versions of modifications in a mega-modification installation, as well as a large number of other fan-made modifications. This allows the player to expand the world of Baldur’s Gate to an enormously rich location to explore. A compatibility list is available <a href="[english]compatibility.htm">here</a>.</li>
+			<li><strong>Organised journal entries:</strong> BGT-WeiDU utilises a full quest journal system and ensures that all Baldur’s Gate journal entries are removed prior to the transition to Shadows of Amn. This prevents clogging up of the journal, which normally makes it hard to find important information in the journal.</li>
+			<li><strong>Map Notes:</strong> The advent of map notes makes it useful for the player to pin their own special locations. BGT-WeiDU comes with a number of map notes already inserted to help the player find particular buildings quickly, instead of running around like crazed chickens into every single house in a particular area.</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== R e q u i r e m e n t s ================== -->
+        <a name="requirements" id="requirements"></a>
+        <div class="content">
+          <h2>Requirements</h2>
+          <p>BGT-WeiDU requires the following:</p>
+		  <ul>
+		  	<li>A <strong>custom install (with all checkboxes ticked)</strong> of Baldur’s Gate and Tales of the Sword Coast, patched to version 5512</li>
+			<p>OR</p>
+			<li>A <strong>custom install (with all checkboxes ticked)</strong> of Baldur’s Gate: The Original Saga</li>
+			<div class="important">
+				<p>The installation must be a "clean" installation; no modifications whatsoever should be installed on it.</p>
+			</div>
+			<div class="important">
+				<p>If you receive a warning about insufficient disk space during installation, and have checked that you actually do have enough disk space, then ignore the warning.</p>
+			</div>
+			<p>AND</p>
+			<li>A <strong>full install</strong> of Baldur’s Gate II: Shadows of Amn and Baldur’s Gate II: Throne of Bhaal, patched to version 26498</li>
+			<div class="important">
+				<p>This may have pre-existing modifications installed. See the FAQ section for details.</p>
+			</div>
+			<p>AND</p>
+			<li><strong>At least 3.0 GB of free disk space</strong> for the installation process. Not including the Baldur's Gate and Tales of the Sword Coast installation, the BGT-WeiDU modification occupies 2.5 GB of disk space. For virtual memory purposes, at least 4.0 GB of free disk space is recommended.</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Requirements</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Installation and Uninstallation</h2>
+		  <h3>Installation</h3>
+		  <ol>
+			<div class="important">
+				<p>If you are installing this as part of the mega-modification, install this after all modifications that are part of the mega-modification. See Frequently Asked Questions for more details.</p>
+			</div>
+		  	<li>Extract BGT1##-Install.rar to your <strong>Baldur's Gate II</strong> install directory</li>
+			<div class="important">
+				<p>Ensure that no Baldur’s Gate-related CDs, DVDs, or virtual images are mounted in any of your CD-ROM, DVD-ROM, or virtual drives. Failure to do this will likely result in errors during installation.</p>
+			</div>
+			<div class="important">
+				<p>It is recommended that you disable virus scanners, spyware scanners, and other background on-the-fly file scanners during the installation. These programs have been known in some cases to interfere with the installation process.</p>
+			</div>
+			<li>Run Setup-BGT.exe in your Baldur's Gate II install directory and follow the installation prompts</li>
+			<div class="important">
+				<p>The installation checks that the Baldur's Gate I installation directory you typed contains a full custom installation of Baldur's Gate and Tales of the Sword Coast. If the installation needs to be aborted to correct your Baldur's Gate I installation, you can safely close the installation window or press Ctrl+C.</p>
+			</div>
+			<li>Play Baldur’s Gate II - click the Baldur’s Gate button, then New Game to start Baldur’s Gate I</li>
+			<div class="important">
+				<p>You may uninstall Baldur’s Gate and Tales of the Sword Coast if desired. If you think you may want to-reinstall BGT-WeiDU at a later date, leave Baldur's Gate I installed.</p>
+			</div>
+			<li>After installation, you may want to activate Baldur’s Gate and Tales of the Sword Coast music and/or install a custom graphical user interface. Refer to the <a href="%5benglish%5dpostinstall.htm#Music">Post-installation Notes</a> for more details</li>
+		</ol>
+		<hr />
+
+		<h3>Uninstallation and Reinstallation</h3>
+		<ol>
+			<li>Run Setup-BGT.exe in your Baldur's Gate II install directory and follow the installation prompts</li>
+			<li>When prompted after uninstallation, restore the backup of dialog.tlk, found in the &lt;BGII install directory&gt;\bgt\dialog.bak directory</li>
+		</ol>
+		<hr />
+		
+		<h3>Auto-installation (for expert users)</h3>
+		<ol>
+			<li>Extract BGT1##-Install.rar to your Baldur's Gate II install directory</li>
+			<div class="important">
+				<p>Ensure that no Baldur’s Gate-related CDs, DVDs, or virtual images are mounted in any of your CD-ROM, DVD-ROM, or virtual drives. Failure to do this will likely result in errors during installation.</p>
+			</div>
+			<div class="important">
+				<p>It is recommended that you disable virus scanners, spyware scanners, and other background on-the-fly file scanners during the installation. These programs have been known in some cases to interfere with the installation process.</p>
+			</div>
+			<li>Go to the command line, navigate to your Baldur's Gate II installation directory, and execute Setup-BGT.exe using the construction below. Alternatively, place the construction in a batch file or the Run... dialog in the Start menu.</li>
+			<div class="important">
+				<p>Setup-BGT.exe --force-install 0 --skip-at-view --language <em>X</em> --args-list <em>[flags]</em> <em>[path]</em></p>
+			</div>
+			<p>Parameters:</p>
+			<div class="important">
+				<table border=1>
+					<tr>
+						<td><em>X</em></td>
+						<td>
+							<p>0 - English<br />1 - International English<br />2 - Castilian/Spanish<br />3 - French<br />4 - German<br />5 - Italian<br />6 - Korean<br />7 - Polish<br />8 - Russian<br />9 - Simplified Chinese<br />10 - Traditional Chinese<br />11 - Czech</p>
+						</td>
+					</tr>
+					<tr>
+						<td><em>[flags]</em></td>
+						<td>
+                                                        <p>b or B - suppress prompt for biffing option and biff all new resources (takes precedence over 'o' flag)</p>
+                                                        <p>o or O - suppress prompt for biffing option and biff select resources (recommended for mega-modification installations)</p>
+							<p>s or S - suppress display of Post-installation Notes at the end of the installation</p>
+							<p>p or P - pre-define the full path to the Baldur’s Gate and Tales of the Sword Coast directory; if the path is invalid, setup will prompt for a valid path</p>
+						</td>
+					</tr>
+					<tr>
+						<td><em>[path]</em></td>
+						<td>the full path, in quotes, to your Baldur’s Gate and Tales of the Sword Coast installation directory, used in conjunction with p or P in <em>[flags]</em></td>
+					</tr>
+				</table>
+			</div>
+			<p>Example:</p>
+			<div class="important">
+				<p>Setup-BGT.exe –-force-install 0 --skip-at-view --language 0 --args-list sp "C:\Program Files\Black Isle\Baldur's Gate"</p>
+		  </div>
+			<p>This construction installs BGT-WeiDU with the English language, suppresses display of the post-installation notes at the end of the installation, and pre-defines the Baldur’s Gate and Tales of the Sword Coast directory as C:\Program Files\Black Isle\Baldur’s Gate.</p>
+			<div class="important">
+				<p>The installation checks that the Baldur's Gate I installation directory you specified contains a full custom installation of Baldur's Gate and Tales of the Sword Coast. If the directory you specified is invalid or contains an incorrect installation of Baldur's Gate and Tales of the Sword Coast, installation will prompt for the correct directory.</p>
+			</div>
+			<div class="important">
+				<p>If the installation needs to be aborted to correct your Baldur's Gate I installation, you can safely close the installation window or press Ctrl+C.</p>
+			</div>
+		</ol>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Installation and Uninstallation</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== F A Q ================== -->
+        <a name="faq" id="faq"></a>
+        <div class="content">
+          <h2>Frequently Asked Questions</h2>
+		  <p><strong>General</strong></p>
+		  <ul>
+			<li><a href="#FAQ1">How does Baldur’s Gate Trilogy fit in with other modifications for Baldur’s Gate II out there?</a></li>
+			<li><a href="#FAQ2">If Bardez made Baldur’s Gate Trilogy, why should there be Baldur’s Gate Trilogy-WeiDU (BGT-WeiDU)?</a></li>
+			<li><a href="#FAQ3">You said BGT-WeiDU is mostly faithful to the original. What are the major differences between this modification and the original Baldur’s Gate and Tales of the Sword Coast?</a></li>
+		  </ul>
+		  <p><strong>Installation</strong></p>
+		  <ul>
+			<li><a href="#FAQ4">How does BGT-WeiDU incorporate Baldur’s Gate and Tales of the Sword Coast into my Baldur’s Gate II game?</a></li>
+		  	<li><a href="#FAQ5">I want to install BGT-WeiDU. Should I have clean copies of Baldur’s Gate, Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal installed?</a></li>
+			<li><a href="#FAQ6">How long does the installation process for BGT-WeiDU take?</a></li>
+		  </ul>
+		  <p><strong>Playing the Modification</strong></p>
+		  <ul>
+			<li><a href="#FAQ7">I have BGT-WeiDU installed now. How do I start Baldur’s Gate from Candlekeep?</a></li>
+			<li><a href="#FAQ8">Can I still play Shadows of Amn and/or Throne of Bhaal with BGT-WeiDU installed?</a></li>
+			<li><a href="#FAQ9">How does continuity in BGT-WeiDU work?</a></li>
+			<li><a href="#FAQ10">Baldur’s Gate and Tales of the Sword Coast had its fair share of bugs. In this conversion, do these bugs still exist?</a></li>
+		</ul>
+		<p><strong>Uninstallation</strong></p>
+		<ul>
+			<li><a href="#FAQ11">Do I have to restore dialog.tlk after I uninstall BGT-WeiDU?</a></li>
+			<li><a href="#FAQ12">Why should I manually restore dialog.tlk after I uninstall BGT-WeiDU?</a></li>
+		</ul>
+		<p><strong>Compatibility and Other Modifications</strong></p>
+		<ul>
+			<li><a href="#FAQ13">Can I play BGT-WeiDU with other modifications?</a></li>
+			<li><a href="#FAQ14">How do I install the mega-modification with BGT-WeiDU?</a></li>
+			<li><a href="#FAQ15">How do I install other modifications with BGT-WeiDU?</a></li>
+		</ul>
+		<p><strong>Miscellaneous</strong></p>
+		<ul>
+			<li><a href="#FAQ16">I would like to translate this modification. How do I do it?</a></li>
+			<li><a href="#FAQ17">I have other questions.</a></li>
+		</ul>
+		<hr />
+		  <a name="FAQ1" id="FAQ1"></a>
+		  <p><strong>How does Baldur’s Gate Trilogy fit in with other modifications for Baldur’s Gate II out there?</strong></p>
+		  <p>Bardez’s Baldur’s Gate Trilogy, BGT_MK3_112, became incorporated with the mega-modification known as The Big Picture, which combines a number of large modifications for Baldur’s Gate II (The Darkest Day, Shadows over Soubar, and Tortured Souls) together in order to allow the gamer to play through all the major modifications at the same time. Subsequently, the conversion of the TeamBG mod Dark Side of the Sword Coast for use with this platform as well as the creation of modifications made specifically for Baldur’s Gate Trilogy, such as Northern Tales of the Sword Coast and Secret of Bonehill, made the so-called BP-BGT a humungus conglomeration of modifications that richly expanded the Baldur’s Gate universe.</p>
+		  <p>Today, BP-BGT is an obsolete term, and the mega-modification refers to a installation of modifications containing at least two of Baldur's Gate Trilogy-WeiDU (BGT-WeiDU), The Darkest Day (TDD), Shadows Over Soubar (SoS), Tortured Souls (TS - BP version), Check the Bodies (CtB), Region of Terror (RoT), Never Ending Journey (NeJ), and The Big Picture (BP).</p>
+		  <br />
+		<a name="FAQ2" id="FAQ2"></a>
+		<p><strong>If Bardez made Baldur’s Gate Trilogy, why should there be Baldur’s Gate Trilogy-WeiDU (BGT-WeiDU)?</strong></p>
+		<p>Stitching together a large number of modifications that affect all aspects of Baldur’s Gate II and are made by different authors generates many compatibility problems between modifications. This arises because often the same files are patched and overwritten, meaning that one change replaces another and the original change disappears forever. Also, large modifications usually come with a load of bugs that can be difficult to locate file-wise and fix.</p>
+		<p>You might also expect that large modifications, especially one such as Baldur’s Gate Trilogy, which adds most of the material from Baldur’s Gate and Tales of the Sword Coast to Baldur’s Gate II, require large installation packages, and therefore downloading large files could be tedious and slow for some gamers with aging internet connections. BGT-WeiDU aims to address these problems by converting the installation process into the Weimer Dialogue Utilities (WeiDU) platform, a powerful tool that can solve compatibility issues and allow bugs to be fixed quickly and efficiently. BGT-WeiDU also draws most resources from the original installation of Baldur’s Gate and Tales of the Sword Coast to greatly reduce the size of the download.</p>
+		<br />
+		<a name="FAQ3" id="FAQ3"></a>
+		<p><strong>You said BGT-WeiDU is mostly faithful to the original. What are the major differences between this modification and the original Baldur’s Gate and Tales of the Sword Coast?</strong></p>
+		<p>There are a number of new features introduced by BGT-WeiDU, many of them utilise the advantages of the Baldur’s Gate II engine and the compatibility features of WeiDU. New features are described in the Introduction section.</p>
+		<p>Additionally, many bugs inherent in Baldur’s Gate and Tales of the Sword Coast were fixed. A list of fixes currently incorporated into BGT-WeiDU can be found <a href="fixeslist.htm">here</a>. </p>
+		<br />
+		<a name="FAQ4" id="FAQ4"></a>
+		<p><strong>How does BGT-WeiDU incorporate Baldur’s Gate and Tales of the Sword Coast into my Baldur’s Gate II game?</strong></p>
+		<p>BGT-WeiDU converts Baldur’s Gate and Tales of the Sword Coast resources and installs them to your Baldur’s Gate II directory. Holistically, the conversion is mostly faithful to the original. Technically, the installation imports by duplication most of the core resources of the modification directly from your existing Baldur’s Gate and Tales of the Sword Coast. Therefore, your original Baldur’s Gate and Tales of the Sword Coast is unaffected. You may choose to uninstall Baldur’s Gate and Tales of the Sword Coast after installation of BGT-WeiDU to free up some disk space.</p>
+		<br />
+		<a name="FAQ5" id="FAQ5"></a>
+		<p><strong>I want to install BGT-WeiDU. Should I have clean copies of Baldur’s Gate, Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal installed?</strong></p>
+		<p>It is critical that you have a clean copy of Baldur’s Gate and Tales of the Sword Coast installed that contains no modifications whatsoever (including Baldurdash fixes). Failure to do this will generate numerous unpredictable problems in your BGT-WeiDU installation.</p>
+		<p>For Shadows of Amn and Throne of Bhaal, you may have modifications pre-installed. See <a href="#FAQ15">below</a> for more details on using other modifications with BGT-WeiDU.</p>
+		<br />
+		<a name="FAQ6" id="FAQ6"></a>
+		<p><strong>How long does the installation process for BGT-WeiDU take?</strong></p>
+		<p>Installation time will depend on the abilities of your system, but as a rough estimate installation may take anywhere from 20 minutes to 1 hour. You will receive prompts informing you of what is occurring during installation. You will also be prompted at the end of the installation process.</p>
+		<br />
+		<a name="FAQ7" id="FAQ7"></a>
+		<p><strong>I have BGT-WeiDU installed now. How do I start Baldur’s Gate from Candlekeep?</strong></p>
+		<p>When you start Baldur’s Gate II, you will arrive at the main menu where you would normally choose to play Shadows of Amn or Throne of Bhaal. Notice that the Shadows of Amn button has been replaced by a Baldur’s Gate button. Click on this button, and then click Single Player, then New Game. This will take you to the character generation screen, where you will create a level 1 character or import an existing character. Your character will then start in Candlekeep.</p>
+		<br />
+		<a name="FAQ8" id="FAQ8"></a>
+		<p><strong>Can I still play Shadows of Amn and/or Throne of Bhaal with BGT-WeiDU installed?</strong></p>
+		<p>Certainly.</p>
+		<p>For Shadows of Amn, click on the Baldur’s Gate button in the main menu, and then Single Player. You will notice that the Tutorial button has been replaced by a button labelled ‘New BG2 Game’. Click on this button, and click on the New BG2 Game button on the dialog box to go to the character generation screen, where you will create a character that will have the appropriate amount of experience for Baldur's Gate II, or import an existing character. When finished, you will start in Irenicus’ Dungeon.</p>
+		<p>The method to start a Throne of Bhaal game has not changed.</p>
+		<br />
+		<a name="FAQ9" id="FAQ9"></a>
+		<p><strong>How does continuity in BGT-WeiDU work?</strong></p>
+		<p>If you start a game in Candlekeep, you play through the original Baldur’s Gate until you defeat Sarevok. The Tales of the Sword Coast areas are accessible whenever you like by travelling north of Wyrm’s Crossing, when that area becomes available. Defeating Sarevok will not end the game, but will allow you to play on. Talk to Belt at the Duchal Palace, and he will give you a new assignment. This will start a cutscene where you are ambushed by the Shadow Thieves and are taken to Irenicus’ Dungeon.</p>
+		<p>Additionally, joinable non-player characters that appear in both Baldur's Gate and Shadows of Amn conditionally keep their attributes upon transition to Shadows of Amn depending on the fate that you left them in Baldur's Gate. Edwin, Imoen, Jaheira, Minsc, and Viconia will keep their attributes and appearance from Baldur's Gate if they are alive and are in your party when you talk to Belt after the defeat of Sarevok. Otherwise, they will present themselves in Shadows of Amn as if BGT-WeiDU was not installed.</p>
+		<br />
+		<a name="FAQ10" id="FAQ10"></a>
+		<p><strong>Baldur’s Gate and Tales of the Sword Coast had its fair share of bugs. In this conversion, do these bugs still exist?</strong></p>
+		<p>BGT-WeiDU attempts to address the most significant bugs that existed in the final versions of Baldur’s Gate and Tales of the Sword Coast. A list of fixes currently incorporated into BGT-WeiDU can be found <a href="fixeslist.htm">here</a>.</p>
+		<br />
+		<a name="FAQ11" id="FAQ11"></a>
+		<p><strong>Do I have to restore dialog.tlk after I uninstall BGT-WeiDU?</strong></p>
+		<p>No, you do not have to. However, if you do not, it could be problematic if you start installing other modifications and using saved games in different combinations. The safest way to uninstall BGT-WeiDU to avoid such problems is to restore dialog.tlk.</p>
+		<br />
+		<a name="FAQ12" id="FAQ12"></a>
+		<p><strong>Why should I manually restore dialog.tlk after I uninstall BGT-WeiDU?</strong></p>
+		<p>BGT-WeiDU alters a large number of references inside your Baldur’s Gate II dialog.tlk file, the file that contains almost all the text in the game. A limitation of WeiDU and the way that the BGT-WeiDU installation is designed is that it generates the modified dialog.tlk file when the installation/uninstallation process finishes. This does not allow the running of a batch file that will automatically restore your dialog.tlk. Therefore, the only way that it can be restored is by copying that backup to its original location manually.</p>
+		<br />
+		<a name="FAQ13" id="FAQ13"></a>
+		<p><strong>Can I play BGT-WeiDU with other modifications?</strong></p>
+		<p>Yes. BGT-WeiDU does not just retain, but improves compatibility with the mega-modification. For other modifications, no one can guarantee that every modification is compatible with another. BGT-WeiDU compatibility is no exception. However, possible compatibility issues between BGT-WeiDU and other modifications are actively analysed. A BGT-WeiDU compatibility list is available <a href="[english]compatibility.htm">here</a>. The most up-to-date compatibility list can be found <a href="http://www.shsforums.net/index.php?showtopic=19539">online</a>.</p>
+		<br />
+		<a name="FAQ14" id="FAQ14"></a>
+		<p><strong>How do I install the mega-modification with BGT-WeiDU?</strong></p>
+		<p>Mega-modification installation order is in a state of flux. Therefore, this readme will not tell you in what order to install such modifications. However, there is a forum dedicated to mega-modification installations, which you can access <a href="http://www.shsforums.net/index.php?showforum=193">here</a>.</p>
+		<br />
+		<a name="FAQ15" id="FAQ15"></a>
+		<p><strong>How do I install other modifications with BGT-WeiDU?</strong></p>
+		<p>As a general rule, install Baldur's Gate 2 Fixpack first, if you plan to use it, then install the mega-modification, BGT-WeiDU, and then all other modifications on top. Specifics in installation order are in a state of flux, so more detailed advice cannot be given.</p>
+		<p>If you want to play BGT-WeiDU without the mega-modification but with other modifications, install Baldur's Gate 2 Fixpack first, followed by BGT-WeiDU, and then all other modifications on top.</p>
+		<p>Be mindful of compatibility issues. Current compatibility between BGT-WeiDU and other modifications are listed here. Possible compatibility between sets of other modifications should be queried to their respective authors.</p>
+		<br />
+		<a name="FAQ16" id="FAQ16"></a>
+		<p><strong>I would like to translate this modification. How do I do it?</strong></p>
+		<p>To translate BGT-WeiDU into a different language, follow the steps listed below:</p>
+		<ul>
+			<li>Go to your BGT-WeiDU installation directory, and switch to the <strong>bgt\language directory</strong></li>
+			<li>Create a copy of the <strong>English</strong> directory and rename it to the language you wish to translate to</li>
+			<div class="important">
+				<p>English -> Castiliano</p>
+			</div>
+			<li>In your renamed directory, translate all files present as follows:</li>
+			<ul>
+				<br />
+				<li>.tra files – For every line starting with @<number> =, translate all text in between the two ~ or " symbols</li>
+				<div class="important">
+					<p>@1001 = ~English~ -> @1001 = ~Castiliano~</p>
+					<p>@-1001 = "English" -> @-1001 = "Castiliano"</p>
+				</div>
+				<li>PreSetup, EndSetup, and Uninstall directories – Translate all .txt files</li>
+			</ul>
+			<li>Switch to the <strong>bgt\help</strong> directory</li>
+			<li>Make a copy of [english]bgtreadme.htm and [english]postinstall.htm and rename the portion that refers to the language</li>
+			<div class="important">
+				<p>[english]bgtreadme.html -> [castilian]bgtreadme.html</p>
+				<p>[english]postinstall.html -> [castilian]postinstall.html</p>
+			</div>
+			<li>Translate sections 1, 2, 3, 4, 5, and 9 of bgtreadme.htm only, and all of postinstall.htm</li>
+			<li>Switch to the <strong>bgt\worldmap\english</strong> directory, make a copy of worldmap.tra and translate as above for .tra files.</li>
+			<div class="important">
+				<p>Treat ### as a space, but make sure you leave ### present. If you need to include spaces, replace them with ###.</p>
+				<p>@1001 = ~English###English~ -> @1001 = ~Castiliano###Castiliano~</p>
+				<p>@-1001 = "English###English" -> @-1001 = "Castiliano###Castiliano"</p>
+			</div>
+			<li>Package your renamed directory, readme file, postinstall.htm and worldmap.tra</li>
+			<li>Either post the file on the <a href="http://www.shsforums.net/index.php?showforum=261">mod forum</a>, or send a private message (PM) to Ascension64 at the Spellhold Studios forums, who will give you an e-mail address to send the package to</li>
+			<li>Expect the language to be included for the next release</li>
+		</ul>
+		<a name="FAQ17" id="FAQ17"></a>
+		<p><strong>I have other questions.</strong></p>
+		<p>Come to the <a href="http://www.shsforums.net">Spellhold Studios forums</a>, register for free as a member, and post your questions online.</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; FAQ</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== T r o u b l e s h o o t i n g ================== -->
+        <a name="troubleshooting" id="troubleshooting"></a>
+		<div class="content">
+          <h2>Troubleshooting</h2>
+          <h3>Fatal Installation Errors</h3>
+		  <p><strong>I have a custom install of Baldur's Gate and Tales of the Sword Coast patched to version 5512, or Baldur's Gate: The Original Saga, but the installation does not accept the directory that I type in.</strong></p>
+		  <p>The most likely scenario is that your installation discs for Baldur's Gate and Tales of the Sword Coast or Baldur's Gate: The Original Saga are scratched, and the installation did not copy over all the files.</p>
+		  <ul>
+		  	<li>Check that all of these files are present in the \data directory of your Baldur's Gate I installation directory. If any are missing, try and manually copy the file into the correct directory from the original disc.</li>
+			<br />
+			<ul>
+				<li>AREA000A.bif</li>
+				<li>AREA000B.bif</li>
+				<li>AREA000C.bif</li>
+				<li>AREA000D.bif</li>
+				<li>AREA000E.bif</li>
+				<li>AREA000F.bif</li>
+				<li>AREA000G.bif</li>
+				<li>AREA000H.bif</li>
+				<li>AREA010A.bif</li>
+				<li>AREA010B.bif</li>
+				<li>AREA020A.bif</li>
+				<li>AREA020B.bif</li>
+				<li>AREA030A.bif</li>
+				<li>AREA030B.bif</li>
+				<li>AREA040X.bif</li>
+				<li>AREA050D.bif</li>
+				<li>AREA060A.bif</li>
+				<li>AREA070A.bif</li>
+				<li>AREA080A.bif</li>
+				<li>AREA080B.bif</li>
+				<li>AREA090X.bif</li>
+				<li>AREA0100.bif</li>
+				<li>AREA110A.bif</li>
+				<li>AREA110B.bif</li>
+				<li>AREA110C.bif</li>
+				<li>AREA120A.bif</li>
+				<li>AREA120B.bif</li>
+				<li>AREA130A.bif</li>
+				<li>AREA140A.bif</li>
+				<li>AREA140B.bif</li>
+				<li>AREA160X.bif</li>
+				<li>AREA180A.bif</li>
+				<li>AREA180B.bif</li>
+				<li>AREA180C.bif</li>
+				<li>AREA180D.bif</li>
+				<li>AREA180E.bif</li>
+				<li>AREA190X.bif</li>
+				<li>AREA0200.bif</li>
+				<li>AREA210X.bif</li>
+				<li>AREA220X.bif</li>
+				<li>AREA230A.bif</li>
+				<li>AREA230B.bif</li>
+				<li>AREA260A.bif</li>
+				<li>AREA260B.bif</li>
+				<li>AREA260C.bif</li>
+				<li>AREA0300.bif</li>
+				<li>AREA320X.bif</li>
+				<li>AREA330A.bif</li>
+				<li>AREA330B.bif</li>
+				<li>AREA330C.bif</li>
+				<li>AREA330D.bif</li>
+				<li>AREA340X.bif</li>
+				<li>AREA360X.bif</li>
+				<li>AREA380X.bif</li>
+				<li>AREA390X.bif</li>
+				<li>AREA0400.bif</li>
+				<li>AREA400X.bif</li>
+				<li>AREA410X.bif</li>
+				<li>AREA420X.bif</li>
+				<li>AREA440X.bif</li>
+				<li>AREA450X.bif</li>
+				<li>AREA470X.bif</li>
+				<li>AREA480X.bif</li>
+				<li>AREA490X.bif</li>
+				<li>AREA500X.bif</li>
+				<li>AREA510X.bif</li>
+				<li>AREA520X.bif</li>
+				<li>AREA540A.bif</li>
+				<li>AREA540B.bif</li>
+				<li>AREA540C.bif</li>
+				<li>AREA540D.bif</li>
+				<li>AREA550X.bif</li>
+				<li>AREA0600.bif</li>
+				<li>AREA0700.bif</li>
+				<li>AREA0800.bif</li>
+				<li>AREA0900.bif</li>
+				<li>AREA1100.bif</li>
+				<li>AREA1200.bif</li>
+				<li>AREA1300.bif</li>
+				<li>AREA1400.bif</li>
+				<li>AREA1600.bif</li>
+				<li>AREA1700.bif</li>
+				<li>AREA1800.bif</li>
+				<li>AREA1900.bif</li>
+				<li>AREA2100.bif</li>
+				<li>AREA2200.bif</li>
+				<li>AREA2300.bif</li>
+				<li>AREA2400.bif</li>
+				<li>AREA2600.bif</li>
+				<li>AREA2700.bif</li>
+				<li>AREA2800.bif</li>
+				<li>AREA2900.bif</li>
+				<li>AREA3000.bif</li>
+				<li>AREA3100.bif</li>
+				<li>AREA3200.bif</li>
+				<li>AREA3300.bif</li>
+				<li>AREA3400.bif</li>
+				<li>AREA3500.bif</li>
+				<li>AREA3600.bif</li>
+				<li>AREA3700.bif</li>
+				<li>AREA3800.bif</li>
+				<li>AREA3900.bif</li>
+				<li>AREA4000.bif</li>
+				<li>AREA4100.bif</li>
+				<li>AREA4200.bif</li>
+				<li>AREA4300.bif</li>
+				<li>AREA4400.bif</li>
+				<li>AREA4500.bif</li>
+				<li>AREA4600.bif</li>
+				<li>AREA4700.bif</li>
+				<li>AREA4800.bif</li>
+				<li>AREA4900.bif</li>
+				<li>AREA5000.bif</li>
+				<li>AREA5100.bif</li>
+				<li>AREA5200.bif</li>
+				<li>AREA5300.bif</li>
+				<li>AREA5400.bif</li>
+				<li>AREA5500.bif</li>
+				<li>Areas.bif</li>
+				<li>ARMisc.bif</li>
+				<li>CHAAnim.bif</li>
+				<li>CHASound.bif</li>
+				<li>CREAnim.bif</li>
+				<li>Creature.bif</li>
+				<li>CRESound.bif</li>
+				<li>Default.bif</li>
+				<li>Dialog.bif</li>
+				<li>Effects.bif</li>
+				<li>Gui.bif</li>
+				<li>Items.bif</li>
+				<li>MPCREANM.bif</li>
+				<li>MPGUI.bif</li>
+				<li>MPSounds.bif</li>
+				<li>NPCSound.bif</li>
+				<li>OBJAnim.bif</li>
+				<li>RndEncnt.bif</li>
+				<li>scripts.bif</li>
+				<li>SFXSound.bif</li>
+				<li>Spells.bif</li>
+				<li>AREA050A.bif</li>
+				<li>AREA050B.bif</li>
+				<li>AREA050C.bif</li>
+				<li>AREA100A.bif</li>
+				<li>AREA150A.bif</li>
+				<li>AREA200A.bif</li>
+				<li>AREA200B.bif</li>
+				<li>AREA0500.bif</li>
+				<li>AREA1000.bif</li>
+				<li>AREA1500.bif</li>
+				<li>AREA2000.bif</li>
+				<li>ExArMaps.bif</li>
+				<li>ExPAreas.bif</li>
+			</ul>
+		</ul>
+		<br />
+
+		  <p><strong>WeiDU tried to delete files that did not exist and asked me whether to install the modification again.</strong></p>
+		  <p>You may not have a clean installation of Baldur’s Gate and Tales of the Sword Coast and/or Baldur’s Gate: Throne of Bhaal.</p>
+		  <ul>
+			<li>When the installation prompts for install again, quit the installation</li>
+			<li>Restore dialog.tlk as described in the Installation and Uninstallation section of this file</li>
+			<li>You have just reverted the installation process. Do not try to install again immediately.</li>
+			<li>Try reinstalling Baldur’s Gate and Tales of the Sword Coast and/or Baldur’s Gate: Throne of Bhaal without any modifications and re-install BGT-WeiDU.</li>
+			<li>If you have other modifications installed, try uninstalling those and re-install BGT-WeiDU.</li>
+			<li>If you still experience problems, post the files SETUP-BGT.DEBUG and SETUP-BGTDOS.DEBUG (if it exists), located in your Baldur’s Gate II installation directory, in the <a href="http://www.shsforums.net/index.php?showforum=261">mod forum</a></li>
+		</ul>
+		<br />
+		<p><strong>Windows gave me an exception error detailing _WeiDU.exe or tis2bg2.exe</strong></p>
+		<p><strong>The DOS prompt returned the error "WeiDU: ZLIB: Warning! Problem decompressing block." in some cases.</strong></p>
+		<p>These are known issues that occur if you did not follow Step 2 of the Installation section.</p>
+		<ul>
+			<li>Allow the installation finish. This is critical. Uninstall BGT-WeiDU as described in the Uninstallation and Re-installation section.</li>
+			<li>Restore dialog.tlk.</li>
+			<li>Follow the installation procedures correctly.</li>
+		</ul>
+		<br />
+		<h3>Minor Installation Errors</h3>
+		<p><strong>During the installation, I constantly get errors saying ‘There is no disk in your drive’.</strong></p>
+		<p>This occurs if you did not follow Step 2 of the installation procedures.</p>
+		<ul>
+			<li>If you have not installed yet, or as you read this the installation is halted directly after you were asked to enter your Baldur's Gate and Tales of the Sword Coast directory with the disk check, abort the installation immediately.</li>
+			<li>As you read this, if the installation is halted any time after you were asked to enter your Baldur's Gate and Tales of the Sword Coast directory, press 'Cancel' to every single prompt that occurs, and allow the installation to finish. When the installation is finished, uninstall BGT-WeiDU and restore dialog.tlk.</li>
+			<li>Follow the installation procedures correctly without omitting Step 2.</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Troubleshooting</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+          <h2>Credits</h2>
+          <h3>Core</h3>
+          <p><strong>Ascension64 (project leader):</strong> bug-testing, coding, distribution</p>
+          <p><strong>King Diamond:</strong> bug-testing, coding</p>
+          <p><strong>Waywocket:</strong> menu screens</p>
+          <p><strong>Yacomo:</strong> menu screens</p>
+          <h3>Translations</h3>
+          <p><strong>Castilian/Spanish (<a href="http://www.clandlan.net">http://www.clandlan.net</a>):</strong> Ghildrean, Immortality, Lisandro, Memnoch, Saemon</p>
+          <p><strong>Czech:</strong> Lyrick, PostTrauma</p>
+          <p><strong>French:</strong> Anomaly</p>
+          <p><strong>German:</strong> OldVeteran, RubberDuck, weigo</p>
+          <p><strong>Italian:</strong> al17, Gemini82, melkor_morgoth75, Salk</p>
+          <p><strong>Korean:</strong> Inesius, web2air, Shi woo, Whiteraven</p>
+          <p><strong>Polish:</strong> dragonian, Joneleth, Promilus, Valfar (aka Evendur), yarpen</p>
+          <p><strong>Russian:</strong> Badgert, iopden, King Diamond, Kulyok, Vlad</p>
+          <p><strong>Simplified/Traditional Chinese (<a href="http://trow.cn/forum/">http://trow.cn/forum/</a>):</strong> Delmarey, fc666, good0593, Kinkairy, moon_cloud, 猫猫伸懒腰</p>
+		  <hr />
+		  <h3>Kudos</h3>
+		  <br />
+		  <ul>
+		  	<li>Many thanks to Bioware and Black Isle Studios for creating such a great RPG</li>
+			<li>Many thanks to Andyr and the Tutu team for providing a template for the sorting of journal entries</li>
+			<li>Many thanks to Bardez who created the original Baldur's Gate Trilogy and for permission to convert this mod to WeiDU</li>
+			<li>Many thanks to CamDawg and the TuTu Tweak Pack team for providing a template for the revised map notes</li>
+			<li>Many thanks to Corvias for the creativity in making the Baldur’s Gate Trilogy icon</li>
+			<li>Many thanks to Douglas Boling for the STRINGS command file</li>
+            <li>Many thanks to Elve for work on the full Baldur's Gate/Shadows of Amn/Throne of Bhaal music</li>
+			<li>Many thanks to Horred the Plague, hlidskialf, Seanas, Sir BillyBob, and all the testers who have worked to make the game as smooth as possible</li>
+			<li>Many thanks to Riklaunim of the Polish BG community for allowing the inclusion of his Polish BG1 font utility</li>
+            <li>Many thanks to Taimon for his songlist hack and finding a solution to duplicate characters in GAM files</li>
+                        <li>Many thanks to Turambar for his work in overhauling the installation to compatible with Linux systems</li>
+			<li>Many thanks to weimer for creating the WeiDU utility for excellent modification installation</li>
+			<li>Many thanks to Yacomo for the MOSUnpack utility and the World Map modification</li>
+			<li>Many thanks to you and all the other players that who have contributed to the completeness and the enjoyment in developing this modification</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Credits</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+		
+        <!-- ================== L e g a l e s e ================== -->
+        <a name="legalese" id="legalese"></a>
+        <div class="content">
+          <h2>Legalese</h2>
+		  <p>BALDUR’S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: © 1999 BioWare Corp. All Rights Reserved. Baldur's Gate and Baldur's Gate Tales of the Sword Coast are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc., and are used by Interplay under license. The BioWare Infinity Engine is a trademark of BioWare Corp.</p>
+		  <p>BALDUR'S GATE II: SHADOWS OF AMN, BALDUR’S GATE II: THRONE OF BHAAL: © 2000, 2001 BioWare Corp. All Rights Reserved. Baldur's Gate, Throne of Bhaal, and Shadows of Amn are trademarks owned by Wizards of the Coast, Inc. and are used by Interplay under license. All Rights Reserved. The BioWare Infinity Engine is a trademark of BioWare Corp. All Rights Reserved.</p>
+		  <p><strong>USE THIS MODIFICATION AT YOUR OWN RISK. This modification is not developed, supported, or endorsed by BioWare Corp., Interplay, or Black Isle. All images and contents of this mod are © BioWare Corp., Interplay, Black Isle or Wizards of the Coast, Inc.</strong></p>
+		  <p>This is a community modification, created as a hobby for free. You can distribute among your peers as much as you like. However, please display good faith and credit the authors of the modification if you intend to modify the BGT-WeiDU package in any way or use any part of this modification as a template to create part/all of a modification/fixpack/tweak that you intend to release to the community.</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Legalese</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+BEGIN ~nantri~
+
+IF WEIGHT #2 ~Gender(LastTalkedToBy,FEMALE)
+ReactionGT(LastTalkedToBy,NEUTRAL_UPPER)~ THEN BEGIN 0
+  SAY @8397
+  IF ~~ THEN REPLY @15311 DO ~StartStore("Inn0119",LastTalkedToBy())~ EXIT
+  IF ~~ THEN REPLY @15312 EXIT
+END
+
+IF WEIGHT #3 ~Gender(LastTalkedToBy,MALE)
+ReactionGT(LastTalkedToBy,NEUTRAL_UPPER)~ THEN BEGIN 1
+  SAY @8398
+  IF ~~ THEN REPLY @15315 DO ~StartStore("Inn0119",LastTalkedToBy())~ EXIT
+  IF ~~ THEN REPLY @15316 EXIT
+END
+
+IF WEIGHT #4 ~ReactionLT(LastTalkedToBy,FRIENDLY_LOWER)
+ReactionGT(LastTalkedToBy,HOSTILE_UPPER)~ THEN BEGIN 2
+  SAY @8399
+  IF ~~ THEN REPLY @15317 DO ~StartStore("Inn0119",LastTalkedToBy())~ EXIT
+  IF ~~ THEN REPLY @15318 EXIT
+END
+
+IF WEIGHT #5 ~ReactionLT(LastTalkedToBy,NEUTRAL_LOWER)~ THEN BEGIN 3
+  SAY @8400
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #0 ~StateCheck(Myself,STATE_CHARMED)~ THEN BEGIN 4
+  SAY @9150
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @9151
+  IF ~~ THEN EXIT
+END

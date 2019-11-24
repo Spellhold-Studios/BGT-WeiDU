@@ -1,0 +1,53 @@
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("AddySpawn","GLOBAL",0)
+  !Exists("ADDY")
+THEN
+  RESPONSE #100
+    CreateCreature("ADDY",[2664.2874],0)
+    SetGlobal("AddySpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("ADDY")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("ADDY",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Capture700","GLOBAL",0)
+  Global("DukeThanks","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Capture700","GLOBAL",1)
+    CreateCreature("FFHUNT",[1786.1437],0)
+    CreateCreature("FFHUNT",[1786.1437],0)
+END
+
+IF
+  Dead("Aldeth")
+  Global("SpawnDabron","GLOBAL",0)
+  !Exists("Dabron")
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnDabron","GLOBAL",1)
+    CreateCreature("DABRON",[788.1684],0)
+END
+
+IF
+  Global("LothanderMove","GLOBAL",3)
+  !Exists("Lothander")
+  !Dead("Lothander")
+THEN
+  RESPONSE #100
+    CreateCreature("LOTHAN",[2361.1090],0)
+    ActionOverride("Lothander",ChangeAIScript("INITDLG",CLASS))
+END
+

@@ -1,0 +1,35 @@
+IF
+  Global("HelpAlatos","GLOBAL",0)
+  Global("DeactivateDaughters","GLOBAL",0)
+THEN
+  RESPONSE #100
+    Deactivate("Helshara")
+    Deactivate("Ithmeera")
+    Deactivate("Delorna")
+    ActionOverride("Container 3",DestroyItem("MISC69"))
+    ActionOverride("Container 3",DestroyItem("MISC70"))
+    ActionOverride("Container 3",DestroyItem("MISC71"))
+    SetGlobal("DeactivateDaughters","GLOBAL",1)
+END
+
+IF
+  Global("HelpAlatos","GLOBAL",1)
+  Global("DeactivateDaughters","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Activate("Helshara")
+    Activate("Ithmeera")
+    Activate("Delorna")
+    ActionOverride("Container 3",CreateItem("MISC69",0,0,0))
+    ActionOverride("Container 3",CreateItem("MISC70",0,0,0))
+    ActionOverride("Container 3",CreateItem("MISC71",0,0,0))
+    SetGlobal("HelpAlatos","GLOBAL",2)
+END
+
+IF
+  Global("HelpAlatos","GLOBAL",1)
+  Global("DeactivateDaughters","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("HelpAlatos","GLOBAL",2)
+END

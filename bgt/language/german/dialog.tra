@@ -1,0 +1,135 @@
+//BELTBRD.D
+@201810 = ~Die Leute haben das von Sarevok gehört. Sie sind neugierig geworden. Vor allem die Edelleute stellen Fragen. Gefährliche Fragen. Sie wollen unter anderem wissen, wie Ihr es geschafft habt, ein Kind von Bhaal zu töten.~ 
+@201812 = ~Die Schattendiebe haben das mit dem Tempel in der Nähe ihres Gebäudekomplexes ausgeplaudert. Ich glaube, es war ein Versuch, Euch aus der Stadt zu vertreiben. Vielleicht fühlen sie sich von Eurer Anwesenheit bedroht.~
+@201813 = ~Als wenn die Edelleute nicht schon genug Ärger bereiten würden, habe ich noch ein größeres Problem, bei dem Ihr mir wahrscheinlich helfen könntet.~ 
+@201814 = ~Worum geht es?~
+@201815 = ~Amn plant noch immer, gegen uns Krieg zu führen. Ich habe versucht, Botschaften an den Rat in Athkatla zu schicken, aber sie scheinen nicht zu antworten. Ich weiß nicht, ob das Problem an meinen Kurieren liegt oder am Rat.~ 
+@201816 = ~Und was hat das mit mir zu tun?~
+@201817 = ~Und, was soll ich für Euch tun?~
+@201818 = ~<CHARNAME>! Ist der Sieg... Euer? Ist Sarevok... tot?~
+@201819 = ~Ja, es ist vollbracht. Sarevok fiel durch meine Hand.~
+@201820 = ~Und wir haben ihn vor ein paar Stunden noch gepriesen... *ahem*~ 
+@201821 = ~Ich habe einen neuen Kontaktmann in Athkatla. Ich muss ihm dieses Dokument zukommen lassen, damit der Rat der Sechs es lesen kann und die Wahrheit darüber erfährt, was hier vorgefallen ist. Ich schlage ein geheimes Treffen zwischen mir und dem Rat vor. Ich hoffe, ich kann ihnen beweisen, dass Sarevok dafür verantwortlich war und dass Baldurs Tor keinen Krieg will.~
+@201822 = ~Ich erzähle Euch das Ganze, weil ich jemanden brauche, um diese schwierige Aufgabe zu erledigen. Ich möchte, dass Ihr Euch mit meinem Kontaktmann trefft und ihm diesen Brief überbringt. Wenn meine Kuriere aufgrund von Banditen nicht dorthin gelangen, dann habe ich wenigstens Euch, denn ich weiß, dass Ihr in der Lage seid, die Banditen abzuwehren und die Mission fortzusetzen.~
+@201823 = ~Athkatla? In Amn? Es wird einige Zeit dauern, dorthin zu gelangen. Gibt es irgendeinen Weg, meine Reise zu beschleunigen?~ 
+@201824 = ~Ja, das bringt mich zu meinem nächsten Punkt. Ich ließ meine Magier für mich einen Zauber schreiben, der Euch dorthin teleportieren soll. Leider war ich nie in Athkatla und eine Teleportation funktioniert nur, wenn man das Ziel kennt.~
+@201826 = ~Ich war mehrmals nördlich von Athkatla zum Jagen. Ich kenne nur ein Gebiet sehr gut und ich kann Euch dorthin teleportieren. Ich habe meine Kontaktperson informiert und er hat ein paar Männer, die Euch dort erwarten sollen. Sie können Euch bis in die Stadt eskortieren.~ 
+@201827 = ~Ich bin verwirrt. Wenn Ihr jemanden teleportieren könnt, um sich mit der Kontaktperson zu treffen, warum schickt Ihr dann nicht einfach einen Kurier? Warum mich?~
+@201828 = ~Das hat zwei Gründe. Der eine ist, wie ich bereits erwähnt habe, dass die Edelleute Euch fürchten. Euch für ein paar Tage aus der Stadt verschwinden zu lassen, wird mir die Zeit geben, ihre Ängste zu mildern. Der zweite Grund ist, dass meine Kontaktperson bereits von Euch gehört hat. Es sieht so aus, als wärt Ihr der Held der Schwertküste. Meine Kontaktperson ist der Ansicht, dass der Rat eher auf meine Bitten eingeht, wenn ein Held wie Ihr diese Sache unterstützt. Ich habe sogar ein paar Eurer Freunde benachrichtigt, so dass sie Euch dort treffen können. Allerdings müsst Ihr den Rückweg von Amn zu Fuß bewältigen, daher solltet Ihr Euch vergewissern, dass Ihr genügend Vorräte für die lange Reise dabei habt.~ ~Das hat zwei Gründe. Der eine ist, wie ich bereits erwähnt habe, dass die Edelleute Euch fürchten. Euch für ein paar Tage aus der Stadt verschwinden zu lassen, wird mir die Zeit geben, ihre Ängste zu mildern. Der zweite Grund ist, dass meine Kontaktperson bereits von Euch gehört hat. Es sieht so aus, als wärt Ihr die Heldin der Schwertküste. Meine Kontaktperson ist der Ansicht, dass der Rat eher auf meine Bitten eingeht, wenn eine Heldin wie Ihr diese Sache unterstützt. Ich habe sogar ein paar Eurer Freunde benachrichtigt, so dass sie Euch dort treffen können. Allerdings müsst Ihr den Rückweg von Amn zu Fuß bewältigen, daher solltet Ihr Euch vergewissern, dass Ihr genügend Vorräte für die lange Reise dabei habt.~
+
+//BELTBRD.D - new lines (v1.06)
+@201829 = ~Seid Ihr bereit für die Reise nach Athkatla?~
+@201830 = ~Ja, ich bin bereit.~ 
+@201831 = ~Nein, ich benötige etwas Zeit um mich darauf vorzubereiten.~
+@201832 = ~Was muss ich nochmal machen?~ 
+@201833 = ~Viel Glück und eine sichere Reise.~ 
+@201834 = ~Dann bereitet Euch schnell vor. Es gibt keine Zeit zu verlieren.~
+
+//SARDEAD.D
+@202200 = ~Was... ist das!?~ 
+@202201 = ~Nein! Wie... kann das sein? WIE KANN DAS SEIN?~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// KingDiamond's Extra Dialogue
+////////////////////////////////////////////////////////////////////////////////////////
+//TAEROM.D
+@203402 = ~Nun, Zeit ist Luxus! Ich hoffe, es wird in Eurem Rucksack vergammeln. Ihr werdet den Geruch mögen. Das soll Euch eine Lehre sein!~
+
+//WINSKI.D
+@203403 = ~Aha... Ihr habt ihn umgebracht, nicht wahr? Ich wusste nicht, wer als Sieger hervorgehen würde, aber ich hätte wissen müssen, dass Ihr es sein werdet. Ihr wart ihm die ganze Zeit ein Dorn im Auge und sein Sieg wäre unglaubwürdig gewesen.~
+@203404 = ~Lasst mich hier zurück. Ich... Ich habe keine Kraft mehr. Lasst die verdammte "Faust" doch zu mir kommen. Es ist mir jetzt egal.~
+
+//SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
+@203405 = ~Diese Männer werden wegen mehrfachen Mordes gesucht. TÖTET sie!~
+
+//VOLETA.D
+@203406 = ~Ihr seid zurück. Ich bin ziemlich überrascht, dass Ihr überlebt habt. Niemand sonst hat es zuvor durch das Labyrinth geschafft. Nun, wenigstens ist der Bastard tot. Wenn Ihr es bis dorthin und wieder zurück geschafft habt, dann gibt es keinen Zweifel daran, dass er auch tot ist.~
+@203407 = ~Mir geht es soweit gut. Die anderen werden mich schon bald wieder herrichten, also lasst uns von hier verschwinden. Ihr habt genug Ärger angerichtet.~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// For picking known spells for new Shadows of Amn characters
+////////////////////////////////////////////////////////////////////////////////////////
+//A6GENSPL.D
+//German: using canonical spell names consistent with MK's BG2 Textpatch
+@204000   = ~Bitte PAUSIERT das Spiel, setzt dann den Schwierigkeitsgrad auf NORMAL oder auf ANFÄNGER und beendet anschließend die Pause wieder, um fortzufahren.~
+@204001   = ~Ihr müsst jetzt die erlernten Magierzauber für <CHARNAME> bestimmen.~
+@204002   = ~Wählt einen Magierzauber der zweiten Stufe aus, auf dessen Schule sich <CHARNAME> spezialisiert hat.~
+@204003   = ~(Magierzauber der Stufe 2)~
+@204004   = ~Verschwimmen (Illusion)~
+@204005   = ~Böses entdecken (Erkenntniszauber)~
+@204006   = ~Unsichtbares entdecken (Erkenntniszauber)~
+@204007   = ~Schrecken (Nekromantie)~
+@204008   = ~Unsichtbarkeit (Illusion)~
+@204009   = ~Klopfen (Veränderung)~
+@204010   = ~Gesinnung erkennen (Erkenntniszauber)~
+@204011   = ~Glück (Verzauberung)~
+@204012   = ~Furcht bannen (Bannzauber)~
+@204013   = ~Melfs Säurepfeil (Beschwörung)~
+@204014   = ~Spiegelbild (Illusion)~
+@204015   = ~Stinkende Wolke (Hervorrufung)~
+@204016   = ~Stärke (Veränderung)~
+@204017   = ~Netz (Hervorrufung)~
+@204018   = ~Agannazars Flamme (Hervorrufung)~
+@204019   = ~Ghulgriff (Nekromantie)~
+@204020   = ~Wortloses Zaubern (Veränderung)~
+@204021   = ~Wort der Macht: Schlaf (Beschwörung)~
+@204022   = ~Strahl der Schwächung (Verzauberung)~
+@204023   = ~Chaosschild* (Bannzauber)~
+@204024   = ~Taubheit (Illusion)~
+@204025   = ~Glitzerstaub (Beschwörung)~
+@204026   = ~Wählt 6 Magierzauber der zweiten Stufe für <CHARNAME> aus.~
+@204027   = ~Wählt einen Magierzauber der dritten Stufe aus, auf dessen Schule sich <CHARNAME> spezialisiert hat. Hasardeure können frei wählen.~
+@204028   = ~(Magierzauber der Stufe 3)~
+@204029   = ~Hellsehen (Erkenntniszauber)~
+@204030   = ~Magie zerstören (Bannzauber)~
+@204031   = ~Flammenpfeil (Beschwörung)~
+@204032   = ~Feuerball (Hervorrufung)~
+@204033   = ~Hast (Veränderung)~
+@204034   = ~Personen festhalten (Verzauberung)~
+@204035   = ~Unsichtbarkeit: 3 m Radius (Illusion)~
+@204036   = ~Blitzstrahl (Hervorrufung)~
+@204037   = ~Monster herbeirufen I (Beschwörung)~
+@204038   = ~Unauffindbarkeit (Bannzauber)~
+@204039   = ~Schutz vor normalen Geschossen (Bannzauber)~
+@204040   = ~Verlangsamen (Veränderung)~
+@204041   = ~Schädelfalle (Nekromantie)~
+@204042   = ~Vampirgriff (Nekromantie)~
+@204043   = ~Schreckenszauber (Verzauberung)~
+@204044   = ~Geisterrüstung (Beschwörung)~
+@204045   = ~Geringere Zauberabwehr (Bannzauber)~
+@204046   = ~Schutz vor Feuer (Bannzauber)~
+@204047   = ~Schutz vor Kälte (Bannzauber)~
+@204048   = ~Zauberstoß (Bannzauber)~
+@204049   = ~Illusion entdecken (Erkenntniszauber)~
+@204050   = ~Untote festhalten (Nekromantie)~
+@204051   = ~Melfs magische Meteoriten (Hervorrufung)~
+@204052   = ~Magie bannen (Bannzauber)~
+@204053   = ~Wählt 5 Magierzauber der dritten Stufe für <CHARNAME> aus.~
+@204054   = ~Wählt einen Magierzauber der vierten Stufe aus, auf dessen Schule sich <CHARNAME> spezialisiert hat. Hasardeure können frei wählen.~
+@204055   = ~(Magierzauber der Stufe 4)~
+@204056   = ~Verwirrung (Verzauberung)~
+@204057   = ~Blauer Feuerschild (Hervorrufung)~
+@204058   = ~Eissturm (Hervorrufung)~
+@204059   = ~Verbesserte Unsichtbarkeit (Illusion)~
+@204060   = ~Kleinere Kugel der Unverwundbarkeit (Bannzauber)~
+@204061   = ~Monster herbeirufen II (Beschwörung)~
+@204062   = ~Steinhaut (Veränderung)~
+@204063   = ~Ansteckung (Nekromantie)~
+@204064   = ~Fluch brechen (Bannzauber)~
+@204065   = ~Gefühl (Verzauberung)~
+@204066   = ~Größeres Unbehagen (Verzauberung)~
+@204067   = ~Otilukes elastische Kugel (Veränderung)~
+@204068   = ~Seelenrüstung (Nekromantie)~
+@204069   = ~Andere verwandeln (Veränderung)~
+@204070   = ~Selbstverwandlung (Veränderung)~
+@204071   = ~Verzauberte Waffe (Verzauberung)~
+@204072   = ~Roter Feuerschild (Hervorrufung)~
+@204073   = ~Geheimes Wort (Bannzauber)~
+@204074   = ~Geringerer Kettenzauber (Hervorrufung)~
+@204075   = ~Teleportationsfeld (Veränderung)~
+@204076   = ~Spinnenbrut (Beschwörung)~
+@204077   = ~Fernsicht (Erkenntniszauber)~
+@204078   = ~Zauberauge (Erkenntniszauber/Veränderung)~
+@204079   = ~Wählt 5 Magierzauber der vierten Stufe für <CHARNAME> aus.~
+@204080   = ~Die Wahl der Magierzauber ist abgeschlossen.~
+@204081   = ~Vergesst nicht, den Schwierigkeitsgrad wieder auf Eure ursprüngliche Einstellung zurückzusetzen.~

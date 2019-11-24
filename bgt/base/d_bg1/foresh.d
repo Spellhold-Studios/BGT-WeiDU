@@ -1,0 +1,23 @@
+BEGIN ~foresh~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @18073
+  IF ~~ THEN REPLY @18074 GOTO 1
+  IF ~~ THEN REPLY @18075 GOTO 2
+  IF ~~ THEN REPLY @9981 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @18076
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @18077
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @9988
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

@@ -1,0 +1,90 @@
+IF
+  Global("XzarPartyBG1","GLOBAL",1)
+  Global("BP_XzarBG1Check","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_XzarBG1Check","GLOBAL",1)
+    GiveItemCreate("CLCK17","Xzar",1,0,0) // Robe of the Evil Archmagi
+    GiveItemCreate("BRAC03","Xzar",1,0,0) // Bracers of Defense AC 6
+    GiveItemCreate("STAF07","Xzar",1,0,0) // Staff Spear +2
+    GiveItemCreate("SCRL1O","Xzar",1,0,0) // Slow
+    GiveItemCreate("SCRL1Q","Xzar",1,0,0) // Vampiric Touch
+    GiveItemCreate("SCRL72","Xzar",1,0,0) // Friends
+    SmallWait(10)
+    ActionOverride("Xzar",FillSlot(SLOT_ARMOR))
+    ActionOverride("Xzar",FillSlot(SLOT_GAUNTLETS))
+    ActionOverride("Xzar",FillSlot(SLOT_WEAPON))
+    SmallWait(10)
+    ActionOverride("Xzar",EquipMostDamagingMelee())
+    ActionOverride("Xzar",SetDialogue("XZARDD"))
+    ActionOverride("Xzar",SetNumTimesTalkedTo(0))
+    ActionOverride("Xzar",ChangeAIScript("SHOUT",OVERRIDE))
+    ActionOverride("Xzar",ChangeAIScript("LYROS",CLASS))
+    ActionOverride("Xzar",ChangeAIScript("",GENERAL))
+    ActionOverride("Xzar",ChangeAIScript("WTAXZAR",DEFAULT))
+    AddXPObject("Xzar",60000)
+    Deactivate("Xzar")  //try to hide him
+    Continue()
+END
+
+IF
+//	!IsGabber(Player1)
+//	!IsGabber(Player2)
+//	!IsGabber(Player3)
+//	!IsGabber(Player4)
+//	!IsGabber(Player5)
+//	!IsGabber(Player6)
+	Global("XzarPartyBG1","GLOBAL",1)
+	OR(2)
+		Global("LyrosJob","GLOBAL",3)
+		Dead("LYROS")
+	Exists("Rylock")
+	Global("RylockLeavesHarperDoor","AR0300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("RylockLeavesHarperDoor","AR0300",1)
+		CloseDoor("DOOR0308")
+		Lock("DOOR0308")
+		ActionOverride("Rylock",EscapeArea())
+		Wait(5)
+		CreateVisualEffectObject("spdimndr",Player1)
+		Wait(1)
+		Activate("Xzar")
+		ActionOverride("Xzar",ChangeAIScript("XZARDD",OVERRIDE))
+		ActionOverride("Xzar",ChangeAIScript("LYROS",CLASS))
+		ActionOverride("Xzar",ChangeAIScript("WTAXZAR",GENERAL))
+		ActionOverride("Xzar",ChangeAIScript("",RACE))
+END
+
+IF
+//	!IsGabber(Player1)
+//	!IsGabber(Player2)
+//	!IsGabber(Player3)
+//	!IsGabber(Player4)
+//	!IsGabber(Player5)
+//	!IsGabber(Player6)
+	Global("XzarPartyBG1","GLOBAL",0)
+	OR(2)
+		Global("LyrosJob","GLOBAL",3)
+		Dead("LYROS")
+	Exists("Rylock")
+	Global("RylockLeavesHarperDoor","AR0300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("RylockLeavesHarperDoor","AR0300",1)
+		CloseDoor("DOOR0308")
+		Lock("DOOR0308")
+		ActionOverride("Rylock",EscapeArea())
+		Wait(5)
+		CreateVisualEffectObject("spdimndr",Player1)
+		Wait(1)
+		CreateCreatureObjectOffset("xzar13",Player1,[150.0]) // Xzar
+END
+
+IF
+	Global("LyrosSpawn","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("LyrosSpawn","GLOBAL",2)
+		CreateCreature("LYROS",[2372.2475],0) // Xzar
+END

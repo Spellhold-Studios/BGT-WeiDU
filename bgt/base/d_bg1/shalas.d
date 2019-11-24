@@ -1,0 +1,17 @@
+BEGIN ~shalas~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @19605
+  IF ~~ THEN REPLY @19606 GOTO 1
+  IF ~~ THEN REPLY @19607 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @19608
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @19609
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

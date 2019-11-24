@@ -1,0 +1,7 @@
+IF
+	AreaCheck("AR0300")
+THEN
+	RESPONSE #100
+            SetPlayerSound(Myself,@50495,EXISTANCE5)
+		ChangeAIScript("",RACE)
+END

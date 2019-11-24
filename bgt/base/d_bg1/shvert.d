@@ -1,0 +1,23 @@
+BEGIN ~shvert~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @19878
+  IF ~~ THEN REPLY @19886 GOTO 1
+  IF ~~ THEN REPLY @19894 GOTO 2
+  IF ~~ THEN REPLY @19904 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @19913
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @19914
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @19915
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

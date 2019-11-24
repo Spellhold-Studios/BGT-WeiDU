@@ -1,0 +1,84 @@
+BEGIN ~minec2~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @915
+  IF ~~ THEN REPLY @918 GOTO 1
+  IF ~~ THEN REPLY @919 GOTO 4
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @916
+  IF ~~ THEN REPLY @10437 UNSOLVED_JOURNAL @310461 GOTO 5
+  IF ~~ THEN REPLY @10438 UNSOLVED_JOURNAL @310461 GOTO 7
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @6303
+  IF ~~ THEN UNSOLVED_JOURNAL @310461 EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @9159
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @14382
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @10439
+  IF ~~ THEN REPLY @10440 GOTO 7
+  IF ~~ THEN REPLY @10441 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @10442
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @10443
+  IF ~~ THEN EXIT
+END
+
+IF ~PartyHasItem("BGMISC83")~ THEN BEGIN 8
+  SAY @10444
+  IF ~~ THEN REPLY @10445 GOTO 9
+  IF ~~ THEN REPLY @10446 GOTO 10
+  IF ~~ THEN REPLY @10449 GOTO 11
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @10447
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @10448
+  IF ~~ THEN DO ~StartMovie("MINEFLOD")
+TakePartyItem("BGMISC83")
+SetGlobal("FLOODED","GLOBAL",1)
+SetGlobal("NashkellAdventures","GLOBAL",2)
+EraseJournalEntry(@310461)
+EraseJournalEntry(@310463)
+EraseJournalEntry(@310590)
+ActionOverride(Player1,LeaveAreaLUAPanic("AR8600","",[3099.718],12))
+ActionOverride(Player1,LeaveAreaLUA("AR8600","",[3099.718],12))
+ActionOverride(Player2,LeaveAreaLUA("AR8600","",[3088.686],12))
+ActionOverride(Player3,LeaveAreaLUA("AR8600","",[3087.649],12))
+ActionOverride(Player4,LeaveAreaLUA("AR8600","",[3090.588],12))
+ActionOverride(Player5,LeaveAreaLUA("AR8600","",[2998.680],12))
+ActionOverride(Player6,LeaveAreaLUA("AR8600","",[2936.699],12))~ SOLVED_JOURNAL @310462 EXIT
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @10450
+  IF ~~ THEN EXIT
+END
+
+IF ~True()~ THEN BEGIN 12
+  SAY @10451
+  IF ~~ THEN EXIT
+END

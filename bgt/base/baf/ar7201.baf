@@ -1,0 +1,25 @@
+IF
+  Global("Chapter","GLOBAL",8)
+  Exists("Entar")  // ~Entar Silvershield~
+THEN
+  RESPONSE #100
+    ActionOverride("Entar",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  !Exists("Bip")
+  !Dead("Bip")
+THEN
+  RESPONSE #100
+    CreateCreature("BIP",[944.839],0)
+END
+
+IF
+  Exists("BIP")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BIP",DestroySelf())
+END

@@ -1,0 +1,56 @@
+IF
+	Global("Yeslickfight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DialogueInterrupt(FALSE)
+		ActionOverride("Yeslick",DialogueInterrupt(FALSE))
+		ActionOverride("Yeslick",LeaveParty())
+		LeaveParty()
+		SetGlobal("Yeslickfight","GLOBAL",2)
+END
+
+IF
+	Dead("Yeslick")
+	Global("Yeslickfight","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Yeslickfight","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+		JoinParty()
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",2)
+	See("Yeslick")
+	!Range("Yeslick",5)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate("Yeslick",15)
+END
+
+IF
+	Global("Yeslickfight","GLOBAL",2)
+	See("Yeslick")
+	Range("Yeslick",5)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate("Yeslick",15)
+END
+
+IF
+  GlobalTimerExpired("Kagain","GLOBAL")
+  Global("KagainCaravan","GLOBAL",0)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+
+IF
+  GlobalTimerExpired("Kagain","GLOBAL")
+  Global("KagainCaravan","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END

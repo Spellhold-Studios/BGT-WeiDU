@@ -1,0 +1,14 @@
+IF
+  HaveSpell(4152)
+THEN
+  RESPONSE #100
+    ReallyForceSpellRES("BGHP+2",Myself)
+    ChangeAIScript("",OVERRIDE)
+END
+
+IF
+  !HaveSpell(4152)
+THEN
+  RESPONSE #100
+    ChangeAIScript("",OVERRIDE)
+END

@@ -1,0 +1,62 @@
+IF
+  OnCreation()
+  Global("EnteredGnoll","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("GNOLL")
+    SetGlobal("EnteredGnoll","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Global("BGTNPC4100","GLOBAL",0)
+  Level(Player1,1)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC4100","GLOBAL",1)
+    CreateCreature("DYNAHE",[2529.1442],3) // Dynaheir
+END
+
+IF
+  Global("BGTNPC4100","GLOBAL",0)
+  OR(2)
+    Level(Player1,2)
+    Level(Player1,3)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC4100","GLOBAL",1)
+    CreateCreature("DYNAHE2",[2529.1442],3) // Dynaheir
+END
+
+IF
+  Global("BGTNPC4100","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC4100","GLOBAL",1)
+    CreateCreature("DYNAHE4",[2529.1442],3) // Dynaheir
+END
+
+IF
+  Global("BGTNPC4100","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC4100","GLOBAL",1)
+    CreateCreature("DYNAHE6",[2529.1442],3) // Dynaheir
+END
+
+IF
+  Dead("Dynaheir")
+  !InPartyAllowDead("Dynaheir")
+  !Global("HelpMinsc","GLOBAL",2)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@310062)
+    EraseJournalEntry(@310063)
+    EraseJournalEntry(@310380)
+    EraseJournalEntry(@320548)
+    SetGlobal("HelpMinsc","GLOBAL",2)
+END

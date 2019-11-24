@@ -1,0 +1,116 @@
+IF
+  InParty(Myself)
+  Global("A6EdwinWasInParty","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("A6EdwinWasInParty","GLOBAL",1)
+END
+
+IF
+  !HasItemEquipedReal("MISC89",Myself)
+  PartyHasItem("MISC89")
+  !InParty(Myself)
+THEN
+  RESPONSE #100
+    TakePartyItem("MISC89")
+    SmallWait(6)
+    FillSlot(0) //SLOT_AMULET
+    SmallWait(6)
+    EquipItem("MISC89")
+END
+
+IF
+  Global("Edwinfight","GLOBAL",1)
+THEN
+  RESPONSE #100
+    DialogInterrupt(FALSE)
+    ActionOverride(Player1,MakeUnselectable(5000))
+    ActionOverride(Player2,MakeUnselectable(5000))
+    ActionOverride(Player3,MakeUnselectable(5000))
+    ActionOverride(Player4,MakeUnselectable(5000))
+    ActionOverride(Player5,MakeUnselectable(5000))
+    ActionOverride(Player6,MakeUnselectable(5000))
+    SetGlobal("Edwinfight","GLOBAL",2)
+END
+
+IF
+  Global("Edwinfight","GLOBAL",2)
+  !Dead("Dynaheir")
+  Detect("Dynaheir")
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate("Dynaheir",15)
+END
+
+IF
+  Global("Edwinfight","GLOBAL",2)
+  Dead("Dynaheir")
+  !Dead("Minsc")
+  Detect("Minsc")
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    AttackReevaluate("Minsc",15)
+END
+
+IF
+  Global("Edwinfight","GLOBAL",2)
+  Dead("Dynaheir")
+  OR(2)
+    Dead("Minsc")
+    !Detect("Minsc")
+THEN
+  RESPONSE #100
+    SetGlobal("EdwinFight","GLOBAL",0)
+    DialogInterrupt(TRUE)
+    ActionOverride(Player1,MakeUnselectable(1))
+    ActionOverride(Player2,MakeUnselectable(1))
+    ActionOverride(Player3,MakeUnselectable(1))
+    ActionOverride(Player4,MakeUnselectable(1))
+    ActionOverride(Player5,MakeUnselectable(1))
+    ActionOverride(Player6,MakeUnselectable(1))
+    Dialogue(Player1)
+END
+
+IF
+  GlobalTimerExpired("Edwin","GLOBAL")
+  Global("FindDynaheir","GLOBAL",0)
+  !Dead("Dynaheir")
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  GlobalTimerExpired("Edwin","GLOBAL")
+  Global("FindDynaheir","GLOBAL",1)
+  !Dead("Dynaheir")
+  InParty(Myself)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet(Player1)
+END
+
+IF
+  Global("HelpMinsc","GLOBAL",2)
+  NumTimesTalkedTo(0)
+  !InParty("Dynaheir")
+  !Dead("Dynaheir")
+THEN
+  RESPONSE #100
+    Deactivate(Myself)
+END
+
+IF
+  Global("HelpMinsc","GLOBAL",2)
+  NumTimesTalkedTo(0)
+  OR(2)
+    InPartyAllowDead("Dynaheir")
+    Dead("Dynaheir")
+THEN
+  RESPONSE #100
+    Activate(Myself)
+END
+

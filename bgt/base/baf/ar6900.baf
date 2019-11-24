@@ -1,0 +1,23 @@
+IF
+  InParty("Kagain")
+  GlobalLT("KagainCaravan","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("KagainCaravan","GLOBAL",2)
+    ActionOverride("Kagain",Dialogue([PC]))
+END
+
+IF
+  Global("BanditSpawn","GLOBAL",0)
+  Global("Chapter","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("BanditSpawn","GLOBAL",1)
+    CreateCreature("BANDIC",[4354.2466],0)  // ~Deke~
+    CreateCreature("BANDCAP",[4278.2608],0)  // ~Bandit~
+    CreateCreature("BANDCAP",[4207.2585],0)  // ~Bandit~
+    CreateCreature("BANDCAP",[4149.2498],0)  // ~Bandit~
+    CreateCreature("BANDCAP",[4421.2472],0)  // ~Bandit~
+    CreateCreature("BANDCAP",[4417.2605],0)  // ~Bandit~
+END
+

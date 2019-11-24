@@ -1,0 +1,123 @@
+IF
+  OnCreation()
+  Global("EnteredTheBeard","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredTheBeard","GLOBAL",1)
+    DisplayStringNoNameHead(Myself,@401110)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("IslandTravel","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    TextScreen("ISLOFF")
+    Wait(2)
+    MultiPlayerSync()
+    SetGlobal("IslandTravel","GLOBAL",2)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    DayNight(MIDNIGHT)
+    DayNight(NOON)
+    ActionOverride(Player1,Rest())
+    ActionOverride(Player2,Rest())
+    ActionOverride(Player3,Rest())
+    ActionOverride(Player4,Rest())
+    ActionOverride(Player5,Rest())
+    ActionOverride(Player6,Rest())
+    SetInterrupt(TRUE)
+END
+
+IF
+  Global("MetMendas","GLOBAL",1)
+  Global("CalahanSpawn","GLOBAL",0)
+  !Dead("Calahan")
+  !Exists("Calahan")
+THEN
+  RESPONSE #100
+    CreateCreature("BGCALAHA",[571.1352],0) // Calahan
+    ActionOverride("Calahan",Face(2))
+    SetGlobal("CalahanSpawn","GLOBAL",1)
+END
+
+IF
+  Global("ReadyToSail","GLOBAL",1)
+  Global("MendasSpawn","GLOBAL",0)
+  !Dead("Mendas")
+  !Exists("Mendas")
+THEN
+  RESPONSE #100
+    CreateCreature("MENDAS2",[334.1141],0) // Mendas
+    ActionOverride("Mendas",Face(4))
+    SetGlobal("MendasSpawn","GLOBAL",1)
+END
+
+IF
+  PartyHasItem("DAGG10") // Soultaker Dagger
+  Global("Cult3Spawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CULT3",[2800.925],0) // Cult Enforcer
+    ActionOverride("CultWizard2",Face(4))
+    SetGlobal("Cult3Spawn","GLOBAL",1)
+END
+
+IF
+  Global("Cult1","GLOBAL",1)
+  Global("Cult1Spawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CULT1",[1293.668],0) // Cult Guard
+    ActionOverride("CultGuard",Face(4))
+    SetGlobal("Cult1Spawn","GLOBAL",1)
+END
+
+IF
+  Global("Infected","GLOBAL",1)
+  Global("BareshSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BARESH",[791.1336],0) // Baresh
+    ActionOverride("Baresh",Face(2))
+    SetGlobal("BareshSpawn","GLOBAL",1)
+END
+

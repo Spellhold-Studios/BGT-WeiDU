@@ -1,0 +1,133 @@
+//BELTBRD.D
+@201810 = ~The people have heard about Sarevok.  They grew curious.  The nobles in particular are asking questions.  Dangerous ones.  Like how you managed to kill a child of Bhaal.~
+@201812 = ~The Shadow Thieves leaked it, about the temple beneath their complex.  I think it may have been an attempt to root you out of the town.  They probably feel threatened by your presence here.~ //'I know' deleted at start of line
+@201813 = ~As if the nobles were not enough of a problem, I have a larger issue that you may be able to help with.~
+@201814 = ~What is it?~
+@201815 = ~Amn still plans to go to war with us.  I have tried to send messages to the council in Athkatla but they don't seem to respond.  I don't know if the problem is with my couriers or the council.~
+@201816 = ~So what does that have to do with me?~
+@201817 = ~And you want me to do what?~
+@201818 = ~<CHARNAME>!  Is victory... yours?  Is Sarevok... dead?~
+@201819 = ~Yes, the deed is done.  Sarevok has fallen to my blade.~
+@201820 = ~To think we praised him only hours ago... *ahem*~ //everything after *ahem* deleted
+@201821 = ~I have a new contact in Athkatla.  I need to get this document to him so the Council of Six will read it and know the truth about the problems here.  I am proposing a secret meeting between myself and the council.  I hope I can prove to them that Sarevok was responsible for the threats to them and that Baldur's Gate does not want war.~
+@201822 = ~I am telling you this because I need someone who can get this critical job done.  I want you to meet my contact and deliver this letter to him.  If my couriers can't get there because of bandits or what have you, at least I know you will be able to defeat them and continue with this mission.~
+@201823 = ~Athkatla?  In Amn?  That will take some time to get there.  Is there any way to speed up my trip?~
+@201824 = ~Yes, that leads me to my next topic.  I have had my mages write up a spell for me to teleport you there.  Unfortunately, I have never been to Athkatla, and teleports only work if you know the destination.~
+@201826 = ~I have been on several hunting trips just north of Athkatla.  I know one area very well and I can teleport you to that spot.  I have told my contact and he should have people waiting there for you.  They can escort you into the city.~ //'Patience please' deleted at start of line
+@201827 = ~I am confused.  If you can teleport someone to meet with this contact, why don't you just send a courier?  Why me?~
+@201828 = ~Two reasons actually.  One, as I said before, the nobles here are fearful of you.  Getting you out of town for a few days will give me time to calm their fears.  The second reason is because my contact has heard of you.  It seems you are the heroes of the Sword Coast.  My contact thinks that the council would be much more willing to take my requests seriously if heroes like yourselves were supporting our cause.  I have even notified some of your friends so they can meet you there.  You will need to make it back from Amn on foot, so make sure you have ample supplies for the long trip.~ //'Good luck, and safe journeys.' deleted at end of line, '...go and...' deleted from last sentence
+//BELTBRD.D - new lines (v1.06)
+@201829 = ~Are you ready to make the trip to Athkatla?~
+@201830 = ~Yes, I am ready.~
+@201831 = ~No, I need some time to prepare.~
+@201832 = ~What do I have to do again?~
+@201833 = ~Good luck, and safe journeys.~
+@201834 = ~Then prepare quickly. There is no time to waste.~
+
+//SARDEAD.D
+@202200 = ~What... is this!?~
+@202201 = ~No!  How... can this be?  HOW CAN THIS BE?~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// KingDiamond's Extra Dialogue
+////////////////////////////////////////////////////////////////////////////////////////
+//TAEROM.D
+@203402 = ~Well, time's a wasting! I hope it rots in your backpack, you'll love the aroma. That'll teach ye!~
+
+//WINSKI.D
+@203403 = ~So... you killed him, did you?  I didn't know who would be the victor, but I should have assumed it would be you.  You were the thorn in his side all along, and his victory would have been hollow anyway.~
+@203404 = ~Just leave me here.  I... I don't have any more drive left.  Let the damn Fist come for me. I don't care anymore.~
+
+//SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
+@203405 = ~Those men are the ones wanted on multiple counts of murder, KILL them!~
+
+//VOLETA.D
+@203406 = ~You're back.  I'm rather suprised you survived.  No one's ever made it through the maze before.  Well that bastard is dead, at least.  If you made it through that and back, there's no doubt he's gone, too.~
+@203407 = ~I'll be fine for now.  The others will fix me up good soon enough, so just get out of here. You've caused enough trouble one way or another.~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// For picking known spells for new Shadows of Amn characters
+////////////////////////////////////////////////////////////////////////////////////////
+//A6GENSPL.D
+@204000   = ~Please PAUSE the game, set the difficulty level to NOVICE or NORMAL, and then UNPAUSE to continue.~
+@204001   = ~You now need to select known mage spells for <CHARNAME>.~
+@204002   = ~Pick a specialist Level 2 mage spell for <CHARNAME>.~
+@204003   = ~(Level 2 mage spells)~
+@204004   = ~Blur (Illusion)~
+@204005   = ~Detect Evil (Divination)~
+@204006   = ~Detect Invisibility (Divination)~
+@204007   = ~Horror (Necromancy)~
+@204008   = ~Invisibility (Illusion)~
+@204009   = ~Knock (Alteration)~
+@204010   = ~Know Alignment (Divination)~
+@204011   = ~Luck (Enchantment)~
+@204012   = ~Resist Fear (Abjuration)~
+@204013   = ~Melf's Acid Arrow (Conjuration)~
+@204014   = ~Mirror Image (Illusion)~
+@204015   = ~Stinking Cloud (Invocation)~
+@204016   = ~Strength (Alteration)~
+@204017   = ~Web (Invocation)~
+@204018   = ~Agannazar's Scorcher (Invocation)~
+@204019   = ~Ghoul Touch (Necromancy)~
+@204020   = ~Vocalize (Alteration)~
+@204021   = ~Power Word, Sleep (Conjuration)~
+@204022   = ~Ray of Enfeeblement (Enchantment)~
+@204023   = ~Chaos Shield* (Abjuration)~
+@204024   = ~Deafness (Illusion)~
+@204025   = ~Glitterdust (Conjuration)~
+@204026   = ~Pick six Level 2 mage spells for <CHARNAME>.~
+@204027   = ~Pick a specialist Level 3 mage spell for <CHARNAME>, or any spell for a Wild Mage.~
+@204028   = ~(Level 3 mage spells)~
+@204029   = ~Clairvoyance (Divination)~
+@204030   = ~Remove Magic (Abjuration)~
+@204031   = ~Flame Arrow (Conjuration)~
+@204032   = ~Fireball (Invocation)~
+@204033   = ~Haste (Alteration)~
+@204034   = ~Hold Person (Enchantment)~
+@204035   = ~Invisibility 10' Radius (Illusion)~
+@204036   = ~Lightning Bolt (Invocation)~
+@204037   = ~Monster Summoning I (Conjuration)~
+@204038   = ~Non Detection (Abjuration)~
+@204039   = ~Protection From Normal Missiles (Abjuration)~
+@204040   = ~Slow (Alteration)~
+@204041   = ~Skull Trap (Necromancy)~
+@204042   = ~Vampiric Touch (Necromancy)~
+@204043   = ~Dire Charm (Enchantment)~
+@204044   = ~Ghost Armor (Conjuration)~
+@204045   = ~Minor Spell Deflection (Abjuration)~
+@204046   = ~Protection From Fire (Abjuration)~
+@204047   = ~Protection From Cold (Abjuration)~
+@204048   = ~Spell Thrust (Abjuration)~
+@204049   = ~Detect Illusion (Divination)~
+@204050   = ~Hold Undead (Necromancy)~
+@204051   = ~Melf's Minute Meteors (Invocation)~
+@204052   = ~Dispel Magic (Abjuration)~
+@204053   = ~Pick five Level 3 mage spells for <CHARNAME>.~
+@204054   = ~Pick a specialist Level 4 mage spell for <CHARNAME>, or any spell for a Wild Mage.~
+@204055   = ~(Level 4 mage spells)~
+@204056   = ~Confusion (Enchantment)~
+@204057   = ~Fire Shield (Blue) (Invocation)~
+@204058   = ~Ice Storm (Invocation)~
+@204059   = ~Improved Invisibility (Illusion)~
+@204060   = ~Minor Globe of Invulnerability (Abjuration)~
+@204061   = ~Monster Summoning II (Conjuration)~
+@204062   = ~Stoneskin (Alteration)~
+@204063   = ~Contagion (Necromancy)~
+@204064   = ~Remove Curse (Abjuration)~
+@204065   = ~Emotion (Enchantment)~
+@204066   = ~Greater Malison (Enchantment)~
+@204067   = ~Otiluke's Resilient Sphere (Alteration)~
+@204068   = ~Spirit Armor (Necromancy)~
+@204069   = ~Polymorph Other (Alteration)~
+@204070   = ~Polymorph Self (Alteration)~
+@204071   = ~Enchanted Weapon (Enchantment)~
+@204072   = ~Fire Shield (Red) (Invocation)~
+@204073   = ~Secret Word (Abjuration)~
+@204074   = ~Minor Sequencer (Invocation)~
+@204075   = ~Teleport Field (Alteration)~
+@204076   = ~Spider Spawn (Conjuration)~
+@204077   = ~Farsight (Divination)~
+@204078   = ~Wizard Eye (Divination/Alteration)~
+@204079   = ~Pick five Level 4 mage spells for <CHARNAME>.~
+@204080   = ~Mage spell selection complete.~
+@204081   = ~Do not forget to set the difficulty back to your original preference.~

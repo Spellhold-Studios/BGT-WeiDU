@@ -1,0 +1,22 @@
+BEGIN ~tipian~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @18735
+  IF ~~ THEN REPLY @18736 GOTO 1
+  IF ~~ THEN REPLY @18737 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @18739
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @18741
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~False()~ THEN BEGIN 3
+  SAY @18745
+  IF ~~ THEN EXIT
+END

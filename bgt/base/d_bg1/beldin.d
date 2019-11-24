@@ -1,0 +1,18 @@
+BEGIN ~beldin~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @17170
+  IF ~~ THEN REPLY @17171 GOTO 1
+  IF ~~ THEN REPLY @17172 GOTO 1
+  IF ~~ THEN REPLY @17173 GOTO 1
+  IF ~~ THEN REPLY @17174 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @17176
+  IF ~~ THEN DO ~CreateCreature("KOBOLDAB",[2227.2390],5)
+CreateCreature("KOBOLDAB",[2227.2390],5)
+CreateCreature("KOBOLDAB",[2227.2390],5)
+CreateCreature("KOBOLDAB",[2227.2390],5)
+EscapeArea()~ EXIT
+END

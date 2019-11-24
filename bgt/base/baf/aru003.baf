@@ -1,0 +1,16 @@
+IF
+  Global("Cult1","GLOBAL",1)
+  Global("Cult2Spawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("CULT2",[400.450],0)
+    CreateCreature("CULTT1",[478.298],0)
+    CreateCreature("CULTT3",[131.411],0)
+    CreateCreature("CULTT4",[548.342],0)
+    CreateCreature("CULTT3",[346.574],0)
+    CreateCreature("CULTT2",[344.362],0)
+    CreateCreature("CULTT2",[438.438],0)
+    ActionOverride("CultWizard1",Face(12))
+    SetGlobal("Cult2Spawn","GLOBAL",1)
+END
+

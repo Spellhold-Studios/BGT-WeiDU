@@ -1,0 +1,28 @@
+IF
+  OnCreation()
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Chapter","GLOBAL",8)
+  Global("KalessSpawn","GLOBAL",0)
+  !Exists("KALESSIA")
+THEN
+  RESPONSE #100
+    CreateCreature("KALESS",[413.658],0)
+    SetGlobal("KalessSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("KALESSIA")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("KALESSIA",DestroySelf())
+END
+
+IF
+  Global("BGEnteredIronThroneL5","GLOBAL",1)
+  Exists("EmiTar")
+THEN
+  RESPONSE #100
+    ActionOverride("EmiTar",DestroySelf())
+END

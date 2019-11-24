@@ -1,0 +1,92 @@
+IF
+	Global("Tiaxfight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DialogueInterrupt(FALSE)
+		ActionOverride("Quayle",DialogueInterrupt(FALSE))
+		ActionOverride("Quayle",LeaveParty())
+		LeaveParty()
+		SetGlobal("Tiaxfight","GLOBAL",2)
+END
+
+IF
+        OR(2)
+	     Dead("Quayle")
+	     !See("Quayle")
+	Global("Tiaxfight","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Tiaxfight","GLOBAL",0)
+		SetGlobal("TiaxIsBack","GLOBAL",1)
+		DialogueInterrupt(TRUE)
+		JoinParty()
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",0)
+        Global("QuayleIsBack","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("QuayleIsBack","GLOBAL",0)
+		DialogueInterrupt(TRUE)
+END
+
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	HaveSpell(CLERIC_CURE_LIGHT_WOUNDS)
+	HPPercentLT(Myself,50)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Quayle")
+	HaveSpell(CLERIC_HOLD_PERSON)
+	!StateCheck("Quayle",STATE_SLEEPING)
+	!StateCheck("Quayle",STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell("Quayle",CLERIC_HOLD_PERSON)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Quayle")
+	HaveSpell(CLERIC_COMMAND)
+	!StateCheck("Quayle",STATE_SLEEPING)
+	!StateCheck("Quayle",STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell("Quayle",CLERIC_COMMAND)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Quayle")
+	HaveSpell(CLERIC_MAGIC_STONE)
+THEN
+	RESPONSE #100
+		Spell("Quayle",CLERIC_MAGIC_STONE)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Quayle")
+	HaveSpell(CLERIC_CALL_LIGHTNING)
+THEN
+	RESPONSE #100
+		Spell("Quayle",CLERIC_CALL_LIGHTNING)
+END
+
+IF
+	Global("Tiaxfight","GLOBAL",2)
+	See("Quayle")
+THEN
+	RESPONSE #100
+		AttackReevaluate("Quayle",15)
+END
+
+

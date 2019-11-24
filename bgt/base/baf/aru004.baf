@@ -1,0 +1,18 @@
+IF
+  Global("Infected","GLOBAL",1)
+  Global("Mendas3Spawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("MENDAS3",[393.234],0)
+    ActionOverride("Mendas3",Face(8))
+    SetGlobal("Mendas3Spawn","GLOBAL",1)
+END
+
+IF
+  Global("Baresh","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BARESH2",[528.232],0)
+    ActionOverride("Baresh",Face(2))
+    SetGlobal("Baresh","GLOBAL",2)
+END

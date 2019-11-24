@@ -1,0 +1,17 @@
+BEGIN ~phaers~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @18766
+  IF ~~ THEN REPLY @18767 GOTO 1
+  IF ~~ THEN REPLY @18768 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @18769
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @18771
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

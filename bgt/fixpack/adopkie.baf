@@ -1,0 +1,7 @@
+IF
+  HPLT(Myself,1)
+  !StateCheck(Myself,STATE_DEAD)    
+THEN
+  RESPONSE #100
+    DestroySelf()
+END

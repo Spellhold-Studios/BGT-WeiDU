@@ -1,0 +1,41 @@
+IF
+  PartyHasItem("SCRL2V")
+  Global("CHAPTER","GLOBAL",3)
+  Dead("Mulahey")
+THEN
+  RESPONSE #100
+    SetGlobal("Chapter","GLOBAL",2)
+    IncrementChapter("Chptxt-3")
+    SetGlobal("Chapter","GLOBAL",4)
+    AddJournalEntry(@310735,INFO)
+END
+
+IF
+  Global("BGTNPC4405","GLOBAL",0)
+  LevelLT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC4405","GLOBAL",1)
+    CreateCreature("BGXAN",[790.590],9)
+END
+
+IF
+  Global("BGTNPC4405","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC4405","GLOBAL",1)
+    CreateCreature("XAN4",[790.590],9)
+END
+
+IF
+  Global("BGTNPC4405","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC4405","GLOBAL",1)
+    CreateCreature("XAN6",[790.590],9)
+END
+

@@ -1,0 +1,61 @@
+IF
+  NumDeadGT("AnkhegG",0)
+  Global("HelpGerde","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("HelpGerde","GLOBAL",1)
+END
+
+IF
+  Global("BGTNPC8300","GLOBAL",0)
+  LevelLT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8300","GLOBAL",1)
+    CreateCreature("AJANTI",[1572.3141],5)
+END
+
+IF
+  Global("BGTNPC8300","GLOBAL",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8300","GLOBAL",1)
+    CreateCreature("AJANTI4",[1572.3141],5)
+END
+
+IF
+  Global("BGTNPC8300","GLOBAL",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("BGTNPC8300","GLOBAL",1)
+    CreateCreature("AJANTI6",[1572.3141],5)
+END
+
+IF
+  Global("HelpTenya","GLOBAL",2)
+  Exists("Sonner")
+THEN
+  RESPONSE #100
+    ActionOverride("Sonner",DestroySelf())
+END
+
+IF
+  Global("HelpTenya","GLOBAL",2)
+  Exists("Jebadoh")
+THEN
+  RESPONSE #100
+    ActionOverride("Jebadoh",DestroySelf())
+END
+
+IF
+  Global("HelpTenya","GLOBAL",2)
+  Exists("Telman")
+THEN
+  RESPONSE #100
+    ActionOverride("Telman",DestroySelf())
+END
+

@@ -1,0 +1,22 @@
+BEGIN ~faizah~
+
+IF ~Global("Baldurian","GLOBAL",1)~ THEN BEGIN 0
+  SAY @10533
+  IF ~~ THEN REPLY @10534 GOTO 1
+  IF ~~ THEN REPLY @10535 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @10536
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @10537
+  IF ~~ THEN EXIT
+END
+
+IF ~True()~ THEN BEGIN 3
+  SAY @10595
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END

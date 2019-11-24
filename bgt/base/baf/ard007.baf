@@ -1,0 +1,17 @@
+IF
+  Dead("AIRASPEC")  // ~Air Aspect~
+  Dead("KALDRAN")  // ~Kaldran the Bear~
+  Dead("PHOENIX")  // ~Phoenix Guard~
+  Dead("JELLSPA")  // ~Fission Slime~
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,LeaveAreaLUAPanic("ARD006","",[449.721],12))
+    ActionOverride(Player1,LeaveAreaLUA("ARD006","",[449.721],12))
+    ActionOverride(Player1,SetMasterArea("ARD000"))
+    ActionOverride(Player2,LeaveAreaLUA("ARD006","",[509.772],12))
+    ActionOverride(Player3,LeaveAreaLUA("ARD006","",[559.807],12))
+    ActionOverride(Player4,LeaveAreaLUA("ARD006","",[381.686],12))
+    ActionOverride(Player5,LeaveAreaLUA("ARD006","",[328.646],12))
+    ActionOverride(Player6,LeaveAreaLUA("ARD006","",[613.857],12))
+END
+

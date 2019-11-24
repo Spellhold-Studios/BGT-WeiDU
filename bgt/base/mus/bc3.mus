@@ -1,0 +1,33 @@
+BC3
+30
+A1              @TAG ENDA1
+A2              @TAG ENDA1
+A3              @TAG ENDA1
+A4              @TAG ENDA4
+B1              @TAG ENDB1
+B2              @TAG ENDB2
+B3              @TAG ENDB3
+C1              @TAG ENDC1
+D1              @TAG ENDD1
+D2              @TAG ENDD2
+D3              @TAG ENDA4
+D4              @TAG ENDD4
+E1              @TAG ENDE1
+E2              @TAG ENDE2
+E3              @TAG ENDE1
+E4              @TAG ENDE4
+F1              @TAG ENDA1
+F2              @TAG ENDF2
+F3              @TAG ENDF2
+F4              @TAG ENDF4
+G1              @TAG ENDA1
+G2              @TAG ENDG2
+G3              @TAG ENDG3
+H1              @TAG ENDG2
+H2              @TAG ENDH2
+H3              @TAG ENDH3
+H4              @TAG ENDH4
+I1              @TAG ENDB3
+D2A             @TAG ENDD2
+D1A     BC3 D2      @TAG ENDD1
+

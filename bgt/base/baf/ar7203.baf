@@ -1,0 +1,10 @@
+IF
+  Global("BrielbaraMove","GLOBAL",1)
+  !Exists("Brielbara")  // Brielbara
+  !Dead("Brielbara")  // Brielbara
+THEN
+  RESPONSE #100
+    CreateCreature("BRIELB",[418.376],0)  // ~Brielbara~
+    ActionOverride("Brielbara",SetNumTimesTalkedTo(1))
+END
+

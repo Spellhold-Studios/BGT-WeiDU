@@ -1,0 +1,9 @@
+IF
+  Global("WereFinish","GLOBAL",0)
+  Die()
+THEN
+  RESPONSE #100
+    SetGlobal("Infected","GLOBAL",0)
+    DisplayStringNoNameHead(Player1,@401117)
+    SetGlobal("WereFinish","GLOBAL",1)
+END

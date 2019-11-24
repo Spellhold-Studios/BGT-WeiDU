@@ -1,0 +1,48 @@
+//IF
+//  OnCreation()
+//THEN
+//  RESPONSE #100
+//    Explore()
+//    Continue()
+//END
+
+IF
+  OnCreation()
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("SugarSpawn","GLOBAL",0)
+  !Exists("SUGAR")  // ~Sugar~
+THEN
+  RESPONSE #100
+    CreateCreature("SUGAR",[2290.2442],0)  // ~Sugar~
+    SetGlobal("SugarSpawn","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Exists("SUGAR")
+  !Global("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("SUGAR",DestroySelf())
+END
+
+IF
+  Global("Chapter","GLOBAL",8)
+  Global("ENDOFBG1","GLOBAL",0)
+  Global("Capture100","GLOBAL",0)
+  Global("DukeThanks","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Capture100","GLOBAL",1)
+    CreateCreature("FFHUNT",[2532.1555],0)  // ~Flaming Fist Enforcer~
+    CreateCreature("FFHUNT",[2532.1555],0)  // ~Flaming Fist Enforcer~
+END
+
+IF
+  Global("EldothMove","GLOBAL",0)
+  InParty("Eldoth")
+THEN
+  RESPONSE #100
+    ActionOverride("Eldoth",Dialog([PC]))
+END

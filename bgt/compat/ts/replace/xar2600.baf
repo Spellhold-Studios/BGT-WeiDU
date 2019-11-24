@@ -1,0 +1,32 @@
+IF
+  Global("CoranPartyBG1","GLOBAL",0)
+  Global("VP_CreateCoran","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SPRITE_IS_DEADCORAN","GLOBAL",0)
+    Continue()
+END
+
+IF
+  Global("CoranPartyBG1","GLOBAL",1)
+  Global("VP_CreateCoran","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_CreateCoran","GLOBAL",1)
+    ActionOverride("Coran",SetNumTimesTalkedTo(0))
+    ActionOverride("Coran",SetDialog("CORAN"))
+    ActionOverride("Coran",ChangeAIScript("SHOUTDLG",CLASS))
+    GiveItemCreate("LEAT02","Coran",1,0,0) // Leather Armor +1
+    GiveItemCreate("AROW02","Coran",40,0,0) // Arrows +1
+    GiveItemCreate("SW1H09","Coran",1,0,0) // Short Sword +2
+    SmallWait(10)
+    FillSlot(SLOT_ARMOR)
+    FillSlot(SLOT_AMMO)
+    FillSlot(SLOT_WEAPON)
+    GiveItemCreate("BOW04","Coran",1,0,0) // Long Bow +1
+    SmallWait(10)
+    FillSlot(SLOT_WEAPON1)
+    EquipMostDamagingMelee()
+    Continue()
+END
+

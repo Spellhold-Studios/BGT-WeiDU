@@ -1,0 +1,9 @@
+IF
+  Global("EnteredBanditCamp","GLOBAL",0)
+THEN
+  RESPONSE #100
+    StartMovie("CAMP")
+    SetGlobal("EnteredBanditCamp","GLOBAL",1)
+    SetGlobal("TazokSays","GLOBAL",1)
+END
+

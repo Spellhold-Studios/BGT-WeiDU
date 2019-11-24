@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+	font-size: 100%;
+	font-style: normal;
+	line-height: 150%;
+	padding: 0px;
+	margin: 10px auto;
+	width: 90%;
+	display: block;
+	text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+	margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+	list-style-type: square;
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      #maindiv ol li {
+	line-height: 150%;
+	text-align: justify;
+	margin-right: 5%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - BGT-WeiDU</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Baldur's Gate Trilogy - WeiDU (BGT-WeiDU)</h1>
+        <strong>POINSTALAČNÍ POZNÁMKY</strong>
+		<br />
+		<p><a href="%5benglish%5dpostinstall.htm"><img border=0 src="images/image001.gif"></a>&nbsp;
+		<a href="%5bschinese%5dpostinstall.htm"><img border=0 src="images/image009.gif"></a>&nbsp;
+		<a href="%5btchinese%5dpostinstall.htm"><img border=0 src="images/image010.gif"></a>&nbsp;
+		<a href="%5bczech%5dpostinstall.htm"><img border=0 src="images/image011.gif"></a>&nbsp;
+		<a href="%5bfrench%5dpostinstall.htm"><img border=0 src="images/image002.gif"></a>&nbsp;
+		<a href="%5bgerman%5dpostinstall.htm"><img border=0 src="images/image003.gif"></a>&nbsp;
+		<a href="%5bitalian%5dpostinstall.htm"><img border=0 src="images/image004.gif"></a>&nbsp;
+		<a href="%5bkorean%5dpostinstall.htm"><img border=0 src="images/image007.gif"></a>&nbsp;
+		<a href="%5bpolish%5dpostinstall.htm"><img border=0 src="images/image005.gif"></a>&nbsp;
+		<a href="%5brussian%5dpostinstall.htm"><img border=0 src="images/image006.gif"></a>&nbsp;
+		<a href="%5bcastilian%5dpostinstall.htm"><img border=0 src="images/image008.gif"></a></p>
+        <hr />
+        <p class="menu">
+          <a href="#knownissues">Známé problémy</a> &middot;
+          <a href="#extras">Zvláštní obsah</a>
+        </p>
+		<hr />
+		<p><i>Díky za Váš zájem o Baldur’s Gate Trilogy-WeiDU!  Doufáme, že se Vám bude tato modifikace líbit.  Tyto poinstalační poznámky Vás mají informovat o známých chybách ve hře, které se zatím nepodařilo opravit.  Pro lepší zážitek z BG:TotSC jsou také určeny další přídavné modifikace k této instalaci.  Příjemný zážitek ze hry!</i></p>
+		<p><i>Baldur’s Gate Trilogy-WeiDU Development Team</i></p>
+		<hr />
+		<p><strong>Pozor! Všechny uložené hry z BGT-WeiDU verzí 1.12 a menší jsou nekompatibilní s touto verzí. Musíte začít novou hru.</strong></p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== Z n á m é   P r o b l é m y ================== -->
+        <a name="knownissues" id="knownissues"></a>
+        <div class="content">
+          <h2>Známé problémy</h2>
+          <p>Existuje množství menších chyb, které se vyskytují v Baldur's Gate Trilogy-WeiDU už delší dobu, protože jsou náročné na opravu. Následuje jejich seznam.</p>
+		  <br />
+		<ul>
+			<li><strong>Quest s ankhegy (zřídka):</strong> Fenten může občas hráči zadat úkol na zabití ankhegů pro Gerde, i když je tento úkol již splněn. Můžete to spravit pomocí konzole, napíšete-li CLUAConsole:SetGlobal("HelpGerde","GLOBAL",2) , než si promluvíte s Fentenem.</li>
+			<li><strong>Stálý berserk s Prokletým Berserkským Mečem +3:</strong> Když zaútočíte na Centeol v pavoučím doupěti (AR8801) Prokletým berserkským mečem (SW2H03), vaše postava zůstane berserkem už napořád. Řešením je nepoužívat tento meč v pavoučím doupěti, zajistit, aby postava s ním neútočila na Centeol, nebo mít připraveno kouzlo Odstraň kletbu.</li>
+			<li><strong>Vracení životopisu už nefunguje:</strong> Aby se zobrazovaly správné životopisy z Baldur's Gate a Tales of the Sword Coast, tlačítko na vrácení životopisu už nefunguje, jak má. Místo toho životopis smaže.</li>
+			<li><strong>Vlastní životopis při tvorbě postavy:</strong> Nepište vlastní životopis, dokud nejste ve Svítící Tvrzi. Při načítání Svítící Tvrze jsou nastaveny původní životopisy z BG:TotSC. Pokud jste napsali vlastní životopis, bude přepsán.</li>
+			<li><strong>Kostlivci v High Hedge:</strong> Kostlivci v oblasti High Hedge správně nepoužívají své vrhací dýky. Není způsob, jak tuto chybu opravit.</li>
+			<li><strong>Pád hry v Beregostu:</strong> Hra může neočekávaně spadnout při cestování z a do Beregostu a uložené pozice mohou být poškozeny. Řešením je ukládat hru do různých pozic, nespoléhat se na auto-save, neukládat v Beregostu, nebo použít utilitu <a href="http://forums.spellholdstudios.net/index.php?showtopic=24121">Beregost Crash Fixer</a> na poškozené uložené pozice.</li>
+			<li><strong>Zmámené příšery nemají hlas:</strong> Příšery jako medvědi, vlci, kostlivci a dokonce i Ghoul Korax nevydávají žádný zvuk, když jsou zmámeny.</li>
+			<li><strong>Sekvence snů:</strong> Některým sekvencím snů v některých jazycích může chybět první a/nebo poslední odstavec textu. Je to způsobeno problémem v původním BG:TotSC.</li>
+			<li><strong>Zvuky golemů z masa:</strong> Golemové z masa mluví jako Ogrilloni kvůli chybě v enginu hry.</li>
+			<li><strong>Grafická chyba:</strong> V oblasti AR8500 na souřadnicích (3857, 2853) je zelený pixel. Pravděpodobně to nebude opraveno, protože je to příliš malá chyba.</li>
+			<li><strong>Minscova znepřátelená rasa:</strong> Minscova znepřátelená rasa jsou gnollové. V Baldur’s Gate Trilogy-WeiDU se to v záznamu postavy nezobrazuje správně, ale bonus proti znepřátelené rase se započítává. Minscova znepřátelená rasa se nezmění na upíra, pokud je importován do Shadows of Amn, kvůli scriptovacím omezením.</li>
+			<li><strong>Souboj s Shar-teel:</strong> Postava může útočit na Shar-Teel i po konci souboje. To může způsobit, že Shar-Teel zaútočí, pokud hráč souboj prohrál, nebo její smrt, pokud se připojila k družině. Aby se to nestalo, vypněte před soubojem AI družiny.</li>
+			<li><strong>Spouštění nové hry:</strong> Pokud začnete novou BG2 hru, zrušíte vytváření postavy a poté začnete novou BG1 hru, začnete namísto toho BG2 hru. Je to nejspíš omezení enginu. Pokud se to stane, vypněte a zapněte hru a začněte novou BG1 hru.</li>
+		</ul>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Známé problémy</span> &#8226;<a href="#top">Nahoru</a>
+          </address>
+        </div>
+
+        <!-- ================== E x t r a   F e a t u r e s ================== -->
+        <a name="extras" id="extras"></a>
+        <div class="content">
+          <h2>Zvláštní obsah</h2>
+		  <a name="Music"><h3>Baldur’s Gate a Tales of the Sword Coast hudba</h3></a>
+          <p>Hudba je nainstalována během instalace Baldur’s Gate Trilogy-WeiDU, ale není aktivována.</p>
+		  <p>Pro aktivaci Baldur’s Gate a Tales of the Sword Coast hudby, spusťte Setup-BGTMusic.exe v Baldur’s Gate Trilogy-WeiDU adresáři. Na výběr jsou tři možnosti:</p>
+		  <ul>
+		    <li><strong>Úplná Baldur’s Gate a Tales of the Sword Coast hudba:</strong> Aktivuje veškerou původní Baldur’s Gate a Tales of the Sword Coast hudbu. Pokud hrajete Shadows of Amn a/nebo Throne of Bhaal s tímto komponentem, hudba bude nesprávná. Pokud se rozhodnete hrát Shadows of Amn a/nebo Throne of Bhaal, odinstalujte tento komponent pro lepší zážitek.</li>
+		    <li><strong>Hybridní Baldur’s Gate/Shadows of Amn/Throne of Bhaal hudba:</strong> Ponechává všechnu hudbu z Shadows of Amn a Throne of Bhaal, ale aktivuje nějakou hudbu z Baldur’s Gate a Tales of the Sword Coast. Bylo vynaloženo úsilí, aby byla hudba pro každou oblast co nejvhodnější.</li>
+            <li><strong>Úplná Baldur's Gate/Shadows of Amn/Throne of Bhaal hudba (POZOR: upravuje BGMain.exe):</strong> Taimon vyrobil úpravu spouštěcího souboru, aby mohla být použita všechna hudba z Baldur's Gate I a Baldur's Gate II. Byl zvýšen počet řad v SONGLIST.2DA podporovaných hrou. Používejte na vlastní nebezpečí.</li>
+		    <li><strong>Neinstaluj žádnou:</strong> Žádná Baldur’s Gate a Tales of the Sword Coast hudba nebude hrát. Hudba v této části hry bude znít nevhodně.</li>
+		  </ul>
+		  <p>Pokud plánujete instalovat další modifikace k Baldur’s Gate Trilogy-WeiDU, doporučujeme nainstalovat hudbu jako co možná nejposlednější. To umožní ji snadno odinstalovat a vyhnout se problémům s kompatibilitou.</p>
+		  <br />
+		  <h3>Vlastní Menu</h3>
+		  <p>Po instalaci Baldur’s Gate Trilogy-WeiDU jsou zpřístupněny různé obrazovky Menu. Spusťte Setup-GUI.exe v adresáři Baldur’s Gate Trilogy. Vyberte, kterou Menu obrazovku byste chtěli použít.</p>
+		  <p>Pokud plánujete instalovat další modifikace k Baldur’s Gate Trilogy-WeiDU, doporučujeme nainstalovat Vlastní Menu jako co možná nejposlednější. To umožní ji snadno odinstalovat.</p>
+		  <br />
+		  <h3>Modifikace speciálně pro BGT-WeiDU</h3>
+		  <p>Modifikace vypsané na <a href="http://www.shsforums.net/index.php?showtopic=23549">http://www.shsforums.net/index.php?showtopic=23549</a> byly vyrobeny hlavně pro Baldur’s Gate Trilogy-WeiDU.  Než je použijete, zvažte možné potíže v jejich vzájemné kompatibilitě.</p>
+		  <br />
+		  <h3>Použití BGT-WeiDU s jinými modifikacemi</h3>
+		  <p>Informace o kompatibilitě BGT-WeiDU s jinými modifikacemi jsou k nalezení <a href="[english]compatibility.htm">zde</a>. Aktuálnější informace jsou k nalezení na <a href="http://www.shsforums.net/index.php?showtopic=19539">http://www.shsforums.net/index.php?showtopic=19539</a>. Uvědomte si, že v seznamech je uvedena pouze kompatibilita mezi BGT-WeiDU a jinými mody, ne mezi jinými mody navzájem.</p>
+          <address>
+            <span class="footer">BGT-WeiDU &gt; Zvláštní obsah</span> &#8226;<a href="#top">Nahoru</a>
+          </address>
+        </div>
+
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+BEGIN ~slave6~
+
+IF ~StateCheck(Myself,STATE_CHARMED)~ THEN BEGIN 1
+  SAY @6402
+  IF ~~ THEN EXIT
+END
+
+IF ~True()~ THEN BEGIN 0
+  SAY @4426
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @9076
+  IF ~~ THEN EXIT
+END

@@ -1,0 +1,35 @@
+BC4
+32
+A1              @TAG ENDC
+A2              @TAG ENDC
+A3              @TAG ENDB
+B1              @TAG ENDB
+B2              @TAG ENDB
+C1              @TAG ENDB
+C2              @TAG ENDB
+D1              @TAG ENDB
+D2              @TAG ENDB
+E1              @TAG ENDB
+E2              @TAG ENDB
+F1              @TAG ENDB
+F2              @TAG ENDA
+G1              @TAG ENDA
+G2              @TAG ENDA
+G3              @TAG ENDA
+H1              @TAG ENDA
+H2              @TAG ENDA
+H3              @TAG ENDA
+H4              @TAG ENDA
+I1              @TAG ENDA
+I2              @TAG ENDA
+I3              @TAG ENDA
+I4              @TAG ENDA
+J1              @TAG ENDA
+J2              @TAG ENDA
+J3              @TAG ENDA
+J4              @TAG ENDA
+K1              @TAG ENDA
+K2              @TAG ENDA
+K3              @TAG ENDA
+XA1     A2      @TAG ENDC
+

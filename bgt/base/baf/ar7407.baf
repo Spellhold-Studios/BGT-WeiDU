@@ -1,0 +1,19 @@
+IF
+  OnCreation()
+  Global("ChartQuest","GLOBAL",1)
+  Global("UlfSpawn","GLOBAL",0)
+  !Exists("ULF")  // ~Ulf~
+THEN
+  RESPONSE #100
+    CreateCreature("ULF",[602.489],0)  // ~Ulf~
+    CreateCreature("CREW1",[593.397],0)  // ~Crewmate~
+    CreateCreature("CREW2",[461.513],0)  // ~Crewmate~
+    CreateCreature("CREW3",[287.471],0)  // ~Crewmate~
+    CreateCreature("CREW4",[384.594],0)  // ~Crewmate~
+    CreateCreature("CREW5",[582.678],0)  // ~Crewmate~
+    CreateCreature("CREW6",[614.189],0)  // ~Crewmate~
+    CreateCreature("CREW7",[895.498],0)  // ~Crewmate~
+    ActionOverride("JACIL",DestroySelf())
+    SetGlobal("UlfSpawn","GLOBAL",1)
+    Continue()
+END

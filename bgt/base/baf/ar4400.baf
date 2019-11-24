@@ -1,0 +1,19 @@
+IF
+  OR(2)
+    Global("Chapter","GLOBAL",2)
+    Global("EmersonPermission","GLOBAl",0)
+  Global("DoorCheck","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Door4401",FALSE)
+    SetGlobal("DoorCheck","GLOBAL",1)
+END
+
+IF
+  Global("Chapter","GLOBAL",3)
+  Global("EmersonPermission","GLOBAl",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("Door4401",TRUE)
+END
+

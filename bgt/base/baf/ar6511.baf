@@ -1,0 +1,9 @@
+IF
+  Dead("Rieltar")  // Rieltar
+  Global("WatchSpawn2","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("WatchSpawn2","GLOBAL",1)
+    CreateCreature("WATCH6",[1520.1140],0)  // ~Watcher~
+END
+

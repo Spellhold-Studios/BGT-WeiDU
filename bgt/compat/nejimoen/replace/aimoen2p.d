@@ -1,0 +1,1 @@
+ADD_STATE_TRIGGER ~imoen2p~ 8 ~Global("ENDOFBG1","GLOBAL",2)~ 11

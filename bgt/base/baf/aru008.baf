@@ -1,0 +1,26 @@
+IF
+   Global("EnteredAR1008","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("EnteredAR1008","GLOBAL",1)
+        DisplayString(Myself,@401111)
+END
+
+IF
+    PartyHasItem("CLCK22")
+    PartyHasItem("MISC2H")
+    Global("iceisle","GLOBAL",0)
+THEN
+    RESPONSE #100
+        Wait(5)
+        SetGlobal("iceisle","GLOBAL",1)
+        ActionOverride(Player1,LeaveAreaLUAPanic("ARU000","",[1798.624],12))
+        ActionOverride(Player1,LeaveAreaLUA("ARU000","",[1798.624],12))
+        ActionOverride(Player2,LeaveAreaLUA("ARU000","",[1793.748],12))
+        ActionOverride(Player3,LeaveAreaLUA("ARU000","",[1736.751],12))
+        ActionOverride(Player4,LeaveAreaLUA("ARU000","",[1681.726],12))
+        ActionOverride(Player5,LeaveAreaLUA("ARU000","",[1681.726],12))
+        ActionOverride(Player6,LeaveAreaLUA("ARU000","",[1795.687],12))
+END
+
+
