@@ -1,0 +1,31 @@
+@echo off
+
+IF EXIST music\bgtheme call bgt\install\win32\deldir music\bgtheme
+IF EXIST music\bc3 call bgt\install\win32\deldir music\bc3
+IF EXIST music\bc4 call bgt\install\win32\deldir music\bc4
+IF EXIST music\bd4 call bgt\install\win32\deldir music\bd4
+IF EXIST music\bd5 call bgt\install\win32\deldir music\bd5
+IF EXIST music\bf3 call bgt\install\win32\deldir music\bf3
+IF EXIST music\bf4 call bgt\install\win32\deldir music\bf4
+IF EXIST music\bl1 call bgt\install\win32\deldir music\bl1
+IF EXIST music\bl2 call bgt\install\win32\deldir music\bl2
+IF EXIST music\bp3 call bgt\install\win32\deldir music\bp3
+IF EXIST music\bp4 call bgt\install\win32\deldir music\bp4
+IF EXIST music\bw1 call bgt\install\win32\deldir music\bw1
+IF EXIST music\cday1 call bgt\install\win32\deldir music\cday1
+IF EXIST music\cday2 call bgt\install\win32\deldir music\cday2
+IF EXIST music\cnite call bgt\install\win32\deldir music\cnite
+IF EXIST music\chants call bgt\install\win32\deldir music\chants
+IF EXIST music\dream call bgt\install\win32\deldir music\dream
+IF EXIST music\dung1 call bgt\install\win32\deldir music\dung1
+IF EXIST music\dung2 call bgt\install\win32\deldir music\dung2
+IF EXIST music\dung3 call bgt\install\win32\deldir music\dung3
+IF EXIST music\fday call bgt\install\win32\deldir music\fday
+IF EXIST music\fnite call bgt\install\win32\deldir music\fnite
+IF EXIST music\fort call bgt\install\win32\deldir music\fort
+IF EXIST music\pday call bgt\install\win32\deldir music\pday
+IF EXIST music\pnite call bgt\install\win32\deldir music\pnite
+IF EXIST music\tday1 call bgt\install\win32\deldir music\tday1
+IF EXIST music\tday2 call bgt\install\win32\deldir music\tday2
+IF EXIST music\tnite call bgt\install\win32\deldir music\tnite
+IF EXIST music\temple call bgt\install\win32\deldir music\temple
