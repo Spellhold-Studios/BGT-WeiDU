@@ -1,52 +1,47 @@
-# Windows image file caches
-# =========================
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-# ==================
-
-
-# Recycle Bin used on file shares
-# ===============================
-$RECYCLE.BIN/
-
-
-# Windows Installer files
-# =======================
-
-# Windows shortcuts
-# =================
-*.lnk
-
-# =======================
-# Operating System Files
-# =======================
-
-# OSX
-# ===
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-# ==========
-._*
-
-# =================
-# ignore all files
-# =================
-*.bak
-*.csv
 *.7z
+*.bak
+*.lnk
 *.rar
+*.stackdump
+*.tar*
+*.tmp
 *.zip
-todo*.*
+*~
 
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.DS_Store
+.DocumentRevisions-V100
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trash-*
+.Trashes
+.VolumeIcon.icns
+._*
+.apdisk
+.com.apple.timemachine.donotpresent
+.directory
+.fseventsd
+.fuse_hidden*
+.nfs*
 
-# ========================================
-# ignore all files in any directory named
-# ========================================
-legacy/
+Icon
+Network Trash Folder
+Temporary Items
+__macosx
 
+$RECYCLE.BIN/
+#[Bb]ackup/
+[Rr]elease/
+[Tt]emp/
+[Tt]mp/
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+!/bgt/[Dd]esktop.ini
+setup-bgt.exe
