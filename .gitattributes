@@ -1,0 +1,57 @@
+*.2da text eol=crlf
+*.baf text eol=crlf
+*.bat text eol=crlf
+*.d text eol=crlf
+*.htm text eol=crlf
+*.html text eol=crlf
+*.ids text eol=crlf
+*.ini text eol=crlf
+*.mus text eol=crlf
+*.tbl text eol=crlf
+*.tp2 text eol=crlf
+*.tpa text eol=crlf
+*.tph text eol=crlf
+*.tpp text eol=crlf
+*.tra text eol=crlf
+*.txt text eol=crlf
+
+*.command text eol=lf
+*.sh text eol=lf
+
+*.acm binary
+*.are binary
+*.bam binary
+*.bcs binary
+*.bmp binary
+*.bs binary
+*.chr binary
+*.chu binary
+*.cre binary
+*.dlg binary
+*.dll binary
+*.eff binary
+*.exe binary
+*.gam binary
+*.gif binary
+*.ico binary
+*.itm binary
+*.jpg binary
+*.mbc binary
+*.mos binary
+*.moz binary
+*.mve binary
+*.plt binary
+*.png binary
+*.pro binary
+*.spl binary
+*.sto binary
+*.tbc binary
+*.tis binary
+*.tiz binary
+*.tlk binary
+*.vef binary
+*.vvc binary
+*.wav binary
+*.wed binary
+*.wfx binary
+*.wmp binary
