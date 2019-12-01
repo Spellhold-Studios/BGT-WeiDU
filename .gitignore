@@ -38,7 +38,6 @@ $RECYCLE.BIN/
 # ignore all files
 # =================
 *.bak
-*.bat
 *.csv
 *.7z
 *.rar
