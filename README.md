@@ -1,4 +1,4 @@
-![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/BGT-WeiDU?include_prereleases&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/BGT-WeiDU?include_prereleases&color=darkred)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Korean%20%7C%20Polish%20%7C%20Russian%20%7C%20Spanish%20%7C%20Chinese_simplified%20%7C%20Chinese_traditional%20%7C%20Czech&color=limegreen)
 
