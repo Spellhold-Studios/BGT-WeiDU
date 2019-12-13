@@ -7,7 +7,7 @@ A [Spellhold Studios](http://www.spellholdstudios.net/) mod for *Baldur's Gate I
 
 **Project Lead:** [Ascension64](https://github.com/Ascension64) (with permission from Bardez)
 
-[**Readme**](http://readme.spellholdstudios.net/BGTReadme.htm) | [**Website**](http://www.spellholdstudios.net/ie/bgt) | [**Forum**](http://www.shsforums.net/forum/261-bgt-weidu/)
+[**Readme**](https://spellholdstudios.github.io/readmes/bgt/[english]bgtreadme.htm) | [**Website**](http://www.spellholdstudios.net/ie/bgt) | [**Forum**](http://www.shsforums.net/forum/261-bgt-weidu/)
 
 ## Introduction ##
 Baldur's Gate Trilogy is a modification originally created by Bardez that aimed to achieve two major goals: to play *Baldur's Gate* and *Tales of the Sword Coast* expansion using the much improved *Baldur's Gate II* engine, and to generate some kind of continuity between the events of *Baldur's Gate*, *Tales of the Sword Coast*, *Shadows of Amn*, and *Throne of Bhaal*. Baldur's Gate Trilogy-WeiDU takes this a step further by converting the modification to WeiDU format, which has improved compatibility with other modifications.
