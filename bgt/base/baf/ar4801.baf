@@ -1,0 +1,86 @@
+IF
+	Global("A6WaylaidSpawn","AR4801",0)
+	OR(6)
+		Time(1)
+		Time(2)
+		Time(13)
+		Time(14)
+		Time(17)
+		Time(18)
+THEN
+	RESPONSE #100
+		CreateCreature("WOLFWI",[239.171],0)  // Winter Wolf
+		SetGlobal("A6WaylaidSpawn","AR4801",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4801",0)
+	OR(4)
+		Time(3)
+		Time(4)
+		Time(15)
+		Time(16)
+THEN
+	RESPONSE #100
+		CreateCreature("BEARCA",[186.205],0)  // Cave Bear
+		SetGlobal("A6WaylaidSpawn","AR4801",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4801",0)
+	TimeGT(4)
+	TimeLT(DAWN_END)
+THEN
+	RESPONSE #100
+		CreateCreature("OGRE",[82.88],0)  // Ogre
+		SetGlobal("A6WaylaidSpawn","AR4801",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4801",0)
+	TimeGT(DAWN_START)
+	TimeLT(9)
+THEN
+	RESPONSE #100
+		CreateCreature("OGREMA",[404.340],0)  // Ogre Mage
+		SetGlobal("A6WaylaidSpawn","AR4801",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4801",0)
+	TimeGT(8)
+	TimeLT(11)
+THEN
+	RESPONSE #100
+		CreateCreature("OGREGR",[76.184],0)  // Ogrillon
+		CreateCreature("OGREGR",[363.186],0)  // Ogrillon
+		SetGlobal("A6WaylaidSpawn","AR4801",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4801",0)
+	OR(4)
+		Time(11)
+		Time(NOON)
+		Time(19)
+		Time(20)
+THEN
+	RESPONSE #100
+		CreateCreature("GNOLL",[456.193],0)  // Gnoll
+		CreateCreature("GNOLL",[513.253],0)  // Gnoll
+		CreateCreature("GNOLL",[330.335],0)  // Gnoll
+		CreateCreature("GNOLL",[617.326],0)  // Gnoll
+		SetGlobal("A6WaylaidSpawn","AR4801",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4801",0)
+	OR(2)
+		TimeGT(20)
+		Time(MIDNIGHT)
+THEN
+	RESPONSE #100
+		CreateCreature("BEARPO",[406.415],0)  // Mountain Bear
+		SetGlobal("A6WaylaidSpawn","AR4801",1)
+END
+

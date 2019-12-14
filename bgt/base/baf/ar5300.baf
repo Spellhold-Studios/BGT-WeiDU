@@ -1,0 +1,11 @@
+IF
+	Global("A6WaylaidSpawn","AR5300",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ETTERC",[710.478],0)  // Ettercap
+		CreateCreature("ETTERC",[569.592],0)  // Ettercap
+		CreateCreature("ETTERC",[884.525],0)  // Ettercap
+		CreateCreature("ETTERC",[824.684],0)  // Ettercap
+		SetGlobal("A6WaylaidSpawn","AR5300",1)
+END
+

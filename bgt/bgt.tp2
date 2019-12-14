@@ -19,9 +19,9 @@
 
 BACKUP ~bgt/backup~
 
-AUTHOR ~http://forums.spellholdstudios.net/index.php?showforum=261~
+SUPPORT ~http://www.shsforums.net/forum/261-bgt-weidu/~
 
-VERSION ~1.20 (20 Feb 19)~
+VERSION ~v1.21~
 
 README ~bgt/help/[%LANGUAGE%]bgtreadme.htm~ ~bgt/help/[english]bgtreadme.htm~
 
@@ -2140,6 +2140,19 @@ Global("Chapter","GLOBAL",8)~
 
 COPY_EXISTING ~semaj.bcs~ ~override/semaj.bcs~
   DECOMPILE_BCS_TO_BAF
+  REPLACE_TEXTUALLY ~IF[%newline%]*StateCheck(Myself,STATE_SILENCED)~ ~IF
+Global("SemajDim","GLOBAL",0)
+Global("SarevokBehavior","GLOBAL",3)
+THEN
+RESPONSE #100
+ForceSpellPoint([821.966],WIZARD_DIMENSION_DOOR)
+SetGlobal("SemajDim","GLOBAL",1)
+END
+
+IF
+StateCheck(Myself,STATE_SILENCED)~
+  REPLACE_TEXTUALLY ~DisplayString(Myself,24097)[%newline%]*ReallyForceSpell(NearestEnemyOf(Myself),WIZARD_DEATH_SPELL)~ ~~
+  REPLACE_TEXTUALLY ~ReallyForceSpell(\[PC\],WIZARD_FLESH_TO_STONE)~ ~~
   REPLACE ~24097~ @401112
   REPLACE ~24098~ @401113
   REPLACE ~24099~ @401114
@@ -4846,6 +4859,15 @@ COPY_EXISTING + ~poghm9.cre~  ~bg1cre/poghm9.cre~
                 ~poghma7.cre~ ~bg1cre/poghma7.cre~
   SAY 0xa4 #4982
   SAY 0x110 #4982
+COPY_EXISTING + ~ragefa.cre~ ~bg1cre/ragefa.cre~ // different colours
+  WRITE_BYTE 0x2c 25 //metal
+  WRITE_BYTE 0x2d 67 //minor
+  WRITE_BYTE 0x2e 71 //major
+  WRITE_BYTE 0x2f 12 //skin
+  WRITE_BYTE 0x30 58 //leather
+  WRITE_BYTE 0x31 63 //armor
+  WRITE_BYTE 0x32 0 //hair
+  SAY 0xa4 #4788
 COPY_EXISTING + ~rat2.cre~ ~bg1cre/rat2.cre~
   WRITE_BYTE 0x53 0  //number of attacks
   SAY 0xc8 #20285
@@ -6968,6 +6990,17 @@ PRINT ~~
 PRINT @100022
 
 ////////////////////////////////////////////////////////
+//Areas
+////////////////////////////////////////////////////////
+
+// Restore Beregost extended main day ambient
+COPY_EXISTING ~ar6700.are~ ~override~
+  READ_LONG 0xbc sng_off
+  WRITE_ASCII (sng_off + 0x28) ~amb_m14~ #8 // main day ambient 1
+  WRITE_ASCII (sng_off + 0x30) ~amb_m14~ #8 // main day ambient 2
+BUT_ONLY
+
+////////////////////////////////////////////////////////
 //Creatures
 ////////////////////////////////////////////////////////
 
@@ -7102,6 +7135,10 @@ COPY_EXISTING ~aasim.cre~ ~override/aasim.cre~
    END
 BUT_ONLY
 
+COPY_EXISTING ~aldeth.cre~ ~override~
+  WRITE_LONG MORALE 4481 // aldet02 "Come now, old chaps, can't we be friends?"
+BUT_ONLY
+
 COPY_EXISTING ~amaran.cre~ ~override/amaran.cre~
   READ_LONG 0x2bc "it_off"
   READ_LONG 0x2c0 "it_cnt"
@@ -7168,6 +7205,10 @@ COPY_EXISTING ~brage.cre~ ~override/brage.cre~
   END
 BUT_ONLY
 
+COPY_EXISTING ~cadder.cre~ ~override~
+  WRITE_LONG SELECT_ACTION4 4531 // cader07 "One is not forced to walk in the steps of their father."
+BUT_ONLY
+
 COPY_EXISTING ~cander.cre~ ~override/cander.cre~
   ADD_KNOWN_SPELL ~SPPR110~ #0 ~priest~
   WRITE_BYTE 0x54 10
@@ -7217,6 +7258,10 @@ COPY_EXISTING ~dead2.cre~ ~override/dead2.cre~
       WRITE_ASCII ("%it_off%"+0x14*cnt) "SW1H04"
     END
   END
+BUT_ONLY
+
+COPY_EXISTING ~davaeo.cre~ ~override~
+  WRITE_LONG MORALE 4474 // daveo02 "You meddling fools, your victory shall be short lived."
 BUT_ONLY
 
 COPY_EXISTING ~fahrin.cre~ ~override/fahrin.cre~
@@ -7271,6 +7316,8 @@ COPY_EXISTING ~gellan.cre~ ~override/gellan.cre~
   WRITE_BYTE 0x56 12
   WRITE_BYTE 0x57 15
   WRITE_BYTE 0x58 14
+  WRITE_LONG DAMAGE 12453 // gelln03
+  WRITE_LONG DYING  12454 // gelln04
 BUT_ONLY
 
 COPY_EXISTING ~golemf.cre~ ~override/golemf.cre~
@@ -7287,11 +7334,25 @@ BUT_ONLY
 
 COPY_EXISTING ~gorion.cre~ ~override/gorion.cre~
   WRITE_BYTE 0x273 1 //change Class to Mage
+  WRITE_LONG SELECT_COMMON5 "-1"
+  WRITE_LONG SELECT_COMMON6 "-1"
+  WRITE_LONG SELECT_ACTION4 "-1"
+  WRITE_LONG SELECT_ACTION5 "-1"
+  WRITE_LONG SELECT_ACTION6 "-1"
+  WRITE_LONG SELECT_ACTION7 "-1"
 BUT_ONLY
 
 COPY_EXISTING ~gorion3.cre~ ~override/gorion3.cre~
   READ_LONG 0x10 flags
   WRITE_LONG 0x10 (flags & 0b00000100)
+  WRITE_LONG SELECT_COMMON2 "-1"
+  WRITE_LONG SELECT_COMMON3 "-1"
+  WRITE_LONG SELECT_COMMON4 "-1"
+  WRITE_LONG SELECT_COMMON6 "-1"
+BUT_ONLY
+
+COPY_EXISTING ~greywo.cre~ ~override~
+  WRITE_LONG MORALE 4547 // greyw02 "You've not heard the last of this, ye worthless priggers!"
 BUT_ONLY
 
 // fix cloak of the nymph costing 40x its listed price due to being overcharged
@@ -7319,6 +7380,20 @@ BUT_ONLY
 COPY_EXISTING ~hunter.cre~ ~override/hunter.cre~
   SAY NAME1 @500001
   SAY NAME2 @500001
+BUT_ONLY
+
+COPY_EXISTING ~hurgan.cre~ ~override~
+  WRITE_LONG DAMAGE 23860 // hungn_05
+  WRITE_LONG DYING  23861 // hungn_06
+BUT_ONLY
+
+COPY_EXISTING ~husam.cre~  ~override~
+              ~husam2.cre~ ~override~
+  WRITE_LONG MORALE 4560 // husam02 "There are too many, retreat!"
+BUT_ONLY
+
+COPY_EXISTING ~irlent.cre~ ~override~
+  WRITE_LONG SELECT_ACTION4 4712 // irlen02 "I have no wish to speak with you, meat."
 BUT_ONLY
 
 COPY_EXISTING ~iron13.cre~ ~override/iron13.cre~
@@ -7379,6 +7454,10 @@ COPY_EXISTING ~keldda.cre~ ~override/keldda.cre~
   WRITE_BYTE 0x58 9
 BUT_ONLY
 
+COPY_EXISTING ~krysti.cre~ ~override~
+  WRITE_LONG MORALE 4540 // kryst02 "I can't take this, I can't! I'm sorry darling."
+BUT_ONLY
+
 COPY_EXISTING ~leaggu4.cre~ ~override/leaggu4.cre~
   SAY 0xa4 #4964
   SAY 0xec #12566
@@ -7397,8 +7476,23 @@ COPY_EXISTING ~lothan.cre~ ~override/lothan.cre~
   END
 BUT_ONLY
 
+COPY_EXISTING ~mulahe.cre~ ~override~
+  WRITE_LONG MORALE 4456 // mulah02 "I yield, I yield to thee!"
+BUT_ONLY
+
 COPY_EXISTING ~natash.cre~ ~override/natash.cre~
   WRITE_BYTE 0x27b 19 //Alignment
+BUT_ONLY
+
+COPY_EXISTING ~nikola.cre~ ~override~
+  WRITE_LONG SELECT_COMMON1 4898 // mtown02 "Yer a long-tongued lout, ain't ya?"
+  WRITE_LONG SELECT_COMMON2 "-1"
+  WRITE_LONG SELECT_ACTION4 4900 // mtown04 "Wife's been gettin' prickly on my arse."
+  WRITE_LONG SELECT_ACTION5 "-1"
+BUT_ONLY
+
+COPY_EXISTING ~nimbul.cre~ ~override~
+  WRITE_LONG MORALE 4450 // nimbl02 "So be it then. Another day you'll die!"
 BUT_ONLY
 
 COPY_EXISTING ~nobl9.cre~ ~override/nobl9.cre~
@@ -7437,10 +7531,20 @@ BUT_ONLY
 
 COPY_EXISTING ~silke.cre~ ~override/silke.cre~
   WRITE_ASCII 0x248 "" #8 //override script
+  WRITE_LONG SELECT_ACTION4 4697 // silke02 "I am a musician, not a chatter box."
 BUT_ONLY
 
 COPY_EXISTING ~skelets.cre~ ~override/skelets.cre~
   ADD_CRE_ITEM ~RING99~ #0 #0 #0 ~UNSTEALABLE&UNDROPPABLE~ ~LRING~
+BUT_ONLY
+
+COPY_EXISTING ~slythe.cre~ ~override~
+  WRITE_LONG MORALE 4533 // slyth02 "It looks like tough times for us honey."
+BUT_ONLY
+
+COPY_EXISTING ~surgeo.cre~ ~override~
+  SAY DAMAGE ~~ [surgn03]
+  SAY DYING  ~~ [surgn04]
 BUT_ONLY
 
 COPY_EXISTING ~taerom.cre~ ~override/taerom.cre~
@@ -7482,6 +7586,7 @@ BUT_ONLY
 
 COPY_EXISTING ~volo.cre~ ~override/volo.cre~
   WRITE_BYTE 0x27b 49 //Alignment
+  WRITE_LONG MORALE 4520 // volo02 "This is not my day at all!"
 BUT_ONLY
 
 COPY_EXISTING ~voltin.cre~ ~override/voltin.cre~
@@ -7491,6 +7596,12 @@ BUT_ONLY
 
 COPY_EXISTING ~vayya.cre~ ~override/vayya.cre~
   WRITE_BYTE 0x275 0x02 //Gender flag
+BUT_ONLY
+
+COPY_EXISTING ~watch.cre~  ~override~
+              ~watch2.cre~ ~override~
+  WRITE_LONG SELECT_ACTION4 4965 // guarr03 "Today I saw a girl with the biggest pair of diddeys I've ever seen."
+  WRITE_LONG SELECT_ACTION5 4966 // guarr04 "I could take Drizzt wit both my arms tied behind my back."
 BUT_ONLY
 
 //alsao prevents talking if BP installed
@@ -7772,6 +7883,12 @@ Dialogue([PC])
 EndCutSceneMoxde()~
   REPLACE_TEXTUALLY ~EndCutSceneMoxde()~ ~EndCutSceneMode()~
   
+  COMPILE_BAF_TO_BCS
+
+// Fix closing the barracks door by the patrolling Watcher in Candlekeep
+COPY_EXISTING ~watch3.bcs~ ~override~
+  DECOMPILE_BCS_TO_BAF
+  REPLACE_TEXTUALLY ~MoveToPoint(\[1572\.2453\])~ ~MoveToPoint([1581.2440])~
   COMPILE_BAF_TO_BCS
 
 COMPILE ~bgt/fixpack/trapdis.baf~
@@ -8220,6 +8337,22 @@ COPY ~override/wolfwegr.cre~ ~override/bgwowegr.cre~
 COPY_EXISTING ~spwi946.spl~ ~override/spwi946.spl~
   REPLACE_TEXTUALLY ~WOLFWEGR~ ~BGWOWEGR~
 
+////////////////////////////////////////////////////////
+//Sounds
+////////////////////////////////////////////////////////
+
+// Fix Cadderly's dying sound
+COPY ~bgt/fixpack/cader09.wav~ ~override~
+
+// Amplify Tranzig's voice
+ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) ||
+          (~%LANGUAGE%~ STR_EQ ~international~) BEGIN
+  COPY ~bgt/fixpack/tranz01.wav~ ~override~
+       ~bgt/fixpack/tranz02.wav~ ~override~
+       ~bgt/fixpack/tranz03.wav~ ~override~
+       ~bgt/fixpack/tranz04.wav~ ~override~
+END
+
 ///////////////////////////////////////////////////////
 // GUI Switcher v2.0
 ///////////////////////////////////////////////////////
@@ -8228,7 +8361,7 @@ PRINT ~~
 PRINT @100004
 
 <<<<<<<<bgt/new_gui_switcher.tp2
-BACKUP ~GUI_Mods/Backup~
+BACKUP ~gui_mods/backup~
 AUTHOR ~King Diamond~ //non-windows version by Turambar.~
 
 LANGUAGE ~English~
@@ -8266,7 +8399,7 @@ LANGUAGE ~¬eçka (Czech)~
          ~bgt/language/czech/prompts.tra~
 >>>>>>>>
 
-<<<<<<<<bgt/GUI_Mods.2DA
+<<<<<<<<bgt/gui_mods.2da
 NEXT_AVAILABLE_MOD_SLOT      1
 CURRENT_ACTIVE_MOD_GUI       0
 RESERVED2                    -1
@@ -8284,10 +8417,10 @@ RESERVED9                    -1
 BEGIN @100025
 SUBCOMPONENT @100024
 
-COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+COPY_EXISTING ~gui_mods/gui_mods.2da~ ~gui_mods~
 SET_2DA_ENTRY  1 1 2    0   //CURRENT_ACTIVE_MOD_GUI
 ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
-  AT_EXIT ~Setup-GUI.exe --noautoupdate --skip-at-view --uninstall~ //This was not Unix-friendy
+  AT_EXIT ~setup-gui.exe --noautoupdate --skip-at-view --uninstall~ //This was not Unix-friendy
 END ELSE BEGIN
   AT_EXIT ~"%WEIDU_EXECUTABLE%" setup-gui.tp2 --noautoupdate --no-auto-tp2 --autolog --logapp --skip-at-view --uninstall~
 END
@@ -8299,9 +8432,9 @@ END
 BEGIN @100026
 SUBCOMPONENT @100024
 
-COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+COPY_EXISTING ~gui_mods/gui_mods.2da~ ~gui_mods~
 SET_2DA_ENTRY  1 1 2   "%gui_slot_name%"  //CURRENT_ACTIVE_MOD_GUI
-COPY ~GUI_Mods/%gui_slot_name%~  ~override~
+COPY ~gui_mods/%gui_slot_name%~  ~override~
 
 >>>>>>>>
 
@@ -8310,9 +8443,9 @@ COPY ~GUI_Mods/%gui_slot_name%~  ~override~
 BEGIN @100027
 SUBCOMPONENT @100024
 
-COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+COPY_EXISTING ~gui_mods/gui_mods.2da~ ~gui_mods~
 SET_2DA_ENTRY  1 1 2   "%gui_slot_name%"  //CURRENT_ACTIVE_MOD_GUI
-COPY ~GUI_Mods/%gui_slot_name%~  ~override~
+COPY ~gui_mods/%gui_slot_name%~  ~override~
 >>>>>>>>
 
 DEFINE_ACTION_FUNCTION copy_missing STR_VAR origin=~~ destination=~~ BEGIN
@@ -8324,7 +8457,7 @@ END
 //this block goes outside the IF because it must also solve problems of GUIs already installed but for Windows only.
 ACTION_MATCH ~%WEIDU_OS%~ WITH
   ~win32~ BEGIN
-    LAF copy_missing STR_VAR origin=~Setup-BGT.exe~ destination=~Setup-GUI.exe~ END
+    LAF copy_missing STR_VAR origin=~Setup-BGT.exe~ destination=~setup-gui.exe~ END
   END
   ~unix~ BEGIN //if the user is using setup-bgt, create a similar file for the GUI installer
     ACTION_IF FILE_EXISTS ~setup-bgt~ BEGIN
@@ -8340,20 +8473,20 @@ DEFAULT //should never trigger
   WARN ~OS was not correctly detected. You might experience problems with the GUI mod.~
 END
 
-ACTION_IF NOT FILE_EXISTS ~GUI_Mods/GUI_Mods.2DA~
+ACTION_IF NOT FILE_EXISTS ~gui_mods/gui_mods.2da~
 THEN BEGIN
-  MKDIR ~GUI_Mods~
+  MKDIR ~gui_mods~
 
-  COPY ~bgt/GUI_Mods.2DA~ ~GUI_Mods/GUI_Mods.2DA~
+  COPY ~bgt/gui_mods.2da~ ~gui_mods/gui_mods.2da~
 
-  COPY ~bgt/new_gui_switcher.tp2~ ~Setup-GUI.tp2~
+  COPY ~bgt/new_gui_switcher.tp2~ ~setup-gui.tp2~
    APPEND_FILE ~bgt/orig_gui.tp2~
 END
 ELSE BEGIN
-  COPY ~Setup-GUI.tp2~ ~Setup-GUI.tp2~ //linux and OSX compatibility
-    REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH "AT_EXIT ~Setup-GUI.exe --uninstall~"
+  COPY ~setup-gui.tp2~ ~setup-gui.tp2~ //linux and OSX compatibility
+    REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH "AT_EXIT ~setup-gui.exe --uninstall~"
 ~~~~~ACTION_IF ~#%#WEIDU_OS#%#~ STRING_EQUAL_CASE ~win32~ BEGIN
-  AT_EXIT ~Setup-GUI.exe --noautoupdate --skip-at-view --uninstall~
+  AT_EXIT ~setup-gui.exe --noautoupdate --skip-at-view --uninstall~
 END ELSE BEGIN
   AT_EXIT ~"#%#WEIDU_EXECUTABLE#%#" setup-gui.tp2 --noautoupdate --no-auto-tp2 --autolog --logapp --skip-at-view --uninstall~
 END~~~~~
@@ -8361,9 +8494,9 @@ END~~~~~
     REPLACE_TEXTUALLY CASE_SENSITIVE EVALUATE_REGEXP "AUTHOR ~\([^~]*\)~" "AUTHOR ~\1 - non-windows version by Turambar.~"
   UNLESS ~WEIDU_OS~ //already OS-sensitive
 // remove following 2 /* */ comments to revert to original behaviour
-/*  ACTION_IF NOT FILE_CONTAINS ~Setup-GUI.tp2~ ~LANGUAGE~
+/*  ACTION_IF NOT FILE_CONTAINS ~setup-gui.tp2~ ~LANGUAGE~
   THEN BEGIN*/
-    COPY ~Setup-GUI.tp2~ ~Setup-GUI.tp2~
+    COPY ~setup-gui.tp2~ ~setup-gui.tp2~
       REPLACE_TEXTUALLY CASE_SENSITIVE EVALUATE_REGEXP ~SUBCOMPONENT.*~ ~SUBCOMPONENT @100024~
       REPLACE_TEXTUALLY "AUTHOR ~\([^~]*\)~"
       "AUTHOR ~\1~
@@ -8404,34 +8537,34 @@ LANGUAGE ~¬eçka (Czech)~
       UNLESS ~LANGUAGE~
 
     OUTER_SET active_gui=0
-    COPY_EXISTING - ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+    COPY_EXISTING - ~gui_mods/gui_mods.2da~ ~gui_mods~
     READ_2DA_ENTRY 1 1 2 "active_gui"   //CURRENT_ACTIVE_MOD_GUI
 
   ACTION_IF ("%active_gui%">0) THEN BEGIN
-    UNINSTALL ~Setup-GUI.tp2~ ~%active_gui%~
+    UNINSTALL ~setup-gui.tp2~ ~%active_gui%~
   END
 END
 
-COPY_EXISTING ~GUI_Mods/GUI_Mods.2DA~ ~GUI_Mods~
+COPY_EXISTING ~gui_mods/gui_mods.2da~ ~gui_mods~
   READ_2DA_ENTRY 0 1 2 gui_slot_name
   SET_2DA_ENTRY  0 1 2 gui_slot_name+2  //NEXT_AVAILABLE_MOD_SLOT
 
-MKDIR ~GUI_Mods/%gui_slot_name%~
+MKDIR ~gui_mods/%gui_slot_name%~
 
-COPY_EXISTING ~Setup-GUI.tp2~ ~Setup-GUI.tp2~
+COPY_EXISTING ~setup-gui.tp2~ ~setup-gui.tp2~
   APPEND_FILE_EVALUATE ~bgt/mod_gui1.tp2~
 
-COPY ~bgt/bgt_menu/common~       ~GUI_Mods/%gui_slot_name%~
-COPY ~bgt/bgt_menu/startold.mos~ ~GUI_Mods/%gui_slot_name%~
+COPY ~bgt/bgt_menu/common~       ~gui_mods/%gui_slot_name%~
+COPY ~bgt/bgt_menu/startold.mos~ ~gui_mods/%gui_slot_name%~
 
 OUTER_SET gui_slot_name = gui_slot_name + 1
 
-MKDIR ~GUI_Mods/%gui_slot_name%~
+MKDIR ~gui_mods/%gui_slot_name%~
 
-COPY_EXISTING ~Setup-GUI.tp2~ ~Setup-GUI.tp2~
+COPY_EXISTING ~setup-gui.tp2~ ~setup-gui.tp2~
   APPEND_FILE_EVALUATE ~bgt/mod_gui2.tp2~
-COPY ~bgt/bgt_menu/common~       ~GUI_Mods/%gui_slot_name%~
-COPY ~bgt/bgt_menu/startold_alternate.mos~ ~GUI_Mods/%gui_slot_name%/startold.mos~
+COPY ~bgt/bgt_menu/common~       ~gui_mods/%gui_slot_name%~
+COPY ~bgt/bgt_menu/startold_alternate.mos~ ~gui_mods/%gui_slot_name%/startold.mos~
 
 ///////////////////////////////////////////////////////
 // Music

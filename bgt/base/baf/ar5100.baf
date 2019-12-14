@@ -1,0 +1,125 @@
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(MIDNIGHT)
+	TimeLT(3)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLD",[469.735],0)  // Kobold
+		CreateCreature("KOBOLD",[620.731],0)  // Kobold
+		CreateCreature("KOBOLD",[501.366],0)  // Kobold
+		CreateCreature("KOBOLD",[729.384],0)  // Kobold
+		CreateCreature("KOBOLDA",[937.673],0)  // Kobold
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(2)
+	TimeLT(5)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBGOB",[302.672],0)  // Hobgoblin
+		CreateCreature("HOBGOB",[429.431],0)  // Hobgoblin
+		CreateCreature("HOBGOB",[784.432],0)  // Hobgoblin
+		CreateCreature("HOBGOB",[953.533],0)  // Hobgoblin
+		CreateCreature("HOBGOB",[761.749],0)  // Hobgoblin
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(4)
+	TimeLT(DAWN_START)
+THEN
+	RESPONSE #100
+		CreateCreature("BGWOLF",[628.346],0)  // Wolf
+		CreateCreature("BGWOLF",[554.355],0)  // Wolf
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(DAWN_START)
+	TimeLT(13)
+THEN
+	RESPONSE #100
+		CreateCreature("DOGWI",[382.656],0)  // Wild Dog
+		CreateCreature("DOGWI",[468.374],0)  // Wild Dog
+		CreateCreature("DOGWI",[662.342],0)  // Wild Dog
+		CreateCreature("DOGWI",[898.561],0)  // Wild Dog
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(NOON)
+	TimeLT(15)
+THEN
+	RESPONSE #100
+		CreateCreature("GIBBER",[883.425],0)  // Gibberling
+		CreateCreature("GIBBER",[955.576],0)  // Gibberling
+		CreateCreature("GIBBER",[379.504],0)  // Gibberling
+		CreateCreature("GIBBER",[373.737],0)  // Gibberling
+		CreateCreature("GIBBER",[870.731],0)  // Gibberling
+		CreateCreature("GIBBER",[589.307],0)  // Gibberling
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(14)
+	TimeLT(17)
+THEN
+	RESPONSE #100
+		CreateCreature("OGREHA",[342.457],0)  // Half Ogre
+		CreateCreature("OGREHA",[871.685],0)  // Half Ogre
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(16)
+	TimeLT(19)
+THEN
+	RESPONSE #100
+		CreateCreature("WORG",[525.718],0)  // Worg
+		CreateCreature("WORG",[683.383],0)  // Worg
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(18)
+	TimeLT(DUSK_START)
+THEN
+	RESPONSE #100
+		CreateCreature("SKELET_A",[514.310],0)  // Skeleton
+		CreateCreature("SKELET_B",[747.338],0)  // Skeleton
+		CreateCreature("SKELET_C",[301.505],0)  // Skeleton
+		CreateCreature("SKELET_A",[431.687],0)  // Skeleton
+		CreateCreature("SKELET_B",[668.721],0)  // Skeleton
+		CreateCreature("SKELET_C",[911.628],0)  // Skeleton
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	TimeGT(20)
+	TimeLT(23)
+THEN
+	RESPONSE #100
+		CreateCreature("GHOUL",[387.324],0)  // Ghoul
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5100",0)
+	OR(2)
+		Time(23)
+		Time(MIDNIGHT)
+THEN
+	RESPONSE #100
+		CreateCreature("GHAST",[762.667],0)  // Ghast
+		SetGlobal("A6WaylaidSpawn","AR5100",1)
+END
+

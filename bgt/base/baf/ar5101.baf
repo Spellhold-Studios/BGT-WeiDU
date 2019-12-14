@@ -1,0 +1,106 @@
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	TimeGT(MIDNIGHT)
+	TimeLT(3)
+THEN
+	RESPONSE #100
+		CreateCreature("WOLFDR",[829.663],0)  // Dread Wolf
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	OR(4)
+		Time(3)
+		Time(4)
+		Time(17)
+		Time(18)
+THEN
+	RESPONSE #100
+		CreateCreature("ANKHEG",[394.703],0)  // Ankheg
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	TimeGT(4)
+	TimeLT(DAWN_END)
+THEN
+	RESPONSE #100
+		CreateCreature("GHAST",[383.685],0)  // Ghast
+		CreateCreature("GHAST",[914.604],0)  // Ghast
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	OR(4)
+		Time(DAWN_END)
+		Time(8)
+		Time(19)
+		Time(20)
+THEN
+	RESPONSE #100
+		CreateCreature("OGRE",[370.274],0)  // Ogre
+		CreateCreature("OGRE",[754.743],0)  // Ogre
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	TimeGT(8)
+	TimeLT(11)
+THEN
+	RESPONSE #100
+		CreateCreature("OGREGR",[817.257],0)  // Ogrillon
+		CreateCreature("OGREGR",[325.469],0)  // Ogrillon
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	TimeGT(10)
+	TimeLT(13)
+THEN
+	RESPONSE #100
+		CreateCreature("BGBASILL",[547.710],0)  // Lesser Basilisk
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	TimeGT(NOON)
+	TimeLT(15)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBGOBA",[575.260],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[371.575],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[451.714],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[646.733],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[960.545],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[945.395],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[840.335],0)  // Hobgoblin
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	TimeGT(14)
+	TimeLT(17)
+THEN
+	RESPONSE #100
+		CreateCreature("OGREMA",[404.468],0)  // Ogre Mage
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5101",0)
+	OR(2)
+		TimeGT(20)
+		Time(MIDNIGHT)
+THEN
+	RESPONSE #100
+		CreateCreature("WOLFVA",[444.272],0)  // Vampiric Wolf
+		SetGlobal("A6WaylaidSpawn","AR5101",1)
+END
+

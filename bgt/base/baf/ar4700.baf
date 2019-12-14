@@ -1,0 +1,122 @@
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	OR(4)
+		Time(1)
+		Time(2)
+		Time(13)
+		Time(14)
+THEN
+	RESPONSE #100
+		CreateCreature("HOBGOBA",[495.310],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[779.308],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[340.528],0)  // Hobgoblin
+		CreateCreature("HOBGOBA",[939.563],0)  // Hobgoblin
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	OR(4)
+		Time(3)
+		Time(4)
+		Time(15)
+		Time(16)
+THEN
+	RESPONSE #100
+		CreateCreature("KOBOLDA",[385.391],0)  // Kobold
+		CreateCreature("KOBOLDA",[472.673],0)  // Kobold
+		CreateCreature("KOBOLDA",[651.271],0)  // Kobold
+		CreateCreature("KOBOLDA",[894.392],0)  // Kobold
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	TimeGT(4)
+	TimeLT(DAWN_END)
+THEN
+	RESPONSE #100
+		CreateCreature("BGBASILL",[566.234],0)  // Lesser Basilisk
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	TimeGT(DAWN_START)
+	TimeLT(9)
+THEN
+	RESPONSE #100
+		CreateCreature("BGWOLF",[422.315],0)  // Wolf
+		CreateCreature("BGWOLF",[414.602],0)  // Wolf
+		CreateCreature("BGWOLF",[876.318],0)  // Wolf
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	TimeGT(8)
+	TimeLT(11)
+THEN
+	RESPONSE #100
+		CreateCreature("WOLFDI",[718.246],0)  // Dire Wolf
+		CreateCreature("WOLFDI",[929.474],0)  // Dire Wolf
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	TimeGT(10)
+	TimeLT(13)
+THEN
+	RESPONSE #100
+		CreateCreature("WORG",[954.625],0)  // Worg
+		CreateCreature("WORG",[348.448],0)  // Worg
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	TimeGT(16)
+	TimeLT(DUSK_START)
+THEN
+	RESPONSE #100
+		CreateCreature("GIBBER",[441.240],0)  // Gibberling
+		CreateCreature("GIBBER",[332.307],0)  // Gibberling
+		CreateCreature("GIBBER",[345.619],0)  // Gibberling
+		CreateCreature("GIBBER",[428.696],0)  // Gibberling
+		CreateCreature("GIBBER",[761.741],0)  // Gibberling
+		CreateCreature("GIBBER",[918.717],0)  // Gibberling
+		CreateCreature("GIBBER",[802.222],0)  // Gibberling
+		CreateCreature("GIBBER",[962.322],0)  // Gibberling
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	TimeGT(20)
+	TimeLT(23)
+THEN
+	RESPONSE #100
+		CreateCreature("XVART",[879.265],0)  // Xvart
+		CreateCreature("XVART",[372.259],0)  // Xvart
+		CreateCreature("XVART",[509.731],0)  // Xvart
+		CreateCreature("XVART",[967.708],0)  // Xvart
+		CreateCreature("XVART",[341.697],0)  // Xvart
+		CreateCreature("XVART",[950.426],0)  // Xvart
+		CreateCreature("XVART",[317.388],0)  // Xvart
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4700",0)
+	OR(2)
+		Time(23)
+		Time(MIDNIGHT)
+THEN
+	RESPONSE #100
+		CreateCreature("GNOLL",[661.201],0)  // Gnoll
+		CreateCreature("GNOLL",[477.220],0)  // Gnoll
+		CreateCreature("GNOLL",[858.756],0)  // Gnoll
+		SetGlobal("A6WaylaidSpawn","AR4700",1)
+END
+

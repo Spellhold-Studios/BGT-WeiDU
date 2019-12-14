@@ -1,0 +1,110 @@
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(MIDNIGHT)
+	TimeLT(3)
+THEN
+	RESPONSE #100
+		CreateCreature("WOLFDR",[845.300],0)  // Dread Wolf
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(2)
+	TimeLT(5)
+THEN
+	RESPONSE #100
+		CreateCreature("WOLFVA",[987.592],0)  // Vampiric Wolf
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(4)
+	TimeLT(DAWN_END)
+THEN
+	RESPONSE #100
+		CreateCreature("BASILG",[641.255],0)  // Greater Basilisk
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	OR(4)
+		Time(DAWN_END)
+		Time(8)
+		Time(23)
+		Time(MIDNIGHT)
+THEN
+	RESPONSE #100
+		CreateCreature("OGRE",[334.400],0)  // Ogre
+		CreateCreature("OGRE",[946.763],0)  // Ogre
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(8)
+	TimeLT(11)
+THEN
+	RESPONSE #100
+		CreateCreature("OGREGR",[770.301],0)  // Ogrillon
+		CreateCreature("OGREGR",[334.758],0)  // Ogrillon
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(10)
+	TimeLT(13)
+THEN
+	RESPONSE #100
+		CreateCreature("OGREHA",[324.530],0)  // Half Ogre
+		CreateCreature("OGREHA",[606.788],0)  // Half Ogre
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(NOON)
+	TimeLT(15)
+THEN
+	RESPONSE #100
+		CreateCreature("OGREMA",[404.596],0)  // Ogre Mage
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(14)
+	TimeLT(17)
+THEN
+	RESPONSE #100
+		CreateCreature("ANKHEG",[709.819],0)  // Ankheg
+		CreateCreature("ANKHEG",[549.282],0)  // Ankheg
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(16)
+	TimeLT(DUSK_START)
+THEN
+	RESPONSE #100
+		CreateCreature("WYVERN",[404.340],0)  // Wyvern
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4701",0)
+	TimeGT(20)
+	TimeLT(23)
+THEN
+	RESPONSE #100
+		CreateCreature("GHAST",[816.742],0)  // Ghast
+		CreateCreature("GHOUL",[923.255],0)  // Ghoul
+		CreateCreature("GHOUL",[533.279],0)  // Ghoul
+		CreateCreature("GHOUL",[346.625],0)  // Ghoul
+		SetGlobal("A6WaylaidSpawn","AR4701",1)
+END
+

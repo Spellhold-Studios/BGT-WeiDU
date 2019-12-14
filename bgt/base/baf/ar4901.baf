@@ -1,0 +1,84 @@
+IF
+	Global("A6WaylaidSpawn","AR4901",0)
+	OR(4)
+		Time(1)
+		Time(2)
+		Time(17)
+		Time(18)
+THEN
+	RESPONSE #100
+		CreateCreature("WOLFDR",[896.73],0)  // Dread Wolf
+		SetGlobal("A6WaylaidSpawn","AR4901",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4901",0)
+	TimeGT(2)
+	TimeLT(4)
+THEN
+	RESPONSE #100
+		CreateCreature("JELLMU",[851.122],0)  // Mustard Jelly
+		SetGlobal("A6WaylaidSpawn","AR4901",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4901",0)
+	TimeGT(4)
+	TimeLT(9)
+THEN
+	RESPONSE #100
+		CreateCreature("JELLOC",[990.105],0)  // Ochre Jelly
+		SetGlobal("A6WaylaidSpawn","AR4901",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4901",0)
+	OR(4)
+		Time(9)
+		Time(10)
+		Time(19)
+		Time(20)
+THEN
+	RESPONSE #100
+		CreateCreature("OGRE",[539.100],0)  // Ogre
+		CreateCreature("OGRE",[1105.81],0)  // Ogre
+		SetGlobal("A6WaylaidSpawn","AR4901",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4901",0)
+	TimeGT(10)
+	TimeLT(15)
+THEN
+	RESPONSE #100
+		CreateCreature("CARRIO",[741.140],0)  // Carrion Crawler
+		SetGlobal("A6WaylaidSpawn","AR4901",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4901",0)
+	TimeGT(14)
+	TimeLT(17)
+THEN
+	RESPONSE #100
+		CreateCreature("GNOLL",[814.202],0)  // Gnoll
+		CreateCreature("GNOLL",[899.226],0)  // Gnoll
+		CreateCreature("GNOLL",[714.262],0)  // Gnoll
+		CreateCreature("GNOLL",[570.198],0)  // Gnoll
+		CreateCreature("GNOLL",[1086.201],0)  // Gnoll
+		CreateCreature("GNOLL",[483.223],0)  // Gnoll
+		SetGlobal("A6WaylaidSpawn","AR4901",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR4901",0)
+	OR(2)
+		TimeGT(20)
+		Time(MIDNIGHT)
+THEN
+	RESPONSE #100
+		CreateCreature("GHAST",[980.249],0)  // Ghast
+		CreateCreature("GHAST",[630.244],0)  // Ghast
+		SetGlobal("A6WaylaidSpawn","AR4901",1)
+END
+

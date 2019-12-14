@@ -1,0 +1,29 @@
+IF
+	Global("A6WaylaidSpawn","AR5301",0)
+	OR(7)
+		Time(MIDNIGHT)
+		Time(1)
+		Time(2)
+		Time(3)
+		Time(4)
+		Time(5)
+		TimeGT(17)
+THEN
+	RESPONSE #100
+		CreateCreature("WYVERN",[788.596],0)  // Wyvern
+		CreateCreature("WYVERN",[404.340],0)  // Wyvern
+		SetGlobal("A6WaylaidSpawn","AR5301",1)
+END
+
+IF
+	Global("A6WaylaidSpawn","AR5301",0)
+	TimeGT(5)
+	TimeLT(18)
+THEN
+	RESPONSE #100
+		CreateCreature("SPIDGI",[592.413],0)  // Giant Spider
+		CreateCreature("SPIDGI",[957.460],0)  // Giant Spider
+		CreateCreature("SPIDGI",[720.771],0)  // Giant Spider
+		SetGlobal("A6WaylaidSpawn","AR5301",1)
+END
+

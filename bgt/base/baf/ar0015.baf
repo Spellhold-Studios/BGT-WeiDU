@@ -93,6 +93,7 @@ IF
     OnCreation()
 THEN
     RESPONSE #100
+        StartTimer(3,30)
         SetGlobalTimer("Tethtoril","GLOBAL",60)
         MoveViewObject(Player1,INSTANT)
         Continue()
