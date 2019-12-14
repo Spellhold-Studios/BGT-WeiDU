@@ -33,7 +33,7 @@ Temporary Items
 __macosx
 
 $RECYCLE.BIN/
-#[Bb]ackup/
+[Bb]ackup/
 [Rr]elease/
 [Tt]emp/
 [Tt]mp/
