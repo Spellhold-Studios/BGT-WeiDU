@@ -4,37 +4,35 @@
 @200000 = ~Pos¹¿ek Ithmeery~
 
 //@23967 - change Blunt Weapons to Mace
-@200001 = ~Wekiera +2: Krotana Rozbijacz G³ów
-
+@200001 = ~Wekiera +2: 'Krotana Rozbijacz G³ów'
 Nawet dzikie hordy maj¹ swoich bohaterów i nawet jeœli w cywilizowanym towarzystwie mówi siê o nich jako o ³otrach, to jednak ich czyny bywaj¹ niekiedy imponuj¹ce. Krotan by³ wyj¹tkowo inteligentnym orkiem, wed³ug orczej miary oczywiœcie, który w Roku Zaginionej Damy, 1241 KD, dowodzi³ ci¹gle zmieniaj¹cym rozmiary legionem ogrów, orków, hobgoblinów i tym podobnych bestii. W tym w³aœnie roku grupa orczych bandytów przypuszczalnie porwa³a i zabi³a tethyriañsk¹ szlachciankê. Odpowiedzi¹ w³adz Tethyru by³a straszliwa rzeŸ orków na ca³ym po³udniu, zorganizowana dla uczczenia pamiêci tej kobiety. Krotan zorganizowa³ obronê, dziêki której jego lud, jakkolwiek wygnany, nie zosta³ wybity do ostatniego. Sam Krotan pad³ pod koniec tego konfliktu, a jego g³owa zosta³a osadzona na palu przy cmentarzu, na którym pochowano m³od¹ szlachciankê. Ciekawostk¹ jest, ¿e orki nazywaj¹ ten okres "Rokiem Przeci¹gniêcia Struny".
 
 PARAMETRY:
 
-Obra¿enia: 1k6 +3
-Trak0: +2
+Obra¿enia: 1K6 +3
+TraK0: +2
 Typ obra¿eñ: obuchowe
 Waga: 7
 OpóŸnienie: 5
-Rodzaj bieg³oœci: Wekiera
-Typ broni: jednorêczna
+Rodzaj bieg³oœci: wekiera
+Typ broni: 1-rêczna
 Nie mo¿e u¿ywaæ:
  Druid
  Mag
  Z³odziej~
 
 //@7350 - change Bow Weapons to Long Bow
-@200002 = ~D³ugi £uk Celnoœci: Zabójczy Strza³
-
+@200002 = ~D³ugi ³uk celnoœci: 'Zabójczy Strza³'
 Po latach rywalizacji ksi¹¿êta Spandeliyon i Delthuntle zdecydowali siê zorganizowaæ ma³y turniej i rozs¹dziæ, który z nich jest lepszym ³ucznikiem. Obaj chwalili siê potêg¹ swych magicznych ³uków, ale to nie wystarcza³o Edwallowi Dest, ksiêciu Spandeliyon. Zorganizowa³ kradzie¿ broni przeciwnika i w dniu turnieju nie móg³ nie puszyæ siê ze swej przewagi. Ksi¹¿ê Delthuntle - znany jako Rajmond - poprosi³ Edwalla, by pokaza³ co potrafi strzelaj¹c do stracha na wróble. Dest napi¹³ d³ugi ³uk i wypuœci³ strza³ê z wielk¹ determinacj¹, nie zastanawiaj¹c siê nad tym, ¿e strach na wróble niezwykle go przypomina. Grot rozci¹³ na dwie po³ówki g³owê wielkiej lalki voodoo i w tej samej chwili g³owa Edwalla równie¿ siê rozpêk³a.
 
 PARAMETRY:
 
 Obra¿enia: +3
-Trak0: +2
+TraK0: +2
 Waga: 2
 OpóŸnienie: 5
-Rodzaj bieg³oœci: D³ugi ³uk
-Typ broni: dwurêczna
+Rodzaj bieg³oœci: d³ugi ³uk
+Typ broni: 2-rêczna
 Nie mo¿e u¿ywaæ:
  Druid
  Kap³an
@@ -42,8 +40,7 @@ Nie mo¿e u¿ywaæ:
  Z³odziej~
 
 //@7351 = change Bow Weapons to Short Bow
-@200003 = ~£uk Or³ów
-Krótki ³uk Or³ów: 'Obroñca Driad'
+@200003 = ~Krótki ³uk Or³ów: 'Obroñca Driad'
 Driady z lasu Gulthmere, pragn¹c obroniæ sw¹ spo³ecznoœæ przed wdzieraj¹cymi siê na ich tereny orkami wycinaj¹cymi drzewa, podarowa³y ten wspania³y ³uk herosowi Hannable'owi Bia³emu. Drwale oœmielili siê œci¹æ wielki d¹b, przy okazji niemal zabijaj¹c mieszkaj¹c¹ w nim driadê; po tym czynie rozgorza³o straszliwe starcie. Z pomoc¹ ¿yj¹cych w lesie zwierz¹t Hannable zabi³ wszystkich bandytów zanim zdo³ali oni wyrz¹dziæ wiêcej szkód. Orki musia³y porzuciæ swój plan, obawiaj¹c siê gniewu lasu i chroni¹cego go herosa. Nie trzeba chyba wspominaæ o tym, ¿e po tym wszystkim Hannable ¿y³ d³ugo i szczêœliwie... nie, BARDZO szczêœliwie!
 
 PARAMETRY:
@@ -52,7 +49,7 @@ Obra¿enia: +2
 TraK0: +2
 Waga: 2
 OpóŸnienie: 4
-Rodzaj bieg³oœci: Krótki ³uk
+Rodzaj bieg³oœci: krótki ³uk
 Typ broni: 2-rêczna
 Nie mo¿e u¿ywaæ:
  Druid
@@ -60,36 +57,34 @@ Nie mo¿e u¿ywaæ:
  Mag~
 
 //@20885 - change Small Sword to Dagger
-@200004 = ~Srebrny Sztylet: Zguba Likantropów
-
+@200004 = ~Srebrny Sztylet: 'Zguba Likantropów'
 Ten sztylet +1 daje premiê +4, gdy jest u¿yty przeciwko likantropom. Wyku³a go elfia ³owczyni Dynala Z³otorêka, która chcia³a wybawiæ swoj¹ ojczyznê od szakalo³aków. Zosta³a zabita przez plemiê orków w Szarych Szczytach, gdy tropi³a przywódcê szakalo³aków.
 
 PARAMETRY:
 
-Obra¿enia: 1k4+1 (+4 przeciw likantropom)
-Trak0: +1 (+4 przeciw likantropom)
+Obra¿enia: 1K4 +1, +4 przeciw likantropom
+TraK0: +1, +4 przeciw likantropom
 Typ obra¿eñ: k³ute
 Waga: 1
 OpóŸnienie: 2
-Rodzaj bieg³oœci: Sztylet
-Typ broni: jednorêczna
+Rodzaj bieg³oœci: sztylet
+Typ broni: 1-rêczna
 Nie mo¿e u¿ywaæ:
  Kap³an~
 
 //@20882 - change Long Sword to Bastard Sword
-@200005 = ~Miecz Baldurana. 
-
+@200005 = ~Miecz Baldurana
 Ten bogato zdobiony, ale s³abo wywa¿ony miecz znaleziono na wraku statku Baldurana. Z³ota broñ nie jest zbyt u¿yteczna w zwyk³ej walce, ale legendy twierdz¹, ¿e tylko orê¿ wykuty ze z³ota mo¿e zraniæ tak straszliwe istoty, jak Loup Garou.
 
 PARAMETRY:
 
-Obra¿enia: 2k4, +4 przeciw likantropom
-Trak0: +4 przeciw likantropom
+Obra¿enia: 2K4, +4 przeciw likantropom
+TraK0: +4 przeciw likantropom
 Typ obra¿eñ: sieczne
 Waga: 12
 OpóŸnienie: 7
-Rodzaj bieg³oœci: Miecz pó³torarêczny
-Typ broni: jednorêczna
+Rodzaj bieg³oœci: miecz pó³torarêczny
+Typ broni: 1-rêczna
 Nie mo¿e u¿ywaæ:
  Druid
  Kap³an
@@ -97,18 +92,18 @@ Nie mo¿e u¿ywaæ:
  Z³odziej~
 
 //@23965 - change Large Sword to Two Handed Sword
-@200006 = ~Miecz oburêczny +3 "Skraj œwiata"
+@200006 = ~Miecz oburêczny +3: 'Skraj œwiata'
 Jest to legendarna broñ o heroicznym wymiarze, szczególnie wœród plemion barbarzyñców z pó³nocy. Kolejni herosi u¿ywali jej przeciw niezliczonym zastêpom wrogów, a krew przez ni¹ przelana mog³aby wype³niæ niewielkie morze. Historia nie daje dowodów, i¿ taka broñ mog³aby zostaæ w normalny sposób wykuta i tak ka¿dy kolejny jej w³aœciciel wi¹za³ jej pochodzenie z mitem, w który wierzy³. Jedna z najbardziej podnios³ych z tych opowieœci mówi o wielkim wodzu, który po¿eglowa³ ku ska³om, maj¹cym stanowiæ granicê œwiata. Tam siêgn¹³ w pustkê i jego wola ukszta³towa³a ten miecz z nicoœci. Jakakolwiek jest prawda, to ostrze we w³aœciwych rêkach jest naprawdê straszliwym orê¿em.
 
-STATYSTYKI:
+PARAMETRY:
 
-Obra¿enia: 1k10+3
-Trak0: +3
+Obra¿enia: 1K10 +3
+TraK0: +3
 Typ obra¿eñ: sieczne
 Waga: 9
 OpóŸnienie: 7
-Rodzaj bieg³oœci: miecze oburêczne
-Typ: 2 rêczna
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
 Nie mo¿e u¿ywaæ:
  Druid
  Kap³an
@@ -140,9 +135,9 @@ Nie mo¿e u¿ywaæ:
 // Areas
 ////////////////////////////////////////////////////////////////////
 
-@600005 = ~Widzisz nadmiern¹ iloœæ b³ota otaczaj¹c¹ ten obiekt, s³yszysz dŸwiêki, które mo¿na porównac do tych jakie s³ysza³eœ gdy podziemne wody siê po³aczy³y. Mo¿e ta zapora to jakiœ rodzaj tamy??~
+@600005 = ~Widzisz nadmiern¹ iloœæ b³ota otaczaj¹c¹ ten obiekt, s³yszysz dŸwiêki, które mo¿na porównac do tych jakie s³ysza³eœ, gdy podziemne wody siê po³aczy³y. Mo¿e ta zapora to jakiœ rodzaj tamy?~
 
-@600010 = ~Przednia Brama~
+@600010 = ~Przednia brama~
 @600011 = ~Biblioteka Candlekeep~
 @600012 = ~Szpital~
 @600013 = ~Piwnice~
@@ -158,7 +153,7 @@ Nie mo¿e u¿ywaæ:
 @600023 = ~Wioska Gullykin~
 @600024 = ~Wejœcie do Ruin Firewine~
 @600025 = ~Wrak statku~
-@600026 = ~Opusczona Latarnia~
+@600026 = ~Opuszczona latarnia~
 @600027 = ~Magazyn~
 @600028 = ~Dom na farmie~
 @600029 = ~Du¿y namiot~
@@ -186,7 +181,7 @@ Nie mo¿e u¿ywaæ:
 @700017 = ~Rozdzia³ Siódmy:~
 @700019 = ~Rozdzia³ Ósmy:~
 
-@700020 = ~"Ten, który walczy z potworami winien uwa¿aæ by samemu nie staæ siê jednym z nich... kiedy spogl¹dasz w otch³añ, otch³añ patrzy w Ciebie..." -Friedrich Nietzsche~
+@700020 = ~"Ten, który walczy z potworami, winien uwa¿aæ, by samemu nie staæ siê jednym z nich... kiedy spogl¹dasz w otch³añ, otch³añ patrzy w Ciebie..." -Friedrich Nietzsche~
 @700021 = ~Nie, nie mo¿esz!~
 @700022 = ~Tylko ja zostanê, a ty pójdziesz jako pierwszy.~
 @700023 = ~S¹ inni! Mogê ci ich wskazaæ, proszê, proszê!~
@@ -259,7 +254,7 @@ QUOTES (a la Ultima)
 -Bardez, upon creation of TileEdit (first BGT tool)
 "I really wish that bears had a voice for the yogi stuff"
 -Bardez, upon seeing the unused soundset for bears
-"Some spells have changed since BG1.  Heh."
+"Some spells have changed since BG1. Heh."
 -Bardez, upon quickload
 "I Fucking Hate Overlays"
 -Bardez, upon converting areas with overlays
@@ -395,16 +390,16 @@ Other Special Thanks (not related to relationships or dumping)
 ////////////////////////////////////////////////////////////////////
 //dialog.tlk
 ////////////////////////////////////////////////////////////////////
-@900000 = ~Wiesz niewiele o tym w jaki sposób dosta³eœ siê pod opiekê Goriona, ale w ci¹gu wielu lat, podczas których dzieli³ siê z tob¹ sk¹pymi informacjami o matce oraz ze s³ów, które wykrzykiwa³ podczas snu, wynika³o, ¿e by³a pó³-orczyc¹ i jego wieloletni¹ przyjació³k¹. Jako ¿e jej nie pamiêtasz ani nikt nie powiedzia³ ci jak odesz³a, przypuszczasz, ¿e umar³a podczas porodu. Byæ mo¿e ból spowodowany jej odejœciem sprawi³, ¿e Gorion, aby go uleczyæ, zabra³ ciê do Candlekeep i wychowywa³ jak swoje dziecko. O swoim ojcu nie wiesz nic.~
+@900000 = ~Wiesz niewiele o tym w jaki sposób dosta³eœ siê pod opiekê Goriona, ale w ci¹gu wielu lat, podczas których dzieli³ siê z tob¹ sk¹pymi informacjami o matce oraz ze s³ów, które wykrzykiwa³ podczas snu, wynika³o, ¿e by³a pó³-orczyc¹ i jego wieloletni¹ przyjació³k¹. Jako, ¿e jej nie pamiêtasz ani nikt nie powiedzia³ ci jak odesz³a, przypuszczasz, ¿e umar³a podczas porodu. Byæ mo¿e ból spowodowany jej odejœciem sprawi³, ¿e Gorion, aby go uleczyæ, zabra³ ciê do Candlekeep i wychowywa³ jak swoje dziecko. O swoim ojcu nie wiesz nic.~
 /*NOBW8.DLG - #8435; change last sentence to, 'I shall be here promptly every two days.'*/
 @900001 = ~Co takiego?! Nie jesteœcie lepsi ni¿... Pewnie powinnam ujrzeæ to w waszych oczach, kiedy spotkaliœmy siê po raz pierwszy. Teraz ju¿ wiem, ¿e lepszy jest znany diabe³. Bardzo dobrze, zdaje siê, ¿e nie mam wielkiego wyboru. Bêdê tutaj co dwa dni.~
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
-@900002 = ~Dobrze wiêc. Jestem Delthyr i reprezentujê tych spod znaku harfy. Szukam was ju¿ od wielu tygodni, ale dopiero niedawno odkry³em, ¿e opuœciliœcie miasto. Od waszego wyjazdu wiele siê zmieni³o - jeœli chcecie, opowiem wam wszystko co bêdzie wam potrzebne. Czy wys³uchacie mnie?~
+@900002 = ~Dobrze wiêc. Jestem Delthyr i reprezentujê tych spod znaku harfy. Szukam was ju¿ od wielu tygodni, ale dopiero niedawno odkry³em, ¿e opuœciliœcie miasto. Od waszego wyjazdu wiele siê zmieni³o. Jeœli chcecie, opowiem wam wszystko co bêdzie wam potrzebne. Czy wys³uchacie mnie?~
 
 @900037 = ~Wprowadzenie Wrota Baldura~
 @900038 = ~Wprowadzenie Cienie Amn~
 @900039 = ~Cienie Amn~
-@900040 = ~Wciœnij 'Cienie Amn' aby omin¹æ Baldur's Gate I i rozpocz¹æ now¹ przygodê w Baldur's Gate II:Cienie Amn.
+@900040 = ~Wciœnij 'Cienie Amn' aby omin¹æ Baldur's Gate I i rozpocz¹æ now¹ przygodê w Baldur's Gate II: Cienie Amn.
 
 Jeœli chcesz zagraæ w Baldur's Gate I wciœnij Anuluj, a nastêpnie Nowa Gra.~
 @900042 = ~Baldur's Gate~
