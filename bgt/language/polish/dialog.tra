@@ -1,23 +1,24 @@
 //BEARDBOY.D -- deleted
 
 //BELTBRD.D
-@201810 = ~Ludzie s³yszeli o Sarevoku.  Stali siê podejrzliwi.  Szczególnie szlachcice pytaj¹ o szczegó³y. Te niebezpieczne.  Na przyk³ad jak Ci siê uda³o zabiæ Dzieciê Bhaala.~
-@201812 = ~Wiem.  Z³odzieje Cienia rozprzestrzenili informacjê na temat Œwi¹tyni pod ich siedzib¹.  Myœlê, ¿e nast¹pi próba usuniêcia Ciê z miasta. Pewnie boj¹ siê Twej obecnoœci tutaj.~ //'I know' deleted at start of line
+@201810 = ~Ludzie s³yszeli o Sarevoku. Stali siê podejrzliwi. Szczególnie szlachcice pytaj¹ o szczegó³y. Te niebezpieczne. Na przyk³ad jak ci siê uda³o zabiæ Dzieciê Bhaala.~
+@201812 = ~Z³odzieje Cienia rozprzestrzenili informacjê na temat œwi¹tyni pod ich siedzib¹. Myœlê, ¿e nast¹pi próba usuniêcia ciê z miasta. Pewnie boj¹ siê twej obecnoœci tutaj.~ //'I know' deleted at start of line
 @201813 = ~Jakby szlachta nie by³a wystarczaj¹cym problemem, mam powa¿niejszy k³opot, który wymaga twojej pomocy.~
 @201814 = ~Co to jest zatem?~
-@201815 = ~Amn ci¹gle planuje z nami wojnê.  Próbowa³em wys³aæ wiadomoœci do Rady w Athkatli, ale wydaj¹ siê nie odsy³aæ odpowiedzi.  Nie wiem czy problem dotyczy moich kurierów, czy te¿ Rady.~
+@201815 = ~Amn ci¹gle planuje z nami wojnê. Próbowa³em wys³aæ wiadomoœci do Rady w Athkatli, ale wydaj¹ siê nie odsy³aæ odpowiedzi. Nie wiem czy problem dotyczy moich kurierów, czy te¿ Rady.~
 @201816 = ~A co to ma wspólnego ze mn¹?~
 @201817 = ~A co chcesz ¿ebym zrobi³?~
-@201818 = ~<CHARNAME>!  Czy zwyciêstwo jest... twoje?  Czy Sarevok... nie ¿yje?~
-@201819 = ~Tak, wype³ni³o siê przeznaczenie.  Sarevok uleg³ memu ostrzu.~
-@201820 = ~I pomyœleæ, ¿e wychwalaliœmy go kilka godzin temu...  *akhem*~ //everything after *ahem* deleted
-@201821 = ~Mam nowy kontakt w Athkatli.  Muszê zanieœæ ten dokument do niego, aby Rada Szeœciu mog³a go przeczytaæ I dowiedzieæ siê prawdy o sytuacji tutaj.  Proponujê sekretne spotkanie z Rad¹.  Mam nadziejê, ¿e zdo³am ich przekonaæ i¿ to Sarevok by³ dla nich zagro¿eniem, a Wrota Baldura wcale nie chc¹ wojny.~
-@201822 = ~Mówiê ci o tym gdy¿ takie wa¿ne zadanie mogê powierzyæ tylko Tobie.  Chcê byœ spotka³ siê z moim kontaktem I wrêczy³ mu ten list.  Jeœli moi kurierzy nie mog¹ siê tam dostaæ z powodu bandytów, przynajmniej bêdê wiedzia³, ¿e zdo³asz ich pokonaæ I kontynuowaæ misjê w Athkatli.~
-@201823 = ~Athkatla?  W Amn?  To zabierze trochê czasu by siê tam dostaæ.  Czy jest jakiœ sposób, by przyspieszyæ moj¹ podró¿?~
-@201824 = ~Tak, to prowadzi mnie do nastênego tematu.  Kaza³em swoim magom napisaæ zaklêcie, które Ciê tam przeteleportuje.  Niestety, nigdy nie by³em w Athkalti, a zaklêcie zadzia³a tylko gdy zna siê miejsce docelowe..~
-@201826 = ~By³em na kilku polowaniach na pó³noc od Athkatli.  Znam tamte tereny bardzo dobrze I mogê Ciê teleportowaæ w to miejsce.  Powiedzia³em o tym mojemu kontaktowi, a ten kaza³ tam czekaæ kilku swoim ludziom.  Mog¹ Ciê eskortowaæ a¿ do bram miasta.~ //'Patience please' deleted at start of line
-@201827 = ~Jestem zak³opotany.  Jeœli mo¿esz wys³aæ kogowolwiek na spotkanie kontaktu czemu nie wyœlesz jednego ze swych kurierów?  Czemu chcesz wys³aæ mnie?~
-@201828 = ~W³aœciwie z dwóch powodów.  Po pierwsze, jak wczeœniej ju¿ powiedzia³em, szlachcice siê Ciebie obawiaj¹.  Twoja nieobecnoœæ w mieœcie chocia¿ przez kilka dni pozwoli uspokoiæ ich nerwy.  Drugi powód to fakt, ¿e mój kontak s³ysza³ o Tobie du¿o.  Wygl¹da na to, ¿e jesteœ bohaterem Wybrze¿a Mieczy.  Mój kontakt uwa¿a, ¿e Rada bêdzie traktowaæ tê sprawê bardziej powa¿nie jeœli bohater taki jak ty wspomo¿e ten cel.  Zd¹¿y³em powiadomiæ nawet kilku twoich znajomych, którzy chc¹ siê tam z Toba spotkaæ.  Bêdziesz musia³ wróciæ z Amn pieszo, dlatego idŸ upewniæ siê, ¿e masz doœc zapasów na tak d³ug¹ wêdrówkê.  Powodzenia I bezpiecznej podró¿y.~
+@201818 = ~<CHARNAME>! Czy zwyciêstwo jest... twoje? Czy Sarevok... nie ¿yje?~
+@201819 = ~Tak, wype³ni³o siê przeznaczenie. Sarevok uleg³ memu ostrzu.~
+@201820 = ~I pomyœleæ, ¿e wychwalaliœmy go kilka godzin temu... *akhem*~ //everything after *ahem* deleted
+@201821 = ~Mam nowy kontakt w Athkatli. Muszê zanieœæ ten dokument do niego, aby Rada Szeœciu mog³a go przeczytaæ i dowiedzieæ siê prawdy o sytuacji tutaj. Proponujê sekretne spotkanie z Rad¹. Mam nadziejê, ¿e zdo³am ich przekonaæ, i¿ to Sarevok by³ dla nich zagro¿eniem, a Wrota Baldura wcale nie chc¹ wojny.~
+@201822 = ~Mówiê ci o tym, gdy¿ takie wa¿ne zadanie mogê powierzyæ tylko tobie. Chcê byœ spotka³ siê z moim kontaktem i wrêczy³ mu ten list. Jeœli moi kurierzy nie mog¹ siê tam dostaæ z powodu bandytów, przynajmniej bêdê wiedzia³, ¿e zdo³asz ich pokonaæ i kontynuowaæ misjê w Athkatli.~
+@201823 = ~Athkatla? W Amn? To zabierze trochê czasu, by siê tam dostaæ. Czy jest jakiœ sposób, by przyspieszyæ moj¹ podró¿?~
+@201824 = ~Tak, to prowadzi mnie do nastênego tematu. Kaza³em swoim magom napisaæ zaklêcie, które ciê tam przeteleportuje. Niestety, nigdy nie by³em w Athkalti, a zaklêcie zadzia³a tylko, gdy zna siê miejsce docelowe.~
+@201826 = ~By³em na kilku polowaniach na pó³noc od Athkatli. Znam tamte tereny bardzo dobrze i mogê ciê teleportowaæ w to miejsce. Powiedzia³em o tym mojemu kontaktowi, a ten kaza³ tam czekaæ kilku swoim ludziom. Mog¹ ciê eskortowaæ a¿ do bram miasta.~ //'Patience please' deleted at start of line
+@201827 = ~Jestem zak³opotany. Jeœli mo¿esz wys³aæ kogowolwiek na spotkanie kontaktu czemu nie wyœlesz jednego ze swych kurierów? Czemu chcesz wys³aæ mnie?~
+@201828 = ~W³aœciwie z dwóch powodów. Po pierwsze, jak wczeœniej ju¿ powiedzia³em, szlachcice siê ciebie obawiaj¹. Twoja nieobecnoœæ w mieœcie chocia¿ przez kilka dni pozwoli uspokoiæ ich nerwy. Drugi powód to fakt, ¿e mój kontak s³ysza³ o tobie du¿o. Wygl¹da na to, ¿e jesteœ bohaterem Wybrze¿a Mieczy. Mój kontakt uwa¿a, ¿e Rada bêdzie traktowaæ tê sprawê bardziej powa¿nie jeœli bohater taki jak ty wspomo¿e ten cel. Zd¹¿y³em powiadomiæ nawet kilku twoich znajomych, którzy chc¹ siê tam z tob¹ spotkaæ. Bêdziesz musia³ wróciæ z Amn pieszo, dlatego idŸ upewniæ siê, ¿e masz doœæ zapasów na tak d³ug¹ wêdrówkê. Powodzenia i bezpiecznej podró¿y.~
+
 //BELTBRD.D - new lines (v1.06)
 @201829 = ~Czy jesteœ gotów wyruszyæ do Athkatli?~ ~Czy jesteœ gotowa wyruszyæ do Athkatli?~
 @201830 = ~Tak. Jestem gotowy.~ ~Tak. Jestem gotowa.~
@@ -40,7 +41,7 @@
 //LEAVE***.D -- deleted
 
 //xHGWRA01.D
-@203400 = ~Có¿ za ból musia³eœ sprawiæ tej któr¹ kochasz? Tej pokojówce Linvaila?~
+@203400 = ~Có¿ za ból musia³eœ sprawiæ tej, któr¹ kochasz? Tej pokojówce Linvaila?~
 
 ////////////////////////////////////////////////////////////////////////////////////////
 // KingDiamond's Extra Dialogue
@@ -48,18 +49,18 @@
 //MINSC.D -- deleted
 
 //TAEROM.D
-@203402 = ~Dobrze, tracimy czas! Mam nadziejê ¿e zgnije ci w plecaku, z pewnoœci¹ spodoba ci siê zapach. To ciê nauczy!~
+@203402 = ~Dobrze, tracimy czas! Mam nadziejê, ¿e zgnije ci w plecaku, z pewnoœci¹ spodoba ci siê zapach. To ciê nauczy!~
 
 //WINSKI.D
-@203403 = ~Wiêc... zabi³eœ go, prawda?  Nie wiedzia³em kto bêdzie zwyciêzc¹, ale powinienem przypuszczaæ, ¿e bêdziesz nim ty.  Przez ca³y czas byliœcie cierniem w jego boku, a jego zwyciêstwo i tak by³oby tylko z³udne.~
-@203404 = ~Po prostu mnie tu zostaw.  Ja... nie mam ju¿ ¿adnego celu.  Niech przeklêta Piêœæ po mnie przyjdzie. Nie obchodzi mnie to.~
+@203403 = ~Wiêc... zabi³eœ go, prawda? Nie wiedzia³em kto bêdzie zwyciêzc¹, ale powinienem przypuszczaæ, ¿e bêdziesz nim ty. Przez ca³y czas byliœcie cierniem w jego boku, a jego zwyciêstwo i tak by³oby tylko z³udne.~
+@203404 = ~Po prostu mnie tu zostaw. Ja... nie mam ju¿ ¿adnego celu. Niech przeklêta Piêœæ po mnie przyjdzie. Nie obchodzi mnie to.~
 
 //SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
 @203405 = ~Ci ludzie s¹ poszukiwani za wielokrotne morderstwa, ZABIÆ ich!~
 
 //VOLETA.D
-@203406 = ~Powracasz.  Jestem doœæ zaskoczona, ¿e uda³o ci siê prze¿yæ.  Nikt wczeœniej nie przeszed³ przez ten labirynt. Najwa¿niejsze, ¿e ten drañ w koñcu nie ¿yje. Nie ma co do tego w¹tpliwoœci, skoro wróci³eœ.~
-@203407 = ~Ze mn¹ w porz¹dku.  Pozostali doprowadz¹ mnie wkrótce do porz¹dku zatem po prostu st¹d zmykaj. Tak czy inaczej doœæ ju¿ przez Ciebie k³opotów. ~
+@203406 = ~Powracasz. Jestem doœæ zaskoczona, ¿e uda³o ci siê prze¿yæ. Nikt wczeœniej nie przeszed³ przez ten labirynt. Najwa¿niejsze, ¿e ten drañ w koñcu nie ¿yje. Nie ma co do tego w¹tpliwoœci, skoro wróci³eœ.~ ~Powracasz. Jestem doœæ zaskoczona, ¿e uda³o ci siê prze¿yæ. Nikt wczeœniej nie przeszed³ przez ten labirynt. Najwa¿niejsze, ¿e ten drañ w koñcu nie ¿yje. Nie ma co do tego w¹tpliwoœci, skoro wróci³aœ.~
+@203407 = ~Ze mn¹ w porz¹dku. Pozostali doprowadz¹ mnie wkrótce do zdrowia zatem po prostu st¹d zmykaj. Tak czy inaczej doœæ ju¿ przez ciebie k³opotów.~
 
 ////////////////////////////////////////////////////////////////////////////////////////
 // For picking known spells for new Shadows of Amn characters
