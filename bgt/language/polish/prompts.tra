@@ -114,7 +114,7 @@ Jest bezpieczne przerwanie instalacji w tym momencie przez zamkniecie okna lub w
 @100041 = ~Kompresowanie plikow gry...~
 @100042 = ~Wykryto instalacje BG1 w %bg1_dir%.
 czy to jest prawidlowe? [Y] - tak lub [N]ie~
-@100043 = ~Czy chcesz zbiffowa† wszystkie nowe zasoby? (zalecane, z wyjatkiem Mega Modyfikacji)
+@100043 = ~Czy chcesz zbiffowac wszystkie nowe zasoby? (zalecane, z wyjatkiem Mega Modyfikacji)
 [Y] Tak lub [N]ie~
-@100044 = ~Wykryto Uniksopochodny system. Wlaczono log. %LNL%%LNL%~
+@100044 = ~Wykryto Unixopochodny system. Wlaczono log.%LNL%%LNL%~
 @100045 = ~Wykryto stara wersje Windows. Bedzie dostepny ograniczony log.%WNL%%WNL%~
