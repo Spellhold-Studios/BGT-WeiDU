@@ -1,6 +1,6 @@
 //BELTBRD.D
 @201810 = ~The people have heard about Sarevok.  They grew curious.  The nobles in particular are asking questions.  Dangerous ones.  Like how you managed to kill a child of Bhaal.~
-@201812 = ~The Shadow Thieves leaked it, about the temple beneath their complex.  I think it may have been an attempt to root you out of the town.  They probably feel threatened by your presence here.~ //'I know' deleted at start of line
+@201812 = ~The Shadow Thieves leaked it, about the temple beneath their complex.  I think it may have been an attempt to root you out of the town.  They probably feel threatened by your presence here.~
 @201813 = ~As if the nobles were not enough of a problem, I have a larger issue that you may be able to help with.~
 @201814 = ~What is it?~
 @201815 = ~Amn still plans to go to war with us.  I have tried to send messages to the council in Athkatla but they don't seem to respond.  I don't know if the problem is with my couriers or the council.~
@@ -8,12 +8,12 @@
 @201817 = ~And you want me to do what?~
 @201818 = ~<CHARNAME>!  Is victory... yours?  Is Sarevok... dead?~
 @201819 = ~Yes, the deed is done.  Sarevok has fallen to my blade.~
-@201820 = ~To think we praised him only hours ago... *ahem*~ //everything after *ahem* deleted
+@201820 = ~To think we praised him only hours ago... *ahem*~
 @201821 = ~I have a new contact in Athkatla.  I need to get this document to him so the Council of Six will read it and know the truth about the problems here.  I am proposing a secret meeting between myself and the council.  I hope I can prove to them that Sarevok was responsible for the threats to them and that Baldur's Gate does not want war.~
 @201822 = ~I am telling you this because I need someone who can get this critical job done.  I want you to meet my contact and deliver this letter to him.  If my couriers can't get there because of bandits or what have you, at least I know you will be able to defeat them and continue with this mission.~
 @201823 = ~Athkatla?  In Amn?  That will take some time to get there.  Is there any way to speed up my trip?~
 @201824 = ~Yes, that leads me to my next topic.  I have had my mages write up a spell for me to teleport you there.  Unfortunately, I have never been to Athkatla, and teleports only work if you know the destination.~
-@201826 = ~I have been on several hunting trips just north of Athkatla.  I know one area very well and I can teleport you to that spot.  I have told my contact and he should have people waiting there for you.  They can escort you into the city.~ //'Patience please' deleted at start of line
+@201826 = ~I have been on several hunting trips just north of Athkatla.  I know one area very well and I can teleport you to that spot.  I have told my contact and he should have people waiting there for you.  They can escort you into the city.~
 @201827 = ~I am confused.  If you can teleport someone to meet with this contact, why don't you just send a courier?  Why me?~
 @201828 = ~Two reasons actually.  One, as I said before, the nobles here are fearful of you.  Getting you out of town for a few days will give me time to calm their fears.  The second reason is because my contact has heard of you.  It seems you are the heroes of the Sword Coast.  My contact thinks that the council would be much more willing to take my requests seriously if heroes like yourselves were supporting our cause.  I have even notified some of your friends so they can meet you there.  You will need to make it back from Amn on foot, so make sure you have ample supplies for the long trip.~ //'Good luck, and safe journeys.' deleted at end of line, '...go and...' deleted from last sentence
 //BELTBRD.D - new lines (v1.06)
@@ -24,15 +24,9 @@
 @201833 = ~Good luck, and safe journeys.~
 @201834 = ~Then prepare quickly. There is no time to waste.~
 
-//SARDEAD.D
-@202200 = ~has fallen!  The battle is won!~
-
 ////////////////////////////////////////////////////////////////////////////////////////
 // KingDiamond's Extra Dialogue
 ////////////////////////////////////////////////////////////////////////////////////////
-//TAEROM.D
-@203402 = ~Well, time's a wasting! I hope it rots in your backpack, you'll love the aroma. That'll teach ye!~
-
 //WINSKI.D
 @203403 = ~So... you killed him, did you?  I didn't know who would be the victor, but I should have assumed it would be you.  You were the thorn in his side all along, and his victory would have been hollow anyway.~
 @203404 = ~Just leave me here.  I... I don't have any more drive left.  Let the damn Fist come for me. I don't care anymore.~
