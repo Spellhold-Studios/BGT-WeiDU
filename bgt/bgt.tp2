@@ -194,10 +194,10 @@ OUTER_FOR (path=1 n=0; path && VARIABLE_IS_SET EVAL ~argv[%n%]~; ++n) BEGIN // i
     LOG ~Looking for requested tools inside the system path because system-path option is set.~
   END
 END
-ACTION_FOR_EACH tool IN ~tis2bg2~ ~tisunpack~ ~mosunpack~ BEGIN
+ACTION_FOR_EACH tool IN ~tis2bg2~ BEGIN
   ACTION_IF path BEGIN //use binaries from package
     ACTION_IF NOT (FILE_EXISTS ~bgt/install/%WEIDU_OS%/%WEIDU_ARCH%/%tool%%exe%~) BEGIN //check if file exists for relevant architecture
-      FAIL ~Required binaries missing for your architecture. Please put tis2bg2, tisunpack and mosunpack into your system path and install again with system-path argument.~
+      FAIL ~Required binaries missing for your architecture. Please put tis2bg2 into your system path and install again with system-path argument.~
     END //FILE_EXISTS
 
     OUTER_SPRINT EVAL ~%tool%~ ~bgt%slash%install%slash%%WEIDU_OS%%slash%%WEIDU_ARCH%%slash%%tool%%exe%~
@@ -213,13 +213,13 @@ ACTION_IF "%WEIDU_OS%" STRING_EQUAL_CASE ~win32~ BEGIN //windows: tis2bg2 uses "
   COPY + ~bgt/install/%WEIDU_OS%/%WEIDU_ARCH%/tis2bg2.exe~ ~tis2bg2.exe~ //tis2bg2 must be located in BG2 game folder
   OUTER_SPRINT tis2bg2 ~tis2bg2~
 END ELSE BEGIN //unix: check file permissions
-  ACTION_FOR_EACH tool IN ~tis2bg2~ ~tisunpack~ ~mosunpack~ BEGIN
+  ACTION_FOR_EACH tool IN ~tis2bg2~ BEGIN
     OUTER_SPRINT bin EVAL ~%%tool%%~
     AT_NOW ~(! which %bin% 2>&1 >/dev/null) && echo 1>bgt/test-x.err~ //this will create a test-x.err file if the commands don't work
     ACTION_IF FILE_EXISTS ~bgt/test-x.err~ BEGIN
       AT_NOW ~rm -f bgt/test-x.err%debug%~
       LAM bash_log
-      FAIL ~Unable to execute %tool%.%LNL%Please put tis2bg2, tisunpack and mosunpack into your system path and%LNL%install again with "system-path" argument.~
+      FAIL ~Unable to execute %tool%.%LNL%Please put tis2bg2 into your system path and%LNL%install again with "system-path" argument.~
     END
   END
 END
@@ -10027,27 +10027,23 @@ COPY ~bgt/tilesets/flame01.tis~ ~override/flame01.tis~
      ~bgt/tilesets/flame03.tis~ ~override/flame03.tis~
      ~bgt/tilesets/flame04.tis~ ~override/flame04.tis~
      ~bgt/tilesets/wtlava2.tis~ ~override/wtlava2.tis~
-     
+
 MKDIR ~areaam00~
 COPY + ~bgt/tilesets/areaam00~ ~areaam00~
-
-AT_NOW ~%tisunpack% -h -s -o areaam00%slash%aram00.tis bgt%slash%tilesets%slash%aram00.tiz %debug%~ EXACT
-LAM bash_log
 
 ///////////////////////////////////////////////////////
 // Miscellaneous Graphics: Import from BG1
 ///////////////////////////////////////////////////////
 
 MKDIR ~bg1misc~
-
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%bpbgtmap.mos bgt%slash%base%slash%moz%slash%bpbgtmap.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-2.mos bgt%slash%base%slash%moz%slash%drmtxt-2.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-3.mos bgt%slash%base%slash%moz%slash%drmtxt-3.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-4.mos bgt%slash%base%slash%moz%slash%drmtxt-4.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-5.mos bgt%slash%base%slash%moz%slash%drmtxt-5.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-6.mos bgt%slash%base%slash%moz%slash%drmtxt-6.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-7.mos bgt%slash%base%slash%moz%slash%drmtxt-7.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%guichp0b.mos bgt%slash%base%slash%moz%slash%guichp0b.moz %debug%~ EXACT
+COPY + ~bgt/base/mos/bpbgtmap.mos~ ~bg1misc~
+       ~bgt/base/mos/drmtxt-2.mos~ ~bg1misc~
+       ~bgt/base/mos/drmtxt-3.mos~ ~bg1misc~
+       ~bgt/base/mos/drmtxt-4.mos~ ~bg1misc~
+       ~bgt/base/mos/drmtxt-5.mos~ ~bg1misc~
+       ~bgt/base/mos/drmtxt-6.mos~ ~bg1misc~
+       ~bgt/base/mos/drmtxt-7.mos~ ~bg1misc~
+       ~bgt/base/mos/guichp0b.mos~ ~bg1misc~
 
 //Import tasloi and basilisk animations
 AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bg1misc --biff-get-rest mbasg.*~
