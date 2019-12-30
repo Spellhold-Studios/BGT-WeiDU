@@ -1,6 +1,6 @@
 BACKUP ~bgt/backup/songlist~
 
-AUTHOR ~http://forums.spellholdstudios.net/index.php?showforum=261~
+SUPPORT ~http://www.shsforums.net/forum/261-bgt-weidu/~
 
 /////////////////////////////////////////////////////////////////////////
 
@@ -53,36 +53,36 @@ END
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Castellano (Castilian/Spanish)~
-         ~castilian~
-         ~bgt/language/castilian/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Francais (French)~
-         ~french~
-         ~bgt/language/french/prompts.tra~
-LANGUAGE ~Deutsch (German)~
-         ~german~
-         ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italiano (Italian)~
-         ~italian~
-         ~bgt/language/italian/prompts.tra~
-LANGUAGE ~«—±πæÓ (Korean)~
-         ~korean~
-         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Polski (Polish)~
-         ~polish~
-         ~bgt/language/polish/prompts.tra~
-LANGUAGE ~ê„··™®© (Russian)~
-         ~russian~
-         ~bgt/language/russian/prompts.tra~
-LANGUAGE ~ºÚÃÂ÷–Œƒ (Chinese - Simplified)~
-         ~schinese~
-         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE %¡c≈È§§§Â (Chinese - Traditional)%
-         ~tchinese~
-         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~¨eÁka (Czech)~
+LANGUAGE ~Czech (Cestina)~
          ~czech~
          ~bgt/language/czech/prompts.tra~
+LANGUAGE ~French (Francais)~
+         ~french~
+         ~bgt/language/french/prompts.tra~
+LANGUAGE ~German (Deutsch)~
+         ~german~
+         ~bgt/language/german/prompts.tra~
+LANGUAGE ~Italian (Italiano)~
+         ~italian~
+         ~bgt/language/italian/prompts.tra~
+LANGUAGE ~Korean (Hangukeo)~
+         ~korean~
+         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Polish (Polski)~
+         ~polish~
+         ~bgt/language/polish/prompts.tra~
+LANGUAGE ~Russian (Russky)~
+         ~russian~
+         ~bgt/language/russian/prompts.tra~
+LANGUAGE ~Spanish (Espanol)~
+         ~spanish~
+         ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Simplified Chinese (Jiantizi)~
+         ~schinese~
+         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Traditional Chinese (Fantizi)~
+         ~tchinese~
+         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
 
 /////////////////////////////////////////////////////////////////////////
 

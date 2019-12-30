@@ -1,6 +1,6 @@
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/BGT-WeiDU?include_prereleases&color=darkred)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Korean%20%7C%20Polish%20%7C%20Russian%20%7C%20Spanish%20%7C%20Chinese_simplified%20%7C%20Chinese_traditional%20%7C%20Czech&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=language&message=en%20%7C%20cs%20%7C%20fr%20%7C%20de%20%7C%20it%20%7C%20ko%20%7C%20pl%20%7C%20ru%20%7C%20es%20%7C%20zh-cn%20%7C%20zh-tw&color=limegreen)
 
 # Baldur's Gate Trilogy (BGT-WeiDU)
 A [Spellhold Studios](http://www.spellholdstudios.net/) mod for Baldur's Gate II: Throne of Bhaal

@@ -25,8 +25,6 @@ VERSION ~v1.21~
 
 README ~bgt/help/[%LANGUAGE%]bgtreadme.htm~ ~bgt/help/[english]bgtreadme.htm~
 
-//MODDER setup_tra none area_variables warn missing_extern none missing_resref none ict2_actions none missing_eval warn overwriting_file warn
-
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
@@ -34,83 +32,76 @@ LANGUAGE ~English~
          ~bgt/language/english/dialog.tra~
          ~bgt/language/english/journal.tra~
          ~bgt/language/english/scripts.tra~
-LANGUAGE ~International English~
-         ~international~
-         ~bgt/language/english/prompts.tra~
-         ~bgt/language/english/setup.tra~
-         ~bgt/language/english/dialog.tra~
-         ~bgt/language/english/journal.tra~
-         ~bgt/language/english/scripts.tra~
-LANGUAGE ~Castellano (Castilian/Spanish)~
-         ~castilian~
-         ~bgt/language/castilian/prompts-%WEIDU_OS%.tra~
-         ~bgt/language/castilian/setup.tra~
-         ~bgt/language/castilian/dialog.tra~
-         ~bgt/language/castilian/journal.tra~
-         ~bgt/language/castilian/scripts.tra~
-LANGUAGE ~Francais (French)~
-         ~french~
-         ~bgt/language/french/prompts.tra~
-         ~bgt/language/french/setup.tra~
-         ~bgt/language/french/dialog.tra~
-         ~bgt/language/french/journal.tra~
-         ~bgt/language/french/scripts.tra~
-LANGUAGE ~Deutsch (German)~
-         ~german~
-         ~bgt/language/german/prompts.tra~
-         ~bgt/language/german/setup.tra~
-         ~bgt/language/german/dialog.tra~
-         ~bgt/language/german/journal.tra~
-         ~bgt/language/german/scripts.tra~
-LANGUAGE ~Italiano (Italian)~
-         ~italian~
-         ~bgt/language/italian/prompts.tra~
-         ~bgt/language/italian/setup.tra~
-         ~bgt/language/italian/dialog.tra~
-         ~bgt/language/italian/journal.tra~
-         ~bgt/language/italian/scripts.tra~
-LANGUAGE ~ÇÑ±¹¾î (Korean)~
-         ~korean~
-         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-         ~bgt/language/korean/setup.tra~
-         ~bgt/language/korean/dialog.tra~
-         ~bgt/language/korean/journal.tra~
-         ~bgt/language/korean/scripts.tra~
-LANGUAGE ~Polski (Polish)~
-         ~polish~
-         ~bgt/language/polish/prompts.tra~
-         ~bgt/language/polish/setup.tra~
-         ~bgt/language/polish/dialog.tra~
-         ~bgt/language/polish/journal.tra~
-         ~bgt/language/polish/scripts.tra~
-LANGUAGE ~Russian~
-         ~russian~
-         ~bgt/language/russian/prompts.tra~
-         ~bgt/language/russian/setup.tra~
-         ~bgt/language/russian/dialog.tra~
-         ~bgt/language/russian/journal.tra~
-         ~bgt/language/russian/scripts.tra~
-LANGUAGE ~¼òÌåÖÐÎÄ (Chinese - Simplified)~
-         ~schinese~
-         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-         ~bgt/language/schinese/setup.tra~
-         ~bgt/language/schinese/dialog.tra~
-         ~bgt/language/schinese/journal.tra~
-         ~bgt/language/schinese/scripts.tra~
-LANGUAGE %ÁcÅé¤¤¤å (Chinese - Traditional)%
-         ~tchinese~
-         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
-         ~bgt/language/tchinese/setup.tra~
-         ~bgt/language/tchinese/dialog.tra~
-         ~bgt/language/tchinese/journal.tra~
-         ~bgt/language/tchinese/scripts.tra~
-LANGUAGE ~Cestina (Czech)~
+LANGUAGE ~Czech (Cestina)~
          ~czech~
          ~bgt/language/czech/prompts.tra~
          ~bgt/language/czech/setup.tra~
          ~bgt/language/czech/dialog.tra~
          ~bgt/language/czech/journal.tra~
          ~bgt/language/czech/scripts.tra~
+LANGUAGE ~French (Francais)~
+         ~french~
+         ~bgt/language/french/prompts.tra~
+         ~bgt/language/french/setup.tra~
+         ~bgt/language/french/dialog.tra~
+         ~bgt/language/french/journal.tra~
+         ~bgt/language/french/scripts.tra~
+LANGUAGE ~German (Deutsch)~
+         ~german~
+         ~bgt/language/german/prompts.tra~
+         ~bgt/language/german/setup.tra~
+         ~bgt/language/german/dialog.tra~
+         ~bgt/language/german/journal.tra~
+         ~bgt/language/german/scripts.tra~
+LANGUAGE ~Italian (Italiano)~
+         ~italian~
+         ~bgt/language/italian/prompts.tra~
+         ~bgt/language/italian/setup.tra~
+         ~bgt/language/italian/dialog.tra~
+         ~bgt/language/italian/journal.tra~
+         ~bgt/language/italian/scripts.tra~
+LANGUAGE ~Korean (Hangukeo)~
+         ~korean~
+         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/korean/setup.tra~
+         ~bgt/language/korean/dialog.tra~
+         ~bgt/language/korean/journal.tra~
+         ~bgt/language/korean/scripts.tra~
+LANGUAGE ~Polish (Polski)~
+         ~polish~
+         ~bgt/language/polish/prompts.tra~
+         ~bgt/language/polish/setup.tra~
+         ~bgt/language/polish/dialog.tra~
+         ~bgt/language/polish/journal.tra~
+         ~bgt/language/polish/scripts.tra~
+LANGUAGE ~Russian (Russky)~
+         ~russian~
+         ~bgt/language/russian/prompts.tra~
+         ~bgt/language/russian/setup.tra~
+         ~bgt/language/russian/dialog.tra~
+         ~bgt/language/russian/journal.tra~
+         ~bgt/language/russian/scripts.tra~
+LANGUAGE ~Spanish (Espanol)~
+         ~spanish~
+         ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/spanish/setup.tra~
+         ~bgt/language/spanish/dialog.tra~
+         ~bgt/language/spanish/journal.tra~
+         ~bgt/language/spanish/scripts.tra~
+LANGUAGE ~Simplified Chinese (Jiantizi)~
+         ~schinese~
+         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/schinese/setup.tra~
+         ~bgt/language/schinese/dialog.tra~
+         ~bgt/language/schinese/journal.tra~
+         ~bgt/language/schinese/scripts.tra~
+LANGUAGE ~Traditional Chinese (Fantizi)~
+         ~tchinese~
+         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/tchinese/setup.tra~
+         ~bgt/language/tchinese/dialog.tra~
+         ~bgt/language/tchinese/journal.tra~
+         ~bgt/language/tchinese/scripts.tra~
 
 BEGIN @100000
 REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~xnewarea.2da~ @100021
@@ -158,7 +149,7 @@ ACTION_IF NOT "%WEIDU_OS%" STRING_EQUAL_CASE ~win32~ BEGIN
   AT_EXIT ~rm -f bgt/bash.debug~
   COPY + ~bgt/placeholder.txt~ ~bgt/bash.debug~
     REPLACE_TEXTUALLY CASE_SENSITIVE EXACT_MATCH ~aaa~ ~Unix-like OS detected. Logging of shell commands enabled.%LNL%%LNL%~ //@100044
-  
+
   OUTER_SPRINT debug ~ 2>>bgt/bash.debug | tee -a bgt/bash.debug~
   OUTER_SPRINT slash ~/~
   OUTER_SPRINT quote ~"~
@@ -588,17 +579,9 @@ MKDIR ~bgt/dialog.bak~
 
 ACTION_IF FILE_EXISTS ~bgt/dialog.bak/dialog.tlk~ BEGIN
   ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
-    ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~international~ ) = 0 BEGIN
-      AT_UNINSTALL_EXIT ~bgt/install/win32/uninstal.bat english~
-    END ELSE BEGIN
-      AT_UNINSTALL_EXIT ~bgt/install/win32/uninstal.bat %LANGUAGE%~
-    END
+    AT_UNINSTALL_EXIT ~bgt/install/win32/uninstal.bat %LANGUAGE%~
   END ELSE BEGIN
-    ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~international~ ) = 0 BEGIN
-      AT_UNINSTALL_EXIT ~sh bgt/install/unix/uninstal.sh english~
-    END ELSE BEGIN
-      AT_UNINSTALL_EXIT ~sh bgt/install/unix/uninstal.sh %LANGUAGE%~
-    END
+    AT_UNINSTALL_EXIT ~sh bgt/install/unix/uninstal.sh %LANGUAGE%~
   END
 END ELSE BEGIN
   COPY_LARGE + ~dialog.tlk~ ~bgt/dialog.bak/dialog.tlk~
@@ -643,14 +626,6 @@ THEN BEGIN
                NOT (FILE_CONTAINS "TobEx_ini/TobExTweak.ini" "Engine:Disable Force Inventory Pause=1")
       BEGIN
         PATCH_INCLUDE ~bgt/include/tra_mod_ger.tpp~
-      END
-    END
-    PATCH_IF ("%LANGUAGE%" STRING_EQUAL ~international~) BEGIN
-      PATCH_IF NOT (FILE_EXISTS "TobEx_ini/TobExVer.txt") OR
-               NOT (FILE_EXISTS "TobEx_ini/TobExTweak.ini") OR
-               NOT (FILE_CONTAINS "TobEx_ini/TobExTweak.ini" "Engine:Disable Force Inventory Pause=1")
-      BEGIN
-        PATCH_INCLUDE ~bgt/include/tra_mod_eng.tpp~
       END
     END
 
@@ -1314,20 +1289,6 @@ COPY_EXISTING ~xnewarea.2da~ ~override/xnewarea.2da~
     PATCH_IF( ("%name%" STRING_COMPARE_CASE "AR3000")=0 ) BEGIN
       SET_2DA_ENTRY cnt 4 15 "90"
       SET_2DA_ENTRY cnt 6 15 "1260"
-    END
-  END
-
-//using inlined files reduces disk access, which is very time demanding
-COPY_EXISTING - ~spawngrp.2da~ ~inlined/spawngrp.2da~
-  old_size = %SOURCE_SIZE%
-
-INCLUDE ~bgt/include/patch_spawn.tpa~ //some 800 lines of code
-
-COPY - ~inlined/spawngrp.2da~ ~inlined/spawngrp.2da~
-  PATCH_IF %SOURCE_SIZE% != %old_size% BEGIN //something has been appended; write on disk
-    INNER_ACTION BEGIN
-      COPY ~inlined/spawngrp.2da~ ~override~
-      PRETTY_PRINT_2DA
     END
   END
 
@@ -3764,8 +3725,7 @@ COPY ~bgt/modify/itm/misc83.itm~ ~override/bgmisc83.itm~
 // Item description corrections: English only
 /////////////////////////////////////////////
 
-ACTION_IF (( ~%LANGUAGE%~ STRING_COMPARE_CASE ~english~ ) = 0)  OR
-          (( ~%LANGUAGE%~ STRING_COMPARE_CASE ~international~ ) = 0) THEN BEGIN
+ACTION_IF (( ~%LANGUAGE%~ STRING_COMPARE_CASE ~english~ ) = 0) THEN BEGIN
   OUTER_INNER_PATCH "1234" BEGIN
     WRITE_LONG 0x0 21379 //Identified description: Kiel's Morningstar
     READ_STRREF 0x0 string
@@ -6708,7 +6668,7 @@ COPY ~bgt/modify/2da/bgintro.2da~ ~override/bgintro.2da~
   REPLACE ~*4~ @700023
   REPLACE ~*5~ @700024
 
-  PATCH_IF ("%LANGUAGE%" STRING_EQUAL_CASE ~castilian~) BEGIN
+  PATCH_IF ("%LANGUAGE%" STRING_EQUAL_CASE ~spanish~) BEGIN
     SET_2DA_ENTRY 0 1 3 ~30~
     SET_2DA_ENTRY 1 1 3 ~229~
     SET_2DA_ENTRY 2 1 3 ~433~
@@ -8345,8 +8305,7 @@ COPY_EXISTING ~spwi946.spl~ ~override/spwi946.spl~
 COPY ~bgt/fixpack/cader09.wav~ ~override~
 
 // Amplify Tranzig's voice
-ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) ||
-          (~%LANGUAGE%~ STR_EQ ~international~) BEGIN
+ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
   COPY ~bgt/fixpack/tranz01.wav~ ~override~
        ~bgt/fixpack/tranz02.wav~ ~override~
        ~bgt/fixpack/tranz03.wav~ ~override~
@@ -8367,36 +8326,36 @@ AUTHOR ~King Diamond~ //non-windows version by Turambar.~
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Castellano (Castilian/Spanish)~
-         ~castilian~
-         ~bgt/language/castilian/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Francais (French)~
-         ~french~
-         ~bgt/language/french/prompts.tra~
-LANGUAGE ~Deutsch (German)~
-         ~german~
-         ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italiano (Italian)~
-         ~italian~
-         ~bgt/language/italian/prompts.tra~
-LANGUAGE ~ÇÑ±¹¾î (Korean)~
-         ~korean~
-         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Polski (Polish)~
-         ~polish~
-         ~bgt/language/polish/prompts.tra~
-LANGUAGE ~ãááª¨© (Russian)~
-         ~russian~
-         ~bgt/language/russian/prompts.tra~
-LANGUAGE ~¼òÌåÖÐÎÄ (Chinese - Simplified)~
-         ~schinese~
-         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE %ÁcÅé¤¤¤å (Chinese - Traditional)%
-         ~tchinese~
-         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~¬eçka (Czech)~
+LANGUAGE ~Czech (Cestina)~
          ~czech~
          ~bgt/language/czech/prompts.tra~
+LANGUAGE ~French (Francais)~
+         ~french~
+         ~bgt/language/french/prompts.tra~
+LANGUAGE ~German (Deutsch)~
+         ~german~
+         ~bgt/language/german/prompts.tra~
+LANGUAGE ~Italian (Italiano)~
+         ~italian~
+         ~bgt/language/italian/prompts.tra~
+LANGUAGE ~Korean (Hangukeo)~
+         ~korean~
+         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Polish (Polski)~
+         ~polish~
+         ~bgt/language/polish/prompts.tra~
+LANGUAGE ~Russian (Russky)~
+         ~russian~
+         ~bgt/language/russian/prompts.tra~
+LANGUAGE ~Spanish (Espanol)~
+         ~spanish~
+         ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Simplified Chinese (Jiantizi)~
+         ~schinese~
+         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Traditional Chinese (Fantizi)~
+         ~tchinese~
+         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
 >>>>>>>>
 
 <<<<<<<<bgt/gui_mods.2da
@@ -8457,7 +8416,7 @@ END
 //this block goes outside the IF because it must also solve problems of GUIs already installed but for Windows only.
 ACTION_MATCH ~%WEIDU_OS%~ WITH
   ~win32~ BEGIN
-    LAF copy_missing STR_VAR origin=~Setup-BGT.exe~ destination=~setup-gui.exe~ END
+    LAF copy_missing STR_VAR origin=~setup-bgt.exe~ destination=~setup-gui.exe~ END
   END
   ~unix~ BEGIN //if the user is using setup-bgt, create a similar file for the GUI installer
     ACTION_IF FILE_EXISTS ~setup-bgt~ BEGIN
@@ -8465,8 +8424,8 @@ ACTION_MATCH ~%WEIDU_OS%~ WITH
     END
   END
   ~osx~ BEGIN
-    ACTION_IF FILE_EXISTS ~setup-bgt.command~ BEGIN
-      LAF copy_missing STR_VAR origin=~setup-bgt.command~ destination=~Setup-GUI.command~ END
+    ACTION_IF FILE_EXISTS ~setup-bgt~ BEGIN
+      LAF copy_missing STR_VAR origin=~setup-bgt~ destination=~setup-gui~ END
     END
   END
 DEFAULT //should never trigger
@@ -8504,36 +8463,36 @@ END~~~~~
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Castellano (Castilian/Spanish)~
-         ~castilian~
-         ~bgt/language/castilian/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Francais (French)~
+LANGUAGE ~Czech (Cestina)~
+         ~czech~
+         ~bgt/language/czech/prompts.tra~
+LANGUAGE ~French (Francais)~
          ~french~
          ~bgt/language/french/prompts.tra~
-LANGUAGE ~Deutsch (German)~
+LANGUAGE ~German (Deutsch)~
          ~german~
          ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italiano (Italian)~
+LANGUAGE ~Italian (Italiano)~
          ~italian~
          ~bgt/language/italian/prompts.tra~
-LANGUAGE ~ÇÑ±¹¾î (Korean)~
+LANGUAGE ~Korean (Hangukeo)~
          ~korean~
          ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Polski (Polish)~
+LANGUAGE ~Polish (Polski)~
          ~polish~
          ~bgt/language/polish/prompts.tra~
-LANGUAGE ~ãááª¨© (Russian)~
+LANGUAGE ~Russian (Russky)~
          ~russian~
          ~bgt/language/russian/prompts.tra~
-LANGUAGE ~¼òÌåÖÐÎÄ (Chinese - Simplified)~
+LANGUAGE ~Spanish (Espanol)~
+         ~spanish~
+         ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
+LANGUAGE ~Simplified Chinese (Jiantizi)~
          ~schinese~
          ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE %ÁcÅé¤¤¤å (Chinese - Traditional)%
+LANGUAGE ~Traditional Chinese (Fantizi)~
          ~tchinese~
-         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~¬eçka (Czech)~
-         ~czech~
-         ~bgt/language/czech/prompts.tra~"
+         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~"
       UNLESS ~LANGUAGE~
 
     OUTER_SET active_gui=0
@@ -8575,16 +8534,18 @@ PRINT @100033
 
 ACTION_MATCH ~%WEIDU_OS%~ WITH
 ~win32~ BEGIN
-  COPY ~Setup-BGT.exe~ ~setup-bgtmusic.exe~
+  ACTION_IF !FILE_EXISTS ~setup-bgtmusic.exe~ BEGIN
+    COPY ~setup-bgt.exe~ ~setup-bgtmusic.exe~
+  END
 END
 ~unix~ BEGIN //if the user is using setup-bgt, create a similar file for the music installer
-  ACTION_IF FILE_EXISTS ~setup-bgt~ BEGIN
+  ACTION_IF (FILE_EXISTS ~setup-bgt~) && (!FILE_EXISTS ~setup-bgtmusic~) BEGIN
     COPY ~setup-bgt~ ~setup-bgtmusic~
   END
 END
 ~osx~ BEGIN
-  ACTION_IF FILE_EXISTS ~setup-bgt.command~ BEGIN
-    COPY ~setup-bgt.command~ ~setup-bgtmusic~
+  ACTION_IF (FILE_EXISTS ~setup-bgt~) && (!FILE_EXISTS ~setup-bgtmusic~) BEGIN
+    COPY ~setup-bgt~ ~setup-bgtmusic~
   END
 END
 DEFAULT
@@ -9220,7 +9181,7 @@ ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~german~ AND
        ~%bg1_dir%/sounds/mann3l.wav~ ~sounds/bgmale3l.wav~
        ~%bg1_dir%/sounds/mann3m.wav~ ~sounds/bgmale3m.wav~
 END ELSE BEGIN
-ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~castilian~ AND
+ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~spanish~ AND
            FILE_EXISTS ~%bg1_dir%/sounds/hembra1a.wav~) THEN BEGIN
   COPY ~%bg1_dir%/sounds/hembra1a.wav~ ~sounds/bgfeml1a.wav~
        ~%bg1_dir%/sounds/hembra1b.wav~ ~sounds/bgfeml1b.wav~
@@ -9463,7 +9424,7 @@ ACTION_IF (FILE_EXISTS ~%bg1_dir%/sounds/female1a.wav~) THEN BEGIN
        ~%bg1_dir%/sounds/male3m.wav~ ~sounds/bgmale3m.wav~
 END //other
 END //polish
-END //castilian
+END //spanish
 END //german
 END //french
 
@@ -9586,7 +9547,7 @@ ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~german~ ) BEGIN //all except Germa
 END
 LAM bash_log
 
-ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~castilian~) OR
+ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~spanish~) OR
           (~%LANGUAGE%~ STRING_EQUAL_CASE ~french~) OR
           (~%LANGUAGE%~ STRING_EQUAL_CASE ~german~) THEN BEGIN
   //enable uninstall easily
@@ -9600,7 +9561,7 @@ ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~castilian~) OR
   MOVE + (~override~ ~ikeee_0[12356]\.wav~) ~bgtwav~
 END
 
-ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~castilian~) THEN BEGIN
+ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~spanish~) THEN BEGIN
   COPY + ~bgt/language/%LANGUAGE%/montr19.wav~ ~bgtwav/montr19.wav~
 END
 
@@ -10208,4 +10169,3 @@ ACTION_IF (~%argv[0]%~ STRING_CONTAINS_REGEXP ~[Ss]~) THEN BEGIN
     AT_INTERACTIVE_EXIT ~VIEW bgt/help/[english]postinstall.htm~
   END
 END
-
