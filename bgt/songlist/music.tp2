@@ -53,34 +53,34 @@ END
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Czech (Cestina)~
+LANGUAGE ~Czech (cestina)~
          ~czech~
          ~bgt/language/czech/prompts.tra~
-LANGUAGE ~French (Francais)~
+LANGUAGE ~French (francais)~
          ~french~
          ~bgt/language/french/prompts.tra~
 LANGUAGE ~German (Deutsch)~
          ~german~
          ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italian (Italiano)~
+LANGUAGE ~Italian (italiano)~
          ~italian~
          ~bgt/language/italian/prompts.tra~
-LANGUAGE ~Korean (Hangukeo)~
+LANGUAGE ~Korean (hangukeo)~
          ~korean~
          ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Polish (Polski)~
+LANGUAGE ~Polish (polski)~
          ~polish~
          ~bgt/language/polish/prompts.tra~
-LANGUAGE ~Russian (Russky)~
+LANGUAGE ~Russian (russky)~
          ~russian~
          ~bgt/language/russian/prompts.tra~
-LANGUAGE ~Spanish (Espanol)~
+LANGUAGE ~Spanish (espanol)~
          ~spanish~
          ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Simplified Chinese (Jiantizi)~
+LANGUAGE ~Simplified Chinese (jiantizi)~
          ~schinese~
          ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Traditional Chinese (Fantizi)~
+LANGUAGE ~Traditional Chinese (fantizi)~
          ~tchinese~
          ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
 

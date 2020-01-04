@@ -32,14 +32,14 @@ LANGUAGE ~English~
          ~bgt/language/english/dialog.tra~
          ~bgt/language/english/journal.tra~
          ~bgt/language/english/scripts.tra~
-LANGUAGE ~Czech (Cestina)~
+LANGUAGE ~Czech (cestina)~
          ~czech~
          ~bgt/language/czech/prompts.tra~
          ~bgt/language/czech/setup.tra~
          ~bgt/language/czech/dialog.tra~
          ~bgt/language/czech/journal.tra~
          ~bgt/language/czech/scripts.tra~
-LANGUAGE ~French (Francais)~
+LANGUAGE ~French (francais)~
          ~french~
          ~bgt/language/french/prompts.tra~
          ~bgt/language/french/setup.tra~
@@ -53,49 +53,49 @@ LANGUAGE ~German (Deutsch)~
          ~bgt/language/german/dialog.tra~
          ~bgt/language/german/journal.tra~
          ~bgt/language/german/scripts.tra~
-LANGUAGE ~Italian (Italiano)~
+LANGUAGE ~Italian (italiano)~
          ~italian~
          ~bgt/language/italian/prompts.tra~
          ~bgt/language/italian/setup.tra~
          ~bgt/language/italian/dialog.tra~
          ~bgt/language/italian/journal.tra~
          ~bgt/language/italian/scripts.tra~
-LANGUAGE ~Korean (Hangukeo)~
+LANGUAGE ~Korean (hangukeo)~
          ~korean~
          ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
          ~bgt/language/korean/setup.tra~
          ~bgt/language/korean/dialog.tra~
          ~bgt/language/korean/journal.tra~
          ~bgt/language/korean/scripts.tra~
-LANGUAGE ~Polish (Polski)~
+LANGUAGE ~Polish (polski)~
          ~polish~
          ~bgt/language/polish/prompts.tra~
          ~bgt/language/polish/setup.tra~
          ~bgt/language/polish/dialog.tra~
          ~bgt/language/polish/journal.tra~
          ~bgt/language/polish/scripts.tra~
-LANGUAGE ~Russian (Russky)~
+LANGUAGE ~Russian (russky)~
          ~russian~
          ~bgt/language/russian/prompts.tra~
          ~bgt/language/russian/setup.tra~
          ~bgt/language/russian/dialog.tra~
          ~bgt/language/russian/journal.tra~
          ~bgt/language/russian/scripts.tra~
-LANGUAGE ~Spanish (Espanol)~
+LANGUAGE ~Spanish (espanol)~
          ~spanish~
          ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
          ~bgt/language/spanish/setup.tra~
          ~bgt/language/spanish/dialog.tra~
          ~bgt/language/spanish/journal.tra~
          ~bgt/language/spanish/scripts.tra~
-LANGUAGE ~Simplified Chinese (Jiantizi)~
+LANGUAGE ~Simplified Chinese (jiantizi)~
          ~schinese~
          ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
          ~bgt/language/schinese/setup.tra~
          ~bgt/language/schinese/dialog.tra~
          ~bgt/language/schinese/journal.tra~
          ~bgt/language/schinese/scripts.tra~
-LANGUAGE ~Traditional Chinese (Fantizi)~
+LANGUAGE ~Traditional Chinese (fantizi)~
          ~tchinese~
          ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
          ~bgt/language/tchinese/setup.tra~
@@ -8326,34 +8326,34 @@ AUTHOR ~King Diamond~ //non-windows version by Turambar.~
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Czech (Cestina)~
+LANGUAGE ~Czech (cestina)~
          ~czech~
          ~bgt/language/czech/prompts.tra~
-LANGUAGE ~French (Francais)~
+LANGUAGE ~French (francais)~
          ~french~
          ~bgt/language/french/prompts.tra~
 LANGUAGE ~German (Deutsch)~
          ~german~
          ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italian (Italiano)~
+LANGUAGE ~Italian (italiano)~
          ~italian~
          ~bgt/language/italian/prompts.tra~
-LANGUAGE ~Korean (Hangukeo)~
+LANGUAGE ~Korean (hangukeo)~
          ~korean~
          ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Polish (Polski)~
+LANGUAGE ~Polish (polski)~
          ~polish~
          ~bgt/language/polish/prompts.tra~
-LANGUAGE ~Russian (Russky)~
+LANGUAGE ~Russian (russky)~
          ~russian~
          ~bgt/language/russian/prompts.tra~
-LANGUAGE ~Spanish (Espanol)~
+LANGUAGE ~Spanish (espanol)~
          ~spanish~
          ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Simplified Chinese (Jiantizi)~
+LANGUAGE ~Simplified Chinese (jiantizi)~
          ~schinese~
          ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Traditional Chinese (Fantizi)~
+LANGUAGE ~Traditional Chinese (fantizi)~
          ~tchinese~
          ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
 >>>>>>>>
@@ -8463,34 +8463,34 @@ END~~~~~
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Czech (Cestina)~
+LANGUAGE ~Czech (cestina)~
          ~czech~
          ~bgt/language/czech/prompts.tra~
-LANGUAGE ~French (Francais)~
+LANGUAGE ~French (francais)~
          ~french~
          ~bgt/language/french/prompts.tra~
 LANGUAGE ~German (Deutsch)~
          ~german~
          ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italian (Italiano)~
+LANGUAGE ~Italian (italiano)~
          ~italian~
          ~bgt/language/italian/prompts.tra~
-LANGUAGE ~Korean (Hangukeo)~
+LANGUAGE ~Korean (hangukeo)~
          ~korean~
          ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Polish (Polski)~
+LANGUAGE ~Polish (polski)~
          ~polish~
          ~bgt/language/polish/prompts.tra~
-LANGUAGE ~Russian (Russky)~
+LANGUAGE ~Russian (russky)~
          ~russian~
          ~bgt/language/russian/prompts.tra~
-LANGUAGE ~Spanish (Espanol)~
+LANGUAGE ~Spanish (espanol)~
          ~spanish~
          ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Simplified Chinese (Jiantizi)~
+LANGUAGE ~Simplified Chinese (jiantizi)~
          ~schinese~
          ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Traditional Chinese (Fantizi)~
+LANGUAGE ~Traditional Chinese (fantizi)~
          ~tchinese~
          ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~"
       UNLESS ~LANGUAGE~
