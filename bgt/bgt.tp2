@@ -8349,7 +8349,7 @@ LANGUAGE ~Russian (russky)~
          ~bgt/language/russian/prompts.tra~
 LANGUAGE ~Spanish (espanol)~
          ~spanish~
-         ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/spanish/prompts.tra~
 LANGUAGE ~Simplified Chinese (jiantizi)~
          ~schinese~
          ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
@@ -8486,7 +8486,7 @@ LANGUAGE ~Russian (russky)~
          ~bgt/language/russian/prompts.tra~
 LANGUAGE ~Spanish (espanol)~
          ~spanish~
-         ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/spanish/prompts.tra~
 LANGUAGE ~Simplified Chinese (jiantizi)~
          ~schinese~
          ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
