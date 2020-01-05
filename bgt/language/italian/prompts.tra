@@ -60,10 +60,10 @@ Scegli tra:~
 @-1033= ~INSTALLAZIONE COMPLETATA CON AVVERTIMENTI~
 @-1034= ~vuoi vedere il file leggimi? [Y] Si, [N] No~
 @-1035= ~in Lingua~
-  
+
 @-1036= ~Sto saltando il GRUPPO [~
 @-1037= ~] perche' non conforme ai requisiti.~
-  
+
 @-1038= ~[A] Trattare singolarmente i componenti, [S] Saltare tutto, o scegliere una alternativa predefinita:~
 @-1039= ~[A] Trattare singolarmente i componenti, [R] Reinstallare la configurazione corrente, [U] Rimuovere tutto, [S] Saltare tutto, o scegliere una alternativa predefinita:~
 
@@ -101,9 +101,9 @@ Scegli tra:~
 @100023 = ~Musica completa Baldur's Gate/Shadows of Amn/Throne of Bhaal (ATTENZIONE: modifica BGMain.exe)~
 
 @100024 = ~Interfaccia grafica di gioco (GUI)~
-@100025 = ~"Interfaccia originale SoA/ToB"~
-@100026 = ~"Baldur's Gate Trilogy" (Elminster che brandisce una spada)~
-@100027 = ~"Baldur's Gate Trilogy" (Elminster che brandisce un bastone)~
+@100025 = ~Interfaccia originale SoA/ToB~
+@100026 = ~Baldur's Gate Trilogy (Elminster che brandisce una spada)~
+@100027 = ~Baldur's Gate Trilogy (Elminster che brandisce un bastone)~
 
 @100028 = ~Inserisci il percorso completo della tua installazione di Baldur's Gate, quindi premi Invio.~
 @100029 = ~Directory di Baldur's Gate non valida o installazione di Baldur's Gate non corretta.

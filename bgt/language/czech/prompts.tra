@@ -59,10 +59,10 @@ vyberte moznost:"
 @-1033= "INSTALOVAN S VAROVANIMI    "
 @-1034= "Chcete zobrazit readme? [Y] Ano [N] Ne"
 @-1035= "V jazyce"
-  
+
 @-1036= "Preskakuji SKUPINU ["
 @-1037= "] protoze nesplnuje pozadavky."
-  
+
 @-1038= "[A] Zeptat se na kazdy zvlast, [S] Preskocit vsechny, nebo zvol preddefinovany vyber:"
 @-1039= "[A] Zeptat se na kazdy zvlast, [R] Reinstaluj soucasnou konfiguraci, [U] Odinstaluj vse, [S] Preskoc vse, nebo zvol preddefinovany vyber:"
 
@@ -93,9 +93,9 @@ vyberte moznost:"
 @100023 = ~PLNA Baldur's Gate/Shadows of Amn/Throne of Bhaal HUDBA (VAROVANI: upravuje BGMain.exe!)~
 
 @100024 = ~Herni graficke uzivatelske rozhrani (GUI)~
-@100025 = ~"Puvodni SoA/ToB"~
-@100026 = ~"Baldur's Gate Trilogy" (Elminster drzici mec)~
-@100027 = ~"Baldur's Gate Trilogy" (Elminster drzici hul)~
+@100025 = ~Puvodni SoA/ToB~
+@100026 = ~Baldur's Gate Trilogy (Elminster drzici mec)~
+@100027 = ~Baldur's Gate Trilogy (Elminster drzici hul)~
 
 @100028 = ~Zadejte kompletni umisteni Vasi Baldur's Gate instalace a pote stisknete Enter.~
 @100029 = ~Neplatna cesta k Baldur's Gate nebo neplatna instalace Baldur's Gate.

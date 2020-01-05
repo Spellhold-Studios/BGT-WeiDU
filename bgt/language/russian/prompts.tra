@@ -18,22 +18,22 @@ than being asked about each one.
 
 @-1006= "Install Component ["
 @-1007= "]?
-[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
+[R]e-install, [N]o change, [U]ninstall or [Q]uit? "
 @-1008= "]?
-[I]nstall, or [N]ot Install or [Q]uit? "
+[I]nstall, [N]ot install or [Q]uit? "
 
 @-1009= "Enter part of a module name: "
 
-@-1010= "Re-Installing ["
+@-1010= "Re-installing ["
 @-1011= "] component "
-@-1012= "Re-Installing Using Language"
+@-1012= "Re-installing using language"
 
 @-1013= "Removing old installation of ["
 @-1014= "] first ..."
 @-1015= "SUCCESSFULLY REMOVED OLD"
 
 @-1016= "Installing"
-@-1017= "ERROR Installing ["
+@-1017= "ERROR installing ["
 @-1018= "], rolling back to previous state"
 @-1019= "SUCCESSFULLY INSTALLED     "
 @-1020= "Skipping"
@@ -43,7 +43,7 @@ than being asked about each one.
 @-1024= "SUCCESSFULLY REMOVED ["
 
 @-1025= "]?
-[R]e-install, [N]o Change, [U]ninstall, [Q]uit or choose one:"
+[R]e-install, [N]o change, [U]ninstall, [Q]uit or choose one:"
 @-1026= "]?
 [N]o, [Q]uit or choose one:"
 @-1027= " (currently installed)"
@@ -55,18 +55,17 @@ than being asked about each one.
 @-1030= "]?
 choose one:"
 @-1031= "]?
-[R]e-install, [N]o Change, [Q]uit or choose one:"
+[R]e-install, [N]o change, [Q]uit or choose one:"
 @-1032= "NOT INSTALLED DUE TO ERRORS"
 @-1033= "INSTALLED WITH WARNINGS    "
-@-1034= "Would you like to display the readme? [Y]es [N]o"
+@-1034= "Would you like to display the readme? [Y]es or [N]o"
 @-1035= "Using Language"
-  
+
 @-1036= "Skipping GROUP ["
 @-1037= "] because it fails its requirements."
-  
-@-1038= "[A]sk about each component, [S]kip all, or choose a pre-defined selection:"
-@-1039= "[A]sk about each component, [R]einstall the current configuration, [U]ninstall all, [S]kip all, or choose a pre-defined selection:"
 
+@-1038= "[A]sk about each component, [S]kip all, or choose a pre-defined selection:"
+@-1039= "[A]sk about each component, [R]e-install the current configuration, [U]ninstall all, [S]kip all, or choose a pre-defined selection:"
 
 @100000 = ~Baldur's Gate Trilogy - Core~
 @100001 = ~Uninstalling pre-setup component...~
@@ -94,9 +93,9 @@ choose one:"
 @100023 = ~Full Baldur's Gate/Shadows of Amn/Throne of Bhaal Music (WARNING: patches BGMain.exe)~
 
 @100024 = ~Game Graphical User Interface (GUI)~
-@100025 = ~"Original SoA/ToB"~
-@100026 = ~"Baldur's Gate Trilogy" (Elminster wielding sword)~
-@100027 = ~"Baldur's Gate Trilogy" (Elminster wielding staff)~
+@100025 = ~Original SoA/ToB~
+@100026 = ~Baldur's Gate Trilogy (Elminster wielding a sword)~
+@100027 = ~Baldur's Gate Trilogy (Elminster wielding a staff)~
 
 @100028 = ~Enter the full path to your Baldur's Gate installation then press Enter.~
 @100029 = ~Invalid Baldur's Gate directory, or incorrect Baldur's Gate installation.

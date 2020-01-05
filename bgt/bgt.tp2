@@ -83,7 +83,7 @@ LANGUAGE ~Russian (russky)~
          ~bgt/language/russian/scripts.tra~
 LANGUAGE ~Spanish (espanol)~
          ~spanish~
-         ~bgt/language/spanish/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/spanish/prompts.tra~
          ~bgt/language/spanish/setup.tra~
          ~bgt/language/spanish/dialog.tra~
          ~bgt/language/spanish/journal.tra~

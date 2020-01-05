@@ -60,10 +60,10 @@ Bitte waehlt eins aus:"
 @-1033= "MIT WARNUNGEN INSTALLIERT:    "
 @-1034= "Wollt Ihr Euch die Readme anzeigen lassen? [Y]: Ja, [N]: Nein."
 @-1035= "Benutze folgende Sprache:"
-  
+
 @-1036= "Die GRUPPE ["
 @-1037= "] wird uebersprungen, da ihre Voraussetzungen nicht erfuellt sind."
-  
+
 @-1038= "[A]: Jede Komponente einzeln abfragen, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
 @-1039= "[A]: Jede Komponente einzeln abfragen, [R]: Die aktuelle Konfiguration neu installieren, [U]: Alle deinstallieren, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
 
@@ -94,9 +94,9 @@ Bitte waehlt eins aus:"
 @100023 = ~Gesamte Baldurs Gate/Schatten von Amn/Thron des Bhaal Musik (WARNUNG: BGMain.exe wird gepatched)~
 
 @100024 = ~Graphische Spielbenutzeroberflaeche (GUI)~
-@100025 = ~"Original SvA/TdB"~
-@100026 = ~"Baldur's Gate Trilogie" (Elminster fuehrt ein Schwert)~
-@100027 = ~"Baldur's Gate Trilogie" (Elminster fuehrt einen Stab)~
+@100025 = ~Original SvA/TdB~
+@100026 = ~Baldur's Gate Trilogie (Elminster fuehrt ein Schwert)~
+@100027 = ~Baldur's Gate Trilogie (Elminster fuehrt einen Stab)~
 
 @100028 = ~Gebt den ganzen Verzeichnispfad von Baldur's Gate ein dann drueckt Enter.~
 @100029 = ~Ungueltiges Baldur's Gate Verzeichnis oder falsche Baldur's Gate Installation.
