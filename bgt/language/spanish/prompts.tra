@@ -87,7 +87,7 @@ elija uno:"
 
 @100018 = ~Musica de Baldur's Gate y Tales of the Sword Coast completa~
 @100019 = ~Musica Baldur's Gate/Shadows of Amn/Throne of Bhaal hibrida~
-@100020 = ~Musica Baldur's Gate Trilogy~
+@100020 = ~Baldur's Gate Trilogy - Musica~
 @100021 = ~Este mod requiere Throne of Bhaal.~
 @100022 = ~Instalando fixpack...~
 @100023 = ~Musica completa de Baldur's Gate/Shadows of Amn/Throne of Bhaal  (CUIDADO: parchea BGMain.exe)~
@@ -114,7 +114,7 @@ Es seguro abortar esta instalacion cerrando esta ventana o presionando Ctrl+C.~
 @100041 = ~Comprimiendo archivos del juego...~
 @100042 = ~La carpeta de Baldur's Gate I ha sido detectado en %bg1_dir%.
 Es correcto? [Y] Si o [N]o~
-@100043 = ~?Quiere comprimir todos los nuevos recursos? (recomendado, excepto para instalaciones de mega-modificaciones )
-[Y] Si o [N]o~
+@100043 = ~Comprimir todos los nuevos recursos (recomendado, excepto para mega-modificaciones)~
 @100044 = ~Sistema Unix-like detectado. Acesso permitido.%LNL%%LNL%~
 @100045 = ~Una version antigua de Windows ha sido detectada. Acceso limitado sera permitido.%WNL%%WNL%~
+@100046 = ~Requiere componente [Baldur's Gate Trilogy - Nucleo]~

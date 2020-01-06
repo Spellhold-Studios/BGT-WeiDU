@@ -66,8 +66,6 @@
 @-1038= "[A]sk about each component, [S]kip all, or choose a pre-defined selection:"
 @-1039= "[A]sk about each component, [R]einstall the current configuration, [U]ninstall all, [S]kip all, or choose a pre-defined selection:"
 
-
-
 @100000 = ~발더스 게이트 트릴로지 - 핵심~
 @100001 = ~이전 셋업 구성요소들 제거...~
 @100002 = ~chitin.key 와 override 디렉토리 백업...~
@@ -115,7 +113,7 @@ Ctrl+C를 누르거나 윈도우 창을 닫아서 설치를 취소하는 것이 안전합니다.~
 @100041 = ~게임 파일들을 압축중...~
 @100042 = ~다음으로 확인된 발더스 게이트 I 경로 %bg1_dir%.
 맞습니까? [Y]es or [N]o~
-@100043 = ~Biff하시겠습니까? (대형모드 설치자를 제외하고는 권한다)
-[Y]es or [N]o~
+@100043 = ~Biff하시겠습니까 (대형모드 설치자를 제외하고는 권한다)~
 @100044 = ~유닉스와 같은 OS가 검색되었습니다. 로그인 가능.%LNL%%LNL%~
 @100045 = ~오래된 버전의 윈도우가 검색되었습니다. 제한된 로그인만 가능합니다.%WNL%%WNL%~
+@100046 = ~구성 요소 필요 [발더스 게이트 트릴로지 - 핵심]~
