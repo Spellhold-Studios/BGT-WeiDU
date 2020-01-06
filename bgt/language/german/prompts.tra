@@ -67,7 +67,6 @@ Bitte waehlt eins aus:"
 @-1038= "[A]: Jede Komponente einzeln abfragen, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
 @-1039= "[A]: Jede Komponente einzeln abfragen, [R]: Die aktuelle Konfiguration neu installieren, [U]: Alle deinstallieren, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
 
-
 @100000 = ~Baldur's Gate Trilogie - Hauptteil~ 
 @100001 = ~Deinstalliere pre-setup Komponente...~
 @100002 = ~Sichere chitin.key und Override-Verzeichnis...~
@@ -115,7 +114,7 @@ Die Installation kann beendet werden, indem dieses Fenster geschlossen oder STRG
 @100041 = ~Komprimiere Spieldateien...~
 @100042 = ~Verzeichnis von Baldur's Gate I erkannt als %bg1_dir%.
 Ist das so richtig? [Y]: Ja, [N]: Nein.~
-@100043 = ~Wollt Ihr alle neuen Ressourcen biffen lassen? (empfohlen, ausser bei Megamod-Installationen)
-[Y]: Ja, [N]: Nein.~
+@100043 = ~Biff alle neuen Ressourcen (empfohlen, ausser bei mega modifikationen)~
 @100044 = ~Unix-artiges Betriebssystem erkannt. Protokollierung eingeschaltet.%LNL%%LNL%~
 @100045 = ~Eine alte Windows-Version wurde erkannt. Eingeschraenkte Protokollierung ist verfuegbar.%WNL%%WNL%~
+@100046 = ~Benotigt Komponente [Baldur's Gate Trilogie - Hauptteil]~

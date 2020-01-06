@@ -1,0 +1,44 @@
+//TS song compatibility
+DEFINE_ACTION_FUNCTION ~TSSongCompat~ BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~kachi01.wav~ THEN BEGIN
+    COPY_EXISTING + ~songlist.2da~ ~override/songlist.2da~
+      SET kachiko = 0
+      SET valygar = 0
+      SET sime = 0
+      COUNT_2DA_ROWS 3 "rows_cnt_ts"
+      FOR(cnt=0; cnt<"%rows_cnt_ts%"; cnt=cnt+1 ) BEGIN
+        READ_2DA_ENTRY cnt 1 3  "name_ts"
+        PATCH_IF( ("%name_ts%" STRING_COMPARE_CASE "Kachiko")=0 ) BEGIN
+          READ_2DA_ENTRY cnt 0 3  "kachiko"
+        END
+        PATCH_IF( ("%name_ts%" STRING_COMPARE_CASE "Sime")=0 ) BEGIN
+          READ_2DA_ENTRY cnt 0 3  "sime"
+        END
+        PATCH_IF( ("%name_ts%" STRING_COMPARE_CASE "Valygar")=0 ) BEGIN
+          READ_2DA_ENTRY cnt 0 3  "valygar"
+        END
+      END
+
+  COPY_EXISTING ~kachiko.bcs~  ~override/kachiko.bcs~
+                ~kach25.bcs~   ~override/kach25.bcs~
+                ~kachi25d.bcs~ ~override/kachi25d.bcs~
+                ~kachid.bcs~   ~override/kachid.bcs~
+    DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~PlaySong(%kachiko%)~ ~PlaySong(0)~
+    COMPILE_BAF_TO_BCS
+
+  COPY_EXISTING ~sime.bcs~    ~override/sime.bcs~
+                ~simed.bcs~   ~override/simed.bcs~
+    DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~PlaySong(%sime%)~ ~PlaySong(0)~
+    COMPILE_BAF_TO_BCS
+
+  COPY_EXISTING ~valygar.bcs~    ~override/valygar.bcs~
+                ~valy25.bcs~     ~override/valy25.bcs~
+                ~valyg25d.bcs~   ~override/valyg25d.bcs~
+                ~valygard.bcs~   ~override/valygard.bcs~
+    DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~PlaySong(%valygar%)~ ~PlaySong(0)~
+    COMPILE_BAF_TO_BCS
+  END
+END

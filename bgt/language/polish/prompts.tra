@@ -39,7 +39,7 @@ By oszczedzic czas mozesz wybrac co zrobic ze wszystkimi zamiast byc pytanym o k
 @-1021= "Usuwanie ["
 @-1022= "] (komponent #"
 @-1023= ")"
-@-1024= "DEZINSTALACJA POWIODLA SIE ["
+@-1024= "ODINSTALOWANIE POWIODLO SIE ["
 
 @-1025= "]?
 [R]einstaluj, [N]ie zmieniaj, [U] Odinstaluj, [Q] Wyjdz lub wybierz:"
@@ -68,7 +68,7 @@ wybierz jedno:"
 
 @100000 = ~Baldur's Gate Trilogy - Rdzen~
 @100001 = ~Usuwanie komponentow preinstalacyjnych...~
-@100002 = ~Tworzenie kopii bezpieczenstwa chittin.key i katalogu override...~
+@100002 = ~Tworzenie kopii bezpieczenstwa chitin.key i katalogu override...~
 @100003 = ~Patchowanie dialog.tlk.  Prosze czekac...~
 @100004 = ~Rejestrowanie GUI...~
 @100005 = ~Patchowanie plikow ustawien...~
@@ -89,9 +89,9 @@ wybierz jedno:"
 @100020 = ~Baldur's Gate Trilogy - Muzyka~
 @100021 = ~Tron Bhaala jest wymagany do zainstalowania tej modyfikacji.~
 @100022 = ~Instalowanie poprawek...~
-@100023 = ~Pelna muzyka Baldur's Gate/Cienie Amn/Tron Bhaala (OSTRZEZENIE: modyfikuje BGMain.exe)~
+@100023 = ~Pelna muzyka z Wrot Baldura/Cieni Amn/Tronu Bhaala (UWAGA: modyfikuje BGMain.exe)~
 
-@100024 = ~Graficzny Interfejs Uzytkownika (GUI)~
+@100024 = ~Graficzny interfejs uzytkownika (GUI)~
 @100025 = ~Oryginalny z Cieni Amn/Tronu Bhaala~
 @100026 = ~Baldur's Gate Trilogy (Elminster z mieczem)~
 @100027 = ~Baldur's Gate Trilogy (Elminster z kosturem)~
@@ -99,21 +99,21 @@ wybierz jedno:"
 @100028 = ~Podaj sciezke dostepu do gry Baldur's Gate i nacisnij ENTER.~
 @100029 = ~Nieprawidlowa sciezka instalacyjna Baldur's Gate badz nieprawidlowy typ instalacji.
 Mozna bezpiecznie przerwac instalacje w tym momencie przez zamkniecie okna lub wcisniecie CTRL+C.~
-@100030 = ~Rozpakowywanie plikow stworzen z BG:OzWM...~
-@100031 = ~Rozpakowywanie tekstow do tlumaczenia z BG:OzWM...~
-@100032 = ~Importowanie stworzonych postaci z BG:OzWM...~
-@100033 = ~Importowanie muzyki z BG:OzwM...~
-@100034 = ~Importowanie dzwiekow postaci z BG:OzwM...~
-@100035 = ~Importowanie dzwiekow z BG:OzWM...~
-@100036 = ~Importowanie filmow z BG:OzWM...~
-@100037 = ~Importowanie tilesetow z BG:OzWM...~
+@100030 = ~Rozpakowywanie plikow stworzen z Baldur's Gate:OzWM...~
+@100031 = ~Rozpakowywanie tekstow do tlumaczenia z Baldur's Gate:OzWM...~
+@100032 = ~Importowanie stworzonych postaci z Baldur's Gate:OzWM...~
+@100033 = ~Importowanie muzyki z Baldur's Gate:OzWM...~
+@100034 = ~Importowanie dzwiekow postaci z Baldur's Gate:OzWM...~
+@100035 = ~Importowanie dzwiekow z Baldur's Gate:OzWM...~
+@100036 = ~Importowanie filmow z Baldur's Gate:OzWM...~
+@100037 = ~Importowanie tilesetow z Baldur's Gate:OzWM...~
 @100038 = ~Konwertowanie tilesetow...~
 @100039 = ~Rozpakowywanie nowych tilesetow...~
 @100040 = ~Kompresowanie obszarow...~
 @100041 = ~Kompresowanie plikow gry...~
 @100042 = ~Wykryto instalacje BG1 w %bg1_dir%.
 czy ta sciezka jest prawidlowa? [Y] Tak lub [N]ie~
-@100043 = ~Czy chcesz zbiffowac wszystkie nowe zasoby? (zalecane, z wyjatkiem Mega Modyfikacji)
-[Y] Tak lub [N]ie~
+@100043 = ~Zbiffuj wszystkie nowe zasoby (zalecane, z wyjatkiem mega modyfikacji)~
 @100044 = ~Wykryto Unixopochodny system. Wlaczono log.%LNL%%LNL%~
 @100045 = ~Wykryto stara wersje Windows. Bedzie dostepny ograniczony log.%WNL%%WNL%~
+@100046 = ~Wymagany komponent [Baldur's Gate Trilogy - Rdzen]~

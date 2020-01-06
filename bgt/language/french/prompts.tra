@@ -67,9 +67,7 @@ choisir un parmi :"
 @-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
 @-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
 
-
-
-@100000 = ~Baldur's Gate Trilogy - Composant principal~
+@100000 = ~Baldur's Gate Trilogy - Principal~
 @100001 = ~Desinstallation du composant de pre-installation...~
 @100002 = ~Sauvegarde du fichier chitin.key et du dossier override...~
 @100003 = ~Modification du fichier dialog.tlk.  Veuillez patienter...~
@@ -116,7 +114,7 @@ Vous pouvez interrompre l'installation maintenant si vous le desirez en fermant 
 @100041 = ~Compression des fichiers du jeu...~
 @100042 = ~Baldur's Gate I detecte dans le repertoire %bg1_dir%.
 Est-ce exact ? [Y]Oui ou [N]on~
-@100043 = ~Voulez-vous biffer toutes les nouvelles ressources ? (recommande, sauf dans le cadre d'une mega-installation)
-[Y]Oui ou [N]on~
+@100043 = ~Biffer toutes les nouvelles ressources (recommande, sauf dans mega modifications)~
 @100044 = ~Systeme d'exploitation type Unix detecte. Journal active.%LNL%%LNL%~
 @100045 = ~Une version ancienne de Windows a ete detectee. Un journal restreint sera disponible.%WNL%%WNL%~
+@100046 = ~Necessite un composant [Baldur's Gate Trilogy - Principal]~
