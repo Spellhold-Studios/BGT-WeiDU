@@ -2,7 +2,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=en%20%7C%20cs%20%7C%20fr%20%7C%20de%20%7C%20it%20%7C%20ko%20%7C%20pl%20%7C%20ru%20%7C%20es%20%7C%20zh-cn%20%7C%20zh-tw&color=limegreen)
 
-# Baldur's Gate Trilogy (BGT-WeiDU)
+# Baldur's Gate Trilogy
 A [Spellhold Studios](http://www.spellholdstudios.net/) mod for Baldur's Gate II: Throne of Bhaal
 
 **Project Lead:** [Ascension64](https://github.com/Ascension64) (with permission from Bardez)
