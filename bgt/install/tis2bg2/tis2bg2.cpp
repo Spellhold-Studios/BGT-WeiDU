@@ -1,124 +1,127 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
 #include <string.h>
 #include <time.h>
+#include <cstdint>
 
 #ifdef _WIN32
-  # include <conio.h>
-  # include <dir.h>
-  # include <windows.h>
 
-  #ifdef __BORLANDC__ // if using a Borland compiler
-      #pragma option -a1  //switch to byte alignment
-  #else   // if we're using some other compiler
-      #pragma pack (push, before_tis2bg2)
-      #pragma pack (1)
-  #endif  //
+#include <conio.h>
+#include <dir.h>
+#include <windows.h>
 
-  # pragma hdrstop
-  # pragma argsused
+#pragma hdrstop
 
 #else
 
-  # include <unistd.h>
-  #include <sys/types.h>
-  #include <sys/stat.h>
-  #include <errno.h>
-  #include <stdlib.h>
-  # include <fcntl.h>
-  # include <sys/mman.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <errno.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/mman.h>
 
-  # define setmem(a, b, c) memset(a, c, b)
-  # define MAXPATH 256
-  # define HANDLE int
-  # define INVALID_HANDLE_VALUE (-1)
-  # define BYTE unsigned char
-  struct RGBQUAD { BYTE rgbBlue, rgbGreen, rgbRed, rgbAlpha; };
+#define setmem(a, b, c) memset(a, c, b)
+#define MAXPATH 256
+#define HANDLE int
+#define INVALID_HANDLE_VALUE (-1)
+#define BYTE unsigned char
+
+struct RGBQUAD
+{
+    BYTE rgbBlue;
+    BYTE rgbGreen;
+    BYTE rgbRed;
+    BYTE rgbAlpha;
+};
 
 #endif
 
 #ifdef __BIG_ENDIAN__
 
-# define SwapShort(x) ( (((x) & 0xff00) >> 8) | (((x) & 0x00ff) << 8) )
-# define SwapInt(x) ( (((x) & 0xff000000) >> 24) | (((x) & 0x00ff0000) >>  8) \
+#define SwapShort(x) ( (((x) & 0xff00) >> 8) | (((x) & 0x00ff) << 8) )
+#define SwapInt(x) ( (((x) & 0xff000000) >> 24) | (((x) & 0x00ff0000) >>  8) \
                     | (((x) & 0x0000ff00) <<  8) | (((x) & 0x000000ff) << 24) )
+
 #else
-# define SwapShort(x) x
-# define SwapInt(x) x
+
+#define SwapShort(x) x
+#define SwapInt(x) x
 
 #endif
 
-struct TTIS_Header  //unbiffed TIS doesn't have one
-{
-  char Sign[4];    //'TIS '
-  char Ver[4];     //'V1  '
-  long TilesNum;
-  long TilesSectionLength;
-  long TilesOffset;
-  long TileSize;
-};
+#pragma pack(push, 1)
 
+struct TTIS_Header // Unbiffed TIS doesn't have one
+{
+    char Sign[4]; // 'TIS '
+    char Ver[4]; // 'V1  '
+    std::int32_t TilesNum;
+    std::int32_t TilesSectionLength;
+    std::int32_t TilesOffset;
+    std::int32_t TileSize;
+};
 
 struct TTIS_Tile
 {
-  RGBQUAD Palette[256];
-  BYTE Bits[4096];
+    RGBQUAD Palette[256];
+    BYTE Bits[4096];
 };
-
 
 struct TWED_Header
 {
-  char Sign[4];
-  char Ver[4];
-  long OverlaysNum;
-  long DoorsNum;
-  long OverlaysOffset;
-  long ScndHdrOffset;
-  long DoorsOffset;
-  long DoorTileCellIdxOffset;
+    char Sign[4];
+    char Ver[4];
+    std::int32_t OverlaysNum;
+    std::int32_t DoorsNum;
+    std::int32_t OverlaysOffset;
+    std::int32_t ScndHdrOffset;
+    std::int32_t DoorsOffset;
+    std::int32_t DoorTileCellIdxOffset;
 };
 
 struct TWED_Overlay
 {
-  short Width;
-  short Height;
-  char Tileset[8];
-  long unknown1;
-  long TilemapOffset;
-  long TileIdxLookupOffset;
+    std::int16_t Width;
+    std::int16_t Height;
+    char Tileset[8];
+    std::int32_t unknown1;
+    std::int32_t TilemapOffset;
+    std::int32_t TileIdxLookupOffset;
 };
-
 
 struct TWED_Tilemap
 {
-  short StartIndex;
-  short TilesCnt;
-  short AltIdx;
-  BYTE  Overlay;
-  BYTE  unknown[3];
+    std::int16_t StartIndex;
+    std::int16_t TilesCnt;
+    std::int16_t AltIdx;
+    BYTE Overlay;
+    BYTE unknown[3];
 };
-
 
 struct TWED_Door
 {
-  char  Name[8];
-  short unknown1;
-  short FirstTileCellIdx;
-  short TilesCnt;
-  short PolygonsOpenCnt;
-  short PolygonsClosedCnt;
-  long  PolygonsOpenOffset;
-  long  PolygonsClosedOffset;
+    char Name[8];
+    std::int16_t unknown1;
+    std::int16_t FirstTileCellIdx;
+    std::int16_t TilesCnt;
+    std::int16_t PolygonsOpenCnt;
+    std::int16_t PolygonsClosedCnt;
+    std::int32_t PolygonsOpenOffset;
+    std::int32_t PolygonsClosedOffset;
 };
 
-#ifdef  _WIN32
-    #ifdef __BORLANDC__ // if we're using a Borland compiler
-        #pragma option -a.  // switch back to original alignment
-    #else   //if NOT using a Borland compiler
-        #pragma pack (pop, before_tis2bg2)
-    #endif  //
-#else
-#endif
+#pragma pack(pop)
+
+// Compile time struct size verification
+static_assert(sizeof(TTIS_Header) == 24, "Incorrect compile-time TIS header struct size");
+static_assert(sizeof(RGBQUAD) == 4, "Incorrect compile-time RGB quad struct size");
+static_assert(sizeof(TTIS_Tile) == 5120, "Incorrect compile-time TIS tile struct size");
+static_assert(sizeof(TWED_Header) == 32, "Incorrect compile-time WED header struct size");
+static_assert(sizeof(TWED_Overlay) == 24, "Incorrect compile-time WED overlay struct size");
+static_assert(sizeof(TWED_Tilemap) == 10, "Incorrect compile-time WED tilemap struct size");
+static_assert(sizeof(TWED_Door) == 26, "Incorrect compile-time WED door struct size");
 
 
 bool silent_mode=false;
