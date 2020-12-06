@@ -4,7 +4,7 @@
 @200000 = ~Pos¹¿ek Ithmeery~
 
 //@23967 - change Blunt Weapons to Mace
-@200001 = ~Wekiera +2: 'Krotana Rozbijacz G³ów'
+@200001 = ~Wekiera +2: 'Rozbijacz ³bów Krotana'
 Nawet dzikie hordy maj¹ swoich bohaterów i nawet jeœli w cywilizowanym towarzystwie mówi siê o nich jako o ³otrach, to jednak ich czyny bywaj¹ niekiedy imponuj¹ce. Krotan by³ wyj¹tkowo inteligentnym orkiem, wed³ug orczej miary oczywiœcie, który w Roku Zaginionej Damy, 1241 KD, dowodzi³ ci¹gle zmieniaj¹cym rozmiary legionem ogrów, orków, hobgoblinów i tym podobnych bestii. W tym w³aœnie roku grupa orczych bandytów przypuszczalnie porwa³a i zabi³a tethyriañsk¹ szlachciankê. Odpowiedzi¹ w³adz Tethyru by³a straszliwa rzeŸ orków na ca³ym po³udniu, zorganizowana dla uczczenia pamiêci tej kobiety. Krotan zorganizowa³ obronê, dziêki której jego lud, jakkolwiek wygnany, nie zosta³ wybity do ostatniego. Sam Krotan pad³ pod koniec tego konfliktu, a jego g³owa zosta³a osadzona na palu przy cmentarzu, na którym pochowano m³od¹ szlachciankê. Ciekawostk¹ jest, ¿e orki nazywaj¹ ten okres "Rokiem Przeci¹gniêcia Struny".
 
 PARAMETRY:
@@ -22,7 +22,7 @@ Nie mo¿e u¿ywaæ:
  Z³odziej~
 
 //@7350 - change Bow Weapons to Long Bow
-@200002 = ~D³ugi ³uk celnoœci: 'Zabójczy Strza³'
+@200002 = ~D³ugi ³uk celnoœci: 'Zabójczy strza³'
 Po latach rywalizacji ksi¹¿êta Spandeliyon i Delthuntle zdecydowali siê zorganizowaæ ma³y turniej i rozs¹dziæ, który z nich jest lepszym ³ucznikiem. Obaj chwalili siê potêg¹ swych magicznych ³uków, ale to nie wystarcza³o Edwallowi Dest, ksiêciu Spandeliyon. Zorganizowa³ kradzie¿ broni przeciwnika i w dniu turnieju nie móg³ nie puszyæ siê ze swej przewagi. Ksi¹¿ê Delthuntle - znany jako Rajmond - poprosi³ Edwalla, by pokaza³ co potrafi strzelaj¹c do stracha na wróble. Dest napi¹³ d³ugi ³uk i wypuœci³ strza³ê z wielk¹ determinacj¹, nie zastanawiaj¹c siê nad tym, ¿e strach na wróble niezwykle go przypomina. Grot rozci¹³ na dwie po³ówki g³owê wielkiej lalki voodoo i w tej samej chwili g³owa Edwalla równie¿ siê rozpêk³a.
 
 PARAMETRY:
@@ -40,7 +40,7 @@ Nie mo¿e u¿ywaæ:
  Z³odziej~
 
 //@7351 = change Bow Weapons to Short Bow
-@200003 = ~Krótki ³uk Or³ów: 'Obroñca Driad'
+@200003 = ~Krótki ³uk or³ów: 'Obroñca driad'
 Driady z lasu Gulthmere, pragn¹c obroniæ sw¹ spo³ecznoœæ przed wdzieraj¹cymi siê na ich tereny orkami wycinaj¹cymi drzewa, podarowa³y ten wspania³y ³uk herosowi Hannable'owi Bia³emu. Drwale oœmielili siê œci¹æ wielki d¹b, przy okazji niemal zabijaj¹c mieszkaj¹c¹ w nim driadê; po tym czynie rozgorza³o straszliwe starcie. Z pomoc¹ ¿yj¹cych w lesie zwierz¹t Hannable zabi³ wszystkich bandytów zanim zdo³ali oni wyrz¹dziæ wiêcej szkód. Orki musia³y porzuciæ swój plan, obawiaj¹c siê gniewu lasu i chroni¹cego go herosa. Nie trzeba chyba wspominaæ o tym, ¿e po tym wszystkim Hannable ¿y³ d³ugo i szczêœliwie... nie, BARDZO szczêœliwie!
 
 PARAMETRY:
@@ -57,7 +57,7 @@ Nie mo¿e u¿ywaæ:
  Mag~
 
 //@20885 - change Small Sword to Dagger
-@200004 = ~Srebrny Sztylet: 'Zguba Likantropów'
+@200004 = ~Srebrny sztylet: 'Zguba likantropów'
 Ten sztylet +1 daje premiê +4, gdy jest u¿yty przeciwko likantropom. Wyku³a go elfia ³owczyni Dynala Z³otorêka, która chcia³a wybawiæ swoj¹ ojczyznê od szakalo³aków. Zosta³a zabita przez plemiê orków w Szarych Szczytach, gdy tropi³a przywódcê szakalo³aków.
 
 PARAMETRY:
