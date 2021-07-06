@@ -1,0 +1,126 @@
+//BELTBRD.D
+@201810 = ~La gente ha oído hablar de Sarevok, y su curiosidad va en aumento. Los nobles en particular están realizando preguntas muy inoportunas. Por ejemplo: ¿cómo pudisteis matar a un Hijo de Bhaal?~
+@201812 = ~Los Ladrones de las Sombras lo han filtrado al templo que hay bajo su base. Creo que se trata de un intento para echaros de la ciudad. Es probable que se sientan amenazados por vuestra presencia.~
+@201813 = ~Y por si los nobles no fueran un problema suficiente, necesito que me ayudéis en un asunto mucho más importante.~
+@201814 = ~¿De qué se trata?~
+@201815 = ~Amn todavía planea declararnos la guerra. He intentado enviar varias cartas al Consejo de los Seis, en Athkatla, pero parece que no responden. No sé si por culpa de mis mensajeros o del propio Consejo.~
+@201816 = ~¿Y eso qué tiene que ver conmigo?~
+@201817 = ~¿Qué queréis que haga?~
+@201818 = ~¡<CHARNAME>! Habéis... ¿habéis vencido? ¿Sarevok... ha caído?~
+@201819 = ~Sí, todo ha terminado. Le he matado.~
+@201820 = ~Y pensar que todos le adoraban hace apenas unas horas... *ejem*~
+@201821 = ~Tengo un nuevo contacto en Athkatla. Necesito entregarle este documento para que el Consejo de los Seis sepa la verdad sobre todo lo ocurrido. Voy a intentar reunirme con ellos en secreto; espero poder convencerles de que Sarevok fue el responsable de las amenazas que recibieron y que Puerta de Baldur no tuvo nada que ver con todo eso.~
+@201822 = ~Necesito que alguien se encargue de esta importantísima tarea. Quiero que os reunáis con mi contacto y le entreguéis esta carta. Si por lo que sea no apareciese, o muriese emboscado por bandidos, por lo menos sabría que vos seríais capaz de acabar con ellos y continuar con la misión.~
+@201823 = ~¿Athkatla? ¿En Amn? Tardaré mucho tiempo en llegar hasta allí. ¿No podríamos acelerar el viaje de algún modo?~
+@201824 = ~Sí, eso me lleva al siguiente problema. Mis magos están creando un conjuro de teletransportación. Por desgracia nunca he estado en Athkatla, y para que el hechizo funcione es necesario haber estado en el punto de destino.~
+@201826 = ~Afortunadamente conozco muy bien algunas zonas de caza al norte de esa ciudad, y podría llevaros hasta allí. Se lo he dicho a mi contacto, por lo que debería haber varios escoltas preparados para llevaros a la ciudad.~
+@201827 = ~No lo entiendo. Si podéis teletransportar a cualquiera hasta ese lugar, ¿por qué no enviáis a un mensajero? ¿Por qué debo ser yo?~
+@201828 = ~Por dos motivos. El primero, como he dicho antes, es porque los nobles de aquí os temen. Sacaros de la ciudad durante varios días me dará tiempo para calmar sus ánimos. El segundo es que mi contacto ha oído hablar de vuestras hazañas. Parece que vuestra fama es bien conocida por toda la Costa de la Espada, y cree que el Consejo será más proclive a tomarse mis peticiones en serio si alguien como vos apoya nuestra causa. Incluso se lo he notificado a algunos de vuestros compañeros para que os podáis reunir allí con ellos. Tendréis que llegar a Amn a pie, así que aseguraos de preparar todo lo necesario para un largo viaje. Os deseo mucha suerte.~
+//BELTBRD.D - new lines (v1.06)
+@201829 = ~¿Estáis listo para viajar a Athkatla?~  ~¿Estáis lista para viajar a Athkatla?~
+@201830 = ~Sí, estoy listo.~ ~Sí, estoy lista.~
+@201831 = ~No, necesito más tiempo para prepararme.~
+@201832 = ~¿Qué era lo que tenía que hacer?~
+@201833 = ~Buena suerte, buen viaje.~
+@201834 = ~Preparaos rápidamente. No hay tiempo que perder.~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// KingDiamond's Extra Dialogue
+////////////////////////////////////////////////////////////////////////////////////////
+//WINSKI.D
+@203403 = ~Así que... le habéis matado, ¿verdad? No sabía quién se alzaría con la victoria, aunque debería haber imaginado que seríais vos. Siempre fuisteis el eje central de todo esto, y de todas formas su victoria no le hubiera servido para nada.~
+@203404 = ~Dejadme aquí. Ya... ya no me quedan fuerzas. Dejad que esos bastardos del Puño Llameante se encarguen de mí. Ya no me importa.~
+
+//SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
+@203405 = ~Esas personas son buscadas y deben ser capturaas por los múltiples asesinatos que han cometido, ¡MATADLAS!~
+
+//VOLETA.D
+@203406 = ~Habéis vuelto. Sinceramente no me lo esperaba; nunca nadie había atravesado este laberinto con anterioridad. Al menos parece que ese maldito bastardo y su séquito han sido eliminados.~
+@203407 = ~No os preocupéis por mí, pronto vendrán a ayudarme. Apresuraos y salid de aquí cuanto antes; ya habéis causado suficientes problemas.~
+
+////////////////////////////////////////////////////////////////////////////////////////
+// For picking known spells for new Shadows of Amn characters
+////////////////////////////////////////////////////////////////////////////////////////
+//A6GENSPL.D
+@204000   = ~Por favor PAUSA el juego, elige el nivel de dificultad NOVICIO o NORMAL, y luego continúa jugando.~
+@204001   = ~Debes seleccionar hechizos conocidos para <CHARNAME>.~
+@204002   = ~Elige la especialidad Nivel 2 para <CHARNAME>.~
+@204003   = ~(Hechizos de nivel 2)~
+@204004   = ~Contorno borroso (Ilusión)~
+@204005   = ~Detectar el mal (Adivinación)~
+@204006   = ~Detectar invisibilidad (Adivinación)~
+@204007   = ~Horror (Nigromancia)~
+@204008   = ~Invisibilidad (Ilusión)~
+@204009   = ~Abrir cerradura (Alteración)~
+@204010   = ~Conocer alineamiento (Adivinación)~
+@204011   = ~Suerte (Encantamiento)~
+@204012   = ~Resistir miedo (Abjuración)~
+@204013   = ~Flecha ácida de Melf (Conjuración)~
+@204014   = ~Imagen espejada (Ilusión)~
+@204015   = ~Nube apestosa (Invocación)~
+@204016   = ~Fuerza (Alteración)~
+@204017   = ~Telaraña (Invocación)~
+@204018   = ~Quemadura de Agannazar (Invocación)~
+@204019   = ~Toque de Ghoul (Nigromancia)~
+@204020   = ~Vocalizar (Alteración)~
+@204021   = ~Palabra de poder, Dormir (Conjuración)~
+@204022   = ~Rayo de debilitamiento (Encantamiento)~
+@204023   = ~Escudo de caos* (Abjuración)~
+@204024   = ~Sordera (Ilusión)~
+@204025   = ~Partículas rutilantes (Conjuración)~
+@204026   = ~Elige seis hechizos de nivel 2 para <CHARNAME>.~
+@204027   = ~Elige la especialidad Nivel 3 para <CHARNAME>, o cualquier hechizo para Mago Salvaje.~
+@204028   = ~(Hechizos de nivel 3)~
+@204029   = ~Clarividencia (Adivinación)~
+@204030   = ~Remover magia (Abjuración)~
+@204031   = ~Flecha de fuego (Conjuración)~
+@204032   = ~Bola de fuego (Invocación)~
+@204033   = ~Celeridad (Alteración)~
+@204034   = ~Inmovilizar persona (Encantamiento)~
+@204035   = ~Invisibilidad radio 10 (Ilusión)~
+@204036   = ~Rayo relampagueante (Invocación)~
+@204037   = ~Convocar monstruos I (Conjuración)~
+@204038   = ~No Detección (Abjuración)~
+@204039   = ~Protección de los misiles normales (Abjuración)~
+@204040   = ~Enlentecer (Alteración)~
+@204041   = ~Trampa calavera (Nigromancia)~
+@204042   = ~Toque vampírico (Nigromancia)~
+@204043   = ~Encantar (Encantamiento)~
+@204044   = ~Armadura fantasmal (Conjuración)~
+@204045   = ~Desvío de hechizos menor (Abjuración)~
+@204046   = ~Protección contra el fuego (Abjuración)~
+@204047   = ~Protección contra el frío (Abjuración)~
+@204048   = ~Impulsar/Desviación (Abjuración)~
+@204049   = ~Detectar Ilusión (Adivinación)~
+@204050   = ~Inmovilizar no muerto (Nigromancia)~
+@204051   = ~Meteoros de Melf (Invocación)~
+@204052   = ~Disipar magia (Abjuración)~
+@204053   = ~Elige cinco hechizos de nivel 3 para <CHARNAME>.~
+@204054   = ~Elige la especialidad Nivel 4 para <CHARNAME>, o cualquier hechizo para Mago Salvaje.~
+@204055   = ~(Hechizos de nivel 4)~
+@204056   = ~Confusión (Encantamiento)~
+@204057   = ~Escudo de fuego (Azul) (Invocación)~
+@204058   = ~Tormenta de hielo (Invocación)~
+@204059   = ~Invisibilidad mejorada (Ilusión)~
+@204060   = ~Globo menor de invulnerabilidad (Abjuración)~
+@204061   = ~Convocar monstruos II (Conjuración)~
+@204062   = ~Piel pétrea (Alteración)~
+@204063   = ~Contagio (Nigromancia)~
+@204064   = ~Quitar maldición (Abjuración)~
+@204065   = ~Emoción (Encantamiento)~
+@204066   = ~Gran enfermedad (Encantamiento)~
+@204067   = ~Esfera de Otiluke (Alteración)~
+@204068   = ~Armadura espiritual (Nigromancia)~
+@204069   = ~Polimorfar a otro (Alteración)~
+@204070   = ~Polimorfar uno mismo (Alteración)~
+@204071   = ~Arma encantada (Encantamiento)~
+@204072   = ~Escudo de fuego (Rojo) (Invocación)~
+@204073   = ~Palabra secreta (Abjuración)~
+@204074   = ~Secuenciador menor (Invocación)~
+@204075   = ~Campo de teletransportación (Alteración)~
+@204076   = ~Conjurar araña (Conjuración)~
+@204077   = ~Visión lejana (Adivinación)~
+@204078   = ~Ojo de mago (Adivinación/Alteración)~
+@204079   = ~Elige cinco hechizos de nivel 4 para <CHARNAME>.~
+@204080   = ~Selección de hechizos completada.~
+@204081   = ~No olvides resetear el nivel de dificultad al elegido originalmente.~

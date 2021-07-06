@@ -15,7 +15,7 @@
 @BGT_781015  = ""
 @BGT_781016  = ""
 @BGT_781017  = "Beregost"
-@BGT_781018  = "Mesón###del###Brazo###Amigo"
+@BGT_781018  = "MesÃ³n###del###Brazo###Amigo"
 @BGT_781019  = ""
 @BGT_781020  = "Bosque###de###las###Capas"
 @BGT_781021  = "Seto###Alto"
@@ -42,3 +42,4 @@
 @BGT_781042  = "Torre###de###Durlag"
 @BGT_781043  = "Barba###de###Ulgoth"
 @BGT_781044  = ""
+

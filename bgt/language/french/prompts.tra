@@ -67,9 +67,7 @@ choisir un parmi :"
 @-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
 @-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
 
-
-
-@100000 = ~Baldur's Gate Trilogy - Composant principal~
+@100000 = ~Baldur's Gate Trilogy - Principal~
 @100001 = ~Desinstallation du composant de pre-installation...~
 @100002 = ~Sauvegarde du fichier chitin.key et du dossier override...~
 @100003 = ~Modification du fichier dialog.tlk.  Veuillez patienter...~
@@ -95,9 +93,9 @@ choisir un parmi :"
 @100023 = ~Musique integrale de Baldur's Gate/Shadows of Amn/Throne of Bhaal (ATTENTION: modifie BGMain.exe)~
 
 @100024 = ~Interface Graphique Utilisateur (GUI)~
-@100025 = ~"SoA/ToB d'origine"~
-@100026 = ~"Baldur's Gate Trilogy" (Elminster avec epee)~
-@100027 = ~"Baldur's Gate Trilogy" (Elminster avec baton)~
+@100025 = ~SoA/ToB d'origine~
+@100026 = ~Baldur's Gate Trilogy (Elminster avec epee)~
+@100027 = ~Baldur's Gate Trilogy (Elminster avec baton)~
 
 @100028 = ~Entrez le chemin complet de votre installation de Baldur's Gate puis enfoncez Entree.~
 @100029 = ~Le chemin d'installation de Baldur's Gate est incorrect, ou l'installation de Baldur's Gate n'est pas complete.
@@ -116,7 +114,7 @@ Vous pouvez interrompre l'installation maintenant si vous le desirez en fermant 
 @100041 = ~Compression des fichiers du jeu...~
 @100042 = ~Baldur's Gate I detecte dans le repertoire %bg1_dir%.
 Est-ce exact ? [Y]Oui ou [N]on~
-@100043 = ~Voulez-vous biffer toutes les nouvelles ressources ? (recommande, sauf dans le cadre d'une mega-installation)
-[Y]Oui ou [N]on~
+@100043 = ~Biffer toutes les nouvelles ressources (recommande, sauf dans mega modifications)~
 @100044 = ~Systeme d'exploitation type Unix detecte. Journal active.%LNL%%LNL%~
 @100045 = ~Une version ancienne de Windows a ete detectee. Un journal restreint sera disponible.%WNL%%WNL%~
+@100046 = ~Necessite un composant [Baldur's Gate Trilogy - Principal]~

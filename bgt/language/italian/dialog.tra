@@ -1,6 +1,6 @@
 //BELTBRD.D
 @201810 = ~La gente ha sentito di Sarevok.  Stanno diventando curiosi.  I nobili in particolare stanno facendo domande.  Domande pericolose.  Tipo come sei riuscito ad uccidere un figlio di Bhaal.~ ~La gente ha sentito di Sarevok.  Stanno diventando curiosi.  I nobili in particolare stanno facendo domande.  Domande pericolose.  Tipo come sei riuscita ad uccidere un figlio di Bhaal.~
-@201812 = ~I Ladri Tenebrosi hanno fatto trapelare la notizia dell'esistenza del Tempio nei sotterranei del loro complesso.  Penso possa essere stato un tentativo per spezzare le radici che hai con questa città.  Probabilmente si sentono minacciati dalla tua presenza qui.~ //'I know' deleted at start of line
+@201812 = ~I Ladri Tenebrosi hanno fatto trapelare la notizia dell'esistenza del Tempio nei sotterranei del loro complesso.  Penso possa essere stato un tentativo per spezzare le radici che hai con questa città.  Probabilmente si sentono minacciati dalla tua presenza qui.~
 @201813 = ~Come se i nobili non fossero già un problema, ho una questione più grossa che tu potresti essere in grado di risolvere.~
 @201814 = ~Di cosa si tratta?~
 @201815 = ~Amn progetta ancora di muovere guerra contro di noi.  Ho provato a inviare dei messaggi al Consiglio di Athlatka ma non sembrano rispondere.  Non so se il problema sia con i miei messaggeri o con il Consiglio.~
@@ -8,12 +8,12 @@
 @201817 = ~E tu cosa vuoi che io faccia?~
 @201818 = ~<CHARNAME>!  La vittoria è... tua?  Sarevok è... morto?~
 @201819 = ~Sì, il fatto è compiuto.  Sarevok è caduto sotto la mia lama.~
-@201820 = ~Pensare che l'abbiamo lodato solo poche ore fa... *ahem*~ //everything after *ahem* deleted
+@201820 = ~Pensare che l'abbiamo lodato solo poche ore fa... *ahem*~
 @201821 = ~Ho un nuovo contatto in Athlatka.  Ho bisogno di fargli avere questo documento così che il Consiglio dei Sei lo possa leggere e conoscere la verità riguardo i problemi qui.  Sto proponendo un incontro segreto tra me e il consiglio.  Spero possa provare loro che Sarevok era responsabile delle minacce a loro e che Baldur's Gate non vuole la guerra.~
 @201822 = ~Ti sto dicendo questo perchè ho bisogno di qualcuno che possa completare questo lavoro importante.  Voglio che tu incontri il mio contatto e porti questa lettera a lui.  Se i miei messaggeri non possono giungere là a causa dei banditi o che altro, almeno so che tu sarai in grado di sconfiggerli e continuare con questa missione.~
 @201823 = ~Athlatka?  Nell'Amn?  Ci vorrà del tempo per giungere laggiù.  C'è un modo per velocizzare il mio viaggio?~
 @201824 = ~Sì, e questo porta al mio prossimo punto.  I miei maghi mi hanno scritto un incantesimo per teletrasportarti lì.  Sfortunatamente, non sono mai stato ad Athlatka, e il teletrasporto funziona solo se si conosce la destinazione.~
-@201826 = ~Ho intrapreso numerosi viaggi di caccia appena a nord di Athlatka.  Conosco una zona molto bene e posso teletrasportarti in quel punto.  L'ho riferito al mio contatto ed egli dovrebbe avere delle persone che ti stanno aspettando là.  Essi possono scortarti fino alla città.~ //'Patience please' deleted at start of line
+@201826 = ~Ho intrapreso numerosi viaggi di caccia appena a nord di Athlatka.  Conosco una zona molto bene e posso teletrasportarti in quel punto.  L'ho riferito al mio contatto ed egli dovrebbe avere delle persone che ti stanno aspettando là.  Essi possono scortarti fino alla città.~
 @201827 = ~Sono confuso.  Se puoi teletrasportare qualcuno per incontrarsi con questo contatto, perchè non mandi solamente un messaggero?  Perchè io?~ ~Sono confusa.  Se puoi teletrasportare qualcuno per incontrarsi con questo contatto, perchè non mandi solamente un messaggero?  Perchè io?~
 @201828 = ~Per due motivi principalmente.  Primo, come ho detto prima, i nobili qui sono spaventati da te.  Andandotene dal paese per qualche giorno mi darai il tempo di calmare le loro paure.  Il secondo motivo è perchè il mio contatto ha sentito parlare di voi.  Sembra che voi siate degli eroi della Costa della Spada.  Il mio contatto pensa che il Consilio sarebbe molto più ben disposto a prendere le mie richieste seriamente se degli eroi come voi sostenessero la nostra causa.  Ho persino avvertito qualcuno dei vostri amici in modo che possano incontrarvi là.  Dovrete ritornare da Amn a piedi, quindi andate e siate sicuri di avere ampie provviste per il lungo viaggio.  Buona fortuna, e fate un viaggio sicuro.~
 //BELTBRD.D - new lines (v1.06)
@@ -24,15 +24,9 @@
 @201833 = ~Buona fortuna, e buon viaggio.~
 @201834 = ~Allora fai in fretta. Non c'è tempo da perdere.~
 
-//SARDEAD.D
-@202200 = ~È caduto! La battaglia è vinta!~
-
 ////////////////////////////////////////////////////////////////////////////////////////
 // KingDiamond's Extra Dialogue
 ////////////////////////////////////////////////////////////////////////////////////////
-//TAEROM.D
-@203402 = ~Dunque, è una perdita di tempo!  Spero che marcisca nel tuo zaino, ne apprezzerai l'aroma. Così imparerai!~
-
 //WINSKI.D
 @203403 = ~Così... l'hai ucciso, vero?  Non sapevo chi ne sarebbe uscito vincitore, ma avrei dovuto supporre che saresti stato tu.  Sei stato la spina nel fianco per molto tempo, e la sua vittoria sarebbe stata comunque vuota.~ ~Così... l'hai ucciso, vero?  Non sapevo chi ne sarebbe uscito vincitore, ma avrei dovuto supporre che saresti stata tu.  Sei stata la spina nel fianco per molto tempo, e la sua vittoria sarebbe stata comunque vuota.~
 @203404 = ~Lasciami qui da solo.  Io... Io, non mi è rimasta più forza.  Che quel dannato Pugno venga a prendermi. Non mi importa più.~

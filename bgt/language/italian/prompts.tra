@@ -60,10 +60,10 @@ Scegli tra:~
 @-1033= ~INSTALLAZIONE COMPLETATA CON AVVERTIMENTI~
 @-1034= ~vuoi vedere il file leggimi? [Y] Si, [N] No~
 @-1035= ~in Lingua~
-  
+
 @-1036= ~Sto saltando il GRUPPO [~
 @-1037= ~] perche' non conforme ai requisiti.~
-  
+
 @-1038= ~[A] Trattare singolarmente i componenti, [S] Saltare tutto, o scegliere una alternativa predefinita:~
 @-1039= ~[A] Trattare singolarmente i componenti, [R] Reinstallare la configurazione corrente, [U] Rimuovere tutto, [S] Saltare tutto, o scegliere una alternativa predefinita:~
 
@@ -101,9 +101,9 @@ Scegli tra:~
 @100023 = ~Musica completa Baldur's Gate/Shadows of Amn/Throne of Bhaal (ATTENZIONE: modifica BGMain.exe)~
 
 @100024 = ~Interfaccia grafica di gioco (GUI)~
-@100025 = ~"Interfaccia originale SoA/ToB"~
-@100026 = ~"Baldur's Gate Trilogy" (Elminster che brandisce una spada)~
-@100027 = ~"Baldur's Gate Trilogy" (Elminster che brandisce un bastone)~
+@100025 = ~Interfaccia originale SoA/ToB~
+@100026 = ~Baldur's Gate Trilogy (Elminster che brandisce una spada)~
+@100027 = ~Baldur's Gate Trilogy (Elminster che brandisce un bastone)~
 
 @100028 = ~Inserisci il percorso completo della tua installazione di Baldur's Gate, quindi premi Invio.~
 @100029 = ~Directory di Baldur's Gate non valida o installazione di Baldur's Gate non corretta.
@@ -122,7 +122,7 @@ Si puo' interrompere questa installazione chiudendo la finestra o premendo Ctrl+
 @100041 = ~Accorpamento dei file di gioco...~
 @100042 = ~Individuata la directory di Baldur's Gate I in %bg1_dir%.
 E' corretta? [Y] Si', [N] No~
-@100043 = ~Vuoi accorpare tutte le nuove risorse? (consigliato, eccetto per installazioni di mega-modificazione)
-[Y] Si', [N] No~
+@100043 = ~Accorpare tutte le nuove risorse (consigliato, eccetto per mega modificazione)~
 @100044 = ~SO di tipo Unix individuato. Logging abilitato.%LNL%%LNL%~
-@100045 = ~Una vecchia versione di Windows Š stata indivudata. Sar… disponibile un logging limitato.%WNL%%WNL%~
+@100045 = ~Una vecchia versione di Windows e stata indivudata. Sara disponibile un logging limitato.%WNL%%WNL%~
+@100046 = ~Richiede componente [Baldur's Gate Trilogy - Principale]~

@@ -10,7 +10,7 @@ than being asked about each one.
 @-1002= "What should be done with all components that are NOT YET installed?
 [I]nstall them, [S]kip them, [A]sk about each one? "
 @-1003= "What should be done with all components that are ALREADY installed?
-[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
+[R]e-Install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
 
 //modified
 @-1004= "PLEASE post the file "
@@ -18,9 +18,9 @@ than being asked about each one.
 
 @-1006= "Install Component ["
 @-1007= "]?
-[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
+[R]e-Install, [N]o Change, [U]ninstall or [Q]uit? "
 @-1008= "]?
-[I]nstall, or [N]ot Install or [Q]uit? "
+[I]nstall, [N]ot Install or [Q]uit? "
 
 @-1009= "Enter part of a module name: "
 
@@ -43,7 +43,7 @@ than being asked about each one.
 @-1024= "SUCCESSFULLY REMOVED ["
 
 @-1025= "]?
-[R]e-install, [N]o Change, [U]ninstall, [Q]uit or choose one:"
+[R]e-Install, [N]o Change, [U]ninstall, [Q]uit or choose one:"
 @-1026= "]?
 [N]o, [Q]uit or choose one:"
 @-1027= " (currently installed)"
@@ -55,18 +55,17 @@ than being asked about each one.
 @-1030= "]?
 choose one:"
 @-1031= "]?
-[R]e-install, [N]o Change, [Q]uit or choose one:"
+[R]e-Install, [N]o Change, [Q]uit or choose one:"
 @-1032= "NOT INSTALLED DUE TO ERRORS"
 @-1033= "INSTALLED WITH WARNINGS    "
-@-1034= "Would you like to display the readme? [Y]es [N]o"
+@-1034= "Would you like to display the readme? [Y]es or [N]o"
 @-1035= "Using Language"
-  
+
 @-1036= "Skipping GROUP ["
 @-1037= "] because it fails its requirements."
-  
-@-1038= "[A]sk about each component, [S]kip all, or choose a pre-defined selection:"
-@-1039= "[A]sk about each component, [R]einstall the current configuration, [U]ninstall all, [S]kip all, or choose a pre-defined selection:"
 
+@-1038= "[A]sk about each component, [S]kip all, or choose a pre-defined selection:"
+@-1039= "[A]sk about each component, [R]e-Install the current configuration, [U]ninstall all, [S]kip all, or choose a pre-defined selection:"
 
 @100000 = ~Baldur's Gate Trilogy - Core~
 @100001 = ~Uninstalling pre-setup component...~
@@ -94,9 +93,9 @@ choose one:"
 @100023 = ~Full Baldur's Gate/Shadows of Amn/Throne of Bhaal Music (WARNING: patches BGMain.exe)~
 
 @100024 = ~Game Graphical User Interface (GUI)~
-@100025 = ~"Original SoA/ToB"~
-@100026 = ~"Baldur's Gate Trilogy" (Elminster wielding sword)~
-@100027 = ~"Baldur's Gate Trilogy" (Elminster wielding staff)~
+@100025 = ~Original SoA/ToB~
+@100026 = ~Baldur's Gate Trilogy (Elminster wielding a sword)~
+@100027 = ~Baldur's Gate Trilogy (Elminster wielding a staff)~
 
 @100028 = ~Enter the full path to your Baldur's Gate installation then press Enter.~
 @100029 = ~Invalid Baldur's Gate directory, or incorrect Baldur's Gate installation.
@@ -115,7 +114,7 @@ It is safe to abort this installation by closing this window or pressing Ctrl+C.
 @100041 = ~Compressing game files...~
 @100042 = ~Detected Baldur's Gate I directory as %bg1_dir%.
 Is this correct? [Y]es or [N]o~
-@100043 = ~Do you want to biff all new resources? (recommended, except for mega-modification installations)
-[Y]es or [N]o~
+@100043 = ~Biff all new resources (recommended, except for mega modifications)~
 @100044 = ~Unix-like OS detected. Logging enabled.%LNL%%LNL%~
 @100045 = ~An old version of Windows has been detected. Limited logging will be available.%WNL%%WNL%~
+@100046 = ~Requires component [Baldur's Gate Trilogy - Core]~

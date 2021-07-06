@@ -60,13 +60,12 @@ Bitte waehlt eins aus:"
 @-1033= "MIT WARNUNGEN INSTALLIERT:    "
 @-1034= "Wollt Ihr Euch die Readme anzeigen lassen? [Y]: Ja, [N]: Nein."
 @-1035= "Benutze folgende Sprache:"
-  
+
 @-1036= "Die GRUPPE ["
 @-1037= "] wird uebersprungen, da ihre Voraussetzungen nicht erfuellt sind."
-  
+
 @-1038= "[A]: Jede Komponente einzeln abfragen, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
 @-1039= "[A]: Jede Komponente einzeln abfragen, [R]: Die aktuelle Konfiguration neu installieren, [U]: Alle deinstallieren, [S]: Alle ueberspringen. Oder waehlt eine vorgefertigte Auswahl:"
-
 
 @100000 = ~Baldur's Gate Trilogie - Hauptteil~ 
 @100001 = ~Deinstalliere pre-setup Komponente...~
@@ -94,9 +93,9 @@ Bitte waehlt eins aus:"
 @100023 = ~Gesamte Baldurs Gate/Schatten von Amn/Thron des Bhaal Musik (WARNUNG: BGMain.exe wird gepatched)~
 
 @100024 = ~Graphische Spielbenutzeroberflaeche (GUI)~
-@100025 = ~"Original SvA/TdB"~
-@100026 = ~"Baldur's Gate Trilogie" (Elminster fuehrt ein Schwert)~
-@100027 = ~"Baldur's Gate Trilogie" (Elminster fuehrt einen Stab)~
+@100025 = ~Original SvA/TdB~
+@100026 = ~Baldur's Gate Trilogie (Elminster fuehrt ein Schwert)~
+@100027 = ~Baldur's Gate Trilogie (Elminster fuehrt einen Stab)~
 
 @100028 = ~Gebt den ganzen Verzeichnispfad von Baldur's Gate ein dann drueckt Enter.~
 @100029 = ~Ungueltiges Baldur's Gate Verzeichnis oder falsche Baldur's Gate Installation.
@@ -115,7 +114,7 @@ Die Installation kann beendet werden, indem dieses Fenster geschlossen oder STRG
 @100041 = ~Komprimiere Spieldateien...~
 @100042 = ~Verzeichnis von Baldur's Gate I erkannt als %bg1_dir%.
 Ist das so richtig? [Y]: Ja, [N]: Nein.~
-@100043 = ~Wollt Ihr alle neuen Ressourcen biffen lassen? (empfohlen, ausser bei Megamod-Installationen)
-[Y]: Ja, [N]: Nein.~
+@100043 = ~Biff alle neuen Ressourcen (empfohlen, ausser bei mega modifikationen)~
 @100044 = ~Unix-artiges Betriebssystem erkannt. Protokollierung eingeschaltet.%LNL%%LNL%~
 @100045 = ~Eine alte Windows-Version wurde erkannt. Eingeschraenkte Protokollierung ist verfuegbar.%WNL%%WNL%~
+@100046 = ~Benotigt Komponente [Baldur's Gate Trilogie - Hauptteil]~
