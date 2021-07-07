@@ -7625,6 +7625,10 @@ COPY_EXISTING ~misc04.itm~ ~override~ // Bassilus' Holy Symbol
   WRITE_ASCII 0x44 ~gmisc85~ #8 // ground icon
 BUT_ONLY
 
+COPY_EXISTING ~misc13.itm~ ~override~ // Samuel
+  WRITE_ASCII 0x44 ~gmisc13~ #8 // ground icon
+BUT_ONLY
+
 COPY_EXISTING ~misc1b.itm~ ~override/misc1b.itm~
  WRITE_ASCII 0x58 ~CMISC1B~ #8 // Carried icon
 
