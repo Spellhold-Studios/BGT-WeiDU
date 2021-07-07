@@ -7658,9 +7658,11 @@ COPY_EXISTING ~misc68.itm~ ~override~ // Abela the Nymph
   WRITE_ASCII 0x58 ~cmisc79~ #8 // description image
 BUT_ONLY
 
-COPY_EXISTING ~misc70.itm~ ~override/misc70.itm~
- SAY 0x8 @200000
- SAY 0xc @200000
+COPY_EXISTING ~misc70.itm~ ~override~ // Ithmeera's Statue
+  SAY NAME1 @200000 // identified name
+  SAY NAME2 @200000 // unidentified name
+  WRITE_ASCII 0x3a ~imisc70~ #8 // inventory icon
+BUT_ONLY
 
 COPY_EXISTING ~scrl3f.itm~ ~override/scrl3f.itm~
   WRITE_SHORT 0x1c 37 //correct Item type: Books (was Scrolls)
