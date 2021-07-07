@@ -7634,6 +7634,10 @@ COPY_EXISTING ~misc1b.itm~ ~override~ // Butter Knife of Balduran
   WRITE_ASCII 0x58 ~cmisc1b~ #8 // description image
 BUT_ONLY
 
+COPY_EXISTING ~misc1h.itm~ ~override~ // Gong Mallet
+  WRITE_ASCII 0x44 ~gblun06~ #8 // ground icon
+BUT_ONLY
+
 COPY_EXISTING ~misc70.itm~ ~override/misc70.itm~
  SAY 0x8 @200000
  SAY 0xc @200000
