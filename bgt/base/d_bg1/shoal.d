@@ -9,7 +9,8 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @1975
-  IF ~~ THEN REPLY @1980 DO ~Kill(LastTalkedToBy)
+  IF ~~ THEN REPLY @1980 DO ~PlaySound("NERED07")
+Kill(LastTalkedToBy)
 SetGlobal("ShoalKiss","GLOBAL",1)
 Enemy()~ EXIT
   IF ~~ THEN REPLY @1981 GOTO 3
@@ -17,7 +18,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @1976
-  IF ~~ THEN REPLY @1982 DO ~Kill(LastTalkedToBy)
+  IF ~~ THEN REPLY @1982 DO ~PlaySound("NERED07")
+Kill(LastTalkedToBy)
 SetGlobal("ShoalKiss","GLOBAL",1)
 Enemy()~ EXIT
   IF ~~ THEN REPLY @1983 GOTO 3
@@ -25,7 +27,8 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @1977
-  IF ~~ THEN DO ~Kill(LastTalkedToBy)
+  IF ~~ THEN DO ~PlaySound("NERED07")
+Kill(LastTalkedToBy)
 SetGlobal("ShoalKiss","GLOBAL",1)
 Enemy()~ EXIT
 END
