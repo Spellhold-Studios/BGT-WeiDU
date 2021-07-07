@@ -7642,6 +7642,11 @@ COPY_EXISTING ~misc62.itm~ ~override~ // Dead Cat
   WRITE_ASCII 0x44 ~gmisc62~ #8 // ground icon
 BUT_ONLY
 
+COPY_EXISTING ~misc65.itm~ ~override~ // Brage's Body
+  WRITE_ASCII 0x3a ~imisc65~ #8 // inventory icon
+  WRITE_ASCII 0x44 ~gmisc65~ #8 // ground icon
+BUT_ONLY
+
 COPY_EXISTING ~misc70.itm~ ~override/misc70.itm~
  SAY 0x8 @200000
  SAY 0xc @200000
