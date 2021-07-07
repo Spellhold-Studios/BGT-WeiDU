@@ -7603,6 +7603,10 @@ COPY_EXISTING ~book07.itm~ ~override/book07.itm~
               ~book08.itm~ ~override/book08.itm~
  WRITE_SHORT 0x1c 0x0000
 
+COPY_EXISTING ~book68.itm~ ~override~ // History of the Nether Scrolls
+  WRITE_ASCII 0x3a ~ibook68~ #8 // inventory icon
+BUT_ONLY
+
 COPY_EXISTING ~brac06.itm~ ~override/brac06.itm~
  READ_LONG  0x1e "unus"
  WRITE_LONG 0x1e ("%unus%" BAND 0xffffffbf)  //resetting unusable flag for bards
