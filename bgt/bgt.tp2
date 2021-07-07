@@ -7668,6 +7668,10 @@ COPY_EXISTING ~misc71.itm~ ~override~ // Delorna's Spellbook
   WRITE_ASCII 0x3a ~imisc71~ #8 // inventory icon
 BUT_ONLY
 
+COPY_EXISTING ~misc75.itm~ ~override~ // Dagger of Venom
+  WRITE_ASCII 0x3a ~imisc75~ #8 // inventory icon
+BUT_ONLY
+
 COPY_EXISTING ~scrl3f.itm~ ~override/scrl3f.itm~
   WRITE_SHORT 0x1c 37 //correct Item type: Books (was Scrolls)
 
