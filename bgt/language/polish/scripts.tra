@@ -2,22 +2,19 @@
 // Scripts
 ////////////////////////////////////////////////////////////////////
 
-@401100 = ~Musicie zdobyæ mapê morsk¹, je¿eli chcecie bezpiecznie dop³yn¹æ do kontynentu.~
-
+@401100 = ~Musisz zdobyæ morskie mapy, jeœli chcesz bezpiecznie dop³yn¹æ do l¹du.~
 @401103 = ~Kiedy morderczy sza³ opad³ zrozumia³eœ, ¿e zwyciêstwo jest twoje. Sarevok nie ¿yje i ju¿ nigdy nie bêdzie drêczyæ ani ciebie, ani Krain. Wraz z za¿egnaniem wojny i œmierci¹ pomys³odawcy stwierdzasz, ¿e najlepszym wyjœciem bêdzie powrót do Pa³acu Ksi¹¿êcego i opowiedzenie wszystkich faktów po kolei.~
 @401104 = ~Oh, <CHARNAME>! Tutaj jesteœ. Belt powiadomi³ nas, ¿e wyruszasz na sekretn¹ misjê do Amn w celu dostarczenia bardzo wa¿nej wiadomoœci. Ufam, ¿e nasze towarzystwo nie bêdzie niepo¿¹dane w tak niebezpiecznym zadaniu jak to?~
 @401105 = ~Nie spodziewaliœmy siê, ¿e uda ci siê dotrzeæ tak daleko. Mury wspania³ej Athkatli s¹ ju¿ st¹d widoczne.~
 @401106 = ~Wygl¹dasz na zmêczonego. To by³ bardzo d³ugi dzieñ. Dlaczego nie odpoczniemy? Miejsce wygl¹da bezpiecznie, a my bêdziemy mieli na ciebie oko...~
 @401107 = ~Uda³o nam siê ubezw³asnowolniæ ich wszystkich, Mae'Varze. Co teraz powinniœmy zrobiæ?~
 @401108 = ~WeŸ ich wszystkich z powrotem do Amnu. Nasz klient czeka.~
-@401109 = ~Kiedy przeczytasz fina³ow¹ ksi¹¿ke us³yszysz dŸwiêk podobny do aktywacji czegoœ. Kilka sekund póŸniej us³yszysz brzêcz¹cy dŸwiêk i bêdziesz móg³ ujrzeæ ¿arzenie w poprzek holu wejœciowego.~
-@401110 = ~Wioska o nazwie Broda Ulgotha le¿y na brzegu rzeki Chionthar, trochê w górê jej biegu od Wrót Baldura i otwartego morza poza tym miastem. Usiana farmami okolica wokó³ wioski jest spokojn¹ i bezpieczn¹ przystani¹ wœród niepokojów targaj¹cych Wybrze¿em Mieczy. Jednak ostatnimi czasy nie mo¿na tego samego powiedzieæ o samej Brodzie Ulgotha. Ta prosta rybacka wieœ sta³a siê w tych dniach Ÿród³em wielu plotek. Plotek o staro¿ytnym kulcie, na nowo odrodzonym. Niejasne i czêsto sprzeczne wieœci donosz¹ o morderczej bestii, czaj¹cej siê w mrokach nocy i o dziwnych wydarzeniach, maj¹cych miejsce w domu Shandalara, potê¿nego i zdziwacza³ego maga, który ma sw¹ siedzibê w tej niegdyœ sennej wiosce. Zupe³nie pewne wiadomoœci dotycz¹ tego, i¿ w³aœnie z Brody Ulgotha wyruszaj¹ wycieczki do os³awionej Wie¿y Durlaga. To rzeczywiœcie mo¿e byæ miejsce, w którym poszukiwacze przygód mog¹ wypróbowaæ swoj¹ odwagê i charakter. Byæ mo¿e ten test lepiej ciê przygotuje do walki z mrokiem, który grozi zniszczeniem Wybrze¿a Mieczy i ciebie razem z nim.~
+@401109 = ~Gdy czytasz ostatni¹ ksiêgê, s³yszysz delikatny trzask, jakby coœ zosta³o w³¹czone. Kilka sekund póŸniej s³yszysz dŸwiêk, przypominaj¹cy buczenie i zauwa¿asz blask docieraj¹cy z przeciwnej strony korytarza.~
+@401110 = ~Wioska o nazwie Broda Ulgotha le¿y na brzegu rzeki Chionthar, trochê w górê jej biegu od Wrót Baldura i otwartego morza poza tym miastem. Usiana gospodarstwami okolica wokó³ wioski jest spokojn¹ i bezpieczn¹ przystani¹ wœród niepokojów targaj¹cych Wybrze¿em Mieczy. Jednak ostatnimi czasy nie mo¿na tego samego powiedzieæ o samej Brodzie Ulgotha. Ta prosta rybacka wieœ sta³a siê w tych dniach Ÿród³em wielu plotek. Plotek o staro¿ytnym kulcie, na nowo odrodzonym. Niejasne i czêsto sprzeczne wieœci donosz¹ o morderczej bestii, czaj¹cej siê w mrokach nocy i o dziwnych wydarzeniach, maj¹cych miejsce w domu Shandalara, potê¿nego i zdziwacza³ego maga, który ma sw¹ siedzibê w tej niegdyœ sennej wiosce. Zupe³nie pewne wiadomoœci dotycz¹ tego, i¿ w³aœnie z Brody Ulgotha wyruszaj¹ wycieczki do os³awionej Wie¿y Durlaga. To rzeczywiœcie mo¿e byæ miejsce, w którym poszukiwacze przygód mog¹ wypróbowaæ swoj¹ odwagê i charakter. Byæ mo¿e ten test lepiej ciê przygotuje do walki z mrokiem, który grozi zniszczeniem Wybrze¿a Mieczy i ciebie razem z nim.~
 @401111 = ~Zostaliœcie teleportowani przez Shandalara daleko na pó³noc, na wyspê zagubion¹ poœród lodowych fal pó³nocnego oceanu.~
-@401112 = ~Wariant Wyzwolony~
-@401113 = ~Tatua¿ Mocy Wyzwolony~
-@401114 = ~Magiczny Kij Wyzwolony~
-@401115 = ~Moja broñ siê zniszczy³a!~
-@401117 = ~Œmieræ Salaada wyleczy³a ciebie i twoj¹ dru¿ynê z likantropii.~
+@401112 = ~Tatua¿ mocy uwolniony~
+@401113 = ~Tatua¿ mocy uwolniony~
+@401114 = ~Magiczny kostur uwolniony~
 @401118 = ~Twój oprawca mo¿e pojawiæ siê ju¿ niebawem. Powinieneœ przejœæ do karty postaci i awansowaæ na nastêpne poziomy zanim bêdziesz kontynuowaæ. Gra bêdzie kontynuowana zaraz po tym jak siê przygotujesz.~
 
 //SBT scripts - new biographies

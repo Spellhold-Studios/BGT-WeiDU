@@ -8,7 +8,7 @@
 @201817 = ~A co chcesz ¿ebym zrobi³?~
 @201818 = ~<CHARNAME>! Czy zwyciêstwo jest... twoje? Czy Sarevok... nie ¿yje?~
 @201819 = ~Tak, wype³ni³o siê przeznaczenie. Sarevok uleg³ memu ostrzu.~
-@201820 = ~I pomyœleæ, ¿e wychwalaliœmy go kilka godzin temu... (akhem)~
+@201820 = ~I pomyœleæ, ¿e wychwalaliœmy go kilka godzin temu... ekhem~
 @201821 = ~Mam nowy kontakt w Athkatli. Muszê zanieœæ ten dokument do niego, aby Rada Szeœciu mog³a go przeczytaæ i dowiedzieæ siê prawdy o sytuacji tutaj. Proponujê sekretne spotkanie z Rad¹. Mam nadziejê, ¿e zdo³am ich przekonaæ, i¿ to Sarevok by³ dla nich zagro¿eniem, a Wrota Baldura wcale nie chc¹ wojny.~
 @201822 = ~Mówiê ci o tym, gdy¿ takie wa¿ne zadanie mogê powierzyæ tylko tobie. Chcê byœ spotka³ siê z moim kontaktem i wrêczy³ mu ten list. Jeœli moi kurierzy nie mog¹ siê tam dostaæ z powodu bandytów, przynajmniej bêdê wiedzia³, ¿e zdo³asz ich pokonaæ i kontynuowaæ misjê w Athkatli.~
 @201823 = ~Athkatla? W Amn? To zabierze trochê czasu, by siê tam dostaæ. Czy jest jakiœ sposób, by przyspieszyæ moj¹ podró¿?~
@@ -16,7 +16,6 @@
 @201826 = ~By³em na kilku polowaniach na pó³noc od Athkatli. Znam tamte tereny bardzo dobrze i mogê ciê teleportowaæ w to miejsce. Powiedzia³em o tym mojemu kontaktowi, a ten kaza³ tam czekaæ kilku swoim ludziom. Mog¹ ciê eskortowaæ a¿ do bram miasta.~
 @201827 = ~Jestem zak³opotany. Jeœli mo¿esz wys³aæ kogowolwiek na spotkanie kontaktu czemu nie wyœlesz jednego ze swych kurierów? Czemu chcesz wys³aæ mnie?~
 @201828 = ~W³aœciwie z dwóch powodów. Po pierwsze, jak wczeœniej ju¿ powiedzia³em, szlachcice siê ciebie obawiaj¹. Twoja nieobecnoœæ w mieœcie chocia¿ przez kilka dni pozwoli uspokoiæ ich nerwy. Drugi powód to fakt, ¿e mój kontak s³ysza³ o tobie du¿o. Wygl¹da na to, ¿e jesteœ bohaterem Wybrze¿a Mieczy. Mój kontakt uwa¿a, ¿e Rada bêdzie traktowaæ tê sprawê bardziej powa¿nie jeœli bohater taki jak ty wspomo¿e ten cel. Zd¹¿y³em powiadomiæ nawet kilku twoich znajomych, którzy chc¹ siê tam z tob¹ spotkaæ. Bêdziesz musia³ wróciæ z Amn pieszo, dlatego idŸ upewniæ siê, ¿e masz doœæ zapasów na tak d³ug¹ wêdrówkê. Powodzenia i bezpiecznej podró¿y.~
-
 //BELTBRD.D - new lines (v1.06)
 @201829 = ~Czy jesteœ gotów wyruszyæ do Athkatli?~ ~Czy jesteœ gotowa wyruszyæ do Athkatli?~
 @201830 = ~Tak. Jestem gotowy.~ ~Tak. Jestem gotowa.~
@@ -36,7 +35,7 @@
 @203404 = ~Po prostu mnie tu zostaw. Ja... nie mam ju¿ ¿adnego celu. Niech przeklêta Piêœæ po mnie przyjdzie. Nie obchodzi mnie to.~
 
 //SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
-@203405 = ~Ci ludzie s¹ poszukiwani za wielokrotne morderstwa, ZABIÆ ich!~
+@203405 = ~Ci ludzie s¹ poszukiwani za wielokrotne morderstwa. ZABIÆ ich!~
 
 //VOLETA.D
 @203406 = ~Powracasz. Jestem doœæ zaskoczona, ¿e uda³o ci siê prze¿yæ. Nikt wczeœniej nie przeszed³ przez ten labirynt. Najwa¿niejsze, ¿e ten drañ w koñcu nie ¿yje. Nie ma co do tego w¹tpliwoœci, skoro wróci³eœ.~ ~Powracasz. Jestem doœæ zaskoczona, ¿e uda³o ci siê prze¿yæ. Nikt wczeœniej nie przeszed³ przez ten labirynt. Najwa¿niejsze, ¿e ten drañ w koñcu nie ¿yje. Nie ma co do tego w¹tpliwoœci, skoro wróci³aœ.~

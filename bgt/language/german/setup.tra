@@ -174,8 +174,6 @@ Kann nicht verwendet werden von:
 ////////////////////////////////////////////////////////////////////
 // Areas
 ////////////////////////////////////////////////////////////////////
-@600005 = ~Um dieses Objekt befindet sich eine überaus reichliche Menge Schlamm und Ihr hört Geräusche, welche Ihr nur als das beschreiben könnt, was man hört, wenn man sich unter Wasser befindet. Vielleicht ist diese Vorrichtung eine Art Damm?~
-
 @600010 = ~Haupttor~
 @600011 = ~Bibliothek von Kerzenburg~
 @600012 = ~Krankenstube~
@@ -210,14 +208,14 @@ Kann nicht verwendet werden von:
 ////////////////////////////////////////////////////////////////////
 // 2DA Files
 ////////////////////////////////////////////////////////////////////
-@700000 = ~Erstes Kapitel/Prolog:~
-@700005 = ~Zweites Kapitel:~
-@700009 = ~Drittes Kapitel:~
-@700011 = ~Viertes Kapitel:~
-@700013 = ~Fünftes Kapitel:~
-@700015 = ~Sechstes Kapitel:~
-@700017 = ~Siebtes Kapitel:~
-@700019 = ~Achtes Kapitel:~
+@700000 = ~Erstes Kapitel~
+@700005 = ~Zweites Kapitel~
+@700009 = ~Drittes Kapitel~
+@700011 = ~Viertes Kapitel~
+@700013 = ~Fünftes Kapitel~
+@700015 = ~Sechstes Kapitel~
+@700017 = ~Siebtes Kapitel~
+@700019 = ~Achtes Kapitel~
 
 //German: Nietzsche's quote is missing in the German version of the intro movie - using Nietzsche's original German words for @700020 instead
 @700020 = ~"Wer mit Ungeheuern kämpft, mag zusehn, dass er nicht dabei zum Ungeheuer wird. Und wenn du lange in einen Abgrund blickst, blickt der Abgrund auch in dich hinein." -Friedrich Nietzsche~
@@ -545,17 +543,17 @@ Andere besondere Danksagungen (nicht im Zusammenhang mit Beziehungen oder Verlas
 
 @900037 = ~Baldur's Gate Einleitung~
 @900038 = ~Schatten von Amn Einleitung~
-@900039 = ~Neues BG2 Spiel~
+@900039 = ~neues bg2 spiel~
 @900040 = ~Wählt "Neues BG2 Spiel", um Baldur's Gate I zu überspringen und mit Baldur's Gate II: Schatten von Amn zu starten.
 
 Wenn Ihr Baldur's Gate I spielen wollt, klickt auf "Abbrechen" und wählt dann "Neues Spiel".~
 
-@900042 = ~Baldur's Gate~
+@900042 = ~baldur's gate~
 
 //Shadows of Amn description button text
 @900043 = ~"Tortured Souls"~
 @900044 = ~"The Darkest Day"~
-@900045 = ~"Shadows Over Soubar"~
+@900045 = ~"Shadows over Soubar"~
 @900046 = ~"Neverending Journey"~
 @900047 = ~"Region of Terror"~
 @900048 = ~"Big Picture"~

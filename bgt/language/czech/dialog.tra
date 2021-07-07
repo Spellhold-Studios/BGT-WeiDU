@@ -15,7 +15,7 @@
 @201824 = ~Ano, to mì pøivádí k další vìci.  Nechal jsem své mágy napsat kouzlo, které tì tam pøenese.  Bohuel jsem nikdy nebyl v Athkatle a pøenos funguje pouze, pokud znáš cíl.~
 @201826 = ~Byl jsem na nìkolika honech kousek na sever od Athkatly.  Znám dobøe jedno místo a mùu tì tam pøenést.  Øekl jsem o tom svému kontaktu a mìli by tam na tebe èekat jeho lidé.  Doprovodí tì do mìsta.~
 @201827 = ~Jedna vìc mi není jasná.  Kdy mùete nìkoho pøenést, aby se setkal s tím kontaktem, proè prostì nepošlete kurıra? Proè mì?~
-@201828 = ~Mám proto hned dva dùvody.  Zaprvé, jak u jsem øekl, šlechtici se tì bojí.  Dostat tì na pár dní z mìsta mi dá èas, abych je mohl uklidnit.  Druhı dùvod je, e mùj kontakt o tobì slyšel.  Zdá se, e jsi hrdinou Meèového Pobøeí.  Mùj kontakt si myslí, e Rada bude ochotnìji naslouchat mım poadavkùm, kdy je budou pøednášet hrdinové, jako jste vy.  Dal jsem dokonce vìdìt nìkterım z tvıch pøátel, take se tam s nimi mùeš setkat.  Zpátky se budeš muset dostat pìšky, tak se na tu cestu poøádnì vybav.~ //'Good luck, and safe journeys.' deleted at end of line, '...go and...' deleted from last sentence
+@201828 = ~Mám proto hned dva dùvody.  Zaprvé, jak u jsem øekl, šlechtici se tì bojí.  Dostat tì na pár dní z mìsta mi dá èas, abych je mohl uklidnit.  Druhı dùvod je, e mùj kontakt o tobì slyšel.  Zdá se, e jsi hrdinou Meèového Pobøeí.  Mùj kontakt si myslí, e Rada bude ochotnìji naslouchat mım poadavkùm, kdy je budou pøednášet hrdinové, jako jste vy.  Dal jsem dokonce vìdìt nìkterım z tvıch pøátel, take se tam s nimi mùeš setkat.  Zpátky se budeš muset dostat pìšky, tak se na tu cestu poøádnì vybav.~
 //BELTBRD.D - new lines (v1.06)
 @201829 = ~Jsi pøipraven na cestu do Athkatly?~
 @201830 = ~Ano, jsem pøipraven.~
@@ -32,7 +32,7 @@
 @203404 = ~Jen mì nech tady.  Já... nemám u ádnou sílu.  A si pro mì pøijde ta zatracená Pìst. U je mi to jedno.~
 
 //SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
-@203405 = ~To jsou ti hledaní za mnohonásobnou vradu, ZABTE je!~
+@203405 = ~Tihle mui jsou tìmi hledanımi pro mnohonásobné vrady, ZABIJ je!~
 
 //VOLETA.D
 @203406 = ~Jsi zpátky.  Jsem docela pøekvapená, es pøeil.  Nikdy døív se nikdo nedostal z Bludištì.  Aspoò, e ten parchant je mrtvej.  Jestlis to zvládl tam a zpátky, není pochyb, e je pryè.~

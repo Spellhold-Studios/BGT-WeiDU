@@ -538,25 +538,25 @@
 @800179 = ~El rescate de Xan en las minas de Nashkel.
 
 ~
-@800180 = ~Capítulo segundo: aislamiento.
+@800180 = ~Capítulo segundo
 
 ~
-@800181 = ~Capítulo tercero: problemas en Nashkel.
+@800181 = ~Capítulo tercero
 
 ~
-@800182 = ~Capítulo cuarto: bandidos y la escasez de hierro.
+@800182 = ~Capítulo cuarto
 
 ~
-@800183 = ~Capítulo quinto: hacia el Bosque de las Capas.
+@800183 = ~Capítulo quinto
 
 ~
-@800184 = ~Capítulo sexto: hacia Puerta de Baldur.
+@800184 = ~Capítulo sexto
 
 ~
-@800185 = ~Capítulo séptimo: regreso a Candelero.
+@800185 = ~Capítulo séptimo
 
 ~
-@800186 = ~Capítulo octavo: fin del juego.
+@800186 = ~Capítulo octavo
 
 ~
 @800187 = ~Un encuentro con Cadderly.
@@ -934,44 +934,44 @@ He recuperado la capa de Shandalar de lo que parecía ser una prisión helada. No 
 //Entradas en el diario de los capítulos.
 /////////////////////////////////////////
 /*JOURNAL - @16190*/
-@310733 = ~Capítulo segundo: aislamiento
+@310733 = ~Capítulo segundo
 
 El amanecer es especialmente cruel esta mañana. Cuando os despertáis os dais cuenta de que no sólo no era una horrible pesadilla. Atrapado en una emboscada, veis cómo despedazan a Gorion ante vuestros propios ojos y cómo ni siquiera su poderosa magia es capaz de impedir la matanza. Fue su deseo que huyerais, pero eso no mitiga el sentimiento de impotencia que os invade.
 
 "Entregad a vuestro pupilo", ha dicho el malvado hombre de la armadura. Os perseguía a vos y sólo a vos, ¿pero por qué? Si al menos Gorion os hubiese dado una pista... Pero ahora estáis solo y perdido. Candelero está cerca, pero allí no encontraréis cobijo. Los lectores velan por su tranquilidad con normas de admisión draconianas y sin la influencia de Gorion sus puertas no se os abrirán.~
-~Capítulo segundo: aislamiento
+~Capítulo segundo
 
 El amanecer es especialmente cruel esta mañana. Cuando os despertáis os dais cuenta de que no sólo no era una horrible pesadilla. Atrapado en una emboscada, veis cómo despedazan a Gorion ante vuestros propios ojos y cómo ni siquiera su poderosa magia es capaz de impedir la matanza. Fue su deseo que huyerais, pero eso no mitiga el sentimiento de impotencia que os invade.
 
 "Entregad a vuestra pupila", ha dicho el malvado hombre de la armadura. Os perseguía a vos y sólo a vos, ¿pero por qué? Si al menos Gorion os hubiese dado una pista... Pero ahora estáis sola y perdida. Candelero está cerca, pero allí no encontraréis cobijo. Los lectores velan por su tranquilidad con normas de admisión draconianas y sin la influencia de Gorion sus puertas no se os abrirán.~
 /*JOURNAL - @15836*/
-@310734 = ~Capítulo tercero: problemas en Nashkel
+@310734 = ~Capítulo tercero
 
 Al poco de producirse vuestra precipitada huida de Candelero, los problemas a los que se enfrenta la Costa de la Espada parecen vagamente ajenos a vuestros desquiciados nervios. No obstante, Gorion no os habría permitido permanecer indiferente y quizás si indagarais en los asuntos locales podríais obtener nuevas pistas sobre vuestra propia situación. No acabáis de ver la posible relación entre la escasez de hierro o el problema de las minas de Nashkel y vuestra propia persona.~
 /*JOURNAL - @15837*/
-@310735 = ~Capítulo cuarto: bandidos y escasez del hierro
+@310735 = ~Capítulo cuarto
 
 Es cierto que la muerte de Mulahey mitigará los temores de las gentes de Nashkel, pero vos permanecéis inquieto. Aunque el semiorco bien pudiera haber causado los males que acontecen en la mina, la escasez de hierro es demasiado generalizada como para achacar este hecho a su sola persona. Sus cartas confirman vuestras sospechas y aunque no nos dan muchas pistas de dónde se ocultan sus cohortes, debe mantener relaciones con los bandidos que actualmente infestan el Camino de la Costa.~
-~Capítulo cuarto: bandidos y escasez del hierro
+~Capítulo cuarto
 
 Es cierto que la muerte de Mulahey mitigará los temores de las gentes de Nashkel, pero vos permanecéis inquieta. Aunque el semiorco bien pudiera haber causado los males que acontecen en la mina, la escasez de hierro es demasiado generalizada como para achacar este hecho a su sola persona. Sus cartas confirman vuestras sospechas y aunque no nos dan muchas pistas de dónde se ocultan sus cohortes, debe mantener relaciones con los bandidos que actualmente infestan el Camino de la Costa.~
 /*JOURNAL - @15838*/
-@310736 = ~Capítulo quinto: hacia el Bosque de las Capas
+@310736 = ~Capítulo quinto
 
 Está visto que Mulahey y Tazok no son más que unas simples marionetas; el verdadero artífice de este misterio sin resolver continúa evitándoos. Una cosa es cierta: aunque desconozcáis los motivos, alguien se ha tomado un interés muy personal en procurar vuestra muerte. Vuestra búsqueda de respuestas continúa y el vaticinio del Bosque de las Capas es vuestro próximo objetivo.~
 /*JOURNAL - @15839*/
-@310737 = ~Capítulo sexto: hacia Puerta de Baldur
+@310737 = ~Capítulo sexto
 
 Habéis asestado un importante golpe a la organización conocida como el Trono de Hierro; una derrota que, como sabéis, no será ignorada. Ahora debéis dirigiros hacia la ciudad de Puerta de Baldur, donde seguro encontraréis lo que se esconde tras la extraña conspiración que infesta a los habitantes de la Costa de la Espada.~
 /*JOURNAL - @15840*/
-@310738 = ~Capítulo séptimo: vuelta a Candelero
+@310738 = ~Capítulo séptimo
 
 Vuestro viaje ha llegado a un círculo completo. El duque Eltan ha pedido que regreséis a Candelero, donde debéis espiar a los jefes del Trono de Hierro. Aunque os moleste el hecho de que tan malvados hombres hagan ahora uso de la Gran Biblioteca y desearais que las circunstancias de vuestra visita fuesen diferentes, seguirá siendo un placer regresar al que una vez fue vuestro hogar.~
 /*JOURNAL - @15841*/
-@310739 = ~Capítulo octavo: fin del juego
+@310739 = ~Capítulo octavo
 
 La vida continúa siendo el reto. Habéis sido acusado de asesinar a los jefes del Trono de Hierro y el Puño Llameante no dudará en seguir cada uno de vuestros pasos por este motivo. A pesar de todo esto, debéis regresar a la ciudad de Puerta de Baldur, a la mismísima guarida de vuestros acusadores. Debéis buscar y desenmascarar al responsable de vuestra difícil situación: debéis encontrar a Sarevok.~
-~Capítulo siete: Fin del juego
+~Capítulo siete
 
 La vida continúa siendo el reto. Habéis sido acusada de asesinar a los jefes del Trono de Hierro, y el Puño Llameante no dudará en seguir cada uno de vuestros pasos por este motivo. A pesar de todo esto, debéis regresar a la ciudad de Puerta de Baldur, a la mismísima guarida de vuestros acusadores. Debéis buscar y desenmascarar al responsable de vuestra difícil situación: debéis encontrar a Sarevok.~
 

@@ -4,7 +4,7 @@
 @200000 = ~Pos¹¿ek Ithmeery~
 
 //@23967 - change Blunt Weapons to Mace
-@200001 = ~Wekiera +2: 'Rozbijacz ³bów Krotana'
+@200001 = ~Wekiera +2: "Rozbijacz ³bów Krotana"
 Nawet dzikie hordy maj¹ swoich bohaterów i nawet jeœli w cywilizowanym towarzystwie mówi siê o nich jako o ³otrach, to jednak ich czyny bywaj¹ niekiedy imponuj¹ce. Krotan by³ wyj¹tkowo inteligentnym orkiem, wed³ug orczej miary oczywiœcie, który w Roku Zaginionej Damy, 1241 KD, dowodzi³ ci¹gle zmieniaj¹cym rozmiary legionem ogrów, orków, hobgoblinów i tym podobnych bestii. W tym w³aœnie roku grupa orczych bandytów przypuszczalnie porwa³a i zabi³a tethyriañsk¹ szlachciankê. Odpowiedzi¹ w³adz Tethyru by³a straszliwa rzeŸ orków na ca³ym po³udniu, zorganizowana dla uczczenia pamiêci tej kobiety. Krotan zorganizowa³ obronê, dziêki której jego lud, jakkolwiek wygnany, nie zosta³ wybity do ostatniego. Sam Krotan pad³ pod koniec tego konfliktu, a jego g³owa zosta³a osadzona na palu przy cmentarzu, na którym pochowano m³od¹ szlachciankê. Ciekawostk¹ jest, ¿e orki nazywaj¹ ten okres "Rokiem Przeci¹gniêcia Struny".
 
 PARAMETRY:
@@ -22,7 +22,7 @@ Nie mo¿e u¿ywaæ:
  Z³odziej~
 
 //@7350 - change Bow Weapons to Long Bow
-@200002 = ~D³ugi ³uk celnoœci: 'Zabójczy strza³'
+@200002 = ~D³ugi ³uk celnoœci: "Zabójczy strza³"
 Po latach rywalizacji ksi¹¿êta Spandeliyon i Delthuntle zdecydowali siê zorganizowaæ ma³y turniej i rozs¹dziæ, który z nich jest lepszym ³ucznikiem. Obaj chwalili siê potêg¹ swych magicznych ³uków, ale to nie wystarcza³o Edwallowi Dest, ksiêciu Spandeliyon. Zorganizowa³ kradzie¿ broni przeciwnika i w dniu turnieju nie móg³ nie puszyæ siê ze swej przewagi. Ksi¹¿ê Delthuntle - znany jako Rajmond - poprosi³ Edwalla, by pokaza³ co potrafi strzelaj¹c do stracha na wróble. Dest napi¹³ d³ugi ³uk i wypuœci³ strza³ê z wielk¹ determinacj¹, nie zastanawiaj¹c siê nad tym, ¿e strach na wróble niezwykle go przypomina. Grot rozci¹³ na dwie po³ówki g³owê wielkiej lalki voodoo i w tej samej chwili g³owa Edwalla równie¿ siê rozpêk³a.
 
 PARAMETRY:
@@ -40,7 +40,7 @@ Nie mo¿e u¿ywaæ:
  Z³odziej~
 
 //@7351 = change Bow Weapons to Short Bow
-@200003 = ~Krótki ³uk or³ów: 'Obroñca driad'
+@200003 = ~Krótki ³uk or³ów: "Obroñca driad"
 Driady z lasu Gulthmere, pragn¹c obroniæ sw¹ spo³ecznoœæ przed wdzieraj¹cymi siê na ich tereny orkami wycinaj¹cymi drzewa, podarowa³y ten wspania³y ³uk herosowi Hannable'owi Bia³emu. Drwale oœmielili siê œci¹æ wielki d¹b, przy okazji niemal zabijaj¹c mieszkaj¹c¹ w nim driadê; po tym czynie rozgorza³o straszliwe starcie. Z pomoc¹ ¿yj¹cych w lesie zwierz¹t Hannable zabi³ wszystkich bandytów zanim zdo³ali oni wyrz¹dziæ wiêcej szkód. Orki musia³y porzuciæ swój plan, obawiaj¹c siê gniewu lasu i chroni¹cego go herosa. Nie trzeba chyba wspominaæ o tym, ¿e po tym wszystkim Hannable ¿y³ d³ugo i szczêœliwie... nie, BARDZO szczêœliwie!
 
 PARAMETRY:
@@ -57,7 +57,7 @@ Nie mo¿e u¿ywaæ:
  Mag~
 
 //@20885 - change Small Sword to Dagger
-@200004 = ~Srebrny sztylet: 'Zguba likantropów'
+@200004 = ~Srebrny sztylet: "Zguba likantropów"
 Ten sztylet +1 daje premiê +4, gdy jest u¿yty przeciwko likantropom. Wyku³a go elfia ³owczyni Dynala Z³otorêka, która chcia³a wybawiæ swoj¹ ojczyznê od szakalo³aków. Zosta³a zabita przez plemiê orków w Szarych Szczytach, gdy tropi³a przywódcê szakalo³aków.
 
 PARAMETRY:
@@ -92,7 +92,7 @@ Nie mo¿e u¿ywaæ:
  Z³odziej~
 
 //@23965 - change Large Sword to Two Handed Sword
-@200006 = ~Miecz oburêczny +3: 'Skraj œwiata'
+@200006 = ~Miecz oburêczny +3: "Skraj œwiata"
 Jest to legendarna broñ o heroicznym wymiarze, szczególnie wœród plemion barbarzyñców z pó³nocy. Kolejni herosi u¿ywali jej przeciw niezliczonym zastêpom wrogów, a krew przez ni¹ przelana mog³aby wype³niæ niewielkie morze. Historia nie daje dowodów, i¿ taka broñ mog³aby zostaæ w normalny sposób wykuta i tak ka¿dy kolejny jej w³aœciciel wi¹za³ jej pochodzenie z mitem, w który wierzy³. Jedna z najbardziej podnios³ych z tych opowieœci mówi o wielkim wodzu, który po¿eglowa³ ku ska³om, maj¹cym stanowiæ granicê œwiata. Tam siêgn¹³ w pustkê i jego wola ukszta³towa³a ten miecz z nicoœci. Jakakolwiek jest prawda, to ostrze we w³aœciwych rêkach jest naprawdê straszliwym orê¿em.
 
 PARAMETRY:
@@ -134,9 +134,6 @@ Nie mo¿e u¿ywaæ:
 ////////////////////////////////////////////////////////////////////
 // Areas
 ////////////////////////////////////////////////////////////////////
-
-@600005 = ~Widzisz nadmiern¹ iloœæ b³ota otaczaj¹c¹ ten obiekt, s³yszysz dŸwiêki, które mo¿na porównac do tych jakie s³ysza³eœ, gdy podziemne wody siê po³aczy³y. Mo¿e ta zapora to jakiœ rodzaj tamy?~
-
 @600010 = ~Przednia brama~
 @600011 = ~Biblioteka Candlekeep~
 @600012 = ~Szpital~
@@ -148,10 +145,10 @@ Nie mo¿e u¿ywaæ:
 @600018 = ~Wejœcie do kopalni~
 @600019 = ~RzeŸba~
 @600020 = ~Opuszczony dom~
-@600021 = ~Na dó³, na ni¿szy poziom~
-@600022 = ~W górê, na wy¿szy poziom~
+@600021 = ~Na dó³ na ni¿szy poziom~
+@600022 = ~W górê na wy¿szy poziom~
 @600023 = ~Wioska Gullykin~
-@600024 = ~Wejœcie do Ruin Firewine~
+@600024 = ~Wejœcie do ruin Firewine~
 @600025 = ~Wrak statku~
 @600026 = ~Opuszczona latarnia~
 @600027 = ~Magazyn~
@@ -162,7 +159,7 @@ Nie mo¿e u¿ywaæ:
 @600032 = ~Rzeczna tama~
 @600033 = ~Winda~
 @600034 = ~Porzucona wie¿a~
-@600035 = ~Wejœcie do Wie¿y Durlaga~
+@600035 = ~Wejœcie do wie¿y Durlaga~
 @600036 = ~Wyjœcie z kopalni~
 @600037 = ~Œwi¹tynia Bhaala~
 @600038 = ~Ruiny Ulcaster~
@@ -172,14 +169,14 @@ Nie mo¿e u¿ywaæ:
 // 2DA Files
 ////////////////////////////////////////////////////////////////////
 
-@700000 = ~Rozdzia³ Pierwszy/Prolog:~
-@700005 = ~Rozdzia³ Drugi:~
-@700009 = ~Rozdzia³ Trzeci:~
-@700011 = ~Rozdzia³ Czwarty:~
-@700013 = ~Rozdzia³ Pi¹ty:~
-@700015 = ~Rozdzia³ Szósty:~
-@700017 = ~Rozdzia³ Siódmy:~
-@700019 = ~Rozdzia³ Ósmy:~
+@700000 = ~Rozdzia³ pierwszy~
+@700005 = ~Rozdzia³ drugi~
+@700009 = ~Rozdzia³ trzeci~
+@700011 = ~Rozdzia³ czwarty~
+@700013 = ~Rozdzia³ pi¹ty~
+@700015 = ~Rozdzia³ szósty~
+@700017 = ~Rozdzia³ siódmy~
+@700019 = ~Rozdzia³ ósmy~
 
 @700020 = ~"Ten, który walczy z potworami, winien uwa¿aæ, by samemu nie staæ siê jednym z nich... kiedy spogl¹dasz w otch³añ, otch³añ patrzy w Ciebie..." -Friedrich Nietzsche~
 @700021 = ~Nie, nie mo¿esz!~
@@ -300,7 +297,7 @@ QUOTES (a la Ultima)
 -Bardez, victim of an IETME bug
 "So much damned clicking -- I feel like I'm playing Diablo II."
 -Bardez, converting one of the larger BG1 overlayed areas
-"I'm done... no wait.  I have to check both games.  Entirely. Fuck."
+"I'm done... no wait. I have to check both games. Entirely. Fuck."
 -Bardez, upon importing all TBG files
 "All this work for nothin' I must wonder where my sanity goes at times..."
 -Bardez, realizing he spent way too much time on this MOD
@@ -316,9 +313,9 @@ QUOTES (a la Ultima)
 -Bardez, encountering a 'bad thing'
 "And then I manually went through every item, dialog, and script to alter them..."
 -Bardez, after replacing BG1 ResRefs with BGT ones
-"I'm a one-man modder with a keyboard and caffiene.  Watch out, now!"
+"I'm a one-man modder with a keyboard and caffiene. Watch out, now!"
 -Bardez, at 6:00 AM
-"Man, don't I feel shi**y to say that it's on hold due to classes.  I will start up work again (hopefully) in about three weeks..."
+"Man, don't I feel shi**y to say that it's on hold due to classes. I will start up work again (hopefully) in about three weeks..."
 -Bardez, second attempt at abandoning BGT
 "AAAAAHHHHHHHHHH!!!!!!!!!!!!!!!!!!"
 -hlidskialf, in response
@@ -326,7 +323,7 @@ QUOTES (a la Ultima)
 -Bardez, upon noticing that BGT was severely lagging (singlplayer) with all files in the override directory
 "I definitely want to see and/or know more about the tools you needed to make."
 -KenTeamBG, upon announcing BGT
-"The Umber Hulk is screaming like a human female.  That's probably a bad thing."
+"The Umber Hulk is screaming like a human female. That's probably a bad thing."
 -Bardez, noticing the off soundset of Umber Hulks
 "Well, now that I'm into the bug fixing stage, it should all be much easier now."
 -Bardez, making a very erroneous statement
@@ -334,7 +331,7 @@ QUOTES (a la Ultima)
 -Bardez, noticing some bad overlay conversions
 "IETME displays thing incorrectly. I MUST learn this FACT."
 -Bardez, frusterated with IETME
-"Hmmm. no tool can do that.  Time to make a new one. Be back in a few days."
+"Hmmm. no tool can do that. Time to make a new one. Be back in a few days."
 -Bardez, creating WEDitor
 "There's Chat!"
 -Bardez, noticing some actually used his Chatroom to 'chat'
@@ -392,32 +389,31 @@ Other Special Thanks (not related to relationships or dumping)
 ////////////////////////////////////////////////////////////////////
 @900000 = ~Wiesz niewiele o tym w jaki sposób dosta³eœ siê pod opiekê Goriona, ale w ci¹gu wielu lat, podczas których dzieli³ siê z tob¹ sk¹pymi informacjami o matce oraz ze s³ów, które wykrzykiwa³ podczas snu, wynika³o, ¿e by³a pó³-orczyc¹ i jego wieloletni¹ przyjació³k¹. Jako, ¿e jej nie pamiêtasz ani nikt nie powiedzia³ ci jak odesz³a, przypuszczasz, ¿e umar³a podczas porodu. Byæ mo¿e ból spowodowany jej odejœciem sprawi³, ¿e Gorion, aby go uleczyæ, zabra³ ciê do Candlekeep i wychowywa³ jak swoje dziecko. O swoim ojcu nie wiesz nic.~
 /*NOBW8.DLG - #8435; change last sentence to, 'I shall be here promptly every two days.'*/
-@900001 = ~Co takiego?! Nie jesteœcie lepsi ni¿... Pewnie powinnam ujrzeæ to w waszych oczach, kiedy spotkaliœmy siê po raz pierwszy. Teraz ju¿ wiem, ¿e lepszy jest znany diabe³. Bardzo dobrze, zdaje siê, ¿e nie mam wielkiego wyboru. Bêdê tutaj co dwa dni.~
+@900001 = ~Co takiego?! Nie jesteœcie lepszy ni¿... Pewnie powinnam ujrzeæ to w waszych oczach, kiedy spotkaliœmy siê po raz pierwszy. Teraz ju¿ wiem, ¿e lepszy jest znany diabe³. Bardzo dobrze, zdaje siê, ¿e nie mam wielkiego wyboru. Bêdê tutaj co drugi dzieñ.~
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
-@900002 = ~Dobrze wiêc. Jestem Delthyr i reprezentujê tych spod znaku harfy. Szukam was ju¿ od wielu tygodni, ale dopiero niedawno odkry³em, ¿e opuœciliœcie miasto. Od waszego wyjazdu wiele siê zmieni³o. Jeœli chcecie, opowiem wam wszystko co bêdzie wam potrzebne. Czy wys³uchacie mnie?~
+@900002 = ~Dobrze wiêc. Jestem Delthyr i reprezentujê tych spod znaku harfy. Szukam was ju¿ od wielu tygodni, ale dopiero niedawno odkry³em, ¿e opuœciliœcie miasto. Od waszego wyjazdu wiele siê zmieni³o. Jeœli chcecie, opowiem wam wszystko co bêdzie wam potrzebne. Wys³uchacie mnie?~
 
-@900037 = ~Wprowadzenie Wrota Baldura~
-@900038 = ~Wprowadzenie Cienie Amn~
-@900039 = ~Cienie Amn~
-@900040 = ~Wciœnij 'Cienie Amn' aby omin¹æ Baldur's Gate I i rozpocz¹æ now¹ przygodê w Baldur's Gate II: Cienie Amn.
+@900037 = ~Wprowadzenie do Wrot Baldura~
+@900038 = ~Wprowadzenie do Cieni Amn~
+@900039 = ~cienie amn~
+@900040 = ~Kliknij Cienie Amn, aby omin¹æ Baldur's Gate I i rozpocz¹æ now¹ przygodê w Baldur's Gate II: Cienie Amn.
 
-Jeœli chcesz zagraæ w Baldur's Gate I wciœnij Anuluj, a nastêpnie Nowa Gra.~
-@900042 = ~Baldur's Gate~
+Jeœli chcesz zagraæ w Baldur's Gate I, wciœnij Anuluj, a nastêpnie Nowa Gra.~
+
+@900042 = ~baldur's gate~
 
 //Shadows of Amn description button text
-
 @900043 = ~"Tortured Souls"~
 @900044 = ~"The Darkest Day"~
-@900045 = ~"Shadows Over Soubar"~
+@900045 = ~"Shadows over Soubar"~
 @900046 = ~"Neverending Journey"~
 @900047 = ~"Region of Terror"~
 @900048 = ~"Big Picture"~
-@900049 = ~"Check The Bodies"~
+@900049 = ~"Check the Bodies"~
 @900050 = ~Graj~
 @900051 = ~Cienie Amn<TM>~
 @900052 = ~ Baldur's Gate<TM> i Opowieœci z Wybrze¿a Mieczy<TM> lub graj ~
 @900053 = ~ z nowymi dodatkami:~
-
 //End Shadows of Amn description button text
 
 ////////////////////////////////////////////////////////////////////

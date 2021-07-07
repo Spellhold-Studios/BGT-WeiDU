@@ -2,8 +2,7 @@
 // Scripts
 ////////////////////////////////////////////////////////////////////
 
-@401100 = ~Vous devez retrouver les cartes maritimes si vous souhaitez revenir en toute sécurité sur la terre ferme~
-
+@401100 = ~Vous devez retrouver les cartes maritimes si vous souhaitez revenir en toute sécurité sur la terre ferme.~
 @401103 = ~Alors que la frénésie du carnage s'affaiblit, vous vous rendez compte que la victoire est vôtre. Sarevok n'est plus, et il ne pourra plus jamais gêner ni vous, ni les Royaumes à nouveau. Avec la guerre évitée et son investigateur détruit, vous vous rendez compte qu'il vous faut revenir au Palais Ducal et raconter à tous ce qui est arrivé, comment et pourquoi.~
 @401104 = ~Oh, <CHARNAME> ! Vous voilà enfin ! Le duc Belt nous a fait savoir que vous étiez partis en mission secrète pour Athkatla afin de remettre un message important à quelqu'un. Je crois deviner que notre compagnie sera la bienvenue dans une mission aussi dangereuse que celle-ci, n'est-ce pas ?~
 @401105 = ~Nous ne savions pas que vous étiez allés si loin en Amn. Les murs de la grande cité d'Athkatla peuvent être vus d'ici.~
@@ -16,8 +15,6 @@
 @401112 = ~Contingence activée~
 @401113 = ~Tatouage de pouvoir activé~
 @401114 = ~Bâton magique activé~
-@401115 = ~Mon arme s'est brisée !~
-@401117 = ~La défaite de Selaad a soigné votre groupe de la lycanthropie.~
 @401118 = ~Votre gêolier peut venir à tout moment. Vous devriez aller sur votre fiche de personnage et monter de niveau avant de continuer. Le jeu continuera une fois que vous serez prêt.~
 
 //SBT scripts - new biographies

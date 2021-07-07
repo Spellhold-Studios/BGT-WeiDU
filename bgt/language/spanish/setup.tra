@@ -142,8 +142,6 @@ No permitido a:
 ////////////////////////////////////////////////////////////////////
 // Áreas
 ////////////////////////////////////////////////////////////////////
-@600005 = ~Podéis ver una gran cantidad de barro alrededor de este objeto, y escucháis unos ruidos que sólo podéis asociar a cuando se está bajo el agua. Es probable que este aparato sea algún tipo de presa.~
-
 @600010 = ~Puerta delantera~
 @600011 = ~Biblioteca de Candelero~
 @600012 = ~Enfermería~
@@ -178,14 +176,14 @@ No permitido a:
 ////////////////////////////////////////////////////////////////////
 // Archivos 2DA
 ////////////////////////////////////////////////////////////////////
-@700000 = ~Capítulo primero/prólogo:~
-@700005 = ~Capítulo segundo:~
-@700009 = ~Capítulo tercero:~
-@700011 = ~Capítulo cuarto:~
-@700013 = ~Capítulo quinto:~
-@700015 = ~Capítulo sexto:~
-@700017 = ~Capítulo séptimo:~
-@700019 = ~Capítulo octavo:~
+@700000 = ~Capítulo primero~
+@700005 = ~Capítulo segundo~
+@700009 = ~Capítulo tercero~
+@700011 = ~Capítulo cuarto~
+@700013 = ~Capítulo quinto~
+@700015 = ~Capítulo sexto~
+@700017 = ~Capítulo séptimo~
+@700019 = ~Capítulo octavo~
 
 @700020 = ~"Quien con monstruos lucha cuide de convertirse a su vez en monstruo. Cuando miras largo tiempo a un abismo, el abismo también mira dentro de ti..." -Friedrich Nietzsche~
 @700021 = ~¡No, no, no podéis!~
@@ -499,7 +497,7 @@ Otros agradecimientos especiales (nada que ver con relaciones):
 
 @900037 = ~Introducción de Baldur's Gate~
 @900038 = ~Introducción de Shadows of Amn~
-@900039 = ~NUEVA PARTIDA BG2~
+@900039 = ~nueva partida bg2~
 @900040 = ~Selecciona el botón Nueva partida BG2 para saltarte Baldur's Gate I y comenzar el juego desde Baldur's Gate II: Shadows of Amn.
 
 Si quieres jugar a Baldur's Gate I, pulsa el botón Cancelar y luego el botón Nueva partida.~
@@ -509,11 +507,11 @@ Si quieres jugar a Baldur's Gate I, pulsa el botón Cancelar y luego el botón Nue
 //Shadows of Amn description button text
 @900043 = ~"Tortured Souls"~
 @900044 = ~"The Darkest Day"~
-@900045 = ~"Shadows Over Soubar"~
-@900046 = ~"Neverending Journey Parte 1"~
+@900045 = ~"Shadows over Soubar"~
+@900046 = ~"Neverending Journey"~
 @900047 = ~"Region of Terror"~
 @900048 = ~"Big Picture"~
-@900049 = ~"Check The Bodies"~
+@900049 = ~"Check the Bodies"~
 @900050 = ~Jugar a ~
 @900051 = ~Shadows of Amn<TM>~
 @900052 = ~Baldur's Gate<TM> y Tales of the Sword Coast<TM> o jugar a ~

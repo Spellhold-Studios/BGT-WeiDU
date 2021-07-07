@@ -130,8 +130,6 @@ Non utilisable par :
 ////////////////////////////////////////////////////////////////////
 // Areas
 ////////////////////////////////////////////////////////////////////
-@600005 = ~Il y a une grande quantité de boue entourant cet objet, et vous entendez des sons comme ceux que vous avez entendus quand vous étiez sous l'eau. Peut-être que cet engin est une sorte de barrage ?~
-
 @600010 = ~Porte extérieure~
 @600011 = ~Bibliothèque de Château-Suif~
 @600012 = ~Infirmerie~
@@ -166,14 +164,14 @@ Non utilisable par :
 ////////////////////////////////////////////////////////////////////
 // 2DA Files
 ////////////////////////////////////////////////////////////////////
-@700000 = ~Chapitre Un/Prologue:~
-@700005 = ~Chapitre Deux:~
-@700009 = ~Chapitre Trois:~
-@700011 = ~Chapitre Quatre:~
-@700013 = ~Chapitre Cinq:~
-@700015 = ~Chapitre Six:~
-@700017 = ~Chapitre Sept:~
-@700019 = ~Chapitre Huit:~
+@700000 = ~Chapitre Un~
+@700005 = ~Chapitre Deux~
+@700009 = ~Chapitre Trois~
+@700011 = ~Chapitre Quatre~
+@700013 = ~Chapitre Cinq~
+@700015 = ~Chapitre Six~
+@700017 = ~Chapitre Sept~
+@700019 = ~Chapitre Huit~
 
 @700020 = ~"Celui qui combat les monstres devrait se regarder en face pour ne pas devenir un monstre lui-même... quand vous regardez profondément dans les abysses, les abysses regardent également en vous..." -Friedrich Nietzsche~
 @700021 = ~Non, ne faites pas ça ! Non !~
@@ -486,19 +484,21 @@ Other Special Thanks (not related to relationships or dumping)
 
 @900037 = ~Introduction de Baldur's Gate~
 @900038 = ~Introduction de Shadows of Amn~
-@900039 = ~Nouveau jeu BG2~
-@900040 = ~Cliquez sur le bouton "Nouveau jeu BG2" pour sauter Baldur's Gate I et commencer le jeu directement depuis Baldur's Gate II: Shadows of Amn. Si vous voulez jouer à Baldur's Gate I, cliquez sur le bouton Annuler, puis cliquez sur le bouton "Nouveau jeu".~
+@900039 = ~nouveau jeu bg2~
+@900040 = ~Cliquez sur le bouton "Nouveau jeu BG2" pour sauter Baldur's Gate I et commencer le jeu directement depuis Baldur's Gate II: Shadows of Amn.
+
+Si vous voulez jouer à Baldur's Gate I, cliquez sur le bouton Annuler, puis cliquez sur le bouton "Nouveau jeu".~
 
 @900042 = ~baldur's gate~
 
 //Shadows of Amn description button text
 @900043 = ~"Tortured Souls"~
 @900044 = ~"The Darkest Day"~
-@900045 = ~"Shadows Over Soubar"~
+@900045 = ~"Shadows over Soubar"~
 @900046 = ~"Neverending Journey"~
 @900047 = ~"Region of Terror"~
 @900048 = ~"Big Picture"~
-@900049 = ~"Check The Bodies"~
+@900049 = ~"Check the Bodies"~
 @900050 = ~Jouer à~
 @900051 = ~Shadows of Amn<TM>~
 @900052 = ~ Baldur's Gate<TM> et la Légende de l'Île perdue<TM> ou jouer à ~

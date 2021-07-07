@@ -10,17 +10,16 @@ than being asked about each one.
 @-1002= "What should be done with all components that are NOT YET installed?
 [I]nstall them, [S]kip them, [A]sk about each one? "
 @-1003= "What should be done with all components that are ALREADY installed?
-[R]e-Install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
+[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
 
-//modified
-@-1004= "PLEASE post the file "
-@-1005= "to"
+@-1004= "Please make backup of the file:"
+@-1005= "and look for support at:"
 
 @-1006= "Install Component ["
 @-1007= "]?
-[R]e-Install, [N]o Change, [U]ninstall or [Q]uit? "
+[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
 @-1008= "]?
-[I]nstall, [N]ot Install or [Q]uit? "
+[I]nstall, or [N]ot Install or [Q]uit? "
 
 @-1009= "Enter part of a module name: "
 
@@ -43,7 +42,7 @@ than being asked about each one.
 @-1024= "SUCCESSFULLY REMOVED ["
 
 @-1025= "]?
-[R]e-Install, [N]o Change, [U]ninstall, [Q]uit or choose one:"
+[R]e-install, [N]o Change, [U]ninstall, [Q]uit or choose one:"
 @-1026= "]?
 [N]o, [Q]uit or choose one:"
 @-1027= " (currently installed)"
@@ -55,22 +54,22 @@ than being asked about each one.
 @-1030= "]?
 choose one:"
 @-1031= "]?
-[R]e-Install, [N]o Change, [Q]uit or choose one:"
+[R]e-install, [N]o Change, [Q]uit or choose one:"
 @-1032= "NOT INSTALLED DUE TO ERRORS"
 @-1033= "INSTALLED WITH WARNINGS    "
-@-1034= "Would you like to display the readme? [Y]es or [N]o"
+@-1034= "Would you like to display the readme? [Y]es [N]o"
 @-1035= "Using Language"
 
 @-1036= "Skipping GROUP ["
 @-1037= "] because it fails its requirements."
 
 @-1038= "[A]sk about each component, [S]kip all, or choose a pre-defined selection:"
-@-1039= "[A]sk about each component, [R]e-Install the current configuration, [U]ninstall all, [S]kip all, or choose a pre-defined selection:"
+@-1039= "[A]sk about each component, [R]e-install the current configuration, [U]ninstall all, [S]kip all, or choose a pre-defined selection:"
 
 @100000 = ~Baldur's Gate Trilogy - Core~
 @100001 = ~Uninstalling pre-setup component...~
 @100002 = ~Backing up chitin.key and override directory...~
-@100003 = ~Patching dialog.tlk.  Please wait...~
+@100003 = ~Patching dialog.tlk. Please wait...~
 @100004 = ~Registering GUI...~
 @100005 = ~Patching ruleset...~
 @100006 = ~Installing scripts...~

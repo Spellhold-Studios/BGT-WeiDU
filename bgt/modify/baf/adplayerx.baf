@@ -7,7 +7,7 @@ IF
   Global("AX1H01","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("AX1H01","LOCALS",0)
     TakeItemReplace("BGMISC56","AX1H01",Myself)
   RESPONSE #50
@@ -22,7 +22,7 @@ IF
   Global("BLUN02","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("BLUN02","LOCALS",0)
     TakeItemReplace("BGMISC56","BLUN02",Myself)
   RESPONSE #50
@@ -37,7 +37,7 @@ IF
   Global("BLUN04","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("BLUN04","LOCALS",0)
     TakeItemReplace("BGMISC56","BLUN04",Myself)
   RESPONSE #50
@@ -52,7 +52,7 @@ IF
   Global("BLUN06","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("BLUN06","LOCALS",0)
     TakeItemReplace("BGMISC56","BLUN06",Myself)
   RESPONSE #50
@@ -67,7 +67,7 @@ IF
   Global("DAGG01","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("DAGG01","LOCALS",0)
     TakeItemReplace("BGMISC56","DAGG01",Myself)
   RESPONSE #50
@@ -82,7 +82,7 @@ IF
   Global("DAGG06","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("DAGG06","LOCALS",0)
     TakeItemReplace("BGMISC56","DAGG06",Myself)
   RESPONSE #50
@@ -97,7 +97,7 @@ IF
   Global("DAGG07","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("DAGG07","LOCALS",0)
     TakeItemReplace("BGMISC56","DAGG07",Myself)
   RESPONSE #50
@@ -112,7 +112,7 @@ IF
   Global("HALB01","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("HALB01","LOCALS",0)
     TakeItemReplace("BGMISC56","HALB01",Myself)
   RESPONSE #50
@@ -127,7 +127,7 @@ IF
   Global("SPER01","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SPER01","LOCALS",0)
     TakeItemReplace("BGMISC56","SPER01",Myself)
   RESPONSE #50
@@ -142,7 +142,7 @@ IF
   Global("SW1H01","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H01","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H01",Myself)
   RESPONSE #50
@@ -157,7 +157,7 @@ IF
   Global("SW1H04","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H04","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H04",Myself)
   RESPONSE #50
@@ -172,7 +172,7 @@ IF
   Global("SW1H07","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H07","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H07",Myself)
   RESPONSE #50
@@ -187,7 +187,7 @@ IF
   Global("SW1H12","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H12","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H12",Myself)
   RESPONSE #50
@@ -202,7 +202,7 @@ IF
   Global("SW1H17","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H17","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H17",Myself)
   RESPONSE #50
@@ -217,7 +217,7 @@ IF
   Global("SW1H20","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H20","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H20",Myself)
   RESPONSE #50
@@ -232,7 +232,7 @@ IF
   Global("SW1H43","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H43","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H43",Myself)
   RESPONSE #50
@@ -247,7 +247,7 @@ IF
   Global("SW1H46","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H46","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H46",Myself)
   RESPONSE #50
@@ -262,7 +262,7 @@ IF
   Global("SW1H48","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW1H48","LOCALS",0)
     TakeItemReplace("BGMISC56","SW1H48",Myself)
   RESPONSE #50
@@ -277,7 +277,7 @@ IF
   Global("SW2H01","LOCALS",1)
 THEN
   RESPONSE #50
-    DisplayStringHead(Myself,@401115)
+    DisplayString(Myself,@14156)
     SetGlobal("SW2H01","LOCALS",0)
     TakeItemReplace("BGMISC56","SW2H01",Myself)
   RESPONSE #50

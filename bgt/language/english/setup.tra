@@ -4,35 +4,37 @@
 @200000 = ~Ithmeera's Statue~
 
 //@23967 - change Blunt Weapons to Mace
-@200001 = ~Mace +2 : 'Krotan's Skullcrusher'
-Even the hordes have their heroes, and while they are vilified in civilized company, their deeds are sometimes impressive nonetheless. Krotan was an exceptionally intelligent orc, as far as orcs go, who commanded an ever-shifting legion of ogres, orcs, hobgoblins, and other assorted beasties during the Year of the Lost Lady, 1241DR. It was in this year that a group of orc bandits allegedly kidnapped and killed a Tethyrian noblewoman, and the response from authorities was a genocidal slaughter of orcs throughout the south in her memory. Krotan mounted a defense that ensured his people were not entirely destroyed; though they were displaced. Krotan himself fell near the end of the conflict, and his head was mounted outside the graveyard where the young lady was buried. As a point of interest, orcs called this time the "Year of Pushing Too Far."
+@200001 = ~Mace +2: "Krotan's Skullcrusher"
+Even the hordes have their heroes, and while they are vilified in civilized company, their deeds are sometimes impressive nonetheless. Krotan was an exceptionally intelligent orc, as far as orcs go, who commanded an ever-shifting legion of ogres, orcs, hobgoblins, and other assorted beasties during the Year of the Lost Lady, 1241 DR. It was in this year that a group of orc bandits allegedly kidnapped and killed a Tethyrian noblewoman, and the response from authorities was a genocidal slaughter of orcs throughout the south in her memory. Krotan mounted a defense that ensured his people were not entirely destroyed; though they were displaced. Krotan himself fell near the end of the conflict, and his head was mounted outside the graveyard where the young lady was buried. As a point of interest, orcs called this time the "Year of Pushing Too Far."
 
 STATISTICS:
 
-Damage:  1D6 + 3
-THACO:  +2
-Damage type:  crushing
+THACO: +2 bonus
+Damage: 1D6 +3
+Damage Type: crushing
 Weight: 7
 Speed Factor: 5
 Proficiency Type: Mace
-Type:  1-handed
+Type: 1-handed
+Requires: 10 Strength
 Not Usable By:
  Druid
  Mage
  Thief~
 
 //@7350 - change Bow Weapons to Long Bow
-@200002 = ~Long bow of marksmanship:  'The Dead Shot'
-Driven by years of rivalry, the Dukes of Spandeliyon and Delthuntle decided to organize a private contest that would proclaim the better archer between them.  Both boasted the power of their magical bows, but that wasn't enough for Edwall Dest, Duke of Spandeliyon.  He arranged for the theft of his opponent's bow, and on the day of the contest he couldn't help gloat in his advantage.  The Duke of Delthuntle, known only as Raymond, demanded a demonstration of Edwall's skill on a scarecrow that he had placed.  Edwall Dest drew his longbow and released the arrow with determination, not stopping to think how uncannily the target resembled himself.  The missile split the large voodoo doll's head in twain, and at that moment Edwall's head did much the same.
+@200002 = ~Long Bow of Marksmanship: "The Dead Shot"
+Driven by years of rivalry, the Dukes of Spandeliyon and Delthuntle decided to organize a private contest that would proclaim the better archer between them. Both boasted the power of their magical bows, but that wasn't enough for Edwall Dest, Duke of Spandeliyon. He arranged for the theft of his opponent's bow, and on the day of the contest he couldn't help gloat in his advantage. The Duke of Delthuntle, known only as Raymond, demanded a demonstration of Edwall's skill on a scarecrow that he had placed. Edwall Dest drew his longbow and released the arrow with determination, not stopping to think how uncannily the target resembled himself. The missile split the large voodoo doll's head in twain, and at that moment Edwall's head did much the same.
 
 STATISTICS:
 
-THACO: +3
-Damage: +2
+THACO: +3 bonus
+Damage: +2 bonus
 Weight: 2
 Speed Factor: 5
 Proficiency Type: Long Bow
-Type:  2-handed
+Type: 2-handed
+Requires: 6 Strength
 Not Usable By:
  Druid
  Cleric
@@ -40,50 +42,54 @@ Not Usable By:
  Thief~
 
 //@7351 = change Bow Weapons to Short Bow
-@200003  = ~Short bow, eagle bow:  'Protector of the Dryads'
-In order to protect their community from an encroaching orc logging encampment, the hero Hannable the White was given this magnificent bow by the dryads of Gulthmere Forest.  A deadly confrontation followed when the loggers dared to try and cut down a great oak tree, nearly killing the dryad linked to it.  With the help of powerful forest animals Hannable slew entire bands of orcs before any more damage was inflicted upon the wood.  The orcs were forced to abandon their plans, lest they suffer the continued wrath of Hannable and the forest.  Needless to say, the hero who aided the grateful dryads lived happily... nay, VERY happily ever after!
+@200003 = ~Eagle Bow: "Protector of the Dryads"
+In order to protect their community from an encroaching orc logging encampment, the hero Hannable the White was given this magnificent bow by the dryads of Gulthmere Forest. A deadly confrontation followed when the loggers dared to try and cut down a great oak tree, nearly killing the dryad linked to it. With the help of powerful forest animals Hannable slew entire bands of orcs before any more damage was inflicted upon the wood. The orcs were forced to abandon their plans, lest they suffer the continued wrath of Hannable and the forest. Needless to say, the hero who aided the grateful dryads lived happily... nay, VERY happily ever after!
 
 STATISTICS:
 
-THAC0:  +2
-Damage: +2
+THAC0: +2 bonus
+Damage: +2 bonus
 Weight: 2
 Speed Factor: 4
 Proficiency Type: Short Bow
-Type:  2-handed
+Type: 2-handed
+Requires: 6 Strength
 Not Usable By:
  Druid
  Cleric
  Mage~
 
 //@20885 - change Small Sword to Dagger
-@200004 = ~Silver Dagger - Werebane:
+@200004 = ~Silver Dagger +1: "Werebane"
 This +1 dagger acts as a +4 dagger vs. lycanthropes. Dynala Goldenhand, an elven ranger who wished to rid her homeland of its were-jackal problem, forged the dagger. She was killed by a tribe of orcs in the Greypeak Mountains as she tracked the jackalwere leader.
 
 STATISTICS:
 
-Damage:  1D4 + 1 (+4 vs. Lycanthropes)
-THACO:  +1 bonus (+4 vs. Lycanthropes)
-Damage type:  piercing
+THACO: +1 bonus, +4 vs. lycanthropes
+Damage: 1D4 +1, +4 vs. lycanthropes
+Damage Type: piercing
 Weight: 1
 Speed Factor: 2
 Proficiency Type: Dagger
-Type:  1-handed
+Type: 1-handed
+Requires: 3 Strength
 Not Usable By:
  Cleric~
 
 //@20882 - change Long Sword to Bastard Sword
-@200005 = ~This ornate, but poorly balanced, bastard sword was found within the wreck of Balduran's ship.  Gold weapons are not known to be useful in combat, but legends say that only weapons forged of gold can harm such dread creatures as the Loup Garou.
+@200005 = ~Sword of Balduran
+This ornate, but poorly balanced, weapon was found within the wreck of Balduran's ship. Gold weapons are not known to be useful in combat, but legends say that only weapons forged of gold can harm such dread creatures as the Loup Garou.
 
 STATISTICS:
 
-Damage:  2D4 (+4 vs. Lycanthropes)
-THACO:  +4 vs. Lycanthropes
-Damage type:  slashing
+THACO: +4 vs. lycanthropes
+Damage: 2D4, +4 vs. lycanthropes
+Damage Type: slashing
 Weight: 12
 Speed Factor: 7
 Proficiency Type: Bastard Sword
-Type:  1-handed
+Type: 1-handed
+Requires: 12 Strength
 Not Usable By:
  Druid
  Cleric
@@ -91,19 +97,20 @@ Not Usable By:
  Thief~
 
 //@23965 - change Large Sword to Two Handed Sword
-@200006 = ~Two-Handed Sword +3 : 'The World's Edge'
+@200006 = ~Two-Handed Sword +3: "The World's Edge"
 This is a legendary weapon of heroic proportions, especially among the far-northern tribes of barbarians. Champion after champion has wielded this blade against countless enemies, and the blood it has spilled could fill a small sea. History will not admit that such a blade could be forged and each consecutive owner seems to tie its origin to whatever creation myth they believe. The most grandiose of these tales is that of a great chieftain who sailed to the cliffs that supposedly bordered the world. There he reached into the void, and his will shaped the blade from nothing. Whatever the truth, in the right hands this sword is a fearsome thing.
 
 STATISTICS:
 
-Damage:  1D10 + 3
-THAC0:  +3 bonus
-Damage Type:  slashing
-Weight:  9
-Speed Factor:  7
-Proficiency Type: Two Handed Sword
-Type:  2-handed
-Not usable by:
+THAC0: +3 bonus
+Damage: 1D10 +3
+Damage Type: slashing
+Weight: 9
+Speed Factor: 7
+Proficiency Type: Two-Handed Sword
+Type: 2-handed
+Requires: 14 Strength
+Not Usable By:
  Druid
  Cleric
  Mage
@@ -132,8 +139,6 @@ Not usable by:
 ////////////////////////////////////////////////////////////////////
 // Areas
 ////////////////////////////////////////////////////////////////////
-@600005 = ~There is an overly abundant amount of mud surrounding this object, and you hear sounds that you can only describe as what you've heard while submerged underwater.  Perhaps this contraption is some sort of dam?~
-
 @600010 = ~Front Gate~
 @600011 = ~Candlekeep Library~
 @600012 = ~Infirmary~
@@ -168,14 +173,14 @@ Not usable by:
 ////////////////////////////////////////////////////////////////////
 // 2DA Files
 ////////////////////////////////////////////////////////////////////
-@700000 = ~Chapter One/Prologue:~
-@700005 = ~Chapter Two:~
-@700009 = ~Chapter Three:~
-@700011 = ~Chapter Four:~
-@700013 = ~Chapter Five:~
-@700015 = ~Chapter Six:~
-@700017 = ~Chapter Seven:~
-@700019 = ~Chapter Eight:~
+@700000 = ~Chapter One~
+@700005 = ~Chapter Two~
+@700009 = ~Chapter Three~
+@700011 = ~Chapter Four~
+@700013 = ~Chapter Five~
+@700015 = ~Chapter Six~
+@700017 = ~Chapter Seven~
+@700019 = ~Chapter Eight~
 
 @700020 = ~"He who fights with monsters should look to it that he himself does not become a monster...when you gaze long into the abyss the abyss also gazes into you..." -Friedrich Nietzsche~
 @700021 = ~No, you can't!~
@@ -279,7 +284,7 @@ QUOTES (a la Ultima)
 "I really wish that bears had a voice for the yogi stuff"
 -Bardez, upon seeing the unused soundset for bears
 
-"Some spells have changed since BG1.  Heh."
+"Some spells have changed since BG1. Heh."
 -Bardez, upon quickload
 
 "I Fucking Hate Overlays"
@@ -348,7 +353,7 @@ QUOTES (a la Ultima)
 "So much damned clicking -- I feel like I'm playing Diablo II."
 -Bardez, converting one of the larger BG1 overlayed areas
 
-"I'm done... no wait.  I have to check both games.  Entirely. Fuck."
+"I'm done... no wait. I have to check both games. Entirely. Fuck."
 -Bardez, upon importing all TBG files
 
 "All this work for nothin' I must wonder where my sanity goes at times..."
@@ -372,10 +377,10 @@ QUOTES (a la Ultima)
 "And then I manually went through every item, dialog, and script to alter them..."
 -Bardez, after replacing BG1 ResRefs with BGT ones
 
-"I'm a one-man modder with a keyboard and caffiene.  Watch out, now!"
+"I'm a one-man modder with a keyboard and caffiene. Watch out, now!"
 -Bardez, at 6:00 AM
 
-"Man, don't I feel shi**y to say that it's on hold due to classes.  I will start up work again (hopefully) in about three weeks..."
+"Man, don't I feel shi**y to say that it's on hold due to classes. I will start up work again (hopefully) in about three weeks..."
 -Bardez, second attempt at abandoning BGT
  
 "AAAAAHHHHHHHHHH!!!!!!!!!!!!!!!!!!"
@@ -387,7 +392,7 @@ QUOTES (a la Ultima)
 "I definitely want to see and/or know more about the tools you needed to make."
 -KenTeamBG, upon announcing BGT
 
-"The Umber Hulk is screaming like a human female.  That's probably a bad thing."
+"The Umber Hulk is screaming like a human female. That's probably a bad thing."
 -Bardez, noticing the off soundset of Umber Hulks
 
 "Well, now that I'm into the bug fixing stage, it should all be much easier now."
@@ -399,7 +404,7 @@ QUOTES (a la Ultima)
 "IETME displays thing incorrectly. I MUST learn this FACT."
 -Bardez, frusterated with IETME
 
-"Hmmm. no tool can do that.  Time to make a new one. Be back in a few days."
+"Hmmm. no tool can do that. Time to make a new one. Be back in a few days."
 -Bardez, creating WEDitor
 
 "There's Chat!"
@@ -481,17 +486,17 @@ Other Special Thanks (not related to relationships or dumping)
 ////////////////////////////////////////////////////////////////////
 
 /*#15890 - change "dwarf from Mithral Hall" to "half-orc"*/
-@900000 = ~You know little of how you came to be a ward of Gorion's, but over the years you have gleaned something of your mother's tale from his vague allusions and from the words he sometimes uttered in tear-filled sleep.  She was a half-orc and a friend of his for many seasons. As you have no memory of her, nor any keepsakes to remind you of her existence, you have come to believe that she died while giving birth to you.  Perhaps it was the pain of such a parting that led Gorion to cloister himself within the narrow halls of Candlekeep and raise you as his own.  Of your father, you have learned nothing.~
+@900000 = ~You know little of how you came to be a ward of Gorion's, but over the years you have gleaned something of your mother's tale from his vague allusions and from the words he sometimes uttered in tear-filled sleep. She was a half-orc and a friend of his for many seasons. As you have no memory of her, nor any keepsakes to remind you of her existence, you have come to believe that she died while giving birth to you. Perhaps it was the pain of such a parting that led Gorion to cloister himself within the narrow halls of Candlekeep and raise you as his own. Of your father, you have learned nothing.~
 
 /*NOBW8.DLG - #8435; change last sentence to, 'I shall be here promptly every two days.'*/
-@900001 = ~What?!  You are no better than... I suppose I should have seen it in your eyes when we first met.  It would seem I was better off with the devil I knew.  Very well, there is little I can do to stop you.  I shall be here promptly every two days.~
+@900001 = ~What?! You are no better than... I suppose I should have seen it in your eyes when we first met. It would seem I was better off with the devil I knew. Very well, there is little I can do to stop you. I shall be here promptly every two days.~
 
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
-@900002 = ~Good then.  I am Delthyr; I represent those who harp.  I have been seeking you out for many weeks now.  Just recently I discovered that you had left the city some time ago.  Things have changed since you were gone, I can tell you everything you need know.  Will you hear me out?~
+@900002 = ~Good then. I am Delthyr; I represent those who harp. I have been seeking you out for many weeks now. Just recently I discovered that you had left the city some time ago. Things have changed since you were gone, I can tell you everything you need know. Will you hear me out?~
 
 @900037 = ~Baldur's Gate Introduction~
 @900038 = ~Shadows of Amn Introduction~
-@900039 = ~New BG2 Game~
+@900039 = ~new bg2 game~
 @900040 = ~Click the New BG2 Game button to skip Baldur's Gate I and start the game from Baldur's Gate II: Shadows of Amn.
 
 If you want to play Baldur's Gate I, click the Cancel button, then click the New Game button.~
@@ -501,11 +506,11 @@ If you want to play Baldur's Gate I, click the Cancel button, then click the New
 //Shadows of Amn description button text
 @900043 = ~"Tortured Souls"~
 @900044 = ~"The Darkest Day"~
-@900045 = ~"Shadows Over Soubar"~
+@900045 = ~"Shadows over Soubar"~
 @900046 = ~"Neverending Journey"~
 @900047 = ~"Region of Terror"~
 @900048 = ~"Big Picture"~
-@900049 = ~"Check The Bodies"~
+@900049 = ~"Check the Bodies"~
 @900050 = ~Play~
 @900051 = ~Shadows of Amn<TM>~
 @900052 = ~ Baldur's Gate<TM> and the Tales of the Sword Coast<TM> or play ~

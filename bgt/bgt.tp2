@@ -32,6 +32,13 @@ LANGUAGE ~English~
          ~bgt/language/english/dialog.tra~
          ~bgt/language/english/journal.tra~
          ~bgt/language/english/scripts.tra~
+LANGUAGE ~International English~
+         ~international~
+         ~bgt/language/english/prompts.tra~
+         ~bgt/language/english/setup.tra~
+         ~bgt/language/english/dialog.tra~
+         ~bgt/language/english/journal.tra~
+         ~bgt/language/english/scripts.tra~
 LANGUAGE ~Czech (cestina)~
          ~czech~
          ~bgt/language/czech/prompts.tra~
@@ -567,9 +574,17 @@ MKDIR ~bgt/dialog.bak~
 
 ACTION_IF FILE_EXISTS ~bgt/dialog.bak/dialog.tlk~ BEGIN
   ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
-    AT_UNINSTALL_EXIT ~bgt/install/win32/uninstal.bat %LANGUAGE%~
+    ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~international~ ) = 0 BEGIN
+      AT_UNINSTALL_EXIT ~bgt/install/win32/uninstal.bat english~
+    END ELSE BEGIN
+      AT_UNINSTALL_EXIT ~bgt/install/win32/uninstal.bat %LANGUAGE%~
+    END
   END ELSE BEGIN
-    AT_UNINSTALL_EXIT ~sh bgt/install/unix/uninstal.sh %LANGUAGE%~
+    ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~international~ ) = 0 BEGIN
+      AT_UNINSTALL_EXIT ~sh bgt/install/unix/uninstal.sh english~
+    END ELSE BEGIN
+      AT_UNINSTALL_EXIT ~sh bgt/install/unix/uninstal.sh %LANGUAGE%~
+    END
   END
 END ELSE BEGIN
   COPY_LARGE + ~dialog.tlk~ ~bgt/dialog.bak/dialog.tlk~
@@ -579,7 +594,6 @@ END ELSE BEGIN
     COPY_LARGE + ~dialogf.tlk~ ~bgt/dialog.bak/dialogf.tlk~
   END
 END
-
 
 ///////////////////////////////////////////////////////
 // journal, sound, and [] update of bg1.tra
@@ -614,6 +628,14 @@ THEN BEGIN
                NOT (FILE_CONTAINS "TobEx_ini/TobExTweak.ini" "Engine:Disable Force Inventory Pause=1")
       BEGIN
         PATCH_INCLUDE ~bgt/include/tra_mod_ger.tpp~
+      END
+    END
+    PATCH_IF ("%LANGUAGE%" STRING_EQUAL ~international~) BEGIN
+      PATCH_IF NOT (FILE_EXISTS "TobEx_ini/TobExVer.txt") OR
+               NOT (FILE_EXISTS "TobEx_ini/TobExTweak.ini") OR
+               NOT (FILE_CONTAINS "TobEx_ini/TobExTweak.ini" "Engine:Disable Force Inventory Pause=1")
+      BEGIN
+        PATCH_INCLUDE ~bgt/include/tra_mod_eng.tpp~
       END
     END
 
@@ -1558,7 +1580,6 @@ COPY ~bgt/modify/are/ar8600.are~ ~override/ar8600.are~ // Cloakwood Mines Exteri
   ADD_MAP_NOTE #1904 #1554 ~blue~ @16995
 
 COPY ~bgt/modify/are/ar8601.are~ ~override/ar8601.are~ // Cloakwood Mines Lvl 1
-  SAY 0x2728 @600005
   ADD_MAP_NOTE #1975 #71   ~orange~ @600032
   ADD_MAP_NOTE #341  #133  ~gray~   @600033
   ADD_MAP_NOTE #1406 #1563 ~gray~   @600021
@@ -3683,7 +3704,8 @@ COPY ~bgt/modify/itm/misc83.itm~ ~override/bgmisc83.itm~
 // Item description corrections: English only
 /////////////////////////////////////////////
 
-ACTION_IF (( ~%LANGUAGE%~ STRING_COMPARE_CASE ~english~ ) = 0) THEN BEGIN
+ACTION_IF (( ~%LANGUAGE%~ STRING_COMPARE_CASE ~english~ ) = 0)  OR
+          (( ~%LANGUAGE%~ STRING_COMPARE_CASE ~international~ ) = 0) THEN BEGIN
   OUTER_INNER_PATCH "1234" BEGIN
     WRITE_LONG 0x0 21379 //Identified description: Kiel's Morningstar
     READ_STRREF 0x0 string
@@ -9497,10 +9519,10 @@ COPY + ~bgt/fixpack/cader09.wav~ ~bgtwav~
 
 // Amplify Tranzig's voice
 ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
-  COPY + ~bgt/fixpack/tranz01.wav~  ~bgtwav~
-         ~bgt/fixpack/tranz02.wav~  ~bgtwav~
-         ~bgt/fixpack/tranz03.wav~  ~bgtwav~
-         ~bgt/fixpack/tranz04.wav~  ~bgtwav~
+  COPY + ~bgt/fixpack/tranz01.wav~ ~bgtwav~
+         ~bgt/fixpack/tranz02.wav~ ~bgtwav~
+         ~bgt/fixpack/tranz03.wav~ ~bgtwav~
+         ~bgt/fixpack/tranz04.wav~ ~bgtwav~
 END
 
 //rename some sounds

@@ -3,7 +3,6 @@
 ////////////////////////////////////////////////////////////////////
 
 @401100 = ~Necesitáis obtener las cartas náuticas si queréis regresar al continente.~
-
 @401103 = ~Cuando notáis remitir vuestro frenesí asesino, comprendéis que la victoria es vuestra. Sarevok ha muerto, y no volverá a amenazaros ni a vos ni a los Reinos. Tras evitar una guerra y eliminar al líder de toda la operación, creéis que lo mejor sería regresar al Palacio Ducal y explicar a sus gobernantes qué ha ocurrido exactamente, cómo y por qué.~
 @401104 = ~¡<CHARNAME>, estáis aquí! Belt nos ha hecho saber que os había enviado a Athkatla para entregar un importante mensaje. Supongo que nuestra ayuda será bienvenida en una misión tan peligrosa como esta, ¿no?~
 @401105 = ~No sabíamos que estabais tan cerca de Amn. Los muros de la gran ciudad de Athkatla se pueden ver desde aquí.~
@@ -16,8 +15,6 @@
 @401112 = ~Contingencia liberada.~
 @401113 = ~Tatuaje de poder liberado.~
 @401114 = ~Bastón mágico liberado.~
-@401115 = ~¡Mi arma se ha roto!~
-@401117 = ~La derrota de Selaad os ha curado la licantropía.~
 @401118 = ~Vuestro captor puede regresar en cualquier momento. Debéis ir a la pantalla de personalizar personaje y subir de nivel antes de continuar. El juego continuará en cuanto tengáis todo listo.~
 
 //SBT scripts - nuevas biografías

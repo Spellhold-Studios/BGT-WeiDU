@@ -538,25 +538,25 @@
 @800179 = ~Záchrana Xana v nashkelskıch dolech.
 
 ~
-@800180 = ~Kapitola druhá: Odlouèení
+@800180 = ~Kapitola druhá
 
 ~
-@800181 = ~Kapitola tøetí: Potíe v Nashkelu
+@800181 = ~Kapitola tøetí
 
 ~
-@800182 = ~Kapitola ètvrtá: Bandité a elezná krize
+@800182 = ~Kapitola ètvrtá
 
 ~
-@800183 = ~Kapitola pátá: Do Zahaleného lesa
+@800183 = ~Kapitola pátá
 
 ~
-@800184 = ~Kapitola šestá: Do Baldurovy Brány
+@800184 = ~Kapitola šestá
 
 ~
-@800185 = ~Kapitola sedmá: Návrat do Svítící Tvrze
+@800185 = ~Kapitola sedmá
 
 ~
-@800186 = ~Kapitola osmá: Konec hry
+@800186 = ~Kapitola osmá
 
 ~
 @800187 = ~Setkání s Cadderlym.
@@ -935,33 +935,33 @@ Získal jsem Shandalarùv pláš z jakéhosi ledového vìzení. Rozhodnì se tam nechci
 //Chapter journal entries
 /////////////////////////
 /*JOURNAL - @16190*/
-@310733 = ~Kapitola druhá: Odlouèení
+@310733 = ~Kapitola druhá
 
 Probouzíš se s vìdomím, e to nebyla jen noèní mùra. Vidìl jsi Goriona zemøít na vlastní oèi a ani jeho mocná magie nemohla to pøepadení odvrátit. Pøál si, abys utekl, ale to nezabránilo, aby tì zaplavil pocit bezmoci.
 
 "Vydej svého chránìnce", øekl ten démon v brnìní. Šlo mu jeno tebe, ale proè? Kdyby ti jen Gorion dal nìjaké vodítko, ale teï jsi sám a ztracenı. Svítící Tvrz je blízko, ale nenajdeš tam útoèištì. Ètenáøi vyvaují svùj klid tìmi nejpøísnìjšími pravidly pro vstup a bez Gorionova vlivu zùstanou brány zavøené.~
 /*JOURNAL - @15836*/
-@310734 = ~Kapitola tøetí: Potíe v Nashkelu
+@310734 = ~Kapitola tøetí
 
 Stále máš pøed oèima spìšnı útìk ze Svítící Tvrze, a proto jsou pro tebe potíe Meèového Pobøeí jen nejasnou šmouhou. Gorion by však nechtìl, abys zahálel a prošetøení místních problémù by mohlo osvìtlit tvou vlastní situaci. Nemáš ale tušení, jak s tebou mùe bıt propojena elezná krize èi potíe v Nashkelu.~
 /*JOURNAL - @15837*/
-@310735 = ~Kapitola ètvrtá: Banditi a elezná krize
+@310735 = ~Kapitola ètvrtá
 
 Je jisté, e Mulaheyova smrt uleví obavám nashkelského lidu, avšak ty sám zùstáváš neklidnı. Aèkoliv skuteènì mohl zpùsobit zlo, které postihlo dùl, elezná krize je pøíliš rozsáhlá, ne aby byla pouze jeho dílem. Jeho dopisy potvrzují tvé obavy a mohou mít spojitost s bandity, kteøí suují Pobøení cestu, pøestoe neøíkají, kde se skrıvají.~
 /*JOURNAL - @15838*/
-@310736 = ~Kapitola pátá: Do Zahaleného lesa
+@310736 = ~Kapitola pátá
 
 Mulahey a Tazok se ukázali bıt pouhımi loutkami; pravı vùdce tohoto tajemného plánu ti stále uniká. Jedna vìc je jistá; nìkdo má velkı osobní zájem na tvé smrti, pøestoe nemáš tušení proè. Hledání odpovìdí pokraèuje a zlovìstnı Zahalenı les je tvım dalším cílem.~
 /*JOURNAL - @15839*/
-@310737 = ~Kapitola šestá: Do Baldurovy Brány
+@310737 = ~Kapitola šestá
 
 Uštìdøil jsi silnı úder organizaci známé jako eleznı Trùn; poráku, o které víš, e nebude pøehlédnuta. Nyní se musíš vydat do samotné Baldurovy Brány, kde jistì zjistíš pravdu o tomto podivném spiknutí, které suuje obyvatele Meèového pobøeí.~
 /*JOURNAL - @15840*/
-@310738 = ~Kapitola sedmá: Návrat do Svítící Tvrze
+@310738 = ~Kapitola sedmá
 
 Tvá cesta se chılí ke konci. Vévoda Eltan tì poádal, abys odcestoval zpìt do Svítící Tvrze a sledoval vùdce elezného Trùnu. Aè tì znepokojuje, e takoví zlí mui vyuívají velkou knihovnu, a pøál by sis, aby okolnosti tvé návštìvy byly jiné, návrat do bıvalého domova bude stále pøíjemnı.~
 /*JOURNAL - @15841*/
-@310739 = ~Kapitola osmá: Konec hry
+@310739 = ~Kapitola osmá
 
 ivot zùstává velkou vızvou. Byl jsi obvinìn z vrady vùdcù elezného Trùnu a Ohnivá Pìst tì kvùli tomu bude nepochybnì hledat na kadém kroku. Pøes to všechno se musíš vrátit do Baldurovy Brány, samotného doupìte tvıch pronásledovatelù. Musíš najít a odhalit toho, kdo je odpovìdnı za tvé nesnáze; musíš najít Sarevoka.~
 
