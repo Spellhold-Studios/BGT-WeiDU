@@ -7615,6 +7615,12 @@ COPY_EXISTING ~dagg09.itm~ ~override/dagg09.itm~
 COPY_EXISTING ~ishld02.itm~ ~override/ishld02.itm~
  WRITE_SHORT 0x42 0 //Lore to identify
 
+COPY_EXISTING ~misc02.itm~ ~override~ // Mirror
+  WRITE_ASCII 0x3a ~imiscag~ #8 // inventory icon
+  WRITE_ASCII 0x44 ~gsack01~ #8 // ground icon
+  WRITE_LONG  DESC 920 // description
+BUT_ONLY
+
 COPY_EXISTING ~misc1b.itm~ ~override/misc1b.itm~
  WRITE_ASCII 0x58 ~CMISC1B~ #8 // Carried icon
 
