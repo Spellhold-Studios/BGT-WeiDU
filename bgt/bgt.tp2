@@ -7652,6 +7652,12 @@ COPY_EXISTING ~misc67.itm~ ~override~ // Brun's Dead Son
   WRITE_ASCII 0x44 ~gmisc66~ #8 // ground icon
 BUT_ONLY
 
+COPY_EXISTING ~misc68.itm~ ~override~ // Abela the Nymph
+  WRITE_ASCII 0x3a ~imisc68~ #8 // inventory icon
+  WRITE_ASCII 0x44 ~gmisc68~ #8 // ground icon
+  WRITE_ASCII 0x58 ~cmisc79~ #8 // description image
+BUT_ONLY
+
 COPY_EXISTING ~misc70.itm~ ~override/misc70.itm~
  SAY 0x8 @200000
  SAY 0xc @200000
