@@ -7676,6 +7676,10 @@ COPY_EXISTING ~misc92.itm~ ~override~ // Switch for an Engine
   WRITE_ASCII 0x44 ~gmisc92~ #8 // ground icon
 BUT_ONLY
 
+COPY_EXISTING ~misc94.itm~ ~override~ // Mallet Head
+  WRITE_ASCII 0x44 ~gmisc94~ #8 // ground icon
+BUT_ONLY
+
 COPY_EXISTING ~scrl3f.itm~ ~override/scrl3f.itm~
   WRITE_SHORT 0x1c 37 //correct Item type: Books (was Scrolls)
 
