@@ -7680,6 +7680,10 @@ COPY_EXISTING ~misc94.itm~ ~override~ // Mallet Head
   WRITE_ASCII 0x44 ~gmisc94~ #8 // ground icon
 BUT_ONLY
 
+COPY_EXISTING ~misc95.itm~ ~override~ // Mallet Handle
+  WRITE_ASCII 0x44 ~gmisc95~ #8 // ground icon
+BUT_ONLY
+
 COPY_EXISTING ~scrl3f.itm~ ~override/scrl3f.itm~
   WRITE_SHORT 0x1c 37 //correct Item type: Books (was Scrolls)
 
