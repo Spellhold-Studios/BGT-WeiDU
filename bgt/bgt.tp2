@@ -6940,6 +6940,11 @@ COPY_EXISTING ~ar6700.are~ ~override~
   WRITE_ASCII (sng_off + 0x30) ~amb_m14~ #8 // main day ambient 2
 BUT_ONLY
 
+// set Davaeorn's Glyph of Warding trap to detectable
+COPY_EXISTING ~ar8603.are~ ~override~ // Cloakwood Mines lvl 4
+  LPF ALTER_AREA_REGION INT_VAR flag_trap_detectable = 1 STR_VAR region_name = ~trap 4~ END
+BUT_ONLY
+
 // set trapped containers to undetected
 COPY_EXISTING ~ar6736.are~ ~override~ // Beregost house
               ~ard000.are~ ~override~ // Durlag's Tower
