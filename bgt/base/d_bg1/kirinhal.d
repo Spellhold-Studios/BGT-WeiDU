@@ -1,6 +1,6 @@
 BEGIN ~kirinhal~
 
-IF WEIGHT #0 ~Gender(Player1,MALE)
+IF WEIGHT #0 ~Gender(LastTalkedToBy,MALE)
 NumTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @23090
   IF ~~ THEN REPLY @23091 GOTO 1
@@ -87,7 +87,7 @@ SetGlobal("FreedTheBitch","GLOBAL",1)
 ForceSpell(Myself,DRYAD_TELEPORT)~ EXIT
 END
 
-IF WEIGHT #1 ~Gender(Player1,FEMALE)
+IF WEIGHT #1 ~Gender(LastTalkedToBy,FEMALE)
 NumTimesTalkedTo(0)~ THEN BEGIN 14
   SAY @23129
   IF ~~ THEN REPLY @23130 GOTO 6
