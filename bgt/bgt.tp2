@@ -7623,6 +7623,19 @@ BUT_ONLY
 STRING_SET ~12874~ @12874 //"Oberan" -> "Oberon"
 STRING_SET ~12850~ @12850 //"Oberan" -> "Oberon"
 
+// make corpses permanent
+COPY_EXISTING ~catdead.cre~  ~override~
+              ~corpse1.cre~  ~override~
+              ~corpse2.cre~  ~override~
+              ~dead.cre~     ~override~
+              ~dead1.cre~    ~override~
+              ~dead2.cre~    ~override~
+              ~deadfuck.cre~ ~override~
+              ~halfmiri.cre~ ~override~
+              ~skelded.cre~  ~override~
+  WRITE_BYTE 0x10 (THIS | BIT2)
+BUT_ONLY
+
 //////////////////////////////////////////////////////////////////
 //Dialogue
 //////////////////////////////////////////////////////////////////
