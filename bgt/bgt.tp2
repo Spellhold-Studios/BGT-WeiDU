@@ -6980,6 +6980,11 @@ COPY_EXISTING ~ard012.are~ ~override~ // Durlag's Tower lvl 2
   END
 BUT_ONLY
 
+// change entrance orientation
+COPY_EXISTING ~ar7500.are~ ~override~ // farmlands
+  LPF ALTER_AREA_ENTRANCE INT_VAR orient = 8 STR_VAR entrance_name = ~exit7900~ END // S to N
+BUT_ONLY
+
 ////////////////////////////////////////////////////////
 //Creatures
 ////////////////////////////////////////////////////////
