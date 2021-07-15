@@ -1,8 +1,7 @@
 BEGIN ~dushai~
 
 IF WEIGHT #1 ~Global("MetMendas","GLOBAL",1)
-Global("DushTalk","GLOBAL",0)
-Global("IslandTravel","GLOBAL",0)~ THEN BEGIN 0
+Global("DushTalk","GLOBAL",0)~ THEN BEGIN 0
   SAY @21351
   IF ~~ THEN REPLY @21365 GOTO 1
   IF ~~ THEN REPLY @21369 GOTO 3
@@ -32,8 +31,7 @@ IF ~~ THEN BEGIN 3
 END
 
 IF WEIGHT #2 ~Global("DushTalk","GLOBAL",1)
-Global("MetMendas","GLOBAL",1)
-Global("IslandTravel","GLOBAL",0)~ THEN BEGIN 4
+Global("MetMendas","GLOBAL",1)~ THEN BEGIN 4
   SAY @21404
   IF ~~ THEN REPLY @21405 GOTO 13
   IF ~~ THEN REPLY @21406 GOTO 12
@@ -90,13 +88,10 @@ IF ~~ THEN BEGIN 13
   SAY @21433
   IF ~~ THEN REPLY @21464 GOTO 5
   IF ~~ THEN REPLY @21465 GOTO 8
-  IF ~PartyGoldGT(99)~ THEN REPLY @21466 GOTO 9
-  IF ~PartyGoldLT(100)~ THEN REPLY @22134 GOTO 16
+  IF ~~ THEN REPLY @21466 GOTO 9
 END
 
-IF WEIGHT #3 ~OR(2)
-  Global("MetMendas","GLOBAL",0)
-  GlobalGT("IslandTravel","GLOBAL",0)~ THEN BEGIN 14
+IF WEIGHT #3 ~Global("MetMendas","GLOBAL",0)~ THEN BEGIN 14
   SAY @21442
   IF ~~ THEN EXIT
 END

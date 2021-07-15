@@ -19,7 +19,6 @@ END
 IF
   TimeGT(19)
   Exists("Alora")
-  !IsActive("Alora")
   !InPartyAllowDead("Alora")
 THEN
   RESPONSE #100
@@ -30,7 +29,6 @@ END
 IF
   TimeLT(5)
   Exists("Alora")
-  !IsActive("Alora")
   !InPartyAllowDead("Alora")
 THEN
   RESPONSE #100
@@ -42,7 +40,6 @@ IF
   TimeGT(4)
   TimeLT(20)
   Exists("Alora")
-  IsActive("Alora")
   !InPartyAllowDead("Alora")
 THEN
   RESPONSE #100

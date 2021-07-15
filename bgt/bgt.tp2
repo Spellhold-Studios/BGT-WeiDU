@@ -7626,7 +7626,11 @@ STRING_SET ~12850~ @12850 //"Oberan" -> "Oberon"
 //////////////////////////////////////////////////////////////////
 //Dialogue
 //////////////////////////////////////////////////////////////////
-//hardcoded
+
+COMPILE ~bgt/fixpack/rdushai.d~ // make Dushai see party has already been to island; add missing gold checks
+        ~bgt/fixpack/rkirinhal.d~ // make Kirinhale recognize speaker's gender
+        ~bgt/fixpack/rshoal.d~ // play nered07.wav when Shoal kisses
+        ~bgt/fixpack/rzeke.d~ // make zeke see Branwen is no longer petrified
 
 //////////////////////////////////////////////////////////////////
 //Effects
@@ -7767,6 +7771,24 @@ COPY_EXISTING ~amnisna.bcs~ ~override/amnisna.bcs~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~ReputationLT(LastSeenBy(Myself),5)~ ~ReputationLT(Player1,5)~
   COMPILE_BAF_TO_BCS
+
+// don't activate/deactivate Alora twice
+COPY_EXISTING ~ar7230.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~TimeGT(19)[%newline%]*Exists("Alora")~
+      ~TimeGT(19)
+      Exists("Alora")
+      !IsActive("Alora")~
+    REPLACE_TEXTUALLY ~TimeLT(5)[%newline%]*Exists("Alora")~
+     ~TimeLT(5)
+      Exists("Alora")
+      !IsActive("Alora")~
+    REPLACE_TEXTUALLY ~TimeLT(20)[%newline%]*Exists("Alora")~
+     ~TimeLT(20)
+      Exists("Alora")
+      IsActive("Alora")~
+  END
+BUT_ONLY
 
 <<<<<<<<bgt/ch6end.baf
 >>>>>>>>
