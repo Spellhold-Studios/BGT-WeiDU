@@ -308,6 +308,9 @@ a další~
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
 @900002 = ~Dobrá tedy. Jsem Delthyr; zastupuji zde Harfeníky. Hledám vás již mnoho týdnù. Teprve nedávno jsem zjsitil, že jste pøed nìjakou dobou opustili mìsto. Vìci se zmìnily, zatímco jste byli pryè. Mohu vám øíct vše, co potøebujete vìdìt. Vyslechnete mì?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~Øekla jsem kvótu deset na skupinu! Vypadni odsud a dej si bacha, protože všechny pytláky hlásím na Ohnivou pìst! Zatracení zabijáètí šílenci...~
+
 @900037 = ~Baldur's Gate úvod~
 @900038 = ~Shadows of Amn úvod~
 @900039 = ~nová bg2 hra~

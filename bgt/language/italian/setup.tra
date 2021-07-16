@@ -487,6 +487,9 @@ Other Special Thanks (not related to relationships or dumping)
 /*DELTHY.DLG - #1729; aggiungi una frase extra, 'Hai un minuto per ascoltarmi?'*/
 @900002 = ~Molto bene allora. Mi chiamo Delthyr; io rappresento gli Arpisti. Ti ho cercato per parecchie settimane. Solo di recente ho scoperto che avevi lasciato la città da qualche tempo. Le cose sono cambiate da quando sei partito e io posso dirti tutto quello che ti serve sapere. Hai un minuto per ascoltarmi?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~Avevo detto un massimo di dieci per gruppo! Andatevene da qui e guardatevi alle spalle: io denuncio tutti i bracconieri al Pugno Fiammante! Dannati stupidi dalla lama facile...~
+
 @900037 = ~Baldur's Gate Introduzione~
 @900038 = ~Shadows of Amn Introduzione~
 @900039 = ~nuova partita bg2~

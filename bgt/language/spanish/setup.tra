@@ -495,6 +495,9 @@ Otros agradecimientos especiales (nada que ver con relaciones):
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
 @900002 = ~Bien. Soy Delthyr; represento a los arpistas. He estado buscandoos durante semanas. Hace poco me enteré de que abandonasteis la ciudad. Desde que os fuisteis mucho ha cambiado, puedo contároslo todo. ¿Deseáis escucharme?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~!Dije una cuota de diez por grupo! Largaos de aquí y tened cuidado, porque yo doy parte de todos los cazadores furtivos al Puno Llameante... !Malditos idiotas! Solo piensan en golpear a la menor provocación.~
+
 @900037 = ~Introducción de Baldur's Gate~
 @900038 = ~Introducción de Shadows of Amn~
 @900039 = ~nueva partida bg2~

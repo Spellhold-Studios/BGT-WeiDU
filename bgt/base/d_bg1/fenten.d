@@ -8,15 +8,13 @@ END
 
 IF ~NumTimesTalkedTo(0)
 ReactionLT(LastTalkedToBy,FRIENDLY_LOWER)
-ReactionGT(LastTalkedToBy,HOSTILE_UPPER)
-!Global("HelpGerde","GLOBAL",2)~ THEN BEGIN 1
+ReactionGT(LastTalkedToBy,HOSTILE_UPPER)~ THEN BEGIN 1
   SAY @15154
   IF ~~ THEN UNSOLVED_JOURNAL @310234 EXIT
 END
 
 IF ~NumTimesTalkedTo(0)
-ReactionGT(LastTalkedToBy,NEUTRAL_UPPER)
-!Global("HelpGerde","GLOBAL",2)~ THEN BEGIN 2
+ReactionGT(LastTalkedToBy,NEUTRAL_UPPER)~ THEN BEGIN 2
   SAY @15159
   IF ~~ THEN UNSOLVED_JOURNAL @310235 EXIT
 END
@@ -35,7 +33,7 @@ IF ~False()~ THEN BEGIN 4
   IF ~~ THEN EXIT
 END
 
-IF ~Global("HelpGerde","GLOBAL",2)~ THEN BEGIN 5
+IF ~True()~ THEN BEGIN 5
   SAY @15162
   IF ~~ THEN EXIT
 END

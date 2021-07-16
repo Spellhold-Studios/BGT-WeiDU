@@ -8440,6 +8440,27 @@ BUT_ONLY
 
 COMPILE ~bgt/fixpack/rarkani3.d~ // restore follow script after dialogue
 
+// restore Gerde and Fenten angry states
+COPY_EXISTING ~ar8300.are~ ~override~ // fishing village
+  READ_LONG 0x60 spw_off
+  READ_LONG 0x64 spw_cnt
+  FOR (i = 0; i < spw_cnt; i += 1) BEGIN
+    READ_SHORT (spw_off + 0xc8*i + 0x74) cre_cnt
+    FOR (j = 0; j < cre_cnt; j += 1) BEGIN
+      READ_ASCII ((spw_off + 0xc8*i) + (0x8*j + 0x24)) cre
+      // change random spawns to ankhegs counting towards Gerde's quota
+      PATCH_IF (~%cre%~ STR_EQ ~ankheg~) BEGIN
+        WRITE_ASCII ((spw_off + 0xc8*i) + (0x8*j + 0x24)) ~ankhegg~ #8
+      END
+    END
+  END
+BUT_ONLY
+
+EXTEND_TOP ~ar8300.bcs~ ~bgt/fixpack/aar8300.baf~
+
+COMPILE ~bgt/fixpack/rgerde.d~
+        ~bgt/fixpack/rfenten.d~
+
 ///////////////////////////////////////////////////////
 // GUI Switcher v2.0
 ///////////////////////////////////////////////////////

@@ -482,6 +482,9 @@ Other Special Thanks (not related to relationships or dumping)
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
 @900002 = ~Parfait. Je suis Delthyr ; je représente les joueurs de harpe. Je vous cherche depuis plusieurs semaines. J'ai appris récemment que vous aviez quitté la ville il y a quelque temps. Les choses ont changé depuis, je peux vous dire tout ce que vous avez besoin de savoir. Allez-vous m'écouter ?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~J'ai dit un quota de dix par équipe ! Hors d'ici et prenez garde parce que je signale tous les braconniers au Poing Enflammé ! Tas d'imbéciles heureux...~
+
 @900037 = ~Introduction de Baldur's Gate~
 @900038 = ~Introduction de Shadows of Amn~
 @900039 = ~nouveau jeu bg2~
