@@ -7900,6 +7900,13 @@ THEN~
 COPY_EXISTING ~fgolem.bcs~ ~override/fgolem.bcs~
   REPLACE_BCS_BLOCK ~bgt/fixpack/rfgolem.baf~ ~bgt/fixpack/xfgolem.baf~
 
+// stop NPCs with follow script pushing player
+COPY_EXISTING ~follow.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~MoveToObject(Player1)~ ~FollowObjectFormation(Player1,8,1)~
+  END
+BUT_ONLY
+
 COPY_EXISTING ~gtwerewo.bcs~ ~override/gtwerewo.bcs~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~END~ ~Wait(300)
