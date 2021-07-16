@@ -7642,6 +7642,7 @@ BUT_ONLY
 
 COMPILE ~bgt/fixpack/rcoran.d~ // stop Coran from introducing himself again when refused
         ~bgt/fixpack/rdushai.d~ // make Dushai see party has already been to island; add missing gold checks
+        ~bgt/fixpack/remerso.d~ // restore Emerson's unused lines
         ~bgt/fixpack/rkirinhal.d~ // make Kirinhale recognize speaker's gender
         ~bgt/fixpack/rshoal.d~ // play nered07.wav when Shoal kisses
         ~bgt/fixpack/rzeke.d~ // make zeke see Branwen is no longer petrified
