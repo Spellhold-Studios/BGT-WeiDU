@@ -393,6 +393,9 @@ Other Special Thanks (not related to relationships or dumping)
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
 @900002 = ~Dobrze wiêc. Jestem Delthyr i reprezentujê tych spod znaku harfy. Szukam was ju¿ od wielu tygodni, ale dopiero niedawno odkry³em, ¿e opuœciliœcie miasto. Od waszego wyjazdu wiele siê zmieni³o. Jeœli chcecie, opowiem wam wszystko co bêdzie wam potrzebne. Wys³uchacie mnie?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~Powiedzia³am przecie¿ wyraŸnie: dziesiêæ na grupê! Wynocha st¹d i pilnujcie siê, bo powiadomiê P³omienn¹ Piêœæ, o tym, co zrobiliœcie! Przeklêci g³upcy...~
+
 @900037 = ~Wprowadzenie do Wrot Baldura~
 @900038 = ~Wprowadzenie do Cieni Amn~
 @900039 = ~cienie amn~

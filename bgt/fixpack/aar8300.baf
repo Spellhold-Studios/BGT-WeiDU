@@ -1,0 +1,7 @@
+IF
+  NumDeadGT("AnkhegG",10)
+  Global("A6AngryGerde","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("A6AngryGerde","GLOBAL",1)
+END

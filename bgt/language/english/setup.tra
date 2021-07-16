@@ -494,6 +494,9 @@ Other Special Thanks (not related to relationships or dumping)
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
 @900002 = ~Good then. I am Delthyr; I represent those who harp. I have been seeking you out for many weeks now. Just recently I discovered that you had left the city some time ago. Things have changed since you were gone, I can tell you everything you need know. Will you hear me out?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~I said a quota of ten per party! Get out of here and watch your back because I report all poachers to the Flaming Fist! Damn hammer-happy fools...~
+
 @900037 = ~Baldur's Gate Introduction~
 @900038 = ~Shadows of Amn Introduction~
 @900039 = ~new bg2 game~

@@ -541,6 +541,9 @@ Andere besondere Danksagungen (nicht im Zusammenhang mit Beziehungen oder Verlas
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
 @900002 = ~Also gut. Ich bin Delthyr, und ich vertrete die Harfner. Ich bin seit vielen Wochen auf der Suche nach Euch. Erst kürzlich fand ich heraus, dass Ihr die Stadt vor einiger Zeit verlassen habt. Seit Eurer Abreise haben sich tiefgreifende Veränderungen vollzogen. Ich kann Euch alles berichten, was Ihr wissen müsst. Wollt Ihr mich nun ausreden lassen?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~Ich sagte doch, dass die Quote bei zehn pro Gruppe liegt! Haut bloß ab, und seht Euch vor! Wilderer werden von mir nämlich bei der Flammenden Faust angezeigt! Verfluchte jagdgeile Idioten...~
+
 @900037 = ~Baldur's Gate Einleitung~
 @900038 = ~Schatten von Amn Einleitung~
 @900039 = ~neues bg2 spiel~
