@@ -8424,6 +8424,14 @@ COPY ~override/wolfwegr.cre~ ~override/bgwowegr.cre~
 COPY_EXISTING ~spwi946.spl~ ~override/spwi946.spl~
   REPLACE_TEXTUALLY ~WOLFWEGR~ ~BGWOWEGR~
 
+// make Arkanis and Deder follow only after dialogue
+COPY_EXISTING ~arkani3.cre~ ~override~
+              ~deder3.cre~  ~override~
+  WRITE_ASCII 0x268 ~~ #8 // remove follow script
+BUT_ONLY
+
+COMPILE ~bgt/fixpack/rarkani3.d~ // restore follow script after dialogue
+
 ///////////////////////////////////////////////////////
 // GUI Switcher v2.0
 ///////////////////////////////////////////////////////
