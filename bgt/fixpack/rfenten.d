@@ -1,3 +1,3 @@
-ADD_STATE_TRIGGER ~fenten~ 3 ~Global("A6AngryGerde","GLOBAL",0)~
-
-REPLACE_STATE_TRIGGER ~fenten~ 4 ~GlobalGT("A6AngryGerde","GLOBAL",0)~
+ADD_TRANS_ACTION ~fenten~ BEGIN 3 END BEGIN END
+ ~EraseJournalEntry(@310234)
+  EraseJournalEntry(@310235)~

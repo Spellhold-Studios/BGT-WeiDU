@@ -19,8 +19,7 @@ ReactionGT(LastTalkedToBy,NEUTRAL_UPPER)~ THEN BEGIN 2
   IF ~~ THEN UNSOLVED_JOURNAL @310235 EXIT
 END
 
-IF ~Global("HelpGerde","GLOBAL",2)
-Global("HelpFenten","GLOBAL",0)
+IF ~Global("HelpFenten","GLOBAL",0)
 PartyHasItem("MISC12")~ THEN BEGIN 3
   SAY @15160
   IF ~~ THEN DO ~SetGlobal("HelpFenten","GLOBAL",1)
