@@ -12,7 +12,6 @@ en vez de tener que elegirlos por separado.
 @-1003= "?Que se debe hacer con todos los componentes que YA ESTAN instalados.
 [R]einstalarlos, [U] Desinstalarlos, [S]altarlos, [A] Preguntar por cada uno? "
 
-//modified
 @-1004= "POR FAVOR escribe los contenidos del archivo "
 @-1005= "en"
 

@@ -39,78 +39,78 @@ LANGUAGE ~International English~
          ~bgt/language/english/dialog.tra~
          ~bgt/language/english/journal.tra~
          ~bgt/language/english/scripts.tra~
-LANGUAGE ~Czech (cestina)~
+LANGUAGE ~cestina~
          ~czech~
          ~bgt/language/czech/prompts.tra~
          ~bgt/language/czech/setup.tra~
          ~bgt/language/czech/dialog.tra~
          ~bgt/language/czech/journal.tra~
          ~bgt/language/czech/scripts.tra~
-LANGUAGE ~French (francais)~
+LANGUAGE ~francais~
          ~french~
          ~bgt/language/french/prompts.tra~
          ~bgt/language/french/setup.tra~
          ~bgt/language/french/dialog.tra~
          ~bgt/language/french/journal.tra~
          ~bgt/language/french/scripts.tra~
-LANGUAGE ~German (Deutsch)~
+LANGUAGE ~Deutsch~
          ~german~
          ~bgt/language/german/prompts.tra~
          ~bgt/language/german/setup.tra~
          ~bgt/language/german/dialog.tra~
          ~bgt/language/german/journal.tra~
          ~bgt/language/german/scripts.tra~
-LANGUAGE ~Italian (italiano)~
+LANGUAGE ~italiano~
          ~italian~
          ~bgt/language/italian/prompts.tra~
          ~bgt/language/italian/setup.tra~
          ~bgt/language/italian/dialog.tra~
          ~bgt/language/italian/journal.tra~
          ~bgt/language/italian/scripts.tra~
-LANGUAGE ~Korean (hangukeo)~
+LANGUAGE ~Korean~
          ~korean~
-         ~bgt/language/korean/prompts.tra~
+         ~bgt/language/english/prompts.tra~
          ~bgt/language/korean/setup.tra~
          ~bgt/language/korean/dialog.tra~
          ~bgt/language/korean/journal.tra~
          ~bgt/language/korean/scripts.tra~
-LANGUAGE ~Polish (polski)~
+LANGUAGE ~polski~
          ~polish~
          ~bgt/language/polish/prompts.tra~
          ~bgt/language/polish/setup.tra~
          ~bgt/language/polish/dialog.tra~
          ~bgt/language/polish/journal.tra~
          ~bgt/language/polish/scripts.tra~
-LANGUAGE ~Russian (russky)~
+LANGUAGE ~Russian~
          ~russian~
          ~bgt/language/english/prompts.tra~
          ~bgt/language/russian/setup.tra~
          ~bgt/language/russian/dialog.tra~
          ~bgt/language/russian/journal.tra~
          ~bgt/language/russian/scripts.tra~
-LANGUAGE ~Spanish (espanol)~
+LANGUAGE ~espanol~
          ~spanish~
          ~bgt/language/spanish/prompts.tra~
          ~bgt/language/spanish/setup.tra~
          ~bgt/language/spanish/dialog.tra~
          ~bgt/language/spanish/journal.tra~
          ~bgt/language/spanish/scripts.tra~
-LANGUAGE ~Simplified Chinese (jiantizi)~
+LANGUAGE ~Simplified Chinese~
          ~schinese~
-         ~bgt/language/schinese/prompts.tra~
+         ~bgt/language/english/prompts.tra~
          ~bgt/language/schinese/setup.tra~
          ~bgt/language/schinese/dialog.tra~
          ~bgt/language/schinese/journal.tra~
          ~bgt/language/schinese/scripts.tra~
-LANGUAGE ~Traditional Chinese (fantizi)~
+LANGUAGE ~Traditional Chinese~
          ~tchinese~
-         ~bgt/language/tchinese/prompts.tra~
+         ~bgt/language/english/prompts.tra~
          ~bgt/language/tchinese/setup.tra~
          ~bgt/language/tchinese/dialog.tra~
          ~bgt/language/tchinese/journal.tra~
          ~bgt/language/tchinese/scripts.tra~
 
-BEGIN @100000
+BEGIN @100000 LABEL ~A6-BGT-Core~
 REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~xnewarea.2da~ @100021
 
 ////////////////////////////////////////////////////////////
@@ -8475,33 +8475,24 @@ AUTHOR ~King Diamond~ //non-windows version by Turambar.~
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Czech (cestina)~
+LANGUAGE ~cestina~
          ~czech~
          ~bgt/language/czech/prompts.tra~
-LANGUAGE ~French (francais)~
+LANGUAGE ~francais~
          ~french~
          ~bgt/language/french/prompts.tra~
-LANGUAGE ~German (Deutsch)~
+LANGUAGE ~Deutsch~
          ~german~
          ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italian (italiano)~
+LANGUAGE ~italiano~
          ~italian~
          ~bgt/language/italian/prompts.tra~
-LANGUAGE ~Korean (hangukeo)~
-         ~korean~
-         ~bgt/language/korean/prompts.tra~
-LANGUAGE ~Polish (polski)~
+LANGUAGE ~polski~
          ~polish~
          ~bgt/language/polish/prompts.tra~
-LANGUAGE ~Spanish (espanol)~
+LANGUAGE ~espanol~
          ~spanish~
          ~bgt/language/spanish/prompts.tra~
-LANGUAGE ~Simplified Chinese (jiantizi)~
-         ~schinese~
-         ~bgt/language/schinese/prompts.tra~
-LANGUAGE ~Traditional Chinese (fantizi)~
-         ~tchinese~
-         ~bgt/language/tchinese/prompts.tra~
 >>>>>>>>
 
 <<<<<<<<bgt/gui_mods.2da
@@ -8613,33 +8604,24 @@ END~~~~~
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Czech (cestina)~
+LANGUAGE ~cestina~
          ~czech~
          ~bgt/language/czech/prompts.tra~
-LANGUAGE ~French (francais)~
+LANGUAGE ~francais~
          ~french~
          ~bgt/language/french/prompts.tra~
-LANGUAGE ~German (Deutsch)~
+LANGUAGE ~Deutsch~
          ~german~
          ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italian (italiano)~
+LANGUAGE ~italiano~
          ~italian~
          ~bgt/language/italian/prompts.tra~
-LANGUAGE ~Korean (hangukeo)~
-         ~korean~
-         ~bgt/language/korean/prompts.tra~
-LANGUAGE ~Polish (polski)~
+LANGUAGE ~polski~
          ~polish~
          ~bgt/language/polish/prompts.tra~
-LANGUAGE ~Spanish (espanol)~
+LANGUAGE ~espanol~
          ~spanish~
-         ~bgt/language/spanish/prompts.tra~
-LANGUAGE ~Simplified Chinese (jiantizi)~
-         ~schinese~
-         ~bgt/language/schinese/prompts.tra~
-LANGUAGE ~Traditional Chinese (fantizi)~
-         ~tchinese~
-         ~bgt/language/tchinese/prompts.tra~"
+         ~bgt/language/spanish/prompts.tra~"
       UNLESS ~LANGUAGE~
 
     OUTER_SET active_gui=0
@@ -10283,7 +10265,9 @@ LAM bash_log
 // Baldur's Gate Trilogy - Music
 ////////////////////////////////////////////////////////////
 
-BEGIN @100018 SUBCOMPONENT @100020 REQUIRE_COMPONENT ~bgt.tp2~ ~0~ @100046
+BEGIN @100018 LABEL ~A6-BGT-MusicBG1~
+SUBCOMPONENT @100020
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
 
 INCLUDE ~bgt/include/ts_song_compat.tpa~
 
@@ -10319,7 +10303,9 @@ COPY - ~bgt/songlist/full/bgt_music.tbl~  ~bgt/songlist/full/bgt_music.tbl~
 
 /////////////////////////////////////////////////////////////////////////
 
-BEGIN @100019 SUBCOMPONENT @100020 REQUIRE_COMPONENT ~bgt.tp2~ ~0~ @100046
+BEGIN @100019 LABEL ~A6-BGT-MusicHybrid~
+SUBCOMPONENT @100020
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
 
 INCLUDE ~bgt/include/ts_song_compat.tpa~
 
@@ -10329,7 +10315,9 @@ COPY ~bgt/songlist/hybrid/songlist.2da~  ~override/songlist.2da~
 
 /////////////////////////////////////////////////////////////////////////
 
-BEGIN @100023 SUBCOMPONENT @100020 REQUIRE_COMPONENT ~bgt.tp2~ ~0~ @100046
+BEGIN @100023 LABEL ~A6-BGT-MusicFull~
+SUBCOMPONENT @100020
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
 
 OUTER_PATCH_SAVE orig_bytes_1 ~~ BEGIN
     INSERT_BYTES 0x000 0x42
@@ -11998,7 +11986,8 @@ COPY - ~areapatchlist~ ~areapatchlist~
 // Biff all new resources
 ////////////////////////////////////////////////////////////
 
-BEGIN @100043 REQUIRE_COMPONENT ~bgt.tp2~ ~0~ @100046
+BEGIN @100043 LABEL ~A6-BGT-Biff~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
 
 MKDIR ~bgt/biff/bgtare~
       ~bgt/biff/bg1bcs~

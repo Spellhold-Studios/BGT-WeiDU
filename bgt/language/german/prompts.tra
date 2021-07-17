@@ -12,7 +12,6 @@ statt zu jeder Komponente einzeln gefragt zu werden.
 @-1003= "Was soll mit allen Komponenten geschehen, die BEREITS installiert sind?
 [R]: Neu installieren, [U]: Deinstallieren, [S]: Ueberspringen, [A]: Einzeln abfragen. "
 
-//modified
 @-1004= "BITTE postet die Datei "
 @-1005= "bei"
 

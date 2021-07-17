@@ -11,7 +11,6 @@ K uspore casu s nimi muzete nalozit hromadne, spise nez byt tazan na kazdy zvlas
 @-1003= "Co s komponenty, ktere JSOU nainstalovany?
 [R] Reinstalovat je, [U] Odinstalovat je, [S] Preskocit je, [A] Zeptat se na kazdy zvlast? "
 
-//modified
 @-1004= "Prosime, poslete soubor "
 @-1005= "na"
 
