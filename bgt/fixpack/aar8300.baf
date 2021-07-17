@@ -1,6 +1,8 @@
 IF
-  NumDeadGT("AnkhegG",10)
   Global("A6AngryGerde","GLOBAL",0)
+  Exists("Gerde")
+  !Dead("Gerde")
+  NumDeadGT("AnkhegG",10)
 THEN
   RESPONSE #100
     SetGlobal("A6AngryGerde","GLOBAL",1)
