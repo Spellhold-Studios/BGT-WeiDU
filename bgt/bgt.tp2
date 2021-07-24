@@ -7640,7 +7640,8 @@ BUT_ONLY
 //Dialogue
 //////////////////////////////////////////////////////////////////
 
-COMPILE ~bgt/fixpack/rcoran.d~ // stop Coran from introducing himself again when refused
+COMPILE ~bgt/fixpack/alestor.d~ // add chapter check to info about mines
+        ~bgt/fixpack/rcoran.d~ // stop Coran from introducing himself again when refused
         ~bgt/fixpack/rdushai.d~ // make Dushai see party has already been to island; add missing gold checks
         ~bgt/fixpack/remerso.d~ // restore Emerson's unused lines
         ~bgt/fixpack/rkirinhal.d~ // make Kirinhale recognize speaker's gender
