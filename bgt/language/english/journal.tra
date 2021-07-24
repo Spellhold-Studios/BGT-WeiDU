@@ -4,7 +4,7 @@
 @800001 = ~Get Firebead Elvenhair's Identify scroll.
 
 ~
-@800002 = ~Find a Potion of Antidote for Dreppin.
+@800002 = ~Find a potion of antidote for Dreppin.
 
 ~
 @800003 = ~Clear a rat-infested storehouse.
@@ -16,10 +16,10 @@
 @800005 = ~Fetch a quarrel of crossbow bolts for Fuller.
 
 ~
-@800006 = ~Find Joia’s Flamedance Ring.
+@800006 = ~Find Joia’s flamedance ring.
 
 ~
-@800007 = ~Find Unshey's Girdle of Piercing.
+@800007 = ~Find Unshey's girdle of piercing.
 
 ~
 @800008 = ~Spiders, boots, and wine.
@@ -247,7 +247,7 @@
 @800082 = ~The iron shortage.
 
 ~
-@800083 = ~The BEAR.
+@800083 = ~The bear.
 
 ~
 @800084 = ~Bandits!
@@ -735,7 +735,7 @@ I brought Samuel to Gellana as Lena had asked, but Samuel had passed out to the 
 How do you put it? I "retrieved" Algernon's cloak for Pheirkas and was compensated accordingly...~
 @310165 = ~Twin matters.
 
-Well, I got on the good side of the druid Voltine alright. She gave me a Wand of Polymorphing for disposing of Gervisse.~
+Well, I got on the good side of the druid Voltine alright. She gave me a wand of polymorphing for disposing of Gervisse.~
 @310166 = ~Twin matters.
 
 I decided that it was Voltine who looked shifty and disposed of her for Gervisse. For some reason I don't think that solved the problem...~
@@ -759,10 +759,10 @@ I have finally decided to release Abela the nymph. Ragefast and Ramazith appeare
 I have delivered the nymph Abela to Ramazith as asked. It was a very grave decision I made, but I'm not sure whether I can make amends for this.~
 @311189 = ~Intrigue with a cat.
 
-It's done. I killed that nasty cat. I suppose Bheren will think twice next time before asking me to do something, because next time I will demand a REAL payment for such a deed.~
+It's done. I killed that nasty cat. I suppose Bheren will think twice next time before asking me to do something, because next time I will demand a real payment for such a deed.~
 @310190 = ~Intrigue with a cat.
 
-I found the Angel Skin ring that Petrine wanted. She was very grateful.~
+I found the angel skin ring that Petrine wanted. She was very grateful.~
 @310191 = ~Intrigue with a cat.
 
 I killed the cat... ahem... Pathetic girl is crying... What a waste...~
@@ -789,7 +789,7 @@ I returned the child to Tremain. Looks like the naughty boy went scrounging in t
 I received a nice necklace from Nadine for giving the talisman to Euric. I'll trust her saying that Euric will look after himself.~
 @311238 = ~Runaway Euric.
 
-I delivered a good luck talisman to Euric. He was not so grateful - every child wants his own freedom. Perhaps I should tell Nadine that everything is fine with her son...~
+I delivered a good luck talisman to Euric. He was not so grateful; every child wants his own freedom. Perhaps I should tell Nadine that everything is fine with her son...~
 @310244 = ~Blood deeds: Ordulinian.
 
 I retrieved the bloodstone amulet of Arkion and Nemphre's onyx ring for Ordulinian. I get to keep them too, but most importantly, Arkion and Nemphre won't trouble each other anymore.~
@@ -801,7 +801,7 @@ I brought up a wretched body from the sewers to give to Arkion. I have no idea w
 I retrived Arkion's bloodstone amulet for Nemphre. She brushed me aside like I was just any other! Still, I don't really want to tempt her.~
 @310265 = ~Kill Cyrdemac.
 
-A distraught woman by the name of Areana has implored me to kill a man who has been spreading lies about her. His name is Cyrdemac and he frequents the Elfsong Tavern. Areana can be found in the Three Old Kegs located close to the Duchal Palace.~
+A distraught woman by the name of Areana has implored me to kill a man who has been spreading lies about her. His name is Cyrdemac and he frequents the Elfsong Tavern. Areana can be found in the Three Old Kegs located close to the Ducal Palace.~
 @310267 = ~Kill Cyrdemac.
 
 I ended up declining the malign Areana's request for me to kill Cyrdemac. Something is fishy here, and I don't want any part of it.~
@@ -831,10 +831,10 @@ The estate was infested with doppelgangers! I have now cleaned them out. Aldeth 
 We told Brandilar that we have eliminated every doppelganger encountered while we were searching through the Merchant Consortium's estate. He suggested we report back to Aldeth for a reward.~
 @310281 = ~Angel-skinned love.
 
-I found an Angel Skin Ring that I could give to Fergus. He valued my choice and I now have a commendation to Scar, Second-in-Command of the Flaming Fist, from him.~
+I found an angel skin ring that I could give to Fergus. He valued my choice and I now have a commendation to Scar, Second-in-Command of the Flaming Fist, from him.~
 @310287 = ~Noralee's gauntlets.
 
-I found the pairs of gauntlets for Noralee -- it took me a bit of searching just to find them for her. However, I did get my share for that work.~
+I found the pairs of gauntlets for Noralee. It took me a bit of searching just to find them for her. However, I did get my share for that work.~
 @310289 = ~Sirine intrusion.
 
 I have cleared the fishing area of the inruding sirines for Cordyr. It was a difficult task but at least Cordyr can go back to his normal life again.~
@@ -856,7 +856,7 @@ We found the pirate treasure that Safana was looking for, but beyond helping her
 @310299 = ~Treasure trove.
 
 We found the pirate treasure that Safana was looking for, and have let her join the party. I am certain she will make a fine addition.~
-@310390 = ~The BEAR.
+@310390 = ~The bear.
 
 Jared should be able to travel safely again after I got rid of his troublesome bear. That was one most unnatural bear.~
 @310805 = ~A talking chicken.
@@ -918,7 +918,7 @@ It seems that my dealings with the Thieves' Guild have not gone unnoticed: Shand
 I have been unwillingly forced into a task for an impolite mage at the centre of Ulgoth's Beard. The twit has sent me off to a barren, icy island to find a ragged cloak of his. It is probably his mistake to grant me passage back, with a wardstone he gave me, as I am tempted to stuff the head of a mace into his mouth when I return to him.~
 @310810 = ~Retrieve Shandalar's cloak.
 
-I have accepted an apparently simple task of retrieving a cloak for Shandalar, a mage I encountered at Ulgoth's Beard. Apparently simple, but bedazzling, I find myself on some strange secluded reef in the middle of an icy ocean! That trickster has imprisoned me on this eyesore, as I am sure he said something about release, but I am relieved that I am in possession of a wardstone that will effect it. I should find this cloak quickly - it is getting very cold indeed.~
+I have accepted an apparently simple task of retrieving a cloak for Shandalar, a mage I encountered at Ulgoth's Beard. Apparently simple, but bedazzling, I find myself on some strange secluded reef in the middle of an icy ocean! That trickster has imprisoned me on this eyesore, as I am sure he said something about release, but I am relieved that I am in possession of a wardstone that will effect it. I should find this cloak quickly -- it is getting very cold indeed.~
 @310811 = ~Retrieve Shandalar's cloak.
 
 I am glad to see the back of Shandalar's incantations, and his cloak as well. The icy prison that I was transported to was no place for strangers on a little errand. I should be careful of conspicuous mages standing out in the open from now on.~
