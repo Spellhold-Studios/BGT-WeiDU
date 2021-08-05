@@ -7757,6 +7757,10 @@ COPY_EXISTING ~potn47.itm~ ~override~ // Marek's Potion of Antidote
   WRITE_ASCII 0x3a ~ipotn47~ #8 // inventory icon
 BUT_ONLY
 
+COPY_EXISTING ~potn48.itm~ ~override~ // Vial of Mysterious Liquid
+  WRITE_ASCII 0x3a ~ipotn48~ #8 // inventory icon
+BUT_ONLY
+
 COPY_EXISTING ~scrl3f.itm~ ~override/scrl3f.itm~
   WRITE_SHORT 0x1c 37 //correct Item type: Books (was Scrolls)
 
