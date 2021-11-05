@@ -3,7 +3,7 @@ BEGIN ~bandct~
 IF ~NumTimesTalkedTo(0)
 Global("JoinedBandits","GLOBAL",4)~ THEN BEGIN 0
   SAY @1882
-  IF ~~ THEN DO ~~ EXTERN ~TEVEN~ 13
+  IF ~~ THEN DO ~SetGlobal("TazokSays","GLOBAL",1)~ EXTERN ~TEVEN~ 13
 END
 
 IF ~~ THEN BEGIN 1
@@ -14,7 +14,7 @@ END
 IF ~NumTimesTalkedTo(0)
 Global("JoinedBandits","GLOBAL",1)~ THEN BEGIN 2
   SAY @1884
-  IF ~~ THEN DO ~~ EXTERN ~TEVEN~ 14
+  IF ~~ THEN DO ~SetGlobal("TazokSays","GLOBAL",1)~ EXTERN ~TEVEN~ 14
 END
 
 IF ~~ THEN BEGIN 3

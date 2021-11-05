@@ -136,8 +136,6 @@ Non utilizzabile da:
 ////////////////////////////////////////////////////////////////////
 // Areas -- some provided by bg1.tra
 ////////////////////////////////////////////////////////////////////
-@600005 = ~C'è una grande quantità di melma che circonda questo oggetto, e senti dei suoni che puoi solo descrivere simili a quelli che si avvertono quando qualcosa si sommerge sott'acqua.  Forse questo congegno è una sorta di diga?~
-
 @600010 = ~Cancello frontale~
 @600011 = ~Biblioteca di Candlekeep~
 @600012 = ~Infermeria~
@@ -172,14 +170,14 @@ Non utilizzabile da:
 ////////////////////////////////////////////////////////////////////
 // 2DA Files
 ////////////////////////////////////////////////////////////////////
-@700000 = ~Capitolo Uno/Prologo:~
-@700005 = ~Capitolo Due:~
-@700009 = ~Capitolo Tre:~
-@700011 = ~Capitolo Quattro:~
-@700013 = ~Capitolo Cinque:~
-@700015 = ~Capitolo Sei:~
-@700017 = ~Capitolo Sette:~
-@700019 = ~Capitolo Otto:~
+@700000 = ~Capitolo Uno~
+@700005 = ~Capitolo Due~
+@700009 = ~Capitolo Tre~
+@700011 = ~Capitolo Quattro~
+@700013 = ~Capitolo Cinque~
+@700015 = ~Capitolo Sei~
+@700017 = ~Capitolo Sette~
+@700019 = ~Capitolo Otto~
 
 @700020 = ~"Chi combatte i mostri deve ben guardarsi dal diventare lui stesso un mostro...Quando scruti a lungo dentro l'abisso, anche l'abisso scruta dentro di te..." -Friedrich Nietzsche~
 @700021 = ~No. No, non puoi...~
@@ -489,9 +487,12 @@ Other Special Thanks (not related to relationships or dumping)
 /*DELTHY.DLG - #1729; aggiungi una frase extra, 'Hai un minuto per ascoltarmi?'*/
 @900002 = ~Molto bene allora. Mi chiamo Delthyr; io rappresento gli Arpisti. Ti ho cercato per parecchie settimane. Solo di recente ho scoperto che avevi lasciato la città da qualche tempo. Le cose sono cambiate da quando sei partito e io posso dirti tutto quello che ti serve sapere. Hai un minuto per ascoltarmi?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~Avevo detto un massimo di dieci per gruppo! Andatevene da qui e guardatevi alle spalle: io denuncio tutti i bracconieri al Pugno Fiammante! Dannati stupidi dalla lama facile...~
+
 @900037 = ~Baldur's Gate Introduzione~
 @900038 = ~Shadows of Amn Introduzione~
-@900039 = ~Nuova Partita BG2~
+@900039 = ~nuova partita bg2~
 @900040 = ~Premi il pulsante Nuova Partita BG2 per saltare Baldur's Gate I e iniziare il gioco da Baldur's Gate II: Shadows of Amn.
 
 Se vuoi giocare a Baldur's Gate I, premi il pulsante Cancella, quindi premi il pulsante Nuova Partita.~
@@ -501,11 +502,11 @@ Se vuoi giocare a Baldur's Gate I, premi il pulsante Cancella, quindi premi il p
 //Shadows of Amn description button text
 @900043 = ~"Tortured Souls"~
 @900044 = ~"The Darkest Day"~
-@900045 = ~"Shadows Over Soubar"~
+@900045 = ~"Shadows over Soubar"~
 @900046 = ~"Neverending Journey"~
 @900047 = ~"Region of Terror"~
 @900048 = ~"Big Picture"~
-@900049 = ~"Check The Bodies"~
+@900049 = ~"Check the Bodies"~
 @900050 = ~Gioca~
 @900051 = ~Shadows of Amn<TM>~
 @900052 = ~ Baldur's Gate<TM> e the Tales of the Sword Coast<TM> o gioca ~

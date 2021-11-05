@@ -3,7 +3,7 @@ BEGIN ~bandcr~
 IF ~NumTimesTalkedTo(0)
 Global("JoinedBandits","GLOBAL",5)~ THEN BEGIN 0
   SAY @1871
-  IF ~~ THEN DO ~~ EXTERN ~RAIKEN~ 12
+  IF ~~ THEN DO ~SetGlobal("TazokSays","GLOBAL",1)~ EXTERN ~RAIKEN~ 12
 END
 
 IF ~~ THEN BEGIN 1
@@ -14,7 +14,7 @@ END
 IF ~NumTimesTalkedTo(0)
 Global("JoinedBandits","GLOBAL",2)~ THEN BEGIN 2
   SAY @1873
-  IF ~~ THEN DO ~~ EXTERN ~RAIKEN~ 13
+  IF ~~ THEN DO ~SetGlobal("TazokSays","GLOBAL",1)~ EXTERN ~RAIKEN~ 13
 END
 
 IF ~~ THEN BEGIN 3

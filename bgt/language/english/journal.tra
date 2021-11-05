@@ -4,7 +4,7 @@
 @800001 = ~Get Firebead Elvenhair's Identify scroll.
 
 ~
-@800002 = ~Find a Potion of Antidote for Dreppin.
+@800002 = ~Find a potion of antidote for Dreppin.
 
 ~
 @800003 = ~Clear a rat-infested storehouse.
@@ -16,10 +16,10 @@
 @800005 = ~Fetch a quarrel of crossbow bolts for Fuller.
 
 ~
-@800006 = ~Find Joia’s Flamedance Ring.
+@800006 = ~Find Joia’s flamedance ring.
 
 ~
-@800007 = ~Find Unshey's Girdle of Piercing.
+@800007 = ~Find Unshey's girdle of piercing.
 
 ~
 @800008 = ~Spiders, boots, and wine.
@@ -97,7 +97,7 @@
 @800032 = ~Find Chelak.
 
 ~
-@800033 = ~The 'kidnapping' of Skie.
+@800033 = ~The "kidnapping" of Skie.
 
 ~
 @800034 = ~Investigate the Seven Suns compound.
@@ -247,7 +247,7 @@
 @800082 = ~The iron shortage.
 
 ~
-@800083 = ~The BEAR.
+@800083 = ~The bear.
 
 ~
 @800084 = ~Bandits!
@@ -334,7 +334,7 @@
 @800111 = ~Stranded on an island!
 
 ~
-@800112 = ~Rid the island of 'the beasts'.
+@800112 = ~Rid the island of "the beasts."
 
 ~
 @800113 = ~Monster rout.
@@ -370,7 +370,7 @@
 @800123 = ~Fetch some flowers for Durlyle.
 
 ~
-@800124 = ~Dessthieftannien...whatever...
+@800124 = ~Dessthieftannien... whatever...
 
 ~
 @800125 = ~Nashkel festival.
@@ -448,7 +448,7 @@
 @800149 = ~To sum up our situation...
 
 ~
-@800150 = ~Dopplegangers?
+@800150 = ~Doppelgangers?
 
 ~
 @800151 = ~A perplexing problem from a perplexing thief.
@@ -538,25 +538,25 @@
 @800179 = ~Rescue of Xan in the Nashkel mines.
 
 ~
-@800180 = ~Chapter Two: Isolation
+@800180 = ~Chapter 2
 
 ~
-@800181 = ~Chapter Three: Trouble in Nashkel
+@800181 = ~Chapter 3
 
 ~
-@800182 = ~Chapter Four: Bandits and the Iron Shortage
+@800182 = ~Chapter 4
 
 ~
-@800183 = ~Chapter Five: To the Cloakwood
+@800183 = ~Chapter 5
 
 ~
-@800184 = ~Chapter Six: To Baldur's Gate
+@800184 = ~Chapter 6
 
 ~
-@800185 = ~Chapter Seven: Return to Candlekeep
+@800185 = ~Chapter 7
 
 ~
-@800186 = ~Chapter Eight: Endgame
+@800186 = ~Chapter 8
 
 ~
 @800187 = ~A meeting with Cadderly.
@@ -580,7 +580,7 @@
 @800193 = ~Parda's suspicions in Candlekeep.
 
 ~
-@800194 = ~Dopplegangers have infiltrated Candlekeep!
+@800194 = ~Doppelgangers have infiltrated Candlekeep!
 
 ~
 @800195 = ~Crazy Tiax.
@@ -633,301 +633,301 @@
 /////////////////////
 @310033 = ~A deed for an old friend.
 
-Firebead Elvenhair has given me another book in exchange for "The History of the Fateful Coin". He says it is a touch darker than what I gave him.  I guess I will find out if I really enjoy it when I read it.  I hope I see him again one day.  He has always been a great friend...~
+Firebead Elvenhair has given me another book in exchange for "The History of the Fateful Coin." He says it is a touch darker than what I gave him. I guess I will find out if I really enjoy it when I read it. I hope I see him again one day. He has always been a great friend...~
 @310042 = ~An ankheg fortune.
 
-Today, Taerom "Thunderhammer" has completed an ankheg plate.  It is a marvellous piece of handiwork and I cannot wait to put it to good use.~
+Today, Taerom "Thunderhammer" has completed an ankheg plate. It is a marvellous piece of handiwork and I cannot wait to put it to good use.~
 @310044 = ~To mug a bard, or to mug a mug.
 
-We were hired by a woman named Silke to protect her from some thugs hired out by a man named Feldepost.  It turns out that Silke is really an evil mage who intended to kill a group of messengers for their wares.  She won't be troubling anyone anymore.~
+We were hired by a woman named Silke to protect her from some thugs hired out by a man named Feldepost. It turns out that Silke is really an evil mage who intended to kill a group of messengers for their wares. She won't be troubling anyone anymore.~
 @310045 = ~To mug a bard, or to mug a mug.
 
-I have helped Silke dispatch of a group of ruffians who tried to trick me into believing that they were simpleton merchants.  I was not going to fall for that ploy and removed them quickly.~
+I have helped Silke dispatch of a group of ruffians who tried to trick me into believing that they were simpleton merchants. I was not going to fall for that ploy and removed them quickly.~
 @311054 = ~In want of bandit scalps.
 
 We had a good business on selling bandit scalps to officer Jessa Vai of the Flaming Fist, but she has received an order from Baldur's Gate headquarters to return there to make a report on the matter of eliminating the bandit threat. Could she open a tanner or a taxidermist business after all?~
 @310057 = ~The curse on Captain Brage.
 
-The business with the Nashkel Captain of the guard was certainly a tragic and confusing story.  For better or worse, Brage has been dealt with.~
+The business with the Nashkel Captain of the guard was certainly a tragic and confusing story. For better or worse, Brage has been dealt with.~
 @310806 = ~Prism, the emerald thief.
 
-Prism's story was a sad tale indeed.  A shame it could not have had a better ending.  Ah well, I profit in the end.  150 gold bounty for the emeralds he stole.~
+Prism's story was a sad tale indeed. A shame it could not have had a better ending. Ah well, I profit in the end. 150 gold bounty for the emeralds he stole.~
 @310070 = ~Find Joseph in the mines.
 
-I found Joseph's ring in the mines, but I kept it as payment for the deed.  The wife was not very happy, but you can't get something from nothing.~
+I found Joseph's ring in the mines, but I kept it as payment for the deed. The wife was not very happy, but you can't get something from nothing.~
 @310071 = ~Find Joseph in the mines.
 
-I found Joseph's ring in the mines and gave it to his wife.  Her gratefulness towards me still rings in my head.  I can only hope that she finds solitude with that ring as memory of her beloved husband.  May he rest in peace...~
+I found Joseph's ring in the mines and gave it to his wife. Her gratefulness towards me still rings in my head. I can only hope that she finds solitude with that ring as memory of her beloved husband. May he rest in peace...~
 @310078 = ~Return Kylee's dagger.
 
 I returned the dagger Dink gave me to Kylee.~
 @310086 = ~Manage the ankheg population.
 
-Gerde gave me 75 gp for my efforts in helping her manage the ankheg population in the region.  Good money for a small task, really.~
+Gerde gave me 75 gp for my efforts in helping her manage the ankheg population in the region. Good money for a small task, really.~
 @311092 = ~The priestess of Umberlee.
 
-A little Umberlee priestess is dead now. I wonder if I could hope now to get some divine help from Talos in the near future... as well as fresh fish each dinner....~
+A little Umberlee priestess is dead now. I wonder if I could hope now to get some divine help from Talos in the near future... as well as fresh fish each dinner...~
 @310101 = ~Ankheg catastrophe.
 
-Quinn was quite pleased to receive Nester's dagger.  I guess that will serve him as a reminder of Nester's bravery.  Long live Nester.~
+Quinn was quite pleased to receive Nester's dagger. I guess that will serve him as a reminder of Nester's bravery. Long live Nester.~
 @310103 = ~Hunting the druids.
 
-I sided with the druids on the protection of the Cloakwood wildlife and slew Aldeth Sashenstar.  I suspected Aldeth and his band may have hunted shapechanged druids, and it was right that the druids could have their revenge.~
+I sided with the druids on the protection of the Cloakwood wildlife and slew Aldeth Sashenstar. I suspected Aldeth and his band may have hunted shapechanged druids, and it was right that the druids could have their revenge.~
 @310104 = ~Hunting the druids.
 
-I avenged the death of Elban, one of Aldeth's dear friends, by helping Aldeth dispatch of a band of savages.  They are now free to hunt as they please.  Aldeth also mentioned that I should visit him at the Merchant's League located in the southwest of Baldur's Gate if I had the time.~
+I avenged the death of Elban, one of Aldeth's dear friends, by helping Aldeth dispatch of a band of savages. They are now free to hunt as they please. Aldeth also mentioned that I should visit him at the Merchant's League located in the southwest of Baldur's Gate if I had the time.~
 @310106 = ~Find Chelak.
 
-Tiber was very bitter when I returned the body of Chelak to him.  Poor Chelak, it was suicide to take on a nest of spiders.  As for Tiber, there is not much I can do but to empathize with him.~
-@310108 = ~The 'kidnapping' of Skie.
+Tiber was very bitter when I returned the body of Chelak to him. Poor Chelak, it was suicide to take on a nest of spiders. As for Tiber, there is not much I can do but to empathize with him.~
+@310108 = ~The "kidnapping" of Skie.
 
 I helped Eldoth rescue Skie, but she seems too weak as an adventurer to assist me with my mission, so I let them go.~
-@310109 = ~The 'kidnapping' of Skie.
+@310109 = ~The "kidnapping" of Skie.
 
-I helped Eldoth rescue Skie.  She certainly was eager to join our party, but I'm not sure how she would be able to handle the situation that I am in.  I guess I will give her a chance and let her try.~
-@310110 = ~The 'kidnapping' of Skie.
+I helped Eldoth rescue Skie. She certainly was eager to join our party, but I'm not sure how she would be able to handle the situation that I am in. I guess I will give her a chance and let her try.~
+@310110 = ~The "kidnapping" of Skie.
 
-I took Eldoth to the northwest of Baldur's Gate where the estate was located, but I was not sure of the plan anymore.  Eldoth has left the party to do the 'rescue' mission himself.~
-@310111 = ~The 'kidnapping' of Skie.
+I took Eldoth to the northwest of Baldur's Gate where the estate was located, but I was not sure of the plan anymore. Eldoth has left the party to do the "rescue" mission himself.~
+@310111 = ~The "kidnapping" of Skie.
 
-It looks like I took too long to help Eldoth 'rescue' Skie.  He simply called us stupid and walked away.  However, I have other thoughts about who to call stupid, or suicide.~
+It looks like I took too long to help Eldoth "rescue" Skie. He simply called us stupid and walked away. However, I have other thoughts about who to call stupid, or suicide.~
 @310115 = ~Investigate the Seven Suns compound.
 
-I cleared out the infestation of dopplegangers in the Seven Suns compound, and got a handsome reward from Scar.  He seems to want us to do something else for him.~
+I cleared out the infestation of doppelgangers in the Seven Suns compound, and got a handsome reward from Scar. He seems to want us to do something else for him.~
 @310116 = ~Investigate the Seven Suns compound.
 
-I reported to Scar that I did not find out anything peculiar about the Seven Suns compound.  He seems to be more preoccupied with the Iron Throne, however.~
+I reported to Scar that I did not find out anything peculiar about the Seven Suns compound. He seems to be more preoccupied with the Iron Throne, however.~
 @310117 = ~Investigate the Seven Suns compound.
 
-I reported to Scar about a doppleganger that has infiltrated the Seven Suns compound, but I didn't want to investigate it further.  Scar seems to be more preoccupied with the Iron Throne, however.~
+I reported to Scar about a doppelganger that has infiltrated the Seven Suns compound, but I didn't want to investigate it further. Scar seems to be more preoccupied with the Iron Throne, however.~
 @310118 = ~Investigate the Seven Suns compound.
 
-I told Scar that the dopplegangers were too overwhelming for us to dispatch.  He seemed to understand and will be sending a group of Flaming Fist to do the job.~
+I told Scar that the doppelgangers were too overwhelming for us to dispatch. He seemed to understand and will be sending a group of Flaming Fist to do the job.~
 @310119 = ~Investigate the Seven Suns compound.
 
-I reported to Scar that I cleaned out the doppleganger infestation, but the business would decline because Jhasso was killed.  Scar did not pay us but is willing to hire us again.~
+I reported to Scar that I cleaned out the doppelganger infestation, but the business would decline because Jhasso was killed. Scar did not pay us but is willing to hire us again.~
 @310121 = ~Investigate the mysterious disappearance of citizens.
 
-I reported to Scar that I was unable to find any clues about the disappearances.  He was rather angry at us and has threatened to assign someone else with the task.  I think I will leave him to it.~
+I reported to Scar that I was unable to find any clues about the disappearances. He was rather angry at us and has threatened to assign someone else with the task. I think I will leave him to it.~
 @310122 = ~Investigate the mysterious disappearance of citizens.
 
-I reported to Scar that an ogre mage was behind the disappearances.  Unfortunately, a ruby ring belonging to the Sashenstar family was never to be found.~
+I reported to Scar that an ogre mage was behind the disappearances. Unfortunately, a ruby ring belonging to the Sashenstar family was never to be found.~
 @310123 = ~Investigate the mysterious disappearance of citizens.
 
 I reported to Scar that an ogre mage was behind the disappearances, and returned a ruby ring that belonged to the Sashenstar family.~
 @310124 = ~Investigate the mysterious disappearance of citizens.
 
-I reported to Scar that an ogre mage was behind the disappearances, and that I have slain the creature.  He should not be troubling the citizens anymore.~
+I reported to Scar that an ogre mage was behind the disappearances, and that I have slain the creature. He should not be troubling the citizens anymore.~
 @310143 = ~Find the scroll of wisdom.
 
-I found the scroll of wisdom for Fahrington, but he bid me keep it.  I wonder what kind of 'karmic' essence the words of the scroll really contain.~
+I found the scroll of wisdom for Fahrington, but he bid me keep it. I wonder what kind of "karmic" essence the words of the scroll really contain.~
 @310157 = ~Flaming Fist deserter.
 
-I turned Samuel in to the Flaming Fist soldier, and got a paltry 50 gold for it.  Hell, might buy me a sword...~
+I turned Samuel in to the Flaming Fist soldier, and got a paltry 50 gold for it. Hell, might buy me a sword...~
 @310158 = ~Flaming Fist deserter.
 
-It turns out that it was Lena who encouraged Samuel to desert the Flaming Fist.  Nevertheless, I hope that Gellana can do something to bring that poor man back to shape.~
+It turns out that it was Lena who encouraged Samuel to desert the Flaming Fist. Nevertheless, I hope that Gellana can do something to bring that poor man back to shape.~
 @310159 = ~Flaming Fist deserter.
 
-I brought Samuel to Gellana as Lena had asked, but Samuel had passed out to the point of no return.  What a waste of life.~
+I brought Samuel to Gellana as Lena had asked, but Samuel had passed out to the point of no return. What a waste of life.~
 @310161 = ~Steal Algernon's cloak.
 
-How do you put it?  I 'retrieved' Algernon's cloak for Pheirkas and was compensated accordingly...~
+How do you put it? I "retrieved" Algernon's cloak for Pheirkas and was compensated accordingly...~
 @310165 = ~Twin matters.
 
-Well, I got on the good side of the druid Voltine alright.  She gave me a Wand of Polymorphing for disposing of Gervisse.~
+Well, I got on the good side of the druid Voltine alright. She gave me a wand of polymorphing for disposing of Gervisse.~
 @310166 = ~Twin matters.
 
-I decided that it was Voltine who looked shifty and disposed of her for Gervisse.  For some reason I don't think that solved the problem...~
+I decided that it was Voltine who looked shifty and disposed of her for Gervisse. For some reason I don't think that solved the problem...~
 @310171 = ~Balduran's items.
 
-The wizard Degrodel is a nasty one.  Despite paying me his 'kingly' sum, he beset his magical guards on me.  I probably should have put the helm to good use.~
+The wizard Degrodel is a nasty one. Despite paying me his "kingly" sum, he beset his magical guards on me. I probably should have put the helm to good use.~
 @310179 = ~History of the Unicorn Run.
 
 I found a book on the history of the Unicorn Run for Rinnie.~
 @310181 = ~Ghorak the Diseased.
 
-I apparently returned the skull of a long-dead priest by the name of Kereph to Agnasia.  Ghorak should be cured of his affliction, so I might be able to pay him a friendly visit some time.~
+I apparently returned the skull of a long-dead priest by the name of Kereph to Agnasia. Ghorak should be cured of his affliction, so I might be able to pay him a friendly visit some time.~
 @310185 = ~For the beauty.
 
-I have released the nymph Abela to her home.  Such a comely creature of nature has no existence in the world of basking cities and their besotted citizens.~
+I have released the nymph Abela to her home. Such a comely creature of nature has no existence in the world of basking cities and their besotted citizens.~
 @311183 = ~For the beauty.
 
 I have finally decided to release Abela the nymph. Ragefast and Ramazith appeared to have malicious intentions, so I've killed them both.~
 @310186 = ~For the beauty.
 
-I have delivered the nymph Abela to Ramazith as asked.  It was a very grave decision I made, but I'm not sure whether I can make amends for this.~
+I have delivered the nymph Abela to Ramazith as asked. It was a very grave decision I made, but I'm not sure whether I can make amends for this.~
 @311189 = ~Intrigue with a cat.
 
-It's done. I killed that nasty cat. I suppose Bheren will think twice next time before asking me to do something, because next time I will demand a REAL payment for such a deed.~
+It's done. I killed that nasty cat. I suppose Bheren will think twice next time before asking me to do something, because next time I will demand a real payment for such a deed.~
 @310190 = ~Intrigue with a cat.
 
-I found the Angel Skin ring that Petrine wanted.  She was very grateful.~
+I found the angel skin ring that Petrine wanted. She was very grateful.~
 @310191 = ~Intrigue with a cat.
 
-I killed the cat...ahem... Pathetic girl is crying... What a waste....~
+I killed the cat... ahem... Pathetic girl is crying... What a waste...~
 @310474 = ~Intrigue with a cat.
 
-It's done.  I killed that nasty cat, and Bheren let a magical cloak out of the bag.  Yippee!~
+It's done. I killed that nasty cat, and Bheren let a magical cloak out of the bag. Yippee!~
 @310199 = ~Yago's curse.
 
-I retrieved Yago's book of curses for Brielbara so that she could help her daughter.  She was thankful.~
+I retrieved Yago's book of curses for Brielbara so that she could help her daughter. She was thankful.~
 @311199 = ~Yago's curse.
 
-I have no time for retrieving all those dusty books anymore... That's enough! Brielbara should take care of her daughter herself... Ouch... She's upset...and dead. Whatever... I'm not an errand runner anymore.~
+I have no time for retrieving all those dusty books anymore... That's enough! Brielbara should take care of her daughter herself... Ouch... She's upset... and dead. Whatever... I'm not an errand runner anymore.~
 @310225 = ~Find an antidote for poison.
 
-Albeit in blackmailing fashion, Marek has cured me of his poison.  Their threat still remains against my involvement in matters of the Iron Throne.  I will be ready for them next time, and I will watch my drink too.~
+Albeit in blackmailing fashion, Marek has cured me of his poison. Their threat still remains against my involvement in matters of the Iron Throne. I will be ready for them next time, and I will watch my drink too.~
 @310227 = ~Shlimesh!
 
-No more drunk talk!  I got my 100 gold back plus 60 extra for helping him clear out those slimes and oozes.  If 60 gold was all he had, I guess he will sober up.~
+No more drunk talk! I got my 100 gold back plus 60 extra for helping him clear out those slimes and oozes. If 60 gold was all he had, I guess he will sober up.~
 @310233 = ~Rescue Tremain's son.
 
-I returned the child to Tremain.  Looks like the naughty boy went scrounging in the Temple of Umberlee, but it doesn't look like he will live a better life with his strict father.  Varci was grateful and gave me some nice stuff.~
+I returned the child to Tremain. Looks like the naughty boy went scrounging in the Temple of Umberlee, but it doesn't look like he will live a better life with his strict father. Varci was grateful and gave me some nice stuff.~
 @310238 = ~Runaway Euric.
 
-I received a nice necklace from Nadine for giving the talisman to Euric.  I'll trust her saying that Euric will look after himself.~
+I received a nice necklace from Nadine for giving the talisman to Euric. I'll trust her saying that Euric will look after himself.~
 @311238 = ~Runaway Euric.
 
-I delivered a good luck talisman to Euric.  He was not so grateful - every child wants his own freedom. Perhaps I should tell Nadine that everything is fine with her son...~
+I delivered a good luck talisman to Euric. He was not so grateful; every child wants his own freedom. Perhaps I should tell Nadine that everything is fine with her son...~
 @310244 = ~Blood deeds: Ordulinian.
 
-I retrieved the bloodstone amulet of Arkion and Nemphre's onyx ring for Ordulinian.  I get to keep them too, but most importantly, Arkion and Nemphre won't trouble each other anymore.~
+I retrieved the bloodstone amulet of Arkion and Nemphre's onyx ring for Ordulinian. I get to keep them too, but most importantly, Arkion and Nemphre won't trouble each other anymore.~
 @310245 = ~Blood deeds: Arkion.
 
-I brought up a wretched body from the sewers to give to Arkion.  I have no idea what he will do with it, nor do I want to know who that body belongs to.  Necromancers...~
+I brought up a wretched body from the sewers to give to Arkion. I have no idea what he will do with it, nor do I want to know who that body belongs to. Necromancers...~
 @310246 = ~Blood deeds: Nemphre.
 
-I retrived Arkion's bloodstone amulet for Nemphre.  She brushed me aside like I was just any other!  Still, I don't really want to tempt her.~
+I retrived Arkion's bloodstone amulet for Nemphre. She brushed me aside like I was just any other! Still, I don't really want to tempt her.~
 @310265 = ~Kill Cyrdemac.
 
-A distraught woman by the name of Areana has implored me to kill a man who has been spreading lies about her.  His name is Cyrdemac and he frequents the Elfsong Tavern.  Areana can be found in the Three Old Kegs located close to the Duchal Palace.~
+A distraught woman by the name of Areana has implored me to kill a man who has been spreading lies about her. His name is Cyrdemac and he frequents the Elfsong Tavern. Areana can be found in the Three Old Kegs located close to the Ducal Palace.~
 @310267 = ~Kill Cyrdemac.
 
-I ended up declining the malign Areana's request for me to kill Cyrdemac.  Something is fishy here, and I don't want any part of it.~
+I ended up declining the malign Areana's request for me to kill Cyrdemac. Something is fishy here, and I don't want any part of it.~
 @310268 = ~Kill Cyrdemac.
 
-I disposed of Cyrdemac and received my reward from Areana.  She seemed to want to get the business done, and I trust her not to put a price on my head for the deed, although I am interested in finding out her little secret.~
+I disposed of Cyrdemac and received my reward from Areana. She seemed to want to get the business done, and I trust her not to put a price on my head for the deed, although I am interested in finding out her little secret.~
 @310269 = ~Kill Cyrdemac.
 
-Well, it seems I have taken Cyrdemac's place all for my own little benefit.  The riches are all coming to me now to keep that little murder mystery a secret.  I need to come back and see Areana every tenday to collect my money.~
+Well, it seems I have taken Cyrdemac's place all for my own little benefit. The riches are all coming to me now to keep that little murder mystery a secret. I need to come back and see Areana every tenday to collect my money.~
 @310270 = ~Kill Cyrdemac.
 
-Areana has finally gotten a little smarter and hired a 'friend' to finish me off.  Nice try, lady.~
+Areana has finally gotten a little smarter and hired a "friend" to finish me off. Nice try, lady.~
 @310266 = ~Kill Cyrdemac.
 
-When I charmed Cyrdemac, he told me that we was blackmailing a woman named Areana in order to stop him letting loose the fact that she had a lover in the Undercellar.  He suggested I tell her that he is dead and continue the blackmail for myself.~
+When I charmed Cyrdemac, he told me that we was blackmailing a woman named Areana in order to stop him letting loose the fact that she had a lover in the Undercellar. He suggested I tell her that he is dead and continue the blackmail for myself.~
 @310272 = ~Steal a telescope.
 
-Brevlik was quite bemused at the publicity surrounding the theft at the Hall of Wonders.  I can say that we have both gained, him the telescope, and me the nice reward for my efforts.~
+Brevlik was quite bemused at the publicity surrounding the theft at the Hall of Wonders. I can say that we have both gained, him the telescope, and me the nice reward for my efforts.~
 @310273 = ~Steal a telescope.
 
-Brevlik was quite angry that I killed some guards during my endeavour around the Hall of Wonders.  The deal is off, so he says.~
+Brevlik was quite angry that I killed some guards during my endeavour around the Hall of Wonders. The deal is off, so he says.~
 @310279 = ~Investigate the Merchant Consortium's estate.
 
-The estate was infested with dopplegangers!  I have now cleaned them out.  Aldeth Sashenstar has praised me for doing the job for him and is happy to welcome me into his estate if I am ever in trouble.  I may yet need it.~
+The estate was infested with doppelgangers! I have now cleaned them out. Aldeth Sashenstar has praised me for doing the job for him and is happy to welcome me into his estate if I am ever in trouble. I may yet need it.~
 @311278 = ~Investigate the Merchant Consortium's estate.
 
-We told Brandilar that we have eliminated every doppleganger encountered while we were searching through the Merchant Consortium's estate. He suggested we report back to Aldeth for a reward.~
+We told Brandilar that we have eliminated every doppelganger encountered while we were searching through the Merchant Consortium's estate. He suggested we report back to Aldeth for a reward.~
 @310281 = ~Angel-skinned love.
 
-I found an Angel Skin Ring that I could give to Fergus.  He valued my choice and I now have a commendation to Scar, Second-in-Command of the Flaming Fist, from him.~
+I found an angel skin ring that I could give to Fergus. He valued my choice and I now have a commendation to Scar, Second-in-Command of the Flaming Fist, from him.~
 @310287 = ~Noralee's gauntlets.
 
-I found the pairs of gauntlets for Noralee -- it took me a bit of searching just to find them for her.  However, I did get my share for that work.~
+I found the pairs of gauntlets for Noralee. It took me a bit of searching just to find them for her. However, I did get my share for that work.~
 @310289 = ~Sirine intrusion.
 
-I have cleared the fishing area of the inruding sirines for Cordyr.  It was a difficult task but at least Cordyr can go back to his normal life again.~
+I have cleared the fishing area of the inruding sirines for Cordyr. It was a difficult task but at least Cordyr can go back to his normal life again.~
 @310291 = ~Lone basilisk.
 
-Nadarin was very grateful... and rich too!  We were rewarded quite handsomely for getting rid of the escaped basilisk.~
+Nadarin was very grateful... and rich too! We were rewarded quite handsomely for getting rid of the escaped basilisk.~
 @310293 = ~Find a sphene gem.
 
-G'Axir appreciated me finding a sphene gem, but his dark tidings seem to trouble me more.  Apparently, there may be some kind of ancient 'undercity' which lies beneath Baldur's Gate where I must walk through the darkness to find the light.  Sounds like something straight out of a fantasy book!~
+G'Axir appreciated me finding a sphene gem, but his dark tidings seem to trouble me more. Apparently, there may be some kind of ancient "undercity" which lies beneath Baldur's Gate where I must walk through the darkness to find the light. Sounds like something straight out of a fantasy book!~
 @310294 = ~Misty revelations.
 
-I have met Shaella, one of the most mind-boggling priestesses that I will ever come to meet.  She claims to worship Leira, the Lady of Mists that apparently does not exist.  Somehow I get the feeling that to be able to make conversation with her, I have to speak the opposite of what I think.~
+I have met Shaella, one of the most mind-boggling priestesses that I will ever come to meet. She claims to worship Leira, the Lady of Mists that apparently does not exist. Somehow I get the feeling that to be able to make conversation with her, I have to speak the opposite of what I think.~
 @310296 = ~Misty revelations.
 
-Blessed with ignorance by touching the Great Book of the Unknowing, which doesn't exist but lies in ether, I rediscovered the false face of Elnaedra, the ignoramus of Shaella, priestess of Leira.  Oh hell, why does this have to rhyme??~
+Blessed with ignorance by touching the Great Book of the Unknowing, which doesn't exist but lies in ether, I rediscovered the false face of Elnaedra, the ignoramus of Shaella, priestess of Leira. Oh hell, why does this have to rhyme??~
 @310298 = ~Treasure trove.
 
-We found the pirate treasure that Safana was looking for, but beyond helping her with the task, I found no reason to have her expertise (not) in my party.  Well, she seemed to take it on the chin.~
+We found the pirate treasure that Safana was looking for, but beyond helping her with the task, I found no reason to have her expertise (not) in my party. Well, she seemed to take it on the chin.~
 @310299 = ~Treasure trove.
 
-We found the pirate treasure that Safana was looking for, and have let her join the party.  I am certain she will make a fine addition.~
-@310390 = ~The BEAR.
+We found the pirate treasure that Safana was looking for, and have let her join the party. I am certain she will make a fine addition.~
+@310390 = ~The bear.
 
-Jared should be able to travel safely again after I got rid of his troublesome bear.  That was one most unnatural bear.~
+Jared should be able to travel safely again after I got rid of his troublesome bear. That was one most unnatural bear.~
 @310805 = ~A talking chicken.
 
-I have taken Melicamp the chicken to Thalantyr at High Hedge.  I do not wish to see how the poor wizard turns out, not because I hold anything against him.  Rather, Thalantyr's rather insulting demeanour leaves me no choice.~
+I have taken Melicamp the chicken to Thalantyr at High Hedge. I do not wish to see how the poor wizard turns out, not because I hold anything against him. Rather, Thalantyr's rather insulting demeanour leaves me no choice.~
 @310553 = ~A zombie infestation.
 
-I slew twenty zombies ploughing around in Wenric's farm.  I don't know where they came from, but they shouldn't trouble him again.~
+I slew twenty zombies ploughing around in Wenric's farm. I don't know where they came from, but they shouldn't trouble him again.~
 @310558 = ~A missing ghostly knight.
 
-I returned the ancient armor from the undead knight to his friends.  They mentioned about him being a traitor, and now that they are gathered together again, they are finally free.  Rest in peace?~
+I returned the ancient armor from the undead knight to his friends. They mentioned about him being a traitor, and now that they are gathered together again, they are finally free. Rest in peace?~
 @310575 = ~Archaeological dig.
 
-I met an inspiring excavator by the name of Charleston Nib far west of Nashkel.  He and his team have discovered an underground settlement of an ancient primitive people, and are close to entering one of the inner chambers of the site.  However, they have been at the mercy of bandits who have not stolen anything, but have attempted to sabotage the expedition and have even resorted to kidnapping.  I have agreed to keep watch and protect these intellectual folk from such attacks.  Hopefully, if these diggers make a breakthrough, I may find something rather unique for my efforts.~
+I met an inspiring excavator by the name of Charleston Nib far west of Nashkel. He and his team have discovered an underground settlement of an ancient primitive people, and are close to entering one of the inner chambers of the site. However, they have been at the mercy of bandits who have not stolen anything, but have attempted to sabotage the expedition and have even resorted to kidnapping. I have agreed to keep watch and protect these intellectual folk from such attacks. Hopefully, if these diggers make a breakthrough, I may find something rather unique for my efforts.~
 @310576 = ~Archaeological dig.
 
-I found an excavation site far west of Nashkel being explored by Charleston Nib.  I was not interested in such boring history.~
+I found an excavation site far west of Nashkel being explored by Charleston Nib. I was not interested in such boring history.~
 @310577 = ~Archaeological dig.
 
-It seems that the excavation has made a rather tragic turn.  Apparently, a cursed idol in the inner chamber caused madness in the diggers and I had no choice but to defend myself.  Charleston Nib's days are probably over with this predicament.  The tomb will be forever sealed and will not be disturbed again, so I hope...~
+It seems that the excavation has made a rather tragic turn. Apparently, a cursed idol in the inner chamber caused madness in the diggers and I had no choice but to defend myself. Charleston Nib's days are probably over with this predicament. The tomb will be forever sealed and will not be disturbed again, so I hope...~
 @310578 = ~Squelch the archaeological dig.
 
-Gallor, a member of the excavation team, was rather unhappy about the charitable efforts of Charleston Nib and wanted me to steal whatever magical treasure was found in the site and dispose of Charleston Nib's entire team.  I will not take part in such innocent bloodshed.~
+Gallor, a member of the excavation team, was rather unhappy about the charitable efforts of Charleston Nib and wanted me to steal whatever magical treasure was found in the site and dispose of Charleston Nib's entire team. I will not take part in such innocent bloodshed.~
 @310579 = ~Squelch the archaeological dig.
 
-I have been promised riches to rid of Charleston Nib's entire team and to recover some magical treasure from the excavation site far west of Nashkel.  I am not to attack the excavation team until after they have breached the inner sanctum.  Gallor will be just outside the entrance to the excavation site after I am finished.~
+I have been promised riches to rid of Charleston Nib's entire team and to recover some magical treasure from the excavation site far west of Nashkel. I am not to attack the excavation team until after they have breached the inner sanctum. Gallor will be just outside the entrance to the excavation site after I am finished.~
 @310580 = ~Squelch the archaeological dig.
 
-Charleston Nib's archaeological adventures shall be sung by birds as a tragic tale where relentless attacks by bandits left his team for dead, never to be found again.  More sentimental is the profit I gain from 'writing' such an exciting story.~
+Charleston Nib's archaeological adventures shall be sung by birds as a tragic tale where relentless attacks by bandits left his team for dead, never to be found again. More sentimental is the profit I gain from "writing" such an exciting story.~
 @310586 = ~Investigate the Firewine ruins.
 
-A halfling from Gullykin by the name of Gandolar has asked us to clear the kobold threat from the Firewine ruins.  I should be careful, because all sorts of mysterious things could be awakened from rest.~
+A halfling from Gullykin by the name of Gandolar has asked us to clear the kobold threat from the Firewine ruins. I should be careful, because all sorts of mysterious things could be awakened from rest.~
 @310587 = ~Investigate the Firewine ruins.
 
-News seems to spread faster than a bird can fly through the halfling village!  My clearing of the kobold encampment in the Firewine ruins has left a happy little village and 250 gold in my purse.~
+News seems to spread faster than a bird can fly through the halfling village! My clearing of the kobold encampment in the Firewine ruins has left a happy little village and 250 gold in my purse.~
 @310589 = ~Wyvern hunt.
 
-I have remarkably slain a wyvern...no, a couple of wyverns...in a cave in the Cloakwood.  The mayor of Beregost at the Temple of Lathander rewarded me handsomely for my feat.~
+I have remarkably slain a wyvern... no, a couple of wyverns... in a cave in the Cloakwood. The mayor of Beregost at the Temple of Lathander rewarded me handsomely for my feat.~
 @310595 = ~Skie's ransom.
 
-Following successfully executing Eldoth's plan to 'rescue' Skie from Entar Silvershield's estate, Eldoth, Skie, and I are to meet a man named Elkart at the Blade and Stars every two days to collect ransom money.  It seems Skie's father is worried about her, but I see a happy couple brought about by Skie's independence, no matter how much her family disapproves.  Nevertheless, the money will help our cause.~
+Following successfully executing Eldoth's plan to "rescue" Skie from Entar Silvershield's estate, Eldoth, Skie, and I are to meet a man named Elkart at the Blade and Stars every two days to collect ransom money. It seems Skie's father is worried about her, but I see a happy couple brought about by Skie's independence, no matter how much her family disapproves. Nevertheless, the money will help our cause.~
 @310596 = ~Skie's ransom.
 
-It seems that Eldoth's continued persistence on collecting ransom money from a contact of the Entar Silvershield estate has gone sour.  We have been beset by the Flaming Fist and could do naught but battle our way out of this trap.~
+It seems that Eldoth's continued persistence on collecting ransom money from a contact of the Entar Silvershield estate has gone sour. We have been beset by the Flaming Fist and could do naught but battle our way out of this trap.~
 @310605 = ~Retrieve Hurgan's dagger.
 
-I was too late in stopping the cultists from summoning the evil demon, so there was no option but to slay it before it wreaked havoc within Ulgoth's Beard and beyond.  The battle was quite difficult, I must admit...whenever I thought he was dead, he took the souls of his worshippers and fed it into his own lifeforce. I should tell Hurgan this.~
+I was too late in stopping the cultists from summoning the evil demon, so there was no option but to slay it before it wreaked havoc within Ulgoth's Beard and beyond. The battle was quite difficult, I must admit... whenever I thought he was dead, he took the souls of his worshippers and fed it into his own lifeforce. I should tell Hurgan this.~
 @310610 = ~Find Therella's son, Dalton, in Durlag's Tower.
 
-I found Therella's son, but he died horribly.  There was not much I could do about it.~
+I found Therella's son, but he died horribly. There was not much I could do about it.~
 @310656 = ~Stranded on an island!
 
-That storm was beyond any natural phenomenon I have seen before!  Even more strange is the fact that only my party survived, or so it seems.  Some magic must be at work here, though I do not know who or what is behind it.  One thing I do know is that I am stranded on this mysterious island with apparently gentle folk, and that the aching pain in my head is nowhere near subsiding.  I should ask around to locate the wreckage of Balduran's ship, and ultimately, the logbook for Mendas, that is, if this island is the one that I was looking for.  After that, only the Gods know how I will be getting back to Ulgoth's Beard.~
+That storm was beyond any natural phenomenon I have seen before! Even more strange is the fact that only my party survived, or so it seems. Some magic must be at work here, though I do not know who or what is behind it. One thing I do know is that I am stranded on this mysterious island with apparently gentle folk, and that the aching pain in my head is nowhere near subsiding. I should ask around to locate the wreckage of Balduran's ship, and ultimately, the logbook for Mendas, that is, if this island is the one that I was looking for. After that, only the Gods know how I will be getting back to Ulgoth's Beard.~
 @310793 = ~Retrieve Shandalar's cloak.
 
-It seems that my dealings with the Thieves' Guild have not gone unnoticed: Shandalar, who had three daughters protecting components of a skyship, has lured me into punishment for their deaths.  He has teleported me to a mysterious, but chilly, island, in the middle of a desolate ocean!  Shandalar mentioned a cloak that I had to find.  Such a piece of clothing might be the key out of this accursed place.  I will have to keep my eyes peeled for it.~
+It seems that my dealings with the Thieves' Guild have not gone unnoticed: Shandalar, who had three daughters protecting components of a skyship, has lured me into punishment for their deaths. He has teleported me to a mysterious, but chilly, island, in the middle of a desolate ocean! Shandalar mentioned a cloak that I had to find. Such a piece of clothing might be the key out of this accursed place. I will have to keep my eyes peeled for it.~
 @310809 = ~Retrieve Shandalar's cloak.
 
-I have been unwillingly forced into a task for an impolite mage at the centre of Ulgoth's Beard.  The twit has sent me off to a barren, icy island to find a ragged cloak of his.  It is probably his mistake to grant me passage back, with a wardstone he gave me, as I am tempted to stuff the head of a mace into his mouth when I return to him.~
+I have been unwillingly forced into a task for an impolite mage at the centre of Ulgoth's Beard. The twit has sent me off to a barren, icy island to find a ragged cloak of his. It is probably his mistake to grant me passage back, with a wardstone he gave me, as I am tempted to stuff the head of a mace into his mouth when I return to him.~
 @310810 = ~Retrieve Shandalar's cloak.
 
-I have accepted an apparently simple task of retrieving a cloak for Shandalar, a mage I encountered at Ulgoth's Beard.  Apparently simple, but bedazzling, I find myself on some strange secluded reef in the middle of an icy ocean!  That trickster has imprisoned me on this eyesore, as I am sure he said something about release, but I am relieved that I am in possession of a wardstone that will effect it.  I should find this cloak quickly - it is getting very cold indeed.~
+I have accepted an apparently simple task of retrieving a cloak for Shandalar, a mage I encountered at Ulgoth's Beard. Apparently simple, but bedazzling, I find myself on some strange secluded reef in the middle of an icy ocean! That trickster has imprisoned me on this eyesore, as I am sure he said something about release, but I am relieved that I am in possession of a wardstone that will effect it. I should find this cloak quickly—it is getting very cold indeed.~
 @310811 = ~Retrieve Shandalar's cloak.
 
-I am glad to see the back of Shandalar's incantations, and his cloak as well.  The icy prison that I was transported to was no place for strangers on a little errand.  I should be careful of conspicuous mages standing out in the open from now on.~
+I am glad to see the back of Shandalar's incantations, and his cloak as well. The icy prison that I was transported to was no place for strangers on a little errand. I should be careful of conspicuous mages standing out in the open from now on.~
 @310812 = ~Retrieve Shandalar's cloak.
 
-That dastardly man of a mage escaped me before I could reap my own reward for the useless adventure he sent me to!  The last thing I shall do is to heed his  criticism of my manner.  Regardless, I am glad to see the back of him, his cloak, and that icy prison.~
+That dastardly man of a mage escaped me before I could reap my own reward for the useless adventure he sent me to! The last thing I shall do is to heed his criticism of my manner. Regardless, I am glad to see the back of him, his cloak, and that icy prison.~
 @310813 = ~Retrieve Shandalar's cloak.
 
-I retrieved Shandalar's cloak from what seemed to be an icy prison.  I certainly do not want to go back there again, as it sends chills down my spine.  I should count myself lucky that he gave me a wardstone to find my way back to Ulgoth's Beard.  I would not want to encounter him in the future, lest he enact further punishment for the death of his daughters.  I am glad to see the back of him, his cloak, and that icy prison.~
+I retrieved Shandalar's cloak from what seemed to be an icy prison. I certainly do not want to go back there again, as it sends chills down my spine. I should count myself lucky that he gave me a wardstone to find my way back to Ulgoth's Beard. I would not want to encounter him in the future, lest he enact further punishment for the death of his daughters. I am glad to see the back of him, his cloak, and that icy prison.~
 
 
 
@@ -935,55 +935,55 @@ I retrieved Shandalar's cloak from what seemed to be an icy prison.  I certainly
 //Chapter journal entries
 /////////////////////////
 /*JOURNAL - @16190*/
-@310733 = ~Chapter Two: Isolation
+@310733 = ~Chapter 2
 
-You awake with the realization that you have not been having some horrible dream.  Ambushed, you saw Gorion cut down before your eyes, and even his powerful magic could not stop the onslaught. It was his wish that you flee, but that does not remove the feeling of helplessness that now overwhelms you.
+You awake with the realization that you have not been having some horrible dream. Ambushed, you saw Gorion cut down before your eyes, and even his powerful magic could not stop the onslaught. It was his wish that you flee, but that does not remove the feeling of helplessness that now overwhelms you.
 
-"Hand over your ward," the armored fiend had said. He was after you and you alone, but why?  If only Gorion had given some clue, but now you are alone and lost. Candlekeep is near, but you will find no quarter there. The readers pay for their serenity with rather draconian entry rules, and without Gorion's influence their doors will remain closed.~
+"Hand over your ward," the armored fiend had said. He was after you and you alone, but why? If only Gorion had given some clue, but now you are alone and lost. Candlekeep is near, but you will find no quarter there. The readers pay for their serenity with rather draconian entry rules, and without Gorion's influence their doors will remain closed.~
 /*JOURNAL - @15836*/
-@310734 = ~Chapter Three: Trouble in Nashkel
+@310734 = ~Chapter 3
 
-With your hurried flight from Candlekeep barely behind you, the troubles facing the Sword Coast seem an unfamiliar blur to your fractured nerves.  Gorion would not have you sit idle, however, and perhaps investigating local concerns will shed some light on your own predicament.  How the iron shortage or the trouble in the Nashkel mines could possibly be linked to you, you have no idea.~
+With your hurried flight from Candlekeep barely behind you, the troubles facing the Sword Coast seem an unfamiliar blur to your fractured nerves. Gorion would not have you sit idle, however, and perhaps investigating local concerns will shed some light on your own predicament. How the iron shortage or the trouble in the Nashkel mines could possibly be linked to you, you have no idea.~
 /*JOURNAL - @15837*/
-@310735 = ~Chapter Four: Bandits and the Iron Shortage
+@310735 = ~Chapter 4
 
-It is certain that the death of Mulahey will relieve the fears of the terrorized folk of Nashkel, but you remain uneasy.  While the half-orc may indeed have caused the evils that befell the mine, the shortage of iron is too widespread to be his doing alone.  His letters confirm your suspicions, and though they give little indication as to where his cohorts are hiding, they may have links to the bandits that currently plague the Coast Way.~
+It is certain that the death of Mulahey will relieve the fears of the terrorized folk of Nashkel, but you remain uneasy. While the half-orc may indeed have caused the evils that befell the mine, the shortage of iron is too widespread to be his doing alone. His letters confirm your suspicions, and though they give little indication as to where his cohorts are hiding, they may have links to the bandits that currently plague the Coast Way.~
 /*JOURNAL - @15838*/
-@310736 = ~Chapter Five: To the Cloakwood
+@310736 = ~Chapter 5
 
-Mulahey and Tazok have proven to be nothing more than puppets; the true master of this unfolding mystery continues to elude you.  One thing is certain; someone has taken a very personal interest in seeking your death, though why, you are not sure.  Your search for answers continues, and the foreboding Cloakwood forest is your next target.~
+Mulahey and Tazok have proven to be nothing more than puppets; the true master of this unfolding mystery continues to elude you. One thing is certain; someone has taken a very personal interest in seeking your death, though why, you are not sure. Your search for answers continues, and the foreboding Cloakwood forest is your next target.~
 /*JOURNAL - @15839*/
-@310737 = ~Chapter Six: To Baldur's Gate
+@310737 = ~Chapter 6
 
-You have dealt a great blow to the organization known as the Iron Throne; a defeat that you are certain will not be ignored.  Now you must travel to the great city of Baldur's Gate, where you are certain to find the truth behind the strange plot that plagues the citizens of the Sword Coast.~
+You have dealt a great blow to the organization known as the Iron Throne; a defeat that you are certain will not be ignored. Now you must travel to the great city of Baldur's Gate, where you are certain to find the truth behind the strange plot that plagues the citizens of the Sword Coast.~
 /*JOURNAL - @15840*/
-@310738 = ~Chapter Seven: Return to Candlekeep
+@310738 = ~Chapter 7
 
-Your journey has come full circle.  Duke Eltan has asked that you travel back to Candlekeep, where you must spy upon the leaders of the Iron Throne.  While it troubles you that such evil men now make use of the great library, and you wish the circumstances of your visit would be different, it will still be a pleasure to return to your former home.~
+Your journey has come full circle. Duke Eltan has asked that you travel back to Candlekeep, where you must spy upon the leaders of the Iron Throne. While it troubles you that such evil men now make use of the great library, and you wish the circumstances of your visit would be different, it will still be a pleasure to return to your former home.~
 /*JOURNAL - @15841*/
-@310739 = ~Chapter Eight: Endgame
+@310739 = ~Chapter 8
 
-Life continues to be quite the challenge.  You have been accused of murdering the Iron Throne leaders, and the Flaming Fist will undoubtedly hound your every step because of it.  Despite all of this, you must return to the city of Baldur's Gate, the very lair of your accusers.  You must find and expose the one who is responsible for your predicament; you must find Sarevok.~
+Life continues to be quite the challenge. You have been accused of murdering the Iron Throne leaders, and the Flaming Fist will undoubtedly hound your every step because of it. Despite all of this, you must return to the city of Baldur's Gate, the very lair of your accusers. You must find and expose the one who is responsible for your predicament; you must find Sarevok.~
 
 
 
 //////////////////
-//Rumor from Volo.
+//Rumor from Volo
 //////////////////
 //VOLO.DLG
 /*JOURNAL - @8534*/
 @310444 = ~Rumor from Volo.
 
-Many a story have I collected from across this great realm, though sometimes I am at a loss whether to believe them or not, due to their extraordinary circumstance.  Such a tale is this, wherein lies the story of a band of hearty adventurers moving amidst the shadows of the land, effecting change where it is needed.  I was enjoying the simple fare of the celebrations in Nashkel, when the strangest news hit the town.  It would seem the mines, long plagued by unexplained deaths, had been inundated by a horde of ill mannered kobolds, under the direction of a rather unscrupulous and hygienically suspect cleric of Cyric.  Dispatching the villain with appropriate brevity, the heroes freed the mine, and are the sole reason for the trickle of iron finally winding its way to the Gate now.  None seem to recall their names, but the consensus agrees they were great of stature, and cut an impressive figure across the plains.~
+Many a story have I collected from across this great realm, though sometimes I am at a loss whether to believe them or not, due to their extraordinary circumstance. Such a tale is this, wherein lies the story of a band of hearty adventurers moving amidst the shadows of the land, effecting change where it is needed. I was enjoying the simple fare of the celebrations in Nashkel, when the strangest news hit the town. It would seem the mines, long plagued by unexplained deaths, had been inundated by a horde of ill mannered kobolds, under the direction of a rather unscrupulous and hygienically suspect cleric of Cyric. Dispatching the villain with appropriate brevity, the heroes freed the mine, and are the sole reason for the trickle of iron finally winding its way to the Gate now. None seem to recall their names, but the consensus agrees they were great of stature, and cut an impressive figure across the plains.~
 /*JOURNAL - @8535*/
 @310445 = ~Rumor from Volo.
 
-Stranger tales I have told, but none are as fresh in my mind as this one, which is also fresh from the happening as well!  It would seem that the orchestrators of the ever vexing iron shortage supplied themselves and their allies with ore mined from a secret location, and while the coast was in turmoil they built quite the powerbase at the aforementioned mine.  A group of heroes, for they can only be called such, lay siege to the encampment and ultimately flooded out the evil conspirators in a rushing torrent of water and justice, though not before securing the release of some several dozen enslaved workers.  A serious blow, I am sure, to whatever fiendish plot is brewing in our fair land.~
+Stranger tales I have told, but none are as fresh in my mind as this one, which is also fresh from the happening as well! It would seem that the orchestrators of the ever vexing iron shortage supplied themselves and their allies with ore mined from a secret location, and while the coast was in turmoil they built quite the powerbase at the aforementioned mine. A group of heroes, for they can only be called such, lay siege to the encampment and ultimately flooded out the evil conspirators in a rushing torrent of water and justice, though not before securing the release of some several dozen enslaved workers. A serious blow, I am sure, to whatever fiendish plot is brewing in our fair land.~
 /*JOURNAL - @8536*/
 @310446 = ~Rumor from Volo.
 
-Stranger tales I have told, but none are as fresh in my mind as this one, which is also fresh from the happening as well!  It would seem that the orchestrators of the ever vexing iron shortage supplied themselves and their allies with ore mined from a secret location, and while the coast was in turmoil they built quite the powerbase at the aforementioned mine.  A mysterious group of battle-veteran strangers, for I hesitate to call them heroes, lay siege to the encampment and ultimately flooded out the evil conspirators in a rushing torrent of water and justice,  though every slave to the man was lost in the drenching.  'Twould seem they didn't wish to encumber themselves, though I imagine the weight of those dead souls must be nigh unto horrific.  The question to pose then, is whether the devil you know is better than the devil you don't.  We shall wait and see what comes of this.~
+Stranger tales I have told, but none are as fresh in my mind as this one, which is also fresh from the happening as well! It would seem that the orchestrators of the ever vexing iron shortage supplied themselves and their allies with ore mined from a secret location, and while the coast was in turmoil they built quite the powerbase at the aforementioned mine. A mysterious group of battle-veteran strangers, for I hesitate to call them heroes, lay siege to the encampment and ultimately flooded out the evil conspirators in a rushing torrent of water and justice, though every slave to the man was lost in the drenching. 'Twould seem they didn't wish to encumber themselves, though I imagine the weight of those dead souls must be nigh unto horrific. The question to pose then, is whether the devil you know is better than the devil you don't. We shall wait and see what comes of this.~
 /*JOURNAL - @8537*/
 @310447 = ~Rumor from Volo.
 
-Some tales defy all logic or explanation when posed to the sane mind, and it is a story just so that I give to you now.  Much of it is already known, due to the celebrity of those involved, though many may find it truly shocking how deep the seeds of destruction were sown.  Beloved Sarevok, a man among men, set to all but rule the coast, was actually a core architect of the very iron shortage that so unraveled the economy of the land, and had a hand in the poisoning of Duke Eltan that directly led to his rise to power.  We were but seconds away from the first step down that path when from the shadows again stepped the unknown group of my previous tales.  None can say definitively what happened next, though it is certain that Sarevok was pursued to the very bottom of the undercity, and from there he did not return.  I'll wager many would just as soon have seen him chased to the 9th plane itself, as he hurt many of the folk of the land, both direct and indirect.~
+Some tales defy all logic or explanation when posed to the sane mind, and it is a story just so that I give to you now. Much of it is already known, due to the celebrity of those involved, though many may find it truly shocking how deep the seeds of destruction were sown. Beloved Sarevok, a man among men, set to all but rule the coast, was actually a core architect of the very iron shortage that so unraveled the economy of the land, and had a hand in the poisoning of Duke Eltan that directly led to his rise to power. We were but seconds away from the first step down that path when from the shadows again stepped the unknown group of my previous tales. None can say definitively what happened next, though it is certain that Sarevok was pursued to the very bottom of the undercity, and from there he did not return. I'll wager many would just as soon have seen him chased to the 9th plane itself, as he hurt many of the folk of the land, both direct and indirect.~

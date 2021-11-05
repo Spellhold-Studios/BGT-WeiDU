@@ -37,17 +37,17 @@ END
 
 IF WEIGHT #1 ~False()~ THEN BEGIN 4
   SAY @14996
-  IF ~~ THEN EXIT
+  IF ~~ THEN DO ~~ EXIT
 END
 
 IF WEIGHT #4 ~IsGabber(Player1)
 Global("FirebeadDone","GLOBAL",0)~ THEN BEGIN 5
   SAY @14997
-  IF ~~ THEN EXIT
+  IF ~~ THEN DO ~~ EXIT
 END
 
 IF WEIGHT #5 ~IsGabber(Player1)
 True()~ THEN BEGIN 6
   SAY @14998
-  IF ~~ THEN EXIT
+  IF ~~ THEN DO ~~ EXIT
 END

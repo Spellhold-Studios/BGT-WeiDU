@@ -1,6 +1,6 @@
 //BELTBRD.D
 @201810 = ~Lidé slyšeli o Sarevokovi.  Jsou zvìdaví.  Obzvláš šlechtici pokládají otázky.  Nebezpeèné otázky.  Tøeba jak se ti podaøilo zabít zplozence Bhaala.~
-@201812 = ~Stínoví zlodìji prozradili to o chrámu pod jejich základnou.  Myslím, e to mohl bıt pokus, jak tì dostat z mìsta.  Nejspíš se cítí ohroeni tvojí pøítomností.~ //'I know' deleted at start of line
+@201812 = ~Stínoví zlodìji prozradili to o chrámu pod jejich základnou.  Myslím, e to mohl bıt pokus, jak tì dostat z mìsta.  Nejspíš se cítí ohroeni tvojí pøítomností.~
 @201813 = ~Jako by šlechta nebyla dostateènı problém, mám tu nìco horšího, s èím bys mi mohl pomoct.~
 @201814 = ~Co je to?~
 @201815 = ~Amn poøád plánuje vyhlásit nám válku.  Snail jsem se poslat zprávy Radì v Athkatle, ale neodpovídají.  Nevím, jestli je to kvùli kurırùm nebo Radì.~
@@ -8,14 +8,14 @@
 @201817 = ~A co chcete, abych udìlal?~
 @201818 = ~<CHARNAME>!  Je vítìzství... tvé?  Je Sarevok... mrtev?~
 @201819 = ~Ano, je to tak.  Sarevok padl za obì mému meèi.~
-@201820 = ~Kdy si pomyslím, e jsme ho ještì pøed chvílí oslavovali... *ehm*~ //everything after *ahem* deleted
+@201820 = ~Kdy si pomyslím, e jsme ho ještì pøed chvílí oslavovali... *ehm*~
 @201821 = ~Mám novı kontakt v Athkatle.  Potøebuju k nìmu dostat tenhle dokument, aby si ho Rada Šesti pøeèetla a dozvìdìla se o pøíèinì našich problémù.  Navrhuji tajné setkání mezi mnou a Radou.  Doufám, e jim dokáu, e Sarevok mùe za ty vıhruky, a e Baldurova Brána nechce válku.~
 @201822 = ~Øíkám ti to, protoe nìkdo musí tento dùleitı úkol splnit.  Chci, aby ses setkal s mım kontaktem a doruèil mu tento dopis.  Kdy se tam moji kurıøi nedokáou dostat kvùli banditùm, aspoò vím, e ty jsi schopen je porazit a splnit tento úkol.~
 @201823 = ~Athkatla?  V Amnu?  Dostat se tam zabere nìjakı èas.  Není zpùsob, jak urychlit moji cestu?~
 @201824 = ~Ano, to mì pøivádí k další vìci.  Nechal jsem své mágy napsat kouzlo, které tì tam pøenese.  Bohuel jsem nikdy nebyl v Athkatle a pøenos funguje pouze, pokud znáš cíl.~
-@201826 = ~Byl jsem na nìkolika honech kousek na sever od Athkatly.  Znám dobøe jedno místo a mùu tì tam pøenést.  Øekl jsem o tom svému kontaktu a mìli by tam na tebe èekat jeho lidé.  Doprovodí tì do mìsta.~ //'Patience please' deleted at start of line
+@201826 = ~Byl jsem na nìkolika honech kousek na sever od Athkatly.  Znám dobøe jedno místo a mùu tì tam pøenést.  Øekl jsem o tom svému kontaktu a mìli by tam na tebe èekat jeho lidé.  Doprovodí tì do mìsta.~
 @201827 = ~Jedna vìc mi není jasná.  Kdy mùete nìkoho pøenést, aby se setkal s tím kontaktem, proè prostì nepošlete kurıra? Proè mì?~
-@201828 = ~Mám proto hned dva dùvody.  Zaprvé, jak u jsem øekl, šlechtici se tì bojí.  Dostat tì na pár dní z mìsta mi dá èas, abych je mohl uklidnit.  Druhı dùvod je, e mùj kontakt o tobì slyšel.  Zdá se, e jsi hrdinou Meèového Pobøeí.  Mùj kontakt si myslí, e Rada bude ochotnìji naslouchat mım poadavkùm, kdy je budou pøednášet hrdinové, jako jste vy.  Dal jsem dokonce vìdìt nìkterım z tvıch pøátel, take se tam s nimi mùeš setkat.  Zpátky se budeš muset dostat pìšky, tak se na tu cestu poøádnì vybav.~ //'Good luck, and safe journeys.' deleted at end of line, '...go and...' deleted from last sentence
+@201828 = ~Mám proto hned dva dùvody.  Zaprvé, jak u jsem øekl, šlechtici se tì bojí.  Dostat tì na pár dní z mìsta mi dá èas, abych je mohl uklidnit.  Druhı dùvod je, e mùj kontakt o tobì slyšel.  Zdá se, e jsi hrdinou Meèového Pobøeí.  Mùj kontakt si myslí, e Rada bude ochotnìji naslouchat mım poadavkùm, kdy je budou pøednášet hrdinové, jako jste vy.  Dal jsem dokonce vìdìt nìkterım z tvıch pøátel, take se tam s nimi mùeš setkat.  Zpátky se budeš muset dostat pìšky, tak se na tu cestu poøádnì vybav.~
 //BELTBRD.D - new lines (v1.06)
 @201829 = ~Jsi pøipraven na cestu do Athkatly?~
 @201830 = ~Ano, jsem pøipraven.~
@@ -24,21 +24,15 @@
 @201833 = ~Hodnì štìstí a bezpeènou cestu.~
 @201834 = ~Pak se pøiprav rychle. Nemáme moc èasu.~
 
-//SARDEAD.D
-@202200 = ~padl! Zvítìzil jsi!~
-
 ////////////////////////////////////////////////////////////////////////////////////////
 // KingDiamond's Extra Dialogue
 ////////////////////////////////////////////////////////////////////////////////////////
-//TAEROM.D
-@203402 = ~No, èas se krátí! Doufám, e ti shnije v batohu, budeš milovat tu vùni. To tì nauèí!~
-
 //WINSKI.D
 @203403 = ~Tak... zabil jsi ho, viï?  Nevìdìl jsem, kdo vyhraje, ale mìl jsem pøedpokládat, e to budeš ty.  Byl jsi mu trnem v oku celou dobu a jeho vítìzství by stejnì bylo marné.~
 @203404 = ~Jen mì nech tady.  Já... nemám u ádnou sílu.  A si pro mì pøijde ta zatracená Pìst. U je mi to jedno.~
 
 //SAREVO.D - replaces a reference to Angelo who isn't actually in the Duchal Palace
-@203405 = ~To jsou ti hledaní za mnohonásobnou vradu, ZABTE je!~
+@203405 = ~Tihle mui jsou tìmi hledanımi pro mnohonásobné vrady, ZABIJ je!~
 
 //VOLETA.D
 @203406 = ~Jsi zpátky.  Jsem docela pøekvapená, es pøeil.  Nikdy døív se nikdo nedostal z Bludištì.  Aspoò, e ten parchant je mrtvej.  Jestlis to zvládl tam a zpátky, není pochyb, e je pryè.~

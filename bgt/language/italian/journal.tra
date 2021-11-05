@@ -538,25 +538,25 @@
 @800179 = ~Salvataggio di Xan nelle miniere di Nashkel.
 
 ~
-@800180 = ~Capitolo Due: Isolamento
+@800180 = ~Capitolo Due
 
 ~
-@800181 = ~Capitolo Tre: Problemi a Nashkel
+@800181 = ~Capitolo Tre
 
 ~
-@800182 = ~Capitolo Quattro: Banditi e la Penuria di Ferro
+@800182 = ~Capitolo Quattro
 
 ~
-@800183 = ~Capitolo Cinque: Verso il Bosco Ammantato
+@800183 = ~Capitolo Cinque
 
 ~
-@800184 = ~Capitolo Sei: Verso Baldur's Gate
+@800184 = ~Capitolo Sei
 
 ~
-@800185 = ~Capitolo Sette: Ritorno a Candlekeep
+@800185 = ~Capitolo Sette
 
 ~
-@800186 = ~Capitolo Otto: Fine del Gioco
+@800186 = ~Capitolo Otto
 
 ~
 @800187 = ~Un incontro con Cadderly.
@@ -979,23 +979,23 @@ Ho riportato il mantello di Shandalar da quella che sembrava essere una prigione
 //Chapter journal entries
 /////////////////////////
 /*JOURNAL - @16190*/
-@310733 = ~Capitolo Due: Isolamento
+@310733 = ~Capitolo Due
 
 Ti svegli rendendoti conto di non aver vissuto un orribile incubo. Caduto in una imboscata, hai visto morire Gorion davanti ai tuoi occhi e nemmeno la sua potente magia è riuscita a fermare l'assalto. Era suo desiderio che fuggissi, ma ciò non placa la sensazione di impotenza che ti schiaccia.
 
-"Consegnaci il tuo protetto", aveva detto il nemico con la corazza. Stava seguendo te, te soltanto, ma per quale motivo? Se soltanto Gorion ti avesse dato qualche indicazione, ma adesso ti trovi solo e perduto. Candlekeep è vicina, ma non ci troverai riparo. I monaci pagano la propria tranquillità con norme di ammissione piuttosto draconiane e senza l'influenza di Gorion le loro porte resteranno chiuse.~ ~Capitolo Due: Isolamento
+"Consegnaci il tuo protetto", aveva detto il nemico con la corazza. Stava seguendo te, te soltanto, ma per quale motivo? Se soltanto Gorion ti avesse dato qualche indicazione, ma adesso ti trovi solo e perduto. Candlekeep è vicina, ma non ci troverai riparo. I monaci pagano la propria tranquillità con norme di ammissione piuttosto draconiane e senza l'influenza di Gorion le loro porte resteranno chiuse.~ ~Capitolo Due
 
 Ti svegli rendendoti conto di non aver vissuto un orribile incubo. Caduta in una imboscata, hai visto morire Gorion davanti ai tuoi occhi e nemmeno la sua potente magia è riuscita a fermare l'assalto. Era suo desiderio che fuggissi, ma ciò non placa la sensazione di impotenza che ti schiaccia.
 
 "Consegnaci la tuo protetta", aveva detto il nemico con la corazza. Stava seguendo te, te soltanto, ma per quale motivo? Se soltanto Gorion ti avesse dato qualche indicazione, ma adesso ti trovi sola e perduta. Candlekeep è vicina, ma non ci troverai riparo. I monaci pagano la propria tranquillità con norme di ammissione piuttosto draconiane e senza l'influenza di Gorion le loro porte resteranno chiuse.~
 /*JOURNAL - @15836*/
-@310734 = ~Capitolo Tre: Problemi a Nashkel
+@310734 = ~Capitolo Tre
 
-A causa della tua recente e frettolosa fuga da Candlekeep, i problemi della Costa della Spada sembrano una entità indistinta e sconosciuta ai tuoi nervi spezzati. Gorion tuttavia non vorrebbe vederti seduto a far niente e forse indagare sui problemi del posto getterà un pò di luce sulla tua situazione. Non hai idea di come la mancanza di ferro o i problemi alla miniera di Nashkel possano essere collegati a te.~ ~Capitolo Tre: Problemi a Nashkel
+A causa della tua recente e frettolosa fuga da Candlekeep, i problemi della Costa della Spada sembrano una entità indistinta e sconosciuta ai tuoi nervi spezzati. Gorion tuttavia non vorrebbe vederti seduto a far niente e forse indagare sui problemi del posto getterà un pò di luce sulla tua situazione. Non hai idea di come la mancanza di ferro o i problemi alla miniera di Nashkel possano essere collegati a te.~ ~Capitolo Tre
 
 A causa della tua recente e frettolosa fuga da Candlekeep, i problemi della Costa della Spada sembrano una entità indistinta e sconosciuta ai tuoi nervi spezzati. Gorion tuttavia non vorrebbe vederti seduta a far niente e forse indagare sui problemi del posto getterà un pò di luce sulla tua situazione. Non hai idea di come la mancanza di ferro o i problemi alla miniera di Nashkel possano essere collegati a te.~
 /*JOURNAL - @15837*/
-@310735 = ~Capitolo Quattro: Banditi e la Penuria di Ferro
+@310735 = ~Capitolo Quattro
 
 E' certo che la morte di Mulahey placherà la paura dei terrorizzati cittadini di Nashkel, ma tu resti a disagio. Sebbene il mezz'orco possa effettivamente aver avuto a che fare con la miniera, la mancanza di ferro è di proporzioni troppo grandi per essere stata causata da lui soltanto. Le sue lettere confermano i tuoi sospetti e sebbene forniscano poche indicazioni circa il nascondiglio dei suoi complici, devono aver qualche collegamento con i banditi che stanno devastando la Strada della Costa.~
 /*JOURNAL - @15838*/
@@ -1003,21 +1003,21 @@ E' certo che la morte di Mulahey placherà la paura dei terrorizzati cittadini di
 
 Mulahey e Tazok si sono rivelati essere solo delle marionette; il vero autore di questo oscuro mistero continua a sfuggirti. Una cosa è certa: qualcuno ha un interesse del tutto personale nella tua morte, anche se non ne conosci il motivo. Continui a cercare delle risposte, ed hai il presentimento che il Bosco Ammantato sia la tua prossima meta.~
 /*JOURNAL - @15839*/
-@310737 = ~Capitolo Sei: Verso Baldur's Gate
+@310737 = ~Capitolo Sei
 
-Hai inferto un grosso colpo all'organizzazione nota come il Trono di Ferro; una sconfitta che di certo non passerà inosservata. Adesso devi recarti nella grande città di Baldur's Gate, dove sei certo di scoprire la verità che sta alla base dello strano intrigo che affligge i cittadini della Costa della Spada.~ ~Capitolo Sei: Verso Baldur's Gate
+Hai inferto un grosso colpo all'organizzazione nota come il Trono di Ferro; una sconfitta che di certo non passerà inosservata. Adesso devi recarti nella grande città di Baldur's Gate, dove sei certo di scoprire la verità che sta alla base dello strano intrigo che affligge i cittadini della Costa della Spada.~ ~Capitolo Sei
 
 Hai inferto un grosso colpo all'organizzazione nota come il Trono di Ferro; una sconfitta che di certo non passerà inosservata. Adesso devi recarti nella grande città di Baldur's Gate, dove sei certa di scoprire la verità che sta alla base dello strano intrigo che affligge i cittadini della Costa della Spada.~
 /*JOURNAL - @15840*/
-@310738 = ~Capitolo Sette: Ritorno a Candlekeep
+@310738 = ~Capitolo Sette
 
-Il tuo viaggio ti ha riportato al punto di partenza. Il Duca Eltan ti ha chiesto di tornare a Candlekeep, dove devi spiare i capi del Trono di Ferro. Sebbene ti infastidisca il fatto che uomini così malvagi usino la grande biblioteca, e vorresti che le circostanze della tua visita fossero diverse, sarà comunque un piacere tornare alla tua vecchia casa.~ ~Capitolo Sette: Ritorno a Candlekeep
+Il tuo viaggio ti ha riportato al punto di partenza. Il Duca Eltan ti ha chiesto di tornare a Candlekeep, dove devi spiare i capi del Trono di Ferro. Sebbene ti infastidisca il fatto che uomini così malvagi usino la grande biblioteca, e vorresti che le circostanze della tua visita fossero diverse, sarà comunque un piacere tornare alla tua vecchia casa.~ ~Capitolo Sette
 
 Il tuo viaggio ti ha riportata al punto di partenza. Il Duca Eltan ti ha chiesto di tornare a Candlekeep, dove devi spiare i capi del Trono di Ferro. Sebbene ti infastidisca il fatto che uomini così malvagi usino la grande biblioteca, e vorresti che le circostanze della tua visita fossero diverse, sarà comunque un piacere tornare alla tua vecchia casa.~
 /*JOURNAL - @15841*/
-@310739 = ~Capitolo Otto: Fine del Gioco
+@310739 = ~Capitolo Otto
 
-La vita continua a essere una sfida. Sei stato accusato di aver assassinato i capi del Trono di Ferro, e indubbiamente il Pugno Fiammante ti perseguiterà per questo. Nonostante ciò, devi tornare a Baldur's Gate, il covo reale dei tuoi accusatori. Devi stanare e mettere a nudo il responsabile della tua situazione; devi trovare Sarevok.~ ~Capitolo Otto: Fine del Gioco
+La vita continua a essere una sfida. Sei stato accusato di aver assassinato i capi del Trono di Ferro, e indubbiamente il Pugno Fiammante ti perseguiterà per questo. Nonostante ciò, devi tornare a Baldur's Gate, il covo reale dei tuoi accusatori. Devi stanare e mettere a nudo il responsabile della tua situazione; devi trovare Sarevok.~ ~Capitolo Otto
 
 La vita continua a essere una sfida. Sei stata accusata di aver assassinato i capi del Trono di Ferro, e indubbiamente il Pugno Fiammante ti perseguiterà per questo. Nonostante ciò, devi tornare a Baldur's Gate, il covo reale dei tuoi accusatori. Devi stanare e mettere a nudo il responsabile della tua situazione; devi trovare Sarevok.~
 

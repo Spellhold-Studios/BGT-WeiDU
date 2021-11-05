@@ -3,7 +3,6 @@
 ////////////////////////////////////////////////////////////////////
 
 @401100 = ~Hai bisogno di procurarti le carte nautiche se desideri navigare in sicurezza fino alla terra ferma.~
-
 @401103 = ~Come l'impeto omicida si placa, capisci che la vittoria è tua.  Sarevok non c'è più, ed egli non sarà più in grado di procurare danni a te o ai Reami.  Con la guerra evitata e la sua guida distrutta, comprendi che sarebbe meglio fare rapporto al Palazzo Ducale e riferire propriamente a chi sta al potere cos'è accaduto esattamente, come e perchè.~
 @401104 = ~Oh, <CHARNAME>!  Eccoti qui.  Belt ci ha rivelato che sei stato ingaggiato per una missione segreta ad Athkatla per consegnare un importante messaggio.  Confido che la nostra compagnia sia ben gradita per una missione così pericolosa.~ ~Oh, <CHARNAME>!  Eccoti qui.  Belt ci ha rivelato che sei stata ingaggiata per una missione segreta ad Athkatla per consegnare un importante messaggio.  Confido che la nostra compagnia sia ben gradita per una missione così pericolosa.~
 @401105 = ~Non ci aspettavamo di trovarti così vicino ad Athkatla. Le mura della grande città si possono vedere da qui.~
@@ -16,8 +15,6 @@
 @401112 = ~Contingenza rilasciata~
 @401113 = ~Tatuaggio del Potere rilasciato~
 @401114 = ~Bastone Magico rilasciato~
-@401115 = ~La mia arma è andata in frantumi!~
-@401117 = ~La sconfitta di Selaad ha curato te e il tuo gruppo dalla licantropia.~
 @401118 = ~Il tuo rapitore potrebbe essere qui in qualsiasi momento. Devi aprire lo SCHERMO DEL PERSONAGGIO e scegliere LEVEL UP prima di continuare. Il gioco riprenderà subito dopo.~
 
 //SBT scripts - new biographies

@@ -2,8 +2,7 @@
 // Scripts
 ////////////////////////////////////////////////////////////////////
 
-@401100 = ~Musíš získat námoøní mapy, jestli chceš bezpeènì doplout zpátky na pevninu~
-
+@401100 = ~Musíš získat námoøní mapy, jestli chceš bezpeènì doplout zpátky na pevninu.~
 @401103 = ~Jak pomíjí vražedné bìsnìní, uvìdomuješ si, že vítìzství je tvé.  Sarevok je mrtev a už nikdy nebude moci obtìžovat tebe nebo Øíše.  Teï, když je válka a její pøíèiny zažehnána, uvìdomuješ si, že by bylo nejlepší ohlásit se ve Vévodském paláci a podat zprávu o tom, co se stalo, proè a jak.~
 @401104 = ~Ach, <CHARNAME>!  Tady jsi.  Belt nám øekl, že se vydáváš na tajnou misi do Athkatly, abys doruèil dùležitou zprávu.  Naše spoleènost snad bude vítána na nebezpeèné misi jako je tato, nebo ne?~
 @401105 = ~Nevìdìli jsme, že ses dostal tak daleko do Amnu.  Zdi velkého mìsta Athkatly jsou na dohled.~
@@ -16,8 +15,6 @@
 @401112 = ~Eventualita spuštìna~
 @401113 = ~Tetování Moci spuštìno~
 @401114 = ~Používá Magickou Hùl~
-@401115 = ~Má zbraò je rozbitá!~
-@401117 = ~Porážka Selaada vyléèila tebe a tvou družinu z lykantropie.~
 @401118 = ~Tvùj vìznitel mùže pøijít každou chvíli. Mìl bys jít do ZÁZNAMU POSTAVY a pøejít na NOVOU ÚROVEÒ, než budeš pokraèovat. Hra bude pokraèovat, až bude <CHARNAME> pøipravený.~
 
 //SBT scripts - new biographies

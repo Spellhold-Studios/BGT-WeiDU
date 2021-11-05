@@ -25,8 +25,6 @@ VERSION ~v1.21~
 
 README ~bgt/help/[%LANGUAGE%]bgtreadme.htm~ ~bgt/help/[english]bgtreadme.htm~
 
-//MODDER setup_tra none area_variables warn missing_extern none missing_resref none ict2_actions none missing_eval warn overwriting_file warn
-
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
@@ -41,42 +39,42 @@ LANGUAGE ~International English~
          ~bgt/language/english/dialog.tra~
          ~bgt/language/english/journal.tra~
          ~bgt/language/english/scripts.tra~
-LANGUAGE ~Castellano (Castilian/Spanish)~
-         ~castilian~
-         ~bgt/language/castilian/prompts-%WEIDU_OS%.tra~
-         ~bgt/language/castilian/setup.tra~
-         ~bgt/language/castilian/dialog.tra~
-         ~bgt/language/castilian/journal.tra~
-         ~bgt/language/castilian/scripts.tra~
-LANGUAGE ~Francais (French)~
+LANGUAGE ~cestina~
+         ~czech~
+         ~bgt/language/czech/prompts.tra~
+         ~bgt/language/czech/setup.tra~
+         ~bgt/language/czech/dialog.tra~
+         ~bgt/language/czech/journal.tra~
+         ~bgt/language/czech/scripts.tra~
+LANGUAGE ~francais~
          ~french~
          ~bgt/language/french/prompts.tra~
          ~bgt/language/french/setup.tra~
          ~bgt/language/french/dialog.tra~
          ~bgt/language/french/journal.tra~
          ~bgt/language/french/scripts.tra~
-LANGUAGE ~Deutsch (German)~
+LANGUAGE ~Deutsch~
          ~german~
          ~bgt/language/german/prompts.tra~
          ~bgt/language/german/setup.tra~
          ~bgt/language/german/dialog.tra~
          ~bgt/language/german/journal.tra~
          ~bgt/language/german/scripts.tra~
-LANGUAGE ~Italiano (Italian)~
+LANGUAGE ~italiano~
          ~italian~
          ~bgt/language/italian/prompts.tra~
          ~bgt/language/italian/setup.tra~
          ~bgt/language/italian/dialog.tra~
          ~bgt/language/italian/journal.tra~
          ~bgt/language/italian/scripts.tra~
-LANGUAGE ~ÇÑ±¹¾î (Korean)~
+LANGUAGE ~Korean~
          ~korean~
-         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/english/prompts.tra~
          ~bgt/language/korean/setup.tra~
          ~bgt/language/korean/dialog.tra~
          ~bgt/language/korean/journal.tra~
          ~bgt/language/korean/scripts.tra~
-LANGUAGE ~Polski (Polish)~
+LANGUAGE ~polski~
          ~polish~
          ~bgt/language/polish/prompts.tra~
          ~bgt/language/polish/setup.tra~
@@ -85,34 +83,34 @@ LANGUAGE ~Polski (Polish)~
          ~bgt/language/polish/scripts.tra~
 LANGUAGE ~Russian~
          ~russian~
-         ~bgt/language/russian/prompts.tra~
+         ~bgt/language/english/prompts.tra~
          ~bgt/language/russian/setup.tra~
          ~bgt/language/russian/dialog.tra~
          ~bgt/language/russian/journal.tra~
          ~bgt/language/russian/scripts.tra~
-LANGUAGE ~¼òÌåÖÐÎÄ (Chinese - Simplified)~
+LANGUAGE ~espanol~
+         ~spanish~
+         ~bgt/language/spanish/prompts.tra~
+         ~bgt/language/spanish/setup.tra~
+         ~bgt/language/spanish/dialog.tra~
+         ~bgt/language/spanish/journal.tra~
+         ~bgt/language/spanish/scripts.tra~
+LANGUAGE ~Simplified Chinese~
          ~schinese~
-         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/english/prompts.tra~
          ~bgt/language/schinese/setup.tra~
          ~bgt/language/schinese/dialog.tra~
          ~bgt/language/schinese/journal.tra~
          ~bgt/language/schinese/scripts.tra~
-LANGUAGE %ÁcÅé¤¤¤å (Chinese - Traditional)%
+LANGUAGE ~Traditional Chinese~
          ~tchinese~
-         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
+         ~bgt/language/english/prompts.tra~
          ~bgt/language/tchinese/setup.tra~
          ~bgt/language/tchinese/dialog.tra~
          ~bgt/language/tchinese/journal.tra~
          ~bgt/language/tchinese/scripts.tra~
-LANGUAGE ~Cestina (Czech)~
-         ~czech~
-         ~bgt/language/czech/prompts.tra~
-         ~bgt/language/czech/setup.tra~
-         ~bgt/language/czech/dialog.tra~
-         ~bgt/language/czech/journal.tra~
-         ~bgt/language/czech/scripts.tra~
 
-BEGIN @100000
+BEGIN @100000 LABEL ~A6-BGT-Core~
 REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~xnewarea.2da~ @100021
 
 ////////////////////////////////////////////////////////////
@@ -158,7 +156,7 @@ ACTION_IF NOT "%WEIDU_OS%" STRING_EQUAL_CASE ~win32~ BEGIN
   AT_EXIT ~rm -f bgt/bash.debug~
   COPY + ~bgt/placeholder.txt~ ~bgt/bash.debug~
     REPLACE_TEXTUALLY CASE_SENSITIVE EXACT_MATCH ~aaa~ ~Unix-like OS detected. Logging of shell commands enabled.%LNL%%LNL%~ //@100044
-  
+
   OUTER_SPRINT debug ~ 2>>bgt/bash.debug | tee -a bgt/bash.debug~
   OUTER_SPRINT slash ~/~
   OUTER_SPRINT quote ~"~
@@ -194,10 +192,10 @@ OUTER_FOR (path=1 n=0; path && VARIABLE_IS_SET EVAL ~argv[%n%]~; ++n) BEGIN // i
     LOG ~Looking for requested tools inside the system path because system-path option is set.~
   END
 END
-ACTION_FOR_EACH tool IN ~tis2bg2~ ~tisunpack~ ~mosunpack~ BEGIN
+ACTION_FOR_EACH tool IN ~tis2bg2~ BEGIN
   ACTION_IF path BEGIN //use binaries from package
     ACTION_IF NOT (FILE_EXISTS ~bgt/install/%WEIDU_OS%/%WEIDU_ARCH%/%tool%%exe%~) BEGIN //check if file exists for relevant architecture
-      FAIL ~Required binaries missing for your architecture. Please put tis2bg2, tisunpack and mosunpack into your system path and install again with system-path argument.~
+      FAIL ~Required binaries missing for your architecture. Please put tis2bg2 into your system path and install again with system-path argument.~
     END //FILE_EXISTS
 
     OUTER_SPRINT EVAL ~%tool%~ ~bgt%slash%install%slash%%WEIDU_OS%%slash%%WEIDU_ARCH%%slash%%tool%%exe%~
@@ -213,13 +211,13 @@ ACTION_IF "%WEIDU_OS%" STRING_EQUAL_CASE ~win32~ BEGIN //windows: tis2bg2 uses "
   COPY + ~bgt/install/%WEIDU_OS%/%WEIDU_ARCH%/tis2bg2.exe~ ~tis2bg2.exe~ //tis2bg2 must be located in BG2 game folder
   OUTER_SPRINT tis2bg2 ~tis2bg2~
 END ELSE BEGIN //unix: check file permissions
-  ACTION_FOR_EACH tool IN ~tis2bg2~ ~tisunpack~ ~mosunpack~ BEGIN
+  ACTION_FOR_EACH tool IN ~tis2bg2~ BEGIN
     OUTER_SPRINT bin EVAL ~%%tool%%~
     AT_NOW ~(! which %bin% 2>&1 >/dev/null) && echo 1>bgt/test-x.err~ //this will create a test-x.err file if the commands don't work
     ACTION_IF FILE_EXISTS ~bgt/test-x.err~ BEGIN
       AT_NOW ~rm -f bgt/test-x.err%debug%~
       LAM bash_log
-      FAIL ~Unable to execute %tool%.%LNL%Please put tis2bg2, tisunpack and mosunpack into your system path and%LNL%install again with "system-path" argument.~
+      FAIL ~Unable to execute %tool%.%LNL%Please put tis2bg2 into your system path and%LNL%install again with "system-path" argument.~
     END
   END
 END
@@ -468,18 +466,6 @@ OUTER_WHILE (%valid_dir% = 0) BEGIN
   END
 END
 
-//B (biff all) or O (biff some)
-ACTION_IF (~%argv[0]%~ STRING_CONTAINS_REGEXP ~[BbOo]~ = 0) BEGIN
-  OUTER_SET biff = NOT (~%argv[0]%~ STRING_CONTAINS_REGEXP ~[Bb]~)
-END ELSE BEGIN
-  OUTER_SPRINT biff_prompt ~a~
-  OUTER_WHILE (~%biff_prompt%~ STRING_MATCHES_REGEXP ~[YyNn]~) BEGIN
-    PRINT @100043 //Do you want to biff all new resources? (recommended, except for mega-modification installations)\n[Y]es or [N]o
-    ACTION_READLN ~biff_prompt~
-  END
-  OUTER_SET biff = (~%biff_prompt%~ STRING_EQUAL_CASE ~y~)
-END
-
 ACTION_IF "%WEIDU_OS%" STRING_EQUAL_CASE ~win32~ BEGIN //not Linux or Mac
   AT_NOW ~ren "%bg1_dir%%slash%baldur.ini" baldur.bgt %debug%~ EXACT
   LAM bash_log
@@ -608,7 +594,6 @@ END ELSE BEGIN
     COPY_LARGE + ~dialogf.tlk~ ~bgt/dialog.bak/dialogf.tlk~
   END
 END
-
 
 ///////////////////////////////////////////////////////
 // journal, sound, and [] update of bg1.tra
@@ -1317,20 +1302,6 @@ COPY_EXISTING ~xnewarea.2da~ ~override/xnewarea.2da~
     END
   END
 
-//using inlined files reduces disk access, which is very time demanding
-COPY_EXISTING - ~spawngrp.2da~ ~inlined/spawngrp.2da~
-  old_size = %SOURCE_SIZE%
-
-INCLUDE ~bgt/include/patch_spawn.tpa~ //some 800 lines of code
-
-COPY - ~inlined/spawngrp.2da~ ~inlined/spawngrp.2da~
-  PATCH_IF %SOURCE_SIZE% != %old_size% BEGIN //something has been appended; write on disk
-    INNER_ACTION BEGIN
-      COPY ~inlined/spawngrp.2da~ ~override~
-      PRETTY_PRINT_2DA
-    END
-  END
-
 APPEND ~strtgold.2da~
   ~CLERIC_RANGER           4       5       0           10
 SORCERER                4       1       1           10
@@ -1340,72 +1311,41 @@ COPY_EXISTING ~action.ids~ ~override/action.ids~
   REPLACE_TEXTUALLY ~AddJournalEntry(I:Entry~  ~AddJournalEntry(I:StrRef~
 BUT_ONLY_IF_IT_CHANGES
 
-APPEND ~gtimes.ids~ ~6 ONE_ROUND~
-  UNLESS ~ONE_ROUND~
-APPEND ~gtimes.ids~ ~12 TWO_ROUNDS~
-  UNLESS ~TWO_ROUNDS~
-APPEND ~gtimes.ids~ ~18 THREE_ROUNDS~
-  UNLESS ~THREE_ROUNDS~
-APPEND ~gtimes.ids~ ~24 FOUR_ROUNDS~
-  UNLESS ~FOUR_ROUNDS~
-APPEND ~gtimes.ids~ ~30 FIVE_ROUNDS~
-  UNLESS ~FIVE_ROUNDS~
-APPEND ~gtimes.ids~ ~36 SIX_ROUNDS~
-  UNLESS ~SIX_ROUNDS~
-APPEND ~gtimes.ids~ ~42 SEVEN_ROUNDS~
-  UNLESS ~SEVEN_ROUNDS~
-APPEND ~gtimes.ids~ ~48 EIGHT_ROUNDS~
-  UNLESS ~EIGHT_ROUNDS~
-APPEND ~gtimes.ids~ ~54 NINE_ROUNDS~
-  UNLESS ~NINE_ROUNDS~
-APPEND ~gtimes.ids~ ~60 TEN_ROUNDS~
-  UNLESS ~TEN_ROUNDS~
-APPEND ~gtimes.ids~ ~60 ONE_TURN~
-  UNLESS ~ONE_TURN~
-APPEND ~gtimes.ids~ ~120 TWO_TURNS~
-  UNLESS ~TWO_TURNS~
-APPEND ~gtimes.ids~ ~180 THREE_TURNS~
-  UNLESS ~THREE_TURNS~
-APPEND ~gtimes.ids~ ~240 FOUR_TURNS~
-  UNLESS ~FOUR_TURNS~
-APPEND ~gtimes.ids~ ~300 FIVE_TURNS~
-  UNLESS ~FIVE_TURNS~
-APPEND ~gtimes.ids~ ~300 ONE_HOUR~
-  UNLESS ~ONE_HOUR~
-APPEND ~gtimes.ids~ ~360 SIX_TURNS~
-  UNLESS ~SIX_TURNS~
-APPEND ~gtimes.ids~ ~420 SEVEN_TURNS~
-  UNLESS ~SEVEN_TURNS~
-APPEND ~gtimes.ids~ ~480 EIGHT_TURNS~
-  UNLESS ~EIGHT_TURNS~
-APPEND ~gtimes.ids~ ~540 NINE_TURNS~
-  UNLESS ~NINE_TURNS~
-APPEND ~gtimes.ids~ ~600 TEN_TURNS~
-  UNLESS ~TEN_TURNS~
-APPEND ~gtimes.ids~ ~600 TWO_HOURS~
-  UNLESS ~TWO_HOURS~
-APPEND ~gtimes.ids~ ~900 FIFTEEN_TURNS~
-  UNLESS ~FIFTEEN_TURNS~
-APPEND ~gtimes.ids~ ~900 THREE_HOURS~
-  UNLESS ~THREE_HOURS~
-APPEND ~gtimes.ids~ ~1200 FOUR_HOURS~
-  UNLESS ~FOUR_HOURS~
-APPEND ~gtimes.ids~ ~1500 FIVE_HOURS~
-  UNLESS ~FIVE_HOURS~
-APPEND ~gtimes.ids~ ~1800 SIX_HOURS~
-  UNLESS ~SIX_HOURS~
-APPEND ~gtimes.ids~ ~2100 SEVEN_HOURS~
-  UNLESS ~SEVEN_HOURS~
-APPEND ~gtimes.ids~ ~2400 EIGHT_HOURS~
-  UNLESS ~EIGHT_HOURS~
-APPEND ~gtimes.ids~ ~2700 NINE_HOURS~
-  UNLESS ~NINE_HOURS~
-APPEND ~gtimes.ids~ ~3000 TEN_HOURS~
-  UNLESS ~TEN_HOURS~
-APPEND ~gtimes.ids~ ~3300 ELEVEN_HOURS~
-  UNLESS ~ELEVEN_HOURS~
-APPEND ~gtimes.ids~ ~3600 TWELVE_HOURS~
-  UNLESS ~TWELVE_HOURS~
+COPY ~script compiler/gtimes.ids~ ~script compiler~ IF_EXISTS // prevent uninstall error
+
+APPEND ~gtimes.ids~ ~6 ONE_ROUND~       UNLESS ~ONE_ROUND~
+APPEND ~gtimes.ids~ ~12 TWO_ROUNDS~     UNLESS ~TWO_ROUNDS~
+APPEND ~gtimes.ids~ ~18 THREE_ROUNDS~   UNLESS ~THREE_ROUNDS~
+APPEND ~gtimes.ids~ ~24 FOUR_ROUNDS~    UNLESS ~FOUR_ROUNDS~
+APPEND ~gtimes.ids~ ~30 FIVE_ROUNDS~    UNLESS ~FIVE_ROUNDS~
+APPEND ~gtimes.ids~ ~36 SIX_ROUNDS~     UNLESS ~SIX_ROUNDS~
+APPEND ~gtimes.ids~ ~42 SEVEN_ROUNDS~   UNLESS ~SEVEN_ROUNDS~
+APPEND ~gtimes.ids~ ~48 EIGHT_ROUNDS~   UNLESS ~EIGHT_ROUNDS~
+APPEND ~gtimes.ids~ ~54 NINE_ROUNDS~    UNLESS ~NINE_ROUNDS~
+APPEND ~gtimes.ids~ ~60 TEN_ROUNDS~     UNLESS ~TEN_ROUNDS~
+APPEND ~gtimes.ids~ ~60 ONE_TURN~       UNLESS ~ONE_TURN~
+APPEND ~gtimes.ids~ ~120 TWO_TURNS~     UNLESS ~TWO_TURNS~
+APPEND ~gtimes.ids~ ~180 THREE_TURNS~   UNLESS ~THREE_TURNS~
+APPEND ~gtimes.ids~ ~240 FOUR_TURNS~    UNLESS ~FOUR_TURNS~
+APPEND ~gtimes.ids~ ~300 FIVE_TURNS~    UNLESS ~FIVE_TURNS~
+APPEND ~gtimes.ids~ ~300 ONE_HOUR~      UNLESS ~ONE_HOUR~
+APPEND ~gtimes.ids~ ~360 SIX_TURNS~     UNLESS ~SIX_TURNS~
+APPEND ~gtimes.ids~ ~420 SEVEN_TURNS~   UNLESS ~SEVEN_TURNS~
+APPEND ~gtimes.ids~ ~480 EIGHT_TURNS~   UNLESS ~EIGHT_TURNS~
+APPEND ~gtimes.ids~ ~540 NINE_TURNS~    UNLESS ~NINE_TURNS~
+APPEND ~gtimes.ids~ ~600 TEN_TURNS~     UNLESS ~TEN_TURNS~
+APPEND ~gtimes.ids~ ~600 TWO_HOURS~     UNLESS ~TWO_HOURS~
+APPEND ~gtimes.ids~ ~900 FIFTEEN_TURNS~ UNLESS ~FIFTEEN_TURNS~
+APPEND ~gtimes.ids~ ~900 THREE_HOURS~   UNLESS ~THREE_HOURS~
+APPEND ~gtimes.ids~ ~1200 FOUR_HOURS~   UNLESS ~FOUR_HOURS~
+APPEND ~gtimes.ids~ ~1500 FIVE_HOURS~   UNLESS ~FIVE_HOURS~
+APPEND ~gtimes.ids~ ~1800 SIX_HOURS~    UNLESS ~SIX_HOURS~
+APPEND ~gtimes.ids~ ~2100 SEVEN_HOURS~  UNLESS ~SEVEN_HOURS~
+APPEND ~gtimes.ids~ ~2400 EIGHT_HOURS~  UNLESS ~EIGHT_HOURS~
+APPEND ~gtimes.ids~ ~2700 NINE_HOURS~   UNLESS ~NINE_HOURS~
+APPEND ~gtimes.ids~ ~3000 TEN_HOURS~    UNLESS ~TEN_HOURS~
+APPEND ~gtimes.ids~ ~3300 ELEVEN_HOURS~ UNLESS ~ELEVEN_HOURS~
+APPEND ~gtimes.ids~ ~3600 TWELVE_HOURS~ UNLESS ~TWELVE_HOURS~
 
 ACTION_IF FILE_EXISTS ~script compiler/aicompile.exe~ THEN BEGIN
   COPY_EXISTING ~gtimes.ids~ ~script compiler~
@@ -1640,7 +1580,6 @@ COPY ~bgt/modify/are/ar8600.are~ ~override/ar8600.are~ // Cloakwood Mines Exteri
   ADD_MAP_NOTE #1904 #1554 ~blue~ @16995
 
 COPY ~bgt/modify/are/ar8601.are~ ~override/ar8601.are~ // Cloakwood Mines Lvl 1
-  SAY 0x2728 @600005
   ADD_MAP_NOTE #1975 #71   ~orange~ @600032
   ADD_MAP_NOTE #341  #133  ~gray~   @600033
   ADD_MAP_NOTE #1406 #1563 ~gray~   @600021
@@ -2534,7 +2473,8 @@ COPY_EXISTING ~bedwin.dlg~ ~bgt/compat/bg1npc/bedwin.dlg~
     COPY ~bgt/compat/bg1npc/fluidstates.tpa~ ~bgt/compat/bg1npc/fluidstates.tpa~
       REPLACE_TEXTUALLY ~\(BGT%BG1NPC_dlg_name%State0 = \)0~ ~\1%BG1NPC_num_states%~
   END
-  
+BUT_ONLY IF_EXISTS
+
 // Compatibility with NeJ2
 ACTION_IF FILE_EXISTS_IN_GAME ~eyebite.itm~ THEN BEGIN
   COPY_EXISTING ~xan.dlg~ ~bgt/compat/bg1npc/xan.dlg~
@@ -6708,7 +6648,7 @@ COPY ~bgt/modify/2da/bgintro.2da~ ~override/bgintro.2da~
   REPLACE ~*4~ @700023
   REPLACE ~*5~ @700024
 
-  PATCH_IF ("%LANGUAGE%" STRING_EQUAL_CASE ~castilian~) BEGIN
+  PATCH_IF ("%LANGUAGE%" STRING_EQUAL_CASE ~spanish~) BEGIN
     SET_2DA_ENTRY 0 1 3 ~30~
     SET_2DA_ENTRY 1 1 3 ~229~
     SET_2DA_ENTRY 2 1 3 ~433~
@@ -6998,6 +6938,51 @@ COPY_EXISTING ~ar6700.are~ ~override~
   READ_LONG 0xbc sng_off
   WRITE_ASCII (sng_off + 0x28) ~amb_m14~ #8 // main day ambient 1
   WRITE_ASCII (sng_off + 0x30) ~amb_m14~ #8 // main day ambient 2
+BUT_ONLY
+
+// set Davaeorn's Glyph of Warding trap to detectable
+COPY_EXISTING ~ar8603.are~ ~override~ // Cloakwood Mines lvl 4
+  LPF ALTER_AREA_REGION INT_VAR flag_trap_detectable = 1 STR_VAR region_name = ~trap 4~ END
+BUT_ONLY
+
+// set trapped containers to undetected
+COPY_EXISTING ~ar6736.are~ ~override~ // Beregost house
+              ~ard000.are~ ~override~ // Durlag's Tower
+              ~ard011.are~ ~override~ // Durlag's Tower lvl 1
+              ~ard012.are~ ~override~ // Durlag's Tower lvl 2
+              ~ard013.are~ ~override~ // Durlag's Tower lvl 3
+              ~ard014.are~ ~override~ // Durlag's Tower lvl 4
+              ~arw501.are~ ~override~ // Balduran's ship lvl 1
+              ~arw502.are~ ~override~ // Balduran's ship lvl 2
+              ~arw503.are~ ~override~ // Balduran's ship lvl 3
+              ~arw504.are~ ~override~ // Balduran's ship lvl 4
+  READ_LONG  0x70 con_off
+  READ_SHORT 0x74 con_cnt
+  FOR (i = 0; i < con_cnt; i += 1) BEGIN
+    READ_SHORT (con_off + 0xc0*i + 0x30) trapped
+    READ_SHORT (con_off + 0xc0*i + 0x32) detected
+    PATCH_IF (trapped == 1) && (detected == 1) BEGIN
+      WRITE_SHORT (con_off + 0xc0*i + 0x32) 0 // undetected
+    END
+  END
+BUT_ONLY
+
+// set trapped regions to undetected
+COPY_EXISTING ~ard012.are~ ~override~ // Durlag's Tower lvl 2
+  READ_SHORT 0x5a reg_cnt
+  READ_LONG  0x5c reg_off
+  FOR (i = 0; i < reg_cnt; i += 1) BEGIN
+    READ_SHORT (reg_off + 0xc4*i + 0x6c) trapped
+    READ_SHORT (reg_off + 0xc4*i + 0x6e) detected
+    PATCH_IF (trapped == 1) && (detected == 1) BEGIN
+      WRITE_SHORT (reg_off + 0xc4*i + 0x6e) 0 // undetected
+    END
+  END
+BUT_ONLY
+
+// change entrance orientation
+COPY_EXISTING ~ar7500.are~ ~override~ // farmlands
+  LPF ALTER_AREA_ENTRANCE INT_VAR orient = 8 STR_VAR entrance_name = ~exit7900~ END // S to N
 BUT_ONLY
 
 ////////////////////////////////////////////////////////
@@ -7638,10 +7623,30 @@ BUT_ONLY
 STRING_SET ~12874~ @12874 //"Oberan" -> "Oberon"
 STRING_SET ~12850~ @12850 //"Oberan" -> "Oberon"
 
+// make corpses permanent
+COPY_EXISTING ~catdead.cre~  ~override~
+              ~corpse1.cre~  ~override~
+              ~corpse2.cre~  ~override~
+              ~dead.cre~     ~override~
+              ~dead1.cre~    ~override~
+              ~dead2.cre~    ~override~
+              ~deadfuck.cre~ ~override~
+              ~halfmiri.cre~ ~override~
+              ~skelded.cre~  ~override~
+  WRITE_BYTE 0x10 (THIS | BIT2)
+BUT_ONLY
+
 //////////////////////////////////////////////////////////////////
 //Dialogue
 //////////////////////////////////////////////////////////////////
-//hardcoded
+
+COMPILE ~bgt/fixpack/alestor.d~ // add chapter check to info about mines
+        ~bgt/fixpack/rcoran.d~ // stop Coran from introducing himself again when refused
+        ~bgt/fixpack/rdushai.d~ // make Dushai see party has already been to island; add missing gold checks
+        ~bgt/fixpack/remerso.d~ // restore Emerson's unused lines
+        ~bgt/fixpack/rkirinhal.d~ // make Kirinhale recognize speaker's gender
+        ~bgt/fixpack/rshoal.d~ // play nered07.wav when Shoal kisses
+        ~bgt/fixpack/rzeke.d~ // make zeke see Branwen is no longer petrified
 
 //////////////////////////////////////////////////////////////////
 //Effects
@@ -7663,6 +7668,10 @@ COPY_EXISTING ~book07.itm~ ~override/book07.itm~
               ~book08.itm~ ~override/book08.itm~
  WRITE_SHORT 0x1c 0x0000
 
+COPY_EXISTING ~book68.itm~ ~override~ // History of the Nether Scrolls
+  WRITE_ASCII 0x3a ~ibook68~ #8 // inventory icon
+BUT_ONLY
+
 COPY_EXISTING ~brac06.itm~ ~override/brac06.itm~
  READ_LONG  0x1e "unus"
  WRITE_LONG 0x1e ("%unus%" BAND 0xffffffbf)  //resetting unusable flag for bards
@@ -7675,12 +7684,82 @@ COPY_EXISTING ~dagg09.itm~ ~override/dagg09.itm~
 COPY_EXISTING ~ishld02.itm~ ~override/ishld02.itm~
  WRITE_SHORT 0x42 0 //Lore to identify
 
-COPY_EXISTING ~misc1b.itm~ ~override/misc1b.itm~
- WRITE_ASCII 0x58 ~CMISC1B~ #8 // Carried icon
+COPY_EXISTING ~misc02.itm~ ~override~ // Mirror
+  WRITE_ASCII 0x3a ~imiscag~ #8 // inventory icon
+  WRITE_ASCII 0x44 ~gsack01~ #8 // ground icon
+  WRITE_LONG  DESC 920 // description
+BUT_ONLY
 
-COPY_EXISTING ~misc70.itm~ ~override/misc70.itm~
- SAY 0x8 @200000
- SAY 0xc @200000
+COPY_EXISTING ~misc04.itm~ ~override~ // Bassilus' Holy Symbol
+  WRITE_ASCII 0x44 ~gmisc85~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~misc13.itm~ ~override~ // Samuel
+  WRITE_ASCII 0x44 ~gmisc13~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~misc1b.itm~ ~override~ // Butter Knife of Balduran
+  WRITE_ASCII 0x44 ~gdagg01~ #8 // ground icon
+  WRITE_ASCII 0x58 ~cmisc1b~ #8 // description image
+BUT_ONLY
+
+COPY_EXISTING ~misc1h.itm~ ~override~ // Gong Mallet
+  WRITE_ASCII 0x44 ~gblun06~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~misc62.itm~ ~override~ // Dead Cat
+  WRITE_ASCII 0x44 ~gmisc62~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~misc65.itm~ ~override~ // Brage's Body
+  WRITE_ASCII 0x3a ~imisc65~ #8 // inventory icon
+  WRITE_ASCII 0x44 ~gmisc65~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~misc67.itm~ ~override~ // Brun's Dead Son
+  WRITE_ASCII 0x3a ~imisc66~ #8 // inventory icon
+  WRITE_ASCII 0x44 ~gmisc66~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~misc68.itm~ ~override~ // Abela the Nymph
+  WRITE_ASCII 0x3a ~imisc68~ #8 // inventory icon
+  WRITE_ASCII 0x44 ~gmisc68~ #8 // ground icon
+  WRITE_ASCII 0x58 ~cmisc79~ #8 // description image
+BUT_ONLY
+
+COPY_EXISTING ~misc70.itm~ ~override~ // Ithmeera's Statue
+  SAY NAME1 @200000 // identified name
+  SAY NAME2 @200000 // unidentified name
+  WRITE_ASCII 0x3a ~imisc70~ #8 // inventory icon
+BUT_ONLY
+
+COPY_EXISTING ~misc71.itm~ ~override~ // Delorna's Spellbook
+  WRITE_ASCII 0x3a ~imisc71~ #8 // inventory icon
+BUT_ONLY
+
+COPY_EXISTING ~misc75.itm~ ~override~ // Dagger of Venom
+  WRITE_ASCII 0x3a ~imisc75~ #8 // inventory icon
+BUT_ONLY
+
+COPY_EXISTING ~misc92.itm~ ~override~ // Switch for an Engine
+  WRITE_ASCII 0x44 ~gmisc92~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~misc94.itm~ ~override~ // Mallet Head
+  WRITE_ASCII 0x44 ~gmisc94~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~misc95.itm~ ~override~ // Mallet Handle
+  WRITE_ASCII 0x44 ~gmisc95~ #8 // ground icon
+BUT_ONLY
+
+COPY_EXISTING ~potn47.itm~ ~override~ // Marek's Potion of Antidote
+  WRITE_ASCII 0x3a ~ipotn47~ #8 // inventory icon
+BUT_ONLY
+
+COPY_EXISTING ~potn48.itm~ ~override~ // Vial of Mysterious Liquid
+  WRITE_ASCII 0x3a ~ipotn48~ #8 // inventory icon
+BUT_ONLY
 
 COPY_EXISTING ~scrl3f.itm~ ~override/scrl3f.itm~
   WRITE_SHORT 0x1c 37 //correct Item type: Books (was Scrolls)
@@ -7716,6 +7795,24 @@ COPY_EXISTING ~amnisna.bcs~ ~override/amnisna.bcs~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~ReputationLT(LastSeenBy(Myself),5)~ ~ReputationLT(Player1,5)~
   COMPILE_BAF_TO_BCS
+
+// don't activate/deactivate Alora twice
+COPY_EXISTING ~ar7230.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~TimeGT(19)[%newline%]*Exists("Alora")~
+      ~TimeGT(19)
+      Exists("Alora")
+      !IsActive("Alora")~
+    REPLACE_TEXTUALLY ~TimeLT(5)[%newline%]*Exists("Alora")~
+     ~TimeLT(5)
+      Exists("Alora")
+      !IsActive("Alora")~
+    REPLACE_TEXTUALLY ~TimeLT(20)[%newline%]*Exists("Alora")~
+     ~TimeLT(20)
+      Exists("Alora")
+      IsActive("Alora")~
+  END
+BUT_ONLY
 
 <<<<<<<<bgt/ch6end.baf
 >>>>>>>>
@@ -7812,6 +7909,13 @@ THEN~
 
 COPY_EXISTING ~fgolem.bcs~ ~override/fgolem.bcs~
   REPLACE_BCS_BLOCK ~bgt/fixpack/rfgolem.baf~ ~bgt/fixpack/xfgolem.baf~
+
+// stop NPCs with follow script pushing player
+COPY_EXISTING ~follow.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~MoveToObject(Player1)~ ~FollowObjectFormation(Player1,8,1)~
+  END
+BUT_ONLY
 
 COPY_EXISTING ~gtwerewo.bcs~ ~override/gtwerewo.bcs~
   DECOMPILE_BCS_TO_BAF
@@ -8337,21 +8441,34 @@ COPY ~override/wolfwegr.cre~ ~override/bgwowegr.cre~
 COPY_EXISTING ~spwi946.spl~ ~override/spwi946.spl~
   REPLACE_TEXTUALLY ~WOLFWEGR~ ~BGWOWEGR~
 
-////////////////////////////////////////////////////////
-//Sounds
-////////////////////////////////////////////////////////
+// make Arkanis and Deder follow only after dialogue
+COPY_EXISTING ~arkani3.cre~ ~override~
+              ~deder3.cre~  ~override~
+  WRITE_ASCII 0x268 ~~ #8 // remove follow script
+BUT_ONLY
 
-// Fix Cadderly's dying sound
-COPY ~bgt/fixpack/cader09.wav~ ~override~
+COMPILE ~bgt/fixpack/rarkani3.d~ // restore follow script after dialogue
 
-// Amplify Tranzig's voice
-ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) ||
-          (~%LANGUAGE%~ STR_EQ ~international~) BEGIN
-  COPY ~bgt/fixpack/tranz01.wav~ ~override~
-       ~bgt/fixpack/tranz02.wav~ ~override~
-       ~bgt/fixpack/tranz03.wav~ ~override~
-       ~bgt/fixpack/tranz04.wav~ ~override~
-END
+// restore Gerde and Fenten angry states
+COPY_EXISTING ~ar8300.are~ ~override~ // fishing village
+  READ_LONG 0x60 spw_off
+  READ_LONG 0x64 spw_cnt
+  FOR (i = 0; i < spw_cnt; i += 1) BEGIN
+    READ_SHORT (spw_off + 0xc8*i + 0x74) cre_cnt
+    FOR (j = 0; j < cre_cnt; j += 1) BEGIN
+      READ_ASCII ((spw_off + 0xc8*i) + (0x8*j + 0x24)) cre
+      // change random spawns to ankhegs counting towards Gerde's quota
+      PATCH_IF (~%cre%~ STR_EQ ~ankheg~) BEGIN
+        WRITE_ASCII ((spw_off + 0xc8*i) + (0x8*j + 0x24)) ~ankhegg~ #8
+      END
+    END
+  END
+BUT_ONLY
+
+EXTEND_TOP ~ar8300.bcs~ ~bgt/fixpack/aar8300.baf~
+
+COMPILE ~bgt/fixpack/rgerde.d~
+        ~bgt/fixpack/rfenten.d~
 
 ///////////////////////////////////////////////////////
 // GUI Switcher v2.0
@@ -8367,36 +8484,24 @@ AUTHOR ~King Diamond~ //non-windows version by Turambar.~
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Castellano (Castilian/Spanish)~
-         ~castilian~
-         ~bgt/language/castilian/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Francais (French)~
-         ~french~
-         ~bgt/language/french/prompts.tra~
-LANGUAGE ~Deutsch (German)~
-         ~german~
-         ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italiano (Italian)~
-         ~italian~
-         ~bgt/language/italian/prompts.tra~
-LANGUAGE ~ÇÑ±¹¾î (Korean)~
-         ~korean~
-         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Polski (Polish)~
-         ~polish~
-         ~bgt/language/polish/prompts.tra~
-LANGUAGE ~ãááª¨© (Russian)~
-         ~russian~
-         ~bgt/language/russian/prompts.tra~
-LANGUAGE ~¼òÌåÖÐÎÄ (Chinese - Simplified)~
-         ~schinese~
-         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE %ÁcÅé¤¤¤å (Chinese - Traditional)%
-         ~tchinese~
-         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~¬eçka (Czech)~
+LANGUAGE ~cestina~
          ~czech~
          ~bgt/language/czech/prompts.tra~
+LANGUAGE ~francais~
+         ~french~
+         ~bgt/language/french/prompts.tra~
+LANGUAGE ~Deutsch~
+         ~german~
+         ~bgt/language/german/prompts.tra~
+LANGUAGE ~italiano~
+         ~italian~
+         ~bgt/language/italian/prompts.tra~
+LANGUAGE ~polski~
+         ~polish~
+         ~bgt/language/polish/prompts.tra~
+LANGUAGE ~espanol~
+         ~spanish~
+         ~bgt/language/spanish/prompts.tra~
 >>>>>>>>
 
 <<<<<<<<bgt/gui_mods.2da
@@ -8457,7 +8562,7 @@ END
 //this block goes outside the IF because it must also solve problems of GUIs already installed but for Windows only.
 ACTION_MATCH ~%WEIDU_OS%~ WITH
   ~win32~ BEGIN
-    LAF copy_missing STR_VAR origin=~Setup-BGT.exe~ destination=~setup-gui.exe~ END
+    LAF copy_missing STR_VAR origin=~setup-bgt.exe~ destination=~setup-gui.exe~ END
   END
   ~unix~ BEGIN //if the user is using setup-bgt, create a similar file for the GUI installer
     ACTION_IF FILE_EXISTS ~setup-bgt~ BEGIN
@@ -8465,8 +8570,12 @@ ACTION_MATCH ~%WEIDU_OS%~ WITH
     END
   END
   ~osx~ BEGIN
-    ACTION_IF FILE_EXISTS ~setup-bgt.command~ BEGIN
-      LAF copy_missing STR_VAR origin=~setup-bgt.command~ destination=~Setup-GUI.command~ END
+    ACTION_IF FILE_EXISTS ~setup-bgt~ BEGIN
+      LAF copy_missing STR_VAR origin=~setup-bgt~ destination=~setup-gui~ END
+    END
+    ACTION_IF (FILE_EXISTS ~setup-bgt.command~) && (!FILE_EXISTS ~setup-gui.command~) BEGIN
+      COPY ~setup-bgt.command~ ~setup-gui.command~
+        REPLACE_TEXTUALLY ~setup-bgt~ ~setup-gui~
     END
   END
 DEFAULT //should never trigger
@@ -8504,36 +8613,24 @@ END~~~~~
 LANGUAGE ~English~
          ~english~
          ~bgt/language/english/prompts.tra~
-LANGUAGE ~Castellano (Castilian/Spanish)~
-         ~castilian~
-         ~bgt/language/castilian/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Francais (French)~
+LANGUAGE ~cestina~
+         ~czech~
+         ~bgt/language/czech/prompts.tra~
+LANGUAGE ~francais~
          ~french~
          ~bgt/language/french/prompts.tra~
-LANGUAGE ~Deutsch (German)~
+LANGUAGE ~Deutsch~
          ~german~
          ~bgt/language/german/prompts.tra~
-LANGUAGE ~Italiano (Italian)~
+LANGUAGE ~italiano~
          ~italian~
          ~bgt/language/italian/prompts.tra~
-LANGUAGE ~ÇÑ±¹¾î (Korean)~
-         ~korean~
-         ~bgt/language/korean/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~Polski (Polish)~
+LANGUAGE ~polski~
          ~polish~
          ~bgt/language/polish/prompts.tra~
-LANGUAGE ~ãááª¨© (Russian)~
-         ~russian~
-         ~bgt/language/russian/prompts.tra~
-LANGUAGE ~¼òÌåÖÐÎÄ (Chinese - Simplified)~
-         ~schinese~
-         ~bgt/language/schinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE %ÁcÅé¤¤¤å (Chinese - Traditional)%
-         ~tchinese~
-         ~bgt/language/tchinese/prompts-%WEIDU_OS%.tra~
-LANGUAGE ~¬eçka (Czech)~
-         ~czech~
-         ~bgt/language/czech/prompts.tra~"
+LANGUAGE ~espanol~
+         ~spanish~
+         ~bgt/language/spanish/prompts.tra~"
       UNLESS ~LANGUAGE~
 
     OUTER_SET active_gui=0
@@ -8572,25 +8669,6 @@ COPY ~bgt/bgt_menu/startold_alternate.mos~ ~gui_mods/%gui_slot_name%/startold.mo
 
 PRINT ~~
 PRINT @100033
-
-ACTION_MATCH ~%WEIDU_OS%~ WITH
-~win32~ BEGIN
-  COPY ~Setup-BGT.exe~ ~setup-bgtmusic.exe~
-END
-~unix~ BEGIN //if the user is using setup-bgt, create a similar file for the music installer
-  ACTION_IF FILE_EXISTS ~setup-bgt~ BEGIN
-    COPY ~setup-bgt~ ~setup-bgtmusic~
-  END
-END
-~osx~ BEGIN
-  ACTION_IF FILE_EXISTS ~setup-bgt.command~ BEGIN
-    COPY ~setup-bgt.command~ ~setup-bgtmusic~
-  END
-END
-DEFAULT
-END //MATCH
-
-COPY ~bgt/songlist/music.tp2~ ~setup-bgtmusic.tp2~
 
 ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ BEGIN
   AT_UNINSTALL ~bgt\install\win32\delsongs.bat~
@@ -9220,7 +9298,7 @@ ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~german~ AND
        ~%bg1_dir%/sounds/mann3l.wav~ ~sounds/bgmale3l.wav~
        ~%bg1_dir%/sounds/mann3m.wav~ ~sounds/bgmale3m.wav~
 END ELSE BEGIN
-ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~castilian~ AND
+ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~spanish~ AND
            FILE_EXISTS ~%bg1_dir%/sounds/hembra1a.wav~) THEN BEGIN
   COPY ~%bg1_dir%/sounds/hembra1a.wav~ ~sounds/bgfeml1a.wav~
        ~%bg1_dir%/sounds/hembra1b.wav~ ~sounds/bgfeml1b.wav~
@@ -9463,7 +9541,7 @@ ACTION_IF (FILE_EXISTS ~%bg1_dir%/sounds/female1a.wav~) THEN BEGIN
        ~%bg1_dir%/sounds/male3m.wav~ ~sounds/bgmale3m.wav~
 END //other
 END //polish
-END //castilian
+END //spanish
 END //german
 END //french
 
@@ -9586,7 +9664,7 @@ ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~german~ ) BEGIN //all except Germa
 END
 LAM bash_log
 
-ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~castilian~) OR
+ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~spanish~) OR
           (~%LANGUAGE%~ STRING_EQUAL_CASE ~french~) OR
           (~%LANGUAGE%~ STRING_EQUAL_CASE ~german~) THEN BEGIN
   //enable uninstall easily
@@ -9600,7 +9678,7 @@ ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~castilian~) OR
   MOVE + (~override~ ~ikeee_0[12356]\.wav~) ~bgtwav~
 END
 
-ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~castilian~) THEN BEGIN
+ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~spanish~) THEN BEGIN
   COPY + ~bgt/language/%LANGUAGE%/montr19.wav~ ~bgtwav/montr19.wav~
 END
 
@@ -9609,6 +9687,17 @@ ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~french~) OR
   COPY + ~bgt/language/%LANGUAGE%/montr19.wav~ ~bgtwav/montr19.wav~
          ~bgt/language/%LANGUAGE%/tscna01.wav~ ~bgtwav/tscna01.wav~
          ~bgt/language/%LANGUAGE%/tscna02.wav~ ~bgtwav/tscna02.wav~
+END
+
+// Fix Cadderly's dying sound
+COPY + ~bgt/fixpack/cader09.wav~ ~bgtwav~
+
+// Amplify Tranzig's voice
+ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
+  COPY + ~bgt/fixpack/tranz01.wav~ ~bgtwav~
+         ~bgt/fixpack/tranz02.wav~ ~bgtwav~
+         ~bgt/fixpack/tranz03.wav~ ~bgtwav~
+         ~bgt/fixpack/tranz04.wav~ ~bgtwav~
 END
 
 //rename some sounds
@@ -10027,12 +10116,9 @@ COPY ~bgt/tilesets/flame01.tis~ ~override/flame01.tis~
      ~bgt/tilesets/flame03.tis~ ~override/flame03.tis~
      ~bgt/tilesets/flame04.tis~ ~override/flame04.tis~
      ~bgt/tilesets/wtlava2.tis~ ~override/wtlava2.tis~
-     
+
 MKDIR ~areaam00~
 COPY + ~bgt/tilesets/areaam00~ ~areaam00~
-
-AT_NOW ~%tisunpack% -h -s -o areaam00%slash%aram00.tis bgt%slash%tilesets%slash%aram00.tiz %debug%~ EXACT
-LAM bash_log
 
 ///////////////////////////////////////////////////////
 // Miscellaneous Graphics: Import from BG1
@@ -10040,14 +10126,14 @@ LAM bash_log
 
 MKDIR ~bg1misc~
 
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%bpbgtmap.mos bgt%slash%base%slash%moz%slash%bpbgtmap.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-2.mos bgt%slash%base%slash%moz%slash%drmtxt-2.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-3.mos bgt%slash%base%slash%moz%slash%drmtxt-3.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-4.mos bgt%slash%base%slash%moz%slash%drmtxt-4.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-5.mos bgt%slash%base%slash%moz%slash%drmtxt-5.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-6.mos bgt%slash%base%slash%moz%slash%drmtxt-6.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%drmtxt-7.mos bgt%slash%base%slash%moz%slash%drmtxt-7.moz %debug%~ EXACT
-AT_NOW ~%mosunpack% -s -f -o bg1misc%slash%guichp0b.mos bgt%slash%base%slash%moz%slash%guichp0b.moz %debug%~ EXACT
+COPY ~bgt/base/mos/bpbgtmap.mos~ ~override~
+     ~bgt/base/mos/drmtxt-2.mos~ ~override~
+     ~bgt/base/mos/drmtxt-3.mos~ ~override~
+     ~bgt/base/mos/drmtxt-4.mos~ ~override~
+     ~bgt/base/mos/drmtxt-5.mos~ ~override~
+     ~bgt/base/mos/drmtxt-6.mos~ ~override~
+     ~bgt/base/mos/drmtxt-7.mos~ ~override~
+     ~bgt/base/mos/guichp0b.mos~ ~override~
 
 //Import tasloi and basilisk animations
 AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bg1misc --biff-get-rest mbasg.*~
@@ -10062,6 +10148,8 @@ LAM bash_log
 
 MOVE + ~bg1misc/isw2h07.bam~ ~bg1misc/bgisw2h7.bam~
        ~bg1misc/isw1h18.bam~ ~bg1misc/isw1hbal.bam~
+
+COPY ~bg1misc~ ~override~
 
 ///////////////////////////////////////////////////////
 // Biffing: Areas
@@ -10165,39 +10253,16 @@ PRINT @100041
 MAKE_BIFF ~bgtwav~ BEGIN ~bgtwav~ ~^.*$~ END
 MAKE_BIFF ~bg1movie~ BEGIN ~bg1movie~ ~^.*$~ END
 
-ACTION_IF biff THEN BEGIN
-  MKDIR ~bg1are~
-        ~bg1bcs~
-        ~bgtcre~
-        ~bg1dlg~
-        ~bg1itm~
-        ~bg1spl~
-        ~bg1sto~
-
-  INCLUDE ~bgt/include/biff_move.tpa~
-  MAKE_BIFF ~bg1are~ BEGIN ~bg1are~ ~^.*$~ END
-  MAKE_BIFF ~bg1bcs~ BEGIN ~bg1bcs~ ~^.*$~ END
-  MAKE_BIFF ~bgtcre~ BEGIN ~bgtcre~ ~^.*$~ END
-  MAKE_BIFF ~bg1dlg~ BEGIN ~bg1dlg~ ~^.*$~ END
-  MAKE_BIFF ~bg1itm~ BEGIN ~bg1itm~ ~^.*$~ END
-  MAKE_BIFF ~bg1spl~ BEGIN ~bg1spl~ ~^.*$~ END
-  MAKE_BIFF ~bg1sto~ BEGIN ~bg1sto~ ~^.*$~ END
-  MAKE_BIFF ~bg1misc~ BEGIN ~bg1misc~ ~^.*$~ END
-END ELSE BEGIN
-  //tiny bg1are.bif for backwards cross-compatibility with mega-mods
-  MKDIR ~bg1are~
-  MOVE + ~override/ar0015.are~ ~bg1are/ar0015.are~
-  MAKE_BIFF ~bg1are~ BEGIN ~bg1are~ ~^.*$~ END
-
-  COPY ~bg1misc~ ~override~ //mos and bam files
-END
+//tiny bg1are.bif for backwards cross-compatibility with mega-mods
+MKDIR ~bgt/biff/bg1are~
+COPY ~override/ar0015.are~ ~bgt/biff/bg1are/ar0015.are~
+MAKE_BIFF ~bg1are~ BEGIN ~bgt/biff/bg1are~ ~^.*$~ END
 
 ////////////////////////////////////////////////////////////
 // Final
 ////////////////////////////////////////////////////////////
 
 //Clean up directories at the end of the installation
-
 ACTION_IF "%WEIDU_OS%" STRING_EQUAL_CASE ~win32~ BEGIN
   AT_NOW ~bgt\install\win32\delend.bat %debug%~ EXACT
 END ELSE BEGIN
@@ -10205,11 +10270,1749 @@ END ELSE BEGIN
 END
 LAM bash_log
 
-ACTION_IF (~%argv[0]%~ STRING_CONTAINS_REGEXP ~[Ss]~) THEN BEGIN
-  ACTION_IF FILE_EXISTS ~bgt/help/[%LANGUAGE%]postinstall.htm~ BEGIN
-    AT_INTERACTIVE_EXIT ~VIEW bgt/help/[%LANGUAGE%]postinstall.htm~
-  END ELSE BEGIN
-    AT_INTERACTIVE_EXIT ~VIEW bgt/help/[english]postinstall.htm~
-  END
+////////////////////////////////////////////////////////////
+// Baldur's Gate Trilogy - Music
+////////////////////////////////////////////////////////////
+
+BEGIN @100018 LABEL ~A6-BGT-MusicBG1~
+SUBCOMPONENT @100020
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
+
+INCLUDE ~bgt/include/ts_song_compat.tpa~
+
+LAF TSSongCompat END
+COPY ~bgt/songlist/full/songlist.2da~  ~override/songlist.2da~
+
+OUTER_SET rows_cnt_bgt=0
+COPY - ~bgt/songlist/full/bgt_music.tbl~  ~bgt/songlist/full/bgt_music.tbl~
+  COUNT_2DA_ROWS 4 "rows_cnt_bgt"
+  FOR( cntg=0; cntg<"%rows_cnt_bgt%"; cntg=cntg+1 ) BEGIN
+    READ_2DA_ENTRY cntg  0 4 "bgt_table_file_name"
+    READ_2DA_ENTRY cntg  1 4 "bgt_day_song"
+    READ_2DA_ENTRY cntg  2 4 "bgt_night_song"
+    READ_2DA_ENTRY cntg  3 4 "bgt_battle_song"
+
+    SET fileExistsInGame = 0
+    INNER_PATCH_FILE "%bgt_table_file_name%" BEGIN  //thanx to devSin for this idea - from WeiDU forums
+      PATCH_IF (~%SOURCE_SIZE%~) BEGIN
+        SET fileExistsInGame = 1
+      END
+    END
+    PATCH_IF fileExistsInGame=1 THEN BEGIN
+      INNER_ACTION BEGIN
+        COPY_EXISTING "%bgt_table_file_name%"    ~override~  //patching the file from the current table entry
+          READ_LONG  0xbc  "bgt_song_offset"
+          WRITE_LONG ("%bgt_song_offset%")    "%bgt_day_song%"
+          WRITE_LONG ("%bgt_song_offset%")+4  "%bgt_night_song%"
+          WRITE_LONG ("%bgt_song_offset%")+12 "%bgt_battle_song%"
+         BUT_ONLY_IF_IT_CHANGES  //COPY_EXISTING
+      END //INNER_ACTION
+    END //PATCH_IF fileExistsInGame
+  END //.TBL loop
+
+/////////////////////////////////////////////////////////////////////////
+
+BEGIN @100019 LABEL ~A6-BGT-MusicHybrid~
+SUBCOMPONENT @100020
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
+
+INCLUDE ~bgt/include/ts_song_compat.tpa~
+
+LAF TSSongCompat END
+COPY ~bgt/songlist/hybrid/songlist.2da~  ~override/songlist.2da~
+     ~bgt/songlist/hybrid/musiclist.ids~  ~override/musiclist.ids~
+
+/////////////////////////////////////////////////////////////////////////
+
+BEGIN @100023 LABEL ~A6-BGT-MusicFull~
+SUBCOMPONENT @100020
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
+
+OUTER_PATCH_SAVE orig_bytes_1 ~~ BEGIN
+    INSERT_BYTES 0x000 0x42
+    WRITE_LONG   0x000 0x8bfc4588
+    WRITE_LONG   0x004 0xb773cc15
+    WRITE_LONG   0x008 0xfc828b00
+    WRITE_LONG   0x00c 0x89000004
+    WRITE_LONG   0x010 0x4d8aa845
+    WRITE_LONG   0x014 0xf44d88a8
+    WRITE_LONG   0x018 0xfc55be0f
+    WRITE_LONG   0x01c 0xf445be0f
+    WRITE_LONG   0x020 0x5174d03b
+    WRITE_LONG   0x024 0xc7a44d8b
+    WRITE_LONG   0x028 0x0008c681
+    WRITE_LONG   0x02c 0x00000000
+    WRITE_LONG   0x030 0xa4558b00
+    WRITE_LONG   0x034 0x08ca82c7
+    WRITE_LONG   0x038 0x00500000
+    WRITE_LONG   0x03c 0xbe0f0000
+    WRITE_SHORT  0x040 0xf445
 END
 
+OUTER_PATCH_SAVE patch_bytes_1 ~~ BEGIN
+    INSERT_BYTES 0x000 0x42
+    WRITE_LONG   0x000 0x8bfc4589
+    WRITE_LONG   0x004 0xb773cc15
+    WRITE_LONG   0x008 0xfc828b00
+    WRITE_LONG   0x00c 0x89000004
+    WRITE_LONG   0x010 0x4d8ba845
+    WRITE_LONG   0x014 0xf44d89a8
+    WRITE_LONG   0x018 0xfc55bf0f
+    WRITE_LONG   0x01c 0xf445bf0f
+    WRITE_LONG   0x020 0x5174d03b
+    WRITE_LONG   0x024 0xc7a44d8b
+    WRITE_LONG   0x028 0x0008c681
+    WRITE_LONG   0x02c 0x00000000
+    WRITE_LONG   0x030 0xa4558b00
+    WRITE_LONG   0x034 0x08ca82c7
+    WRITE_LONG   0x038 0x00500000
+    WRITE_LONG   0x03c 0xbf0f0000
+    WRITE_SHORT  0x040 0xf445
+END
+
+OUTER_PATCH_SAVE orig_bytes_2 ~~ BEGIN
+    INSERT_BYTES 0x000 0x611
+    WRITE_LONG   0x000 0xff64bd81
+    WRITE_LONG   0x004 0x0100ffff
+    WRITE_LONG   0x008 0x2a7f0000
+    WRITE_LONG   0x00c 0xff64bd81
+    WRITE_LONG   0x010 0x0100ffff
+    WRITE_LONG   0x014 0x840f0000
+    WRITE_LONG   0x018 0x000000c9
+    WRITE_LONG   0x01c 0xff64bd83
+    WRITE_LONG   0x020 0x0f09ffff
+    WRITE_LONG   0x024 0x0001aa87
+    WRITE_LONG   0x028 0x648d8b00
+    WRITE_LONG   0x02c 0xffffffff
+    WRITE_LONG   0x030 0x47068d24
+    WRITE_LONG   0x034 0x98e9004d
+    WRITE_LONG   0x038 0x8b000001
+    WRITE_LONG   0x03c 0xffff6895
+    WRITE_LONG   0x040 0x50428aff
+    WRITE_LONG   0x044 0xe9fc4588
+    WRITE_LONG   0x048 0x0000018b
+    WRITE_LONG   0x04c 0xff688d8b
+    WRITE_LONG   0x050 0x518affff
+    WRITE_LONG   0x054 0xfc558854
+    WRITE_LONG   0x058 0x00017ae9
+    WRITE_LONG   0x05c 0x68858b00
+    WRITE_LONG   0x060 0x8affffff
+    WRITE_LONG   0x064 0x4d885848
+    WRITE_LONG   0x068 0x0169e9fc
+    WRITE_LONG   0x06c 0x958b0000
+    WRITE_LONG   0x070 0xffffff68
+    WRITE_LONG   0x074 0x885c428a
+    WRITE_LONG   0x078 0x58e9fc45
+    WRITE_LONG   0x07c 0x8b000001
+    WRITE_LONG   0x080 0xffff688d
+    WRITE_LONG   0x084 0x60518aff
+    WRITE_LONG   0x088 0xe9fc5588
+    WRITE_LONG   0x08c 0x00000147
+    WRITE_LONG   0x090 0xff68858b
+    WRITE_LONG   0x094 0x488affff
+    WRITE_LONG   0x098 0xfc4d8864
+    WRITE_LONG   0x09c 0x000136e9
+    WRITE_LONG   0x0a0 0x68958b00
+    WRITE_LONG   0x0a4 0x8affffff
+    WRITE_LONG   0x0a8 0x45886842
+    WRITE_LONG   0x0ac 0x0125e9fc
+    WRITE_LONG   0x0b0 0x8d8b0000
+    WRITE_LONG   0x0b4 0xffffff68
+    WRITE_LONG   0x0b8 0x886c518a
+    WRITE_LONG   0x0bc 0x14e9fc55
+    WRITE_LONG   0x0c0 0x8b000001
+    WRITE_LONG   0x0c4 0xffff6885
+    WRITE_LONG   0x0c8 0x70488aff
+    WRITE_LONG   0x0cc 0xe9fc4d88
+    WRITE_LONG   0x0d0 0x00000103
+    WRITE_LONG   0x0d4 0xff68958b
+    WRITE_LONG   0x0d8 0x428affff
+    WRITE_LONG   0x0dc 0xfc458874
+    WRITE_LONG   0x0e0 0x0000f2e9
+    WRITE_LONG   0x0e4 0xcc0d8b00
+    WRITE_LONG   0x0e8 0x8b00b773
+    WRITE_LONG   0x0ec 0x0042ba91
+    WRITE_LONG   0x0f0 0xf8558900
+    WRITE_LONG   0x0f4 0x05f8458b
+    WRITE_LONG   0x0f8 0x00001dd0
+    WRITE_LONG   0x0fc 0x8bf44589
+    WRITE_LONG   0x100 0x018bf44d
+    WRITE_LONG   0x104 0x35f7d233
+    WRITE_LONG   0x108 0x00aaccd8
+    WRITE_LONG   0x10c 0xccec153b
+    WRITE_LONG   0x110 0x217200aa
+    WRITE_LONG   0x114 0x8bf4558b
+    WRITE_LONG   0x118 0xf7d23302
+    WRITE_LONG   0x11c 0xaaccd835
+    WRITE_LONG   0x120 0xf4153b00
+    WRITE_LONG   0x124 0x7300aacc
+    WRITE_LONG   0x128 0x6085c70c
+    WRITE_LONG   0x12c 0x01ffffff
+    WRITE_LONG   0x130 0xeb000000
+    WRITE_LONG   0x134 0x6085c70a
+    WRITE_LONG   0x138 0x00ffffff
+    WRITE_LONG   0x13c 0x8b000000
+    WRITE_LONG   0x140 0xffff6085
+    WRITE_LONG   0x144 0x00ff25ff
+    WRITE_LONG   0x148 0xc0850000
+    WRITE_LONG   0x14c 0x0d8b6975
+    WRITE_LONG   0x150 0x00b773cc
+    WRITE_LONG   0x154 0x42ba918b
+    WRITE_LONG   0x158 0x55890000
+    WRITE_LONG   0x15c 0xf0458bf0
+    WRITE_LONG   0x160 0x001dd005
+    WRITE_LONG   0x164 0xec458900
+    WRITE_LONG   0x168 0x8bec4d8b
+    WRITE_LONG   0x16c 0xf7d23301
+    WRITE_LONG   0x170 0xaaccd835
+    WRITE_LONG   0x174 0xf4153b00
+    WRITE_LONG   0x178 0x7200aacc
+    WRITE_LONG   0x17c 0xec558b21
+    WRITE_LONG   0x180 0xd233028b
+    WRITE_LONG   0x184 0xccd835f7
+    WRITE_LONG   0x188 0x153b00aa
+    WRITE_LONG   0x18c 0x00aaccfc
+    WRITE_LONG   0x190 0x85c70c73
+    WRITE_LONG   0x194 0xffffff5c
+    WRITE_LONG   0x198 0x00000001
+    WRITE_LONG   0x19c 0x85c70aeb
+    WRITE_LONG   0x1a0 0xffffff5c
+    WRITE_LONG   0x1a4 0x00000000
+    WRITE_LONG   0x1a8 0xff5c858b
+    WRITE_LONG   0x1ac 0xff25ffff
+    WRITE_LONG   0x1b0 0x85000000
+    WRITE_LONG   0x1b4 0x8b0e74c0
+    WRITE_LONG   0x1b8 0xffff688d
+    WRITE_LONG   0x1bc 0x50518aff
+    WRITE_LONG   0x1c0 0xebfc5588
+    WRITE_LONG   0x1c4 0x68858b0c
+    WRITE_LONG   0x1c8 0x8affffff
+    WRITE_LONG   0x1cc 0x4d885448
+    WRITE_LONG   0x1d0 0xc604ebfc
+    WRITE_LONG   0x1d4 0x0ffffc45
+    WRITE_LONG   0x1d8 0x83fc55be
+    WRITE_LONG   0x1dc 0x850ffefa
+    WRITE_LONG   0x1e0 0x000000ef
+    WRITE_LONG   0x1e4 0xb773cca1
+    WRITE_LONG   0x1e8 0xba888b00
+    WRITE_LONG   0x1ec 0x89000042
+    WRITE_LONG   0x1f0 0x558be84d
+    WRITE_LONG   0x1f4 0xd0c281e8
+    WRITE_LONG   0x1f8 0x8900001d
+    WRITE_LONG   0x1fc 0x458be455
+    WRITE_LONG   0x200 0x33008be4
+    WRITE_LONG   0x204 0xd835f7d2
+    WRITE_LONG   0x208 0x3b00aacc
+    WRITE_LONG   0x20c 0xaaccec15
+    WRITE_LONG   0x210 0x8b217200
+    WRITE_LONG   0x214 0x018be44d
+    WRITE_LONG   0x218 0x35f7d233
+    WRITE_LONG   0x21c 0x00aaccd8
+    WRITE_LONG   0x220 0xccf4153b
+    WRITE_LONG   0x224 0x0c7300aa
+    WRITE_LONG   0x228 0xff5885c7
+    WRITE_LONG   0x22c 0x0001ffff
+    WRITE_LONG   0x230 0x0aeb0000
+    WRITE_LONG   0x234 0xff5885c7
+    WRITE_LONG   0x238 0x0000ffff
+    WRITE_LONG   0x23c 0x958b0000
+    WRITE_LONG   0x240 0xffffff58
+    WRITE_LONG   0x244 0x00ffe281
+    WRITE_LONG   0x248 0xd2850000
+    WRITE_LONG   0x24c 0x858b0e74
+    WRITE_LONG   0x250 0xffffff68
+    WRITE_LONG   0x254 0x8850488a
+    WRITE_LONG   0x258 0x77ebfc4d
+    WRITE_LONG   0x25c 0x73cc158b
+    WRITE_LONG   0x260 0x828b00b7
+    WRITE_LONG   0x264 0x000042ba
+    WRITE_LONG   0x268 0x8be04589
+    WRITE_LONG   0x26c 0xc181e04d
+    WRITE_LONG   0x270 0x00001dd0
+    WRITE_LONG   0x274 0x8bdc4d89
+    WRITE_LONG   0x278 0x028bdc55
+    WRITE_LONG   0x27c 0x35f7d233
+    WRITE_LONG   0x280 0x00aaccd8
+    WRITE_LONG   0x284 0xccfc153b
+    WRITE_LONG   0x288 0x217300aa
+    WRITE_LONG   0x28c 0x8bdc458b
+    WRITE_LONG   0x290 0xf7d23300
+    WRITE_LONG   0x294 0xaaccd835
+    WRITE_LONG   0x298 0xe4153b00
+    WRITE_LONG   0x29c 0x7200aacc
+    WRITE_LONG   0x2a0 0x5485c70c
+    WRITE_LONG   0x2a4 0x00ffffff
+    WRITE_LONG   0x2a8 0xeb000000
+    WRITE_LONG   0x2ac 0x5485c70a
+    WRITE_LONG   0x2b0 0x01ffffff
+    WRITE_LONG   0x2b4 0x8b000000
+    WRITE_LONG   0x2b8 0xffff548d
+    WRITE_LONG   0x2bc 0xffe181ff
+    WRITE_LONG   0x2c0 0x85000000
+    WRITE_LONG   0x2c4 0x8b0c74c9
+    WRITE_LONG   0x2c8 0xffff6895
+    WRITE_LONG   0x2cc 0x54428aff
+    WRITE_LONG   0x2d0 0x0ffc4588
+    WRITE_LONG   0x2d4 0x83fc4dbe
+    WRITE_LONG   0x2d8 0x850ffff9
+    WRITE_LONG   0x2dc 0x00000322
+    WRITE_LONG   0x2e0 0x0855bf0f
+    WRITE_LONG   0x2e4 0xff509589
+    WRITE_LONG   0x2e8 0xbd81ffff
+    WRITE_LONG   0x2ec 0xffffff50
+    WRITE_LONG   0x2f0 0x00000100
+    WRITE_LONG   0x2f4 0xbd812a7f
+    WRITE_LONG   0x2f8 0xffffff50
+    WRITE_LONG   0x2fc 0x00000100
+    WRITE_LONG   0x300 0x01b9840f
+    WRITE_LONG   0x304 0xbd830000
+    WRITE_LONG   0x308 0xffffff50
+    WRITE_LONG   0x30c 0xeb870f09
+    WRITE_LONG   0x310 0x8b000002
+    WRITE_LONG   0x314 0xffff5085
+    WRITE_LONG   0x318 0x8524ffff
+    WRITE_LONG   0x31c 0x004d472e
+    WRITE_LONG   0x320 0x0002d9e9
+    WRITE_LONG   0x324 0xcc0d8b00
+    WRITE_LONG   0x328 0x8b00b773
+    WRITE_LONG   0x32c 0x0042ba91
+    WRITE_LONG   0x330 0xd8558900
+    WRITE_LONG   0x334 0x8bd8458b
+    WRITE_LONG   0x338 0x0038e688
+    WRITE_LONG   0x33c 0xd44d8900
+    WRITE_LONG   0x340 0x8ad4558b
+    WRITE_LONG   0x344 0x45885042
+    WRITE_LONG   0x348 0x02b4e9fc
+    WRITE_LONG   0x34c 0x0d8b0000
+    WRITE_LONG   0x350 0x00b773cc
+    WRITE_LONG   0x354 0x42ba918b
+    WRITE_LONG   0x358 0x55890000
+    WRITE_LONG   0x35c 0xd0458bd0
+    WRITE_LONG   0x360 0x38e6888b
+    WRITE_LONG   0x364 0x4d890000
+    WRITE_LONG   0x368 0xcc558bcc
+    WRITE_LONG   0x36c 0x8854428a
+    WRITE_LONG   0x370 0x8be9fc45
+    WRITE_LONG   0x374 0x8b000002
+    WRITE_LONG   0x378 0xb773cc0d
+    WRITE_LONG   0x37c 0xba918b00
+    WRITE_LONG   0x380 0x89000042
+    WRITE_LONG   0x384 0x458bc855
+    WRITE_LONG   0x388 0xe6888bc8
+    WRITE_LONG   0x38c 0x89000038
+    WRITE_LONG   0x390 0x558bc44d
+    WRITE_LONG   0x394 0x58428ac4
+    WRITE_LONG   0x398 0xe9fc4588
+    WRITE_LONG   0x39c 0x00000262
+    WRITE_LONG   0x3a0 0x73cc0d8b
+    WRITE_LONG   0x3a4 0x918b00b7
+    WRITE_LONG   0x3a8 0x000042ba
+    WRITE_LONG   0x3ac 0x8bc05589
+    WRITE_LONG   0x3b0 0x888bc045
+    WRITE_LONG   0x3b4 0x000038e6
+    WRITE_LONG   0x3b8 0x8bbc4d89
+    WRITE_LONG   0x3bc 0x428abc55
+    WRITE_LONG   0x3c0 0xfc45885c
+    WRITE_LONG   0x3c4 0x000239e9
+    WRITE_LONG   0x3c8 0xcc0d8b00
+    WRITE_LONG   0x3cc 0x8b00b773
+    WRITE_LONG   0x3d0 0x0042ba91
+    WRITE_LONG   0x3d4 0xb8558900
+    WRITE_LONG   0x3d8 0x8bb8458b
+    WRITE_LONG   0x3dc 0x0038e688
+    WRITE_LONG   0x3e0 0xb44d8900
+    WRITE_LONG   0x3e4 0x8ab4558b
+    WRITE_LONG   0x3e8 0x45886042
+    WRITE_LONG   0x3ec 0x0210e9fc
+    WRITE_LONG   0x3f0 0x0d8b0000
+    WRITE_LONG   0x3f4 0x00b773cc
+    WRITE_LONG   0x3f8 0x42ba918b
+    WRITE_LONG   0x3fc 0x55890000
+    WRITE_LONG   0x400 0xb0458bb0
+    WRITE_LONG   0x404 0x38e6888b
+    WRITE_LONG   0x408 0x4d890000
+    WRITE_LONG   0x40c 0xac558bac
+    WRITE_LONG   0x410 0x8864428a
+    WRITE_LONG   0x414 0xe7e9fc45
+    WRITE_LONG   0x418 0x8b000001
+    WRITE_LONG   0x41c 0xb773cc0d
+    WRITE_LONG   0x420 0xba918b00
+    WRITE_LONG   0x424 0x89000042
+    WRITE_LONG   0x428 0x458ba855
+    WRITE_LONG   0x42c 0xe6888ba8
+    WRITE_LONG   0x430 0x89000038
+    WRITE_LONG   0x434 0x558ba44d
+    WRITE_LONG   0x438 0x68428aa4
+    WRITE_LONG   0x43c 0xe9fc4588
+    WRITE_LONG   0x440 0x000001be
+    WRITE_LONG   0x444 0x73cc0d8b
+    WRITE_LONG   0x448 0x918b00b7
+    WRITE_LONG   0x44c 0x000042ba
+    WRITE_LONG   0x450 0x8ba05589
+    WRITE_LONG   0x454 0x888ba045
+    WRITE_LONG   0x458 0x000038e6
+    WRITE_LONG   0x45c 0x8b9c4d89
+    WRITE_LONG   0x460 0x428a9c55
+    WRITE_LONG   0x464 0xfc45886c
+    WRITE_LONG   0x468 0x000195e9
+    WRITE_LONG   0x46c 0xcc0d8b00
+    WRITE_LONG   0x470 0x8b00b773
+    WRITE_LONG   0x474 0x0042ba91
+    WRITE_LONG   0x478 0x98558900
+    WRITE_LONG   0x47c 0x8b98458b
+    WRITE_LONG   0x480 0x0038e688
+    WRITE_LONG   0x484 0x944d8900
+    WRITE_LONG   0x488 0x8a94558b
+    WRITE_LONG   0x48c 0x45887042
+    WRITE_LONG   0x490 0x016ce9fc
+    WRITE_LONG   0x494 0x0d8b0000
+    WRITE_LONG   0x498 0x00b773cc
+    WRITE_LONG   0x49c 0x42ba918b
+    WRITE_LONG   0x4a0 0x55890000
+    WRITE_LONG   0x4a4 0x90458b90
+    WRITE_LONG   0x4a8 0x38e6888b
+    WRITE_LONG   0x4ac 0x4d890000
+    WRITE_LONG   0x4b0 0x8c558b8c
+    WRITE_LONG   0x4b4 0x8874428a
+    WRITE_LONG   0x4b8 0x43e9fc45
+    WRITE_LONG   0x4bc 0x8b000001
+    WRITE_LONG   0x4c0 0xb773cc0d
+    WRITE_LONG   0x4c4 0xba918b00
+    WRITE_LONG   0x4c8 0x89000042
+    WRITE_LONG   0x4cc 0x458b8855
+    WRITE_LONG   0x4d0 0x1dd00588
+    WRITE_LONG   0x4d4 0x45890000
+    WRITE_LONG   0x4d8 0x844d8b84
+    WRITE_LONG   0x4dc 0xd233018b
+    WRITE_LONG   0x4e0 0xccd835f7
+    WRITE_LONG   0x4e4 0x153b00aa
+    WRITE_LONG   0x4e8 0x00aaccec
+    WRITE_LONG   0x4ec 0x558b2172
+    WRITE_LONG   0x4f0 0x33028b84
+    WRITE_LONG   0x4f4 0xd835f7d2
+    WRITE_LONG   0x4f8 0x3b00aacc
+    WRITE_LONG   0x4fc 0xaaccf415
+    WRITE_LONG   0x500 0xc70c7300
+    WRITE_LONG   0x504 0xffff4c85
+    WRITE_LONG   0x508 0x000001ff
+    WRITE_LONG   0x50c 0xc70aeb00
+    WRITE_LONG   0x510 0xffff4c85
+    WRITE_LONG   0x514 0x000000ff
+    WRITE_LONG   0x518 0x4c858b00
+    WRITE_LONG   0x51c 0x25ffffff
+    WRITE_LONG   0x520 0x000000ff
+    WRITE_LONG   0x524 0x7275c085
+    WRITE_LONG   0x528 0x73cc0d8b
+    WRITE_LONG   0x52c 0x918b00b7
+    WRITE_LONG   0x530 0x000042ba
+    WRITE_LONG   0x534 0x8b805589
+    WRITE_LONG   0x538 0xd0058045
+    WRITE_LONG   0x53c 0x8900001d
+    WRITE_LONG   0x540 0xffff7c85
+    WRITE_LONG   0x544 0x7c8d8bff
+    WRITE_LONG   0x548 0x8bffffff
+    WRITE_LONG   0x54c 0xf7d23301
+    WRITE_LONG   0x550 0xaaccd835
+    WRITE_LONG   0x554 0xf4153b00
+    WRITE_LONG   0x558 0x7200aacc
+    WRITE_LONG   0x55c 0x7c958b24
+    WRITE_LONG   0x560 0x8bffffff
+    WRITE_LONG   0x564 0xf7d23302
+    WRITE_LONG   0x568 0xaaccd835
+    WRITE_LONG   0x56c 0xfc153b00
+    WRITE_LONG   0x570 0x7300aacc
+    WRITE_LONG   0x574 0x4885c70c
+    WRITE_LONG   0x578 0x01ffffff
+    WRITE_LONG   0x57c 0xeb000000
+    WRITE_LONG   0x580 0x4885c70a
+    WRITE_LONG   0x584 0x00ffffff
+    WRITE_LONG   0x588 0x8b000000
+    WRITE_LONG   0x58c 0xffff4885
+    WRITE_LONG   0x590 0x00ff25ff
+    WRITE_LONG   0x594 0xc0850000
+    WRITE_LONG   0x598 0x0d8b3274
+    WRITE_LONG   0x59c 0x00b773cc
+    WRITE_LONG   0x5a0 0x42ba918b
+    WRITE_LONG   0x5a4 0x95890000
+    WRITE_LONG   0x5a8 0xffffff78
+    WRITE_LONG   0x5ac 0xff78858b
+    WRITE_LONG   0x5b0 0x888bffff
+    WRITE_LONG   0x5b4 0x000038e6
+    WRITE_LONG   0x5b8 0xff748d89
+    WRITE_LONG   0x5bc 0x958bffff
+    WRITE_LONG   0x5c0 0xffffff74
+    WRITE_LONG   0x5c4 0x8850428a
+    WRITE_LONG   0x5c8 0x30ebfc45
+    WRITE_LONG   0x5cc 0x73cc0d8b
+    WRITE_LONG   0x5d0 0x918b00b7
+    WRITE_LONG   0x5d4 0x000042ba
+    WRITE_LONG   0x5d8 0xff709589
+    WRITE_LONG   0x5dc 0x858bffff
+    WRITE_LONG   0x5e0 0xffffff70
+    WRITE_LONG   0x5e4 0x38e6888b
+    WRITE_LONG   0x5e8 0x8d890000
+    WRITE_LONG   0x5ec 0xffffff6c
+    WRITE_LONG   0x5f0 0xff6c958b
+    WRITE_LONG   0x5f4 0x428affff
+    WRITE_LONG   0x5f8 0xfc458854
+    WRITE_LONG   0x5fc 0x45c604eb
+    WRITE_LONG   0x600 0xbe0ffffc
+    WRITE_LONG   0x604 0xc985fc4d
+    WRITE_LONG   0x608 0x45c60475
+    WRITE_LONG   0x60c 0x458afffc
+    WRITE_BYTE   0x610 0xfc
+END
+
+OUTER_PATCH_SAVE patch_bytes_2 ~~ BEGIN
+    INSERT_BYTES 0x000 0x611
+    WRITE_LONG   0x000 0x00ffffbb
+    WRITE_LONG   0x004 0x01003d00
+    WRITE_LONG   0x008 0x2a7f0000
+    WRITE_LONG   0x00c 0xff64bd81
+    WRITE_LONG   0x010 0x0100ffff
+    WRITE_LONG   0x014 0x840f0000
+    WRITE_LONG   0x018 0x000000c9
+    WRITE_LONG   0x01c 0xff64bd83
+    WRITE_LONG   0x020 0x0f09ffff
+    WRITE_LONG   0x024 0x0001aa87
+    WRITE_LONG   0x028 0x648d8b00
+    WRITE_LONG   0x02c 0xffffffff
+    WRITE_LONG   0x030 0x47068d24
+    WRITE_LONG   0x034 0x98e9004d
+    WRITE_LONG   0x038 0x8b000001
+    WRITE_LONG   0x03c 0xffff6895
+    WRITE_LONG   0x040 0x50428bff
+    WRITE_LONG   0x044 0xe9fc4589
+    WRITE_LONG   0x048 0x0000018b
+    WRITE_LONG   0x04c 0xff688d8b
+    WRITE_LONG   0x050 0x518bffff
+    WRITE_LONG   0x054 0xfc558954
+    WRITE_LONG   0x058 0x00017ae9
+    WRITE_LONG   0x05c 0x68858b00
+    WRITE_LONG   0x060 0x8bffffff
+    WRITE_LONG   0x064 0x4d895848
+    WRITE_LONG   0x068 0x0169e9fc
+    WRITE_LONG   0x06c 0x958b0000
+    WRITE_LONG   0x070 0xffffff68
+    WRITE_LONG   0x074 0x895c428b
+    WRITE_LONG   0x078 0x58e9fc45
+    WRITE_LONG   0x07c 0x8b000001
+    WRITE_LONG   0x080 0xffff688d
+    WRITE_LONG   0x084 0x60518bff
+    WRITE_LONG   0x088 0xe9fc5589
+    WRITE_LONG   0x08c 0x00000147
+    WRITE_LONG   0x090 0xff68858b
+    WRITE_LONG   0x094 0x488bffff
+    WRITE_LONG   0x098 0xfc4d8964
+    WRITE_LONG   0x09c 0x000136e9
+    WRITE_LONG   0x0a0 0x68958b00
+    WRITE_LONG   0x0a4 0x8bffffff
+    WRITE_LONG   0x0a8 0x45896842
+    WRITE_LONG   0x0ac 0x0125e9fc
+    WRITE_LONG   0x0b0 0x8d8b0000
+    WRITE_LONG   0x0b4 0xffffff68
+    WRITE_LONG   0x0b8 0x896c518b
+    WRITE_LONG   0x0bc 0x14e9fc55
+    WRITE_LONG   0x0c0 0x8b000001
+    WRITE_LONG   0x0c4 0xffff6885
+    WRITE_LONG   0x0c8 0x70488bff
+    WRITE_LONG   0x0cc 0xe9fc4d89
+    WRITE_LONG   0x0d0 0x00000103
+    WRITE_LONG   0x0d4 0xff68958b
+    WRITE_LONG   0x0d8 0x428bffff
+    WRITE_LONG   0x0dc 0xfc458974
+    WRITE_LONG   0x0e0 0x0000f2e9
+    WRITE_LONG   0x0e4 0xcc0d8b00
+    WRITE_LONG   0x0e8 0x8b00b773
+    WRITE_LONG   0x0ec 0x0042ba91
+    WRITE_LONG   0x0f0 0xf8558900
+    WRITE_LONG   0x0f4 0x05f8458b
+    WRITE_LONG   0x0f8 0x00001dd0
+    WRITE_LONG   0x0fc 0x8bf44589
+    WRITE_LONG   0x100 0x018bf44d
+    WRITE_LONG   0x104 0x35f7d233
+    WRITE_LONG   0x108 0x00aaccd8
+    WRITE_LONG   0x10c 0xccec153b
+    WRITE_LONG   0x110 0x217200aa
+    WRITE_LONG   0x114 0x8bf4558b
+    WRITE_LONG   0x118 0xf7d23302
+    WRITE_LONG   0x11c 0xaaccd835
+    WRITE_LONG   0x120 0xf4153b00
+    WRITE_LONG   0x124 0x7300aacc
+    WRITE_LONG   0x128 0x6085c70c
+    WRITE_LONG   0x12c 0x01ffffff
+    WRITE_LONG   0x130 0xeb000000
+    WRITE_LONG   0x134 0x6085c70a
+    WRITE_LONG   0x138 0x00ffffff
+    WRITE_LONG   0x13c 0x8b000000
+    WRITE_LONG   0x140 0xffff6085
+    WRITE_LONG   0x144 0x00ff25ff
+    WRITE_LONG   0x148 0xc0850000
+    WRITE_LONG   0x14c 0x0d8b6975
+    WRITE_LONG   0x150 0x00b773cc
+    WRITE_LONG   0x154 0x42ba918b
+    WRITE_LONG   0x158 0x55890000
+    WRITE_LONG   0x15c 0xf0458bf0
+    WRITE_LONG   0x160 0x001dd005
+    WRITE_LONG   0x164 0xec458900
+    WRITE_LONG   0x168 0x8bec4d8b
+    WRITE_LONG   0x16c 0xf7d23301
+    WRITE_LONG   0x170 0xaaccd835
+    WRITE_LONG   0x174 0xf4153b00
+    WRITE_LONG   0x178 0x7200aacc
+    WRITE_LONG   0x17c 0xec558b21
+    WRITE_LONG   0x180 0xd233028b
+    WRITE_LONG   0x184 0xccd835f7
+    WRITE_LONG   0x188 0x153b00aa
+    WRITE_LONG   0x18c 0x00aaccfc
+    WRITE_LONG   0x190 0x85c70c73
+    WRITE_LONG   0x194 0xffffff5c
+    WRITE_LONG   0x198 0x00000001
+    WRITE_LONG   0x19c 0x85c70aeb
+    WRITE_LONG   0x1a0 0xffffff5c
+    WRITE_LONG   0x1a4 0x00000000
+    WRITE_LONG   0x1a8 0xff5c858b
+    WRITE_LONG   0x1ac 0xff25ffff
+    WRITE_LONG   0x1b0 0x85000000
+    WRITE_LONG   0x1b4 0x8b0e74c0
+    WRITE_LONG   0x1b8 0xffff688d
+    WRITE_LONG   0x1bc 0x50518bff
+    WRITE_LONG   0x1c0 0xebfc5589
+    WRITE_LONG   0x1c4 0x68858b0c
+    WRITE_LONG   0x1c8 0x8bffffff
+    WRITE_LONG   0x1cc 0x4d895448
+    WRITE_LONG   0x1d0 0x8904ebfc
+    WRITE_LONG   0x1d4 0x0f90fc5d
+    WRITE_LONG   0x1d8 0x83fc55bf
+    WRITE_LONG   0x1dc 0x850ffefa
+    WRITE_LONG   0x1e0 0x000000ef
+    WRITE_LONG   0x1e4 0xb773cca1
+    WRITE_LONG   0x1e8 0xba888b00
+    WRITE_LONG   0x1ec 0x89000042
+    WRITE_LONG   0x1f0 0x558be84d
+    WRITE_LONG   0x1f4 0xd0c281e8
+    WRITE_LONG   0x1f8 0x8900001d
+    WRITE_LONG   0x1fc 0x458be455
+    WRITE_LONG   0x200 0x33008be4
+    WRITE_LONG   0x204 0xd835f7d2
+    WRITE_LONG   0x208 0x3b00aacc
+    WRITE_LONG   0x20c 0xaaccec15
+    WRITE_LONG   0x210 0x8b217200
+    WRITE_LONG   0x214 0x018be44d
+    WRITE_LONG   0x218 0x35f7d233
+    WRITE_LONG   0x21c 0x00aaccd8
+    WRITE_LONG   0x220 0xccf4153b
+    WRITE_LONG   0x224 0x0c7300aa
+    WRITE_LONG   0x228 0xff5885c7
+    WRITE_LONG   0x22c 0x0001ffff
+    WRITE_LONG   0x230 0x0aeb0000
+    WRITE_LONG   0x234 0xff5885c7
+    WRITE_LONG   0x238 0x0000ffff
+    WRITE_LONG   0x23c 0x958b0000
+    WRITE_LONG   0x240 0xffffff58
+    WRITE_LONG   0x244 0x00ffe281
+    WRITE_LONG   0x248 0xd2850000
+    WRITE_LONG   0x24c 0x858b0e74
+    WRITE_LONG   0x250 0xffffff68
+    WRITE_LONG   0x254 0x8950488b
+    WRITE_LONG   0x258 0x77ebfc4d
+    WRITE_LONG   0x25c 0x73cc158b
+    WRITE_LONG   0x260 0x828b00b7
+    WRITE_LONG   0x264 0x000042ba
+    WRITE_LONG   0x268 0x8be04589
+    WRITE_LONG   0x26c 0xc181e04d
+    WRITE_LONG   0x270 0x00001dd0
+    WRITE_LONG   0x274 0x8bdc4d89
+    WRITE_LONG   0x278 0x028bdc55
+    WRITE_LONG   0x27c 0x35f7d233
+    WRITE_LONG   0x280 0x00aaccd8
+    WRITE_LONG   0x284 0xccfc153b
+    WRITE_LONG   0x288 0x217300aa
+    WRITE_LONG   0x28c 0x8bdc458b
+    WRITE_LONG   0x290 0xf7d23300
+    WRITE_LONG   0x294 0xaaccd835
+    WRITE_LONG   0x298 0xe4153b00
+    WRITE_LONG   0x29c 0x7200aacc
+    WRITE_LONG   0x2a0 0x5485c70c
+    WRITE_LONG   0x2a4 0x00ffffff
+    WRITE_LONG   0x2a8 0xeb000000
+    WRITE_LONG   0x2ac 0x5485c70a
+    WRITE_LONG   0x2b0 0x01ffffff
+    WRITE_LONG   0x2b4 0x8b000000
+    WRITE_LONG   0x2b8 0xffff548d
+    WRITE_LONG   0x2bc 0xffe181ff
+    WRITE_LONG   0x2c0 0x85000000
+    WRITE_LONG   0x2c4 0x8b0c74c9
+    WRITE_LONG   0x2c8 0xffff6895
+    WRITE_LONG   0x2cc 0x54428bff
+    WRITE_LONG   0x2d0 0x0ffc4589
+    WRITE_LONG   0x2d4 0x83fc4dbf
+    WRITE_LONG   0x2d8 0x850ffff9
+    WRITE_LONG   0x2dc 0x00000322
+    WRITE_LONG   0x2e0 0x0855bf0f
+    WRITE_LONG   0x2e4 0xff509589
+    WRITE_LONG   0x2e8 0xbd81ffff
+    WRITE_LONG   0x2ec 0xffffff50
+    WRITE_LONG   0x2f0 0x00000100
+    WRITE_LONG   0x2f4 0xbd812a7f
+    WRITE_LONG   0x2f8 0xffffff50
+    WRITE_LONG   0x2fc 0x00000100
+    WRITE_LONG   0x300 0x01b9840f
+    WRITE_LONG   0x304 0xbd830000
+    WRITE_LONG   0x308 0xffffff50
+    WRITE_LONG   0x30c 0xeb870f09
+    WRITE_LONG   0x310 0x8b000002
+    WRITE_LONG   0x314 0xffff5085
+    WRITE_LONG   0x318 0x8524ffff
+    WRITE_LONG   0x31c 0x004d472e
+    WRITE_LONG   0x320 0x0002d9e9
+    WRITE_LONG   0x324 0xcc0d8b00
+    WRITE_LONG   0x328 0x8b00b773
+    WRITE_LONG   0x32c 0x0042ba91
+    WRITE_LONG   0x330 0xd8558900
+    WRITE_LONG   0x334 0x8bd8458b
+    WRITE_LONG   0x338 0x0038e688
+    WRITE_LONG   0x33c 0xd44d8900
+    WRITE_LONG   0x340 0x8bd4558b
+    WRITE_LONG   0x344 0x45895042
+    WRITE_LONG   0x348 0x02b4e9fc
+    WRITE_LONG   0x34c 0x0d8b0000
+    WRITE_LONG   0x350 0x00b773cc
+    WRITE_LONG   0x354 0x42ba918b
+    WRITE_LONG   0x358 0x55890000
+    WRITE_LONG   0x35c 0xd0458bd0
+    WRITE_LONG   0x360 0x38e6888b
+    WRITE_LONG   0x364 0x4d890000
+    WRITE_LONG   0x368 0xcc558bcc
+    WRITE_LONG   0x36c 0x8954428b
+    WRITE_LONG   0x370 0x8be9fc45
+    WRITE_LONG   0x374 0x8b000002
+    WRITE_LONG   0x378 0xb773cc0d
+    WRITE_LONG   0x37c 0xba918b00
+    WRITE_LONG   0x380 0x89000042
+    WRITE_LONG   0x384 0x458bc855
+    WRITE_LONG   0x388 0xe6888bc8
+    WRITE_LONG   0x38c 0x89000038
+    WRITE_LONG   0x390 0x558bc44d
+    WRITE_LONG   0x394 0x58428bc4
+    WRITE_LONG   0x398 0xe9fc4589
+    WRITE_LONG   0x39c 0x00000262
+    WRITE_LONG   0x3a0 0x73cc0d8b
+    WRITE_LONG   0x3a4 0x918b00b7
+    WRITE_LONG   0x3a8 0x000042ba
+    WRITE_LONG   0x3ac 0x8bc05589
+    WRITE_LONG   0x3b0 0x888bc045
+    WRITE_LONG   0x3b4 0x000038e6
+    WRITE_LONG   0x3b8 0x8bbc4d89
+    WRITE_LONG   0x3bc 0x428bbc55
+    WRITE_LONG   0x3c0 0xfc45895c
+    WRITE_LONG   0x3c4 0x000239e9
+    WRITE_LONG   0x3c8 0xcc0d8b00
+    WRITE_LONG   0x3cc 0x8b00b773
+    WRITE_LONG   0x3d0 0x0042ba91
+    WRITE_LONG   0x3d4 0xb8558900
+    WRITE_LONG   0x3d8 0x8bb8458b
+    WRITE_LONG   0x3dc 0x0038e688
+    WRITE_LONG   0x3e0 0xb44d8900
+    WRITE_LONG   0x3e4 0x8bb4558b
+    WRITE_LONG   0x3e8 0x45896042
+    WRITE_LONG   0x3ec 0x0210e9fc
+    WRITE_LONG   0x3f0 0x0d8b0000
+    WRITE_LONG   0x3f4 0x00b773cc
+    WRITE_LONG   0x3f8 0x42ba918b
+    WRITE_LONG   0x3fc 0x55890000
+    WRITE_LONG   0x400 0xb0458bb0
+    WRITE_LONG   0x404 0x38e6888b
+    WRITE_LONG   0x408 0x4d890000
+    WRITE_LONG   0x40c 0xac558bac
+    WRITE_LONG   0x410 0x8964428b
+    WRITE_LONG   0x414 0xe7e9fc45
+    WRITE_LONG   0x418 0x8b000001
+    WRITE_LONG   0x41c 0xb773cc0d
+    WRITE_LONG   0x420 0xba918b00
+    WRITE_LONG   0x424 0x89000042
+    WRITE_LONG   0x428 0x458ba855
+    WRITE_LONG   0x42c 0xe6888ba8
+    WRITE_LONG   0x430 0x89000038
+    WRITE_LONG   0x434 0x558ba44d
+    WRITE_LONG   0x438 0x68428ba4
+    WRITE_LONG   0x43c 0xe9fc4589
+    WRITE_LONG   0x440 0x000001be
+    WRITE_LONG   0x444 0x73cc0d8b
+    WRITE_LONG   0x448 0x918b00b7
+    WRITE_LONG   0x44c 0x000042ba
+    WRITE_LONG   0x450 0x8ba05589
+    WRITE_LONG   0x454 0x888ba045
+    WRITE_LONG   0x458 0x000038e6
+    WRITE_LONG   0x45c 0x8b9c4d89
+    WRITE_LONG   0x460 0x428b9c55
+    WRITE_LONG   0x464 0xfc45896c
+    WRITE_LONG   0x468 0x000195e9
+    WRITE_LONG   0x46c 0xcc0d8b00
+    WRITE_LONG   0x470 0x8b00b773
+    WRITE_LONG   0x474 0x0042ba91
+    WRITE_LONG   0x478 0x98558900
+    WRITE_LONG   0x47c 0x8b98458b
+    WRITE_LONG   0x480 0x0038e688
+    WRITE_LONG   0x484 0x944d8900
+    WRITE_LONG   0x488 0x8b94558b
+    WRITE_LONG   0x48c 0x45897042
+    WRITE_LONG   0x490 0x016ce9fc
+    WRITE_LONG   0x494 0x0d8b0000
+    WRITE_LONG   0x498 0x00b773cc
+    WRITE_LONG   0x49c 0x42ba918b
+    WRITE_LONG   0x4a0 0x55890000
+    WRITE_LONG   0x4a4 0x90458b90
+    WRITE_LONG   0x4a8 0x38e6888b
+    WRITE_LONG   0x4ac 0x4d890000
+    WRITE_LONG   0x4b0 0x8c558b8c
+    WRITE_LONG   0x4b4 0x8974428b
+    WRITE_LONG   0x4b8 0x43e9fc45
+    WRITE_LONG   0x4bc 0x8b000001
+    WRITE_LONG   0x4c0 0xb773cc0d
+    WRITE_LONG   0x4c4 0xba918b00
+    WRITE_LONG   0x4c8 0x89000042
+    WRITE_LONG   0x4cc 0x458b8855
+    WRITE_LONG   0x4d0 0x1dd00588
+    WRITE_LONG   0x4d4 0x45890000
+    WRITE_LONG   0x4d8 0x844d8b84
+    WRITE_LONG   0x4dc 0xd233018b
+    WRITE_LONG   0x4e0 0xccd835f7
+    WRITE_LONG   0x4e4 0x153b00aa
+    WRITE_LONG   0x4e8 0x00aaccec
+    WRITE_LONG   0x4ec 0x558b2172
+    WRITE_LONG   0x4f0 0x33028b84
+    WRITE_LONG   0x4f4 0xd835f7d2
+    WRITE_LONG   0x4f8 0x3b00aacc
+    WRITE_LONG   0x4fc 0xaaccf415
+    WRITE_LONG   0x500 0xc70c7300
+    WRITE_LONG   0x504 0xffff4c85
+    WRITE_LONG   0x508 0x000001ff
+    WRITE_LONG   0x50c 0xc70aeb00
+    WRITE_LONG   0x510 0xffff4c85
+    WRITE_LONG   0x514 0x000000ff
+    WRITE_LONG   0x518 0x4c858b00
+    WRITE_LONG   0x51c 0x25ffffff
+    WRITE_LONG   0x520 0x000000ff
+    WRITE_LONG   0x524 0x7275c085
+    WRITE_LONG   0x528 0x73cc0d8b
+    WRITE_LONG   0x52c 0x918b00b7
+    WRITE_LONG   0x530 0x000042ba
+    WRITE_LONG   0x534 0x8b805589
+    WRITE_LONG   0x538 0xd0058045
+    WRITE_LONG   0x53c 0x8900001d
+    WRITE_LONG   0x540 0xffff7c85
+    WRITE_LONG   0x544 0x7c8d8bff
+    WRITE_LONG   0x548 0x8bffffff
+    WRITE_LONG   0x54c 0xf7d23301
+    WRITE_LONG   0x550 0xaaccd835
+    WRITE_LONG   0x554 0xf4153b00
+    WRITE_LONG   0x558 0x7200aacc
+    WRITE_LONG   0x55c 0x7c958b24
+    WRITE_LONG   0x560 0x8bffffff
+    WRITE_LONG   0x564 0xf7d23302
+    WRITE_LONG   0x568 0xaaccd835
+    WRITE_LONG   0x56c 0xfc153b00
+    WRITE_LONG   0x570 0x7300aacc
+    WRITE_LONG   0x574 0x4885c70c
+    WRITE_LONG   0x578 0x01ffffff
+    WRITE_LONG   0x57c 0xeb000000
+    WRITE_LONG   0x580 0x4885c70a
+    WRITE_LONG   0x584 0x00ffffff
+    WRITE_LONG   0x588 0x8b000000
+    WRITE_LONG   0x58c 0xffff4885
+    WRITE_LONG   0x590 0x00ff25ff
+    WRITE_LONG   0x594 0xc0850000
+    WRITE_LONG   0x598 0x0d8b3274
+    WRITE_LONG   0x59c 0x00b773cc
+    WRITE_LONG   0x5a0 0x42ba918b
+    WRITE_LONG   0x5a4 0x95890000
+    WRITE_LONG   0x5a8 0xffffff78
+    WRITE_LONG   0x5ac 0xff78858b
+    WRITE_LONG   0x5b0 0x888bffff
+    WRITE_LONG   0x5b4 0x000038e6
+    WRITE_LONG   0x5b8 0xff748d89
+    WRITE_LONG   0x5bc 0x958bffff
+    WRITE_LONG   0x5c0 0xffffff74
+    WRITE_LONG   0x5c4 0x8950428b
+    WRITE_LONG   0x5c8 0x30ebfc45
+    WRITE_LONG   0x5cc 0x73cc0d8b
+    WRITE_LONG   0x5d0 0x918b00b7
+    WRITE_LONG   0x5d4 0x000042ba
+    WRITE_LONG   0x5d8 0xff709589
+    WRITE_LONG   0x5dc 0x858bffff
+    WRITE_LONG   0x5e0 0xffffff70
+    WRITE_LONG   0x5e4 0x38e6888b
+    WRITE_LONG   0x5e8 0x8d890000
+    WRITE_LONG   0x5ec 0xffffff6c
+    WRITE_LONG   0x5f0 0xff6c958b
+    WRITE_LONG   0x5f4 0x428bffff
+    WRITE_LONG   0x5f8 0xfc458954
+    WRITE_LONG   0x5fc 0x5d8904eb
+    WRITE_LONG   0x600 0xbf0f90fc
+    WRITE_LONG   0x604 0xc985fc4d
+    WRITE_LONG   0x608 0x5d890475
+    WRITE_LONG   0x60c 0x458b90fc
+    WRITE_BYTE   0x610 0xfc
+END
+
+OUTER_PATCH_SAVE orig_bytes_3 ~~ BEGIN
+    INSERT_BYTES 0x000 0x10
+    WRITE_LONG   0x000 0x8af84588
+    WRITE_LONG   0x004 0x8b51fc4d
+    WRITE_LONG   0x008 0x0f520c55
+    WRITE_LONG   0x00c 0x50f845be
+END
+
+OUTER_PATCH_SAVE patch_bytes_3 ~~ BEGIN
+    INSERT_BYTES 0x000 0x10
+    WRITE_LONG   0x000 0x8af84589
+    WRITE_LONG   0x004 0x8b51fc4d
+    WRITE_LONG   0x008 0x0f520c55
+    WRITE_LONG   0x00c 0x50f845bf
+END
+
+OUTER_PATCH_SAVE orig_bytes_4 ~~ BEGIN
+    INSERT_BYTES 0x000 0x19c
+    WRITE_LONG   0x000 0x0000673c
+    WRITE_LONG   0x004 0x057203e8
+    WRITE_LONG   0x008 0xb88d8900
+    WRITE_LONG   0x00c 0x8bffff98
+    WRITE_LONG   0x010 0xff98b885
+    WRITE_LONG   0x014 0x34b883ff
+    WRITE_LONG   0x018 0x00000001
+    WRITE_LONG   0x01c 0xc0330775
+    WRITE_LONG   0x020 0x000177e9
+    WRITE_LONG   0x024 0xb88d8b00
+    WRITE_LONG   0x028 0x83ffff98
+    WRITE_LONG   0x02c 0x00013cb9
+    WRITE_LONG   0x030 0x19740000
+    WRITE_LONG   0x034 0x2068006a
+    WRITE_LONG   0x038 0x6800b66b
+    WRITE_LONG   0x03c 0x00b66b34
+    WRITE_LONG   0x040 0x00132868
+    WRITE_LONG   0x044 0xcf6ee800
+    WRITE_LONG   0x048 0xc483fffb
+    WRITE_LONG   0x04c 0x087d8310
+    WRITE_LONG   0x050 0x83067e00
+    WRITE_LONG   0x054 0x7e64087d
+    WRITE_LONG   0x058 0x68006a19
+    WRITE_LONG   0x05c 0x00b66b50
+    WRITE_LONG   0x060 0xb66b8468
+    WRITE_LONG   0x064 0x13296800
+    WRITE_LONG   0x068 0x49e80000
+    WRITE_LONG   0x06c 0x83fffbcf
+    WRITE_LONG   0x070 0x006a10c4
+    WRITE_LONG   0x074 0x98b88d8b
+    WRITE_LONG   0x078 0xc181ffff
+    WRITE_LONG   0x07c 0x00000130
+    WRITE_LONG   0x080 0x06ebc4e8
+    WRITE_LONG   0x084 0xf0458900
+    WRITE_LONG   0x088 0x958b016a
+    WRITE_LONG   0x08c 0xffff98b8
+    WRITE_LONG   0x090 0x520cc283
+    WRITE_LONG   0x094 0x9a508d8d
+    WRITE_LONG   0x098 0x90e8ffff
+    WRITE_LONG   0x09c 0xc7000555
+    WRITE_LONG   0x0a0 0x0000fc45
+    WRITE_LONG   0x0a4 0xa0680000
+    WRITE_LONG   0x0a8 0x8b00b66b
+    WRITE_LONG   0x0ac 0xe850f045
+    WRITE_LONG   0x0b0 0x00033f90
+    WRITE_LONG   0x0b4 0x6a08c483
+    WRITE_LONG   0x0b8 0xb88d8bff
+    WRITE_LONG   0x0bc 0x81ffff98
+    WRITE_LONG   0x0c0 0x000130c1
+    WRITE_LONG   0x0c4 0xebcee800
+    WRITE_LONG   0x0c8 0x85c70006
+    WRITE_LONG   0x0cc 0xffff9a5c
+    WRITE_LONG   0x0d0 0x00000000
+    WRITE_LONG   0x0d4 0x8d8b0feb
+    WRITE_LONG   0x0d8 0xffff9a5c
+    WRITE_LONG   0x0dc 0x8901c183
+    WRITE_LONG   0x0e0 0xff9a5c8d
+    WRITE_LONG   0x0e4 0x5c958bff
+    WRITE_LONG   0x0e8 0x3bffff9a
+    WRITE_LONG   0x0ec 0x5d7d0855
+    WRITE_LONG   0x0f0 0x9a5c858b
+    WRITE_LONG   0x0f4 0xc069ffff
+    WRITE_LONG   0x0f8 0x00000104
+    WRITE_LONG   0x0fc 0x60058c8d
+    WRITE_LONG   0x100 0x8bffff9a
+    WRITE_LONG   0x104 0xff9a5c95
+    WRITE_LONG   0x108 0x958c89ff
+    WRITE_LONG   0x10c 0xffff98c0
+    WRITE_LONG   0x110 0x9a5c858b
+    WRITE_LONG   0x114 0x4d8bffff
+    WRITE_LONG   0x118 0x81148b0c
+    WRITE_LONG   0x11c 0xb8858b52
+    WRITE_LONG   0x120 0x8bffff98
+    WRITE_LONG   0x124 0x00013088
+    WRITE_LONG   0x128 0xa4685100
+    WRITE_LONG   0x12c 0x8b00b66b
+    WRITE_LONG   0x130 0xff9a5c95
+    WRITE_LONG   0x134 0x04d269ff
+    WRITE_LONG   0x138 0x8d000001
+    WRITE_LONG   0x13c 0x9a601584
+    WRITE_LONG   0x140 0xe850ffff
+    WRITE_LONG   0x144 0x000570f3
+    WRITE_LONG   0x148 0xeb10c483
+    WRITE_LONG   0x14c 0x084d8b89
+    WRITE_LONG   0x150 0xc0958d51
+    WRITE_LONG   0x154 0x52ffff98
+    WRITE_LONG   0x158 0x0323c5e8
+    WRITE_LONG   0x15c 0x08c48300
+    WRITE_LONG   0x160 0x9a508d8d
+    WRITE_LONG   0x164 0x00e8ffff
+    WRITE_LONG   0x168 0x8b000555
+    WRITE_LONG   0x16c 0xff98b885
+    WRITE_LONG   0x170 0x084d8bff
+    WRITE_LONG   0x174 0x013c8889
+    WRITE_LONG   0x178 0x85c70000
+    WRITE_LONG   0x17c 0xffff98bc
+    WRITE_LONG   0x180 0x00000001
+    WRITE_LONG   0x184 0xfffc45c7
+    WRITE_LONG   0x188 0x8dffffff
+    WRITE_LONG   0x18c 0xff9a508d
+    WRITE_LONG   0x190 0x54d5e8ff
+    WRITE_LONG   0x194 0x858b0005
+    WRITE_LONG   0x198 0xffff98bc
+END
+
+OUTER_PATCH_SAVE patch_bytes_4 ~~ BEGIN
+    INSERT_BYTES 0x000 0x19c
+    WRITE_LONG   0x000 0x000203bc
+    WRITE_LONG   0x004 0x057203e8
+    WRITE_LONG   0x008 0x388d8900
+    WRITE_LONG   0x00c 0x8bfffdfc
+    WRITE_LONG   0x010 0xfdfc3885
+    WRITE_LONG   0x014 0x34b883ff
+    WRITE_LONG   0x018 0x00000001
+    WRITE_LONG   0x01c 0xc0330775
+    WRITE_LONG   0x020 0x000177e9
+    WRITE_LONG   0x024 0x388d8b00
+    WRITE_LONG   0x028 0x83fffdfc
+    WRITE_LONG   0x02c 0x00013cb9
+    WRITE_LONG   0x030 0x19740000
+    WRITE_LONG   0x034 0x2068006a
+    WRITE_LONG   0x038 0x6800b66b
+    WRITE_LONG   0x03c 0x00b66b34
+    WRITE_LONG   0x040 0x00132868
+    WRITE_LONG   0x044 0xcf6ee800
+    WRITE_LONG   0x048 0xc483fffb
+    WRITE_LONG   0x04c 0x087d8310
+    WRITE_LONG   0x050 0x83067e00
+    WRITE_LONG   0x054 0xeb64087d
+    WRITE_LONG   0x058 0x68006a19
+    WRITE_LONG   0x05c 0x00b66b50
+    WRITE_LONG   0x060 0xb66b8468
+    WRITE_LONG   0x064 0x13296800
+    WRITE_LONG   0x068 0x49e80000
+    WRITE_LONG   0x06c 0x83fffbcf
+    WRITE_LONG   0x070 0x006a10c4
+    WRITE_LONG   0x074 0xfc388d8b
+    WRITE_LONG   0x078 0xc181fffd
+    WRITE_LONG   0x07c 0x00000130
+    WRITE_LONG   0x080 0x06ebc4e8
+    WRITE_LONG   0x084 0xf0458900
+    WRITE_LONG   0x088 0x958b016a
+    WRITE_LONG   0x08c 0xfffdfc38
+    WRITE_LONG   0x090 0x520cc283
+    WRITE_LONG   0x094 0x04108d8d
+    WRITE_LONG   0x098 0x90e8fffe
+    WRITE_LONG   0x09c 0xc7000555
+    WRITE_LONG   0x0a0 0x0000fc45
+    WRITE_LONG   0x0a4 0xa0680000
+    WRITE_LONG   0x0a8 0x8b00b66b
+    WRITE_LONG   0x0ac 0xe850f045
+    WRITE_LONG   0x0b0 0x00033f90
+    WRITE_LONG   0x0b4 0x6a08c483
+    WRITE_LONG   0x0b8 0x388d8bff
+    WRITE_LONG   0x0bc 0x81fffdfc
+    WRITE_LONG   0x0c0 0x000130c1
+    WRITE_LONG   0x0c4 0xebcee800
+    WRITE_LONG   0x0c8 0x85c70006
+    WRITE_LONG   0x0cc 0xfffe041c
+    WRITE_LONG   0x0d0 0x00000000
+    WRITE_LONG   0x0d4 0x8d8b0feb
+    WRITE_LONG   0x0d8 0xfffe041c
+    WRITE_LONG   0x0dc 0x8901c183
+    WRITE_LONG   0x0e0 0xfe041c8d
+    WRITE_LONG   0x0e4 0x1c958bff
+    WRITE_LONG   0x0e8 0x3bfffe04
+    WRITE_LONG   0x0ec 0x5d7d0855
+    WRITE_LONG   0x0f0 0x041c858b
+    WRITE_LONG   0x0f4 0xc069fffe
+    WRITE_LONG   0x0f8 0x00000104
+    WRITE_LONG   0x0fc 0x20058c8d
+    WRITE_LONG   0x100 0x8bfffe04
+    WRITE_LONG   0x104 0xfe041c95
+    WRITE_LONG   0x108 0x958c89ff
+    WRITE_LONG   0x10c 0xfffdfc40
+    WRITE_LONG   0x110 0x041c858b
+    WRITE_LONG   0x114 0x4d8bfffe
+    WRITE_LONG   0x118 0x81148b0c
+    WRITE_LONG   0x11c 0x38858b52
+    WRITE_LONG   0x120 0x8bfffdfc
+    WRITE_LONG   0x124 0x00013088
+    WRITE_LONG   0x128 0xa4685100
+    WRITE_LONG   0x12c 0x8b00b66b
+    WRITE_LONG   0x130 0xfe041c95
+    WRITE_LONG   0x134 0x04d269ff
+    WRITE_LONG   0x138 0x8d000001
+    WRITE_LONG   0x13c 0x04201584
+    WRITE_LONG   0x140 0xe850fffe
+    WRITE_LONG   0x144 0x000570f3
+    WRITE_LONG   0x148 0xeb10c483
+    WRITE_LONG   0x14c 0x084d8b89
+    WRITE_LONG   0x150 0x40958d51
+    WRITE_LONG   0x154 0x52fffdfc
+    WRITE_LONG   0x158 0x0323c5e8
+    WRITE_LONG   0x15c 0x08c48300
+    WRITE_LONG   0x160 0x04108d8d
+    WRITE_LONG   0x164 0x00e8fffe
+    WRITE_LONG   0x168 0x8b000555
+    WRITE_LONG   0x16c 0xfdfc3885
+    WRITE_LONG   0x170 0x084d8bff
+    WRITE_LONG   0x174 0x013c8889
+    WRITE_LONG   0x178 0x85c70000
+    WRITE_LONG   0x17c 0xfffdfc3c
+    WRITE_LONG   0x180 0x00000001
+    WRITE_LONG   0x184 0xfffc45c7
+    WRITE_LONG   0x188 0x8dffffff
+    WRITE_LONG   0x18c 0xfe04108d
+    WRITE_LONG   0x190 0x54d5e8ff
+    WRITE_LONG   0x194 0x858b0005
+    WRITE_LONG   0x198 0xfffdfc3c
+END
+
+ACTION_IF NOT (FILE_EXISTS "TobEx_ini/TobExVer.txt") BEGIN
+  COPY ~bgmain.exe~ ~bgmain.exe~
+      READ_ASCII 0x000cc6f7 target_bytes_1 ELSE 0 (0x42)
+      READ_ASCII 0x000d40ef target_bytes_2 ELSE 0 (0x611)
+      READ_ASCII 0x000d4892 target_bytes_3 ELSE 0 (0x10)
+      READ_ASCII 0x005e20b4 target_bytes_4 ELSE 0 (0x19c)
+      PATCH_IF (~%target_bytes_1%~ STRING_EQUAL ~%orig_bytes_1%~)
+           AND (~%target_bytes_2%~ STRING_EQUAL ~%orig_bytes_2%~)
+           AND (~%target_bytes_3%~ STRING_EQUAL ~%orig_bytes_3%~)
+           AND (~%target_bytes_4%~ STRING_EQUAL ~%orig_bytes_4%~)
+      THEN BEGIN
+         WRITE_ASCIIE 0x000cc6f7 ~%patch_bytes_1%~ (0x42)
+         WRITE_ASCIIE 0x000d40ef ~%patch_bytes_2%~ (0x611)
+         WRITE_ASCIIE 0x000d4892 ~%patch_bytes_3%~ (0x10)
+         WRITE_ASCIIE 0x005e20b4 ~%patch_bytes_4%~ (0x19c)
+      END ELSE
+      PATCH_IF (~%target_bytes_1%~ STRING_EQUAL ~%patch_bytes_1%~)
+           AND (~%target_bytes_2%~ STRING_EQUAL ~%patch_bytes_2%~)
+           AND (~%target_bytes_3%~ STRING_EQUAL ~%patch_bytes_3%~)
+           AND (~%target_bytes_4%~ STRING_EQUAL ~%patch_bytes_4%~)
+      THEN BEGIN
+          PATCH_PRINT ~bgmain.exe: patch already applied. Skipping...~
+      END ELSE INNER_ACTION BEGIN FAIL ~bgmain.exe: Target bytes do not match.~ END
+  BUT_ONLY
+END ELSE BEGIN
+  PRINT ~bgmain.exe: TobEx installation detected. Skipping .exe patch...~
+END
+
+COPY_EXISTING ~songlist.2da~ ~override/songlist.2da~
+  SET_2DA_ENTRY 33 2 3 ~BGTheme.mus~
+BUT_ONLY
+
+//Now installing complete BGT music
+COPY_EXISTING - ~songlist.2da~ ~override/songlist.2da~
+  COUNT_2DA_ROWS 3 "num_songs"
+  SET %num_songs% -= 1 // Don't count the zero!
+
+ADD_MUSIC ~cday1~ ~music/cday1.mus~
+ADD_MUSIC ~cday2~ ~music/cday2.mus~
+ADD_MUSIC ~cnite~ ~music/cnite.mus~
+ADD_MUSIC ~chants~ ~music/chants.mus~
+ADD_MUSIC ~dream~ ~music/dream.mus~
+ADD_MUSIC ~fday~ ~music/fday.mus~
+ADD_MUSIC ~fnite~ ~music/fnite.mus~
+ADD_MUSIC ~pday~ ~music/pday.mus~
+ADD_MUSIC ~pnite~ ~music/pnite.mus~
+ADD_MUSIC ~temple~ ~music/temple.mus~
+ADD_MUSIC ~bgtheme~ ~music/bgtheme.mus~
+ADD_MUSIC ~tday1~ ~music/tday1.mus~
+ADD_MUSIC ~tday2~ ~music/tday2.mus~
+ADD_MUSIC ~tnite~ ~music/tnite.mus~
+ADD_MUSIC ~dung1~ ~music/dung1.mus~
+ADD_MUSIC ~dung2~ ~music/dung2.mus~
+ADD_MUSIC ~dung3~ ~music/dung3.mus~
+ADD_MUSIC ~bc3~ ~music/bc3.mus~
+ADD_MUSIC ~bc4~ ~music/bc4.mus~
+ADD_MUSIC ~bd4~ ~music/bd4.mus~
+ADD_MUSIC ~bd5~ ~music/bd5.mus~
+ADD_MUSIC ~bl1~ ~music/bl1.mus~
+ADD_MUSIC ~bl2~ ~music/bl2.mus~
+ADD_MUSIC ~bf3~ ~music/bf3.mus~
+ADD_MUSIC ~bf4~ ~music/bf4.mus~
+ADD_MUSIC ~bp3~ ~music/bp3.mus~
+ADD_MUSIC ~bp4~ ~music/bp4.mus~
+ADD_MUSIC ~bw1~ ~music/bw1.mus~
+ADD_MUSIC ~fort~ ~music/fort.mus~
+ADD_MUSIC ~chapter~ ~music/dream.mus~
+ADD_MUSIC ~tav5~ ~music/tav5.mus~
+ADD_MUSIC ~tav6~ ~music/tav6.mus~
+ADD_MUSIC ~tav7~ ~music/tav7.mus~
+ADD_MUSIC ~tav8~ ~music/tav8.mus~
+ADD_MUSIC ~bgchants~ ~music/chants.mus~
+ADD_MUSIC ~bgfort~ ~music/fort.mus~
+ADD_MUSIC ~bgtemple~ ~music/temple.mus~
+ADD_MUSIC ~bgdream~ ~music/dream.mus~
+
+//AREA_NAME	DAY_SONG	NIGHT_SONG	BATTLE_SONG
+<<<<<<<< areapatchlist
+ar0015.are	0	0	%bc3%
+ar3100.are	%pday%	%pnite%	%bp3%
+ar3101.are	-1	-1	-1
+ar3200.are	%fday%	%fnite%	%bf4%
+ar3300.are	%pday%	%pnite%	%bp3%
+ar3301.are	%dung1%	%dung1%	%bd4%
+ar3400.are	%dung3%	%dung3%	%bd5%
+ar3401.are	%dung2%	%dung2%	%bd5%
+ar3497.are	-1	-1	-1
+ar3498.are	%pday%	%pnite%	%bp4%
+ar3499.are	%pday%	%pnite%	%bp4%
+ar3700.are	%tday2%	%tnite%	%bc3%
+ar3701.are	%tav8%	%tav8%	-1
+ar3702.are	%temple%	%temple%	-1
+ar3703.are	-1	-1	-1
+ar3704.are	-1	-1	-1
+ar3705.are	-1	-1	-1
+ar3706.are	-1	-1	-1
+ar3707.are	-1	-1	-1
+ar3708.are	-1	-1	-1
+ar3709.are	%tav5%	%tav5%	-1
+ar3710.are	-1	-1	-1
+ar3800.are	%cday2%	%pnite%	%bp4%
+ar3801.are	-1	-1	-1
+ar3802.are	-1	-1	-1
+ar3803.are	-1	-1	-1
+ar3804.are	-1	-1	-1
+ar3805.are	-1	-1	-1
+ar3806.are	-1	-1	-1
+ar3807.are	-1	-1	-1
+ar3808.are	-1	-1	-1
+ar3809.are	-1	-1	-1
+ar3900.are	%dung3%	%dung3%	%bl1%
+ar3901.are	%dung1%	%dung1%	%bd4%
+ar4100.are	%fort%	%fort%	%bf3%
+ar4101.are	-1	-1	-1
+ar4102.are	-1	-1	-1
+ar4103.are	-1	-1	-1
+ar4199.are	-1	-1	-1
+ar4200.are	%fday%	%fnite%	%bf4%
+ar4300.are	%fday%	%fnite%	%bf4%
+ar4400.are	%fday%	%fnite%	%bf4%
+ar4401.are	%dung1%	%dung1%	%bd5%
+ar4402.are	%dung2%	%dung2%	%bd5%
+ar4403.are	%dung3%	%dung3%	%bd4%
+ar4404.are	%dung2%	%dung2%	%bd4%
+ar4405.are	%dung3%	%dung3%	%bd5%
+ar4406.are	-1	-1	-1
+ar4600.are	%fday%	%fnite%	%bf3%
+ar4700.are	-1	-1	-1
+ar4701.are	-1	-1	-1
+ar4800.are	-1	-1	-1
+ar4801.are	-1	-1	-1
+ar4900.are	-1	-1	-1
+ar4901.are	-1	-1	-1
+ar5100.are	-1	-1	-1
+ar5101.are	-1	-1	-1
+ar5300.are	-1	-1	-1
+ar5301.are	-1	-1	-1
+ar5400.are	-1	-1	-1
+ar6502.are	-1	-1	-1
+ar6505.are	-1	-1	-1
+ar6506.are	-1	-1	-1
+ar6507.are	-1	-1	-1
+ar6508.are	%chants%	%chants%	%bd4%
+ar6509.are	%chants%	%chants%	%bd4%
+ar6510.are	%chants%	%chants%	%bd4%
+ar6511.are	%chants%	%chants%	%bd4%
+ar6512.are	%chants%	%chants%	%bd4%
+ar6513.are	-1	-1	-1
+ar6514.are	%chants%	%chants%	%bd4%
+ar6515.are	%dung2%	%dung2%	%dung2%
+ar6516.are	%tav6%	%tav6%	-1
+ar6517.are	-1	-1	-1
+ar6518.are	%fort%	%fort%	%bl2%
+ar6519.are	%dung1%	%dung1%	%bd5%
+ar6526.are	%cday1%	%cnite%	%bc3%
+ar6527.are	-1	-1	-1
+ar6528.are	-1	-1	-1
+ar6529.are	%tav7%	%tav7%	-1
+ar6530.are	-1	-1	-1
+ar6531.are	-1	-1	-1
+ar6532.are	-1	-1	-1
+ar6533.are	-1	-1	-1
+ar6543.are	-1	-1	-1
+ar6560.are	%dung3%	%dung3%	%bd4%
+ar6600.are	%pday%	%pnite%	%bp3%
+ar6700.are	%tday2%	%tnite%	%bc4%
+ar6701.are	0	0	%bc4%
+ar6702.are	-1	-1	-1
+ar6703.are	-1	-1	-1
+ar6704.are	%tav8%	%tav8%	-1
+ar6705.are	-1	-1	-1
+ar6706.are	-1	-1	-1
+ar6707.are	%tav6%	%tav6%	-1
+ar6708.are	-1	-1	-1
+ar6709.are	-1	-1	-1
+ar6710.are	-1	-1	-1
+ar6711.are	-1	-1	-1
+ar6712.are	-1	-1	-1
+ar6713.are	-1	-1	-1
+ar6714.are	-1	-1	-1
+ar6715.are	-1	-1	-1
+ar6716.are	-1	-1	-1
+ar6717.are	-1	-1	-1
+ar6718.are	-1	-1	-1
+ar6719.are	-1	-1	-1
+ar6720.are	-1	-1	-1
+ar6721.are	-1	-1	-1
+ar6722.are	-1	-1	-1
+ar6723.are	-1	-1	-1
+ar6724.are	-1	-1	-1
+ar6725.are	-1	-1	-1
+ar6726.are	-1	-1	-1
+ar6727.are	-1	-1	-1
+ar6728.are	-1	-1	-1
+ar6729.are	-1	-1	-1
+ar6730.are	-1	-1	-1
+ar6731.are	-1	-1	-1
+ar6732.are	-1	-1	-1
+ar6733.are	-1	-1	-1
+ar6734.are	-1	-1	-1
+ar6735.are	-1	-1	-1
+ar6736.are	-1	-1	-1
+ar6737.are	-1	-1	-1
+ar6738.are	-1	-1	-1
+ar6739.are	-1	-1	-1
+ar6740.are	-1	-1	-1
+ar6741.are	-1	-1	-1
+ar6742.are	-1	-1	-1
+ar6743.are	-1	-1	-1
+ar6744.are	-1	-1	-1
+ar6745.are	-1	-1	-1
+ar6746.are	-1	-1	-1
+ar6747.are	-1	-1	-1
+ar6748.are	-1	-1	-1
+ar6749.are	-1	-1	-1
+ar6750.are	-1	-1	-1
+ar6751.are	%tav7%	%tav7%	-1
+ar6752.are	-1	-1	-1
+ar6753.are	-1	-1	-1
+ar6754.are	-1	-1	-1
+ar6755.are	-1	-1	-1
+ar6756.are	-1	-1	-1
+ar6757.are	%tav6%	%tav6%	-1
+ar6800.are	%tday1%	%tnite%	%bc4%
+ar6801.are	%tav5%	%tav5%	-1
+ar6802.are	-1	-1	-1
+ar6803.are	-1	-1	-1
+ar6804.are	%temple%	%temple%	-1
+ar6805.are	-1	-1	-1
+ar6806.are	-1	-1	-1
+ar6900.are	%fday%	%fnite%	%bf4%
+ar7000.are	%fday%	%fnite%	%bf3%
+ar7015.are	-1	-1	-1
+ar7100.are	%fday%	%fnite%	%bf4%
+ar7101.are	-1	-1	-1
+ar7102.are	0	0	%bf3%
+ar7200.are	%cday2%	%cnite%	%bc4%
+ar7201.are	%tday1%	%tnite%	%bc3%
+ar7202.are	%tday1%	%tnite%	%bc3%
+ar7203.are	%tav5%	%tav5%	-1
+ar7204.are	-1	-1	-1
+ar7205.are	%tav6%	%tav6%	-1
+ar7206.are	%tav6%	%tav6%	-1
+ar7207.are	-1	-1	-1
+ar7208.are	%tday1%	%tnite%	%bc3%
+ar7209.are	%tday1%	%tnite%	%bc3%
+ar7210.are	%tday1%	%tnite%	%bc3%
+ar7211.are	%dung1%	%dung1%	%bd4%
+ar7212.are	%cday2%	%cday2%	-1
+ar7214.are	%tav8%	%tav8%	-1
+ar7215.are	%tav8%	%tav8%	-1
+ar7216.are	%tav5%	%tav5%	-1
+ar7217.are	-1	-1	-1
+ar7218.are	-1	-1	-1
+ar7219.are	%tav6%	%tav6%	-1
+ar7220.are	%tav6%	%tav6%	-1
+ar7221.are	-1	-1	-1
+ar7223.are	%dream%	%dream%	%bw1%
+ar7225.are	%bgtheme%	%bgtheme%	%bw1%
+ar7226.are	%tday1%	%tnite%	-1
+ar7227.are	%tday1%	%tnite%	-1
+ar7228.are	%tday1%	%tnite%	-1
+ar7229.are	%tday1%	%tnite%	-1
+ar7230.are	%tday1%	%tnite%	%bc3%
+ar7231.are	%tday1%	%tnite%	%bc3%
+ar7232.are	%temple%	%temple%	%bc3%
+ar7233.are	%cday2%	%cday2%	-1
+ar7234.are	%cday2%	%cday2%	-1
+ar7235.are	%cday2%	%cday2%	-1
+ar7236.are	%cday2%	%cday2%	-1
+ar7237.are	-1	-1	-1
+ar7238.are	-1	-1	-1
+ar7239.are	-1	-1	-1
+ar7240.are	-1	-1	-1
+ar7241.are	-1	-1	-1
+ar7242.are	-1	-1	-1
+ar7243.are	%tday1%	%tnite%	%bc3%
+ar7244.are	%tday1%	%tnite%	%bc3%
+ar7245.are	%tday1%	%tnite%	%bc3%
+ar7246.are	%fort%	%fort%	%bf4%
+ar7248.are	-1	-1	-1
+ar7249.are	0	0	%bd4%
+ar7250.are	-1	-1	-1
+ar7251.are	-1	-1	-1
+ar7252.are	-1	-1	-1
+ar7253.are	-1	-1	-1
+ar7254.are	%tav5%	%tav5%	-1
+ar7255.are	-1	-1	-1
+ar7256.are	-1	-1	-1
+ar7257.are	-1	-1	-1
+ar7258.are	-1	-1	-1
+ar7259.are	-1	-1	-1
+ar7260.are	-1	-1	-1
+ar7261.are	-1	-1	-1
+ar7262.are	-1	-1	-1
+ar7263.are	-1	-1	-1
+ar7264.are	-1	-1	-1
+ar7265.are	%tav7%	%tav7%	-1
+ar7266.are	-1	-1	-1
+ar7267.are	-1	-1	-1
+ar7268.are	-1	-1	-1
+ar7269.are	-1	-1	-1
+ar7270.are	-1	-1	-1
+ar7271.are	-1	-1	-1
+ar7300.are	%cday1%	%cnite%	%bc3%
+ar7324.are	%dung2%	%dung2%	%bd5%
+ar7325.are	%dung1%	%dung1%	%bd4%
+ar7326.are	%dung1%	%dung1%	%dung1%
+ar7400.are	%cday2%	%cnite%	%bc3%
+ar7402.are	-1	-1	-1
+ar7403.are	-1	-1	-1
+ar7404.are	-1	-1	-1
+ar7405.are	-1	-1	-1
+ar7406.are	-1	-1	-1
+ar7407.are	-1	-1	-1
+ar7408.are	-1	-1	-1
+ar7500.are	%tday2%	%tnite%	%bc3%
+ar7501.are	-1	-1	-1
+ar7600.are	%cday1%	%cnite%	%bc3%
+ar7601.are	%tday1%	%tnite%	-1
+ar7602.are	%tday1%	%tnite%	-1
+ar7603.are	%tday1%	%tnite%	-1
+ar7606.are	-1	-1	-1
+ar7607.are	-1	-1	-1
+ar7608.are	-1	-1	-1
+ar7609.are	-1	-1	-1
+ar7611.are	-1	-1	-1
+ar7612.are	-1	-1	-1
+ar7613.are	-1	-1	-1
+ar7614.are	-1	-1	-1
+ar7615.are	-1	-1	-1
+ar7616.are	%tday1%	%tnite%	-1
+ar7617.are	-1	-1	-1
+ar7618.are	-1	-1	-1
+ar7619.are	-1	-1	-1
+ar7620.are	-1	-1	-1
+ar7621.are	%cday1%	%cnite%	%bc3%
+ar7700.are	%cday2%	%cnite%	%bc4%
+ar7702.are	%tday1%	%tnite%	-1
+ar7703.are	-1	-1	-1
+ar7704.are	-1	-1	-1
+ar7705.are	0	0	%bc3%
+ar7706.are	0	0	%bc3%
+ar7707.are	-1	-1	-1
+ar7708.are	-1	-1	-1
+ar7709.are	-1	-1	-1
+ar7710.are	-1	-1	-1
+ar7711.are	-1	-1	-1
+ar7712.are	-1	-1	-1
+ar7713.are	-1	-1	-1
+ar7714.are	-1	-1	-1
+ar7715.are	-1	-1	-1
+ar7716.are	-1	-1	-1
+ar7717.are	-1	-1	-1
+ar7718.are	-1	-1	-1
+ar7719.are	%tday1%	%tnite%	-1
+ar7720.are	%tav6%	%tav6%	-1
+ar7721.are	-1	-1	-1
+ar7722.are	-1	-1	-1
+ar7723.are	-1	-1	-1
+ar7724.are	-1	-1	-1
+ar7725.are	-1	-1	-1
+ar7726.are	-1	-1	-1
+ar7800.are	%cday1%	%cnite%	%bc4%
+ar7801.are	-1	-1	-1
+ar7802.are	-1	-1	-1
+ar7803.are	-1	-1	-1
+ar7804.are	-1	-1	-1
+ar7805.are	-1	-1	-1
+ar7806.are	-1	-1	-1
+ar7807.are	%tav8%	%tav8%	-1
+ar7808.are	%tav8%	%tav8%	-1
+ar7809.are	-1	-1	-1
+ar7810.are	-1	-1	-1
+ar7811.are	-1	-1	-1
+ar7812.are	-1	-1	-1
+ar7813.are	-1	-1	-1
+ar7814.are	-1	-1	-1
+ar7900.are	%cday1%	%cnite%	%bc4%
+ar7901.are	-1	-1	-1
+ar8000.are	%cday2%	%cnite%	%bc4%
+ar8001.are	%tday1%	%tnite%	-1
+ar8002.are	%tday1%	%tnite%	-1
+ar8003.are	-1	-1	-1
+ar8004.are	-1	-1	-1
+ar8005.are	-1	-1	-1
+ar8006.are	-1	-1	-1
+ar8007.are	-1	-1	-1
+ar8008.are	-1	-1	-1
+ar8009.are	%tav5%	%tav5%	-1
+ar8010.are	%tav5%	%tav5%	-1
+ar8011.are	-1	-1	-1
+ar8012.are	-1	-1	-1
+ar8013.are	%tav7%	%tav7%	-1
+ar8014.are	%tav7%	%tav7%	-1
+ar8015.are	-1	-1	-1
+ar8016.are	-1	-1	-1
+ar8017.are	%tav8%	%tav8%	-1
+ar8100.are	%cday1%	%cnite%	%bc4%
+ar8101.are	%tday1%	%tnite%	-1
+ar8102.are	%tday1%	%tnite%	-1
+ar8103.are	-1	-1	-1
+ar8104.are	-1	-1	-1
+ar8105.are	-1	-1	-1
+ar8106.are	-1	-1	-1
+ar8107.are	-1	-1	-1
+ar8108.are	-1	-1	-1
+ar8109.are	-1	-1	-1
+ar8110.are	-1	-1	-1
+ar8111.are	-1	-1	-1
+ar8112.are	-1	-1	-1
+ar8113.are	-1	-1	-1
+ar8114.are	-1	-1	-1
+ar8115.are	%tav6%	%tav6%	-1
+ar8200.are	%cday2%	%cnite%	%bc3%
+ar8201.are	-1	-1	-1
+ar8202.are	-1	-1	-1
+ar8203.are	-1	-1	-1
+ar8204.are	-1	-1	-1
+ar8205.are	-1	-1	-1
+ar8206.are	%tav8%	%tav8%	-1
+ar8207.are	%tav8%	%tav8%	-1
+ar8208.are	-1	-1	-1
+ar8209.are	-1	-1	-1
+ar8210.are	-1	-1	-1
+ar8211.are	-1	-1	-1
+ar8212.are	-1	-1	-1
+ar8213.are	-1	-1	-1
+ar8214.are	-1	-1	-1
+ar8215.are	-1	-1	-1
+ar8216.are	-1	-1	-1
+ar8217.are	-1	-1	-1
+ar8220.are	-1	-1	-1
+ar8300.are	%pday%	%pnite%	%bp3%
+ar8301.are	%dung1%	%dung1%	%bd4%
+ar8302.are	-1	-1	-1
+ar8303.are	-1	-1	-1
+ar8304.are	-1	-1	-1
+ar8400.are	%fday%	%fnite%	%bf4%
+ar8401.are	-1	-1	-1
+ar8402.are	-1	-1	-1
+ar8403.are	-1	-1	-1
+ar8500.are	%fday%	%fnite%	%bf4%
+ar8501.are	-1	-1	-1
+ar8600.are	%dung3%	%dung3%	%bl2%
+ar8601.are	%dung3%	%dung3%	%bl1%
+ar8602.are	%dung2%	%dung2%	%bl2%
+ar8603.are	%dung1%	%dung1%	%bl1%
+ar8604.are	%dung3%	%dung3%	%bl2%
+ar8605.are	-1	-1	-1
+ar8606.are	-1	-1	-1
+ar8607.are	%dung2%	%dung2%	%bd4%
+ar8608.are	-1	-1	-1
+ar8609.are	-1	-1	-1
+ar8700.are	%fort%	%fort%	%bf4%
+ar8701.are	-1	-1	-1
+ar8702.are	-1	-1	-1
+ar8703.are	%dung1%	%dung1%	%bd5%
+ar8704.are	-1	-1	-1
+ar8705.are	-1	-1	-1
+ar8706.are	-1	-1	-1
+ar8707.are	-1	-1	-1
+ar8800.are	%pday%	%pnite%	%bp4%
+ar8801.are	%fday%	%fnite%	%bf3%
+ar8900.are	%pday%	%pnite%	%bp4%
+ar9000.are	%fday%	%fnite%	%bf4%
+ar9100.are	%pday%	%pnite%	%bp4%
+ar9200.are	%pday%	%pnite%	%bp3%
+ar9300.are	%pday%	%pnite%	%bp3%
+ar9301.are	%chants%	%chants%	%bp3%
+ar9302.are	%chants%	%chants%	%bp3%
+ar9400.are	%dung3%	%dung3%	%bl1%
+ar9500.are	%dung1%	%dung1%	%bf3%
+ar9501.are	%dung1%	%dung1%	%bf3%
+ar9600.are	%pday%	%pnite%	%bp3%
+ar9700.are	%fday%	%fnite%	%bf4%
+ar9702.are	%dung1%	%dung1%	%bd4%
+ar9798.are	%dung1%	%dung1%	%bd4%
+ar9799.are	%dung2%	%dung2%	%bd4%
+ar9900.are	%pday%	%pnite%	%bp3%
+ar9901.are	-1	-1	-1
+ar9902.are	-1	-1	-1
+ar9903.are	-1	-1	-1
+ar9904.are	-1	-1	-1
+ar9905.are	-1	-1	-1
+ar9906.are	-1	-1	-1
+ar9907.are	-1	-1	-1
+ar9908.are	-1	-1	-1
+ar9909.are	-1	-1	-1
+ar9910.are	-1	-1	-1
+ar9911.are	-1	-1	-1
+ar9912.are	-1	-1	-1
+ar9913.are	-1	-1	-1
+ar9914.are	-1	-1	-1
+ara002.are	%chants%	%chants%	%bc3%
+ara004.are	-1	-1	-1
+ara005.are	-1	-1	-1
+ara006.are	-1	-1	-1
+ara007.are	-1	-1	-1
+ara008.are	-1	-1	-1
+ara009.are	-1	-1	-1
+ara010.are	-1	-1	-1
+ara011.are	-1	-1	-1
+ara012.are	-1	-1	-1
+ara013.are	-1	-1	-1
+ara014.are	-1	-1	-1
+ara015.are	-1	-1	-1
+ara016.are	-1	-1	-1
+ara017.are	-1	-1	-1
+ara018.are	-1	-1	-1
+ara019.are	-1	-1	-1
+ara020.are	-1	-1	-1
+ara021.are	-1	-1	-1
+ara100.are	%fday%	%fnite%	%bf4%
+ara101.are	-1	-1	-1
+aram00.are	0	0	0
+ard000.are	%fort%	%fort%	%bf3%
+ard001.are	%dung3%	%dung3%	%bd4%
+ard002.are	%dung1%	%dung1%	%bd4%
+ard003.are	%dung3%	%dung3%	%bd4%
+ard004.are	%dung3%	%dung3%	%bd4%
+ard005.are	%dung3%	%dung3%	%bd4%
+ard006.are	%dung2%	%dung2%	%bd4%
+ard007.are	%dung2%	%dung2%	%bd4%
+ard008.are	%dung2%	%dung2%	%bd4%
+ard009.are	%dung2%	%dung2%	%bd4%
+ard010.are	%dung2%	%dung2%	%bd4%
+ard011.are	%dung2%	%dung2%	%bd4%
+ard012.are	%dung2%	%dung2%	%bd4%
+ard013.are	%dung2%	%dung2%	%bd4%
+ard014.are	%dung2%	%dung2%	%bd4%
+ard015.are	%dung2%	%dung2%	%bd4%
+ard016.are	%dung2%	%dung2%	%bd4%
+aru000.are	%tday2%	%tnite%	%bc3%
+aru001.are	%tday1%	%tnite%	%bc4%
+aru002.are	%dung2%	%dung2%	%bd4%
+aru003.are	%tday2%	%tday2%	%bd4%
+aru004.are	%tday2%	%tnite%	%bc3%
+aru005.are	%tday2%	%tnite%	%bc3%
+aru006.are	%tday2%	%tnite%	%bc3%
+aru007.are	%tday2%	%tnite%	%bc3%
+aru008.are	%dung1%	%dung1%	%bd5%
+aru009.are	%dung2%	%dung2%	%bd4%
+arw000.are	%tday2%	%tnite%	%bc4%
+arw001.are	%tday2%	%tnite%	%bc4%
+arw002.are	%tday2%	%tnite%	%bc4%
+arw003.are	%tday2%	%tnite%	%bc4%
+arw004.are	%tday2%	%tnite%	%bc4%
+arw005.are	%tday2%	%tnite%	%bc4%
+arw006.are	%tday2%	%tnite%	%bc4%
+arw007.are	%tday2%	%tnite%	%bc4%
+arw008.are	-1	-1	%bc4%
+arw009.are	-1	-1	%bc4%
+arw010.are	-1	-1	%bc4%
+arw011.are	-1	-1	%bc4%
+arw012.are	%dung2%	%dung2%	%bd4%
+arw500.are	%fday%	%fnite%	%bf3%
+arw501.are	%fort%	%fort%	%bw1%
+arw502.are	%fort%	%fort%	%bl1%
+arw503.are	%fort%	%fort%	%bl1%
+arw504.are	%fort%	%fort%	%bl1%
+arw505.are	%fday%	%fnite%	%bf4%
+>>>>>>>>
+
+//PRINT ~Number of Songs: %num_songs%~
+
+OUTER_SET rows_cnt_bgt=0
+COPY - ~areapatchlist~ ~areapatchlist~
+  EVALUATE_BUFFER
+  COUNT_2DA_ROWS 4 "rows_cnt_bgt"
+  FOR( cntg=0; cntg<"%rows_cnt_bgt%"; cntg=cntg+1 ) BEGIN
+    READ_2DA_ENTRY cntg 0 4 "bgt_table_file_name"
+    READ_2DA_ENTRY cntg 1 4 "bgt_day_song"
+    READ_2DA_ENTRY cntg 2 4 "bgt_night_song"
+    READ_2DA_ENTRY cntg 3 4 "bgt_battle_song"
+/*
+    PATCH_IF (%bgt_day_song% > 0) BEGIN
+      SET %bgt_day_song% += %num_songs%
+    END
+    PATCH_IF (%bgt_night_song% > 0) BEGIN
+      SET %bgt_night_song% += %num_songs%
+    END
+    PATCH_IF (%bgt_battle_song% > 0) BEGIN
+      SET %bgt_battle_song% += %num_songs%
+    END
+*/
+    SET fileExistsInGame = 0
+    INNER_PATCH_FILE "%bgt_table_file_name%" BEGIN //thanx to devSin for this idea - from WeiDU forums
+      PATCH_IF (~%SOURCE_SIZE%~) BEGIN
+        SET fileExistsInGame = 1
+      END
+    END
+    PATCH_IF fileExistsInGame=1 THEN BEGIN
+      INNER_ACTION BEGIN
+        COPY_EXISTING "%bgt_table_file_name%" ~override~ //patching the file from the current table entry
+        READ_LONG 0xbc "bgt_song_offset"
+        WRITE_LONG ("%bgt_song_offset%") "%bgt_day_song%"
+        WRITE_LONG ("%bgt_song_offset%")+4 "%bgt_night_song%"
+        WRITE_LONG ("%bgt_song_offset%")+12 "%bgt_battle_song%"
+        BUT_ONLY_IF_IT_CHANGES //COPY_EXISTING
+      END //INNER_ACTION
+    END //PATCH_IF fileExistsInGame
+
+  END //.TBL loop
+
+////////////////////////////////////////////////////////////
+// Biff all new resources
+////////////////////////////////////////////////////////////
+
+BEGIN @100043 LABEL ~A6-BGT-Biff~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
+
+MKDIR ~bgt/biff/bgtare~
+      ~bgt/biff/bg1bcs~
+      ~bgt/biff/bgtcre~
+      ~bgt/biff/bg1dlg~
+      ~bgt/biff/bg1itm~
+      ~bgt/biff/bg1spl~
+      ~bgt/biff/bg1sto~
+      ~bgt/biff/bg1misc~
+
+INCLUDE ~bgt/include/biff_move.tpa~
+MAKE_BIFF ~bgtare~  BEGIN ~bgt/biff/bgtare~ ~^.*$~  END
+MAKE_BIFF ~bg1bcs~  BEGIN ~bgt/biff/bg1bcs~ ~^.*$~  END
+MAKE_BIFF ~bgtcre~  BEGIN ~bgt/biff/bgtcre~ ~^.*$~  END
+MAKE_BIFF ~bg1dlg~  BEGIN ~bgt/biff/bg1dlg~ ~^.*$~  END
+MAKE_BIFF ~bg1itm~  BEGIN ~bgt/biff/bg1itm~ ~^.*$~  END
+MAKE_BIFF ~bg1spl~  BEGIN ~bgt/biff/bg1spl~ ~^.*$~  END
+MAKE_BIFF ~bg1sto~  BEGIN ~bgt/biff/bg1sto~ ~^.*$~  END
+MAKE_BIFF ~bg1misc~ BEGIN ~bgt/biff/bg1misc~ ~^.*$~ END

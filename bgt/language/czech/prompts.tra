@@ -11,7 +11,6 @@ K uspore casu s nimi muzete nalozit hromadne, spise nez byt tazan na kazdy zvlas
 @-1003= "Co s komponenty, ktere JSOU nainstalovany?
 [R] Reinstalovat je, [U] Odinstalovat je, [S] Preskocit je, [A] Zeptat se na kazdy zvlast? "
 
-//modified
 @-1004= "Prosime, poslete soubor "
 @-1005= "na"
 
@@ -59,15 +58,14 @@ vyberte moznost:"
 @-1033= "INSTALOVAN S VAROVANIMI    "
 @-1034= "Chcete zobrazit readme? [Y] Ano [N] Ne"
 @-1035= "V jazyce"
-  
+
 @-1036= "Preskakuji SKUPINU ["
 @-1037= "] protoze nesplnuje pozadavky."
-  
+
 @-1038= "[A] Zeptat se na kazdy zvlast, [S] Preskocit vsechny, nebo zvol preddefinovany vyber:"
 @-1039= "[A] Zeptat se na kazdy zvlast, [R] Reinstaluj soucasnou konfiguraci, [U] Odinstaluj vse, [S] Preskoc vse, nebo zvol preddefinovany vyber:"
 
-
-@100000 = ~Baldur's Gate Trilogy - Core (Jadro)~
+@100000 = ~Baldur's Gate Trilogy - Jadro~
 @100001 = ~Odstranuji pred-instalacni soucast...~
 @100002 = ~Zalohuji chitin.key a slozku override...~
 @100003 = ~Upravuji dialog.tlk.  Prosim cekejte...~
@@ -93,9 +91,9 @@ vyberte moznost:"
 @100023 = ~PLNA Baldur's Gate/Shadows of Amn/Throne of Bhaal HUDBA (VAROVANI: upravuje BGMain.exe!)~
 
 @100024 = ~Herni graficke uzivatelske rozhrani (GUI)~
-@100025 = ~"Puvodni SoA/ToB"~
-@100026 = ~"Baldur's Gate Trilogy" (Elminster drzici mec)~
-@100027 = ~"Baldur's Gate Trilogy" (Elminster drzici hul)~
+@100025 = ~Puvodni SoA/ToB~
+@100026 = ~Baldur's Gate Trilogy (Elminster drzici mec)~
+@100027 = ~Baldur's Gate Trilogy (Elminster drzici hul)~
 
 @100028 = ~Zadejte kompletni umisteni Vasi Baldur's Gate instalace a pote stisknete Enter.~
 @100029 = ~Neplatna cesta k Baldur's Gate nebo neplatna instalace Baldur's Gate.
@@ -114,7 +112,7 @@ Je bezpecne ukoncit instalaci vypnutim tohoto okna nebo stisknutim Ctrl+C.~
 @100041 = ~Komprimuji herni soubory...~
 @100042 = ~Nalezena cesta k Baldur's Gate I %bg1_dir%.
 Je spravna? [Y] Ano nebo [N] Ne~
-@100043 = ~Chcete vsechna nova data prevest do formatu biff? (doporuceno krome instalaci megamodifikaci)
-[Y] Ano nebo [N] Ne~
+@100043 = ~Prevest vsechna nova data do formatu biff (doporuceno, krome megamodifikaci)~
 @100044 = ~Nalezen OS na bazi Unix. Zapisovani povoleno.%LNL%%LNL%~
 @100045 = ~Nalezena stara verze Windows. Bude mozne jen omezene zapisovani.%WNL%%WNL%~
+@100046 = ~Vyzaduje komponentu [Baldur's Gate Trilogy - Jadro]~

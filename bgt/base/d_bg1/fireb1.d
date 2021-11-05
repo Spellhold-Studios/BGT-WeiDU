@@ -8,7 +8,7 @@ END
 IF ~!HasItem("SCRL75",LastTalkedToBy)
 !Global("HelpFirebead","GLOBAL",2)~ THEN BEGIN 1
   SAY @16185
-  IF ~~ THEN EXIT
+  IF ~~ THEN DO ~~ EXIT
 END
 
 IF ~HasItem("SCRL75",LastTalkedToBy)~ THEN BEGIN 2
@@ -23,10 +23,10 @@ END
 
 IF ~False()~ THEN BEGIN 3
   SAY @16187
-  IF ~~ THEN EXIT
+  IF ~~ THEN DO ~~ EXIT
 END
 
 IF ~True()~ THEN BEGIN 4
   SAY @16188
-  IF ~~ THEN EXIT
+  IF ~~ THEN DO ~~ EXIT
 END

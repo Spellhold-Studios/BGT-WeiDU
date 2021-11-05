@@ -132,8 +132,6 @@ Nemùže užívat:
 ////////////////////////////////////////////////////////////////////
 // Areas
 ////////////////////////////////////////////////////////////////////
-@600005 = ~Okolo tohoto pøedmìtu je pøehnané množství bláta a slyšíš zvuky, které se podobají jenom zvukùm, které jsi slyšel pod vodou.  Že by byl tenhle výmysl nìjaký druh pøehrady?~
-
 @600010 = ~Hlavní brána~
 @600011 = ~Knihovna~
 @600012 = ~Ošetøovna~
@@ -168,14 +166,14 @@ Nemùže užívat:
 ////////////////////////////////////////////////////////////////////
 // 2DA Files
 ////////////////////////////////////////////////////////////////////
-@700000 = ~Kapitola první/Prolog:~
-@700005 = ~Kapitola druhá:~
-@700009 = ~Kapitola tøetí:~
-@700011 = ~Kapitola ètvrtá:~
-@700013 = ~Kapitola pátá:~
-@700015 = ~Kapitola šestá:~
-@700017 = ~Kapitola sedmá:~
-@700019 = ~Kapitola osmá:~
+@700000 = ~Kapitola první~
+@700005 = ~Kapitola druhá~
+@700009 = ~Kapitola tøetí~
+@700011 = ~Kapitola ètvrtá~
+@700013 = ~Kapitola pátá~
+@700015 = ~Kapitola šestá~
+@700017 = ~Kapitola sedmá~
+@700019 = ~Kapitola osmá~
 
 @700020 = ~"Ten, kdo bojuje s nestvùrami, by se mìl mít na pozoru, aby se sám nestal nestvùrou...když dlouho hledíš do pekel, pekla také hledí do tebe..." -Friedrich Nietzsche~
 @700021 = ~Ne, nemùžeš!~
@@ -310,9 +308,12 @@ a další~
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
 @900002 = ~Dobrá tedy. Jsem Delthyr; zastupuji zde Harfeníky. Hledám vás již mnoho týdnù. Teprve nedávno jsem zjsitil, že jste pøed nìjakou dobou opustili mìsto. Vìci se zmìnily, zatímco jste byli pryè. Mohu vám øíct vše, co potøebujete vìdìt. Vyslechnete mì?~
 
+// GERDE.DLG - #15166; change quota of ankhegs to ten
+@900003 = ~Øekla jsem kvótu deset na skupinu! Vypadni odsud a dej si bacha, protože všechny pytláky hlásím na Ohnivou pìst! Zatracení zabijáètí šílenci...~
+
 @900037 = ~Baldur's Gate úvod~
 @900038 = ~Shadows of Amn úvod~
-@900039 = ~Nová BG2 hra~
+@900039 = ~nová bg2 hra~
 @900040 = ~Klikni na Nová BG2 hra, abys pøeskoèil Baldur's Gate I a zaèal rovnou od Baldur's Gate II: Shadows of Amn.
 
 Jestli chceš hrát Baldur's Gate I, klikni na Zrušit a potom na Nová hra.~
@@ -322,11 +323,11 @@ Jestli chceš hrát Baldur's Gate I, klikni na Zrušit a potom na Nová hra.~
 //Shadows of Amn description button text
 @900043 = ~"Tortured Souls"~
 @900044 = ~"The Darkest Day"~
-@900045 = ~"Shadows Over Soubar"~
+@900045 = ~"Shadows over Soubar"~
 @900046 = ~"Neverending Journey"~
 @900047 = ~"Region of Terror"~
 @900048 = ~"Big Picture"~
-@900049 = ~"Check The Bodies"~
+@900049 = ~"Check the Bodies"~
 @900050 = ~Hraj~
 @900051 = ~Shadows of Amn~
 @900052 = ~ Baldur's Gate a Tales of the Sword Coast nebo ~

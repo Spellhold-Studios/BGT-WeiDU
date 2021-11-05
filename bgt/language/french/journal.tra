@@ -538,25 +538,25 @@
 @800179 = ~Sauvetage de Xan dans les mines de Nashkel.
 
 ~
-@800180 = ~Chapitre 2 : Seul.
+@800180 = ~Chapitre 2
 
 ~
-@800181 = ~Chapitre 3 : Problèmes à Nashkel.
+@800181 = ~Chapitre 3
 
 ~
-@800182 = ~Chapitre 4 : Bandits et pénurie de fer.
+@800182 = ~Chapitre 4
 
 ~
-@800183 = ~Chapitre 5 : En route pour Bois-Manteau.
+@800183 = ~Chapitre 5
 
 ~
-@800184 = ~Chapitre 6 : En route pour la Porte de Baldur.
+@800184 = ~Chapitre 6
 
 ~
-@800185 = ~Chapitre 7 : Retour à Château-Suif.
+@800185 = ~Chapitre 7
 
 ~
-@800186 = ~Chapitre 8 : Dénouement.
+@800186 = ~Chapitre 8
 
 ~
 @800187 = ~Rencontre avec Cadderly.
@@ -934,39 +934,39 @@ J'ai ramené la cape de Shandalar de ce qui semblait être une prison de glace. Je
 //Chapter journal entries
 /////////////////////////
 /*JOURNAL - @16190*/
-@310733 = ~Chapitre 2 : Seul.
+@310733 = ~Chapitre 2
 
 L'aube est particulièrement cruelle ce matin. Vous vous réveillez en prenant conscience que ce n'était pas un cauchemar. Pris dans une embuscade, vous avez vu Gorion se faire abattre devant vous, et sa puissante magie n'a pas pu le sauver de ce violent assaut. Il vous a demandé de prendre la fuite, mais cela n'enlève pas le sentiment d'impuissance qui vous envahit à présent.
 
 « Remettez-nous votre enfant », dit le fiélon en armure. Il en avait après vous et vous seulement, mais pour quelle raison ? Si seulement Gorion vous avait mis sur la piste, mais à présent vous vous sentez seul et perdu. Château-Suif n'est pas loin, mais vous ne pourrez pas vous y réfugier. Les lecteurs paient pour leur sérénité avec des règles d'accès assez draconiennes, et sans l'intervention de Gorion, les portes demeureront fermées.~
 
 /*JOURNAL - @15836*/
-@310734 = ~Chapitre 3 : Problèmes à Nashkel.
+@310734 = ~Chapitre 3
 
 Peu après votre fuite précipitée de Château-Suif, les problèmes que doit affronter la Côte des Epées ne sont plus qu'un lointain souci pour votre esprit embrumé. Toutefois, Gorion n'a aucune envie de vous voir vous adonner à l'oisiveté et peut-être qu'une enquête sur les problèmes locaux vous permettrait de mieux comprendre votre propre situation. Comment la pénurie de fer ou les problèmes des mines de Nashkel peuvent-ils être liés à vous, vous n'en avez aucune idée.~
 
 /*JOURNAL - @15837*/
-@310735 = ~Chapitre 4 : Bandits et pénurie de fer.
+@310735 = ~Chapitre 4
 
 Il ne fait aucun doute que la mort de Mulahey va soulager les craintes de la population de Nashkel actuellement terrorisée, mais vous demeurez dans l'inquiétude. S'il est possible que le demi-orque soit effectivement à l'origine des problèmes de la mine, la pénurie de fer est trop généralisée pour être de son seul fait. Ses lettres confirment vos soupçons, et bien qu'elles ne donnent guère d'indications sur la cachette de ses cohortes, celles-ci doivent être alliées aux bandits qui hantent actuellement la Voie Côtière.~
 
 /*JOURNAL - @15838*/
-@310736 = ~Chapitre 5 : En route pour Bois-Manteau.
+@310736 = ~Chapitre 5
 
 Mulahey et Tazok se sont avérés n'être que des marionnettes ; le véritable maître de ce mystère qui se dévoile peu à peu devant vous continue à vous échapper. Une chose est certaine : une personne a pris un intérêt très personnel à vouloir votre mort, mais vous ne savez pas très bien pourquoi. Votre quête de la vérité se poursuit et Bois-Manteau est votre prochaine destination.~
 
 /*JOURNAL - @15839*/
-@310737 = ~Chapitre 6 : En route pour la Porte de Baldur.
+@310737 = ~Chapitre 6
 
 Vous avez fait subir un rude revers à l'organisation connue sous le nom de Trône de Fer, une défaite qui ne sera certainement pas passée sous silence. Vous devez maintenant vous rendre dans la grande cité de la Porte de Baldur, où vous découvrirez assurément la vérité qui se cache derrière l'étrange complot qui gâche la vie des habitants de la Côte des Epées.~
 
 /*JOURNAL - @15840*/
-@310738 = ~Chapitre 7 : Retour à Château-Suif.
+@310738 = ~Chapitre 7
 
 Votre voyage vous ramène à votre point de départ. Le Duc Eltan vous a demandé de revenir à Château-Suif, où vous devez espionner les chefs du Trône de Fer. Bien que cela vous dérange que des personnages aussi maléfiques se servent de la grande bibliothèque et que vous aimeriez que les circonstances de votre visite soient différentes, ce sera néanmoins un plaisir pour vous que de retrouver votre ancien foyer.~
 
 /*JOURNAL - @15841*/
-@310739 = ~Chapitre 8 : Dénouement.
+@310739 = ~Chapitre 8
 
 La vie continue à être un véritable défi. On vous accuse d'avoir assassiné les chefs du Trône de Fer et le Poing Enflammé ne vous lâchera certainement pas d'une semelle pour cette raison. En dépit de cela, vous devez revenir à la Porte de Baldur, l'antre même de vos accusateurs. Vous devez retrouver et démasquer le responsable de la situation périlleuse dans laquelle vous vous trouvez. Vous devez retrouver Sarevok.~
 

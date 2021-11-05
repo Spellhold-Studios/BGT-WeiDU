@@ -1,0 +1,12 @@
+
+# CMake intermediate files
+cmake-build-*/
+
+# Test results
+tests/output/*
+
+# IDE
+.idea/
+
+# macOS files
+.DS_Store
