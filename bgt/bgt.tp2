@@ -2808,6 +2808,10 @@ COPY_EXISTING ~ringjoia.itm~ ~override/ringjoia.itm~
   SAY NAME1 @24123
   SAY NAME2 @24122
 
+COPY_EXISTING ~scrl17.itm~ ~override~ // Cursed Scroll of Ailment
+              ~scrl18.itm~ ~override~ // Cursed Scroll of Stupidity
+  WRITE_LONG 0x34 300 // price
+
 COPY_EXISTING ~scrl2j.itm~ ~override/scrl2j.itm~
   SAY UNIDENTIFIED_DESC @6484
 
