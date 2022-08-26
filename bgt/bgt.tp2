@@ -3615,6 +3615,7 @@ COPY ~bgt/modify/itm/staf04.itm~ ~override/bgstaf04.itm~
 COPY ~bgt/modify/itm/sw2h07.itm~ ~override/bgsw2h07.itm~
   SAY NAME2 @23964
   SAY IDENTIFIED_DESC @200006
+  WRITE_SHORT 0x26 14 // min strength
   WRITE_ASCII 0x3a ~BGISW2H7~
 
   READ_LONG 0x64 abil_off
