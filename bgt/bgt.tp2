@@ -2650,6 +2650,7 @@ COPY_EXISTING ~blun11.itm~ ~override/blun11.itm~
 
 COPY_EXISTING ~book87.itm~ ~override/book87.itm~
   SAY UNIDENTIFIED_DESC @22840
+  WRITE_SHORT 0x1c 34 //category = gems
 
 COPY_EXISTING ~book88.itm~ ~override/book88.itm~
   READ_BYTE 0x18 flags
