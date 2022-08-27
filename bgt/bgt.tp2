@@ -9654,6 +9654,10 @@ AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp -
 
 AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest ikeee_04.wav~
 
+ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
+  AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest genfg02.wav genfg07.wav genfg08.wav genfg09.wav genfg12.wav genft05.wav genft07.wav genft10.wav genmg08.wav~
+END
+
 ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~french~ ) OR
           ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~german~ ) THEN BEGIN
   AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest intro01.wav intro02.wav~
@@ -9844,6 +9848,84 @@ ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~german~ ) = 0 THEN BEGIN
   AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest guarr.*wav chant.*wav oghma03.wav oghma04.wav~
   AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest gnome.*wav gnomf.*wav wench.*wav~
   LAM bash_log
+END
+
+// restore BG1 generic npc sounds
+ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
+  MOVE + ~bgtwav/genfg02.wav~ ~bgtwav/bgenfg02.wav~
+         ~bgtwav/genfg07.wav~ ~bgtwav/bgenfg07.wav~
+         ~bgtwav/genfg08.wav~ ~bgtwav/bgenfg08.wav~
+         ~bgtwav/genfg09.wav~ ~bgtwav/bgenfg09.wav~
+         ~bgtwav/genfg12.wav~ ~bgtwav/bgenfg12.wav~
+         ~bgtwav/genft05.wav~ ~bgtwav/bgenft05.wav~
+         ~bgtwav/genft07.wav~ ~bgtwav/bgenft07.wav~
+         ~bgtwav/genft10.wav~ ~bgtwav/bgenft10.wav~
+         ~bgtwav/genmg08.wav~ ~bgtwav/bgenmg08.wav~
+
+  ACTION_DEFINE_ASSOCIATIVE_ARRAY ary_gen_sndset BEGIN
+    11085 => bgenmg08
+    11109 => bgenfg02
+    11114 => bgenfg07
+    11115 => bgenfg08
+    11116 => bgenfg09
+    11119 => bgenfg12
+    11127 => bgenft05
+    11129 => bgenft07
+    11132 => bgenft10
+    11714 => bgenfg07
+    11716 => bgenfg12
+    11719 => bgenfg08
+  END
+
+  COPY_EXISTING ~agnasi.cre~   ~override~
+                ~alyth.cre~    ~override~
+                ~arkush.cre~   ~override~
+                ~crew1.cre~    ~override~
+                ~cultt4.cre~   ~override~
+                ~daese.cre~    ~override~
+                ~ftobe9.cre~   ~override~
+                ~ftowb5.cre~   ~override~
+                ~ftowb6.cre~   ~override~
+                ~ftowb7.cre~   ~override~
+                ~ftowbax.cre~  ~override~
+                ~ftowbe_c.cre~ ~override~
+                ~ftowfr_b.cre~ ~override~
+                ~bgftown2.cre~ ~override~
+                ~ftwbax_b.cre~ ~override~
+                ~lakada.cre~   ~override~
+                ~lantan.cre~   ~override~
+                ~laola.cre~    ~override~
+                ~lasala.cre~   ~override~
+                ~marale2.cre~  ~override~
+                ~mordai.cre~   ~override~
+                ~mtowba_e.cre~ ~override~
+                ~mtwbax_b.cre~ ~override~
+                ~natash.cre~   ~override~
+                ~nemphr.cre~   ~override~
+                ~palin.cre~    ~override~
+                ~phlydi.cre~   ~override~
+                ~phlydi2.cre~  ~override~
+                ~phlydi3.cre~  ~override~
+                ~prost2.cre~   ~override~
+                ~shaell.cre~   ~override~
+                ~tam.cre~      ~override~
+                ~telka.cre~    ~override~
+                ~therel.cre~   ~override~
+                ~thieff.cre~   ~override~
+                ~turpin.cre~   ~override~
+                ~wiven.cre~    ~override~
+                ~wudei.cre~    ~override~
+                ~zeela.cre~    ~override~
+  PHP_EACH ary_gen_sndset AS variable => sound BEGIN
+    FOR (i = 0; i < 75; i += 1) BEGIN
+      READ_LONG (0xa4 + 0x4*i) strref
+      PATCH_IF (strref = variable) BEGIN
+        GET_STRREF strref string
+        SAY (0xa4 + 0x4*i) ~%string%~ [%sound%]
+      END
+    END
+  END
+  BUT_ONLY
 END
 
 ///////////////////////////////////////////////////////
