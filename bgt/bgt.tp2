@@ -8115,6 +8115,16 @@ COPY_EXISTING ~tav0721.sto~ ~override/tav0721.sto~
 COPY_EXISTING ~tem0002.sto~ ~override/tem0002.sto~
   SAY 0xc #11703
 
+COPY_EXISTING ~friend.sto~   ~override~ // The Friendly Arm
+              ~highhedg.sto~ ~override~ // High Hedge
+              ~inn2616.sto~  ~override~ // Candlekeep Inn
+              ~inn3351.sto~  ~override~ // Feldepost Inn
+              ~sto0703.sto~  ~override~ // Sorcerous Sundries
+              ~sto4803.sto~  ~override~ // Nashkel Store
+              ~ulgoth.sto~   ~override~ // Ulgoth's Beard Store
+  LPF ADD_STORE_PURCHASE INT_VAR category = 37 END // books
+BUT_ONLY
+
 //////////////////////////////////////////////////////////////////
 //Combination
 //////////////////////////////////////////////////////////////////
