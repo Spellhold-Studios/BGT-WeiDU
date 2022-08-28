@@ -9655,7 +9655,7 @@ AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp -
 AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest ikeee_04.wav~
 
 ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
-  AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest genfg02.wav genfg07.wav genfg08.wav genfg09.wav genfg12.wav genft05.wav genft07.wav genft10.wav genmg08.wav~
+  AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest games01.wav games02.wav games03.wav games04.wav games05.wav games06.wav genfg02.wav genfg07.wav genfg08.wav genfg09.wav genfg12.wav genft05.wav genft07.wav genft10.wav genmg08.wav~
 END
 
 ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~french~ ) OR
@@ -9852,7 +9852,13 @@ END
 
 // restore BG1 generic npc sounds
 ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
-  MOVE + ~bgtwav/genfg02.wav~ ~bgtwav/bgenfg02.wav~
+  MOVE + ~bgtwav/games01.wav~ ~bgtwav/bgames01.wav~
+         ~bgtwav/games02.wav~ ~bgtwav/bgames02.wav~
+         ~bgtwav/games03.wav~ ~bgtwav/bgames03.wav~
+         ~bgtwav/games04.wav~ ~bgtwav/bgames04.wav~
+         ~bgtwav/games05.wav~ ~bgtwav/bgames05.wav~
+         ~bgtwav/games06.wav~ ~bgtwav/bgames06.wav~
+         ~bgtwav/genfg02.wav~ ~bgtwav/bgenfg02.wav~
          ~bgtwav/genfg07.wav~ ~bgtwav/bgenfg07.wav~
          ~bgtwav/genfg08.wav~ ~bgtwav/bgenfg08.wav~
          ~bgtwav/genfg09.wav~ ~bgtwav/bgenfg09.wav~
@@ -9861,8 +9867,13 @@ ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
          ~bgtwav/genft07.wav~ ~bgtwav/bgenft07.wav~
          ~bgtwav/genft10.wav~ ~bgtwav/bgenft10.wav~
          ~bgtwav/genmg08.wav~ ~bgtwav/bgenmg08.wav~
+         
 
   ACTION_DEFINE_ASSOCIATIVE_ARRAY ary_gen_sndset BEGIN
+    4989  => bgames01
+    4990  => bgames02
+    4991  => bgames03
+    4992  => bgames04
     11085 => bgenmg08
     11109 => bgenfg02
     11114 => bgenfg07
@@ -9872,14 +9883,21 @@ ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
     11127 => bgenft05
     11129 => bgenft07
     11132 => bgenft10
+    11361 => bgames01
     11714 => bgenfg07
     11716 => bgenfg12
     11719 => bgenfg08
+    11876 => bgames02
+    11877 => bgames03
+    11878 => bgames04
+    12613 => bgames05
+    12614 => bgames06
   END
 
   COPY_EXISTING ~agnasi.cre~   ~override~
                 ~alyth.cre~    ~override~
                 ~arkush.cre~   ~override~
+                ~bgftown2.cre~ ~override~
                 ~crew1.cre~    ~override~
                 ~cultt4.cre~   ~override~
                 ~daese.cre~    ~override~
@@ -9890,8 +9908,12 @@ ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
                 ~ftowbax.cre~  ~override~
                 ~ftowbe_c.cre~ ~override~
                 ~ftowfr_b.cre~ ~override~
-                ~bgftown2.cre~ ~override~
                 ~ftwbax_b.cre~ ~override~
+                ~games.cre~    ~override~
+                ~games2.cre~   ~override~
+                ~games3.cre~   ~override~
+                ~games4.cre~   ~override~
+                ~games5.cre~   ~override~
                 ~lakada.cre~   ~override~
                 ~lantan.cre~   ~override~
                 ~laola.cre~    ~override~
@@ -9916,6 +9938,7 @@ ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
                 ~wiven.cre~    ~override~
                 ~wudei.cre~    ~override~
                 ~zeela.cre~    ~override~
+                ~zeke.cre~     ~override~
   PHP_EACH ary_gen_sndset AS variable => sound BEGIN
     FOR (i = 0; i < 75; i += 1) BEGIN
       READ_LONG (0xa4 + 0x4*i) strref
