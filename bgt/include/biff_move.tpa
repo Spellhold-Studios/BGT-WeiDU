@@ -534,9 +534,16 @@ MOVE ~override/a6bio.bcs~ ~bgt/biff/bg1bcs/a6bio.bcs~
      ~override/ar4400.bcs~ ~bgt/biff/bg1bcs/ar4400.bcs~
      ~override/ar4404.bcs~ ~bgt/biff/bg1bcs/ar4404.bcs~
      ~override/ar4405.bcs~ ~bgt/biff/bg1bcs/ar4405.bcs~
+     ~override/ar4700.bcs~ ~bgt/biff/bg1bcs/ar4700.bcs~
+     ~override/ar4701.bcs~ ~bgt/biff/bg1bcs/ar4701.bcs~
      ~override/ar4800.bcs~ ~bgt/biff/bg1bcs/ar4800.bcs~
+     ~override/ar4801.bcs~ ~bgt/biff/bg1bcs/ar4801.bcs~
      ~override/ar4900.bcs~ ~bgt/biff/bg1bcs/ar4900.bcs~
+     ~override/ar4901.bcs~ ~bgt/biff/bg1bcs/ar4901.bcs~
      ~override/ar5100.bcs~ ~bgt/biff/bg1bcs/ar5100.bcs~
+     ~override/ar5101.bcs~ ~bgt/biff/bg1bcs/ar5101.bcs~
+     ~override/ar5300.bcs~ ~bgt/biff/bg1bcs/ar5300.bcs~
+     ~override/ar5301.bcs~ ~bgt/biff/bg1bcs/ar5301.bcs~
      ~override/ar5400.bcs~ ~bgt/biff/bg1bcs/ar5400.bcs~
      ~override/ar6506.bcs~ ~bgt/biff/bg1bcs/ar6506.bcs~
      ~override/ar6508.bcs~ ~bgt/biff/bg1bcs/ar6508.bcs~
@@ -675,6 +682,7 @@ MOVE ~override/a6bio.bcs~ ~bgt/biff/bg1bcs/a6bio.bcs~
      ~override/ch4end.bcs~ ~bgt/biff/bg1bcs/ch4end.bcs~
      ~override/ch6end.bcs~ ~bgt/biff/bg1bcs/ch6end.bcs~
      ~override/coran.bcs~ ~bgt/biff/bg1bcs/coran.bcs~
+     ~override/follow.bcs~ ~bgt/biff/bg1bcs/follow.bcs~
 
 ACTION_IF FILE_EXISTS ~override/cut01bgt.bcs~ BEGIN //Compatibility with NeJ: Custom Imoen Kit
   MOVE ~override/cut01bgt.bcs~ ~bgt/biff/bg1bcs/cut01bgt.bcs~
@@ -1913,6 +1921,7 @@ MOVE ~override/a6bio.cre~ ~bgt/biff/bgtcre/a6bio.cre~
      ~override/pheirk.cre~ ~bgt/biff/bgtcre/pheirk.cre~
      ~override/pheoarch.cre~ ~bgt/biff/bgtcre/pheoarch.cre~
      ~override/pheogurd.cre~ ~bgt/biff/bgtcre/pheogurd.cre~
+     ~override/phlydi.cre~ ~bgt/biff/bgtcre/phlydi.cre~
      ~override/phlydi2.cre~ ~bgt/biff/bgtcre/phlydi2.cre~
      ~override/phlydi3.cre~ ~bgt/biff/bgtcre/phlydi3.cre~
      ~override/phoenix.cre~ ~bgt/biff/bgtcre/phoenix.cre~
@@ -1957,6 +1966,7 @@ MOVE ~override/a6bio.cre~ ~bgt/biff/bgtcre/a6bio.cre~
      ~override/quenas.cre~ ~bgt/biff/bgtcre/quenas.cre~
      ~override/quinn.cre~ ~bgt/biff/bgtcre/quinn.cre~
      ~override/raemon.cre~ ~bgt/biff/bgtcre/raemon.cre~
+     ~override/ragefa.cre~ ~bgt/biff/bgtcre/ragefa.cre~
      ~override/rahvin.cre~ ~bgt/biff/bgtcre/rahvin.cre~
      ~override/raiken.cre~ ~bgt/biff/bgtcre/raiken.cre~
      ~override/raleo.cre~ ~bgt/biff/bgtcre/raleo.cre~
@@ -3250,6 +3260,7 @@ MOVE ~override/amul18.itm~ ~bgt/biff/bg1itm/amul18.itm~
      ~override/blun11.itm~ ~bgt/biff/bg1itm/blun11.itm~
      ~override/book07.itm~ ~bgt/biff/bg1itm/book07.itm~
      ~override/book08.itm~ ~bgt/biff/bg1itm/book08.itm~
+     ~override/book68.itm~ ~bgt/biff/bg1itm/book68.itm~
      ~override/book87.itm~ ~bgt/biff/bg1itm/book87.itm~
      ~override/book88.itm~ ~bgt/biff/bg1itm/book88.itm~
      ~override/bootdriz.itm~ ~bgt/biff/bg1itm/bootdriz.itm~
@@ -3267,6 +3278,9 @@ MOVE ~override/amul18.itm~ ~bgt/biff/bg1itm/amul18.itm~
      ~override/halb01.itm~ ~bgt/biff/bg1itm/halb01.itm~
      ~override/helm14.itm~ ~bgt/biff/bg1itm/helm14.itm~
      ~override/ishld02.itm~ ~bgt/biff/bg1itm/ishld02.itm~
+     ~override/misc02.itm~ ~bgt/biff/bg1itm/misc02.itm~
+     ~override/misc04.itm~ ~bgt/biff/bg1itm/misc04.itm~
+     ~override/misc13.itm~ ~bgt/biff/bg1itm/misc13.itm~
      ~override/misc1b.itm~ ~bgt/biff/bg1itm/misc1b.itm~
      ~override/misc1f.itm~ ~bgt/biff/bg1itm/misc1f.itm~
      ~override/misc1h.itm~ ~bgt/biff/bg1itm/misc1h.itm~
@@ -3275,14 +3289,25 @@ MOVE ~override/amul18.itm~ ~bgt/biff/bg1itm/amul18.itm~
      ~override/misc2m.itm~ ~bgt/biff/bg1itm/misc2m.itm~
      ~override/misc2n.itm~ ~bgt/biff/bg1itm/misc2n.itm~
      ~override/misc2p.itm~ ~bgt/biff/bg1itm/misc2p.itm~
+     ~override/misc62.itm~ ~bgt/biff/bg1itm/misc62.itm~
+     ~override/misc65.itm~ ~bgt/biff/bg1itm/misc65.itm~
+     ~override/misc67.itm~ ~bgt/biff/bg1itm/misc67.itm~
+     ~override/misc68.itm~ ~bgt/biff/bg1itm/misc68.itm~
      ~override/misc70.itm~ ~bgt/biff/bg1itm/misc70.itm~
+     ~override/misc71.itm~ ~bgt/biff/bg1itm/misc71.itm~
+     ~override/misc75.itm~ ~bgt/biff/bg1itm/misc75.itm~
      ~override/misc86.itm~ ~bgt/biff/bg1itm/misc86.itm~
      ~override/misc87.itm~ ~bgt/biff/bg1itm/misc87.itm~
+     ~override/misc92.itm~ ~bgt/biff/bg1itm/misc92.itm~
      ~override/misc94.itm~ ~bgt/biff/bg1itm/misc94.itm~
      ~override/misc95.itm~ ~bgt/biff/bg1itm/misc95.itm~
      ~override/misc98.itm~ ~bgt/biff/bg1itm/misc98.itm~
      ~override/plat08.itm~ ~bgt/biff/bg1itm/plat08.itm~
+     ~override/potn47.itm~ ~bgt/biff/bg1itm/potn47.itm~
+     ~override/potn48.itm~ ~bgt/biff/bg1itm/potn48.itm~
      ~override/ringjoia.itm~ ~bgt/biff/bg1itm/ringjoia.itm~
+     ~override/scrl17.itm~ ~bgt/biff/bg1itm/scrl17.itm~
+     ~override/scrl18.itm~ ~bgt/biff/bg1itm/scrl18.itm~
      ~override/scrl2j.itm~ ~bgt/biff/bg1itm/scrl2j.itm~
      ~override/scrl2k.itm~ ~bgt/biff/bg1itm/scrl2k.itm~
      ~override/scrl2l.itm~ ~bgt/biff/bg1itm/scrl2l.itm~
@@ -3460,6 +3485,7 @@ MOVE ~override/a6spw201.spl~ ~bgt/biff/bg1spl/a6spw201.spl~
      ~override/spwi003.spl~ ~bgt/biff/bg1spl/spwi003.spl~
      ~override/spwi112.spl~ ~bgt/biff/bg1spl/spwi112.spl~
      ~override/spwi202.spl~ ~bgt/biff/bg1spl/spwi202.spl~
+     ~override/spwi942.spl~ ~bgt/biff/bg1spl/spwi942.spl~
      ~override/spwi946.spl~ ~bgt/biff/bg1spl/spwi946.spl~
 
 //Stores
