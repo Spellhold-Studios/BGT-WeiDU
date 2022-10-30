@@ -1921,8 +1921,12 @@ MOVE ~override/a6bio.cre~ ~bgt/biff/bgtcre/a6bio.cre~
      ~override/pheirk.cre~ ~bgt/biff/bgtcre/pheirk.cre~
      ~override/pheoarch.cre~ ~bgt/biff/bgtcre/pheoarch.cre~
      ~override/pheogurd.cre~ ~bgt/biff/bgtcre/pheogurd.cre~
-     ~override/phlydi.cre~ ~bgt/biff/bgtcre/phlydi.cre~
-     ~override/phlydi2.cre~ ~bgt/biff/bgtcre/phlydi2.cre~
+
+ACTION_IF FILE_EXISTS ~override/phlydi.cre~ BEGIN
+  MOVE ~override/phlydi.cre~ ~bgt/biff/bgtcre/phlydi.cre~
+END
+
+MOVE ~override/phlydi2.cre~ ~bgt/biff/bgtcre/phlydi2.cre~
      ~override/phlydi3.cre~ ~bgt/biff/bgtcre/phlydi3.cre~
      ~override/phoenix.cre~ ~bgt/biff/bgtcre/phoenix.cre~
      ~override/piato.cre~ ~bgt/biff/bgtcre/piato.cre~
