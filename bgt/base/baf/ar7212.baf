@@ -16,7 +16,6 @@ IF
 THEN
   RESPONSE #100
     CreateCreature("KRYSTI",[1349.973],0)
-    ReallyForceSpellRES("BGKRYSTI","Krystin")
 END
 
 IF
