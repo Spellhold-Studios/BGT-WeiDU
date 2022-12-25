@@ -214,7 +214,7 @@
 @800071 = ~Steal a telescope.
 
 ~
-@800072 = ~Investigate the Merchant Consortium's estate.
+@800072 = ~Investigate the Merchants' League Estate.
 
 ~
 @800073 = ~Angel-skinned love.
@@ -304,25 +304,25 @@
 @800101 = ~Retrieve Hurgan's dagger.
 
 ~
-@800102 = ~Find Therella's son, Dalton, in Durlag's Tower.
+@800102 = ~Therella's missing son.
 
 ~
 @800103 = ~Investigate Durlag's Tower.
 
 ~
-@800104 = ~Investigate Durlag's Tower: Riddle - Avarice.
+@800104 = ~Durlag's riddle: Avarice.
 
 ~
-@800105 = ~Investigate Durlag's Tower: Riddle - Fear.
+@800105 = ~Durlag's riddle: Fear.
 
 ~
-@800106 = ~Investigate Durlag's Tower: Riddle - Love.
+@800106 = ~Durlag's riddle: Love.
 
 ~
-@800107 = ~Investigate Durlag's Tower: Riddles.
+@800107 = ~Durlag's riddles.
 
 ~
-@800108 = ~Investigate Durlag's Tower: Riddle - Pride.
+@800108 = ~Durlag's riddle: Pride.
 
 ~
 @800109 = ~Mendas and Balduran's expedition.
@@ -358,7 +358,7 @@
 @800119 = ~Some errands for Delainy.
 
 ~
-@800120 = ~Recover the village symbol, a cloak.
+@800120 = ~Recover the village symbol.
 
 ~
 @800121 = ~Fetch some flowers for Delainy.
