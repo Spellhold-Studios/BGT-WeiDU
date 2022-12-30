@@ -1,13 +1,9 @@
-![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/BGT-WeiDU?include_prereleases&color=darkred)
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=en%20%7C%20cs%20%7C%20fr%20%7C%20de%20%7C%20it%20%7C%20ko%20%7C%20pl%20%7C%20ru%20%7C%20es%20%7C%20zh-cn%20%7C%20zh-tw&color=limegreen)
-
 # Baldur's Gate Trilogy
-A [Spellhold Studios](http://www.spellholdstudios.net/) mod for Baldur's Gate II: Throne of Bhaal
+**A Spellhold Studios mod for Baldur's Gate II**
 
-**Project Lead:** [Ascension64](https://github.com/Ascension64) (with permission from Bardez)
+**Project Lead: [Ascension64](http://www.shsforums.net/user/3784-ascension64/)** (with permission from Bardez)
 
-[**Readme**](https://spellholdstudios.github.io/readmes/bgt/[english]bgtreadme.htm) | [**Website**](http://www.spellholdstudios.net/ie/bgt) | [**Forum**](http://www.shsforums.net/forum/261-bgt-weidu/)
+[**Download**](https://github.com/SpellholdStudios/BGT-WeiDU/releases) &nbsp;|&nbsp; [**Readme**](https://spellholdstudios.github.io/readmes/bgt/[english]bgtreadme.htm) &nbsp;|&nbsp; [**Forum**](http://www.shsforums.net/forum/261-bgt-weidu/)
 
 ## Introduction
 Baldur's Gate Trilogy is a modification originally created by Bardez that aimed to achieve two major goals: to play Baldur's Gate and Tales of the Sword Coast expansion using the much improved Baldur's Gate II engine, and to generate some kind of continuity between the events of Baldur's Gate, Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal. Baldur's Gate Trilogy-WeiDU takes this a step further by converting the modification to WeiDU format, which has improved compatibility with other modifications.
@@ -19,7 +15,7 @@ While BGT-WeiDU remains mostly faithful to the original Baldur's Gate and Tales 
 * **Continuity from Baldur's Gate into Shadows of Amn:** BGT-WeiDU uses a dynamic system to transfer players from the end of Baldur's Gate to Shadows of Amn. A cover story is used, in which the player talks to Belt after Sarevok is defeated, and NPCs are conditionally imported into Shadows of Amn depending on what fate you led them to experience in Baldur's Gate.
 * **Expansive compatibility with other modifications:** BGT-WeiDU is compatible with the latest versions of modifications in a mega-modification installation, as well as a large number of other fan-made modifications. This allows the player to expand the world of Baldur's Gate to an enormously rich location to explore. A compatibility list is available in the installation package.
 * **Organised journal entries:** BGT-WeiDU utilises a full quest journal system and ensures that all Baldur's Gate journal entries are removed prior to the transition to Shadows of Amn. This prevents clogging up of the journal, which normally makes it hard to find important information in the journal.
-* **Map Notes:** The advent of map notes makes it useful for the player to pin their own special locations. BGT-WeiDU comes with a number of map notes already inserted to help the player find particular buildings quickly, instead of running around like crazed chickens into every single house in a particular area.
+* **Map notes:** The advent of map notes makes it useful for the player to pin their own special locations. BGT-WeiDU comes with a number of map notes already inserted to help the player find particular buildings quickly, instead of running around like crazed chickens into every single house in a particular area.
 
 ## Legalese
 >BALDUR’S GATE, BALDUR'S GATE: TALES OF THE SWORD COAST: © 1999 BioWare Corp. All Rights Reserved. Baldur's Gate and Baldur's Gate Tales of the Sword Coast are trademarks of TSR, Inc., a subsidiary of Wizards of the Coast, Inc., and are used by Interplay under license. The BioWare Infinity Engine is a trademark of BioWare Corp.
