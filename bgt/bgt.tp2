@@ -232,15 +232,6 @@ DEFINE_ACTION_MACRO linkbg1 BEGIN
   ACTION_IF NOT "%WEIDU_OS%" STRING_EQUAL_CASE ~win32~ BEGIN //non-Windows
     AT_NOW ~sh bgt/install/%WEIDU_OS%/linkbg1.sh "%bg1_dir%" %debug%~ EXACT
     LAM bash_log
-    ACTION_IF ~%WEIDU_OS%~ STRING_EQUAL_CASE ~unix~ BEGIN
-      COPY + ~linux.ini~ ~bgt/bg1/linux.ini~
-      REPLACE_TEXTUALLY ~%WNL%~ ~%LNL%~
-      REPLACE_TEXTUALLY ~%MNL%~ ~%LNL%~
-      REPLACE_TEXTUALLY ~%LNL%.*$~ ~~//delete all lines but the first
-      offset = BUFFER_LENGTH
-      INSERT_BYTES offset 8
-      WRITE_ASCII offset ~bgt/bg1/~
-    END
     OUTER_SPRINT bg1_dir ~bgt/bg1~ //use new BG1 folder
   END
 END //macro
