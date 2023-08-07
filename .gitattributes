@@ -1,29 +1,51 @@
-*.2da  text eol=crlf
-*.baf  text eol=crlf
-*.bat  text eol=crlf
-*.d    text eol=crlf
-*.htm  text eol=crlf
-*.html text eol=crlf
-*.ids  text eol=crlf
-*.ini  text eol=crlf
-*.mus  text eol=crlf
-*.tbl  text eol=crlf
-*.tp2  text eol=crlf
-*.tpa  text eol=crlf
-*.tph  text eol=crlf
-*.tpp  text eol=crlf
-*.tra  text eol=crlf
-*.txt  text eol=crlf
+# Don't add Git-related files to the exported source archives
+.gitattributes export-ignore
+.github        export-ignore
+.gitignore     export-ignore
 
+# Unix shell scripts require LF line ending
 *.command text eol=lf
-*.sh   text eol=lf
+*.sh      text eol=lf
 
+# Windows scripts require CR LF line ending
+*.ahk  text eol=crlf
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+# Store these text files with LF line ending in the repo object database
+# Auto convert them to CR LF for working directories on Windows
+*.2da  text
+*.baf  text
+*.bio  text
+*.d    text
+*.glsl text
+*.gui  text
+*.htm  text
+*.html text
+*.ids  text
+*.ini  text
+*.lua  text
+*.menu text
+*.mus  text
+*.sql  text
+*.tbl  text
+*.tp2  text
+*.tpa  text
+*.tph  text
+*.tpp  text
+*.tra  text
+*.txt  text
+
+# Compiled IE scripts require LF line ending
+*.bcs  text eol=lf
+*.bs   text eol=lf
+
+# Treat these files as non-text and don't change the line ending
 *.acm  binary
 *.are  binary
 *.bam  binary
-*.bcs  binary
+*.bif  binary
 *.bmp  binary
-*.bs   binary
 *.chr  binary
 *.chu  binary
 *.cre  binary
@@ -31,27 +53,34 @@
 *.dll  binary
 *.eff  binary
 *.exe  binary
+*.fnt  binary
 *.gam  binary
 *.gif  binary
 *.ico  binary
 *.itm  binary
+*.jpeg binary
 *.jpg  binary
-*.mbc  binary
+*.key  binary
 *.mos  binary
 *.moz  binary
 *.mve  binary
 *.plt  binary
 *.png  binary
 *.pro  binary
+*.pvrz binary
+*.sav  binary
 *.spl  binary
 *.sto  binary
-*.tbc  binary
 *.tis  binary
 *.tiz  binary
 *.tlk  binary
+*.ttf  binary
+*.var  binary
 *.vef  binary
 *.vvc  binary
 *.wav  binary
+*.wbm  binary
+*.webm binary
 *.wed  binary
 *.wfx  binary
 *.wmp  binary
