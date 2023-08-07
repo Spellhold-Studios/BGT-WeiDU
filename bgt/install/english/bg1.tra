@@ -917,7 +917,7 @@ It has neither mouth nor teeth, yet it eats its food steadily. It has neither vi
 @914   = ~We don't really need a reason. We're here to kill you.~
 @915   = ~If you set me free, <SIRMAAM>, I can tell you how to bring this mine crashing down around the heads of these fat-headed slavers.~
 @916   = ~Well, see, here's how it is: The way to bamboozle these ninnies is real easy. Right here beside me is a steel plug that stoppers up the river on the surface. If you were to release that, then the whole mine would be drowned. Only the master of the mine has the key to open the plug, and he's a real mean cuss. If you were to bring the key to me, I could use it to flood the mine.~
-@917   = ~Those aren't the Blacktalons.~
+@917   = ~Those aren't Blacktalons.~
 @918   = ~We'll set you free. Now tell us what you know.~
 @919   = ~Shut up, you fool.~
 @920   = ~You're a bunch of greenheads, ain't ya? You've come here to guzzle, or maybe one of you handsome stags wants to shag me. I am quite a fubsy, aren't I? Heh heh heh.~
@@ -1898,7 +1898,7 @@ You can change your frame rate with the configuration utility.~
 @1891  = ~What in the Nine Hells do you think you're doing!~
 @1892  = ~~
 @1893  = ~I am Taurgosz "Tenhammer," leader of the Blacktalons. You are small and weak compared. Remember this. You cross Talons and I kill you. Not with hammer, with little finger. Slowly.~
-@1894  = ~Don't whimper when you speak! the Blacktalons do not whimper! Ye stand up straight when Tazok get here and show no fear! We work for his Iron Throne bosses, but we are not weak!~
+@1894  = ~Don't whimper when you speak! The Blacktalons do not whimper! Ye stand up straight when Tazok get here and show no fear! We work for his Iron Throne bosses, but we are not weak!~
 @1895  = ~Ha ha ha! Good attitude. Be sure to keep it when Tazok arrive. He hires the Blacktalons for Iron Throne, but you take orders only from me. Understand? Stay away from Chill as well: They only our friends till the job is finished.~
 @1896  = ~You'll learn respect, ye cocky knave! To my side, Talons! These whelps are unfit to join us! That makes them against us!~
 @1897  = ~They certainly will accept anyone these days. Keep to your side of the camp if you wish to keep your heads. My hobgoblins might like the meat on you.~
@@ -2917,7 +2917,7 @@ You can change your frame rate with the configuration utility.~
 @2910  = ~Let's hurry, child! The night can only get worse so we must find shelter soon. Don't worry, I will explain everything as soon as there is time.~
 @2911  = ~Wait! There is something wrong. We are in an ambush. Prepare yourself!~
 @2912  = ~What is gone to mayhem now?! Grab the scag and get us hence, the watch have ears as well as I!~
-@2913  = ~You're a fool if you believe I would trust your benevolence. Step aside and you and your lackeys will be unhurt.~ [GORION12]
+@2913  = ~You're a fool if you believe I would trust your benevolence. Step aside and you and your lackeys will be unhurt.~ [GORIN12]
 @2914  = ~Run, child! Get out of here!~
 @2915  = ~By the Shadowlord, back up ye go! This skulk fer naught if we no find the loot! Keep e-spying!~
 @2916  = ~Well! I did'na even hear ye slide up! And ye have the pretties! Off we are, afore we wake these deadfast sleepers! Back at the guild we make our meeting!~
@@ -4711,7 +4711,7 @@ This spell causes the creature touched to vanish from sight and be undetectable 
 @4697  = ~I am a musician, not a chatterbox.~ [SILKE02]
 @4698  = ~I be Thalantyr, mighty mage of Beregost.~ [THALT01]
 @4699  = ~Why do I live in such a pissant town?~ [THALT02]
-@4700  = ~Kiss me blarney!. What d'ya wish done?~ [TAERM01]
+@4700  = ~Kiss me blarney! What d'ya wish done?~ [TAERM01]
 @4701  = ~I can make whatever you wish for a wee little bit more than me competition.~ [TAERM02]
 @4702  = ~My spiderssss! Kill them! Kill them all!~ [CENTL01]
 @4703  = ~I have no quarrel with those who respect my forest.~ [SENIY01]
@@ -5105,7 +5105,7 @@ This spell is similar to the invisibility spell, but the recipient is able to at
 @5083  = ~Nalin at the Temple of Helm in Nashkel seems to think that Brage might be under the influence of some evil force. If I return him to them, he might not be killed for his crimes.~
 @5084  = ~Shut up! Your smart remarks just got you in a heap of trouble!~
 @5085  = ~You're rather far from home, aren't you? Well, why don't you turn 'round and head back home?~
-@5086  = ~the Blacktalons, eh? Well, that's too bad.~
+@5086  = ~Blacktalons, eh? Well, that's too bad.~
 @5087  = ~Perhaps you could tell us about this noble who hired you.~
 @5088  = ~It was Liia Jannath out of Baldur's Gate.~
 @5089  = ~It was Sir Tobyn out of Athkatla.~
@@ -6122,7 +6122,7 @@ This spell is similar to the invisibility spell, but the recipient is able to at
 @6100  = ~Thank thee! You shall not be disappointed!~
 @6101  = ~That body... It looks like... No... NO!~
 @6102  = ~Diviner~
-@6103  = ~It's a note for me here... proclaiming his love with his dying words... All that could have been... Well, *sniff* there is... little I can do here. Onward. we must put an end to... to all of this.~
+@6103  = ~It's a note for me here... proclaiming his love with his dying words... All that could have been... Well, *sniff* there is... little I can do here. Onward. We must put an end to... to all of this.~
 @6104  = ~You guys are those heroes! I wanna be just like you when I grow up.~
 @6105  = ~I'm just a kid. I like cookies, and I like toys, and I like lots a things, but I don't think you care about that, do you?~
 @6106  = ~I can tell you of my curse, for that is all I remember anymore. I used to be beautiful and powerful. An exotic sorceress, with many powers at my command and suitors at my door. But I only had eyes for one man, Jon Irenicus. He was a great and powerful wizard, the only man worthy of my affections, or so I thought. Though I lusted for Jon, he cared little for me, for he had another to whom he was married, Lady Tanova. So I plotted and schemed, and finally came up with a plan to rid the world of Tanova. When the deed was done and Tanova lay dead, I was exultant, but not for long. Jon went mad with fury, and using his powerful magics, divined the identity of his wife's murderer. He arrived at my tower, and I allowed him entry, desirous to finally consummate our love. Jon disabled me with his spells, then he cursed me to this body and set spiders to feed me and keep me alive. So you see, if you were my friend, you would kill me.~
@@ -6591,7 +6591,7 @@ Tarsakh, 1368~
 @6541  = ~Someone named Tazok seems to be the commander of the bandits.~
 @6542  = ~The low level grunts of the Blacktalon mercenaries believe that they've been hired by the Zhentarim to stir up trouble along the Coast Way.~
 @6543  = ~Some bandits are being sent to a "mine site" to report what happened to Tazok. I have a feeling that this mine site is not the Nashkel mines.~
-@6544  = ~It would seem that the bandit group called the "Chill" do not get along with the bandit group called the "the Blacktalons."~
+@6544  = ~It would seem that the bandit group called the "Chill" do not get along with the bandit group called the "Blacktalons."~
 @6545  = ~The hobgoblin called Ardenor Crush is rumored to be surrounded by strange magic.~
 @6546  = ~Though Tazok does lead the bandits, I have heard rumors that he does have at least one superior.~
 @6547  = ~I have heard rumors that Tazok gets his orders from the Zhentarim. Of this I'm not so sure...~
@@ -13335,7 +13335,7 @@ One note too many. One day too late...
 @11339 = ~Charisma has been raised by 1 permanently~
 @11340 = ~Hey there. If yer here to see Duke Eltan, just go up the stairs beside me. He should be waiting in his office.~
 @11341 = ~selection sounds~
-@11342 = ~This way, good sir, over here!~ [Gorion14]
+@11342 = ~This way, good sir, over here!~ [Gorin14]
 @11343 = ~Forgive me, but I have meditations to attend to.~ [Gorin18]
 @11344 = ~Need directions? You seem a friendly sort, so I thought I'd offer my services as a guide. What do you need from the town of Beregost?~
 @11345 = ~Certainly. If you could direct me to an affordable Inn I would much appreciate it.~
@@ -13395,7 +13395,7 @@ One note too many. One day too late...
 @11399 = ~~ [HIT_01c]
 @11400 = ~~ [HIT_02c]
 @11401 = ~Nothing in particular. Just interested in the sights. Perhaps shopping.~
-@11402 = ~~ [HIT02d1]
+@11402 = ~~ [HIT_02d1]
 @11403 = ~~ [HIT_03d]
 @11404 = ~~ [AMB_M03a]
 @11405 = ~An adventurer, eh? Well, if you are up to the task I hear there are strange things in the Ulcaster School Ruins southeast of town. I would nae go down there unless you are quite sure of your abilities though. Many a well-meaning fellow has gone and not come back. Only for those adept in battle. Other than that, I know that the lady Mirianne has been awaiting news of her husband for some time. He was to come up from Amn but is overdue. I know she would be grateful for any news. She lives on the east edge of town if you find anything. Anything else you would like to know of?~
@@ -13630,7 +13630,7 @@ Waiting until the server has finished loading ...~
 @11632 = ~Why? What do you... you know of their fate, don't you? Blast it, they are dead or imprisoned, aren't they? Now I'll never get my gold... er... family back together. Such a tragedy that two saintly, young, pathetic souls should be treated in such a manner. I thank you for the news, and may the person that harmed them rot in the lower planes. Such a cruel beast, whoever they are. I bet it was a grand battle.~
 @11633 = ~What? They would never do such a... oh, forget it. If they attacked you then you know full well what morons they are. Did they have any gold on them? No, I doubt it. Spent it all on booze and fast times, most likely. Good on you if you knocked them around. I certainly will not mourn their loss. Carbos and Shank; what a couple of moronic goons.~
 @11634 = ~~ [AMB_E43a]
-@11635 = ~~ [AMBE43b]
+@11635 = ~~ [AMB_E43b]
 @11636 = ~Borinole Mann~
 @11637 = ~Borinole Mann~
 @11638 = ~Your acquaintance I am glad to have made.~ [GNOMF01]
@@ -15175,7 +15175,7 @@ Casting a Goodberry spell creates 5 magical berries that the caster can carry wi
 @12352 = ~~ [WOMLC04]
 @12353 = ~~ [FTOWN06]
 @12354 = ~~ [MANCO03]
-@12355 = ~~ [MANC04]
+@12355 = ~~ [MANLC04]
 @12356 = ~~ [MTOWN05]
 @12357 = ~~ [WOMCO03]
 @12358 = ~~ [WOMLC03]
@@ -24874,7 +24874,7 @@ Not Usable By:
 @20067 = ~I be a thief and from the city, but no, I'm no bandit. I know too much to run with Tazok and his crew.~
 @20068 = ~What do you know?~
 @20069 = ~Judging by the delicate position you find yourself in at present, you obviously didn't know enough not to be caught by them.~
-@20070 = ~This whole thing is dirty to the core, that's what I know! These aren't your ordinary bandits, here. These are part the Blacktalons and part Chill, Chill being a demihuman band, mostly hobgoblins, and led by that creepy smart one, Ardenor Crush. There be others elsewhere, like that priest Mulahey sent to poison the mines of Nashkel. Set himself up as a kobold god returned and legions of the brainless barking fools believed him, ready to do his bidding 'til death do they part...~
+@20070 = ~This whole thing is dirty to the core, that's what I know! These aren't your ordinary bandits, here. These are part Blacktalons and part Chill; the latter being a demihuman band, mostly hobgoblins, and led by that creepy smart one, Ardenor Crush. There be others elsewhere, like that priest Mulahey sent to poison the mines of Nashkel. Set himself up as a kobold god returned and legions of the brainless barking fools believed him, ready to do his bidding 'til death do they part...~
 @20071 = ~Mulahey's dead. He was working for Tazok, I understand. Question is, who's Tazok working for?~
 @20072 = ~That's the trick, see? Crush and Taugosz Khosann, leader of the Blacktalons, both think he's getting orders from the Zhents and Tazok doesn't do much to discourage that particular line of thinking. But the Blacktalons and Chill are bandit groups, see? They ply the trade routes, avoid the cities, and that's where they go wrong. I'm from the Gate and I can tell you dead as leather that the Zhentarim aren't behind this.~
 @20073 = ~How can you be so sure?~
@@ -24885,7 +24885,7 @@ Not Usable By:
 @20078 = ~Tazok's been making regular visits to the Cloakwood so that's where I'd start if I were you. There are some documents in that chest that might be worth taking a look at, too... Now go step on some toes, alright? And you can tell them Ender Sai sent you.~
 @20079 = ~Don't mark me a fool. I may be Tazok's prisoner but he's not the one that caught me.~
 @20080 = ~What do you mean?~
-@20081 = ~This whole thing is dirty to the core, that's what I mean! These aren't your ordinary bandits, here. These are part the Blacktalons and part Chill, Chill being a demihuman band, mostly hobgoblins, and led by that creepy smart one, Ardenor Crush. There be others elsewhere, like that priest Mulahey sent to poison the mines of Nashkel. Set himself up as a kobold god returned and legions of the brainless barking fools believed him, ready to do his bidding 'til death do they part...~
+@20081 = ~This whole thing is dirty to the core, that's what I mean! These aren't your ordinary bandits, here. These are part Blacktalons and part Chill; the latter being a demihuman band, mostly hobgoblins, and led by that creepy smart one, Ardenor Crush. There be others elsewhere, like that priest Mulahey sent to poison the mines of Nashkel. Set himself up as a kobold god returned and legions of the brainless barking fools believed him, ready to do his bidding 'til death do they part...~
 @20082 = ~Mulahey's dead. He was working for Tazok, I understand. Question is, who's Tazok working for?~
 @20083 = ~I know too much, do I? Like what?~
 @20084 = ~That's none of your business.~
@@ -24912,7 +24912,7 @@ Not Usable By:
 @20105 = ~There is very little going on here. Everything is falling apart as we speak... and one person is to blame...~
 @20106 = ~You're right, we're not Tazok's lackeys. What's going on here?~
 @20107 = ~~
-@20108 = ~Aye, you're not... Well, this whole place is dirty to the core, that's what's going on. These aren't your ordinary bandits. They're part the Blacktalons and part Chill, Chill being a demihuman band, mostly hobgoblins, and led by that creepy smart one, Ardenor Crush. There be others elsewhere, like that priest Mulahey sent to poison the mines of Nashkel. Set himself up as a kobold god returned and legions of the brainless barking fools believed him, ready to do his bidding 'til death do they part...~
+@20108 = ~Aye, you're not... Well, this whole place is dirty to the core, that's what's going on. These aren't your ordinary bandits. They're part Blacktalons and part Chill; the latter being a demihuman band, mostly hobgoblins, and led by that creepy smart one, Ardenor Crush. There be others elsewhere, like that priest Mulahey sent to poison the mines of Nashkel. Set himself up as a kobold god returned and legions of the brainless barking fools believed him, ready to do his bidding 'til death do they part...~
 @20109 = ~Aye! And I shall plague you to the very end!~
 @20110 = ~And just who might that be?~
 @20111 = ~What? Who are you? I speak of Sarevok, the new self-proclaimed "leader" of the Iron Throne. My father Bruno was barely a day dead when Sarevok made his claim, and now everything is crumbling. I am sure he orchestrated the whole thing so he could gain control, but if he wanted to run the organization, why does he act as though he does not care for it? I have no idea, but I will put a blade in his belly before the day is through, regardless. Who did you claim to be?~
@@ -29339,12 +29339,12 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23824 = ~~ [GWERE05]
 @23825 = ~~ [GWERE06]
 @23826 = ~You're not figments, are you? I'm not wasting any more time talking to figments!~ [DRADE_01]
-@23827 = ~~ [TANAR_02]
-@23828 = ~~ [TANAR_06]
-@23829 = ~~ [TANAR_05]
-@23830 = ~~ [TANAR_04]
-@23831 = ~~ [TANAR_01]
-@23832 = ~~ [TANAR_03]
+@23827 = ~~ [BTANAR02]
+@23828 = ~~ [BTANAR06]
+@23829 = ~~ [BTANAR05]
+@23830 = ~~ [BTANAR04]
+@23831 = ~~ [BTANAR01]
+@23832 = ~~ [BTANAR03]
 @23833 = ~Here is my rule. Here you behave; obey.~ [KAROU_01]
 @23834 = ~You will die like your wolfen kin! Bad dog! Bad dog!~ [DRADE_03]
 @23835 = ~~ [DRADE_04]
