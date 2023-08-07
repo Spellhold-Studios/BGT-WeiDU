@@ -680,12 +680,22 @@ STRING_SET ~12601~ @12601
 
 STRING_SET ~3437~ @3437
 STRING_SET ~3665~ @3665
+STRING_SET ~4839~ @4839
+STRING_SET ~4842~ @4842
+STRING_SET ~4843~ @4843
+STRING_SET ~4844~ @4844
 STRING_SET ~4898~ @4898
 STRING_SET ~4986~ @4986
+STRING_SET ~5482~ @5482
+STRING_SET ~5962~ @5962
 STRING_SET ~11109~ @11109
+STRING_SET ~11269~ @11269
+STRING_SET ~11402~ @11402
 STRING_SET ~11618~ @11618
+STRING_SET ~11635~ @11635
 STRING_SET ~11725~ @11725
 STRING_SET ~11856~ @11856
+STRING_SET ~12355~ @12355
 STRING_SET ~23804~ @23804
 STRING_SET ~23805~ @23805
 STRING_SET ~23806~ @23806
@@ -3967,6 +3977,13 @@ COPY + ~bg1cre/degrod.cre~ ~bg1cre/degrod.cre~
   WRITE_ASCII 0x3c "" #8
 BUT_ONLY
 
+COPY + ~bg1cre/delsvir.cre~ ~bg1cre/delsvir.cre~
+  WRITE_LONG INITIAL_MEETING 4839
+  WRITE_LONG SELECT_COMMON1  4842
+  SAY DAMAGE ~~ [delsv03]
+  SAY DYING  ~~ [delsv04]
+BUT_ONLY
+
 COPY + ~bg1cre/denak.cre~ ~bg1cre/denak.cre~
   SAY 0xec @5350
   SAY 0xf0 @5351
@@ -4003,6 +4020,11 @@ BUT_ONLY
 COPY + ~bg1cre/forthe.cre~ ~bg1cre/forthe.cre~
  WRITE_ASCII 0x34 "" #8 //small portrait
  WRITE_ASCII 0x3c "" #8 //large portrait
+BUT_ONLY
+
+COPY + ~bg1cre/gandol.cre~ ~bg1cre/gandol.cre~
+  SAY DAMAGE ~~ [gandl03]
+  SAY DYING  ~~ [gandl04]
 BUT_ONLY
 
 COPY + ~bg1cre/garan.cre~ ~bg1cre/garan.cre~
@@ -9672,9 +9694,9 @@ AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp -
 
 AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest ikeee_04.wav~
 
-ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
-  AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest games01.wav games02.wav games03.wav games04.wav games05.wav games06.wav genfg02.wav genfg07.wav genfg08.wav genfg09.wav genfg12.wav genft05.wav genft07.wav genft10.wav genmg08.wav~
-END
+AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest games.*wav genfg02.wav genfg07.wav genfg08.wav genfg09.wav genfg12.wav genft05.wav genft07.wav genft10.wav genmg08.wav~
+
+AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bgtwav --biff-get-rest tanar.*wav ghoul01.wav ghoul02.wav ghoul08.wav ghoul09.wav sspid01.wav sspid02.wav sspid03.wav sspid06.wav~
 
 ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~french~ ) OR
           ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~german~ ) THEN BEGIN
@@ -9868,95 +9890,110 @@ ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~german~ ) = 0 THEN BEGIN
   LAM bash_log
 END
 
+// restore BG1 monster sounds
+MOVE + ~bgtwav/tanar01.wav~ ~bgtwav/btanar01.wav~
+       ~bgtwav/tanar02.wav~ ~bgtwav/btanar02.wav~
+       ~bgtwav/tanar03.wav~ ~bgtwav/btanar03.wav~
+       ~bgtwav/tanar04.wav~ ~bgtwav/btanar04.wav~
+       ~bgtwav/tanar05.wav~ ~bgtwav/btanar05.wav~
+       ~bgtwav/tanar06.wav~ ~bgtwav/btanar06.wav~
+
+COPY_EXISTING + ~ghoul01.wav~ ~bgtwav/ghoul01a.wav~
+                ~ghoul02.wav~ ~bgtwav/ghoul02a.wav~
+                ~ghoul08.wav~ ~bgtwav/ghoul08a.wav~
+                ~ghoul09.wav~ ~bgtwav/ghoul09a.wav~
+                ~sspid01.wav~ ~bgtwav/sspid01a.wav~
+                ~sspid02.wav~ ~bgtwav/sspid02a.wav~
+                ~sspid03.wav~ ~bgtwav/sspid03a.wav~
+                ~sspid06.wav~ ~bgtwav/sspid06a.wav~
+
 // restore BG1 generic npc sounds
-ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
-  MOVE + ~bgtwav/games01.wav~ ~bgtwav/bgames01.wav~
-         ~bgtwav/games02.wav~ ~bgtwav/bgames02.wav~
-         ~bgtwav/games03.wav~ ~bgtwav/bgames03.wav~
-         ~bgtwav/games04.wav~ ~bgtwav/bgames04.wav~
-         ~bgtwav/games05.wav~ ~bgtwav/bgames05.wav~
-         ~bgtwav/games06.wav~ ~bgtwav/bgames06.wav~
-         ~bgtwav/genfg02.wav~ ~bgtwav/bgenfg02.wav~
-         ~bgtwav/genfg07.wav~ ~bgtwav/bgenfg07.wav~
-         ~bgtwav/genfg08.wav~ ~bgtwav/bgenfg08.wav~
-         ~bgtwav/genfg09.wav~ ~bgtwav/bgenfg09.wav~
-         ~bgtwav/genfg12.wav~ ~bgtwav/bgenfg12.wav~
-         ~bgtwav/genft05.wav~ ~bgtwav/bgenft05.wav~
-         ~bgtwav/genft07.wav~ ~bgtwav/bgenft07.wav~
-         ~bgtwav/genft10.wav~ ~bgtwav/bgenft10.wav~
-         ~bgtwav/genmg08.wav~ ~bgtwav/bgenmg08.wav~
-         
+MOVE + ~bgtwav/games01.wav~ ~bgtwav/bgames01.wav~
+       ~bgtwav/games02.wav~ ~bgtwav/bgames02.wav~
+       ~bgtwav/games03.wav~ ~bgtwav/bgames03.wav~
+       ~bgtwav/games04.wav~ ~bgtwav/bgames04.wav~
+       ~bgtwav/games05.wav~ ~bgtwav/bgames05.wav~
+       ~bgtwav/games06.wav~ ~bgtwav/bgames06.wav~
+       ~bgtwav/genfg02.wav~ ~bgtwav/bgenfg02.wav~
+       ~bgtwav/genfg07.wav~ ~bgtwav/bgenfg07.wav~
+       ~bgtwav/genfg08.wav~ ~bgtwav/bgenfg08.wav~
+       ~bgtwav/genfg09.wav~ ~bgtwav/bgenfg09.wav~
+       ~bgtwav/genfg12.wav~ ~bgtwav/bgenfg12.wav~
+       ~bgtwav/genft05.wav~ ~bgtwav/bgenft05.wav~
+       ~bgtwav/genft07.wav~ ~bgtwav/bgenft07.wav~
+       ~bgtwav/genft10.wav~ ~bgtwav/bgenft10.wav~
+       ~bgtwav/genmg08.wav~ ~bgtwav/bgenmg08.wav~
 
-  ACTION_DEFINE_ASSOCIATIVE_ARRAY ary_gen_sndset BEGIN
-    4989  => bgames01
-    4990  => bgames02
-    4991  => bgames03
-    4992  => bgames04
-    11085 => bgenmg08
-    11109 => bgenfg02
-    11114 => bgenfg07
-    11115 => bgenfg08
-    11116 => bgenfg09
-    11119 => bgenfg12
-    11127 => bgenft05
-    11129 => bgenft07
-    11132 => bgenft10
-    11361 => bgames01
-    11714 => bgenfg07
-    11716 => bgenfg12
-    11719 => bgenfg08
-    11876 => bgames02
-    11877 => bgames03
-    11878 => bgames04
-    12613 => bgames05
-    12614 => bgames06
-  END
+ACTION_DEFINE_ASSOCIATIVE_ARRAY ary_gen_sndset BEGIN
+   4989 => bgames01
+   4990 => bgames02
+   4991 => bgames03
+   4992 => bgames04
+  11085 => bgenmg08
+  11109 => bgenfg02
+  11114 => bgenfg07
+  11115 => bgenfg08
+  11116 => bgenfg09
+  11119 => bgenfg12
+  11127 => bgenft05
+  11129 => bgenft07
+  11132 => bgenft10
+  11361 => bgames01
+  11714 => bgenfg07
+  11716 => bgenfg12
+  11719 => bgenfg08
+  11876 => bgames02
+  11877 => bgames03
+  11878 => bgames04
+  12613 => bgames05
+  12614 => bgames06
+END
 
-  COPY_EXISTING ~agnasi.cre~   ~override~
-                ~alyth.cre~    ~override~
-                ~arkush.cre~   ~override~
-                ~bgftown2.cre~ ~override~
-                ~crew1.cre~    ~override~
-                ~cultt4.cre~   ~override~
-                ~daese.cre~    ~override~
-                ~ftobe9.cre~   ~override~
-                ~ftowb5.cre~   ~override~
-                ~ftowb6.cre~   ~override~
-                ~ftowb7.cre~   ~override~
-                ~ftowbax.cre~  ~override~
-                ~ftowbe_c.cre~ ~override~
-                ~ftowfr_b.cre~ ~override~
-                ~ftwbax_b.cre~ ~override~
-                ~games.cre~    ~override~
-                ~games2.cre~   ~override~
-                ~games3.cre~   ~override~
-                ~games4.cre~   ~override~
-                ~games5.cre~   ~override~
-                ~lakada.cre~   ~override~
-                ~lantan.cre~   ~override~
-                ~laola.cre~    ~override~
-                ~lasala.cre~   ~override~
-                ~marale2.cre~  ~override~
-                ~mordai.cre~   ~override~
-                ~mtowba_e.cre~ ~override~
-                ~mtwbax_b.cre~ ~override~
-                ~natash.cre~   ~override~
-                ~nemphr.cre~   ~override~
-                ~palin.cre~    ~override~
-                ~phlydi.cre~   ~override~
-                ~phlydi2.cre~  ~override~
-                ~phlydi3.cre~  ~override~
-                ~prost2.cre~   ~override~
-                ~shaell.cre~   ~override~
-                ~tam.cre~      ~override~
-                ~telka.cre~    ~override~
-                ~therel.cre~   ~override~
-                ~thieff.cre~   ~override~
-                ~turpin.cre~   ~override~
-                ~wiven.cre~    ~override~
-                ~wudei.cre~    ~override~
-                ~zeela.cre~    ~override~
-                ~zeke.cre~     ~override~
+COPY_EXISTING ~agnasi.cre~   ~override~
+              ~alyth.cre~    ~override~
+              ~arkush.cre~   ~override~
+              ~bgftown2.cre~ ~override~
+              ~crew1.cre~    ~override~
+              ~cultt4.cre~   ~override~
+              ~daese.cre~    ~override~
+              ~ftobe9.cre~   ~override~
+              ~ftowb5.cre~   ~override~
+              ~ftowb6.cre~   ~override~
+              ~ftowb7.cre~   ~override~
+              ~ftowbax.cre~  ~override~
+              ~ftowbe_c.cre~ ~override~
+              ~ftowfr_b.cre~ ~override~
+              ~ftwbax_b.cre~ ~override~
+              ~games.cre~    ~override~
+              ~games2.cre~   ~override~
+              ~games3.cre~   ~override~
+              ~games4.cre~   ~override~
+              ~games5.cre~   ~override~
+              ~lakada.cre~   ~override~
+              ~lantan.cre~   ~override~
+              ~laola.cre~    ~override~
+              ~lasala.cre~   ~override~
+              ~marale2.cre~  ~override~
+              ~mordai.cre~   ~override~
+              ~mtowba_e.cre~ ~override~
+              ~mtwbax_b.cre~ ~override~
+              ~natash.cre~   ~override~
+              ~nemphr.cre~   ~override~
+              ~palin.cre~    ~override~
+              ~phlydi.cre~   ~override~
+              ~phlydi2.cre~  ~override~
+              ~phlydi3.cre~  ~override~
+              ~prost2.cre~   ~override~
+              ~shaell.cre~   ~override~
+              ~tam.cre~      ~override~
+              ~telka.cre~    ~override~
+              ~therel.cre~   ~override~
+              ~thieff.cre~   ~override~
+              ~turpin.cre~   ~override~
+              ~wiven.cre~    ~override~
+              ~wudei.cre~    ~override~
+              ~zeela.cre~    ~override~
+              ~zeke.cre~     ~override~
   PHP_EACH ary_gen_sndset AS variable => sound BEGIN
     FOR (i = 0; i < 75; i += 1) BEGIN
       READ_LONG (0xa4 + 0x4*i) strref
@@ -9966,8 +10003,7 @@ ACTION_IF (~%LANGUAGE%~ STR_EQ ~english~) BEGIN
       END
     END
   END
-  BUT_ONLY
-END
+BUT_ONLY
 
 ///////////////////////////////////////////////////////
 // Movies
