@@ -10446,32 +10446,6 @@ END
 LAM bash_log
 
 ////////////////////////////////////////////////////////////
-// Biff all new resources
-////////////////////////////////////////////////////////////
-
-BEGIN @100043 LABEL ~A6-BGT-Biff~
-REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
-
-MKDIR ~bgt/biff/bgtare~
-      ~bgt/biff/bg1bcs~
-      ~bgt/biff/bgtcre~
-      ~bgt/biff/bg1dlg~
-      ~bgt/biff/bg1itm~
-      ~bgt/biff/bg1spl~
-      ~bgt/biff/bg1sto~
-      ~bgt/biff/bg1misc~
-
-INCLUDE ~bgt/include/biff_move.tpa~
-MAKE_BIFF ~bgtare~  BEGIN ~bgt/biff/bgtare~ ~^.*$~  END
-MAKE_BIFF ~bg1bcs~  BEGIN ~bgt/biff/bg1bcs~ ~^.*$~  END
-MAKE_BIFF ~bgtcre~  BEGIN ~bgt/biff/bgtcre~ ~^.*$~  END
-MAKE_BIFF ~bg1dlg~  BEGIN ~bgt/biff/bg1dlg~ ~^.*$~  END
-MAKE_BIFF ~bg1itm~  BEGIN ~bgt/biff/bg1itm~ ~^.*$~  END
-MAKE_BIFF ~bg1spl~  BEGIN ~bgt/biff/bg1spl~ ~^.*$~  END
-MAKE_BIFF ~bg1sto~  BEGIN ~bgt/biff/bg1sto~ ~^.*$~  END
-MAKE_BIFF ~bg1misc~ BEGIN ~bgt/biff/bg1misc~ ~^.*$~ END
-
-////////////////////////////////////////////////////////////
 // Baldur's Gate Trilogy - Music
 ////////////////////////////////////////////////////////////
 
@@ -12191,3 +12165,29 @@ COPY - ~areapatchlist~ ~areapatchlist~
     END //PATCH_IF fileExistsInGame
 
   END //.TBL loop
+
+////////////////////////////////////////////////////////////
+// Biff all new resources
+////////////////////////////////////////////////////////////
+
+BEGIN @100043 LABEL ~A6-BGT-Biff~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bgt.tp2~ (ID_OF_LABEL ~bgt.tp2~ ~A6-BGT-Core~)) @100046
+
+MKDIR ~bgt/biff/bgtare~
+      ~bgt/biff/bg1bcs~
+      ~bgt/biff/bgtcre~
+      ~bgt/biff/bg1dlg~
+      ~bgt/biff/bg1itm~
+      ~bgt/biff/bg1spl~
+      ~bgt/biff/bg1sto~
+      ~bgt/biff/bg1misc~
+
+INCLUDE ~bgt/include/biff_move.tpa~
+MAKE_BIFF ~bgtare~  BEGIN ~bgt/biff/bgtare~ ~^.*$~  END
+MAKE_BIFF ~bg1bcs~  BEGIN ~bgt/biff/bg1bcs~ ~^.*$~  END
+MAKE_BIFF ~bgtcre~  BEGIN ~bgt/biff/bgtcre~ ~^.*$~  END
+MAKE_BIFF ~bg1dlg~  BEGIN ~bgt/biff/bg1dlg~ ~^.*$~  END
+MAKE_BIFF ~bg1itm~  BEGIN ~bgt/biff/bg1itm~ ~^.*$~  END
+MAKE_BIFF ~bg1spl~  BEGIN ~bgt/biff/bg1spl~ ~^.*$~  END
+MAKE_BIFF ~bg1sto~  BEGIN ~bgt/biff/bg1sto~ ~^.*$~  END
+MAKE_BIFF ~bg1misc~ BEGIN ~bgt/biff/bg1misc~ ~^.*$~ END
