@@ -1,13 +1,61 @@
+# Archives
 *.7z
-*.bak
-*.lnk
+*.bz2
+*.bzip
+*.bzip2
+*.gz
+*.gzip
+*.iemod
+*.lz
+*.lzma
 *.rar
-*.stackdump
-*.tar*
-*.tmp
+*.tar
+*.tgz
+*.txz
+*.xar
+*.xz
 *.zip
-*~
 
+# Backup
+*.backup
+*.bak
+*.old
+*.ori
+*.orig
+*.temp
+*.tmp
+[Bb]ackup/
+[Tt]emp/
+[Tt]mp/
+
+# Build
+*.debug
+*.log
+[Dd]ebug/
+[Dd]ebugPublic/
+[Ll]og/
+[Ll]ogs/
+[Rr]elease/
+[Rr]eleases/
+
+# Office
+*.xlk
+*.~vsd*
+.~lock.*#
+Backup of *.doc*
+~$*.doc*
+~$*.ppt*
+~$*.xls*
+
+# Linux
+*~
+.Trash-*
+.directory
+.fuse_hidden*
+.nfs*
+
+# macOS
+*.icloud
 .AppleDB
 .AppleDesktop
 .AppleDouble
@@ -16,32 +64,26 @@
 .LSOverride
 .Spotlight-V100
 .TemporaryItems
-.Trash-*
 .Trashes
 .VolumeIcon.icns
 ._*
 .apdisk
 .com.apple.timemachine.donotpresent
-.directory
 .fseventsd
-.fuse_hidden*
-.nfs*
-
 Icon
 Network Trash Folder
 Temporary Items
-__macosx
 
+# WeiDU
+[Ss]etup-*.exe
+
+# Windows
 $RECYCLE.BIN/
-[Bb]ackup/
-[Rr]elease/
-[Tt]emp/
-[Tt]mp/
-
+*.lnk
+*.msix
+*.stackdump
 Thumbs.db
 Thumbs.db:encryptable
+[Dd]esktop.ini
 ehthumbs.db
 ehthumbs_vista.db
-[Dd]esktop.ini
-!/[Bb][Gg][Tt]/[Dd]esktop.ini
-[Ss]etup-[Bb][Gg][Tt].exe
