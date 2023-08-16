@@ -240,6 +240,7 @@ DEFINE_ACTION_MACRO linkbg1 BEGIN
       offset = BUFFER_LENGTH
       INSERT_BYTES offset 8
       WRITE_ASCII offset ~bgt/bg1/~
+      IF_EXISTS
     END
     OUTER_SPRINT bg1_dir ~bgt/bg1~ //use new BG1 folder
   END
