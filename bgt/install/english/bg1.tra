@@ -26930,7 +26930,7 @@ Not Usable By:
 @21935 = ~You were fairly warned. Come brothers, let us make short work of these insects and make our way to the ceremony.~
 @21936 = ~You win. We'll leave.~
 @21937 = ~Stand aside and direct us to the dagger.~
-@21938 = ~Heathen! You are those that have retrieved the dagger "Soultaker" from Durlag's tower. You must give me the dagger now.~
+@21938 = ~Heathen! You are those that have retrieved the dagger "Soultaker" from Durlag's Tower. You must give me the dagger now.~
 @21939 = ~That dagger holds the focus of all our prayers. Our god may finally return. I must have it!~
 @21940 = ~It will be mine!~
 @21941 = ~Excellent! Here is your just reward.~
@@ -27141,8 +27141,8 @@ Type: 1-handed~
 @22061 = ~What do you know of that?! Never mind, the knowledge dies with you. Guards! We have a breach of security!~
 @22062 = ~Threaten the League, will you? Guards! Assist me in removing this thorn...~
 @22063 = ~...As you will, but I urge you to conduct your business swiftly as I have little patience for your tone.~
-@22064 = ~I am <CHARNAME>, and I am in a hurry. Speak you mind and move aside.~
-@22065 = ~My name is none of you affair. What do you want?~
+@22064 = ~I am <CHARNAME>, and I am in a hurry. Speak your mind and move aside.~
+@22065 = ~My name is none of your affair. What do you want?~
 @22066 = ~And my business is to beat upon arrogant fops like you. Guards! Assist me in removing this whelp...~
 @22067 = ~Debts? Of what sort?~
 @22068 = ~Do not play me for the fool. Passage aboard our merchant ships is not for sale nor has it ever been. Guards! Assist me in arresting this imposter!~
@@ -27161,9 +27161,9 @@ Type: 1-handed~
 @22081 = ~The pleasure is mine, I am sure. What do you do here?~
 @22082 = ~Yes yes, now leave me be. I have no time for idle chatter.~
 @22083 = ~Well, straight to business then. I will not waste your time with pleasantries, as I am sure I will receive none in return. If you are as fierce as you are rude then I have need of you. I seek the return of an item, more an icon. No doubt you felt the storm that passed just by and by? Village-home did as well, and the cloak that draped the village center was cast to the wind. I think it is beyond the wall, and will not risk the beasts to get it. Will you?~
-@22084 = ~You are quite gruff and to the point, no? I find it refreshing. Others in the village are sweetened to the point of sickness, and I find their company a chore. You are so obviously different. Proper introduction then. I am Delainy, and I am glad to be meeting.~
+@22084 = ~You are quite gruff and to the point, no? I find it refreshing. Others in the village are sweetened to the point of sickness, and I find their company a chore. You are so obviously different. Proper introduction then. I am Delainy, and I am glad to be meeting you.~
 @22085 = ~Aye, we shan't sail for a while yet. The weather's run afoul in the pit of me stomach.~
-@22086 = ~Speak my mind? As you wish. I find you rude and arrogant. You are as I imagined an outsider to be, and I shall be glad when you go. for now however, I might have need of ye. Interested?~
+@22086 = ~Speak my mind? As you wish. I find you rude and arrogant. You are as I imagined an outsider to be, and I shall be glad when you go. For now, however, I might have need of ye. Interested?~
 @22087 = ~So, Captain Kieres is soon to sail, I hear.~
 @22088 = ~Sod off. I have no time to run errands.~
 @22089 = ~If I must be here, I may as well fill my time. What do you want?~
@@ -27254,12 +27254,12 @@ Weight: 4~
 @22162 = ~A simple cloak? Why should I risk my neck for such a thing?~
 @22163 = ~A prominent and odd place for a cloak. Of what significance is it?~
 @22164 = ~I will do as you ask, but I will require an ample reward. What is this item worth?~
-@22165 = ~Simple to you perhaps, but to we it is important of symbol. From the shiphome it came, and it is of the oldest we could salvage. It was used to drape the roof, as we use the past to move ahead. Little sense, I suppose, but symbols are important. Why should you risk yourself? Because I have asked you too. I can offer little besides my gratitude.~
+@22165 = ~Simple to you perhaps, but to we it is important of symbol. From the ship-home it came, and it is of the oldest we could salvage. It was used to drape the roof, as we use the past to move ahead. Little sense, I suppose, but symbols are important. Why should you risk yourself? Because I have asked you to. I can offer little besides my gratitude.~
 @22166 = ~Save your gratitude, I have no use for it. I have no time for this, so leave me be.~
 @22167 = ~Then I will find it for you, and return it as soon as I can.~
 @22168 = ~I will do this, but you will owe me.~
-@22169 = ~From the shiphome it came, and is of the few things we have kept. A symbol of the past and how far we've come. You must know how important symbols are to a people, especially one isolated as we. Will you help in this? I can offer only my gratitude.~
-@22170 = ~I am not interested in being your errand boy. Leave me alone.~
+@22169 = ~From the ship-home it came, and is of the few things we have kept. A symbol of the past and how far we've come. You must know how important symbols are to a people, especially one isolated as we. Will you help in this? I can offer only my gratitude.~
+@22170 = ~I am not interested in being your errand <GIRLBOY>. Leave me alone.~
 @22171 = ~I will do as you ask.~
 @22172 = ~Then you will owe me a debt in the future. I will get your lost cloak.~
 @22173 = ~Emotion~
@@ -27273,7 +27273,7 @@ Saving Throw: Special
 When this spell is cast the wizard can effect the emotional state of those around him. The effect of this is to inflict a feeling of hopelessness upon the enemies within the visual sight of the caster. Upon a failed save vs. spell, the effected can be seen to lay down where they stand and appear to give over all will to a higher power. Sometimes they can be heard to exclaim things such as "I lay down and die," or "I'm going home." This will last for the duration of the spell upon which they will return to normal.
 
 The secondary effect of this spell is to instill upon the caster the feeling of courage. This will remove any effects of panic and restore his moral, as well as preventing the above from creeping forth into his psyche. There is no save vs. this effect and it will last for the duration of the spell. It will, however, be affected by magic resistance and other such things.~
-@22175 = ~It is a keepsake, a symbol of old times. It came from the shiphome and is about all we have left. Kept for a sense of history, so we do not forget. You would do us well to return it. I can offer little other than gratitude, though.~
+@22175 = ~It is a keepsake, a symbol of old times. It came from the ship-home and is about all we have left. Kept for a sense of history, so we do not forget. You would do us well to return it. I can offer little other than gratitude, though.~
 @22176 = ~I have better things to do. Leave me alone.~
 @22177 = ~Otiluke's Resilient Sphere~
 @22178 = ~I will help as best I can.~
@@ -27307,8 +27307,8 @@ Area of Effect: Up to 60-foot cube
 Saving Throw: None
 The spell allows the caster to adversely affect all the saving throws of his enemies. The effect is applied to all hostile creature within the area of effect. Opponents under the influence of this spell make all saving throws at a penalty of -2.~
 @22187 = ~You are about to die, you cock smoker!~
-@22188 = ~Merchant League Guard~
-@22189 = ~Merchant League Guard~
+@22188 = ~Merchants' League Counting House Guard~
+@22189 = ~Merchants' League Counting House Guard~
 @22190 = ~Thanks, I will.~
 @22191 = ~You killed the bad people... you're a big hero now!~
 @22192 = ~Please find my dolly. I left it in the woods somewhere. A monster is probably playing with it right now!~
@@ -27325,7 +27325,7 @@ The spell allows the caster to adversely affect all the saving throws of his ene
 @22203 = ~I see. We shall not bother you any longer, in that case.~
 @22204 = ~I care not for your petty problems. I have questions that need to be answered.~
 @22205 = ~Greetings to you, Delainy. I am thoroughly pleased to meet you. What do you require of me?~
-@22206 = ~I say again, what of it? State your mind and leave me to be.~
+@22206 = ~I say again, what of it? State your mind and leave me be.~
 @22207 = ~What is it you do here?~
 @22208 = ~Level 1 Exit Wardstone~
 @22209 = ~This wardstone will open the way to the level beneath this when placed in the well.~
@@ -27452,7 +27452,7 @@ Not Usable By:
 @22290 = ~Nothing, o' ye rugged individualist! March on into that dead man's tor, and add another to its number. Now move on, these stones were never meant for this prying age of tourism, nor for tourists such as you. Next!~
 @22291 = ~A very prominent, though slightly odd place for a cloak. Of what significance is it?~
 @22292 = ~Why should I bother to risk my neck for a simple cloak? Is it... valuable?~
-@22293 = ~Bah! I am no errand boy!~
+@22293 = ~Bah! I am no errand <GIRLBOY>!~
 @22294 = ~It is from old, as old as we as people. From the ship-home that crumbled beneath, and it symbols the past we have come from. It drapes the village center as we use the past to move forward. You know how important symbols be? This is ours. The beast may have, and I need you to get. Will you help in this?~
 @22295 = ~Aye, selfish one, ye ask it right and true, no false piety hidden in your bloated soul... Well, if you be asking, a seller of cynicism and a merchant of mischief I be. If you are so dead set on losing yourself in that toad-like tor, I can assist in assuring that you don't take all your pretty gold with you.~
 @22296 = ~Without question I will help you. I will search and return as quickly as I can.~
@@ -27508,7 +27508,7 @@ When the spell is cast, for the duration of the spell the caster may transform i
 @22330 = ~What happened on the ship that caused the wreck?~
 @22331 = ~We belong. There is little more to it. If you were to stay, you would have to belong as well. We are a people that lives here as one. You are an outsider, as are the beasts. They are more obvious, but I think you are alike some ways. We have evil among our number alike, but we are respecting.~
 @22332 = ~Balduran?! The explorer who shipped and collected, who would rather scuttle than free. The elders did not see his fate. None wished or cared. He can live among the beasts for all that we care. We are better than they and he.~
-@22333 = ~None are alive to tell. Ages have gone and the dead lay asleep. Tales are of no real truth, only symbols. We were bound, then we freed. Others fought, but we live to grow. Beyond that is future, and none know that.~
+@22333 = ~None are alive to tell. Ages have gone and the dead lie asleep. Tales are of no real truth, only symbols. We were bound, then we freed. Others fought, but we live to grow. Beyond that is future, and none know that.~
 @22334 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
 @22335 = ~What do you mean when you say "you belong"?~
 @22336 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
@@ -27522,9 +27522,9 @@ When the spell is cast, for the duration of the spell the caster may transform i
 @22344 = ~I do, Delainy. It is frail and old, but seems none the worse for wear.~
 @22345 = ~I do, but I wonder what I should request in return? Perhaps a few questions you might answer?~
 @22346 = ~I have it, but I still wish to be paid for my efforts.~
-@22347 = ~You wish to listen while I speak? There are few of the village that take an interest in history, and I delight in the telling. None are very clear, I fear. We were not concerned with records when first we came. They are... embellished, though with good intent, I am sure. You are welcome to stand a while by me... if you wish, good sir.~
+@22347 = ~You wish to listen while I speak? There are few of the village that take an interest in history, and I delight in the telling. None are very clear, I fear. We were not concerned with records when first we came. They are... embellished, though with good intent, I am sure. You are welcome to stand a while by me... if you wish, good <PRO_SIRMAAM>.~
 @22348 = ~Nothing would please me greater. Tell me of yourself.~
-@22349 = ~None of this "good sir" business. I am <CHARNAME>. Speak of yourself.~
+@22349 = ~None of this "good <PRO_SIRMAAM>" business. I am <CHARNAME>. Speak of yourself.~
 @22350 = ~Yes, yes, whatever. I merely wish to know how you came to be here. Speak up and make it quick.~
 @22351 = ~Myself?! I am flattered, but there is little to say. My great-great-grandmother came to the shore on the ship-home, but lived not long. I was born not a leap to the south of here, long after the beasts were cast out, and here I live. We kept the stories, but I say they were tainted by bad memory and superstition. We are all pups in the larger sight. Our people are young...~
 @22352 = ~Ahh, but I asked about "you," and you have changed the subject. Are you happy here? Do the dangers not frighten you?~
@@ -27593,7 +27593,7 @@ Unable to lift a hand in his own defense~
 @22393 = ~Greetings to you, Durlyle. I am thoroughly pleased to meet you. What do you require of me?~
 @22394 = ~I say again, what of it? State your mind and leave me to be.~
 @22395 = ~What is it you do here?~
-@22396 = ~Speak my mind? As you wish. I find you rude and arrogant. You are as I imagined an outsider to be, and I shall be glad when you go. for now however, I might have need of ye. Interested?~
+@22396 = ~Speak my mind? As you wish. I find you rude and arrogant. You are as I imagined an outsider to be, and I shall be glad when you go. For now, however, I might have need of ye. Interested?~
 @22397 = ~Sod off. I have no time to run errands.~
 @22398 = ~If I must be here, I may as well fill my time. What do you want?~
 @22399 = ~Well then, I will leave you to whatever it is an outsider does. Make your stay a brief one.~
@@ -27603,15 +27603,15 @@ Unable to lift a hand in his own defense~
 @22403 = ~I am a beachcomber of sorts. I salvage shipwrecks.~
 @22404 = ~None of your business, lout.~
 @22405 = ~A little of this, a little of that. Whatever opportunity presents itself.~
-@22406 = ~Simple to you perhaps, but to we it is important of symbol. From the shiphome it came, and it is of the oldest we could salvage. It was used to drape the roof, as we use the past to move ahead. Little sense, I suppose, but symbols are important. Why should you risk yourself? Because I have asked you too. I can offer little besides my gratitude.~
+@22406 = ~Simple to you perhaps, but to we it is important of symbol. From the ship-home it came, and it is of the oldest we could salvage. It was used to drape the roof, as we use the past to move ahead. Little sense, I suppose, but symbols are important. Why should you risk yourself? Because I have asked you too. I can offer little besides my gratitude.~
 @22407 = ~Save your gratitude, I have no use for it. I have no time for this, so leave me be.~
 @22408 = ~Then I will find it for you, and return it as soon as I can.~
 @22409 = ~I will do this, but you will owe me.~
-@22410 = ~From the shiphome it came, and is of the few things we have kept. A symbol of the past and how far we've come. You must know how important symbols are to a people, especially one isolated as we. Will you help in this? I can offer only my gratitude.~
+@22410 = ~From the ship-home it came, and is of the few things we have kept. A symbol of the past and how far we've come. You must know how important symbols are to a people, especially one isolated as we. Will you help in this? I can offer only my gratitude.~
 @22411 = ~I am not interested in being your errand boy. Leave me alone.~
 @22412 = ~I will do as you ask.~
 @22413 = ~Then you will owe me a debt in the future. I will get your lost cloak.~
-@22414 = ~It is a keepsake, a symbol of old times. It came from the shiphome and is about all we have left. Kept for a sense of history, so we do not forget. You would do us well to return it. I can offer little other than gratitude, though.~
+@22414 = ~It is a keepsake, a symbol of old times. It came from the ship-home and is about all we have left. Kept for a sense of history, so we do not forget. You would do us well to return it. I can offer little other than gratitude, though.~
 @22415 = ~I have better things to do. Leave me alone.~
 @22416 = ~I will help as best I can.~
 @22417 = ~You may not be able to pay now, but you will owe me.~
@@ -27668,7 +27668,7 @@ Unable to lift a hand in his own defense~
 @22468 = ~What do you mean when you say "you belong"?~
 @22469 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
 @22470 = ~What happened on the ship that caused the wreck?~
-@22471 = ~We belong. There is little more to it. if you were to stay, you would have to belong as well. We are a people that lives here as one. You are an outsider, as are the beasts. They are more obvious, but I think you are alike some ways. We have evil among our number alike, but we are respecting.~
+@22471 = ~We belong. There is little more to it. If you were to stay, you would have to belong as well. We are a people that lives here as one. You are an outsider, as are the beasts. They are more obvious, but I think you are alike some ways. We have evil among our number alike, but we are respecting.~
 @22472 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
 @22473 = ~What happened on the ship that caused the wreck?~
 @22474 = ~I tire of tales. Take your ragged cloak and be gone.~
@@ -27676,7 +27676,7 @@ Unable to lift a hand in his own defense~
 @22476 = ~What do you mean when you say "you belong"?~
 @22477 = ~What happened on the ship that caused the wreck?~
 @22478 = ~I tire of tales. Take your ragged cloak and be gone.~
-@22479 = ~None are alive to tell. Ages have gone and the dead lay asleep. Tales are of no real truth, only symbols. We were bound, then we freed. Other's fought, but we live to grow. Beyond that is future, and none know that.~
+@22479 = ~None are alive to tell. Ages have gone and the dead lie asleep. Tales are of no real truth, only symbols. We were bound, then we freed. Other's fought, but we live to grow. Beyond that is future, and none know that.~
 @22480 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
 @22481 = ~What do you mean when you say "you belong"?~
 @22482 = ~I tire of tales. Take your ragged cloak and be gone.~
@@ -27723,9 +27723,9 @@ Unable to lift a hand in his own defense~
 @22523 = ~What do you mean when you say "you belong"?~
 @22524 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
 @22525 = ~What happened on the ship that caused the wreck?~
-@22526 = ~We belong. There is little more to it. if you were to stay, you would have to belong as well. We are a people that lives here as one. You are an outsider, as are the beasts. They are more obvious, but I think you are alike some ways. We have evil among our number alike, but we are respecting.~
+@22526 = ~We belong. There is little more to it. If you were to stay, you would have to belong as well. We are a people that lives here as one. You are an outsider, as are the beasts. They are more obvious, but I think you are alike some ways. We have evil among our number alike, but we are respecting.~
 @22527 = ~Balduran?! The explorer who shipped and collected, who would rather scuttle than free. The elders did not see his fate. None wished or cared. He can live among the beast for all that we care. We are better than they and he.~
-@22528 = ~None are alive to tell. Ages have gone and the dead lay asleep. Tales are of no real truth, only symbols. We were bound, then we freed. Other's fought, but we live to grow. Beyond that is future, and none know that.~
+@22528 = ~None are alive to tell. Ages have gone and the dead lay asleep. Tales are of no real truth, only symbols. We were bound, then we freed. Others fought, but we live to grow. Beyond that is future, and none know that.~
 @22529 = ~What do you mean when you say "you belong"?~
 @22530 = ~What do you mean when you say "you belong"?~
 @22531 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
@@ -27745,7 +27745,7 @@ Unable to lift a hand in his own defense~
 @22545 = ~If it is your wish, I will make it so.~
 @22546 = ~A small thing, smaller than the last. I have need of a few simple flowers, from just beyond the wall. They grow in only a few place, and I find them strangely alluring, as with... a few other things. Would you bring me one or two? I have a special purpose for them.~
 @22547 = ~Another time, perhaps. Until then, good day to you, <CHARNAME>. I think well of you.~
-@22548 = ~Well... I had though I began to know you, but you surprise with unkind. Leave me then. Enjoy your stay, though it must be short.~
+@22548 = ~Well... I had thought I began to know you, but you surprise with unkind. Leave me then. Enjoy your stay, though it must be short.~
 @22549 = ~I will return as soon as possible.~
 @22550 = ~I suppose this one is for free as well?~
 @22551 = ~Please do. I will be here.~
@@ -27777,7 +27777,7 @@ Unable to lift a hand in his own defense~
 @22577 = ~What do you mean when you say "you belong"?~
 @22578 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
 @22579 = ~What happened on the ship that caused the wreck?~
-@22580 = ~We belong. There is little more to it. if you were to stay, you would have to belong as well. We are a people that lives here as one. You are an outsider, as are the beasts. They are more obvious, but I think you are alike some ways. We have evil among our number alike, but we are respecting.~
+@22580 = ~We belong. There is little more to it. If you were to stay, you would have to belong as well. We are a people that lives here as one. You are an outsider, as are the beasts. They are more obvious, but I think you are alike some ways. We have evil among our number alike, but we are respecting.~
 @22581 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
 @22582 = ~What happened on the ship that caused the wreck?~
 @22583 = ~You have a rich history, even for such a short one. I have enjoyed hearing it.~
@@ -27787,7 +27787,7 @@ Unable to lift a hand in his own defense~
 @22587 = ~What happened on the ship that caused the wreck?~
 @22588 = ~You have a rich history, even for such a short one. I have enjoyed hearing it.~
 @22589 = ~I waste my time with this. I have no use for your legends. Goodbye.~
-@22590 = ~None are alive to tell. Ages have gone and the dead lay asleep. Tales are of no real truth, only symbols. We were bound, then we freed. Other's fought, but we live to grow. Beyond that is future, and none know that.~
+@22590 = ~None are alive to tell. Ages have gone and the dead lie asleep. Tales are of no real truth, only symbols. We were bound, then we freed. Other's fought, but we live to grow. Beyond that is future, and none know that.~
 @22591 = ~What do you mean when you say "you belong"?~
 @22592 = ~What happened to Balduran? It is his ship that supposedly wrecked here.~
 @22593 = ~You have a rich history, even for such a short one. I have enjoyed hearing it.~
@@ -27798,7 +27798,7 @@ Unable to lift a hand in his own defense~
 @22598 = ~I am done with errands. Find another to fetch and gather for you.~
 @22599 = ~If it you wish, I will make it so.~
 @22600 = ~Another time, perhaps. Until then, good day to you, <CHARNAME>. I think well of you.~
-@22601 = ~Well... I had though I began to know you, but you surprise with unkind. Leave me then. Enjoy your stay, though it must be short.~
+@22601 = ~Well... I had thought I began to know you, but you surprise with unkind. Leave me then. Enjoy your stay, though it must be short.~
 @22602 = ~A small thing, smaller than the last. I have need of a few simple flowers, from just beyond the wall. They grow in only a few place, and I find them strangely alluring, as with... a few other things. Would you bring me one or two? I have a special purpose for them.~
 @22603 = ~I will return as soon as possible.~
 @22604 = ~I suppose this one is for free as well?~
@@ -27975,7 +27975,7 @@ Not Usable By:
 @22698 = ~Calm down, child. We are here to help you.~
 @22699 = ~Suck it up, child! The big bad monster is dead and we don't tolerate no crybabies!~
 @22700 = ~Your name? Is it Dalton? Your mother sent us to find you. Your mother Therella.~
-@22701 = ~I don't believe! it all hurts here! Everything! You too!~
+@22701 = ~I don't believe! It all hurts here! Everything! You too!~
 @22702 = ~Relax, son. This is all just a bad dream and you'll wake up tomorrow right as rain.~
 @22703 = ~AHHHHHH!!!! You're here to hurt too! Gotta run! GOTTA RUN!~
 @22704 = ~My... she... she sent you? Oh thank the gods and all that's good! I just wanna... I just wanna go home.~
@@ -28061,11 +28061,11 @@ Not Usable By:
 @22741 = ~Your mother sent me to find you; your mother Therella.~
 @22742 = ~Aw shut-up, nothing is gonna hurt you now.~
 @22743 = ~I don't care what you believe. If you're too stupid to recognize that you've been rescued you can stay here for all I care.~
-@22744 = ~My son has run off on some foolish adventure. You must excuse me for being to distraught to talk.~
+@22744 = ~My son has run off on some foolish adventure. You must excuse me for being too distraught to talk.~
 @22745 = ~~
 @22746 = ~Glittering Beljuril Gemstone~
 @22747 = ~You're n-not gonna hurt? You... you've come to rescue! Praise the gods!~
-@22748 = ~Yes, son, calm down. We met one of your fellows and he told us of your plight. You should go now. The way is fairly clear, and you should be safe.~
+@22748 = ~Yes, son, calm down. We met one of your fellows and she told us of your plight. You should go now. The way is fairly clear, and you should be safe.~
 @22749 = ~You will take this journey for me now, yes?~
 @22750 = ~I will undertake the journey.~
 @22751 = ~I am not prepared to go on this trip for you.~
@@ -28087,7 +28087,7 @@ Not Usable By:
 @22767 = ~Hold Monster~
 @22768 = ~Chaos~
 @22769 = ~Feeblemind~
-@22770 = ~Saved...? Then you are not part of... you are a bunch of fools, just like we were! Turn back now and leave the way you came, and maybe you will live to forget this place. I don't know if I even have to will to do that.~
+@22770 = ~Saved...? Then you are not part of... you are a bunch of fools, just like we were! Turn back now and leave the way you came, and maybe you will live to forget this place. I don't know if I even have the will to do that.~
 @22771 = ~Fire then, and know you have killed the one who would have saved you!~
 @22772 = ~Calm down, I am not your enemy. Who are you?~
 @22773 = ~If it's a fight you want, I am more than capable! I have survived this far and will not be stopped by you!~
@@ -28127,8 +28127,8 @@ Not Usable By:
 @22794 = ~Survived this far? Then you are not an illusion or henchman of... no, you are a fool just like me. Come to take the tower for all its spoils, have you? You'll die, you know.~
 @22795 = ~And will you be the one to kill me? I think not! You look wounded and weak as it is. Stand aside or I will put you out of your misery.~
 @22796 = ~You seem quite certain, yet you live. Perhaps my doom is not as set in stone as you would have it seem. Who are you to say?~
-@22797 = ~I have no time to listen to your prattle. Stand aside if you are to weak, I will not be stopped by you, or this place.~
-@22798 = ~The great and conquering hero, come to take what is his by rights. Ha! You know nothing, just as I did not. Do you know what is beyond this door? Have you given a moment's thought to what you will face here? Obviously not, or you would never have entered this damned place at all.~
+@22797 = ~I have no time to listen to your prattle. Stand aside if you are too weak; I will not be stopped by you, or this place.~
+@22798 = ~The great and conquering hero, come to take what is theirs by rights. Ha! You know nothing, just as I did not. Do you know what is beyond this door? Have you given a moment's thought to what you will face here? Obviously not, or you would never have entered this damned place at all.~
 @22799 = ~If you are through insulting me, pray tell what it is you fear now that you did not before. Who are you that you have such "insight"?~
 @22800 = ~The danger is irrelevant. This place harbors an evil most foul, and I'll not rest until it is extinguished.~
 @22801 = ~Is greed all that brought you here? Even my young friends thought more of themselves than that. We were not scavengers; we were adventurers, testing ourselves against obstacles. Such fools we were, and you are too. It is gold you seek? Is it worth your lives? That will be the cost.~
@@ -28143,7 +28143,7 @@ Not Usable By:
 @22810 = ~What great experience has jaded you so? Who are you to know this place as well as you claim?~
 @22811 = ~Neither would I want it to. Perhaps you should flee and leave me to decide for myself what I should do. The way is clear behind me, and soon will be ahead as well.~
 @22812 = ~The cost will be paid by others. I do not fail and I do not give up. Defeat is the only choice for this place and anything within.~
-@22813 = ~Who are you and these fellows you speak of? You cannot have been that formidable if you have given up so easy.~
+@22813 = ~Who are you and these fellows you speak of? You cannot have been that formidable if you have given up so easily.~
 @22814 = ~Amazing! You said that so utterly deadpan I almost believe you think it is true. It will do you no good, you know. Thrust your chest out and bellow as you will, the creature ahead will pay you no mind, and neither will the walls of this place.~
 @22815 = ~And what has given you this insight? Who are you to say?~
 @22816 = ~Such cowardice I have never heard! Did your comrades die on their knees or were they always there?~
@@ -28242,19 +28242,19 @@ This is the logbook of the goode ship Wandering Eye, under the command of the mo
 @22854 = ~Durlag's Tower~
 @22855 = ~I will approach cautiously, but I cannot back down now.~
 @22856 = ~I assure you, this creature is only as confident as its power warrants. You don't know what happened in there. You don't know...~
-@22857 = ~Then tell me straight: what happened to your friends.~
+@22857 = ~Then tell me straight: what happened to your friends?~
 @22858 = ~What great magic did it use to defeat your friends so easily?~
 @22859 = ~So you think there is no way to defeat it? Why did you come down here then?~
 @22860 = ~Even I have to laugh at that comment. You should pray that it finds you just as funny. You just don't know...~
-@22861 = ~Then tell me straight: what happened to your friends.~
+@22861 = ~Then tell me straight: what happened to your friends?~
 @22862 = ~What great magic did it use to defeat your friends so easily?~
 @22863 = ~So you think there is no way to defeat it? Why did you come down here then?~
 @22864 = ~My friends were young and inexperienced. You should know better. You have no idea...~
-@22865 = ~Then tell me straight: what happened to your friends.~
+@22865 = ~Then tell me straight: what happened to your friends?~
 @22866 = ~What great magic did it use to defeat your friends so easily?~
 @22867 = ~So you think there is no way to defeat it? Why did you come down here then?~
 @22868 = ~It will not matter. You still have no idea what you are going to face... no idea...~
-@22869 = ~Then tell me straight: what happened to your friends.~
+@22869 = ~Then tell me straight: what happened to your friends?~
 @22870 = ~What great magic did it use to defeat your friends so easily?~
 @22871 = ~So you think there is no way to defeat it? Why did you come down here then?~
 @22872 = ~They entered and challenged it, and it stared and did nothing. For a moment they didn't know what to do, and then it made a simple gesture with its hand, and all the hells broke loose. It created doubles of them all, and laughed as they literally killed themselves. I heard Dalton screaming loudest. I think he actually killed his double, but couldn't handle the fact that he had to. He was the youngest... they didn't know, and they missed the one shot they may have had...~
@@ -28313,18 +28313,18 @@ Chaotic Commands renders a creature immune to magical commands. Suggestion, char
 @22917 = ~A salty sea-dog by the name of Calahan tells us that Mendas, the scholar from Waterdeep, keeps to himself and is away several days a month on business.~
 @22918 = ~Wow, this place is immense.~
 @22919 = ~This Ike fellow, he's rather wordy, ain't he?~
-@22920 = ~We have met an elven mage who seems to be a bit insane. He claims to be Balduran's friend and navigator on the hero's final voyage. He also claims that this island is infected by lycanthropes. Dradeel asked us to retrieve his spell book from the wreck of Balduran's ship. The book is said to lie in a chest near Balduran's cabin.~
-@22921 = ~I don't care what Ike says, I wanna take a look around on my own,~
+@22920 = ~We have met an elven mage who seems to be a bit insane. He claims to be Balduran's friend and navigator on the hero's final voyage. He also claims that this island is infested by lycanthropes. Dradeel asked us to retrieve his spell book from the wreck of Balduran's ship. The book is said to lie in a chest near Balduran's cabin.~
+@22921 = ~I don't care what Ike says, I wanna take a look around on my own.~
 @22922 = ~Oh my god!!! What sort of hellish place is this?! Francis was roasted like a stuck pig over the fire!!~
 @22923 = ~We have met an elven mage who seems to be a bit insane. He claims to be Balduran's friend and navigator on the hero's final voyage. He also claims that this island is infested by lycanthropes.~
 @22924 = ~The mad elf, Dradeel, says that Balduran's crew stopped here to replenish their supplies as they returned from a disastrous voyage to Anchorome. Some of the crew members had been cursed with lycanthropy and attacked the others. Dradeel managed to escape and has been holed up in an ancient hut ever since.~
 @22925 = ~Served my purpose? I will do nothing for you, monster!~
 @22926 = ~They are children who don't know better. Now you face a true opponent!~
-@22927 = ~Of course you have. You have come to fight for right, and think it gives you strength. You shall be brave martyr, IF they find your corpse. More likely none will know you died here, and you name will be forgotten. You are nothing in my sight, just as the whelps behind. You have served your purpose, and now will die.~
+@22927 = ~Of course you have. You have come to fight for right, and think it gives you strength. You shall be brave martyr, IF they find your corpse. More likely none will know you died here, and your name will be forgotten. You are nothing in my sight, just as the whelps behind. You have served your purpose, and now will die.~
 @22928 = ~~
 @22929 = ~Served my purpose? I have done nothing for you!~
 @22930 = ~A gnomish woman named Dushai claims to have knowledge of Balduran's final voyage. She will share it with us for a "research fee."~
-@22931 = ~The gnome Dushai tells us that Balduran sailed for Anchorome and never returned. No on knows exactly what his final fate was. However, it is odd that he did not return to the city that he founded and loved.~
+@22931 = ~The gnome Dushai tells us that Balduran sailed for Anchorome and never returned. No one knows exactly what his final fate was. However, it is odd that he did not return to the city that he founded and loved.~
 @22932 = ~You talk pretty confidently for someone who has only tested their strength against children and commoners.~
 @22933 = ~You seek to reason with death? Your words mean nothing and fall as leaves to the winter. I will listen to your screams, but your words do not interest. You are tools to be cast aside, now that your task is done. You will die as these whelps behind.~
 @22934 = ~Evalt, a fisherman descendant of Balduran's crew, tells us that his brother was kidnapped by a "blue witch." He asks that we look for his brother when we are on the north half of the island.~
@@ -28334,7 +28334,7 @@ Chaotic Commands renders a creature immune to magical commands. Suggestion, char
 @22938 = ~My purpose? I have done nothing to help you! I am here to destroy you!~
 @22939 = ~They were weak! I am stronger, and will be a worthy opponent!~
 @22940 = ~We have agreed to retrieve Farthing's dolly should we come across it on the island. She has allowed us to play with the doll on the way back.~
-@22941 = ~Fenrus Boulon has told us that Durlag's Tower was built by a famous dwarven hero name Durlag Trollkiller. The wealth that he amassed was coveted by a group of mindflayers, who used doppelgangers to kill and replace Durlag's family. The hero killed the beasts but was driven mad in the process. He entrapped the Tower and disappeared within its depths.~
+@22941 = ~Fenrus Boulon has told us that Durlag's Tower was built by a famous dwarven hero name Durlag Trollkiller. The wealth that he amassed was coveted by a group of mind flayers, who used doppelgangers to kill and replace Durlag's family. The hero killed the beasts but was driven mad in the process. He entrapped the Tower and disappeared within its depths.~
 @22942 = ~The war leader of the island village has said that the lycanthropes that we hunt can only be injured by enchanted weapons or silver.~
 @22943 = ~We have met a woman named Maralee in the island village. Her child has been kidnapped by the wolf creatures on the island. She has asked us to rescue the child.~
 @22944 = ~You have done just what I wished. I need a base that is fortified and secure, and I also do not wish my hirelings to die with every step. I bait some foolish adventurers in and they make the floors safe. They come this far and die, and I do not need to sully my hands removing traps. I need not dirty hands at all. Foolish flesh kills itself with my Mirror of Opposition. Durlag has built me a fine home, and you have been excellent maid service. It is the duty of the flesh to toil and then be laid to rest. Perhaps you will forsake the flesh and return, but I doubt you to be that privileged.~
@@ -28343,7 +28343,7 @@ Chaotic Commands renders a creature immune to magical commands. Suggestion, char
 @22947 = ~Mendas has sent us to the Counting House of the Merchant League in Baldur's Gate. We are to "obtain" the sea charts for him. The Counting House should be located in the northeastern quadrant of the city.~
 @22948 = ~The scholar Mendas has hired a boat for our use and copied the sea charts for the journey. He awaits our arrival at the docks of Ulgoth's Beard.~
 @22949 = ~After meeting a former sailor from Amn in the island village, he explained to us that Balduran's crew was attacked by savage wolfweres and holed up here where the village now stands. They believe that Balduran and his guide Dradeel died at the ship. He goes on to say the husband of the headwoman has attempted to make it to the mainland and return to rescue his clan. He has not returned.~
-@22950 = ~They were not worthy of my blade. With the aid of a trinket they destroyed themselves. They should thank, that I allowed them to die by their own hand instead of killing them like insects. One yet lives. Perhaps I should kill with the old rituals, and bring forth a proper minion. He will outlive his worthless companions in undeath. Their age is your age is the age of all mortals, and it is irrelevant. You do not know true age, and you could not until you have outlived a dragon or an elf, or a legend. Death can be eternal sleep, or the one eternal life. You will know the sleep, and I will still be the life. You have fulfilled your purpose. I took the tower as a base that is fortified and secure. You have been the foolish maid service that cleaned it of traps for me. The madness of Durlag has built me a fine home, and you have swept the floors.~
+@22950 = ~They were not worthy of my blade. With the aid of a trinket they destroyed themselves. They should thank, that I allowed them to die by their own hand instead of killing them like insects. One yet lives. Perhaps I should kill with the old rituals, and bring forth a proper minion. He will outlive his worthless companions in undeath. Their age, your age, is the age of all mortals, and it is irrelevant. You do not know true age, and you could not until you have outlived a dragon or an elf, or a legend. Death can be eternal sleep, or the one eternal life. You will know the sleep, and I will still be the life. You have fulfilled your purpose. I took the tower as a base that is fortified and secure. You have been the foolish maid service that cleaned it of traps for me. The madness of Durlag has built me a fine home, and you have swept the floors.~
 @22951 = ~Taloun has warned us to trust no one on the island. He seems to be serious.~
 @22952 = ~In Ulgoth's Beard, a woman named Therella has asked us to look for her errant son in Durlag's Tower.~
 @22953 = ~Your resolve will make for a good epitaph. This IS the last, and here I shall crumble your bones to dust. You have discovered nothing that will not be silenced with your death. I will give you pain unlike you have ever known. I will not even risk my trinket on you. You will know the honor of dying by my own hand.~
@@ -28390,7 +28390,7 @@ Not Usable By:
 @22981 = ~The ship lies beyond the mountains to the east. I have discovered a series of caves, warrens really, that the wolf monstrosities live in. There is a hidden door in this hut. The caves will lead you to the ship. I warn you now, the way is fraught with peril. Head east through the caves and you may find the exit. The chieftain's woman is at the boat right now. Hurry friends! I thank you for my freedom. Would that I had the power to help you escape myself. Ah, well, perhaps we shall meet again someday and I will repay you for your assistance.~
 @22982 = ~This headwoman, Kaishas, had the ship built months ago. She has been waiting for her husband, Selaad to return with maps that they might use to return to the mainland. At present, she only knows that it is east. She has gone to the ship that they have built. I have discovered a series of caves, warrens really, that the wolf monstrosities live in. There is a hidden door in this hut. The caves will lead you to the ship. I warn you now, the way is fraught with peril. Head east through the caves and you may find the exit. Hurry friends! I thank you for my freedom. Would that I had the power to help you escape myself. Ah, well, perhaps we shall meet again someday and I will repay you for your assistance.~
 @22983 = ~Be as rude as you wish. For your help earlier, I will give you this advice. I have discovered a series of caves, warrens really, that the wolf monstrosities live in. There is a hidden door in this hut. The caves will lead you to the ship where the chieftain's woman is. I warn you now, the way is fraught with peril. Head east through the caves and you may find the exit. Hurry friends! I thank you for my freedom. Perhaps we shall meet again someday.~
-@22984 = ~How shallow do you think me that I would give up my destiny after a few short words with you? Have you no strength to YOUR convictions? I have no pity for your kind! You will be swept aside! You are already too late, and a new age rises! Behold Aec'Letec! Born of the Nine Hells, but destined to walk the prime! The dagger is broken! Behold your new lord and master!~
+@22984 = ~How shallow do you think me that I would give up my destiny after a few short words with you? Have you no strength to YOUR convictions? I have no pity for your kind! You will be swept aside! You are already too late, and a new age rises! Behold Aec'Letec! Born of the Abyss, but destined to walk the Prime! The dagger is broken! Behold your new lord and master!~
 @22985 = ~Heroic friends, I am sorry for what is happening. I fear that we are led by one with evil heart. In the large hut northwest of here, there is a hidden door that leads to our homes below the ground. Within you shall find an exit to the ship.~
 @22986 = ~Your home is no place for my people. Take the ship and go. With the evil ones dead we can make a good life on our island. Farewell! Peladan will grow to learn of your courage.~
 @22987 = ~I am still surprised that you saved my child at all. You do not seem the least bit heroic. It is better that you take the ship and leave us here. We would never wish to live with such as you.~
@@ -28400,8 +28400,8 @@ Not Usable By:
 @22991 = ~Aec'Letec~
 @22992 = ~Here we must be parting. Inside there is a path to a secret place. Kaishas has not told, and none really know. I learned of it because I dared to explore and found the ship they built. It may be ready, but without seachart they could not sail. Some say the chieftain left on another ship, to find the way. I think we should stay; there is naught but fight and conflict elsewhere. The secret door is in the north of the hut. You may have seen, but it was magically closed. Now it will work, because Kaishas has gone through. Go! I will defend you to the death, for my spirit has already passed in the face of my compatriots' intolerance. They are not the friends I thought I knew. If you are gone, perhaps they will calm. Go now!~
 @22993 = ~Here we must be parting. Inside there is a path to a secret place. Kaishas has not told, and none really know. I learned of it because I dared to explore and found the ship they built. It may be ready, but without seachart they could not sail. Some say the chieftain left on another ship, to find the way. I think we should stay; there is naught but fight and conflict elsewhere. The secret door is in the north of the hut. You may have seen, but it was magically closed. Now it will work, because Kaishas has gone through. Go! I will defend you to the death, for my spirit has already passed in the face of my compatriots' intolerance. They are not the friends I thought I knew. If you are gone, perhaps they will calm. Go now!~
-@22994 = ~You are correct that we shall need powerful allies. How fortunate for us that we are summoning one and will not need you! You would dare suggest that you should be granted immunity from the coming storm, just because you feign loyalty at this moment? We have worshiped for years upon years, and planned for this day to the exclusion of all else! You are but spit in the ocean, and unworthy! Your time is past! Aec'Letec will deliver you from life! The dagger is broken! Witness the new lord arise!~
-@22995 = ~By all that is loud and windy, will you please shut up! You can pose all you wish, but you have failed! Here will come the new lord, despite your slogans! Here will come the new lord, despite your puny weapons! Here will come the new lord, Aec'Letec! Born of the Nine Hells, let he who was imprisoned walk the prime! The dagger is broken! I release you!~
+@22994 = ~You are correct that we shall need powerful allies. How fortunate for us that we are summoning one and will not need you! You would dare suggest that you should be granted immunity from the coming storm, just because you feign loyalty at this moment? We have worshipped for years upon years, and planned for this day to the exclusion of all else! You are but spit in the ocean, and unworthy! Your time is past! Aec'Letec will deliver you from life! The dagger is broken! Witness the new lord arise!~
+@22995 = ~By all that is loud and windy, will you please shut up! You can pose all you wish, but you have failed! Here will come the new lord, despite your slogans! Here will come the new lord, despite your puny weapons! Here will come the new lord, Aec'Letec! Born of the Abyss, let he who was imprisoned walk the Prime! The dagger is broken! I release you!~
 @22996 = ~It came to pass that~
 @22997 = ~It came to pass that the hero Durlag and his man-at-arms, Arlo Stoneblade, ventured into the bowels of the Great Rift. They fought the hideous tanar'ri Aec'Letec and with a single blow of his axe, Durlag slew the demon's body and entrapped its soul in an enchanted dagger.~
 @22998 = ~Ashirukuru~
@@ -28426,7 +28426,7 @@ Not Usable By:
 @23017 = ~Ghoul Lord~
 @23018 = ~You are uncharacteristically civil this day, Durlag... and I think you are... taller... than I recall. Time changes us all, I guess, though it has not erased my debt. I will serve here until you wish otherwise, to repay... repay... I barely remember what I owe, but it matters not.~
 @23019 = ~Greater Ghoul~
-@23020 = ~Then you are invaders in his home! I will avenge! Durlag, If you hear me, I am sorry I was not here to aid! My debt goes unpaid! I will expel these creatures and any other... you will rest easy, I swear it!~
+@23020 = ~Then you are invaders in his home! I will avenge! Durlag, if you hear me, I am sorry I was not here to aid! My debt goes unpaid! I will expel these creatures and any other... you will rest easy, I swear it!~
 @23021 = ~~
 @23022 = ~Greater Ghoul~
 @23023 = ~I see you are as crotchety as ever to non-dwarven kin, though you yourself seem... taller than I recall. Perhaps it is me. I recall so little with clarity these days... years. I am here to serve as best I can... to repay the debt I owe... I barely recall how I incurred it, but repay I will.~
@@ -28480,7 +28480,7 @@ Not Usable By:
 @23071 = ~You have nothing to fear if you are right and just. I am here to cleanse this place.~
 @23072 = ~The hunched figure of a doppelganger glares from the woven depths of this tapestry. Its eyes seem to follow you, darting occasionally to the cobwebbed statues that lie to either side.~
 @23073 = ~I suppose it would make you nervous, what with all the traps in this place. I'm not here to harm you though.~
-@23074 = ~Welcome to the game of Chess. You have just defeated the last of the four elemental guardians and so this is your next stop. I hope your stay within my tower has been pleasant, but if you have been bored, I have included this game to spice things up somewhat. There are some rules that must be adhered to while playing the game. The first one is to stay on your respective squares. Your King cannot move from his square, your queen may move into any square. The black bishop must stay to the black squares, while the white bishop keeps to the white square. The knights can travel anywhere, but always take the risk of some pain. IF you move into a square that is restricted to you, lightning will be sent to punish your transgression.~
+@23074 = ~Welcome to the game of chess. You have just defeated the last of the four elemental guardians and so this is your next stop. I hope your stay within my tower has been pleasant, but if you have been bored, I have included this game to spice things up somewhat. There are some rules that must be adhered to while playing the game. The first one is to stay on your respective squares. Your king cannot move from its square, your queen may move into any square. The black bishop must stay on the black squares, while the white bishop keeps to the white squares. The knights can travel anywhere, but always take the risk of some pain. If you move into a square that is restricted to you, lightning will be sent to punish your transgression.~
 @23075 = ~Remember, when one king falls the game is done.~
 @23076 = ~You should be nervous. If anything were to... happen... to you in here, no one could say it wasn't just another adventurer dying in some dungeon.~
 @23077 = ~No, I suppose not. You are doing the same task that I am, though I don't like ye working so close to me. Makes me nervous. Move yourselves to another level, and leave this area to me and mine.~
@@ -28500,7 +28500,7 @@ Not Usable By:
 @23091 = ~My dear lady, why have you languished in this place for so long?~
 @23092 = ~Stay back from me, I have precious little time for such distractions.~
 @23093 = ~Why, certainly. I should love to stay with you awhile. Never say no to a pretty face, I say.~
-@23094 = ~Oh you would? Well, I would hate to have to kill you just for saying that alone. Why don't you try and rattle me further so I've really got a reason to put you out of my misery.~
+@23094 = ~Oh you would? Well, I would hate to have to kill you just for saying that alone. Why don't you try and rattle me further so I've really got a reason to put you out of my misery?~
 @23095 = ~It's a terrible story, really. Wandered in some time ago, and it's just not safe to leave on my own. So many dangers, and no protective hand to guide me. I'm almost without hope... would you... would you stay here with me? It's so lonely here.~
 @23096 = ~Sorry, m'lady, I simply have not the time for this. However, I will see to it that the way out is cleared for you.~
 @23097 = ~I have no time to play these games. Leave me alone.~
@@ -28539,7 +28539,7 @@ Not Usable By:
 @23130 = ~What manner of creature are you? This place has not been disturbed in hundreds of years. I trust you not!~
 @23131 = ~I have no time for helpless maidens that cannot fend for themselves.~
 @23132 = ~You are surely an odd creature, as nothing in this place is what it seems. What do you have in mind?~
-@23133 = ~Durlag and I had a... disagreement about the treatment of a friend of mine. My attempts at... reasonable arguments went unheeded, and I have been trapped here ever since. Some three hundred years or so, and that Damned Durlag is nowhere to be found.~
+@23133 = ~Durlag and I had a... disagreement about the treatment of a friend of mine. My attempts at... reasonable arguments went unheeded, and I have been trapped here ever since. Some three hundred years or so, and that damned Durlag is nowhere to be found.~
 @23134 = ~I'll not get involved if your were justly imprisoned. If you deserved what you got, I will not interfere.~
 @23135 = ~Three hundred years? How is it you have survived so long?~
 @23136 = ~Riggilo is what I am called, and I do not care to share this place. Many more levels there are, and you should move on down. Trouble enough there is for both, without us competing for loot.~
@@ -28593,7 +28593,7 @@ Not Usable By:
 @23184 = ~An ornate gong. The gong mallet is missing.~
 @23185 = ~You strike the gong sharply with the mallet. The gong makes no sound but you can sense a faint vibration.~
 @23186 = ~Actually, I just wanted to share the wealth a bit. Here's a little of what I've found so far. 50 gold for your trouble.~
-@23187 = ~If you travel further into the room you will find the only living creatures that remain within the bestiary. These winged beasts have lived for centuries, augmented by ancient and powerful magics. None so far have been able to defeat them. However, if you wish to defeat the terrible beasts, there is help available to you. Each of the statues behind me houses the cursed body of some poor hero. By depressing the button at the base of each statue, you will release the ancient hero. The hero is enspelled to serve you for a short time, but after that time has run out he'll take his revenge on he who dared command him. There's nothing more for me to say. Goodbye now.~
+@23187 = ~If you travel further into the room you will find the only living creatures that remain within the bestiary. These winged beasts have lived for centuries, augmented by ancient and powerful magics. None so far have been able to defeat them. However, if you wish to defeat the terrible beasts, there is help available to you. Each of the statues behind me houses the cursed body of some poor hero. By depressing the button at the base of each statue, you will release the ancient hero. The hero is enspelled to serve you for a short time, but after that time has run out, he'll take his revenge on the one who dared command him. There's nothing more for me to say. Goodbye now.~
 @23188 = ~You have no further need of the gong.~
 @23189 = ~This place is a bountiful hunting ground. I'll split this with you just because we're in the same line of work. Here's 300 gold.~
 @23190 = ~Actually, I've got a gift for you just because we're in the same line of work. I found this upstairs in a chest. I'm no expert, but it looks like nymph's hair to me.~
@@ -28607,7 +28607,7 @@ Not Usable By:
 @23198 = ~That's the thanks I get? I've about had enough of you! If you are determined to fight, let's get it over with!~
 @23199 = ~I have no need of it, and I thought you might. If you do not want it, all you have to do is say so.~
 @23200 = ~Wha... what? You're giving me... I guess I was wrong about you. I guess you're a pretty decent person after all. Here, friend, here's a little toy I found myself. Fair trade for an honest person. Riggilo will speak well of your name to anyone who asks.~
-@23201 = ~Sure, sure! And I'm a Lord of Waterdeep! I ain't taking any more chances with you. Up your guard, fool, You're not leaving alive!~
+@23201 = ~Sure, sure! And I'm a Lord of Waterdeep! I ain't taking any more chances with you. Up your guard, fool. You're not leaving alive!~
 @23202 = ~Alright then. NO! That plain enough for you? I don't need your stinkin' nymph's hair, and I don't need you poking around. Get outta here! I trust you about as far as I could throw you!~
 @23203 = ~Oh all right! I'll take the blasted hair! Consider yourself safe around me, but that don't mean I like or trust you. Get going!~
 @23204 = ~Thanks for the interesting little gift, friend. Looks like it'll fetch a nice price. I guess you ain't so bad. Riggilo will not harm you. You're all right.~
@@ -28683,7 +28683,7 @@ Not Usable By:
 @23274 = ~Beholdermaster~
 @23275 = ~Trollkiller~
 @23276 = ~Your answer is unsatisfactory. You must learn further. You must learn the history.~
-@23277 = ~Your answer satisfies. A question remains. The father of this place formed the clan that fell in times of treachery. False faces claimed the future, and clanless became Durlag. This he shared with his own father, a wanderer that lived by the strength of his weapon. The second name of Bolher is what I ask you. Sense most common is all you need for this answer.~
+@23277 = ~Your answer satisfies. A question remains. The father of this place formed the clan that fell in times of treachery. False faces claimed the future, and clanless became Durlag. This he shared with his own father, a wanderer that lived by the strength of his weapon. The second name of Bolhur is what I ask you. Sense most common is all you need for this answer.~
 @23278 = ~Durlag knows the penalty for speaking once more to the guardian. You are not he.~
 @23279 = ~Your answer satisfies. Here is the key to what you need. Here is the secret for what comes. The bones will walk where flesh cannot. The ward will walk the bones.~
 @23280 = ~Thunderaxe~
@@ -28694,7 +28694,7 @@ Not Usable By:
 @23285 = ~Steadyhammer~
 @23286 = ~Trollkiller~
 @23287 = ~Wulfhunter~
-@23288 = ~It began with usssss... and the mastersss... The tentacled ones directed and we assssaulted quietly with cover of night. We took of the weaker firssst, hiding amidsst the childrrren. None sssaw the arrival, none noticed the insssurrgence, and none sssurvived the final rissse. When Durlag realizzzed the deception it was tooo late! His own family sssought his life, and he ssslaughtered their falssse facessss. It began with usss, from the wessst.~
+@23288 = ~It began with usssss... and the mastersss... The tentacled ones directed and we assssaulted quietly with cover of night. We took off the weaker firssst, hiding amidsst the childrrren. None sssaw the arrival, none noticed the insssurrgence, and none sssurvived the final rissse. When Durlag realizzzed the deception it was tooo late! His own family sssought his life, and he ssslaughtered their falssse facessss. It began with usss, from the wessst.~
 @23289 = ~This is not my face. The invaders came and took my true face, burying it with my body and my comrades. I was among the last, but not the very last, and I saw the horror to come. My child rose against me, though it was no longer my child. It wore her face, but I knew her to be dead. The doppelgangers came from within, and we could not fight ourselves. Better to die than to kill ourselves. What would be left of a man that has had to kill his family... and himself? I was among the last, but not the very last.~
 @23290 = ~We entrenched this place against all that would come. We built retribution in the trip wires and vengeance in the fireballs. We worked the hatred into every nook and cranny, just as he wished, but our actions were guided from elsewhere. The foundation was the fear that it could happen again, and this was to be prevented at all costs. This was the mortar that held him together. We entrenched this place against all that would come. Friend and foe alike.~
 @23291 = ~With me it ended. Speak now of my troubles, to show you have learnt. From where did my pain come? Where did my pain stab home? Where did my pain take root? Where dost my pain reside? Speak and show that you understand.~
@@ -28733,7 +28733,7 @@ Not Usable By:
 @23324 = ~This is the end of things. Here I stood and struck them down as they came. My family and my clan, with their false faces; they dropped all pretense and drew their weapons against me. I fought them to the last, killing the shapechangers that had taken their forms. I cursed them for destroying the dream, but they were not the real evil. The real evil could not save my people before this deception. The real evil hid from life in the face of this tragedy. The real evil deserves the blame. This is the end of things. Answer where blame has fallen.~
 @23325 = ~Stone Golem~
 @23326 = ~Stone Golem~
-@23327 = ~The blame falls upon the invaders who attacked mercilessly, and on your people who could not defend themselves. It falls upon the craftsmen that built this evil place and on you for telling them to. The blame is shared by all, in your eyes~
+@23327 = ~The blame falls upon the invaders who attacked mercilessly, and on your people who could not defend themselves. It falls upon the craftsmen that built this evil place and on you for telling them to. The blame is shared by all, in your eyes.~
 @23328 = ~The craftsmen encouraged you, and egged you on, so you are without blame. Your people demanded too much from you, so you are without blame. The invaders were unstoppable, so you think you are without blame. All others contributed to your downfall.~
 @23329 = ~The blame begins with the invaders, but they attacked with supposed good reason. It could be on your people, but they were in the shelter of your confidence. The craftsmen only did their jobs as directed. In your eyes, you are the one to blame for all that has happened.~
 @23330 = ~You have failed to understand! You will answer again!~
@@ -28763,7 +28763,7 @@ Not Usable By:
 @23354 = ~Mirror Fiend~
 @23355 = ~Your ship sets its sails against the morning light and you are off across the waves. The Sea of Swords allows your passage without incident, and in a scant amount of time you are on to truly open waters. A score or more of days pass, but the aptly named Trackless Sea seems to stretch before you without end. The waters are calm, though the wind remains steady and sure.
 
-The merchant vessel your employer has chartered is a fine ship, but her crew is not accustomed to journeys so far off the established trade routes. The more superstitious among them speak of a great waterfall off the edge of Faer'n, of a secret Elven nation that scuttles all that dare come near, or even of island-size turtles that eat whole ships. Such fancy weighs heavily on the minds of nervous sailors, and the mood aboard ship slowly turns. Tensions begin to mount, and rumors of mutiny threaten your resolve. It is a mixed blessing that all aboard are soon given a very real danger to occupy their thoughts.
+The merchant vessel your employer has chartered is a fine ship, but her crew is not accustomed to journeys so far off the established trade routes. The more superstitious among them speak of a great waterfall off the edge of Faerun, of a secret Elven nation that scuttles all that dare come near, or even of island-size turtles that eat whole ships. Such fancy weighs heavily on the minds of nervous sailors, and the mood aboard ship slowly turns. Tensions begin to mount, and rumors of mutiny threaten your resolve. It is a mixed blessing that all aboard are soon given a very real danger to occupy their thoughts.
 
 The storm comes without warning, and hits with a fury that seems almost deliberate. Gale force winds toss the ship about like a cork, and it is all the crew can do to keep her afloat. Their efforts, though valiant, are ultimately futile, and when the mainmast splinters you know the ship is lost. As the hull gives way there is a glimpse of something in the distance: a steady illumination against the black of night. Grasping debris for flotation you abandon the wreck, and begin to swim under the heavy burden of your equipment. You head towards the glow, hoping it is not a sea wisp or some other nefarious trick of the eyes.
 
@@ -28778,11 +28778,11 @@ You have left with your life and a rich reward awaits your return to the mainlan
 @23361 = ~Back, foul creature! Your evil taint will not infect me!~
 @23362 = ~And just who might you be? Answer carefully, because they will be your last words.~
 @23363 = ~What manner of beast are you? Speak, poor creature.~
-@23364 = ~And your goodness will not help me, or any of my kind. All in this place are beyond the help of mortals. I am Grael, and I like you I was. I fought the evil that dared to walk the earth, and this was the reward for me. I stared down the gaze of none other than a Tanar'ri, and my flesh did fail. Beware you well the death gaze of the beasts of Hell.~
+@23364 = ~And your goodness will not help me, or any of my kind. All in this place are beyond the help of mortals. I am Grael, and like you I was. I fought the evil that dared to walk the earth, and this was the reward for me. I stared down the gaze of none other than a Tanar'ri, and my flesh did fail. Beware you well the death gaze of the beasts of Hell.~
 @23365 = ~Well, thanks for the warning. I'll be sure to remember it. Go on with whatever you were doing. I'll be going now.~
 @23366 = ~My heart positively bleeds for you. Thank you for your concern, but I have no need of advice from failures.~
 @23367 = ~I will heed your warning. Is there nothing I can do to ease your suffering? I cannot stay long, but there must be something.~
-@23368 = ~Your warning is unnecessary. I know well how to handle creatures of evil, just as I know how I must handle you. You misery must be stopped. Your evil lives cause you pain, and must be ended.~
+@23368 = ~Your warning is unnecessary. I know well how to handle creatures of evil, just as I know how I must handle you. Your misery must be stopped. Your evil lives cause you pain, and must be ended.~
 @23369 = ~My last words? Last words I spoke when my body died. I like to think there was much lamenting when Grael fell, but it was but a sidebar. Durlag entrapped the beast, and his was the victory blow that is legend. A great evil, but not even the fight that is remembered in this tower. My reward is undeath. My reward is the curse of this place and the madness that claimed it.~
 @23370 = ~The runeglow feels warm beneath your feet. There is the sensation of becoming air, somehow.~
 @23371 = ~I encountered a ghoul of great power, named Grael. He offered a warning about something called a Tanar'ri, and the horrible "death-gaze" it wields. A "gaze that is not a gaze." Sounds more insidious than even the gaze of the basilisk. I wonder if the traditional precautions will even function against it? I shall keep this in mind, though I doubt I will meet such a creature. It has been ages since Grael's battle took place.~
@@ -28813,11 +28813,11 @@ Not Usable By:
 @23383 = ~A Tanar'ri? A beast from Hell? Of what creature do you speak?~
 @23384 = ~Of what great evil do you speak? Is this different than the assault on the Tower I have heard of?~
 @23385 = ~An unthinkable enemy? Of what do you speak?~
-@23386 = ~An evil so grand only fools chase and fight. A Tanar'ri true and horrible. Its name you do not speak unless its attention you wish to bring. Long before it walked and stalked, long before even the fall of the tower. We fought along with Durlag to encase the evil away. His was the blow that won, and ours were the souls that lost. Here we stay, turned to evil an unredeemable, but heroes still and not to be killed! A cruel charity! Durlag is legend and we are a pity! Beware the gaze that is not a gaze, but a look into your soul!~
+@23386 = ~An evil so grand only fools chase and fight. A Tanar'ri true and horrible. Its name you do not speak unless its attention you wish to bring. Long before it walked and stalked, long before even the fall of the tower. We fought along with Durlag to encase the evil away. His was the blow that won, and ours were the souls that lost. Here we stay, turned to evil an irredeemable, but heroes still and not to be killed! A cruel charity! Durlag is legend and we are a pity! Beware the gaze that is not a gaze, but a look into your soul!~
 @23387 = ~Your tale is interesting, but anything said by a ghoul should be taken with a grain of salt. I'll be going now.~
 @23388 = ~I can handle whatever comes my way without advice from the dead, thank you very much. Goodbye.~
 @23389 = ~I wish I could help you and restore your hope. Is there nothing I can do before I go?~
-@23390 = ~You are an abominations of what you once were. I will aid your soul by destroying your evil form!~
+@23390 = ~You are an abomination of what you once were. I will aid your soul by destroying your evil form!~
 @23391 = ~You run because you are fearful of what we are... what I am? You will see much worse here, and places yet unknown. If you cannot stomach what I have become, then you will surely fall to others. I will do a service for you! I will show you suffering here! You may survive elsewhere if you survive here, and if you die you will have been spared the waiting and worrying. This I do for you!~
 @23392 = ~I will not be dismissed! We go unknown for so long, joined only by death and more death! You will not walk away ignoring! You will remember and take my name from this place! You will remember the pain I give you!~
 @23393 = ~Is there anything? You can do nothing! You can do nothing except... you can take my name from this place. You can take the memory of battle and my name and I will be free from the shadow of Durlag and that damnable demon. Fight now, that you can say true that we battle ferocious! You will take the memory from here!~
@@ -28835,7 +28835,7 @@ Not Usable By:
 @23405 = ~Grael~
 @23406 = ~Grael~
 @23407 = ~Balduran was one of the explorers that brought them to this place. He apparently tried to scuttle the ship they were on, rather than let them go. They do not know what happened to him after that, and they don't care.~
-@23408 = ~This machinery seem somehow connected to the burial chamber to the north. There is a lever to pull, but it can only be operated with a key of some sorts.~
+@23408 = ~This machinery seem somehow connected to the burial chamber to the north. There is a lever to pull, but it can only be operated with a key of some sort.~
 @23409 = ~Apparently no villager left alive knows exactly what happened on the ship that brought them here. They were bound, and now they are free.~
 @23410 = ~The mystery of this island has become clear. Mendas/Selaad sent us to the island on the false pretenses of retrieving evidence from what was believed to be Balduran's shipwreck. It was indeed the adventurer's ship, though his personal fate yet remains a mystery. Balduran's crew were infected with lycanthropy sometime during that fateful voyage. The ship was beached and wrecked leaving the two strains of lycanthropes, werewolves and wolfweres, to fight amongst themselves for survival. The more organized werewolves built the village that we recently shipwrecked near on our own fateful voyage. The chaotic wolfweres took residence in the ruins of Balduran's ship and both packs survived in uneasy co-existence since then. Mendas/Selaad eventually took the risk of sailing for the mainland. Somehow he made it and, upon discovering that someone had finally found the island, made up a plausible tale and had us first steal the sea charts, and later travel to the island to put them in his werewolf mate's hands. She had us kill the wolfweres and then infected the party with lycanthropy, intending us to join the pack or die fighting. We killed her, took the charts and sailed home to finally discover the truth of Mendas' duplicity. Fate seems to enjoy toying with me.~
 @23411 = ~They haven't indicated exactly what they mean when they say "they belong." Outsiders do not belong, and they do. Probably some sort of ritual to become a citizen.~
@@ -28843,7 +28843,7 @@ Not Usable By:
 @23413 = ~Hirelings return. Master Selaad awaits thee.~
 @23414 = ~You are mistaken, good fellow. We return to meet Mendas of Waterdeep.~
 @23415 = ~Who is this Selaad you speak of?~
-@23416 = ~Out of my way, fool. I haven't the patience this evening.~
+@23416 = ~Out of my way, fool. I haven't the patience this <DAYNIGHTALL>.~
 @23417 = ~The master has many names on this accursed soil. Selaad is the only true one. It is not thy concern.~
 @23418 = ~This tale grows thicker with each telling. Is Mendas, or Selaad, if you will, the mate of Kaishas Gan?~
 @23419 = ~I will decide whether or not it is my concern. Who are you?~
@@ -28885,7 +28885,7 @@ Not Usable By:
 @23455 = ~I am a shadow of a man... I am Durlag... more or less... the spirit of the builder has long since passed... gone to whatever reward the black veil holds... this place sustains the fear... the anger... frustration... You have seen phantoms and illusions... remember what you have learned... you may yet conquer... but you must understand the paths... three paths lead away... all must be taken... seek direction...~
 @23456 = ~You will yield to this place... if you do not understand... you have seen phantoms and illusions... shadows of those long since passed beyond the black veil of death to whatever reward... This place... harbors the anger... the fear... you will have to understand what built it... to pass by unharmed... seek direction... understand the paths... three paths lead away... all must be taken...~
 @23457 = ~Seek direction... understand the path... and the way will yield... three paths lead away... all are necessary... understand them to return...~
-@23458 = ~I have encountered a phantom... perhaps of Durlag himself. It said that the true spirit of Durlag passed long ago, but his hatred and fear that built the tower still maintains it. It said I must understand two of the "paths" that led to this place. After that, "the way" will become clear. It seems to want something as well. It said there was a new evil here, something not a part of the tower that must be expelled. I don't fancy being this creature's lackey, but I may have no choice... unless I just leave.~
+@23458 = ~I have encountered a phantom... perhaps of Durlag himself. It said that the true spirit of Durlag passed long ago, but his hatred and fear that built the tower still maintains it. It said I must understand three of the "paths" that led to this place. After that, "the way" will become clear. It seems to want something as well. It said there was a new evil here, something not a part of the tower that must be expelled. I don't fancy being this creature's lackey, but I may have no choice... unless I just leave.~
 @23459 = ~I must seek direction and understand the three paths in order to "return" and progress.~
 @23460 = ~You have found the room that gives direction, but are not done yet... The way is not yet clear... understand the paths that lead away... and you will return...~
 @23461 = ~That phantom of Durlag says I have not yet understood the paths I need to.~
@@ -28893,11 +28893,11 @@ Not Usable By:
 @23463 = ~I am not in the business of helping phantoms. There is no profit in this for me.~
 @23464 = ~If there is evil to be fought, I will defeat it.~
 @23465 = ~I do not wish to make this fight mine. Why should I really care?~
-@23466 = ~Profit... not immediate... but profit is relative... how much profit do you lose if an new power takes this place... subjugates and kills... you must have economy to exploit, or what is profit... You do as you will... the way is clear... follow me...~
+@23466 = ~Profit... not immediate... but profit is relative... how much profit do you lose if a new power takes this place... subjugates and kills... you must have economy to exploit, or what is profit... You do as you will... the way is clear... follow me...~
 @23467 = ~There is always evil to be fought... within and without... do as you will... the way is clear... follow me...~
 @23468 = ~The fight becomes the concern of all... a new power threatens... upsets balance and measure... the way is clear... do as you wish... follow me...~
 @23469 = ~You have found the room that gives direction, but are not done yet... The way is not yet clear... understand the paths that lead away... and you will return...~
-@23470 = ~You have found the room that gives direction, but are not done yet... They way is not yet clear... understand the paths that lead away... and you will return...~
+@23470 = ~You have found the room that gives direction, but are not done yet... The way is not yet clear... understand the paths that lead away... and you will return...~
 @23471 = ~Shapeshifts Mustard Jelly~
 @23472 = ~Shapeshifts Sword Spider~
 @23473 = ~Recipes and Ruminations~
@@ -29004,7 +29004,7 @@ Notes to myself: Should probably be supplemented with something of nutritional v
 @23520 = ~I met a villager by the name of Evalt, but I don't think I left a very good impression. Bah! He and his fellows are of no concern.~
 @23521 = ~I had the unfortunate duty to tell Evalt that his brother had died. I was able to retrieve the body, but nothing more could I do.~
 @23522 = ~I retrieved Farthing's dolly for her. She seemed quite happy about it.~
-@23523 = ~Farthing seemed quite happy that I killed Karoug and his lot. She seemed quite calm about it, though I don't know how she could be so accustomed to violence living this peaceful place.~
+@23523 = ~Farthing seemed quite happy that I killed Karoug and his lot. She seemed quite calm about it, though I don't know how she could be so accustomed to violence living in this peaceful place.~
 @23524 = ~Some strange apparition appeared to me.
 This is what it had to say:
 
@@ -29015,9 +29015,9 @@ Trembling and weeping
 Unable to lift a hand in his own defense
 Yet I sleep... Awaken me.
 
-I must pass these four warders to descend to the lower level. I assume that one of them will have the wardstone required to operate this lift that they are guarding. What will awaken this warder? Perhaps a loud noise like a drum or a gong. Perhaps something else. I must solve this riddle to pass.~
+I must pass these four warders to descend to the lower level. I assume that one of them will have the wardstone required to operate this lift that they are guarding. What will awaken this warder? Perhaps a loud noise like a drum or a gong. Perhaps something else. I must solve this riddle in order to pass.~
 @23525 = ~I met some fop named Fenrus Boulon. His babble was not worth my time.~
-@23526 = ~Someone named Ike is giving tours of Durlag's Tower. I would assume that they only take people through rooms that has been cleared of traps. Perhaps I should ask someone who has taken the tour. There is a man named Fenrus who has done so. I can find him near the docks.~
+@23526 = ~Someone named Ike is giving tours of Durlag's Tower. I would assume that they only take people through rooms that have been cleared of traps. Perhaps I should ask someone who has taken the tour. There is a man named Fenrus who has done so. I can find him near the docks.~
 @23527 = ~There is another new face in town besides mine. A man named Mendas moved in just recently. He's apparently not all that friendly.~
 @23528 = ~I hear rumors that someone has located Balduran's ship. He was the founder of Baldur's Gate, and an explorer of great note. No mention of where the ship is located though.~
 @23529 = ~I met some roustabout named Galken. He said he had something for sale, but I'll wager it's just a bunch of garbage. Seemed like a bit of a scoundrel to me.~
@@ -29086,7 +29086,7 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23582 = ~Your pitiful attempts and lies are as transparent to me as the nature of existence... no wait, that's still fairly opaque... but YOU, you I see clearly for I see true! Do you really believe that one versed in magic such as I could not identify those responsible for the deaths of his children? You have a long road of repentance ahead of you, and no one is offering a ride! I send you! I send you on a pitiable errand! The means of your return will be found if you look, but do not expect the way to be easy! If you do well, I may yet decide not to invert your faces! Away, away, AWAY! And bring me back a lovely souvenir! A cloak perhaps!~
 @23583 = ~Your argument falls short of becoming a reason not to kill you! I suppose it is my fault and not the thief's if I am burgled in my home? After all, it is not his fault that I amassed wealth and dared to "display" it in mine home. In a mob rule you might have a chance, but I am but a mob of one! Shandalar spits at you and condemns with the same breath! You will perform a duty to me as part of penance, and if you succeed you will be a measure closer to repayment! I send you! I send you and you may not return without a lovely souvenir! A cloak perhaps!~
 @23584 = ~There, you see? Was that so hard to admit? I'm sure you will agree it is better to maintain a level of honesty in all of one's dealings. Now that that is out of the way, I have a task that you WILL perform. Oh, you are still to be punished, but you will have the satisfaction of knowing that you purged your conscience ahead of time. Much more rehabilitating. You are to do me a service. I will send you where you must go, and you must return with the item I need. A simple cloak is your target, but do NOT wear it! You have already abused too much of what is mine. Go now!~
-@23585 = ~Halt! You who are not worthy to walk here will stand and listen! I am Shandalar, and this town is in my protections! Such as you must prove your intent well and true, and show that you are to be allowed the same rights to life as those more responsible!~
+@23585 = ~Halt! You who are not worthy to walk here will stand and listen! I am Shandalar, and this town is under my protection! Such as you must prove your intent well and true, and show that you are to be allowed the same rights to life as those more responsible!~
 @23586 = ~I will welcome your challenges, Shandalar. I may be of questionable karma, but I am willing to prove my worth. You say you protect this place? Well, you need not fear such as I.~
 @23587 = ~I ain't going to hurt nobody. Why don't you go bother some candy-snatchers and leave me to my own business.~
 @23588 = ~Who are you to judge my worthiness? I will not be told where I can or cannot go! If you wish to challenge this then do so. Save your words for someone else!~
@@ -29097,7 +29097,7 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23593 = ~And if I refuse this task?~
 @23594 = ~This item, why do you not get it yourself?~
 @23595 = ~Take your judgements and your morals and get out of here before I decide to take offense.~
-@23596 = ~Because your business is unsavory and I don't like it. Your actions have branded you, and I must determine if such a brand is accurate and deserved. Cows are branded, but there's is not the will behind it. Likewise, perhaps you are of good intent but are just inept. Thus is my quandary.~
+@23596 = ~Because your business is unsavory and I don't like it. Your actions have branded you, and I must determine if such a brand is accurate and deserved. Cows are branded, but theirs is not the will behind it. Likewise, perhaps you are of good intent but are just inept. Thus is my quandary.~
 @23597 = ~You will do a task for me, and prove your worth. Success means I may not kill you outright. Failure means I will not have to deal with you again anyway. I seek a simple cloak of mine. You will retrieve it and then you may return. Do not wear it, as it is mine and you will not survive.~
 @23598 = ~And if I refuse this task?~
 @23599 = ~This item, why do you not get it yourself?~
@@ -29108,7 +29108,7 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23604 = ~Take your judgements and your morals and get out of here before I decide to take offence.~
 @23605 = ~You presume to have a choice where you do not. Silly you. Silly silly you. You will go now. Take this item as a passage back. This wardstone will be your savior once you have what I require. Goodbye, good luck, and good riddance.~
 @23606 = ~Because I am busy. Because I have better things to do. Because it is menial, dangerous, tiresome, a chore... you choose whichever reason makes you happy and full of cheer. You will do this regardless, and you will do so now. Here is a wardtoken that will return you once the chore is done and you have the item. Do be quick about it.~
-@23607 = ~Who are you to speak of offence? Your very aura offends. You will do this, and you will do it now. Here is wardtoken that will return you once the task is done. Be grateful I remembered to give it to you.~
+@23607 = ~Who are you to speak of offence? Your very aura offends. You will do this, and you will do it now. Here is a wardtoken that will return you once the task is done. Be grateful I remembered to give it to you.~
 @23608 = ~Andris~
 @23609 = ~Andris~
 @23610 = ~I know of you. You are of an odd countenance, and I can count pretty darn high, too. I have need of you... what say you to this?~
@@ -29203,7 +29203,7 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23699 = ~Why are you here? You weren't sent to kill poor Cuchol?~
 @23700 = ~We're merely here to retrieve an item. We'll be on our way as soon as we can find it.~
 @23701 = ~So you are Cuchol? In truth, we are here to kill you.~
-@23702 = ~That troll! Even in this accursed place she sends assassins. If Cuchol must die, then he shall not die alone.~
+@23702 = ~That trull! Even in this accursed place she sends assassins. If Cuchol must die, then he shall not die alone.~
 @23703 = ~What manner of heartless beasts are you? Mocking poor Cuchol even as you bring his doom? Why, if I were back in Surkh, Yspank would protect me!~
 @23704 = ~Oh really, Cuchol, beasts? We prefer hired goons.~
 @23705 = ~Relax, fellow; we have no reason to harm you.~
@@ -29213,7 +29213,7 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23709 = ~A ward! Of course! My friends, I have been trapped here for too long. Think of my reputation! "Cuchol," they'll say, "What kind of mystical magic man are you?" Then I'll say "It's not my fault! It's that stupid ice!" Then they'll say "You're a loser Cuchol. A real fool, if you catch my drift." Can't you see? My reputation! I must have that ward! I must escape!~
 @23710 = ~Here, take the cursed thing. Just shut up!~
 @23711 = ~Probably the same way you did. Why don't you tell me your story and see if it's the same as mine?~
-@23712 = ~Shandalar! Well, there is a name I have not heard in awhile. Aye, he was here. The bastard managed to escape, though I know not how. This isle is much like a prison, and is uncharted on any map I have seen. The stars indicate we are far to the south, but I cannot seem to get more precise than this.~
+@23712 = ~Shandalar! Well, that is a name I have not heard in awhile. Aye, he was here. The bastard managed to escape, though I know not how. This isle is much like a prison, and is uncharted on any map I have seen. The stars indicate we are far to the south, but I cannot seem to get more precise than this.~
 @23713 = ~We can't help you, Cuchol. We need to leave this place ourselves.~
 @23714 = ~As you wish...~
 @23715 = ~Hah, hah! Imagine her surprise when I show up in her bedchamber. "Oh, Cuchol, you've the body of a god!" she'll say. But enough of this! You are no longer useful.~
@@ -29230,14 +29230,14 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23726 = ~Who constructed such a place? What is its purpose?~
 @23727 = ~Is there no means to escape? It must be possible.~
 @23728 = ~And you've taken the role of island greeter? I think not. What do you want?~
-@23729 = ~I don't know an answer to either question. It could be a joke of the gods, or a test... or both. It is hard to tell with gods. It could be a natural phenomenon, though these tunnels certainly are not. Trapped mages may have fashioned them for shelter however. There is little else to do here except plot, study, or go mad. I prefer to plot. On that note, if you would be so kind as to strip down and give me what you are carrying I would be ever so grateful.~
-@23730 = ~Oh, certainly it must. Whether this place is a joke, test or simply phenomena, it is just a matter of finding the proper method of exit. I favor the pure power theory, wherein you merely need an excess of magical resources to overpower the pull. I am gathering all the power I can, to whit I must ask that you strip down. Nothing personal, but I really need whatever you are carrying.~
-@23731 = ~What do I want? What do I want!? To be free of this place! It does not matter whether this place is a joke, test or phenomena, I need more power to escape! If you would kindly strip of your belongings I would be ever so grateful.~
+@23729 = ~I don't know an answer to either question. It could be a joke of the gods or a test... or both. It is hard to tell with gods. It could be a natural phenomenon, though these tunnels certainly are not. Trapped mages may have fashioned them for shelter however. There is little else to do here except plot, study, or go mad. I prefer to plot. On that note, if you would be so kind as to strip down and give me what you are carrying I would be ever so grateful.~
+@23730 = ~Oh, certainly it must. Whether this place is a joke, a test, or simply an odd phenomenon, it is just a matter of finding the proper method of exit. I favor the pure power theory, wherein you merely need an excess of magical resources to overpower the pull. I am gathering all the power I can, to whit: I must ask that you strip down. Nothing personal, but I really need whatever you are carrying.~
+@23731 = ~What do I want? What do I want!? To be free of this place! It does not matter whether this place is a joke, a test, or an odd phenomenon, I need more power to escape! If you would kindly strip off your belongings, I would be ever so grateful.~
 @23732 = ~Shandalar gave me the means. I have to find a cloak of his and then I can leave.~
 @23733 = ~Perhaps I have a way off. Perhaps it is of value to you?~
 @23734 = ~What is the purpose of this place? Who constructed it?~
 @23735 = ~You seem quite at home here... deceptively so. What is it you want from me?~
-@23736 = ~PERHAPS it is of value? PERHAPS!? You are a fool to tempt me if you lie, and a fool to have mentioned it at all! I will not barter, and I will not bargain! I will take everything on your corpse and find the means myself! Be this place a test, joke or phenomena, I will be free of it!~
+@23736 = ~PERHAPS it is of value? PERHAPS!? You are a fool to tempt me if you lie, and a fool to have mentioned it at all! I will not barter, and I will not bargain! I will take everything on your corpse and find the means myself! Be this place a test, a joke, or an odd phenomenon, I will be free of it!~
 @23737 = ~You have the means to leave? You are a fool to tempt me if you are lying, and even more a fool if you tell the truth! I care not a whit for your task, nor for your lives! If you possess the means to leave I must have it and have it now! I shall take it from you! You should not wave food in front of those who starve!~
 @23738 = ~What? But why? Certainly we can come to some agreement?~
 @23739 = ~Domination~
@@ -29247,7 +29247,7 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23743 = ~Chaos~
 @23744 = ~Feebleminded~
 @23745 = ~Defensive Harmony~
-@23746 = ~Champions Strength~
+@23746 = ~Champion's Strength~
 @23747 = ~Dying~
 @23748 = ~Mind Shield~
 @23749 = ~If you want my equipment, you are going to have to take it!~
@@ -29272,7 +29272,7 @@ I must pass these four warders to descend to the lower level. I assume that one 
 @23768 = ~It is irrelevant. By this admission you have stated what I need to know. I will take what you have whether you permit it or not.~
 @23769 = ~I have a task, plain and simple. You can aid it or oppose it, but you will not ignore it.~
 @23770 = ~Our conversation is to be a short one, then. Launch your spells and wield your weapons, for one of us will cease breathing this day. It matters little. I see things here that others cannot, and I have an understanding of what comes. Take what you need and finish your task, and be released with the power of another in a different place. He will thank you in his fashion, I am sure. Attack as you will, and one of us will go to join the others.~
-@23771 = ~I ignore nothing here, and I see far more than you. I have been here long and have used my time effectively. Some fall or go mad, but I have learned. Do I understand this place? No, but I begin too. It stores what it brings for something long since forgotten. Perhaps when I remember it I will master it... perhaps not. You are but an interloper, a messenger, and the power of someone else will remove you from afar. Do what you must, I can only gain in this. I win, I am released. I lose, I am released.~
+@23771 = ~I ignore nothing here, and I see far more than you. I have been here long and have used my time effectively. Some fall or go mad, but I have learned. Do I understand this place? No, but I begin to. It stores what it brings for something long since forgotten. Perhaps when I remember it I will master it... perhaps not. You are but an interloper, a messenger, and the power of someone else will remove you from afar. Do what you must, I can only gain in this. I win, I am released. I lose, I am released.~
 @23772 = ~It is irrelevant. I have a task to do and you are in the way. Ignore me at your peril.~
 @23773 = ~How do you know these things of me?~
 @23774 = ~You have said more than I need to know. I must deal with you to complete my task.~
@@ -29632,7 +29632,7 @@ Of course, perhaps the walls do not listen to such musings, and my writing is po
 @24003 = ~~ [VILLM01b]
 @24004 = ~~ [TSCMT01]
 @24005 = ~Your ship sets its sails against the morning light and you are off across the waves. The Sea of Swords allows your passage without incident, and in a scant amount of time you are on to truly open waters. A score or more of days pass, but the aptly named Trackless Sea seems to stretch before you without end. The waters are calm, though the wind remains steady and sure.~ [TSCNA_01]
-@24006 = ~The merchant vessel your employer has chartered is a fine ship, but her crew is not accustomed to journeys so far off the established trade routes. The more superstitious among them speak of a great waterfall off the edge of Faer'n, of an secret Elven nation that scuttles all that dare come near, or even of island-size turtles that eat whole ships.~ [TSCNA_02]
+@24006 = ~The merchant vessel your employer has chartered is a fine ship, but her crew is not accustomed to journeys so far off the established trade routes. The more superstitious among them speak of a great waterfall off the edge of Faerun, of an secret elven nation that scuttles all that dare come near, or even of island-size turtles that eat whole ships.~ [TSCNA_02]
 @24007 = ~Such fancy weighs heavily on the minds of nervous sailors, and the mood aboard ship slowly turns. Tensions begin to mount, and rumors of mutiny threaten your resolve. It is a mixed blessing that all aboard are soon given a very real danger to occupy their thoughts.~ [TSCNA_03]
 @24008 = ~The storm comes without warning, and hits with a fury that seems almost deliberate. Gale force winds toss the ship about like a cork, and it is all the crew can do to keep her afloat. Their efforts, though valiant, are ultimately futile, and when the mainmast splinters you know the ship is lost. As the hull gives way there is a glimpse of something in the distance: a steady illumination against the black of night.~ [TSCNA_04]
 @24009 = ~Grasping debris for flotation you abandon the wreck, and begin to swim under the heavy burden of your equipment. You head towards the glow, hoping it is not a sea wisp or some other nefarious trick of the eyes.~ [TSCNA_05]
@@ -29655,7 +29655,7 @@ Of course, perhaps the walls do not listen to such musings, and my writing is po
 @24026 = ~Me name is Bayard, and you needn't threaten. I be in no shape to do you any harm, and me fellows have gone below. I would, however, treat this place with a little more respect than you've shown me. Durlag's Tower is not to be mocked.~
 @24027 = ~Ahh, keep any healing for yourself... you'll need it. I took a dart to the gullet on me way back here, and I be feeling a touch under the weather. A word of warning if you intend to descend: Keep your wits about you. This place will hang you out to dry if you but stumble through.~
 @24028 = ~It is time to end this banter now, Mendas. It is time that you pay for your lies and your evil. Prepare to die.~
-@24029 = ~Even if I let you run, you will not get far. You infected with lycanthropy. You will not go far before you lose control. It can only be cured by killing the chieftain of the werewolves. I am chieftain and you have no chance. You will die here today. A bloody reckoning is at hand! To me Baresh! My love shall be avenged!~
+@24029 = ~Even if I let you run, you will not get far. You are infected with lycanthropy. You will not go far before you lose control. It can only be cured by killing the chieftain of the werewolves. I am chieftain and you have no chance. You will die here today. A bloody reckoning is at hand! To me Baresh! My love shall be avenged!~
 @24030 = ~Why did you send us? What was intended to happen on that island?~
 @24031 = ~The log book was nothing! Balduran was nothing! He refused the gift that grandfathers offered him. You were only to give sea charts to Kaishas and kill Karoug so he could not follow. Kaishas would have brought pack here, where I have prepare place for them. Miserable ones! You could not accomplish such simple things? Instead you kill my family and steal the boat to save your cruel selves?~
 @24032 = ~Who might you be? I did not expect to see others here.~
@@ -29760,7 +29760,7 @@ To avoid this message box, you can use Load Game to get to the load screen.~
 @24112 = ~Welcome to the Tales of the Sword Coast! This is a series of adventures created in the spirit of the Advanced Dungeons and Dragons module system, and it has considerably expanded the Baldur's Gate world. For your convenience, your party is being transported to the newly created community of Ulgoth's Beard. You will find this quaint village to be a gateway to new adventures and dangers, though you will also be able to continue exploring the Sword Coast you already know.
 In the context of the overall Baldur's Gate campaign, the events you are about to embark upon take place before the final confrontation with Sarevok, and use the saved game that was created just before you entered his hidden lair. Once you have completed the mission pack you may wish to return to the depths beneath the great city of Baldur's Gate to finish off your murderous half-brother once more, stronger and better equipped than you could have been before. Be careful however, for Sarevok may not be quite as you remember.~
 @24113 = ~Do you see these simple people before you? They are your kin now. Look at their smiling faces. Take their hands and know peace. We can sense within you, that the beasts have unwittingly given you the gift, and you can belong. Our fate is now your fate, and in time you will be as we, not as the beasts. We will shape and guide, for we are masters of ourselves. We are man, then animal, but more than both.~
-@24114 = ~I had just begun exploring Durlag's Tower when I met a man by the name of Bayard. He seemed calm, though this place had frightened him and he was choosing to leave. Apparently his party are still within, having decided to go on without him. He wished them well, but would not follow. The traps and "tests" left by Durlag are beyond his ability, or so he seemed to think. Some are extremely lethal, offering no second chance to a trespasser. This place is not meant to hinder, but to kill. He is also afraid of the creature that has taken up residence here. It is apparently a "demon knight," some type of fell servant from the lower planes that is supposedly extremely powerful. Bayard feels that attacking such a creature directly is tantamount to suicide. Perhaps his fear will serve him well, but I must go onward. I shall keep an eye out for these "ward stones" that he mentioned as well. They must be keys of a sort.~
+@24114 = ~I had just begun exploring Durlag's Tower when I met a man by the name of Bayard. He seemed calm, though this place had frightened him and he was choosing to leave. Apparently his party is still within, having decided to go on without him. He wished them well, but would not follow. The traps and "tests" left by Durlag are beyond his ability, or so he seemed to think. Some are extremely lethal, offering no second chance to a trespasser. This place is not meant to hinder, but to kill. He is also afraid of the creature that has taken up residence here. It is apparently a demon knight, some type of fell servant from the lower planes that is supposedly extremely powerful. Bayard feels that attacking such a creature directly is tantamount to suicide. Perhaps his fear will serve him well, but I must go onward. I shall keep an eye out for these "wardstones" that he mentioned as well. They must be keys of a sort.~
 @24115 = ~One of Bayard's comrades was the lad named Dalton that I have come to rescue. Bayard thinks the boy is in over his head, but it is his head to do with what he pleases.~
 @24116 = ~Okay.~
 @24117 = ~Adventures you have seen and dangers you have faced, and through them all you have emerged alive. Creatures both fell and familiar have opposed you, and yet you have persevered. With your acts come a closure, and these Tales of the Sword Coast are behind you. However, the world continues, and it awaits your further adventures.~
