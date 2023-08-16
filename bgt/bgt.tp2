@@ -7168,6 +7168,10 @@ COPY_EXISTING ~aasim.cre~ ~override/aasim.cre~
    END
 BUT_ONLY
 
+COPY_EXISTING ~abela.cre~ ~override~ // Abela
+  WRITE_LONG MORALE 5190 // nymph03 "Help! I am beset by evil!"
+BUT_ONLY
+
 COPY_EXISTING ~aldeth.cre~ ~override~
   WRITE_LONG MORALE 4481 // aldet02 "Come now, old chaps, can't we be friends?"
 BUT_ONLY
@@ -7297,6 +7301,14 @@ COPY_EXISTING ~davaeo.cre~ ~override~
   WRITE_LONG MORALE 4474 // daveo02 "You meddling fools, your victory shall be short lived."
 BUT_ONLY
 
+COPY_EXISTING ~drizzt.cre~ ~override~ // Drizzt
+  WRITE_LONG SELECT_COMMON1 4502 // drizzt05 "I've sparred with demons from the nine hells (...)"
+  WRITE_LONG SELECT_COMMON2 4501 // drizzt04 "I am a gentle man at heart. At least, when I'm (...)"
+  WRITE_LONG SELECT_COMMON3 4503 // drizzt06 "All this chatter is fine, but I've places I'd rather be."
+  WRITE_LONG SELECT_COMMON4 "-1"
+  WRITE_LONG SELECT_ACTION4 4504 // drizzt07 "Don't poke Drizzt. 'Tis entirely unsociable."
+BUT_ONLY
+
 COPY_EXISTING ~fahrin.cre~ ~override/fahrin.cre~
   WRITE_SHORT 0x24 16 //current HP
   WRITE_SHORT 0x26 16 //max HP
@@ -7319,6 +7331,10 @@ COPY_EXISTING ~farmbr.cre~ ~override/farmbr.cre~
               ~gerde.cre~  ~override/gerde.cre~
   WRITE_ASCII 0x248 "" #8 //override script
 BUT_ONLY
+
+COPY_EXISTING ~fearm.cre~  ~override~ // Fear
+  WRITE_LONG ATTACK2 5848 // reven06
+BUT_ONLY IF_EXISTS
 
 COPY_EXISTING ~flam.cre~ ~override/flam.cre~
   WRITE_BYTE 0x270 0xff
@@ -7367,9 +7383,11 @@ BUT_ONLY
 
 COPY_EXISTING ~gorion.cre~ ~override/gorion.cre~
   WRITE_BYTE 0x273 1 //change Class to Mage
+  WRITE_LONG SELECT_COMMON3 4444 // gorin07 "We have very little time!"
+  WRITE_LONG SELECT_COMMON4 "-1"
   WRITE_LONG SELECT_COMMON5 "-1"
   WRITE_LONG SELECT_COMMON6 "-1"
-  WRITE_LONG SELECT_ACTION4 "-1"
+  WRITE_LONG SELECT_ACTION4 4443 // gorin06 "-cough- -cough- I'm too old for this."
   WRITE_LONG SELECT_ACTION5 "-1"
   WRITE_LONG SELECT_ACTION6 "-1"
   WRITE_LONG SELECT_ACTION7 "-1"
@@ -7620,6 +7638,10 @@ BUT_ONLY
 COPY_EXISTING ~volo.cre~ ~override/volo.cre~
   WRITE_BYTE 0x27b 49 //Alignment
   WRITE_LONG MORALE 4520 // volo02 "This is not my day at all!"
+  WRITE_LONG SELECT_COMMON3 "-1"
+  WRITE_LONG SELECT_COMMON4 "-1"
+  WRITE_LONG SELECT_ACTION4 4524 // volo06 "Awfully familiar with that pointer, aren't you? And after (...)"
+  WRITE_LONG SELECT_ACTION5 4525 // volo07 "I've a story for every man, woman, and child in Faur'n (...)"
 BUT_ONLY
 
 COPY_EXISTING ~voltin.cre~ ~override/voltin.cre~
