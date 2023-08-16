@@ -114,7 +114,7 @@ BEGIN @100000 LABEL ~A6-BGT-Core~
 REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~xnewarea.2da~ @100021
 
 // BG2 GTU compatibility
-ACTION_IF (MOD_IS_INSTALLED ~bg2gtu.tp2~ ~0~) &&
+ACTION_IF (MOD_IS_INSTALLED ~bg2gtueestyle.tp2~ ~0~) &&
           ((~%LANGUAGE%~ STR_EQ ~english~) || (~%LANGUAGE%~ STR_EQ ~international~)) BEGIN
   LOAD_TRA ~bgt/language/english/journal_bg2gtu.tra~
 END
