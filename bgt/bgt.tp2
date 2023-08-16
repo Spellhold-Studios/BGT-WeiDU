@@ -7888,6 +7888,15 @@ BUT_ONLY
 >>>>>>>>
 COMPILE ~bgt/ch6end.baf~
 
+// prevent setting cowled wizards globals in BG1
+COPY_EXISTING ~baldur.bcs~ ~override/baldur.bcs~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~GlobalLT("BribedCowled","GLOBAL",2)~
+      ~Global("ENDOFBG1","GLOBAL",2)
+       GlobalLT("BribedCowled","GLOBAL",2)~
+  END
+BUT_ONLY
+
 COPY_EXISTING ~bancut01.bcs~ ~override/bancut01.bcs~
   DECOMPILE_BCS_TO_BAF
   REPLACE_TEXTUALLY ~ActionOverride("Raiken",DestroySelf())~ ~ActionOverride("Raiken",Shout(2))
