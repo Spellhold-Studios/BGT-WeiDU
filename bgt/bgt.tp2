@@ -1685,6 +1685,22 @@ COPY ~bgt/modify/are/arw012.are~ ~override/arw012.are~ // Werewolf Caverns
   ADD_MAP_NOTE #974  #1392 ~gray~ #48405
   ADD_MAP_NOTE #2977 #401  ~gray~ #48405
 
+// compatibility with GemRB: spawn point encounter difficulty
+ACTION_FOR_EACH area IN
+  ~ar3100~ ~ar3200~ ~ar3300~ ~ar3400~ ~ar3401~ ~ar3498~ ~ar3499~ ~ar3800~ ~ar3900~ ~ar4100~ ~ar4200~ ~ar4300~
+  ~ar4400~ ~ar4600~ ~ar6519~ ~ar6600~ ~ar6900~ ~ar7000~ ~ar7100~ ~ar7223~ ~ar7324~ ~ar7325~ ~ar7326~ ~ar8300~
+  ~ar8400~ ~ar8500~ ~ar8600~ ~ar8602~ ~ar8700~ ~ar8800~ ~ar8900~ ~ar9000~ ~ar9100~ ~ar9200~ ~ar9300~ ~ar9400~
+  ~ar9500~ ~ar9600~ ~ar9700~ ~ar9798~ ~ar9799~ ~ar9900~ ~ara100~ ~ard000~ ~ard011~ ~ard014~ ~arw000~ ~arw012~
+  ~arw500~ BEGIN
+  COPY_EXISTING ~%area%.are~ ~override~
+    READ_LONG 0x60 spt_off
+    READ_LONG 0x64 spt_cnt
+    FOR (i = 0; i < spt_cnt; i += 1) BEGIN
+      WRITE_BYTE (0x7a + spt_off + 0xc8*i) (THIS | BIT3) // set unused bit for detection
+    END
+  BUT_ONLY
+END
+
 ///////////////////////////////////////////////////////////////////////////////////
 // New songlist - update for ToB areas referencing to unexisting and replaced songs
 ///////////////////////////////////////////////////////////////////////////////////
