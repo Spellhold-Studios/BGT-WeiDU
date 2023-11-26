@@ -8188,8 +8188,11 @@ COPY - ~bgt/string.tra~ ~bgt/string.tra~
   REPLACE_TEXTUALLY ~1111~ ~%DetectEvil%~
   REPLACE_TEXTUALLY ~1~ ~2~
 LOAD_TRA ~bgt/string.tra~
-COPY_EXISTING ~spwi202.spl~ ~override/spwi202.spl~
-  SAY 0x50 @99999999
+
+ACTION_IF (!MOD_IS_INSTALLED ~bg2gtueestyle.tp2~ ~0~) BEGIN // compatibility with BG2 GTU
+  COPY_EXISTING ~spwi202.spl~ ~override/spwi202.spl~
+    SAY 0x50 @99999999
+END
 
 //////////////////////////////////////////////////////////////////
 //Stores
