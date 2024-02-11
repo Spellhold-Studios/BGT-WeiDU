@@ -1,50 +1,17 @@
 # Archives
 *.7z
 *.bz2
-*.bzip
-*.bzip2
 *.gz
-*.gzip
 *.iemod
-*.lz
-*.lzma
 *.rar
-*.tar
 *.tgz
-*.txz
-*.xar
-*.xz
 *.zip
-
-# Backup
-*.backup
-*.bak
-*.old
-*.ori
-*.orig
-*.temp
-*.tmp
-[Bb]ackup/
-[Tt]emp/
-[Tt]mp/
-
-# Build
-*.debug
-*.log
-[Dd]ebug/
-[Dd]ebugPublic/
-[Ll]og/
-[Ll]ogs/
-[Rr]elease/
-[Rr]eleases/
 
 # Office
 *.xlk
-*.~vsd*
 .~lock.*#
 Backup of *.doc*
 ~$*.doc*
-~$*.ppt*
 ~$*.xls*
 
 # Linux
@@ -74,9 +41,6 @@ Icon
 Network Trash Folder
 Temporary Items
 
-# WeiDU
-[Ss]etup-*.exe
-
 # Windows
 $RECYCLE.BIN/
 *.lnk
@@ -87,3 +51,6 @@ Thumbs.db:encryptable
 [Dd]esktop.ini
 ehthumbs.db
 ehthumbs_vista.db
+
+# WeiDU
+[Ss]etup-*.exe
