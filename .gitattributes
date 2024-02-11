@@ -28,7 +28,6 @@
 *.menu text
 *.mus  text
 *.sql  text
-*.tbl  text
 *.tp2  text
 *.tpa  text
 *.tph  text
@@ -74,13 +73,14 @@
 *.tis  binary
 *.tiz  binary
 *.tlk  binary
+*.toh  binary
+*.tot  binary
 *.ttf  binary
-*.var  binary
 *.vef  binary
 *.vvc  binary
 *.wav  binary
 *.wbm  binary
-*.webm binary
+*.webp binary
 *.wed  binary
 *.wfx  binary
 *.wmp  binary
