@@ -14,7 +14,7 @@ END
 IF
 	Global("A6WaylaidSpawn","AR4901",0)
 	TimeGT(2)
-	TimeLT(4)
+	TimeLT(5)
 THEN
 	RESPONSE #100
 		CreateCreature("JELLMU",[851.122],0)  // Mustard Jelly
