@@ -29,7 +29,7 @@ END
 IF
 	Global("A6WaylaidSpawn","AR5100",0)
 	TimeGT(4)
-	TimeLT(DAWN_START)
+	TimeLT(DAWN_END)
 THEN
 	RESPONSE #100
 		CreateCreature("BGWOLF",[628.346],0)  // Wolf
