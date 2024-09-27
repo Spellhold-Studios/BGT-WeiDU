@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discussions
+    url: https://github.com/Spellhold-Studios/BGT-WeiDU/discussions
+    about: Ask a question, give a suggestion, or share your opinion in discussions.
+  - name: Discord
+    url: https://discord.gg/pE2Njbdb2a
+    about: Join our Discord server to discuss or ask questions about this project.
+  - name: Contributing Guidelines
+    url: https://github.com/Spellhold-Studios/.github/blob/main/CONTRIBUTING.md
+    about: A complete guide to foster a positive experience for contributors and maintainers.
+  - name: GitHub Support
+    url: https://support.github.com/contact
+    about: Please contact GitHub Support if you need help with your account.

@@ -1,0 +1,30 @@
+name: Bug report
+description: A convenient form to help you create a report.
+labels: bug
+body:
+  - type: textarea
+    attributes:
+      label: Bug description
+      description: Tell us what exactly is wrong.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: Explain why it is wrong or what you expected.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+      description: Walk us through step by step how to trigger this bug.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Suggested fix
+      description: Let us know if you already have an idea how to solve it.
+  - type: textarea
+    attributes:
+      label: Attachments
+      description: Please attach your WeiDU log, screenshots or anything else that might help.
