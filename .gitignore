@@ -42,14 +42,12 @@ Backup of *.doc*
 .apdisk
 .com.apple.timemachine.donotpresent
 .fseventsd
-Icon
 Network Trash Folder
 Temporary Items
 
 # Windows
 $RECYCLE.BIN/
 *.lnk
-*.msix
 *.stackdump
 Thumbs.db
 Thumbs.db:encryptable
