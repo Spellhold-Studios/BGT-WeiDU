@@ -10,7 +10,7 @@
 [![Views](https://badges.pufler.dev/visits/Spellhold-Studios/BGT-WeiDU?label=views&color=%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases)
 <br>
 [![Games](https://img.shields.io/badge/games-BG2%20%a0%20BGT-%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases)
-[![Language](https://img.shields.io/badge/language-en%20%a0%20cz%20%a0%20de%20%a0%20es%20%a0%20fr%20%a0%20it%20%a0%20jp%20%a0%20kr%20%a0%20pl%20%a0%20ru%20%a0%20zh--CN%20%a0%20zh--TW-%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases)
+[![Language](https://img.shields.io/badge/language-en%20%a0%20cs%20%a0%20de%20%a0%20es%20%a0%20fr%20%a0%20it%20%a0%20ja%20%a0%20ko%20%a0%20pl%20%a0%20ru%20%a0%20zh--CN%20%a0%20zh--TW-%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases)
 
 # Baldur's Gate Trilogy
 
