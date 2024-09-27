@@ -27,11 +27,11 @@
 
 Baldur's Gate Trilogy is a modification originally created by Bardez that aimed to achieve two major goals: to play Baldur's Gate and Tales of the Sword Coast expansion using the much improved Baldur's Gate II engine, and to generate some kind of continuity between the events of Baldur's Gate, Tales of the Sword Coast, Shadows of Amn, and Throne of Bhaal. Baldur's Gate Trilogy-WeiDU takes this a step further by converting the modification to WeiDU format, which has improved compatibility with other modifications.
 
+While BGT-WeiDU remains mostly faithful to the original Baldur's Gate and Tales of the Sword Coast, a number of new features have been introduced to satisfy the above goals.
+
 *Please check the complete [Readme](https://spellhold-studios.github.io/readmes/bgt-weidu/[english]bgtreadme.htm) to learn more about this mod before installation.*
 
 ## Key features
-
-While BGT-WeiDU remains mostly faithful to the original Baldur's Gate and Tales of the Sword Coast, a number of new features have been introduced to satisfy the above goals.
 
 - **Baldur's Gate using the Baldur's Gate II engine**: BGT-WeiDU is a modification installed on Baldur's Gate II: Throne of Bhaal. Therefore, the story of Baldur's Gate can be experienced with the updated graphics, better resolution, and interface improvements present in Baldur's Gate II.
 - **Bug fixes**: BGT-WeiDU includes an internal fixpack that addresses a significant number of bugs that remained in Baldur's Gate and Tales of the Sword Coast. A technical list of fixes can be found in the installation package.
