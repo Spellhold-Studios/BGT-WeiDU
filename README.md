@@ -17,7 +17,7 @@ Badges white space separator: %20%a0%20
 Badges ":" (colon) symbol: %3A
 Badges "-" (hyphen) symbol: --
 Games full list: BG1 BG2 BGT BG%3AEE SoD BG2%3AEE EET IWD1 IWD2 IWD%3AEE PST PST%3AEE
-IETF language tags: https://support.elucidat.com/hc/en-us/articles/6068623875217-IETF-language-tags
+IETF language tags: https://spellhold-studios.github.io/readmes/template-basic/ietf-lang-tags.pdf
 Why some badges update slowly: https://github.com/pujux/badge-it/issues/78
 -->
 
