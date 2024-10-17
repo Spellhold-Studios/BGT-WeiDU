@@ -23,7 +23,7 @@ Why some badges update slowly: https://github.com/pujux/badge-it/issues/78
 
 # Baldur's Gate Trilogy
 
-*A Spellhold Studios mod for Baldur's Gate II*
+*A Spellhold Studios mod for Baldur's Gate&nbsp;II*
 
 <br>
 
