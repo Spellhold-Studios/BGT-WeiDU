@@ -1,14 +1,8 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Spellhold-Studios/Spellhold-Studios.github.io/main/assets/images/shs-corner-logo.png" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Spellhold-Studios/Spellhold-Studios.github.io/main/assets/images/shs-corner-logo.png" />
-  <img align="right" alt="SHS logo" src="https://raw.githubusercontent.com/Spellhold-Studios/Spellhold-Studios.github.io/main/assets/images/shs-corner-logo.png" width="22%">
-</picture>
-
 [![Release](https://img.shields.io/github/v/release/Spellhold-Studios/BGT-WeiDU?include_prereleases&color=%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases/latest)
 [![Published](https://img.shields.io/github/release-date/Spellhold-Studios/BGT-WeiDU?display_date=published_at&label=published&color=%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Spellhold-Studios/BGT-WeiDU/total?color=%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases)
 [![Views](https://badges.pufler.dev/visits/Spellhold-Studios/BGT-WeiDU?label=views&color=%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases)
-<br>
+[![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-%2392403a)](https://github.com/Spellhold-StudiosBGT-WeiDU/releases)
 [![Games](https://img.shields.io/badge/games-BG2%20%a0%20BGT-%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases)
 [![Language](https://img.shields.io/badge/language-en%20%a0%20cs%20%a0%20de%20%a0%20es%20%a0%20fr%20%a0%20it%20%a0%20ja%20%a0%20ko%20%a0%20pl%20%a0%20ru%20%a0%20zh--CN%20%a0%20zh--TW-%2392403a)](https://github.com/Spellhold-Studios/BGT-WeiDU/releases)
 
@@ -20,6 +14,14 @@ Games full list: BG1 BG2 BGT BG%3AEE SoD BG2%3AEE EET IWD1 IWD2 IWD%3AEE PST PST
 IETF language tags: https://spellhold-studios.github.io/readmes/template-basic/ietf-lang-tags.pdf
 Why some badges update slowly: https://github.com/pujux/badge-it/issues/78
 -->
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Spellhold-Studios/Spellhold-Studios.github.io/main/assets/images/shs-corner-logo.png" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Spellhold-Studios/Spellhold-Studios.github.io/main/assets/images/shs-corner-logo.png" />
+  <img alt="SHS logo" src="https://raw.githubusercontent.com/Spellhold-Studios/Spellhold-Studios.github.io/main/assets/images/shs-corner-logo.png" width="220" height="115">
+</picture>
 
 # Baldur's Gate Trilogy
 
