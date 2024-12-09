@@ -67,21 +67,21 @@ While BGT-WeiDU remains mostly faithful to the original Baldur's Gate and Tales 
 - dex909 &nbsp;&ndash;&nbsp; worldmap artwork
 - Salk &nbsp;&ndash;&nbsp; BG1 game text update
 
-**Translations**
-
-- Czech &nbsp;&ndash;&nbsp; Lyrick, PostTrauma
-- French &nbsp;&ndash;&nbsp; Anomaly
-- German &nbsp;&ndash;&nbsp; Hurricane, OldVeteran, RubberDuck, weigo
-- Italian &nbsp;&ndash;&nbsp; al17, Gemini82, melkor_morgoth75, Salk
-- Korean &nbsp;&ndash;&nbsp; Inesius, web2air, Shi woo, Whiteraven
-- Polish &nbsp;&ndash;&nbsp; dragonian, Joneleth, Promilus, Valfar (aka Evendur), yarpen, Roberciiik
-- Russian &nbsp;&ndash;&nbsp; Badgert, iopden, King Diamond, Kulyok, Vlad
-- Spanish &nbsp;&ndash;&nbsp; Ghildrean, Immortality, Lisandro, Memnoch, Saemon
-- Simplified/Traditional Chinese &nbsp;&ndash;&nbsp; Delmarey, fc666, good0593, Kinkairy, moon_cloud, 猫猫伸懒腰
-
 **Maintainer**  
 
 - skellytz
+
+**Translators**  
+
+- **Chinese (Simplified/Traditional)**:&nbsp; Delmarey, fc666, good0593, Kinkairy, moon_cloud, 猫猫伸懒腰
+- **Czech**:&nbsp; Lyrick, PostTrauma
+- **French**:&nbsp; Anomaly
+- **German**:&nbsp; Hurricane, OldVeteran, RubberDuck, weigo
+- **Italian**:&nbsp; al17, Gemini82, melkor_morgoth75, Salk
+- **Korean**:&nbsp; Inesius, web2air, Shi woo, Whiteraven
+- **Polish**:&nbsp; dragonian, Joneleth, Promilus, Valfar (aka Evendur), yarpen, Roberciiik
+- **Russian**:&nbsp; Badgert, iopden, King Diamond, Kulyok, Vlad
+- **Spanish**:&nbsp; Ghildrean, Immortality, Lisandro, Memnoch, Saemon
 
 **Special thanks**  
 
