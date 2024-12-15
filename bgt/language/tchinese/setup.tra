@@ -1,256 +1,256 @@
 ////////////////////////////////////////////////////////////////////
 //Items
 ////////////////////////////////////////////////////////////////////
-@200000 = %�쵷�K�Ԫ��J��%
+@200000 = %伊絲密拉的雕像%
 
 //@23967 - change Blunt Weapons to Mace
-@200001 = %�v�Y��+2�G�u�J���Z���H�`��v
+@200001 = %釘頭鎚+2：「克爾坦的碎顱鎚」
 
-�Y�ϬO�媪���ڤ]���L���̭^���A���M�L�̱`�Q��������H�̶C���A���٬O���ǥO�H�L�H�`�誺���ݡC�J���Z�O���v�H�ӳ��o�����b�~�H�A�L�a��ۤ@�s�y�������H�]�B�b�~�H�B�j�a��H�ΦU�����~�C�b1241DR�A�]�N�O�K�k�������~�A���s�b�~�H�g��Q�����j�[�F�@�Ӯ��������Q���A�ñN�����`�C�ӷ��v�̹惡�ƪ��B�z�覡�A�K�O��Ҧ��n��b�~�H�o�ʤj�O���C��O�J���Z�K������ܡA�H�K�L���ڤH�Q�O���p�ɡA���L���٬O�Q���E�p�C�J���Z�ۤv�]����o���Ĭ�A�L���Y�`�Q�a���b����~�����H���Ӧa�~�C���쪺�O�A�b�~�H���ٳo�~���u�ۤH�ӬƤ��~�v�C
+即使是游牧民族也有他的們英雄，雖然他們常被較文明的人們詆毀，但還是有些令人印象深刻的事蹟。克爾坦是有史以來最聰明的半獸人，他帶領著一群流浪的食人魔、半獸人、大地精以及各類野獸。在1241DR，也就是仕女失落之年，有群半獸人土匪被指控綁架了一個泰斯爾的貴婦，並將之殺害。而當權者對此事的處理方式，便是對所有南方半獸人發動大屠殺。於是克爾坦便挺身抵抗，以免他的族人被屠殺殆盡，但他們還是被迫遷徙。克爾坦自己也死於這次衝突，他的頭顱被懸掛在那位年輕婦人的墓地外。有趣的是，半獸人都稱這年為「欺人太甚之年」。
 
-�ƾڸ�ơG
+數據資料：
 
-�ˮ`�O�G1D6+3
-�s�ũR���ȡG+2
-�ˮ`�����G���H
-���q�G7
-�Z���t�סG5
-�Z���S�����O�G�v�Y��
-�ϥ����O�G���
+傷害力：1D6+3
+零級命中值：+2
+傷害類型：粉碎
+重量：7
+武器速度：5
+武器特長類別：釘頭鎚
+使用類別：單手
 
-�L�k�ϥΪ�¾�~�G
- �w�|��
- �k�v
- �s��
- �Z��
- ���~�v%
+無法使用的職業：
+ 德魯伊
+ 法師
+ 盜賊
+ 武僧
+ 馴獸師%
 
 //@7350 - change Bow Weapons to Long Bow
-@200002 = %�������}�G�u�ʨB�﷨�}�v
+@200002 = %狙擊長弓：「百步穿楊弓」
 
-�����H�ӡA�v�Z�N�O���M�N����h��a������@���۳B���n�A�����S����ۤv���b�N�P��Q���ۻ��A�]���M�w�w�Ƥ@���M���A�@�����U�C���賣��ۤv�Ҿ֦����]�}�j�v�j�N�C���o��v�Z�N�O�����R�w����������ӻ��٤����A�L�M�w�ƥ��N��⪺�]�}�����C��F���ɷ��ѡA�L���ۤv���u�շt���v�v�o�N�C���O�L������M�n�D�L����@�Өƥ��w�Ʀn���_��H�i�ܤ@�U���ޡC�R�w�������@����æa�s�}�f�b�A��Ǩ��ӽ_��H�@�b�g�X�C�L���@�S�`�N��A���ӽ_��H�M�L���~���Q���ۦ��C�_��H�����U�Q�@�b�A����b�A�ӷR�w�Ū��U���]�O�@�˴d�G�C
+長期以來，史班代力陽和代爾桑多兩地的公爵一直相處不好，彼此又都對自己的箭術感到十分自豪，因此決定安排一場決鬥，一較高下。雙方都對自己所擁有的魔弓大肆吹噓。但這對史班代力楊的愛德溫戴爾公爵來說還不夠，他決定事先將對手的魔弓偷走。到了比賽當天，他對於自己的優勢暗中洋洋得意。但是他的對手突然要求他先對一個事先安排好的稻草人展示一下神技。愛德溫戴爾毫不遲疑地彎弓搭箭，對準那個稻草人一箭射出。他絲毫沒注意到，那個稻草人和他的外型十分相似。稻草人的腦袋被一箭劈成兩半，而愛德溫的下場也是一樣悲慘。
 
-�ƾڸ�ơG
+數據資料：
 
-�s�ũR���ȡG+3 
-�ˮ`�O�G+2
-���q�G2
-�Z���t�סG5
-�Z���S�����O�G���}
-�ϥ����O�G����
-�ݨD�G�O�q6
+零級命中值：+3 
+傷害力：+2
+重量：2
+武器速度：5
+武器特長類別：長弓
+使用類別：雙手
+需求：力量6
 
-�L�k�ϥΪ�¾�~�G
- �w�|��
- �k�v
- �s��
- ���v
- �Z��
- �C�t
- �M�h%
+無法使用的職業：
+ 德魯伊
+ 法師
+ 盜賊
+ 牧師
+ 武僧
+ 劍聖
+ 騎士%
 
 //@7351 = change Bow Weapons to Short Bow
-@200003  = %�u�}�A�N�}�G�u�𧯤k���O�@�̡v
+@200003  = %短弓，鷹弓：「樹妖女的保護者」
 
-���F�O�@�ۤv���a�餣���b�~�H���u�����Z�A�����̺��˪L���𧯤k�N�o��}�浹�F�^���զ�~���ޡC�b�~�H�}�l���Y�ʥj�ѥ��j�����A���ۦb��W�����F�]�X�G�Q�����C�a�۴˪L�ʪ�����U�A�~���ަb�o�s�b�~�H�y����j���}�a���e�A�N��L�̥��o����y���C�Ҧ����Ʀs�����b�~�H���k�^��Ӫ��ھڦa�A�����A���|�k�ʡC���M�A�q���H��A���ѥb�~�H���U�𧯤k���j�^���~���޴N�L�۩��ּ֧֪��ͬ��C����A���ӻ��O�u�D�`�v���ּ֧֪��ͬ��C
+為了保護自己的家園不受半獸人伐木工的騷擾，高絲米爾森林的樹妖女將這把弓交給了英雄白衣漢尼拔。半獸人開始砍伐某棵古老巨大的橡樹，附著在其上的樹靈也幾乎被殺光。靠著森林動物的協助，漢尼拔在這群半獸人造成更大的破壞之前，就把他們打得落花流水。所有僥倖存活的半獸人都逃回原來的根據地，不敢再輕舉妄動。當然，從此以後，打敗半獸人幫助樹妖女的大英雄漢尼拔就過著幸福快樂的生活。不對，應該說是「非常」幸福快樂的生活。
 
-�ƾڸ�ơG
+數據資料：
 
-�s�ũR���ȡG+2 
-�ˮ`�O�G+2
-���q�G2
-�Z���t�סG4
-�Z���S�����O�G�u�}
-�ϥ����O�G����
-�ݨD�G�O�q6
+零級命中值：+2 
+傷害力：+2
+重量：2
+武器速度：4
+武器特長類別：短弓
+使用類別：雙手
+需求：力量6
 
-�L�k�ϥΪ�¾�~�G
- �w�|��
- �k�v
- ���v
- �Z��
- �C�t
- �M�h%
+無法使用的職業：
+ 德魯伊
+ 法師
+ 牧師
+ 武僧
+ 劍聖
+ 騎士%
 
 //@20885 - change Small Sword to Dagger
-@200004 = %�ȤP���G�u�~�ƤH����v
+@200004 = %銀匕首：「獸化人末日」
 
-�o��P����I�~�ƤH�ɨ㦳+2���ĪG�C���F�C�L���R�ԡP����Ʊ�a�m����������~�ƤH�����Z�A�]��ű�y�F�o��P���C�o�h�b�l���~�ƤH����ɡA��ǳ��s�Q�@�s�b�~�H�ұ��C
+這把匕首對付獸化人時具有+2的效果。精靈遊俠戴娜拉·金手希望家鄉能夠不受到獸化人的騷擾，因此鑄造了這把匕首。她則在追蹤獸化人首領時，於灰頂山被一群半獸人所殺。
 
-�ƾڸ�ơG
+數據資料：
 
-�ˮ`�O�G1D4+1�]����~�ƤH��+4�^
-�s�ũR���ȡG+1�ﵽ�]����~�ƤH��+4�^
-�ˮ`�����G���
-���q�G1
-�Z���t�סG2 
-�Z���S�����O�G�P��
-�ϥ����O�G���
+傷害力：1D4+1（對抗獸化人時+4）
+零級命中值：+1改善（對抗獸化人時+4）
+傷害類型：穿刺
+重量：1
+武器速度：2 
+武器特長類別：匕首
+使用類別：單手
 
-�L�k�ϥΪ�¾�~�G
- ���v
- ���~�v%
+無法使用的職業：
+ 牧師
+ 馴獸師%
 
 //@20882 - change Long Sword to Bastard Sword
-@200005 = %�o����R���A���O���ũʫܮt�����C�O�b�f�w�w������e���o�{���C�Ҧ��H�����D�����Z���O����Ω�԰����A���O�ǻ��ζ�����y���Z������ˮ`���T�H�@�˪����ƥͪ��C
+@200005 = %這把華麗的，但是平衡性很差的長劍是在柏德安船隻的殘骸內發現的。所有人都知道黃金武器是不能用於戰鬥的，但是傳說用黃金鍛造的武器能夠傷害像狼人一樣的恐怖生物。
 
-�ƾڸ�ơG
+數據資料：
 
-�ˮ`�O�G2D4�]���~�ƤH+4�^
-�s�ũR���ȡG���~�ƤH+4
-�ˮ`�����G����
-���q�G12
-�Z���t�סG7
-�Z���S�����O�G�j���C
-�ϥ����O�G���
-�ݨD�G�O�q11
+傷害力：2D4（對獸化人+4）
+零級命中值：對獸化人+4
+傷害類型：揮砍
+重量：12
+武器速度：7
+武器特長類別：大型劍
+使用類別：單手
+需求：力量11
 
-�L�k�ϥΪ�¾�~�G
- �w�|��
- ���v
- �k�v
- �s��
- �Z��
- ���~�v%
+無法使用的職業：
+ 德魯伊
+ 牧師
+ 法師
+ 盜賊
+ 武僧
+ 馴獸師%
 
 //@23965 - change Large Sword to Two Handed Sword
-@200006 = %���⥨�C+3�G�@�ɤ��b
-�o�O�@��a���\�h�^���Ƹ񪺶ǩ_�Z���A�o�Ƕǻ��b�_�誺�Z�ڳ������s���y�ǡC�i�h�̫e�����~�a�ⴤ���C������ܵL�ƼĤH�A�ڻ��x�U���A��i�H�񺡤@�Ӥp���v�C���v�W�èS���o�`�Z����ű�y�����A�ӥ��������̤]�`�O�{�����P�ۤv�Ҭ۫H�����ܦ����C�䤤�̸رi���@�ػ��k�N�O�A���ӭ�������F�@�ɪ����Y�A�L�i�J�F��L�����A�åB�L���ͦ��aű�y�F�o�`�C�C���ׯu�۬���A�u�n�ϥαo���A���O�۷��i�Ȫ��Z���C
+@200006 = %雙手巨劍+3：世界之刃
+這是一把帶有許多英雄事跡的傳奇武器，這些傳說在北方的蠻族部落中廣為流傳。勇士們前仆後繼地手握此劍挺身對抗無數敵人，據說灑下的鮮血可以填滿一個小海洋。歷史上並沒有這柄武器的鑄造紀錄，而它的持有者也總是認為它與自己所相信的神話有關。其中最誇張的一種說法就是，有個首領航海到了世界的盡頭，他進入了虛無之中，並且無中生有地鑄造了這柄劍。不論真相為何，只要使用得當，它是相當可怕的武器。
 
-�ƾڸ�ơG
+數據資料：
 
-�s�ũR���ȡG+3�ﵽ
-�ˮ`�O�G1D10+3
-�ˮ`�����G����
-���q�G9
-�ϥγt�סG7
-�Z���S�����O�G���⥨�C
-�ϥ����O�G����
+零級命中值：+3改善
+傷害力：1D10+3
+傷害類型：揮砍
+重量：9
+使用速度：7
+武器特長類別：雙手巨劍
+使用類別：雙手
 
-�L�k�ϥΪ�¾�~�G
- �w�|��
- ���v
- �k�v
- �s��%
+無法使用的職業：
+ 德魯伊
+ 牧師
+ 法師
+ 盜賊%
 
 ////////////////////////////////////////////////////////////////////
 // Spells
 ////////////////////////////////////////////////////////////////////
-@400000 = %��o�S����O�G�Ե��J�z�l��N%
-@400001 = %��o�S����O�G���߳N%
-@400002 = %��o�S����O�G�l�尭��Ĳ%
-@400003 = %��o�S����O�G�v������%
-@400004 = %��o�S����O�G��w�r���o�@%
-@400005 = %��o�S����O�G�l��t�O%
+@400000 = %獲得特殊能力：拉絡克弱吸能術%
+@400001 = %獲得特殊能力：恐懼術%
+@400002 = %獲得特殊能力：吸血鬼之觸%
+@400003 = %獲得特殊能力：治療輕傷%
+@400004 = %獲得特殊能力：減緩毒素發作%
+@400005 = %獲得特殊能力：召喚聖力%
 
 ////////////////////////////////////////////////////////////////////
 // Creatures and Stores
 ////////////////////////////////////////////////////////////////////
-@500000 = %�A��%
-@500001 = %�y�H%
+@500000 = %農民%
+@500001 = %獵人%
 
-@500040 = %�A���̡C�c�K�K�o�̡C% [BIMOEN16]
+@500040 = %你那裡。呃……這裡。% [BIMOEN16]
 
-@550000 = %�y�F�Ԫ�����%
+@550000 = %悠達拉的神殿%
 
 ////////////////////////////////////////////////////////////////////
 // Areas -- some provided by bg1.tra
 ////////////////////////////////////////////////////////////////////
-@600010 = %�e��%
-@600011 = %������Ϯ��]%
-@600012 = %������%
-@600013 = %�a��%
-@600014 = %�Ӷ�%
-@600015 = %��D%
-@600016 = %�Фl%
-@600017 = %�Q�T�S���Фl%
-@600018 = %�q�Ϫ��J�f%
-@600019 = %�J��~%
-@600020 = %�o�󪺩Фl%
-@600021 = %���U�@�h%
-@600022 = %���W�@�h%
-@600023 = %�˨���%
-@600024 = %���s�����J�f%
-@600025 = %����%
-@600026 = %�o�󪺿O��%
-@600027 = %�q�|%
-@600028 = %�A��%
-@600029 = %�j�b�O%
-@600030 = %�j��_��%
-@600031 = %���%
-@600032 = %�]�k��l%
-@600033 = %�q�Ϫ���l%
-@600034 = %��o����%
-@600035 = %���Ԯ椧�𪺤J�f%
-@600036 = %�q�Ϫ��X�f%
-@600037 = %�ں�������%
-@600038 = %�ź��d�q�S����}%
-@600039 = %���B�ժ��v�|%
+@600010 = %前門%
+@600011 = %燭堡的圖書館%
+@600012 = %醫療所%
+@600013 = %地窖%
+@600014 = %商隊%
+@600015 = %領主%
+@600016 = %房子%
+@600017 = %被淹沒的房子%
+@600018 = %礦區的入口%
+@600019 = %雕塑品%
+@600020 = %廢棄的房子%
+@600021 = %往下一層%
+@600022 = %往上一層%
+@600023 = %溪谷鎮%
+@600024 = %火酒橋遺跡入口%
+@600025 = %船難%
+@600026 = %廢棄的燈塔%
+@600027 = %礦坑%
+@600028 = %農莊%
+@600029 = %大帳篷%
+@600030 = %蜘蛛巢穴%
+@600031 = %樹屋%
+@600032 = %魔法塞子%
+@600033 = %礦區的梯子%
+@600034 = %荒廢的塔%
+@600035 = %杜拉格之塔的入口%
+@600036 = %礦區的出口%
+@600037 = %巴爾的神殿%
+@600038 = %巫爾卡司特的遺址%
+@600039 = %奧伯諾的宅院%
 
 ////////////////////////////////////////////////////////////////////
 // 2DA Files -- a few provided by bg1.tra
 ////////////////////////////////////////////////////////////////////
-@700000 = %�Ĥ@��%
-@700005 = %�ĤG��%
-@700009 = %�ĤT��%
-@700011 = %�ĥ|��%
-@700013 = %�Ĥ���%
-@700015 = %�Ĥ���%
-@700017 = %�ĤC��%
-@700019 = %�ĤK��%
+@700000 = %第一章%
+@700005 = %第二章%
+@700009 = %第三章%
+@700011 = %第四章%
+@700013 = %第五章%
+@700015 = %第六章%
+@700017 = %第七章%
+@700019 = %第八章%
 
-@700020=%�u�M�Ǫ��԰����H�A���d�N�����ۤv�]�ܦ��Ǫ��K�K���A�`���۲`�W�ɡA�`�W�]���`���ۧA�K�K�v �� �����w���ơP����%
-@700021=%���A�A���i�H�I%
-@700022=%�ڱN�O�̫�@�ӡA�ӧA�N�O�Ĥ@�ӡC%
-@700023=%�٦���L�H�A�گ��ҩ����A�ݡC�D�D�A�I�D�D�A�I%
-@700024=%�ռw����%
+@700020=%「和怪物戰鬥的人，須留意勿讓自己也變成怪物……當你注視著深淵時，深淵也正注視著你……」 － 弗里德里希·尼采%
+@700021=%不，你不可以！%
+@700022=%我將是最後一個，而你將是第一個。%
+@700023=%還有其他人，我能證明給你看。求求你！求求你！%
+@700024=%博德之門%
 
 //BGT Credits
-@700037 = %�f�w�����T�����a�A�]%
-@700038 = %���c�վ�
+@700037 = %柏德之門三部曲榮譽榜%
+@700038 = %結構調整
 -Bardez
 
-2DA����ഫ
+2DA文件轉換
 -Bardez
 
-�a�����
+地圖轉化
 -Bardez
 
-�H��
+人物
 -Bardez
 
-��ܿ�J
+對話輸入
 -Bardez
 
-���~�ഫ
+物品轉換
 -Bardez
 
-�}��
+腳本
 -Bardez
 
-�����ഫ (���R�W)
+音樂轉換 (重命名)
 -Bardez
 
-�a�Ͽ��~�ץ�
+地圖錯誤修正
 -Bardez
 
-�D�N
+主意
 -Bardez
 
-��h�}��
+更多腳本
 -Bardez
 
-�зN
+創意
 -None
 
-�W��
+上傳
 -Bardez
 -chris
 -Saitoh/Kangaxx
 -NotMrT
 -Daxiz's FTP
 
-Bug���i
+Bug報告
 -chaz58
 -D|Rek
 -icelus
@@ -258,234 +258,234 @@ Bug���i
 -Captain Carrot
 -empath3
 
-���ZBardez���H, �s�L�u�J
--<�w�f�d>
+騷擾Bardez的人, 叫他滾蛋
+-<已審查>
 
-�s�@�o��MOD���S�w�u��ƶq
+製作這個MOD的特定工具數量
 -7 (Beat -that- DLTCEP!!)
 
-Bardez���o��MOD������
+Bardez放棄這個MOD的次數
 -2 .... 3
 
-WeiDU���
+WeiDU轉化
 -Ascension64
 -KingDiamond
 
-��_�o�i
+恢復發展
 -Ascension64
 -KingDiamond
 
-�̹����
+屏幕菜單
 -Waywocket
 -Yacomo
 
 
 
-�{�b���I�T�֯���
+現在來點娛樂素材
 
-�ޥ�
+引用
 
-'�ڤ��{������2������ݭn6�Ūk�N'
--Bardez, �b�Ĥ@���C������
+'我不認為等級2的角色需要6級法術'
+-Bardez, 在第一次遊戲測試
 
 'Fuck'
--Bardez, �ܦh�ɭ�
+-Bardez, 很多時候
 
-'�ګ��o��, �ګ��o��, �ګ��o��'
--Bardez, �b�ץ�������аO���D
+'我很聰明, 我很聰明, 我很聰明'
+-Bardez, 在修正燭堡的標記問題
 
-'�̲�VB�������Ϊ� -- ��, ����.'
--Bardez, �b�гy�Ĥ@�ӽs��u�� (�Ĥ@��BGT�u��)
+'最終VB成為有用的 -- 不, 等等.'
+-Bardez, 在創造第一個編輯工具 (第一個BGT工具)
 
-'�گu�Ʊ溵���m������n��'
--Bardez, �b�ݨ캵�L�Ϊ��n���]�m��
+'我真希望熊有練瑜伽的聲音'
+-Bardez, 在看到熊無用的聲音設置後
 
-'����BG1���k�N���ܤF. ��.'
--Bardez, �b�ֳt���J
+'有些BG1的法術改變了. 嗨.'
+-Bardez, 在快速載入
 
-'�گu�L�����Q��Overlays'
--Bardez, �b�Hoverlays�ഫ�a��
+'我真他媽的討厭Overlays'
+-Bardez, 在以overlays轉換地圖
 
-'�A���D, �گu�������w�γo�ǦbBG����o��MVE'
--Bardez, �`�N���Ӧb�f�w���������ιL��MVEs
+'你知道, 我真的不喜歡用這些在BG中荒廢的MVE'
+-Bardez, 注意到兩個在柏德之門中未用過的MVEs
 
-'�ھޤں���overlays'
--Bardez, �A���boverlays�W����
+'我操巴爾的overlays'
+-Bardez, 再次在overlays上失敗
 
-'�u�ݨ�a�Ϥ��ڴN���լ���TeamBG����Ϲ�o��'
--Bardez, �ӻ{�L�ʥF���N�~��
+'只看到地圖文件我就明白為何TeamBG原先反對這個'
+-Bardez, 承認他缺乏藝術才能
 
-'�ڤU���n���ѨM?'
+'我下次要怎麼解決?'
 -Bardez, 
 
-'�A���D, ���S���ͬ��W�߮ɻs�@MOD�O�p�����P.'
--Bardez, �P�����`�]�]�γ\�O���^�b�ն��
+'你知道, 當沒有生活規律時製作MOD是如此輕鬆.'
+-Bardez, 星期五深夜（或許是凌晨）在校園裡
 
-'�ڥu�Q�⥦�̳����override���.'
--Bardez, ����o�{��Ҧ������override��󧨷|��BGT�Y���d��(��H�C��)
+'我只想把它們都放到override文件夾.'
+-Bardez, 直到發現把所有文件放到override文件夾會使BGT嚴重卡機(單人遊戲)
 
-'�p�G�o�O�T�����A���ӧ�·t�C�W��i�h��?'
--�Y�ǽ׾¥Τᴣ�X���N��
+'如果這是三部曲你不該把黑暗劍灣算進去嗎?'
+-某些論壇用戶提出的意見
 
-'FUCK�·t�C�W!!'
--Bardez�b���e������
+'FUCK黑暗劍灣!!'
+-Bardez在早前的反應
 
-'�\�T�H�Ц��ڤF.'
--Bardez, �����\�T�H�P��h��
+'豹狼人煩死我了.'
+-Bardez, 對砍殺豹狼人感到疲倦
 
-'�V�i�]�O.'
--Bardez, �b��F�Ǧ��
+'努波也是.'
+-Bardez, 在到達納西凱
 
-'�ڷ��M�n�ץ��o��bug....'
--Bardez, ���M�b�����@���㲴�����D
+'我當然要修正這個bug....'
+-Bardez, 仍然在忽視一個顯眼的問題
 
-'�A�L����������ɭԤ~��{�Ѩ�A�O�Ӥں���N�H�H'
--Bardez, �b�X�ֲ�4��
+'你他奶奶的什麼時候才能認識到你是個巴爾後代？？'
+-Bardez, 在合併第4章
 
-'���٤����D�캸�����S�X�{�b�o��!'
--Bardez, �˵��͵����u�ȩ��}��
+'我還不知道伊爾明斯特出現在這兒!'
+-Bardez, 檢視友善之臂旅店腳本
 
-'��150G, �ڴN��l���ڷd���C�@�B!'
--Bardez, �ˤF�T��BG2/BGT
+'有150G, 我就能追溯我搞的每一步!'
+-Bardez, 裝了三個BG2/BGT
 
-'���n�N��, �{�b�O500G.�ڪ��}���N.'
--Bardez, �ոˤF�L���s�q��
+'不好意思, 現在是500G.我的破玩意.'
+-Bardez, 組裝了他的新電腦
 
-'�ڴL���·t�C�W, �ڬƦܥ��q�F���@��, �ڬ����e�����y���ܺp�N.'
--Bardez, ���s�Ҽ{�F�L���e������, �i������FTeamBG
+'我尊重黑暗劍灣, 我甚至打通了它一次, 我為先前的失語表示歉意.'
+-Bardez, 重新考慮了他先前的評論, 可能攻擊了TeamBG
 
-'�گu�L�����a�F.'
--Bardez, ���|�I
+'我真他媽累壞了.'
+-Bardez, 凌晨四點
 
-'�ڧƱ�����٦��i��.'
--Bardez, ��᤭�I
+'我希望旁邊還有可樂.'
+-Bardez, 凌晨五點
 
-'�Ѥ�! Overlays�S�F!!'
--Bardez, �b��IETME���}�@�ӥ]�t�ܦh�ܦhoverlay���ϰ��ഫ��
+'老天! Overlays沒了!!'
+-Bardez, 在用IETME打開一個包含很多很多overlay的區域轉換後
 
-'�ڦb��OVERLAY�ɮ��O�F�@�Ӥp��?!?!? �ӥB�d�{�F!!?!?!?!?! FFUUUUUUUCCCKK!!!!!!'
--Bardez, �@��IETME bug�����`��
+'我在弄OVERLAY時浪費了一個小時?!?!? 而且搞砸了!!?!?!?!?! FFUUUUUUUCCCKK!!!!!!'
+-Bardez, 一個IETME bug的受害者
 
-'�o�Ӧ������������� -- �ڷPı�ۤv�b���j����II.'
--Bardez, ���b�ഫ�j�q��BG1 overlayed�ϰ�
+'這該死的雙擊的活兒 -- 我感覺自己在玩大菠蘿II.'
+-Bardez, 正在轉換大量的BG1 overlayed區域
 
-'�ڧ����F... ���A���@�U. ��ӹC�������o���ˬd. ����. Fuck.'
--Bardez, �b��J����TBG���
+'我完成了... 不，等一下. 兩個遊戲都不得不檢查. 全部. Fuck.'
+-Bardez, 在輸入全部TBG文件
 
-'�Ҧ����u�@���{�ҵL�\�A �ڥ����T�{�ۤv�O�_�ߴ�����...'
--Bardez, �Q��L���o��MOD�I�X�F�Ӧh���ɶ�
+'所有的工作都徒勞無功， 我必須確認自己是否心智健全...'
+-Bardez, 想到他為這個MOD付出了太多的時間
 
-'�ڷ|���@������overlays������.'
--Bardez, �ѵ��x������ݪ�overlays
+'我會有一個關於overlays的噩夢.'
+-Bardez, 敗給洪水般氾濫的overlays
 
-'FUCK TeamBG!! --- �}�Ӫ���.'
--Bardez, �H�K����
+'FUCK TeamBG!! --- 開個玩笑.'
+-Bardez, 隨便說說
 
-'�ڧѤFOVERRIDE���?? FUCK!'
--Bardez, �o�{�L�S����BG1����Joverride���
+'我忘了OVERRIDE文件夾?? FUCK!'
+-Bardez, 發現他沒有把BG1文件輸入override文件夾
 
-'���ˮt���h.....'
--Bardez, �����ഫ���񧹦�
+'那樣差不多.....'
+-Bardez, 首次轉換接近完成
 
-'���a�F��u�}.'
--Bardez, �J��@��'�a�F��'
+'讓壞東西滾開.'
+-Bardez, 遇到一個'壞東西'
 
-'�M��ڤ���ˬd�Ҧ������~�A��ܡA�}�����ഫ...'
--Bardez, �b��Ҧ���BG1�G�i���������BGT�榡
+'然後我手動檢查所有的物品，對話，腳本並轉換...'
+-Bardez, 在把所有的BG1二進制文件替換為BGT格式
 
-'�ڬO�@�ӳ������L�M�@�ت��W��MODer�C �{�b����!'
--Bardez, ���W6�I
+'我是一個陪伴著鍵盤和咖啡的獨立MODer。 現在當心!'
+-Bardez, 早上6點
 
-'����, �ڤ��|�ܩU���������_�O�]���n�W��. �ڱN�b�T�P���]�Ʊ�p���^��_�u�@...'
--Bardez, �ĤG���չϩ��BGT
+'哥們, 我不會很垃圾的說中斷是因為要上課. 我將在三周內（希望如此）恢復工作...'
+-Bardez, 第二次試圖放棄BGT
  
 'AAAAAHHHHHHHHHH!!!!!!!!!!!!!!!!!!'
--hlidskialf, �L������
+-hlidskialf, 他的反應
 
-'��BG�@�ҰʴN�]��100M���s, �ڽT�wWinBIFF���ɶ���F.'
--Bardez, �o�{���Ҧ���󳣩�boverride�UBGT�N�|�Y���d��
+'當BG一啟動就吞掉100M內存, 我確定WinBIFF的時間到了.'
+-Bardez, 發現當所有文件都放在override下BGT就會嚴重卡機
 
-'�ڵ���Q�ݬݨ��A�ѧ�h����A�ݭn�c�y���u��.'
--KenTeamBG, �b�ŧGBGT
+'我絕對想看看並瞭解更多關於你需要構造的工具.'
+-KenTeamBG, 在宣佈BGT
 
-'�g���Ǫ��y�s���Ӥk�H. �o���ӬO���a�F��.'
--Bardez, �o�{�g���Ǥ��_���n���]�m
+'土巨怪的尖叫像個女人. 這應該是個壞東西.'
+-Bardez, 發現土巨怪中斷的聲音設置
 
-'����, �{�b�ڶi�JBUG�ץ����q, �o���Ӥ�{�b²��h�F.'
--Bardez, ���X�F�D�`���~���n��
+'那麼, 現在我進入BUG修正階段, 這應該比現在簡單多了.'
+-Bardez, 做出了非常錯誤的聲明
 
-'Overlays. �ڧѤF�p��B�z����. �����٦b���X���S���x�Z��!'
--Bardez, �o�{�@�ǿ��~��overlay�ഫ
+'Overlays. 我忘了如何處理它們. 它們還在神出鬼沒的困擾我!'
+-Bardez, 發現一些錯誤的overlay轉換
 
-'IETME���n��. �ڥ��������o�Өƹ�.'
--Bardez, �QIETME����
+'IETME不好用. 我必須接受這個事實.'
+-Bardez, 被IETME打敗
 
-'Hmmm. �S���u��వ�o��. �Ӱ��ӷs���F. �X�Ѥ����X��.'
--Bardez, �Ч@WEDitor
+'Hmmm. 沒有工具能做這個. 該做個新的了. 幾天內做出來.'
+-Bardez, 創作WEDitor
 
-'�b���!'
--Bardez, �o�{���H�~�M�ΥL����ѫ�'���'
+'在聊天!'
+-Bardez, 發現有人居然用他的聊天室'聊天'
 
-'�ڬO�A���˪��S�̪��~�c����S���e�Ǥ�.'
--Bardez, �ޥ�Spaceballs
+'我是你父親的兄弟的外甥的堂兄的前室友.'
+-Bardez, 引用Spaceballs
 
-'�ڤ]���n�R���o�F��.'
--<�w�f�d>, �ڤ��|���L�ץ�, �n�ϥL�R��BGT
+'我也正要刪除這東西.'
+-<已審查>, 我不會為他修正, 要使他刪除BGT
 
-'�o�˰��U�h���ܡA���Ӥj�|�����F�賣��֪������o�Ӷ���.'
--KenTeamBG, ��ܥX�F�D�Z�����z(even though Bardez still rox0rz)
+'這樣做下去的話，文件太大會比任何東西都更快的毀掉這個項目.'
+-KenTeamBG, 顯示出了非凡的智慧(even though Bardez still rox0rz)
 
-'���u�c!'
--�ܦh�H, �b�ݨ�f�w�����T�������U����
+'畢季剃!'
+-很多人, 在看到柏德之門三部曲的下載時
 
-'�o�O�� SUCKS period �몺���ܶ�?' �]Roclord:�o�y�ʤf�ӵ��F�A�ڹ�b�S�k�l�κ~�y��...�^
--<�w�f�d>, ��½�@��Bardez��Baldur's Gate���X������
+'這是個 SUCKS period 般的改變嗎?' （Roclord:這句粗口太絕了，我實在沒法子用漢語講...）
+-<已審查>, 推翻一個Bardez對Baldur's Gate做出的改變
 
-'�o�O�M��������.'
--�P�W
+'這是愚蠢的改變.'
+-同上
 
-'�A���N��. ���|��ڦ��v�T.'
--Bardez, �L���^�_
+'你的意見. 不會對我有影響.'
+-Bardez, 他的回復
 
-'���M�|, �A�o�򰵤]�O�ӥ�è.'
--<�w�f�d>, �b�^�_�����D
+'當然會, 你這麼做也是個白癡.'
+-<已審查>, 在回復中說道
 
-'�]�\�b�A�T�w�w�˦��\�e���ӧR���w�ˤ�� :P'
--chris, ��@�Ӫ��a�b�w��MOD���ѫ��ܧR���o��MOD�j��D��
+'也許在你確定安裝成功前不該刪掉安裝文件 :P'
+-chris, 對一個玩家在安裝MOD失敗後選擇刪除這個MOD吹毛求疵
 
-'�o�঳�ܦh��A�u������ê �]�j���^'
--chris, �b�ݨ�j�q�M�����å�i�J#BGT�ݤj�q�M�������D��
+'這兒有很多對你真正的妨礙 （大笑）'
+-chris, 在看到大量愚蠢的傢伙進入#BGT問大量愚蠢的問題後
 
-'�ڬQ�ߵo�{�J�̴����R�P�w�N��R�Q�M�ڨӤ@��.'
-'�M��ڤѱ����x���T�F.'
--chris, �b#BGT���
+'我昨晚發現克裡斯蒂娜·安吉瑞娜想和我來一次.'
+'然後我天殺的鬧鐘響了.'
+-chris, 在#BGT聊天
 
-'Bardez, �A�b��?'
--�ܦh, �ܦh�H
+'Bardez, 你在嗎?'
+-很多, 很多人
 
-'�ګ�ˤ~��...?'
--�P��, �ܦh, �ܦh�H
+'我怎樣才能...?'
+-同樣, 很多, 很多人
 
-'�ڥL���������~��γo���ڤޥέ���?'
--NotMrT, �Q�q�ޥΰϰ�̤ޥΤ@�q 
+'我他奶奶的怎麼才能用這雞巴引用頁面?'
+-NotMrT, 想從引用區域裡引用一段 
 
-'�٦��֦����o��MOD�������??'
--Bardez, �ŧiBGT
+'還有誰有玩這個MOD的慾望嗎??'
+-Bardez, 宣告BGT
 
-'�١Achris, �p�G�ڦb�B��BGT�w�˫e�ѰO�w��VB6�|���?'
--Jens, �b�w�ˮɹJ��·�
+'嗨，chris, 如果我在運行BGT安裝前忘記安裝VB6會怎樣?'
+-Jens, 在安裝時遇到麻煩
 
-'�q���z���A���z���|������?'
--chris, �յۦ^��
-
-
+'電腦爆炸你的肛門會長菜花嗎?'
+-chris, 試著回應
 
 
-�f�w�����T������Bardez���A�m�W, ���H�ۥL�믫���ê��c��'�@�A�ڳQ�߱�F, �@-�N-�o-��-�I'
 
-²�n�a��, �S�O�P�� Joanna Lynn Nelson �߱� Bardez
 
-�䥦�S�O�P�� (�P�˱����Y�M�߱�L��)
+柏德之門三部曲由Bardez為你獻上, 伴隨著他精神錯亂的牢騷'哦，我被拋棄了, 哦-噓-這-操-呼'
+
+簡要地講, 特別感謝 Joanna Lynn Nelson 拋棄 Bardez
+
+其它特別感謝 (與親戚關係和拋棄無關)
 -Bardez
 -KenTeamBG
 -hlidskialf
@@ -497,44 +497,44 @@ WeiDU���
 -HardenCoonor for the Worldmap (You rock, dude!)
 -Richard Garriot AKA Lord British. You brought me into RPGs.
 
-�~�� by Kinkairy,�߿ߦ��i�y,fc666,RocLord,moon_cloud,good0593,jeckcai%
+漢化 by Kinkairy,貓貓伸懶腰,fc666,RocLord,moon_cloud,good0593,jeckcai%
 
 ////////////////////////////////////////////////////////////////////
 //dialog.tlk -- most provided by bg1.tra
 ////////////////////////////////////////////////////////////////////
 /*#15890 - change "dwarf from Mithral Hall" to "half-orc"*/
-@900000 = %�A�����D�A�O��˦������ߦw���i�l�A���o�Ǧ~�ӡA�A�q�L�����ͩM�a�\���ڸܤ��A�`���F����A���˪��@�Ǯ����C�o�O�ӥb�~�H�A�O�L�h�~�e���ѪB�͡C�A��o�@�I�L�H���S���A�]�S���ƪ��i�H�ҩ��o���s�b�A�ҥH�A�۫H�o�@�w�O�b�ͤU�A����N���F�C�]�\�O����o���򨥩Ҽv�T�A���ߦw�`�`�b��������Y�U�W�ۺ��B�I��A�åB���W�a��A�ԩު��j�C�ܩ�A�����ˡA�A�q�ӨSť������L���ơC%
+@900000 = %你不知道你是怎樣成為葛立安的養子，但這些年來，你從他的言談和帶淚的夢話中，蒐集了關於你母親的一些消息。她是個半獸人，是他多年前的老朋友。你對她一點印象都沒有，也沒有事物可以證明她的存在，所以你相信她一定是在生下你之後就死了。也許是受到她的遺言所影響，葛立安常常在燭堡的長廊下獨自漫步沉思，並且辛苦地把你拉拔長大。至於你的父親，你從來沒聽說關於他的事。%
 
 /*NOBW8.DLG - #8435; change last sentence to, 'I shall be here promptly every two days.'*/
-@900001 = %�ƻ�I�H�A�񨺭ӳå�n���쨺�K�K�ڷQ�ڲĤ@���N�ӬݥX�ӤF�C�ݨӧڤ��ӦA�M�A�̳o���]������D�F�C�n�a�A�ڨS����k����A�C�ڨC��ѷ|�Ǯɦb�o�̵��A�C%
+@900001 = %甚麼！？你比那個傢伙好不到那……我想我第一眼就該看出來了。看來我不該再和你們這種魔鬼打交道了。好吧，我沒有辦法阻止你。我每兩天會準時在這裡等你。%
 
 /*DELTHY.DLG - #1729; add extra sentence, 'Will you hear me out?'*/
-@900002 = %�ܦn�A�ڬO���溸�A�ڥN���ݵ^��P���C�ڤw�g��A��F�n�X�g�A���[�e�ڵo�{�A���}�F�f�w�����A�A���F����\�h�Ƴ��ܤF�A�ڥi�H�i�D�A�ݭn���D���@���C�A�@�Nť�ڻ��ܡH%
+@900002 = %很好，我是戴瑟爾，我代表豎琴手同盟。我已經找你找了好幾週，不久前我發現你離開了柏德之門，你走了之後許多事都變了，我可以告訴你需要知道的一切。你願意聽我說嗎？%
 
 // GERDE.DLG - #15166; change quota of ankhegs to ten
-@900003 = %�ڬO���C�Ӷ���n���W�L���Q���u�I�u�X�h�A�ڷ|��A�̳o�سg������ʳ��i���K�����D�A���ڤp���I�K�K�Ӧ����³J�C%
+@900003 = %我是說每個隊伍不要殺超過“十”只！滾出去，我會把你們這種貪婪的行動報告給焰拳知道，給我小心點……該死的笨蛋。%
 
-@900037=%�ռw����²��%
-@900038=%�w�i�ö�²��%
-@900039 = %�w�i�ö�%
-@900040 = %�I���e�w�i�ö��f���s�N���L�f�w���������}�l�f�w�����G�w�i�ö��C
+@900037=%博德之門簡介%
+@900038=%安姆疑雲簡介%
+@900039 = %安姆疑雲%
+@900040 = %點擊〔安姆疑雲〕按鈕將跳過柏德之門直接開始柏德之門二安姆疑雲。
 
-�p�G�A�Q���f�w�����A�I���e�����f�A�M���I���e�}�l�s�C���f���s�C%
+如果你想玩柏德之門，點擊〔取消〕，然後點擊〔開始新遊戲〕按鈕。%
 
-@900042 = %�f�w����%
+@900042 = %柏德之門%
 
 //Shadows of Amn description button text
-@900043 = %'������i���F��(Tortured Souls)'%
-@900044 = %'�̶·t���@��(The Darkest Day)'%
-@900045 = %'Ţ�n���ڪ����v(Shadows over Soubar)'%
-@900046 = %'�L�ɪ��ȳ~(Neverending Journey)'%
-@900047 = %'���Ʀa�a(Region of Terror)'%
-@900048 = %'����(Big Picture)'%
-@900049 = %'�ˬd����(Check the Bodies)'%
-@900050 = %�i��%
-@900051 = %�w�i�ö�(TM)%
-@900052 = %�f�w����(TM)�M�C�W�ǩ_(TM)�ζi��%
-@900053 = %�s�W�[���ϰ�:%
+@900043 = %'飽受折磨的靈魂(Tortured Souls)'%
+@900044 = %'最黑暗的一天(The Darkest Day)'%
+@900045 = %'籠罩梭巴的陰影(Shadows over Soubar)'%
+@900046 = %'無盡的旅途(Neverending Journey)'%
+@900047 = %'恐怖地帶(Region of Terror)'%
+@900048 = %'全景(Big Picture)'%
+@900049 = %'檢查身體(Check the Bodies)'%
+@900050 = %進行%
+@900051 = %安姆疑雲(TM)%
+@900052 = %柏德之門(TM)和劍灣傳奇(TM)或進行%
+@900053 = %新增加的區域:%
 //End Shadows of Amn description button text
 
 ////////////////////////////////////////////////////////////////////
