@@ -97,14 +97,14 @@ LANGUAGE ~espanol~
          ~bgt/language/spanish/scripts.tra~
 LANGUAGE ~Simplified Chinese~
          ~schinese~
-         ~bgt/language/english/prompts.tra~
+         ~bgt/language/schinese/prompts.tra~
          ~bgt/language/schinese/setup.tra~
          ~bgt/language/schinese/dialog.tra~
          ~bgt/language/schinese/journal.tra~
          ~bgt/language/schinese/scripts.tra~
 LANGUAGE ~Traditional Chinese~
          ~tchinese~
-         ~bgt/language/english/prompts.tra~
+         ~bgt/language/tchinese/prompts.tra~
          ~bgt/language/tchinese/setup.tra~
          ~bgt/language/tchinese/dialog.tra~
          ~bgt/language/tchinese/journal.tra~
