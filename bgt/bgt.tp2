@@ -10068,9 +10068,7 @@ COPY_EXISTING ~intro15f.2da~ ~override/soaintro.2da~
 
 MKDIR ~bg1movie~
 
-AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --out bg1movie --biff-get-rest intro15f.mve~
-LAM bash_log
-MOVE + ~bg1movie/intro15f.mve~ ~bg1movie/soaintro.mve~
+COPY_EXISTING + ~intro15f.mve~ ~bg1movie/soaintro.mve~
 COPY + ~bgt/title.tr~ ~bg1movie/intro15f.mve~ //safer than editing exe; exe changes should be avoided; while corrupt, this works and if it ain't broke don't fix it
 
 AT_NOW ~%quote%%WEIDU_EXECUTABLE%%quote% --noautoupdate --no-auto-tp2 --logapp --log bgt/bash.debug --game "%bg1_dir%" --out bg1movie --biff-get-rest beregost.mve bgenter.mve bgsunris.mve bgsunset.mve bhaal.mve camp.mve cndlkeep.mve dungeon.mve durlag.mve eldrcity.mve endcrdit.mve~
