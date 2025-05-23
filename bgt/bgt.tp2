@@ -12173,6 +12173,103 @@ arw502.are	%fort%	%fort%	%bl1%
 arw503.are	%fort%	%fort%	%bl1%
 arw504.are	%fort%	%fort%	%bl1%
 arw505.are	%fday%	%fnite%	%bf4%
+ar01pb.are	%fday%	%fnite%	%bf4% // NTotSC
+ar02pb.are	%dung1%	%dung1%	%bw1%
+ar10pb.are	%dung3%	%dung3%	47
+ar11pb.are	%dung1%	%dung1%	-1
+ar12pb.are	%dung1%	%dung1%	%bd5%
+ar20pb.are	%pday%	%pnite%	%bf4%
+ar25pb.are	-1	-1	%bp3%
+ar26pb.are	-1	-1	%bc4%
+ar30pb.are	%fday%	%fnite%	%bf4%
+ar32pb.are	%chants%	%chants%	%bp3%
+ar34pb.are	-1	-1	%bf3%
+ar35pb.are	%tday2%	%tday2%	%bd4%
+ar36pb.are	%tday1%	%tnite%	%bc3%
+ar37pb.are	%chants%	%chants%	%bc3%
+ar38pb.are	%tav6%	%tav6%	-1
+ar40pb.are	%fday%	%fnite%	%bf4%
+ar51pb.are	%dung1%	%dung1%	%bd4%
+ar52pb.are	%dung1%	%dung1%	-1
+ar53pb.are	%dung1%	%dung1%	-1
+ar60pb.are	%fday%	%fnite%	%bf4%
+ar61pb.are	%bgtheme%	%bgtheme%	%bw1%
+ar80pb.are	-1	-1	%bl2%
+ar81pb.are	%dung3%	%dung3%	%bd5%
+ar82pb.are	0	0	%bw1%
+ar90pb.are	0	0	%bc4%
+ar9305.are	%dung1%	%dung1%	48
+aro#02.are	0	0	50
+aro#03.are	0	0	50
+bh0200.are	%cday1%	%cnite%	%bc4% // bonehill
+bh0300.are	%cday2%	%cnite%	%bc4%
+bh0302.are	%chants%	%chants%	-1
+bh0400.are	%cday2%	%cnite%	%bc4%
+bh0402.are	%dung2%	%dung2%	%bp3%
+bh0500.are	%cday1%	%cnite%	%bf3%
+bh0505.are	63	63	%bf3%
+bh0506.are	62	62	%bf3%
+bh0600.are	%cday1%	%cnite%	54
+bh0700.are	%dung3%	%dung3%	50
+bh1000.are	%fort%	%fort%	54
+bh1004.are	%dung2%	%dung2%	%bd4%
+bh1100.are	77	77	%bc4%
+bh1101.are	%dung1%	%dung1%	%bp3%
+bh1200.are	%fday%	%fnite%	49
+bh1300.are	%pday%	%pnite%	51
+bh1302.are	%dung3%	%dung3%	%bp3%
+bh1400.are	%fday%	%fnite%	%bf4%
+bh2000.are	%cday2%	%cnite%	%bf3%
+bh2100.are	%fort%	%fort%	%bf3%
+bh2101.are	%dung2%	%dung2%	%bf3%
+bh2200.are	%fday%	%fnite%	%bf3%
+bh2201.are	%dung3%	%dung3%	57
+bh2202.are	%dung1%	%dung1%	57
+bh2300.are	%fday%	%fnite%	%bf4%
+bh2301.are	%dung2%	%dung2%	52
+bs0101.are	%chants%	%cnite%	48 // Seatower
+bs0102.are	%chants%	%cnite%	48
+bs0103.are	%cnite%	0	48
+bs0113.are	%dung1%	%dung1%	%bd4%
+bs0114.are	%dung2%	%dung2%	%bd4%
+bs0200.are	%dung2%	%dung2%	%bd5%
+bs1000.are	%cday1%	%cnite%	%bc4%
+c#thal.are	%dream%	%dream%	%dream% // BG1 RE
+dsc001.are	%fday%	%fnite%	%bf4% // DSotSC
+dsc002.are	%pday%	%pnite%	%bp3%
+dsc004.are	%pday%	%pnite%	%bp3%
+dsc006.are	%dung2%	%dung2%	58
+dsc007.are	%dung2%	%dung2%	%bd4%
+dsc009.are	%dung1%	%dung1%	%bd4%
+dsc010.are	%fort%	%fort%	%bf3%
+dsc011.are	%dung3%	%dung3%	%bd4%
+dsc012.are	%dung2%	%dung2%	%bd4%
+dsc013.are	%dung1%	%dung1%	%bd4%
+dsc014.are	%dung3%	%dung3%	%bd4%
+dsc015.are	%dung2%	%dung2%	%bd4%
+dsc016.are	%dung3%	%dung3%	%bd5%
+dsc017.are	%dung2%	%dung2%	%bf3%
+dsc018.are	%dung2%	%dung2%	%bp3%
+dsc019.are	%dung1%	%dung1%	%bd4%
+dsc020.are	%dung1%	%dung1%	%bp3%
+dsc021.are	%dung2%	%dung2%	%bd4%
+dsc022.are	%dung1%	%dung1%	%bd4%
+dsc023.are	%dung3%	%dung3%	%bd4%
+dsc024.are	%dung2%	%dung2%	%bf3%
+dsc025.are	%dung3%	%dung3%	%bd4%
+dsc026.are	%dung3%	%dung3%	%bd4%
+dsc027.are	-1	-1	%bd4%
+dsc028.are	%dung3%	%dung3%	%bc4%
+dsc029.are	%dung2%	%dung2%	%bd4%
+dsc030.are	%dung1%	%dung1%	%bd4%
+dsc031.are	%dung1%	%dung1%	%bd4%
+dsc032.are	%dung2%	%dung2%	%bp3%
+dsc034.are	%dung3%	%dung3%	%bd4%
+dsc035.are	%dung3%	%dung3%	%bp3%
+dsc036.are	%dung2%	%dung2%	%bd4%
+dsc037.are	%dung2%	%dung2%	%bd4%
+e_jar1.are	%dung1%	%dung1%	-1 // Jarl
+g3g12b.are	%dung2%	%dung2%	%bd4% // G3 anniv
 >>>>>>>>
 
 //PRINT ~Number of Songs: %num_songs%~
