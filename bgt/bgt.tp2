@@ -6993,21 +6993,27 @@ COPY_EXISTING ~ar6700.are~ ~override~
 BUT_ONLY
 
 // set Davaeorn's Glyph of Warding trap to detectable
-COPY_EXISTING ~ar8603.are~ ~override~ // Cloakwood Mines lvl 4
+COPY_EXISTING ~ar8603.are~ ~override~ // Cloakwood Mines L4
   LPF ALTER_AREA_REGION INT_VAR flag_trap_detectable = 1 STR_VAR region_name = ~trap 4~ END
 BUT_ONLY
 
+// change area type flag from outdoors to indoors
+COPY_EXISTING ~ar6512.are~ ~override~ // Candlekeep Library L5
+              ~ar6717.are~ ~override~ // Beregost house 17
+  WRITE_BYTE 0x48 (THIS & `BIT0) // indoors
+BUT_ONLY
+
 // set trapped containers to undetected
-COPY_EXISTING ~ar6736.are~ ~override~ // Beregost house
+COPY_EXISTING ~ar6736.are~ ~override~ // Beregost house 10 L2
               ~ard000.are~ ~override~ // Durlag's Tower
-              ~ard011.are~ ~override~ // Durlag's Tower lvl 1
-              ~ard012.are~ ~override~ // Durlag's Tower lvl 2
-              ~ard013.are~ ~override~ // Durlag's Tower lvl 3
-              ~ard014.are~ ~override~ // Durlag's Tower lvl 4
-              ~arw501.are~ ~override~ // Balduran's ship lvl 1
-              ~arw502.are~ ~override~ // Balduran's ship lvl 2
-              ~arw503.are~ ~override~ // Balduran's ship lvl 3
-              ~arw504.are~ ~override~ // Balduran's ship lvl 4
+              ~ard011.are~ ~override~ // Durlag's Tower L1
+              ~ard012.are~ ~override~ // Durlag's Tower L2
+              ~ard013.are~ ~override~ // Durlag's Tower L3
+              ~ard014.are~ ~override~ // Durlag's Tower L4
+              ~arw501.are~ ~override~ // Balduran's ship L1
+              ~arw502.are~ ~override~ // Balduran's ship L2
+              ~arw503.are~ ~override~ // Balduran's ship L3
+              ~arw504.are~ ~override~ // Balduran's ship L4
   READ_LONG  0x70 con_off
   READ_SHORT 0x74 con_cnt
   FOR (i = 0; i < con_cnt; i += 1) BEGIN
@@ -7020,7 +7026,7 @@ COPY_EXISTING ~ar6736.are~ ~override~ // Beregost house
 BUT_ONLY
 
 // set trapped regions to undetected
-COPY_EXISTING ~ard012.are~ ~override~ // Durlag's Tower lvl 2
+COPY_EXISTING ~ard012.are~ ~override~ // Durlag's Tower L2
   READ_SHORT 0x5a reg_cnt
   READ_LONG  0x5c reg_off
   FOR (i = 0; i < reg_cnt; i += 1) BEGIN
